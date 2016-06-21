@@ -44,7 +44,8 @@
 	"koodimonni-language/en_gb": "*",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-	"wp-cli/wp-cli": "*"
+	"wp-cli/wp-cli": "*",
+    "wpackagist-plugin/akismet": "^3.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
