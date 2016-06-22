@@ -79,6 +79,7 @@
     "wpackagist-plugin/wp-postviews": "^1.70",
     "wpackagist-plugin/wordpress-seo": "^3.3.0",
     "wpackagist-plugin/go-live-update-urls": "^4.0.0",
+    "wpackagist-plugin/comet-cache": "^160417",
     "alxmedia/slanted": "1.0.0"
   },
   "require-dev": {

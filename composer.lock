@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "23332e6bef6f7bba34107aba79a7fa62",
-    "content-hash": "1ef75db19a268f31b3348b25648fb9ad",
+    "hash": "cdf894d8ebaebb544d104e7b509bd617",
+    "content-hash": "137e266720ecb16f61ad1ca14ccd1424",
     "packages": [
         {
             "name": "alxmedia/slanted",
@@ -2234,6 +2234,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/akismet/"
+        },
+        {
+            "name": "wpackagist-plugin/comet-cache",
+            "version": 160417,
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/comet-cache/",
+                "reference": "tags/160417"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/comet-cache.160417.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/comet-cache/"
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
