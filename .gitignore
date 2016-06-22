@@ -14,6 +14,8 @@ web/app/languages/themes/*
 web/app/languages/plugins/*
 !web/app/languages/plugins/.gitkeep
 
+web/app/themes/slanted
+
 # WordPress
 web/wp
 web/.htaccess

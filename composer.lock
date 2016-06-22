@@ -4,9 +4,19 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d096a86ed0ab3adc571c77b31f362f02",
-    "content-hash": "5649035f9e2e828f3c0ba4d4c77f42e4",
+    "hash": "7f530b7cf5abf23a6157f46bbb04248e",
+    "content-hash": "6c0e6fd5bea327c048bb5353d121b173",
     "packages": [
+        {
+            "name": "alxmedia/slanted",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AlxMedia/slanted.git",
+                "reference": "master"
+            },
+            "type": "wordpress-theme"
+        },
         {
             "name": "composer/ca-bundle",
             "version": "1.0.2",

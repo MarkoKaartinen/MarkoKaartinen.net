@@ -32,20 +32,34 @@
   	{
       "type": "vcs",
       "url": "git@github.com:Koodimonni/Composer-Dropin-Installer.git"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "alxmedia/slanted",
+        "version": "1.0.0",
+        "type": "wordpress-theme",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/AlxMedia/slanted.git",
+          "reference": "master"
+        }
+      }
     }
   ],
   "require": {
-	"koodimonni/composer-dropin-installer": "*",
+    "koodimonni/composer-dropin-installer": "*",
     "php": ">=5.5",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.5.2",
-	"koodimonni-language/fi": "*",
-	"koodimonni-language/en_gb": "*",
+    "koodimonni-language/fi": "*",
+    "koodimonni-language/en_gb": "*",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-	"wp-cli/wp-cli": "*",
-    "wpackagist-plugin/akismet": "^3.1"
+    "wp-cli/wp-cli": "*",
+    "wpackagist-plugin/akismet": "^3.1",
+    "alxmedia/slanted": "1.0.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
