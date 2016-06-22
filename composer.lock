@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ddcd5839209616349406e160622e2ca6",
-    "content-hash": "b9588daba7f9a56e159ae08fe688e089",
+    "hash": "23332e6bef6f7bba34107aba79a7fa62",
+    "content-hash": "1ef75db19a268f31b3348b25648fb9ad",
     "packages": [
         {
             "name": "alxmedia/slanted",
@@ -2334,6 +2334,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/fluid-video-embeds/"
+        },
+        {
+            "name": "wpackagist-plugin/go-live-update-urls",
+            "version": "4.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/go-live-update-urls/",
+                "reference": "tags/4.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/go-live-update-urls.4.0.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/go-live-update-urls/"
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
