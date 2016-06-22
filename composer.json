@@ -64,7 +64,6 @@
     "wpackagist-plugin/display-widgets": "^2.05",
     "wpackagist-plugin/easy-add-thumbnail": "^1.1",
     "wpackagist-plugin/eu-cookie-law": "^2.9.0",
-    "wpackagist-plugin/fluid-video-embeds": "^1.2.0",
     "wpackagist-plugin/google-analytics-for-wordpress": "^5.5",
     "wpackagist-plugin/jetpack": "^4.0.0",
     "wpackagist-plugin/organize-series": "^2.5.0",
@@ -80,6 +79,7 @@
     "wpackagist-plugin/wordpress-seo": "^3.3.0",
     "wpackagist-plugin/go-live-update-urls": "^4.0.0",
     "wpackagist-plugin/comet-cache": "^160417",
+    "wpackagist-plugin/wp-mail-smtp": "^0.9.6",
     "alxmedia/slanted": "1.0.0"
   },
   "require-dev": {

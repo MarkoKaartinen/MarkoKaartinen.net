@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cdf894d8ebaebb544d104e7b509bd617",
-    "content-hash": "137e266720ecb16f61ad1ca14ccd1424",
+    "hash": "99086b46d9340adc2b4ab951a5077890",
+    "content-hash": "2ffa53b8c86c4bcaa2b7ca8cd95b1495",
     "packages": [
         {
             "name": "alxmedia/slanted",
@@ -2336,26 +2336,6 @@
             "homepage": "https://wordpress.org/plugins/eu-cookie-law/"
         },
         {
-            "name": "wpackagist-plugin/fluid-video-embeds",
-            "version": "1.2.9",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/fluid-video-embeds/",
-                "reference": "tags/1.2.9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/fluid-video-embeds.1.2.9.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/fluid-video-embeds/"
-        },
-        {
             "name": "wpackagist-plugin/go-live-update-urls",
             "version": "4.0.1",
             "source": {
@@ -2614,6 +2594,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-geshi-highlight/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-mail-smtp",
+            "version": "0.9.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
+                "reference": "tags/0.9.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.0.9.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-mail-smtp/"
         },
         {
             "name": "wpackagist-plugin/wp-pagenavi",
