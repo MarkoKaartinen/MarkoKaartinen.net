@@ -1,0 +1,41 @@
+/*
+ Theme Name:   Slanted Marko
+ Theme URI:    http://markokaartinen.net
+ Description:  MarkoKaartinen.net Slanted Marko theme
+ Author:       Marko Kaartinen
+ Author URI:   http://markokaartinen.net
+ Template:     slanted
+ Version:      1.0.0
+ Text Domain:  slanted
+*/
+
+.entry a {
+	color:#0066ff !important;
+}
+
+.entry.excerpt, .entry p {
+	color:#000;
+}
+
+#jakonapit {
+	margin-top:-20px;
+	margin-bottom: 20px;
+}
+ 
+.somenappi {
+	font-size: 25px;
+	line-height: 50px;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	display: inline-block;
+	background:#404040;
+	margin-right: 10px;
+	color: #FFF;
+}
+ 
+.somenappi:hover {
+	background:#000;
+	color:#FFF;
+	text-decoration: none;
+}
