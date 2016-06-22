@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "778f4184a4d9021b95b74dc4b0671e44",
-    "content-hash": "67589e7135b91133c955ec591e71f5fd",
+    "hash": "ddcd5839209616349406e160622e2ca6",
+    "content-hash": "b9588daba7f9a56e159ae08fe688e089",
     "packages": [
         {
             "name": "alxmedia/slanted",
@@ -525,10 +525,10 @@
         },
         {
             "name": "koodimonni-language/en_gb",
-            "version": "4.5.2",
+            "version": "4.5.3",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/4.5.2/en_GB.zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.5.3/en_GB.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -2234,26 +2234,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/akismet/"
-        },
-        {
-            "name": "wpackagist-plugin/comet-cache",
-            "version": 160521,
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/comet-cache/",
-                "reference": "tags/160521"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/comet-cache.160521.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/comet-cache/"
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
