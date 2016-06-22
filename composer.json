@@ -60,7 +60,6 @@
     "wp-cli/wp-cli": "*",
     "wpackagist-plugin/akismet": "^3.1",
     "wpackagist-plugin/powerpress": "^7.0",
-    "wpackagist-plugin/comet-cache": "^160521",
     "wpackagist-plugin/contact-form-7": "^4.4",
     "wpackagist-plugin/display-widgets": "^2.05",
     "wpackagist-plugin/easy-add-thumbnail": "^1.1",
