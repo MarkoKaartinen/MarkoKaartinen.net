@@ -45,6 +45,19 @@
           "reference": "master"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "koodimonni-plugin-language/jetpack-fi",
+        "type": "wordpress-language",
+        "version": "4.0.4",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/translation/plugin/jetpack/4.0.4/fi.zip",
+          "reference": "master"
+        }
+      }
     }
   ],
   "require": {
@@ -80,7 +93,8 @@
     "wpackagist-plugin/go-live-update-urls": "^4.0.0",
     "wpackagist-plugin/comet-cache": "^160417",
     "wpackagist-plugin/wp-mail-smtp": "^0.9.6",
-    "alxmedia/slanted": "1.0.0"
+    "alxmedia/slanted": "1.0.0",
+    "koodimonni-plugin-language/jetpack-fi": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"

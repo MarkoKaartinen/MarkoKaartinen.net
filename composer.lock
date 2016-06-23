@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "99086b46d9340adc2b4ab951a5077890",
-    "content-hash": "2ffa53b8c86c4bcaa2b7ca8cd95b1495",
+    "hash": "ce608b6bb391e9edc110e7f0e1ed3be4",
+    "content-hash": "9918ce16a0826f4bdb5d19d094e6680e",
     "packages": [
         {
             "name": "alxmedia/slanted",
@@ -670,6 +670,17 @@
                 "bbpress",
                 "fi"
             ]
+        },
+        {
+            "name": "koodimonni-plugin-language/jetpack-fi",
+            "version": "4.0.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/jetpack/4.0.4/fi.zip",
+                "reference": "master",
+                "shasum": null
+            },
+            "type": "wordpress-language"
         },
         {
             "name": "koodimonni-plugin-language/woocommerce-en_gb",
