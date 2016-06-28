@@ -74,16 +74,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "b2cf67b1a575d7e648c742be2454339232ef32b2"
+                "reference": "30ab6f1c1753267d181839142fafe022313c3c9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/b2cf67b1a575d7e648c742be2454339232ef32b2",
-                "reference": "b2cf67b1a575d7e648c742be2454339232ef32b2",
+                "url": "https://api.github.com/repos/composer/composer/zipball/30ab6f1c1753267d181839142fafe022313c3c9a",
+                "reference": "30ab6f1c1753267d181839142fafe022313c3c9a",
                 "shasum": ""
             },
             "require": {
@@ -147,7 +147,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2016-05-31 18:48:12"
+            "time": "2016-06-26 14:42:08"
         },
         {
             "name": "composer/installers",
@@ -556,10 +556,10 @@
         },
         {
             "name": "koodimonni-language/fi",
-            "version": "4.5.2",
+            "version": "4.5.3",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/4.5.2/fi.zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.5.3/fi.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -2639,15 +2639,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-pagenavi",
-            "version": "2.90",
+            "version": "2.91",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-pagenavi/",
-                "reference": "tags/2.90"
+                "reference": "tags/2.91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-pagenavi.2.90.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-pagenavi.2.91.zip",
                 "reference": null,
                 "shasum": null
             },
