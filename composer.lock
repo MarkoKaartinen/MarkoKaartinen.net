@@ -4,18 +4,18 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "efd03c0020b864a6bad4175a69b07395",
-    "content-hash": "aacf76f465dc37bd413fd0da600d26da",
+    "hash": "5797387ec3448e5900f2a6d1db982203",
+    "content-hash": "777c7a7cae65c29d6a18509cf3bb0d6c",
     "packages": [
         {
             "name": "alxmedia/slanted",
-            "version": "1.0.0",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/AlxMedia/slanted.git",
                 "reference": "master"
             },
-            "type": "wordpress-theme"
+            "type": "library"
         },
         {
             "name": "composer/ca-bundle",
@@ -2120,6 +2120,17 @@
                 "environment"
             ],
             "time": "2016-06-14 14:14:52"
+        },
+        {
+            "name": "wordpress/dyad",
+            "version": "1.0.10",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/dyad.1.0.10.zip",
+                "reference": "master",
+                "shasum": null
+            },
+            "type": "wordpress-theme"
         },
         {
             "name": "wp-cli/php-cli-tools",

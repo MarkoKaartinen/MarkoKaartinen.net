@@ -15,6 +15,7 @@ web/app/languages/plugins/*
 !web/app/languages/plugins/.gitkeep
 
 web/app/themes/slanted
+web/app/themes/dyad
 
 # WordPress
 web/wp

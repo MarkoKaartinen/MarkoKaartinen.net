@@ -59,6 +59,19 @@
         }
       }
     },
+	{
+      "type": "package",
+      "package": {
+        "name": "wordpress/dyad",
+        "type": "wordpress-theme",
+        "version": "1.0.10",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/theme/dyad.1.0.10.zip",
+          "reference": "master"
+        }
+      }
+    },
     {
       "type": "package",
       "package": {
@@ -108,7 +121,8 @@
     "wpackagist-plugin/wp-mail-smtp": "^0.9.6",
     "alxmedia/slanted": "1.0.0",
     "koodimonni-plugin-language/jetpack-fi": "*",
-    "koodimonni-plugin-language/contact-form-7-fi": "*"
+	"koodimonni-plugin-language/contact-form-7-fi": "*",
+	"wordpress/dyad": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
