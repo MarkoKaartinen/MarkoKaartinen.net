@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "04eb8c4199612c9f1ee36c81f7b823bb",
-    "content-hash": "777c7a7cae65c29d6a18509cf3bb0d6c",
+    "hash": "6da4b596a0d129659579d242da28e342",
+    "content-hash": "02b5ce343913df2cba6a54964a022875",
     "packages": [
         {
             "name": "alxmedia/slanted",
@@ -697,10 +697,10 @@
         },
         {
             "name": "koodimonni-plugin-language/woocommerce-en_gb",
-            "version": "2.6.2",
+            "version": "2.6.3",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/2.6.2/en_GB.zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/2.6.3/en_GB.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -718,10 +718,10 @@
         },
         {
             "name": "koodimonni-plugin-language/woocommerce-fi",
-            "version": "2.6.2",
+            "version": "2.6.3",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/2.6.2/fi.zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/woocommerce/2.6.3/fi.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -2331,6 +2331,26 @@
             "homepage": "https://wordpress.org/plugins/display-widgets/"
         },
         {
+            "name": "wpackagist-plugin/disqus-comment-system",
+            "version": "2.85",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/disqus-comment-system/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disqus-comment-system.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disqus-comment-system/"
+        },
+        {
             "name": "wpackagist-plugin/easy-add-thumbnail",
             "version": "1.1.1",
             "source": {
@@ -2452,15 +2472,15 @@
         },
         {
             "name": "wpackagist-plugin/powerpress",
-            "version": "7.0.1",
+            "version": "7.0.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/powerpress/",
-                "reference": "tags/7.0.1"
+                "reference": "tags/7.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/powerpress.7.0.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/powerpress.7.0.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -2592,15 +2612,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "3.3.4",
+            "version": "3.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/3.3.4"
+                "reference": "tags/3.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.3.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.4.zip",
                 "reference": null,
                 "shasum": null
             },

@@ -122,6 +122,7 @@
     "alxmedia/slanted": "1.0.0",
     "koodimonni-plugin-language/jetpack-fi": "*",
 	"koodimonni-plugin-language/contact-form-7-fi": "*",
+	"wpackagist-plugin/disqus-comment-system": "^2.85",
 	"wordpress/dyad": "*"
   },
   "require-dev": {
