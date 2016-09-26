@@ -11,6 +11,7 @@ web/app/languages/*
 web/app/languages/themes/*
 !web/app/languages/themes/.gitkeep
 !web/app/languages/themes/dyad*
+!web/app/languages/themes/briar*
 !web/app/languages/plugins
 web/app/languages/plugins/*
 !web/app/languages/plugins/.gitkeep
