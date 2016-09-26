@@ -17,6 +17,7 @@ web/app/languages/plugins/*
 
 web/app/themes/slanted
 web/app/themes/dyad
+web/app/themes/briar
 
 # WordPress
 web/wp

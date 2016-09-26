@@ -4,18 +4,18 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "600a96d6fda37c9b91b03c7f9d407b81",
-    "content-hash": "8ae995bb26ca7b72d0e30e2b4a46e696",
+    "hash": "4edb63af7430de8772ba72f53b485f31",
+    "content-hash": "0678d0d334870bcaccd3fe9a0a73ebeb",
     "packages": [
         {
             "name": "alxmedia/slanted",
-            "version": "1.0.0",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/AlxMedia/slanted.git",
                 "reference": "master"
             },
-            "type": "wordpress-theme"
+            "type": "library"
         },
         {
             "name": "composer/ca-bundle",
@@ -2165,6 +2165,17 @@
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
             "time": "2016-09-02 01:57:56"
+        },
+        {
+            "name": "themejack/briar",
+            "version": "1.1.9",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/themejack/briar/archive/master.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-theme"
         },
         {
             "name": "vlucas/phpdotenv",
