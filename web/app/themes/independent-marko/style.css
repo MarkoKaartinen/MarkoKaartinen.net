@@ -65,3 +65,15 @@ blockquote cite:before {
 content: "\2014 \0020";
 }
 */
+
+.entry-content > .sharedaddy, .entry-summary > .sharedaddy {
+	margin:10px 0;
+}
+
+.sd-content ul {
+	margin:0;
+}
+
+div.sharedaddy div.sd-block {
+	padding-top: 0;
+}
