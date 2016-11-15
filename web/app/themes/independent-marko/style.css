@@ -77,3 +77,7 @@ content: "\2014 \0020";
 div.sharedaddy div.sd-block {
 	padding-top: 0 !important;
 }
+
+div.sharedaddy .sd-content {
+	float:left !important;
+}
