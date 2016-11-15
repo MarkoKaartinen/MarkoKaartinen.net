@@ -72,6 +72,19 @@
         }
       }
     },
+    {
+      "type": "package",
+      "package": {
+        "name": "raamdev/independent-publisher",
+        "type": "wordpress-theme",
+        "version": "1.7",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/raamdev/independent-publisher/archive/master.zip",
+          "reference": "master"
+        }
+      }
+    },
 	{
 	  "type": "package",
 	  "package": {
@@ -130,14 +143,15 @@
     "wpackagist-plugin/wp-postviews": "^1.70",
     "wpackagist-plugin/wordpress-seo": "^3.3.0",
     "wpackagist-plugin/go-live-update-urls": "^4.0.0",
-    "wpackagist-plugin/comet-cache": "^160417",
+    "wpackagist-plugin/comet-cache": "160917",
     "wpackagist-plugin/wp-mail-smtp": "^0.9.6",
     "alxmedia/slanted": "1.0.0",
     "koodimonni-plugin-language/jetpack-fi": "*",
 	"koodimonni-plugin-language/contact-form-7-fi": "*",
 	"wpackagist-plugin/disqus-comment-system": "^2.85",
 	"wordpress/dyad": "*",
-	"themejack/briar": "*"
+	"themejack/briar": "*",
+  "raamdev/independent-publisher": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"

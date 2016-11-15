@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6af847dd8eabd7e2a6416b39d2f41b2a",
-    "content-hash": "0678d0d334870bcaccd3fe9a0a73ebeb",
+    "hash": "9dd37acb698487fbd71a615951a1514a",
+    "content-hash": "b016d3e2bbf7196b5b85e8a370ca86df",
     "packages": [
         {
             "name": "alxmedia/slanted",
@@ -1327,6 +1327,17 @@
             "time": "2016-10-10 12:19:37"
         },
         {
+            "name": "raamdev/independent-publisher",
+            "version": "1.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/raamdev/independent-publisher/archive/master.zip",
+                "reference": "master",
+                "shasum": null
+            },
+            "type": "wordpress-theme"
+        },
+        {
             "name": "ramsey/array_column",
             "version": "1.1.3",
             "source": {
@@ -1527,16 +1538,16 @@
         },
         {
             "name": "seld/jsonlint",
-            "version": "1.4.1",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/jsonlint.git",
-                "reference": "e827b5254d3e58c736ea2c5616710983d80b0b70"
+                "reference": "19495c181d6d53a0a13414154e52817e3b504189"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/e827b5254d3e58c736ea2c5616710983d80b0b70",
-                "reference": "e827b5254d3e58c736ea2c5616710983d80b0b70",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/19495c181d6d53a0a13414154e52817e3b504189",
+                "reference": "19495c181d6d53a0a13414154e52817e3b504189",
                 "shasum": ""
             },
             "require": {
@@ -1569,7 +1580,7 @@
                 "parser",
                 "validator"
             ],
-            "time": "2016-09-14 15:17:56"
+            "time": "2016-11-14 17:59:58"
         },
         {
             "name": "seld/phar-utils",
@@ -2009,16 +2020,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "dff51f72b0706335131b00a7f49606168c582594"
+                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/dff51f72b0706335131b00a7f49606168c582594",
-                "reference": "dff51f72b0706335131b00a7f49606168c582594",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/e79d363049d1c2128f133a2667e4f4190904f7f4",
+                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4",
                 "shasum": ""
             },
             "require": {
@@ -2030,7 +2041,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -2064,7 +2075,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-05-18 14:26:46"
+            "time": "2016-11-14 01:06:16"
         },
         {
             "name": "symfony/process",
@@ -2439,15 +2450,15 @@
         },
         {
             "name": "wpackagist-plugin/comet-cache",
-            "version": 160417,
+            "version": 160917,
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/comet-cache/",
-                "reference": "tags/160417"
+                "reference": "tags/160917"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/comet-cache.160417.zip",
+                "url": "https://downloads.wordpress.org/plugin/comet-cache.160917.zip",
                 "reference": null,
                 "shasum": null
             },
