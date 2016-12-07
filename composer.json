@@ -151,7 +151,10 @@
 	"wpackagist-plugin/disqus-comment-system": "^2.85",
 	"wordpress/dyad": "*",
 	"themejack/briar": "*",
-  "raamdev/independent-publisher": "*"
+  "raamdev/independent-publisher": "*",
+    "wpackagist-plugin/wp-sanitize-accented-uploads": "*",
+    "wpackagist-plugin/simple-history": "*",
+    "wpackagist-plugin/autoptimize": "^2.1.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
