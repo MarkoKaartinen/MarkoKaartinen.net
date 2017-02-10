@@ -2655,15 +2655,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "4.5",
+            "version": "4.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/4.5"
+                "reference": "tags/4.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.4.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.4.6.zip",
                 "reference": null,
                 "shasum": null
             },
