@@ -1,0 +1,66 @@
+{{ define "main" }}
+{{- $m := site.Params.mastodon -}}
+
+<section class="mb-14">
+  <h1 class="font-mono font-bold text-4xl sm:text-5xl leading-tight">
+    <span class="text-mauve">M</span>arko<span class="text-mauve">K</span>aartinen.net<span class="cursor" aria-hidden="true"></span>
+  </h1>
+  <p class="mt-5 font-mono text-sm" aria-hidden="true">{{ partial "prompt.html" (dict "path" "~" "cmd" "cat tervetuloa.md") }}</p>
+  {{- with .Content }}
+  <div class="sisalto mt-3 max-w-2xl">{{ . }}</div>
+  {{- end }}
+  <ul class="mt-6 flex flex-wrap gap-3">
+    {{- range site.Params.social }}
+    <li>
+      <a href="{{ .url }}" {{ with .rel }}rel="{{ . }}"{{ end }} class="inline-flex items-center gap-2 rounded border border-surface1 bg-mantle px-3 py-1.5 font-mono text-sm text-subtext1 hover:border-mauve hover:text-mauve">
+        {{ partial "icon.html" (dict "name" .icon "class" "size-4") }}
+        {{- if eq .name "Mastodon" }}<span>{{ $m.handle }}</span>{{ else }}<span>{{ .name }}</span>{{ end }}
+      </a>
+    </li>
+    {{- end }}
+  </ul>
+</section>
+
+{{- $articles := where site.RegularPages "Type" "artikkeli" -}}
+<section class="mb-14">
+  <h2 class="sr-only">Blogissa</h2>
+  <p class="mb-6 text-sm" aria-hidden="true">{{ partial "prompt.html" (dict "path" "~/blogi" "cmd" "git log --graph -4") }}</p>
+  <ol class="ml-2 border-l-2 border-surface1 space-y-9">
+    {{- range first 4 $articles }}
+      {{ partial "commit-row.html" . }}
+    {{- end }}
+  </ol>
+  <p class="mt-8 font-mono text-sm"><a href="{{ "/blogi" | relURL }}" class="inline-flex items-center gap-1 text-blue hover:text-sapphire">Kaikki artikkelit {{ partial "icon.html" (dict "name" "lucide/arrow-right" "class" "size-4") }}</a></p>
+</section>
+
+<section class="mb-14">
+  <h2 class="sr-only">Mastodonissa</h2>
+  <p class="mb-6 text-sm" aria-hidden="true">{{ partial "prompt.html" (dict "path" "~" "cmd" (printf "tail -n %d mastodon.log" ($m.limit | default 6))) }}</p>
+  {{ partial "mastodon-feed.html" . }}
+  <p class="mt-2 font-mono text-sm"><a href="{{ $m.profile }}" rel="me" class="inline-flex items-center gap-1.5 text-blue hover:text-sapphire">{{ partial "icon.html" (dict "name" "simple/mastodon" "class" "size-4") }}Seuraa Mastodonissa {{ partial "icon.html" (dict "name" "lucide/arrow-right" "class" "size-4") }}</a></p>
+</section>
+
+{{- with site.GetPage "/reseptit" }}
+  {{- with .Pages }}
+<section class="mb-14">
+  <h2 class="sr-only">Resepteistä</h2>
+  <p class="mb-6 text-sm" aria-hidden="true">{{ partial "prompt.html" (dict "path" "~/reseptit" "cmd" "ls -t | head -3") }}</p>
+  <ul class="grid gap-4 sm:grid-cols-3">
+    {{- range first 3 .ByDate.Reverse }}
+    <li class="rounded border border-surface1 bg-mantle p-4">
+      <a href="{{ .RelPermalink }}" class="font-mono font-bold hover:text-mauve">{{ .Title }}</a>
+      {{- with .Description }}<p class="mt-2 text-sm text-subtext1 line-clamp-3">{{ . }}</p>{{ end }}
+    </li>
+    {{- end }}
+  </ul>
+</section>
+  {{- end }}
+{{- end }}
+
+<section>
+  <h2 class="sr-only">Kävijälaskuri</h2>
+  <p class="mb-4 text-sm" aria-hidden="true">{{ partial "prompt.html" (dict "path" "/proc" "cmd" "cat visitors") }}</p>
+  {{ partial "visitors.html" (dict "size" "lg") }}
+  <p class="mt-2 font-mono text-xs text-overlay1">kävijää yhteensä</p>
+</section>
+{{ end }}

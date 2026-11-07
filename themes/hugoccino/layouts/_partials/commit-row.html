@@ -1,0 +1,13 @@
+{{- /* Artikkeli git log -tyylisenä: kuvake, päivä, otsikko, kuvaus */ -}}
+<li class="relative pl-7">
+  <span class="absolute -left-[0.7rem] top-0 bg-base py-0.5 text-mauve">{{ partial "icon.html" (dict "name" "lucide/git-commit-horizontal" "class" "size-5") }}</span>
+  <div class="flex flex-wrap items-center gap-x-3 font-mono text-xs text-overlay1">
+    <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2.1.2006 klo 15:04" }}</time>
+    {{- with index (.GetTerms "categories") 0 }}<span class="text-peach">{{ .LinkTitle }}</span>{{ end }}
+  </div>
+  <h3 class="mt-1 font-mono font-bold text-lg leading-snug"><a href="{{ .RelPermalink }}" class="hover:text-mauve">{{ .Title }}</a></h3>
+  {{- with .Description }}
+  <p class="mt-1 text-subtext1 line-clamp-3">{{ . }}</p>
+  {{- end }}
+  <a href="{{ .RelPermalink }}" class="mt-2 inline-flex items-center gap-1 font-mono text-sm text-blue hover:text-sapphire">Lue lisää {{ partial "icon.html" (dict "name" "lucide/arrow-right" "class" "size-4") }}</a>
+</li>

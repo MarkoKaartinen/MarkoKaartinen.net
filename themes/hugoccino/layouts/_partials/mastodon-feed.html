@@ -1,0 +1,13 @@
+{{- $m := site.Params.mastodon -}}
+<div id="mastodon-feed" data-instance="{{ $m.instance }}" data-account="{{ $m.account }}" data-limit="{{ $m.limit | default 6 }}">
+  <p data-status class="font-mono text-sm text-overlay1">Ladataan Mastodon-viestejä…</p>
+  <div data-list class="masto-list"></div>
+  <noscript>
+    <p class="font-mono text-sm text-subtext0">Syöte vaatii JavaScriptin. Viestit löytyvät osoitteesta <a href="{{ $m.profile }}" rel="me" class="text-blue hover:text-sapphire">{{ $m.handle }}</a>.</p>
+  </noscript>
+</div>
+{{- with resources.Get "js/mastodon.js" }}
+  {{- with . | fingerprint }}
+<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+  {{- end }}
+{{- end }}
