@@ -1,0 +1,12 @@
+{{ define "main" }}
+<article class="max-w-3xl mx-auto" data-search-autoopen>
+  <h1 class="font-mono font-bold text-3xl mb-6"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
+  <div class="sisalto">{{ .Content }}</div>
+  <p class="mt-6">
+    <button type="button" data-search-open class="inline-flex items-center gap-3 rounded border border-surface1 bg-mantle px-4 py-2 font-mono text-sm text-subtext1 hover:border-mauve hover:text-mauve">
+      {{ partial "icon.html" (dict "name" "lucide/search" "class" "size-4") }} Avaa haku <kbd class="kbd">/</kbd>
+    </button>
+  </p>
+  <noscript><p class="mt-4 font-mono text-sm text-subtext0">Haku vaatii JavaScriptin. Selaa artikkeleita <a href="{{ "/blogi" | relURL }}" class="text-blue">blogin arkistosta</a>.</p></noscript>
+</article>
+{{ end }}

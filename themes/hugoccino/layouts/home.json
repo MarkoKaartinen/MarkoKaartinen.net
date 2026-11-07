@@ -1,0 +1,8 @@
+{{- /* Hakuindeksi paletille: otsikko, osoite, kuvaus, tagit, vuosi. Uusimmat ensin. */ -}}
+{{- $items := slice -}}
+{{- range sort site.RegularPages "Date" "desc" -}}
+  {{- $tags := slice -}}
+  {{- range .GetTerms "tags" }}{{ $tags = $tags | append .LinkTitle }}{{ end -}}
+  {{- $items = $items | append (dict "t" .Title "u" .RelPermalink "d" (.Description | default "") "g" $tags "y" (cond .Date.IsZero "sivu" (.Date.Format "2006"))) -}}
+{{- end -}}
+{{- $items | jsonify -}}

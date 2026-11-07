@@ -1,0 +1,32 @@
+{{- /* Komentopaletti (haku) ja oikotieohje. Avautuu näppäimellä / tai Ctrl/Cmd+K, ohje näppäimellä ? */ -}}
+<dialog id="palette" class="palette" data-index="{{ "index.json" | relURL }}" aria-label="Haku ja komennot">
+  <div class="palette-bar">
+    <span class="text-green" aria-hidden="true">$</span>
+    <input type="text" data-input class="palette-input" placeholder="hae artikkeleita, #tagi tai >komento" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Haku" role="combobox" aria-expanded="true" aria-controls="palette-results">
+  </div>
+  <ul id="palette-results" data-results role="listbox" class="palette-results"></ul>
+  <div class="palette-hints" aria-hidden="true">
+    <span><kbd class="kbd">↑</kbd> <kbd class="kbd">↓</kbd> valitse</span>
+    <span><kbd class="kbd">↵</kbd> avaa</span>
+    <span><kbd class="kbd">esc</kbd> sulje</span>
+    <span><kbd class="kbd">&gt;</kbd> komennot</span>
+    <span><kbd class="kbd">#</kbd> tagit</span>
+  </div>
+</dialog>
+
+<dialog id="shortcuts" class="palette" aria-label="Näppäinoikotiet">
+  <div class="palette-bar"><span class="text-green" aria-hidden="true">$</span><span class="font-bold">man hugoccino</span></div>
+  <dl class="shortcut-list">
+    <div><dt><kbd class="kbd">/</kbd> tai <kbd class="kbd">Ctrl</kbd> <kbd class="kbd">K</kbd></dt><dd>haku ja komennot</dd></div>
+    <div><dt><kbd class="kbd">t</kbd></dt><dd>vaihda teema</dd></div>
+    <div><dt><kbd class="kbd">g</kbd> <kbd class="kbd">h</kbd></dt><dd>etusivu</dd></div>
+    <div><dt><kbd class="kbd">g</kbd> <kbd class="kbd">b</kbd></dt><dd>blogi</dd></div>
+    <div><dt><kbd class="kbd">g</kbd> <kbd class="kbd">r</kbd></dt><dd>reseptit</dd></div>
+    <div><dt><kbd class="kbd">g</kbd> <kbd class="kbd">v</kbd></dt><dd>vieraskirja</dd></div>
+    <div><dt><kbd class="kbd">g</kbd> <kbd class="kbd">l</kbd></dt><dd>linkit</dd></div>
+    <div><dt><kbd class="kbd">g</kbd> <kbd class="kbd">t</kbd></dt><dd>tietoa</dd></div>
+    <div><dt><kbd class="kbd">g</kbd> <kbd class="kbd">n</kbd></dt><dd>nyt</dd></div>
+    <div><dt><kbd class="kbd">?</kbd></dt><dd>tämä ohje</dd></div>
+    <div><dt><kbd class="kbd">esc</kbd></dt><dd>sulje</dd></div>
+  </dl>
+</dialog>
