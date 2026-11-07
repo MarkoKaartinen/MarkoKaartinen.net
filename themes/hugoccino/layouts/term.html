@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{- $pages := .Pages -}}
+{{- if eq .Data.Plural "series" }}{{ $pages = .Pages.ByDate }}{{ end }}
+<h1 class="font-mono font-bold text-3xl mb-2"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
+<p class="mb-8 font-mono text-sm text-overlay1">{{ len $pages }} artikkelia</p>
+{{- with .Content }}<div class="sisalto mb-10">{{ . }}</div>{{ end }}
+<ul class="divide-y divide-surface0">
+  {{- range $pages }}
+    {{ partial "article-row.html" . }}
+  {{- end }}
+</ul>
+{{ end }}

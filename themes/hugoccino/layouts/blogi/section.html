@@ -1,0 +1,16 @@
+{{ define "main" }}
+<h1 class="font-mono font-bold text-3xl mb-8"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
+{{- with .Content }}<div class="sisalto mb-10">{{ . }}</div>{{ end }}
+
+{{- $articles := where site.RegularPages "Type" "artikkeli" -}}
+{{- range $articles.GroupByDate "2006" "desc" }}
+<section class="mb-10">
+  <h2 class="font-mono font-bold text-xl mb-3"><span class="text-overlay0 select-none">## </span>{{ .Key }} <span class="text-sm font-normal text-overlay1">({{ len .Pages }})</span></h2>
+  <ul class="divide-y divide-surface0">
+    {{- range .Pages }}
+      {{ partial "article-row.html" . }}
+    {{- end }}
+  </ul>
+</section>
+{{- end }}
+{{ end }}

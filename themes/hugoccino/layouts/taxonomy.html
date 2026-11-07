@@ -1,0 +1,11 @@
+{{ define "main" }}
+<h1 class="font-mono font-bold text-3xl mb-8"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
+<ul class="flex flex-wrap gap-x-5 gap-y-2 font-mono text-sm">
+  {{- range .Data.Terms.Alphabetical }}
+  <li>
+    <a href="{{ .Page.RelPermalink }}" class="text-teal hover:text-sky">{{ .Page.LinkTitle }}</a>
+    <span class="text-overlay1">{{ .Count }}</span>
+  </li>
+  {{- end }}
+</ul>
+{{ end }}
