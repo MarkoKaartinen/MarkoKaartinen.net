@@ -1,0 +1,46 @@
+{{- $m := site.Params.mastodon -}}
+{{- $built := now -}}
+<footer class="mt-12 border-t border-surface0 bg-mantle font-mono text-xs text-subtext0">
+  <div class="max-w-4xl mx-auto px-4">
+
+    {{- /* Ylärivi: mistä minut löytää ja kuinka monta on käynyt */ -}}
+    <div class="flex flex-wrap items-center justify-between gap-x-8 gap-y-5 py-6">
+      <span class="flex items-center gap-5">
+        <a href="{{ $m.profile }}" rel="me" class="hover:text-mauve" aria-label="Mastodon: {{ $m.handle }}" title="Mastodon: {{ $m.handle }}">{{ partial "icon.html" (dict "name" "simple/mastodon" "class" "size-5") }}</a>
+        {{- with site.Params.repo }}
+        <a href="{{ . }}" class="hover:text-mauve" aria-label="Sivuston lähdekoodi GitHubissa" title="Lähdekoodi GitHubissa">{{ partial "icon.html" (dict "name" "simple/github" "class" "size-5") }}</a>
+        {{- end }}
+        <a href="{{ "index.xml" | relURL }}" class="hover:text-mauve" aria-label="RSS-syöte" title="RSS-syöte">{{ partial "icon.html" (dict "name" "lucide/rss" "class" "size-5") }}</a>
+      </span>
+      <span class="inline-flex items-center gap-2">
+        {{ partial "icon.html" (dict "name" "lucide/eye" "class" "size-3.5") }}
+        {{ partial "visitors.html" (dict "size" "sm") }}
+      </span>
+    </div>
+
+    {{- /* Alarivi: tekijä, tekniikka ja oikotiet */ -}}
+    <div class="flex flex-wrap items-center justify-between gap-x-8 gap-y-2.5 border-t border-surface0 py-4 text-overlay1">
+      <p class="flex flex-wrap items-center gap-x-5 gap-y-1.5">
+        <span class="text-subtext1">© Marko Kaartinen</span>
+        <span class="inline-flex items-center gap-1.5" title="Sivusto on tehty Hugolla">
+          {{ partial "icon.html" (dict "name" "lucide/terminal" "class" "size-3.5") }}Hugo {{ hugo.Version }}
+        </span>
+        <span class="inline-flex items-center gap-1.5" title="Tähän aikaan sivusto rakennettiin viimeksi">
+          {{ partial "icon.html" (dict "name" "lucide/git-commit-horizontal" "class" "size-4") }}
+          <time datetime="{{ $built.Format "2006-01-02T15:04:05Z07:00" }}">rakennettu {{ $built.Format "2.1.2006" }} <span class="text-surface2">·</span> {{ $built.Format "15:04" }}</time>
+        </span>
+      </p>
+      <button type="button" data-shortcuts-open class="hidden items-center gap-2 text-overlay0 hover:text-mauve sm:inline-flex" title="Näppäinoikotiet">
+        <kbd class="kbd kbd-quiet">?</kbd> oikotiet
+      </button>
+    </div>
+
+  </div>
+</footer>
+{{- range slice "js/site.js" "js/nerd.js" }}
+  {{- with resources.Get . }}
+    {{- with . | fingerprint }}
+<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+    {{- end }}
+  {{- end }}
+{{- end }}
