@@ -1,0 +1,4 @@
+baseURL = 'https://markokaartinen.net/'
+title = 'MarkoKaartinen.net'
+locale = 'fi'
+defaultContentLanguage = 'fi'
