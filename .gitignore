@@ -43,3 +43,6 @@ _testmain.go
 
 *.exe
 *.test
+
+# Hugon generoima
+hugo_stats.json

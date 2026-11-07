@@ -2,3 +2,131 @@ baseURL = 'https://markokaartinen.net/'
 title = 'MarkoKaartinen.net'
 locale = 'fi'
 defaultContentLanguage = 'fi'
+theme = 'hugoccino'
+removePathAccents = true
+timeZone = 'Europe/Helsinki'
+
+[params]
+  description = 'MarkoKaartinen.net on yhden nörtin projekti ja sisältää sekalaista settiä niin tekniikasta kuin muusta nörtteilystä.'
+
+  # Tämän sivuston lähdekoodi (näkyy alatunnisteessa)
+  repo = 'https://github.com/MarkoKaartinen/MarkoKaartinen.net'
+
+  # Mastodon-syöte etusivulla haetaan selaimessa tilin julkisesta API:sta
+  [params.mastodon]
+    instance = 'https://kaartinen.social'
+    account = '114940898154555398'
+    profile = 'https://kaartinen.social/@marko'
+    handle = '@marko@kaartinen.social'
+    limit = 6
+
+  # Kävijälaskuri: placeholder-luku, kunnes API on valmis. Aseta api-osoite, niin luku haetaan sieltä (JSON: {"visits": 123})
+  [params.visitors]
+    placeholder = 123456
+    api = ''
+
+  [[params.social]]
+    name = 'Mastodon'
+    icon = 'simple/mastodon'
+    url = 'https://kaartinen.social/@marko'
+    rel = 'me'
+
+# Osoitteet: /kategoria/{slug}, /avainsana/{slug}, /sarja/{slug} ja listaukset
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  serie = 'series'
+
+[permalinks.taxonomy]
+  categories = '/kategoriat/'
+  tags = '/avainsanat/'
+  series = '/sarjat/'
+
+[permalinks.term]
+  categories = '/kategoria/:slug/'
+  tags = '/avainsana/:slug/'
+  series = '/sarja/:slug/'
+
+# Vuosikansioissa olevat sisällöt ovat artikkeleita
+[[cascade]]
+  type = 'artikkeli'
+  [cascade.build]
+    publishResources = false
+  [cascade.target]
+    path = '/20*/**'
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    noClasses = false
+    lineNos = true
+    lineNumbersInTable = false
+
+# Etusivun JSON-indeksi (/index.json) ruokkii haku- ja komentopalettia
+[outputs]
+  home = ['html', 'rss', 'json']
+
+# Päävalikko ja "lisää"-valikko, samat sivut kuin nykyisellä sivustolla
+[[menus.main]]
+  name = 'blogi'
+  url = '/blogi'
+  weight = 10
+[[menus.main]]
+  name = 'vieraskirja'
+  url = '/vieraskirja'
+  weight = 20
+[[menus.main]]
+  name = 'linkit'
+  url = '/linkit'
+  weight = 30
+[[menus.main]]
+  name = 'reseptit'
+  url = '/reseptit'
+  weight = 40
+[[menus.main]]
+  name = 'haku'
+  url = '/haku'
+  weight = 50
+
+[[menus.more]]
+  name = 'pelihaaste'
+  url = '/pelihaaste'
+  weight = 10
+[[menus.more]]
+  name = 'nyt'
+  url = '/nyt'
+  weight = 20
+[[menus.more]]
+  name = 'tietoa'
+  url = '/tietoa'
+  weight = 30
+[[menus.more]]
+  name = 'ai'
+  url = '/ai'
+  weight = 40
+[[menus.more]]
+  name = 'kahvilaskuri'
+  url = '/kahvilaskuri'
+  weight = 50
+
+# Hugo saa ajaa Tailwindin
+[security.exec]
+  allow = ['^(dart-)?sass$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']
+
+# Tailwind: Hugo kertoo käytetyt luokat tiedostossa hugo_stats.json
+[build]
+  [build.buildStats]
+    enable = true
+  [[build.cachebusters]]
+    source = 'assets/notwatching/hugo_stats\.json'
+    target = 'css'
+
+[module]
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+  [[module.mounts]]
+    disableWatch = true
+    source = 'hugo_stats.json'
+    target = 'assets/notwatching/hugo_stats.json'
