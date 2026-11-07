@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="{{ site.Language.Lang }}">
+<head>
+  {{- partial "head.html" . -}}
+</head>
+<body class="min-h-screen flex flex-col bg-base text-text font-sans antialiased">
+  {{- partial "header.html" . -}}
+  <main class="flex-1 w-full max-w-4xl mx-auto px-4 py-10">
+    {{- block "main" . }}{{ end -}}
+  </main>
+  {{- partial "footer.html" . -}}
+  {{- partial "palette.html" . -}}
+</body>
+</html>

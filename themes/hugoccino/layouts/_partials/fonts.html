@@ -1,0 +1,25 @@
+{{- /* Fontit omalta palvelimelta: assets/fonts/ */ -}}
+{{- $faces := slice
+  (dict "family" "Atkinson Hyperlegible Next" "path" "fonts/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext-Regular.woff2" "weight" 400 "style" "normal" "preload" true)
+  (dict "family" "Atkinson Hyperlegible Next" "path" "fonts/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext-RegularItalic.woff2" "weight" 400 "style" "italic")
+  (dict "family" "Atkinson Hyperlegible Next" "path" "fonts/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext-Bold.woff2" "weight" 700 "style" "normal")
+  (dict "family" "Atkinson Hyperlegible Next" "path" "fonts/atkinson-hyperlegible-next/AtkinsonHyperlegibleNext-BoldItalic.woff2" "weight" 700 "style" "italic")
+  (dict "family" "JetBrains Mono" "path" "fonts/jetbrains-mono/JetBrainsMono-Regular.woff2" "weight" 400 "style" "normal")
+  (dict "family" "JetBrains Mono" "path" "fonts/jetbrains-mono/JetBrainsMono-Italic.woff2" "weight" 400 "style" "italic")
+  (dict "family" "JetBrains Mono" "path" "fonts/jetbrains-mono/JetBrainsMono-Medium.woff2" "weight" 500 "style" "normal")
+  (dict "family" "JetBrains Mono" "path" "fonts/jetbrains-mono/JetBrainsMono-Bold.woff2" "weight" 700 "style" "normal" "preload" true)
+-}}
+{{- $css := "" -}}
+{{- range $faces -}}
+  {{- $face := . -}}
+  {{- with resources.Get $face.path -}}
+    {{- $font := . | fingerprint -}}
+    {{- if $face.preload }}
+<link rel="preload" href="{{ $font.RelPermalink }}" as="font" type="font/woff2" crossorigin>
+    {{- end }}
+    {{- $css = printf "%s@font-face{font-family:'%s';src:url('%s') format('woff2');font-weight:%d;font-style:%s;font-display:swap}" $css $face.family $font.RelPermalink $face.weight $face.style -}}
+  {{- else -}}
+    {{- warnf "Fonttia ei löydy: %s" $face.path -}}
+  {{- end -}}
+{{- end }}
+<style>{{ $css | safeCSS }}</style>

@@ -1,0 +1,26 @@
+{{- /*
+  Kuva artikkelin vierestä (page bundle): pienennetään rakennuksessa, ei kosketa originaaliin.
+  Kuva, jolla on title, saa kuvatekstin (figure).
+*/ -}}
+{{- $url := urls.Parse .Destination -}}
+{{- $src := .Destination -}}
+{{- $width := 0 -}}
+{{- $height := 0 -}}
+{{- if not $url.IsAbs -}}
+  {{- with .PageInner.Resources.Get $url.Path -}}
+    {{- $img := . -}}
+    {{- if and (eq .ResourceType "image") (ne .MediaType.SubType "gif") (ne .MediaType.SubType "svg") -}}
+      {{- $target := cond (gt .Width 1600) 1600 .Width -}}
+      {{- $img = .Resize (printf "%dx webp q82" $target) -}}
+    {{- end -}}
+    {{- $src = $img.RelPermalink -}}
+    {{- $width = $img.Width -}}
+    {{- $height = $img.Height -}}
+  {{- end -}}
+{{- end -}}
+{{- $img := printf `<img src="%s" alt="%s" loading="lazy" decoding="async"%s%s>` $src (.PlainText | htmlEscape) (cond (gt $width 0) (printf ` width="%d"` $width) "") (cond (gt $height 0) (printf ` height="%d"` $height) "") -}}
+{{- if .Title -}}
+<figure>{{ $img | safeHTML }}<figcaption>{{ .Title }}</figcaption></figure>
+{{- else -}}
+{{ $img | safeHTML }}
+{{- end -}}

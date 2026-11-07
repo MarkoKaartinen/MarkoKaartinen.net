@@ -1,0 +1,13 @@
+{{- /*
+  SVG-ikoni inline. Käyttö: {{ partial "icon.html" (dict "name" "lucide/sun" "class" "size-4") }}
+  Lähteet: assets/icons/lucide (ISC) ja assets/icons/simple (Simple Icons, CC0).
+*/ -}}
+{{- $name := .name -}}
+{{- $class := .class | default "size-4" -}}
+{{- with resources.Get (printf "icons/%s.svg" $name) -}}
+  {{- $fill := cond (hasPrefix $name "simple/") " fill-current" "" -}}
+  {{- $attrs := printf `<svg class="%s%s shrink-0" aria-hidden="true" focusable="false"` $class $fill -}}
+  {{- .Content | replaceRE `<svg` $attrs | replaceRE ` role="img"` "" | replaceRE `<title>[^<]*</title>` "" | safeHTML -}}
+{{- else -}}
+  {{- warnf "Ikonia ei löydy: %s" $name -}}
+{{- end -}}

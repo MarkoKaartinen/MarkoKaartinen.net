@@ -1,0 +1,10 @@
+{{- /* Logo: kahvikuppi ja MK. Värit tulevat teeman muuttujista. Käyttö: {{ partial "logo.html" (dict "class" "size-8") }} */ -}}
+<svg class="{{ .class | default "size-8" }}" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+  <g transform="translate(-3 0)">
+    <path d="M22 17Q18 13 22 9M31 17Q27 13 31 9M40 17Q36 13 40 9" fill="none" stroke="var(--ctp-overlay1)" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M44 28H48Q55 28 55 35Q55 42 48 42H43" fill="none" stroke="var(--ctp-mauve)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M13 22H45V40Q45 55 30 55H28Q13 55 13 40Z" fill="var(--ctp-mauve)"/>
+    <path fill="var(--ctp-mantle)" transform="translate(15.85 46) scale(.02192 -.02192)" d="M54 0L54 730L217 730L299 416L382 730L546 730L546 0L429 0L429 307Q429 370 432.5 437.5Q436 505 441 568.5Q446 632 452 684L349 317L246 317L147 675Q156 606 163.5 510.5Q171 415 171 307L171 0Z"/>
+    <path fill="var(--ctp-mantle)" transform="translate(29 46) scale(.02192 -.02192)" d="M76 0L76 730L201 730L201 432L287 432L426 730L561 730L397 382L569 0L430 0L286 323L201 323L201 0Z"/>
+  </g>
+</svg>
