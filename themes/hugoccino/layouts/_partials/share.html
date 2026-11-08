@@ -1,0 +1,6 @@
+{{- /* Jaa Mastodonissa -nappi. Käyttö: {{ partial "share.html" . }} */ -}}
+<p class="mt-6">
+  <a href="https://share.joinmastodon.org/#text={{ printf "%s %s" .Title .Permalink | urlquery }}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded border border-mauve px-4 py-2 text-mauve hover:bg-mauve hover:text-crust">
+    {{ partial "icon.html" (dict "name" "simple/mastodon" "class" "size-4") }}Jaa Mastodonissa
+  </a>
+</p>

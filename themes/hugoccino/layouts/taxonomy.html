@@ -3,7 +3,7 @@
 <ul class="flex flex-wrap gap-x-5 gap-y-2 font-mono text-sm">
   {{- range .Data.Terms.Alphabetical }}
   <li>
-    <a href="{{ .Page.RelPermalink }}" class="text-teal hover:text-sky">{{ if eq $.Data.Plural "tags" }}{{ lower .Page.LinkTitle }}{{ else }}{{ .Page.LinkTitle }}{{ end }}</a>
+    <a href="{{ .Page.RelPermalink }}" class="text-teal hover:text-sky">{{ if in (slice "tags" "recipe_tags") $.Data.Plural }}{{ lower .Page.LinkTitle }}{{ else }}{{ .Page.LinkTitle }}{{ end }}</a>
     <span class="text-overlay1">{{ .Count }}</span>
   </li>
   {{- end }}

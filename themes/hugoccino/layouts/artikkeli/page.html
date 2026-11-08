@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article class="max-w-3xl mx-auto" data-reading>
+<article class="max-w-3xl" data-reading>
   <header class="mb-10">
     <h1 class="font-mono font-bold text-3xl leading-tight"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
     <p class="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-sm text-subtext0">
@@ -42,11 +42,7 @@
       {{- range . }}<a href="{{ .RelPermalink }}" class="hover:text-sky">#{{ lower .LinkTitle }}</a>{{ end -}}
     </p>
     {{- end }}
-    <p class="mt-6">
-      <a href="https://share.joinmastodon.org/#text={{ printf "%s %s" .Title .Permalink | urlquery }}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded border border-mauve px-4 py-2 text-mauve hover:bg-mauve hover:text-crust">
-        {{ partial "icon.html" (dict "name" "simple/mastodon" "class" "size-4") }}Jaa Mastodonissa
-      </a>
-    </p>
+    {{ partial "share.html" . }}
   </footer>
 </article>
 {{ end }}

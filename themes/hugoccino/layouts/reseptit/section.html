@@ -1,0 +1,17 @@
+{{ define "main" }}
+<h1 class="font-mono font-bold text-3xl mb-8"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
+{{- with .Content }}<div class="sisalto mb-10">{{ . }}</div>{{ end }}
+{{- $recipes := where site.RegularPages "Section" "resepti" }}
+<p class="mb-4 font-mono text-sm text-overlay1">{{ len $recipes }} {{ if eq (len $recipes) 1 }}resepti{{ else }}reseptiä{{ end }}</p>
+<ul class="divide-y divide-surface0">
+  {{- range $recipes.ByDate.Reverse }}
+  <li class="py-2 flex flex-col sm:flex-row sm:items-baseline gap-x-4">
+    <time datetime="{{ .Date.Format "2006-01-02" }}" class="font-mono text-sm text-overlay1 shrink-0">{{ .Date.Format "2006-01-02" }}</time>
+    <span class="min-w-0">
+      <a href="{{ .RelPermalink }}" class="text-text hover:text-mauve">{{ .Title }}</a>
+      {{- with .GetTerms "recipe_categories" }}<span class="ml-2 font-mono text-xs text-peach">{{ range . }}{{ .LinkTitle }}{{ end }}</span>{{ end }}
+    </span>
+  </li>
+  {{- end }}
+</ul>
+{{ end }}

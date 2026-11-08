@@ -1,7 +1,7 @@
 // Kuvien ja gallerioiden lightbox. Käyttää <dialog>-elementtiä, ei riippuvuuksia.
 (function () {
   'use strict';
-  var imgs = Array.prototype.slice.call(document.querySelectorAll('.sisalto img[data-full], .sisalto img'))
+  var imgs = Array.prototype.slice.call(document.querySelectorAll('.sisalto img, img[data-lightbox]'))
     .filter(function (img, i, all) { return all.indexOf(img) === i && !img.closest('a') && (parseInt(img.getAttribute('width'), 10) || 999) >= 120; });
   if (!imgs.length || typeof HTMLDialogElement === 'undefined') return;
 
