@@ -37,24 +37,18 @@
   <h2 class="sr-only">Mastodonissa</h2>
   <p class="mb-6 text-sm" aria-hidden="true">{{ partial "prompt.html" (dict "path" "~" "cmd" (printf "tail -n %d mastodon.log" ($m.limit | default 6))) }}</p>
   {{ partial "mastodon-feed.html" . }}
-  <p class="mt-2 font-mono text-sm"><a href="{{ $m.profile }}" rel="me" class="inline-flex items-center gap-1.5 text-blue hover:text-sapphire">{{ partial "icon.html" (dict "name" "simple/mastodon" "class" "size-4") }}Seuraa Mastodonissa {{ partial "icon.html" (dict "name" "lucide/arrow-right" "class" "size-4") }}</a></p>
 </section>
 
-{{- with site.GetPage "/reseptit" }}
-  {{- with .Pages }}
+{{- $recipes := where site.RegularPages "Section" "resepti" }}
+{{- if $recipes }}
 <section class="mb-14">
   <h2 class="sr-only">Resepteistä</h2>
   <p class="mb-6 text-sm" aria-hidden="true">{{ partial "prompt.html" (dict "path" "~/reseptit" "cmd" "ls -t | head -3") }}</p>
   <ul class="grid gap-4 sm:grid-cols-3">
-    {{- range first 3 .ByDate.Reverse }}
-    <li class="rounded border border-surface1 bg-mantle p-4">
-      <a href="{{ .RelPermalink }}" class="font-mono font-bold hover:text-mauve">{{ .Title }}</a>
-      {{- with .Description }}<p class="mt-2 text-sm text-subtext1 line-clamp-3">{{ . }}</p>{{ end }}
-    </li>
-    {{- end }}
+    {{- range first 3 $recipes.ByDate.Reverse }}{{ partial "recipe-card.html" . }}{{ end }}
   </ul>
+  <p class="mt-6 font-mono text-sm"><a href="{{ "/reseptit" | relURL }}" class="inline-flex items-center gap-1 text-blue hover:text-sapphire">Kaikki reseptit {{ partial "icon.html" (dict "name" "lucide/arrow-right" "class" "size-4") }}</a></p>
 </section>
-  {{- end }}
 {{- end }}
 
 <section>
