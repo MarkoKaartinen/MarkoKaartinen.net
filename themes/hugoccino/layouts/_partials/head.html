@@ -19,9 +19,9 @@
 <meta name="theme-color" content="#eff1f5" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#1e1e2e" media="(prefers-color-scheme: dark)">
 <link rel="human-json" href="{{ "human.json" | relURL }}">
-{{- with .OutputFormats.Get "rss" }}
-<link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ .Permalink }}">
-{{- end }}
+<link rel="alternate" type="application/rss+xml" title="{{ site.Title }}: kaikki" href="{{ "feed.xml" | absURL }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.Title }}: artikkelit" href="{{ "blogi/feed.xml" | absURL }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.Title }}: reseptit" href="{{ "reseptit/feed.xml" | absURL }}">
 
 {{- /* Teema valitaan ennen sivun piirtämistä, ettei väri vilku */ -}}
 <script>

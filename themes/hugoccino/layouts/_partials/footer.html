@@ -10,7 +10,7 @@
         {{- with site.Params.repo }}
         <a href="{{ . }}" class="hover:text-mauve" aria-label="Sivuston lähdekoodi GitHubissa" title="Lähdekoodi GitHubissa">{{ partial "icon.html" (dict "name" "simple/github" "class" "size-5") }}</a>
         {{- end }}
-        <a href="{{ "index.xml" | relURL }}" class="hover:text-mauve" aria-label="RSS-syöte" title="RSS-syöte">{{ partial "icon.html" (dict "name" "lucide/rss" "class" "size-5") }}</a>
+        <a href="{{ "syotteet" | relURL }}" class="hover:text-mauve" aria-label="RSS-syötteet" title="RSS-syötteet">{{ partial "icon.html" (dict "name" "lucide/rss" "class" "size-5") }}</a>
       </span>
       <span class="inline-flex items-center gap-2">
         {{ partial "icon.html" (dict "name" "lucide/eye" "class" "size-3.5") }}

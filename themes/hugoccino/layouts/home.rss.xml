@@ -1,0 +1,3 @@
+{{- /* Kaikki: artikkelit ja reseptit, uusin ensin */ -}}
+{{- $items := (where site.RegularPages "Type" "in" (slice "artikkeli" "resepti")).ByDate.Reverse -}}
+{{- partial "rss.xml" (dict "page" . "title" (printf "%s: kaikki" site.Title) "desc" "Blogin artikkelit ja reseptit" "link" .Permalink "items" $items) -}}

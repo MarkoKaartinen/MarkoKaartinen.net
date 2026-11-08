@@ -1,0 +1,27 @@
+{{- /* Yhteinen RSS-pohja: dict "page" (sivu jonka syöte) "title" "desc" "link" "items" (sivut) */ -}}
+{{- $items := first 50 .items -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ .title }}</title>
+    <link>{{ .link }}</link>
+    <description>{{ .desc }}</description>
+    <generator>Hugo</generator>
+    <language>fi</language>
+    {{- with index $items 0 }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    {{- end }}
+    {{- with (.page.OutputFormats.Get "rss") }}
+    {{ printf "<atom:link href=%q rel=\"self\" type=\"application/rss+xml\" />" .Permalink | safeHTML }}
+    {{- end }}
+    {{- range $items }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <guid>{{ .Permalink }}</guid>
+      <description>{{ .Description | default .Summary | plainify | htmlEscape | safeHTML }}</description>
+    </item>
+    {{- end }}
+  </channel>
+</rss>

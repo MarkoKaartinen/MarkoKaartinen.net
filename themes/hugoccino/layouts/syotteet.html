@@ -1,0 +1,32 @@
+{{ define "main" }}
+{{- $m := site.Params.mastodon }}
+<article class="max-w-3xl">
+  <h1 class="font-mono font-bold text-3xl mb-8"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
+  <div class="sisalto">{{ .Content }}</div>
+
+  <ul class="mt-10 space-y-4 font-mono text-sm">
+    {{ template "syote" (dict "title" "Kaikki" "desc" "Artikkelit ja reseptit samassa syötteessä." "url" ("feed.xml" | absURL)) }}
+    {{ template "syote" (dict "title" "Artikkelit" "desc" "Vain blogin artikkelit." "url" ("blogi/feed.xml" | absURL)) }}
+    {{ template "syote" (dict "title" "Reseptit" "desc" "Vain reseptit." "url" ("reseptit/feed.xml" | absURL)) }}
+    {{- with $m }}{{ template "syote" (dict "title" "Mastodon" "desc" (printf "Julkiset viestit tililtä %s." .handle) "url" (printf "%s.rss" .profile)) }}{{ end }}
+  </ul>
+
+  <p class="mt-8 text-sm text-subtext0">Jokaisessa syötteessä on 50 uusinta kirjoitusta. Avainsanoille ja kategorioille ei ole omia syötteitä.</p>
+</article>
+{{- $js := resources.Get "js/kopioi.js" | resources.Minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{ end }}
+
+{{ define "syote" }}
+<li class="rounded-lg border border-surface1 bg-mantle p-4">
+  <p class="flex items-baseline justify-between gap-3">
+    <span class="font-bold text-text">{{ .title }}</span>
+    <span class="text-xs text-overlay1">{{ .desc }}</span>
+  </p>
+  <div class="mt-3 flex items-stretch gap-2">
+    <code class="min-w-0 flex-1 truncate rounded border border-surface0 bg-crust px-3 py-1.5 text-subtext1" title="{{ .url }}">{{ .url }}</code>
+    <button type="button" data-copy-url="{{ .url }}" class="shrink-0 rounded border border-surface1 px-3 text-subtext0 hover:border-mauve hover:text-mauve">kopioi</button>
+    <a href="{{ .url }}" class="shrink-0 rounded border border-surface1 px-3 py-1.5 text-subtext0 hover:border-blue hover:text-blue">avaa</a>
+  </div>
+</li>
+{{ end }}

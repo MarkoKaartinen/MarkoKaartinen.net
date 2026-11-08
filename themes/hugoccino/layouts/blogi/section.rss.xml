@@ -1,0 +1,2 @@
+{{- $items := (where site.RegularPages "Type" "artikkeli").ByDate.Reverse -}}
+{{- partial "rss.xml" (dict "page" . "title" (printf "%s: artikkelit" site.Title) "desc" "Blogin artikkelit" "link" .Permalink "items" $items) -}}

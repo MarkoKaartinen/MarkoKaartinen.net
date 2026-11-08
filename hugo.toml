@@ -83,8 +83,16 @@ timeZone = 'Europe/Helsinki'
     lineNumbersInTable = false
 
 # Etusivun JSON-indeksi (/index.json) ruokkii haku- ja komentopalettia
+# RSS vain etusivulle (kaikki) sekä /blogi ja /reseptit (front matter); termeille ja vuosille ei omia syötteitä
 [outputs]
   home = ['html', 'rss', 'json', 'humanjson']
+  section = ['html']
+  taxonomy = ['html']
+  term = ['html']
+
+# RSS-syötteen tiedostonimi: feed.xml (index.xml:n sijaan)
+[outputFormats.rss]
+  baseName = 'feed'
 
 # /human.json (https://codeberg.org/robida/human.json)
 [outputFormats.humanjson]
