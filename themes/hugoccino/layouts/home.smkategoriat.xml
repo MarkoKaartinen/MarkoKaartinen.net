@@ -1,0 +1,1 @@
+{{- partial "sitemap-urlset.xml" (dict "key" "kategoriat") -}}

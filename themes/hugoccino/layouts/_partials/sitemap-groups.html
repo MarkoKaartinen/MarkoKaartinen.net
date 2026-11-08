@@ -1,0 +1,29 @@
+{{- /*
+  Sivukartan osat: avain -> {tiedosto, sivut}. Pois jäävät noindex-sivut, ohuet avainsana- ja kategoriasivut (alle 3 sisältöä)
+  sekä vuosiosioiden listaukset (/2020/ jne.).
+*/ -}}
+{{- $groups := dict "sivut" slice "artikkelit" slice "reseptit" slice "avainsanat" slice "kategoriat" slice "sarjat" slice "reseptiluokat" slice -}}
+{{- $sc := newScratch -}}
+{{- range $k, $v := $groups }}{{ $sc.Set $k $v }}{{ end -}}
+{{- range site.Pages -}}
+  {{- $key := "" -}}
+  {{- $thin := and (eq .Kind "term") (in (slice "tags" "categories") .Data.Plural) (lt (len .Pages) 3) -}}
+  {{- if or (not .Permalink) .Params.noindex $thin (eq .Kind "404") (eq .Kind "sitemap") }}
+  {{- else if .IsHome }}{{ $key = "sivut" }}
+  {{- else if eq .Kind "taxonomy" }}{{ $key = "sivut" }}
+  {{- else if eq .Kind "term" -}}
+    {{- if eq .Data.Plural "tags" }}{{ $key = "avainsanat" }}
+    {{- else if eq .Data.Plural "categories" }}{{ $key = "kategoriat" }}
+    {{- else if eq .Data.Plural "series" }}{{ $key = "sarjat" }}
+    {{- else }}{{ $key = "reseptiluokat" }}{{ end -}}
+  {{- else if eq .Kind "section" -}}
+    {{- /* Vain /blogi ja /reseptit, ei vuosilistauksia */ -}}
+    {{- if in (slice "blogi" "reseptit") .Section }}{{ $key = "sivut" }}{{ end -}}
+  {{- else if eq .Kind "page" -}}
+    {{- if eq .Type "artikkeli" }}{{ $key = "artikkelit" }}
+    {{- else if eq .Type "resepti" }}{{ $key = "reseptit" }}
+    {{- else }}{{ $key = "sivut" }}{{ end -}}
+  {{- end -}}
+  {{- if $key }}{{ $sc.Set $key (($sc.Get $key) | append .) }}{{ end -}}
+{{- end -}}
+{{- return (dict "sivut" ($sc.Get "sivut") "artikkelit" ($sc.Get "artikkelit") "reseptit" ($sc.Get "reseptit") "avainsanat" ($sc.Get "avainsanat") "kategoriat" ($sc.Get "kategoriat") "sarjat" ($sc.Get "sarjat") "reseptiluokat" ($sc.Get "reseptiluokat")) -}}

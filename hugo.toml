@@ -87,10 +87,53 @@ timeZone = 'Europe/Helsinki'
 # Etusivun JSON-indeksi (/index.json) ruokkii haku- ja komentopalettia
 # RSS vain etusivulle (kaikki) sekä /blogi ja /reseptit (front matter); termeille ja vuosille ei omia syötteitä
 [outputs]
-  home = ['html', 'rss', 'json', 'humanjson']
+  home = ['html', 'rss', 'json', 'humanjson', 'smsivut', 'smartikkelit', 'smreseptit', 'smavainsanat', 'smkategoriat', 'smsarjat', 'smreseptiluokat']
   section = ['html']
   taxonomy = ['html']
   term = ['html']
+
+# Sivukartan osat (sitemap.xml on hakemisto, ks. layouts/sitemap.xml)
+[outputFormats.smsivut]
+  mediaType = 'application/xml'
+  baseName = 'sitemap-sivut'
+  isPlainText = true
+  notAlternative = true
+
+[outputFormats.smartikkelit]
+  mediaType = 'application/xml'
+  baseName = 'sitemap-artikkelit'
+  isPlainText = true
+  notAlternative = true
+
+[outputFormats.smreseptit]
+  mediaType = 'application/xml'
+  baseName = 'sitemap-reseptit'
+  isPlainText = true
+  notAlternative = true
+
+[outputFormats.smavainsanat]
+  mediaType = 'application/xml'
+  baseName = 'sitemap-avainsanat'
+  isPlainText = true
+  notAlternative = true
+
+[outputFormats.smkategoriat]
+  mediaType = 'application/xml'
+  baseName = 'sitemap-kategoriat'
+  isPlainText = true
+  notAlternative = true
+
+[outputFormats.smsarjat]
+  mediaType = 'application/xml'
+  baseName = 'sitemap-sarjat'
+  isPlainText = true
+  notAlternative = true
+
+[outputFormats.smreseptiluokat]
+  mediaType = 'application/xml'
+  baseName = 'sitemap-reseptiluokat'
+  isPlainText = true
+  notAlternative = true
 
 # RSS-syötteen tiedostonimi: feed.xml (index.xml:n sijaan)
 [outputFormats.rss]
