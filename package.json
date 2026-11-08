@@ -5,7 +5,10 @@
     "tailwindcss": "^4.3.5"
   },
   "scripts": {
-    "build": "hugo && pagefind --site public",
-    "search:dev": "hugo -d public && pagefind --site public --output-path static/pagefind"
+    "build": "hugo --cleanDestinationDir && pagefind --site public",
+    "search:dev": "hugo --cleanDestinationDir -d public && pagefind --site public --output-path static/pagefind"
+  },
+  "engines": {
+    "node": ">=22.15.0"
   }
 }
