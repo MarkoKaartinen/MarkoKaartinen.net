@@ -7,6 +7,7 @@ MarkoKaartinen.net blogin staattinen Hugo-versio. Korvaa vanhan Laravel-version 
 - Älä tee muutoksia, aja komentoja tai asenna mitään ilman käyttäjän hyväksyntää.
 - Repo on **julkinen**. Älä koskaan kirjoita salaisuuksia, tokeneita, avaimia, sähköpostiosoitteita, tietokantadumppeja tai paikallisia tiedostopolkuja (esim. `/Users/...`) repoon, myöskään ohjetiedostoihin. Viittaa muihin projekteihin GitHub-osoitteella. Pidä `.gitignore` ajan tasalla.
 - Nykyiset osoitteet säilyvät: artikkelit `/{vuosi}/{slug}` (ilman loppukauttaviivaa), `/kategoria/`, `/avainsana/`, `/sarja/`, `/reseptit`, `/resepti/` ja sivut kuten `/tietoa`. Slugeja ei muuteta.
+- Loppukauttaviiva: Hugo tekee sivuista kansioita (`/2020/slug/`), mutta virallinen osoite on ilman viivaa. `canonical`, `og:url`, JSON-LD, sivukartta ja syötteet käyttävät partialia `canonical.html`, joka poistaa viimeisen `/` (etusivua lukuun ottamatta). Käytä sitä aina, kun kirjoitat sivun koko osoitteen. Palvelimen on tarjottava molemmat muodot ilman ohjausta (`try_files $uri $uri/index.html =404;`).
 
 ## Rakenne
 
