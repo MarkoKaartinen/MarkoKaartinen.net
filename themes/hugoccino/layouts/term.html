@@ -57,11 +57,19 @@
 {{- end }}
 
 {{- if $isSeries }}
-<ol class="space-y-1 font-mono text-sm">
+  {{- $firstPart := index $pages 0 }}
+<p class="mb-8 font-mono text-sm">
+  <a href="{{ $firstPart.RelPermalink }}" class="inline-flex items-center gap-2 rounded-lg border border-surface1 bg-mantle px-3 py-1.5 text-text hover:border-mauve hover:text-mauve"><span class="text-green">$</span> aloita sarja alusta {{ partial "icon.html" (dict "name" "lucide/arrow-right" "class" "size-4") }}</a>
+</p>
+<ol class="max-w-3xl divide-y divide-surface0">
   {{- range $i, $p := $pages }}
-  <li class="flex gap-3">
-    <span class="w-10 shrink-0 text-right text-overlay1">{{ add $i 1 }}/{{ len $pages }}</span>
-    <span class="min-w-0"><a href="{{ $p.RelPermalink }}" class="font-sans text-base text-text hover:text-mauve">{{ $p.Title }}</a> <time datetime="{{ $p.Date.Format "2006-01-02" }}" class="text-xs text-overlay1">{{ $p.Date.Format "2006-01-02" }}</time></span>
+  <li class="group relative flex items-baseline gap-4 py-4">
+    <span class="w-10 shrink-0 text-right font-mono text-sm text-overlay1">{{ printf "%02d" (add $i 1) }}</span>
+    <div class="min-w-0">
+      <a href="{{ $p.RelPermalink }}" class="font-bold text-text after:absolute after:inset-0 group-hover:text-mauve">{{ $p.Title }}</a>
+      <p class="mt-0.5 font-mono text-xs text-overlay1"><time datetime="{{ $p.Date.Format "2006-01-02" }}">{{ $p.Date.Format "2006-01-02" }}</time></p>
+      {{- with $p.Description }}<p class="mt-1 line-clamp-2 text-sm leading-snug text-subtext0">{{ . }}</p>{{ end }}
+    </div>
   </li>
   {{- end }}
 </ol>
