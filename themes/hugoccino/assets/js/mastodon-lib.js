@@ -115,6 +115,14 @@
     if (!items.length) return null;
 
     var wrap = el('div', 'masto-media masto-media-' + Math.min(items.length, 4));
+    // Kuvat avautuvat lightboxiin (sama katselu kuin artikkeleissa), ja ilman JS:ää linkki vie viestiin
+    var lightboxList = [];
+    items.forEach(function (m) {
+      if (m.type === 'image' && isHttps(m.preview_url || m.url)) {
+        lightboxList.push({ src: isHttps(m.url) ? m.url : m.preview_url, alt: m.description || '', caption: m.description || '' });
+      }
+    });
+    var imageIndex = 0;
     items.forEach(function (m) {
       var cell = el('div', 'masto-media-item');
       var alt = m.description || '';
@@ -129,6 +137,14 @@
         img.loading = 'lazy';
         img.decoding = 'async';
         a.appendChild(img);
+        (function (idx) {
+          a.addEventListener('click', function (e) {
+            if (typeof window.hugoLightbox === 'function') {
+              e.preventDefault();
+              window.hugoLightbox(lightboxList, idx);
+            }
+          });
+        })(imageIndex++);
         cell.appendChild(a);
       } else if ((m.type === 'video' || m.type === 'gifv') && isHttps(m.url)) {
         var v = el('video');

@@ -1,6 +1,11 @@
 {{- $m := site.Params.mastodon -}}
 <div id="mastodon-feed" data-instance="{{ $m.instance }}" data-account="{{ $m.account }}" data-limit="{{ $m.limit | default 6 }}">
   <p data-status class="font-mono text-sm text-overlay1">Ladataan Mastodon-viestejä…</p>
+  <template data-icons>
+    <span data-icon="replies">{{ partial "icon.html" (dict "name" "lucide/message-circle" "class" "size-4") }}</span>
+    <span data-icon="boosts">{{ partial "icon.html" (dict "name" "lucide/repeat-2" "class" "size-4") }}</span>
+    <span data-icon="likes">{{ partial "icon.html" (dict "name" "lucide/star" "class" "size-4") }}</span>
+  </template>
   <div data-list class="masto-list"></div>
   <noscript>
     <p class="font-mono text-sm text-subtext0">Syöte vaatii JavaScriptin. Viestit löytyvät osoitteesta <a href="{{ $m.profile }}" rel="me" class="text-blue hover:text-sapphire">{{ $m.handle }}</a>.</p>

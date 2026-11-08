@@ -615,8 +615,8 @@ button:hover > .kbd-quiet {
 .masto-post {
   border-left: 2px solid var(--ctp-surface1);
   padding-left: 0.9rem;
-  font-size: 0.9375rem;
-  line-height: 1.6;
+  font-size: 0.875rem;
+  line-height: 1.55;
 }
 .masto-meta {
   font-family: var(--font-mono);
@@ -627,10 +627,59 @@ button:hover > .kbd-quiet {
   color: var(--ctp-mauve);
 }
 .masto-boost {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
   margin-top: 0.15rem;
   font-family: var(--font-mono);
   font-size: 0.75rem;
   color: var(--ctp-teal);
+}
+.masto-boost svg {
+  width: 0.875rem;
+  height: 0.875rem;
+}
+.masto-is-boost {
+  border-left-color: var(--ctp-teal);
+}
+/* Etusivun syöte: kuvat aina pikkukuvina (lightbox avaa isomman), pitkä viesti katkaistaan ja häivytetään */
+#mastodon-feed .masto-media {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: none;
+  gap: 0.5rem;
+}
+#mastodon-feed .masto-media-item {
+  flex: none;
+  width: 5.5rem;
+}
+#mastodon-feed .masto-media-item:has(video) {
+  width: 11rem;
+}
+#mastodon-feed .masto-media-item img {
+  cursor: zoom-in;
+}
+.masto-clamp {
+  max-height: 15rem;
+  overflow: hidden;
+}
+.masto-clamped {
+  -webkit-mask-image: linear-gradient(to bottom, #000 70%, transparent);
+  mask-image: linear-gradient(to bottom, #000 70%, transparent);
+}
+.masto-more {
+  display: inline-block;
+  margin-top: 0.35rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--ctp-blue);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+.masto-more:hover {
+  color: var(--ctp-sapphire);
 }
 .masto-boost a {
   text-decoration: underline;
@@ -640,7 +689,7 @@ button:hover > .kbd-quiet {
   margin-top: 0.4rem;
 }
 .masto-text p + p {
-  margin-top: 0.75rem;
+  margin-top: 0.6rem;
 }
 .masto-text a {
   color: var(--ctp-blue);
@@ -688,11 +737,23 @@ button:hover > .kbd-quiet {
 .masto-media-4 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-.masto-media-item img,
+.masto-media-1 {
+  max-width: 18rem;
+}
+/* Kuvat neliöitä, pyöristetyt ja kevyt reunus kuten artikkelien galleriassa */
+.masto-media-item img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  border: 1px solid var(--ctp-surface0);
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
 .masto-media-item video {
   display: block;
   width: 100%;
   max-height: 22rem;
+  border: 1px solid var(--ctp-surface0);
   border-radius: 0.5rem;
   object-fit: cover;
 }

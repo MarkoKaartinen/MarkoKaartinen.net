@@ -21,11 +21,39 @@
   var CACHE_KEY = 'mastodon-feed:' + instance + ':' + account;
   var URL_API = instance + '/api/v1/accounts/' + encodeURIComponent(account) +
     '/statuses?exclude_replies=true&limit=' + Math.min(40, limit * 4);
+  var iconBox = root.querySelector('template[data-icons]');
+  var clamps = [];
+
+  function icon(key) {
+    var tpl = iconBox && iconBox.content.querySelector('[data-icon="' + key + '"]');
+    return tpl ? tpl.firstElementChild.cloneNode(true) : null;
+  }
+
+  // Luku ja ikoni (ikonit tulevat sivun <template>-pohjasta)
+  function stat(key, n, one, many) {
+    var s = el('span', 'komm-stat');
+    s.title = L.plural(n, one, many);
+    var ic = icon(key);
+    if (ic) s.appendChild(ic);
+    s.appendChild(el('span', null, String(n)));
+    return s;
+  }
+
+  // Pitkä viesti (teksti ja pikkukuvat) katkaistaan CSS:n max-heightilla, ja "näytä lisää" näkyy vain jos sisältö ylittää rajan.
+  // Kuvat pysyvät pikkukuvina myös auki, ja ne avautuvat lightboxiin.
+  function measure() {
+    clamps.forEach(function (c) {
+      if (c.open) return;
+      var over = c.box.scrollHeight > c.box.clientHeight + 2;
+      c.box.classList.toggle('masto-clamped', over);
+      c.more.hidden = !over;
+    });
+  }
 
   function renderPost(status) {
     var isBoost = !!status.reblog;
     var post = isBoost ? status.reblog : status;
-    var art = el('article', 'masto-post');
+    var art = el('article', 'masto-post' + (isBoost ? ' masto-is-boost' : ''));
 
     var meta = el('div', 'masto-meta');
     var time = el('time');
@@ -41,7 +69,9 @@
 
     if (isBoost) {
       var by = el('div', 'masto-boost');
-      by.appendChild(document.createTextNode('Boostasi käyttäjältä '));
+      var bi = icon('boosts');
+      if (bi) by.appendChild(bi);
+      by.appendChild(document.createTextNode('Boostasi '));
       var who = el('a', null, '@' + post.account.acct);
       who.href = post.account.url;
       who.target = '_blank';
@@ -50,14 +80,38 @@
       art.appendChild(by);
     }
 
-    art.appendChild(L.renderBody(post));
+    var body = L.renderBody(post);
+    art.appendChild(body);
+    var box = body.classList.contains('masto-content') ? body : body.querySelector('.masto-content');
+    if (box) {
+      box.classList.add('masto-clamp');
+      var more = el('button', 'masto-more', 'näytä lisää');
+      more.type = 'button';
+      more.hidden = true;
+      more.setAttribute('aria-expanded', 'false');
+      var clamp = { box: box, more: more, open: false };
+      more.addEventListener('click', function () {
+        clamp.open = !clamp.open;
+        box.classList.toggle('masto-clamp', !clamp.open);
+        box.classList.remove('masto-clamped');
+        more.textContent = clamp.open ? 'näytä vähemmän' : 'näytä lisää';
+        more.setAttribute('aria-expanded', clamp.open ? 'true' : 'false');
+        if (!clamp.open) measure();
+      });
+      art.appendChild(more);
+      clamps.push(clamp);
+    }
 
-    var stats = el('div', 'masto-stats', [
-      L.plural(post.replies_count || 0, 'vastaus', 'vastausta'),
-      L.plural(post.reblogs_count || 0, 'boostaus', 'boostausta'),
-      L.plural(post.favourites_count || 0, 'tykkäys', 'tykkäystä')
-    ].join(' · '));
-    art.appendChild(stats);
+    var replies = post.replies_count || 0;
+    var boosts = post.reblogs_count || 0;
+    var likes = post.favourites_count || 0;
+    if (replies || boosts || likes) {
+      var stats = el('div', 'komm-stats masto-stats');
+      if (replies) stats.appendChild(stat('replies', replies, 'vastaus', 'vastausta'));
+      if (boosts) stats.appendChild(stat('boosts', boosts, 'boostaus', 'boostausta'));
+      if (likes) stats.appendChild(stat('likes', likes, 'tykkäys', 'tykkäystä'));
+      art.appendChild(stats);
+    }
     return art;
   }
 
@@ -69,12 +123,16 @@
 
     if (!visible.length) return false;
     list.textContent = '';
+    clamps = [];
     visible.forEach(function (s) {
       var item = el('div', 'masto-item');
       item.appendChild(renderPost(s));
       list.appendChild(item);
     });
     if (statusEl) statusEl.hidden = true;
+    clamps = clamps.filter(function (c) { return document.contains(c.box); });
+    requestAnimationFrame(measure);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure);
     return true;
   }
 
@@ -83,6 +141,8 @@
     statusEl.hidden = false;
     statusEl.textContent = text;
   }
+
+  window.addEventListener('resize', measure);
 
   var shown = false;
   try {
