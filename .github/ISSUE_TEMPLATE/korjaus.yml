@@ -1,0 +1,25 @@
+name: Korjausehdotus sivuun
+description: Löysitkö virheen, kuolleen linkin tai vanhentuneen tiedon?
+title: "Korjaus: "
+labels: ["korjaus"]
+body:
+  - type: input
+    id: sivu
+    attributes:
+      label: Sivun osoite
+      description: Osoite, jota korjaus koskee.
+      placeholder: https://markokaartinen.net/...
+    validations:
+      required: true
+  - type: textarea
+    id: mika
+    attributes:
+      label: Mikä on pielessä?
+      description: Kerro, mitä pitäisi korjata (kirjoitusvirhe, toimimaton linkki, vanhentunut tieto tms.).
+    validations:
+      required: true
+  - type: textarea
+    id: ehdotus
+    attributes:
+      label: Korjausehdotus
+      description: Jos tiedät, miten sen voisi korjata, kirjoita se tähän (vapaaehtoinen).
