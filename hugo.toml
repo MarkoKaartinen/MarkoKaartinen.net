@@ -87,7 +87,7 @@ timeZone = 'Europe/Helsinki'
 # Etusivun JSON-indeksi (/index.json) ruokkii haku- ja komentopalettia
 # RSS vain etusivulle (kaikki) sekä /blogi ja /reseptit (front matter); termeille ja vuosille ei omia syötteitä
 [outputs]
-  home = ['html', 'rss', 'json', 'humanjson', 'smsivut', 'smartikkelit', 'smreseptit', 'smavainsanat', 'smkategoriat', 'smsarjat', 'smreseptiluokat']
+  home = ['html', 'rss', 'json', 'humanjson', 'smsivut', 'smartikkelit', 'smreseptit', 'smavainsanat', 'smkategoriat', 'smsarjat', 'smreseptiluokat', 'vanhafeed']
   section = ['html']
   taxonomy = ['html']
   term = ['html']
@@ -132,6 +132,15 @@ timeZone = 'Europe/Helsinki'
 [outputFormats.smreseptiluokat]
   mediaType = 'application/xml'
   baseName = 'sitemap-reseptiluokat'
+  isPlainText = true
+  notAlternative = true
+
+[mediaTypes.'application/x-vanhafeed']
+  suffixes = ['']
+
+[outputFormats.vanhafeed]
+  mediaType = 'application/x-vanhafeed'
+  baseName = 'feed'
   isPlainText = true
   notAlternative = true
 

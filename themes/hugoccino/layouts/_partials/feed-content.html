@@ -1,0 +1,4 @@
+{{- /* Artikkelin koko sisältö syötettä varten: linkit ja kuvat absoluuttisiksi, otsikoiden ankkurikuvakkeet pois. Palauttaa HTML-merkkijonon. */ -}}
+{{- $base := strings.TrimSuffix "/" site.BaseURL -}}
+{{- $html := .Content | replaceRE `(?s)<a class="anchor".*?</a>` "" | replaceRE `(src|href)="/([^"/])` (printf "${1}=\"%s/${2}" $base) | replaceRE ` data-full="[^"]*"` "" -}}
+{{- return $html -}}

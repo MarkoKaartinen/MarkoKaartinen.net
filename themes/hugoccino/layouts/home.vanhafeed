@@ -1,0 +1,3 @@
+{{- /* Vanha osoite /feed (tiedosto ilman päätettä): Atom-syöte samassa muodossa kuin vanhassa blogissa, ks. _partials/atom.xml */ -}}
+{{- $items := (where site.RegularPages "Type" "in" (slice "artikkeli" "resepti")).ByDate.Reverse -}}
+{{- partial "atom.xml" (dict "page" . "items" $items) -}}
