@@ -1,5 +1,5 @@
 {{ define "main" }}
-<h1 class="font-mono font-bold text-3xl mb-4"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
+<h1 class="font-mono font-bold text-[2.1rem] sm:text-4xl break-words leading-tight mb-4"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
 
 {{- $isTags := in (slice "tags" "recipe_tags") .Data.Plural }}
 {{- if $isTags }}
@@ -28,7 +28,7 @@
       {{- $name := lower $e.Page.LinkTitle }}
       {{- $accent := index $accents (mod (add (len $name) (mul $i 5)) (len $accents)) }}
       {{- $rot := mul (sub (mod (add $i (len $name)) 5) 2) 1.5 }}
-    <li><a href="{{ $e.Page.RelPermalink }}" style="--r: {{ $rot }}deg; color: var(--ctp-{{ $accent }}); font-size: {{ printf "%.3f" $size }}rem" title="{{ $e.Count }} {{ if eq $.Data.Plural "recipe_tags" }}{{ if eq $e.Count 1 }}resepti{{ else }}reseptiä{{ end }}{{ else }}artikkelia{{ end }}"><span class="hash">#</span>{{ $name }}</a></li>
+    <li><a href="{{ $e.Page.RelPermalink }}" style="--r: {{ $rot }}deg; color: var(--ctp-{{ $accent }}); --fs: {{ printf "%.3f" $size }}rem" title="{{ $e.Count }} {{ if eq $.Data.Plural "recipe_tags" }}{{ if eq $e.Count 1 }}resepti{{ else }}reseptiä{{ end }}{{ else }}artikkelia{{ end }}"><span class="hash">#</span>{{ $name }}</a></li>
     {{- end }}
   </ul>
 

@@ -2,8 +2,8 @@
 {{- $m := site.Params.mastodon -}}
 
 <section class="mb-14">
-  <h1 class="font-mono font-bold text-4xl sm:text-5xl leading-tight">
-    <span class="text-mauve">M</span>arko<span class="text-mauve">K</span>aartinen.net<span class="cursor" aria-hidden="true"></span>
+  <h1 class="font-mono font-bold text-[min(2.6rem,10.5vw)] sm:text-5xl leading-tight">
+    <span class="text-mauve">M</span>arko<br class="sm:hidden"><span class="text-mauve">K</span>aartinen.net<span class="cursor" aria-hidden="true"></span>
   </h1>
   <p class="mt-5 font-mono text-sm" aria-hidden="true">{{ partial "prompt.html" (dict "path" "~" "cmd" "cat tervetuloa.md") }}</p>
   {{- with .Content }}

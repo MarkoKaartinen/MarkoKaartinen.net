@@ -282,10 +282,21 @@
     border-color: var(--ctp-surface1);
     margin: 2.5rem 0;
   }
+  .sisalto {
+    overflow-wrap: break-word;
+  }
   .sisalto table {
     width: 100%;
     border-collapse: collapse;
     font-size: 0.9375rem;
+  }
+  /* Kapealla näytöllä leveä taulukko vieritetään sivusuunnassa eikä venytä sivua */
+  @media (max-width: 639px) {
+    .sisalto table {
+      display: block;
+      max-width: 100%;
+      overflow-x: auto;
+    }
   }
   .sisalto th,
   .sisalto td {
@@ -1413,6 +1424,7 @@ button:hover > .kbd-quiet {
 /* Avainsanapilvi */
 .pilvi a {
   display: inline-block;
+  font-size: var(--fs);
   font-weight: 700;
   line-height: 1.2;
   transform: rotate(var(--r, 0deg));
@@ -1501,6 +1513,22 @@ button:hover > .kbd-quiet {
   }
 }
 
+/* Avainsanapilvi: pienempi koko kapealla näytöllä, ettei pisin sana täytä koko leveyttä */
+@media (max-width: 639px) {
+  .pilvi a {
+    font-size: calc(var(--fs) * 0.78);
+  }
+}
+
+/* Kosketusnäytöllä näppäinvihjeet eivät ole tarpeen: paletin vihjerivi, alatunnisteen oikotienappi ja edellinen/seuraava-korttien näppäimet */
+@media (hover: none) {
+  .palette-hints,
+  [data-shortcuts-open],
+  .adj .kbd {
+    display: none;
+  }
+}
+
 /* Kapea näyttö: pienempi avatar ja tiiviimmät välit. Ketju on suora lista, jossa viiva kulkee avatarista seuraavaan avatariin. */
 @media (max-width: 639px) {
   .komm-section {
@@ -1520,13 +1548,4 @@ button:hover > .kbd-quiet {
   left: calc(var(--av) / 2 - 1px);
   width: 2px;
   background-color: var(--rail);
-}
-
-/* Kosketusnäytöllä näppäinvihjeet eivät ole tarpeen: paletin vihjerivi, alatunnisteen oikotienappi ja edellinen/seuraava-korttien näppäimet */
-@media (hover: none) {
-  .palette-hints,
-  [data-shortcuts-open],
-  .adj .kbd {
-    display: none;
-  }
 }

@@ -19,7 +19,7 @@
 {{- if $isTag }}{{ $name = lower $name }}{{ end }}
 
 <header class="mb-8">
-  <h1 class="font-mono font-bold text-3xl"><span class="text-overlay0 select-none">{{ if $isTag }}#{{ else }}# {{ end }}</span>{{ $name }}</h1>
+  <h1 class="font-mono font-bold text-[2.1rem] sm:text-4xl break-words leading-tight"><span class="text-overlay0 select-none">{{ if $isTag }}#{{ else }}# {{ end }}</span>{{ $name }}</h1>
   <p class="mt-3 font-mono text-sm text-overlay1">
     {{ len $pages }} {{ if $isRecipe }}{{ if eq (len $pages) 1 }}resepti{{ else }}reseptiä{{ end }}{{ else if $isSeries }}{{ if eq (len $pages) 1 }}osa{{ else }}osaa{{ end }}{{ else }}{{ if eq (len $pages) 1 }}artikkeli{{ else }}artikkelia{{ end }}{{ end }}
     {{- if ne $oldest.Date.Year $newest.Date.Year }} · {{ $oldest.Date.Year }}–{{ $newest.Date.Year }}{{ else }} · {{ $oldest.Date.Year }}{{ end }}
@@ -63,8 +63,8 @@
 </p>
 <ol class="divide-y divide-surface0">
   {{- range $i, $p := $pages }}
-  <li class="group relative flex items-baseline gap-4 py-4">
-    <span class="w-10 shrink-0 text-right font-mono text-sm text-overlay1">{{ printf "%02d" (add $i 1) }}</span>
+  <li class="group relative flex flex-col gap-0.5 py-4 sm:flex-row sm:items-baseline sm:gap-4">
+    <span class="shrink-0 font-mono text-sm text-overlay1 sm:w-10 sm:text-right">{{ printf "%02d" (add $i 1) }}</span>
     <div class="min-w-0">
       <a href="{{ $p.RelPermalink }}" class="font-bold text-text after:absolute after:inset-0 group-hover:text-mauve">{{ $p.Title }}</a>
       <p class="mt-0.5 font-mono text-xs text-overlay1"><time datetime="{{ $p.Date.Format "2006-01-02" }}">{{ $p.Date.Format "2006-01-02" }}</time></p>

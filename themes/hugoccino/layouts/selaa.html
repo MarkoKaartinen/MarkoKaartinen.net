@@ -5,7 +5,7 @@
 {{- $rTags := site.Taxonomies.recipe_tags.ByCount }}
 {{- $rCats := site.Taxonomies.recipe_categories.ByCount }}
 <article>
-  <h1 class="font-mono font-bold text-3xl mb-8"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
+  <h1 class="font-mono font-bold text-[2.1rem] sm:text-4xl break-words leading-tight mb-8"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
   <div class="sisalto">{{ .Content }}</div>
 
   <div class="mt-10 grid gap-4 sm:grid-cols-2">
@@ -26,7 +26,7 @@
 
 {{ define "kortti" }}
 <a href="{{ .url | relURL }}" class="group flex flex-col rounded-lg border border-surface1 bg-mantle p-4 {{ .border }}">
-  <p class="flex items-baseline justify-between gap-3 font-mono">
+  <p class="flex flex-col gap-0.5 font-mono sm:flex-row sm:items-baseline sm:justify-between sm:gap-3">
     <span class="font-bold text-text {{ .text }}">{{ .title }}</span>
     <span class="shrink-0 text-sm text-overlay1">{{ if ge .count 1000 }}{{ printf "%d&nbsp;%03d" (div .count 1000) (mod .count 1000) | safeHTML }}{{ else }}{{ .count }}{{ end }} {{ if and (eq .count 1) .one }}{{ .one }}{{ else }}{{ .unit }}{{ end }}</span>
   </p>
