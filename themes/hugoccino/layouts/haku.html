@@ -1,6 +1,6 @@
 {{ define "main" }}
 <article>
-  <h1 class="font-mono font-bold text-3xl mb-6"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
+  <h1 class="font-mono font-bold text-[2.1rem] sm:text-4xl break-words leading-tight mb-6"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
   <div class="sisalto">{{ .Content }}</div>
 
   <div id="haku" data-pagefind="{{ "pagefind/pagefind.js" | relURL }}" class="mt-8 font-mono text-sm">
