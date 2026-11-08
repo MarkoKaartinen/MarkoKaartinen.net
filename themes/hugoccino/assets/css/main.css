@@ -424,18 +424,26 @@ button:hover > .kbd-quiet {
 }
 .palette-results {
   margin: 0;
-  padding: 0.35rem;
+  padding: 0.25rem 0;
   overflow-y: auto;
   list-style: none;
 }
 .palette-item {
-  padding: 0.5rem 0.75rem;
-  border-radius: 0.375rem;
+  position: relative;
+  padding: 0.5rem 0.75rem 0.5rem 2rem;
   cursor: pointer;
 }
 .palette-item[aria-selected="true"] {
   background-color: var(--ctp-surface0);
-  box-shadow: inset 2px 0 0 var(--ctp-mauve);
+}
+/* Valittu rivi merkitään kehotteella (>) kuten terminaalissa, ei värillisellä reunalla */
+.palette-item[aria-selected="true"]::before {
+  content: '>';
+  position: absolute;
+  top: 0.5rem;
+  left: 0.85rem;
+  color: var(--ctp-mauve);
+  font-weight: 700;
 }
 .palette-title {
   font-weight: 700;
