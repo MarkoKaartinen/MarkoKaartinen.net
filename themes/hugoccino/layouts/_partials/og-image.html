@@ -1,0 +1,56 @@
+{{- /*
+  Sosiaalisen median kuva (1200x630). Palauttaa kuvaresurssin.
+  Artikkeli ja resepti: front matterin og_image tai bundlen ensimmäinen riittävän iso kuva, muuten otsikkokortti.
+  Muut sivut: oletuskortti.
+*/ -}}
+{{- $page := . -}}
+{{- $out := resources.Get "og/default.png" -}}
+{{- if and $page.IsPage (in (slice "artikkeli" "resepti") $page.Type) -}}
+  {{- $pick := "" -}}
+  {{- with $page.Params.og_image }}{{ $pick = $page.Resources.Get . }}{{ end -}}
+  {{- if not $pick }}
+    {{- range $page.Resources.ByType "image" }}
+      {{- if and (not $pick) (ge .Width 800) (not (in (slice "gif" "svg") .MediaType.SubType)) }}{{ $pick = . }}{{ end }}
+    {{- end }}
+  {{- end -}}
+  {{- if $pick -}}
+    {{- $out = $pick.Fill "1200x630 Center jpg q85" -}}
+  {{- else -}}
+    {{- $bg := resources.Get "og/bg.png" -}}
+    {{- $font := resources.Get "og/JetBrainsMono-Bold.ttf" -}}
+    {{- /* Emojit ja muut merkit, joita fontissa ei ole, poistetaan */ -}}
+    {{- $title := $page.Title | replaceRE `[\x{1F000}-\x{1FFFF}\x{2600}-\x{27BF}\x{FE0F}\x{200D}]` "" | strings.TrimSpace -}}
+    {{- $size := 72 -}}
+    {{- $lines := partial "og-wrap.html" (dict "text" $title "max" 22 "lines" 3) -}}
+    {{- if gt (len (split $title " ")) 0 }}
+      {{- $wide := partial "og-wrap.html" (dict "text" $title "max" 22 "lines" 99) -}}
+      {{- if gt (len $wide) 3 }}
+        {{- $size = 54 -}}
+        {{- $lines = partial "og-wrap.html" (dict "text" $title "max" 29 "lines" 5) -}}
+      {{- end }}
+    {{- end -}}
+    {{- $lh := int (mul $size 1.3) -}}
+    {{- $top := 150 -}}
+    {{- $filters := slice -}}
+    {{- range $i, $l := $lines -}}
+      {{- $filters = $filters | append (images.Text $l (dict "color" "#cdd6f4" "size" $size "x" 72 "y" (add $top (mul $i $lh)) "font" $font)) -}}
+    {{- end -}}
+    {{- /* Kuvaus otsikon alle, jos tilaa on (enintään kolme riviä) */ -}}
+    {{- $desc := ($page.Description | default "") | replaceRE `[\x{1F000}-\x{1FFFF}\x{2600}-\x{27BF}\x{FE0F}\x{200D}]` "" | strings.TrimSpace -}}
+    {{- $descTop := add $top (mul (len $lines) $lh) 28 -}}
+    {{- $room := div (sub 530 $descTop) 40 -}}
+    {{- $dn := cond (gt $room 3) 3 $room -}}
+    {{- if and $desc (ge $dn 1) (ne $desc $title) -}}
+      {{- $dlines := partial "og-wrap.html" (dict "text" $desc "max" 56 "lines" $dn) -}}
+      {{- range $i, $l := $dlines -}}
+        {{- $filters = $filters | append (images.Text $l (dict "color" "#a6adc8" "size" 30 "x" 72 "y" (add $descTop (mul $i 40)) "font" $font)) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $meta := $page.Date.Format "2006-01-02" -}}
+    {{- with index ($page.Params.categories | default slice) 0 }}{{ if ne . "Blogi" }}{{ $meta = printf "%s  ·  %s" $meta . }}{{ end }}{{ end -}}
+    {{- if eq $page.Type "resepti" }}{{ $meta = printf "%s  ·  resepti" $meta }}{{ end -}}
+    {{- $filters = $filters | append (images.Text $meta (dict "color" "#7f849c" "size" 30 "x" 72 "y" 565 "font" $font)) -}}
+    {{- $out = ($bg.Filter $filters).Process "jpg q90" -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

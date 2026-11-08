@@ -1,0 +1,28 @@
+{{- /* Rivittää otsikon: dict "text" "max" (merkkiä/rivi) "lines" (rivien enimmäismäärä). Palauttaa rivit listana. */ -}}
+{{- $max := .max -}}
+{{- $sc := newScratch -}}
+{{- $sc.Set "lines" slice -}}
+{{- $sc.Set "cur" "" -}}
+{{- range split .text " " -}}
+  {{- $cur := $sc.Get "cur" -}}
+  {{- $try := cond (eq $cur "") . (printf "%s %s" $cur .) -}}
+  {{- if and (gt (strings.RuneCount $try) $max) (ne $cur "") -}}
+    {{- $sc.Add "lines" (slice $cur) -}}
+    {{- $sc.Set "cur" . -}}
+  {{- else -}}
+    {{- $sc.Set "cur" $try -}}
+  {{- end -}}
+{{- end -}}
+{{- $sc.Add "lines" (slice ($sc.Get "cur")) -}}
+{{- $lines := $sc.Get "lines" -}}
+{{- /* Liian monta riviä: katkaistaan viimeinen kolmeen pisteeseen, ja liian pitkä sana typistetään */ -}}
+{{- if gt (len $lines) .lines -}}
+  {{- $lines = first .lines $lines -}}
+  {{- $last := index $lines (sub .lines 1) -}}
+  {{- $lines = (first (sub .lines 1) $lines) | append (printf "%s…" (substr $last 0 (sub $max 1))) -}}
+{{- end -}}
+{{- $out := slice -}}
+{{- range $lines -}}
+  {{- if gt (strings.RuneCount .) $max }}{{ $out = $out | append (printf "%s…" (substr . 0 (sub $max 1))) }}{{ else }}{{ $out = $out | append . }}{{ end -}}
+{{- end -}}
+{{- return $out -}}
