@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w550",
+  "name": "Petri",
+  "date": "2011-12-23",
+  "html": "<p>Vaikka Githubissa yksityisiksi asetetut rojektit olisi laitettu yksityisiksi, ne ovat aina jonkun saatavilla kun ovat netissä... Sen takia arkaluontoista dataa ei kannata pistää ulkopuolisten pyörittämiin palveluihin. Vaikka on toki aika epätodennäköistä, että omia tiedostoja joku palvelun ylläpitäjistä/moderaattoreista/community managereista tms. selaisi, se on teoriassa mahdollista.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w549",
+  "name": "Marko Kaartinen",
+  "date": "2011-12-23",
+  "html": "<p>Salaisia projekteja ei siellä ole :P Tällä hetkellä semmosia mitkä tulee jossain vaiheessa kuitenkin julkiseksi - kehitetään aluksi vain privaatisti.</p><p>Salaiset projut on sitten meidän firman omalla servulle tai no nekään mitään salaisia loppuunsa ole tietty hyvä pitää työ ja omat koodit jotenkin edes erillään.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

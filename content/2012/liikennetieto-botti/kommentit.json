@@ -1,0 +1,29 @@
+[
+ {
+  "id": "w468",
+  "name": "Petri",
+  "date": "2012-07-07",
+  "html": "<p>Vaikuttaa hyvältä ja vieläpä hyödylliseltä palvelulta. Yksi parannusidea: laita vaikka <a href=\"https://developers.google.com/maps/documentation/staticmaps/\" rel=\"nofollow ugc noopener\" target=\"_blank\">staattinen karttakuva</a> jo etusivulle, josta voi nähdä mille alueelle tiedote on suunnattu. Pelkän tienumeron (tai edes pelkän paikkakunnan nimen) avulla on tosi hankala päätellä voiko ilmoitus liittyä jotenkin siihen alueeseen, jossa meikäläinen vaikuttaa. Jos ilmoituksen yhteydessä näkyisi vaikka tyyliin 150x150 pikselin kokoinen kartta ja siinä markkeri, sijainnin päätteleminen sujuisi vaivattomasti.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w467",
+  "name": "Marko Kaartinen",
+  "date": "2012-07-07",
+  "html": "<p>Hyvä idea, pitääpä ottaa työn alle.</p><p>Suunnitteilla on myös &quot;24h kartta&quot; eli heittäisi karttaan 24h sisällä tulleet tiedotteet.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w466",
+  "name": "Marko Kaartinen",
+  "date": "2012-07-07",
+  "html": "<p>Vastaanpa itse itselleni :D<br>Koodasin tuon staattisen kartan ja se on tuotannossa.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

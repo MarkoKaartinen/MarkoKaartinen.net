@@ -1,0 +1,56 @@
+[
+ {
+  "id": "w613",
+  "name": "o-p",
+  "date": "2011-04-30",
+  "html": "<p>Mun mielestä näitä pitäs olla kouluissakin niin ihmiset oppisivat ymmärtämään elektroniikkaa paremmin. Olkoonkin sitten vaikka valinnaisena aineena, mutta uskoisin, että kiinnostuneita löytyisi. Avoimen lähdekoodin vuoksi käyttö olisi lähes ilmaista.</p><p>Itselläni tosiaan menossa time lapse dolly -projekti Arduinon ympärille rakennettuna.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w612",
+  "name": "Marko Kaartinen",
+  "date": "2011-05-01",
+  "html": "<p>Pitäisi olla ehdottomasti! Vaikka edes tekniseen työhön liitettynä pari viikkoa tai sitten ihan fysiikkaan vai missä näitä käytiinkään teoriassa. Olisi käytännössäkin näitä asioita niin helpommin voisi jäädä päähän. Minusta tuntuu, että jos rakentelisivat vaikka yksinkertaisia lediviritelmiä (kuten minä vasta :D) niin opetuskin olisi mielekkäämpää ja oppisi oikeasti jotain. Ainut mikä tässäkin maksaa on se, että Arduino levy on kuitenkin sen pari kymppiä ja siihen noi roippeet. TIetty koulu voisi saada jonkinlaiden diilin aikaiseksi. Koneita on kuitenkin joka luokassa tänä päivänä ja sillä opettajan koneella voi sitten sen ohjelman pistää sinne levylle. En tohon ohjelmointiin syvällisesti lähtisi yläasteella, mutta juurikin tuohon piuhojen/Vastusten/nappien/ledien laitteluun ja tälläiseen. Ohjelmoinnista voisi sitten näyttää, että näin tehdään tämä ja tämä asia.</p><p>Itse odottelen vielä vähän osia ja pitäisi jostain metsästää piuha tuohon kameraan liittämistä varten :D Ideoita o-p:llä siihen liittyen? :D<br> <br>RFIDitkin kiinnostaisi hieman ja juuri valo- ja lämpötilasensorit :D Samoin LCD näytötkin :D Eli lähinnä kaikki alkaa kiinnostaa :D Binäärikello on varmaan seuraava rakentelun kohde kunhan saan ne ledit kotiin asti.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w611",
+  "name": "o-p",
+  "date": "2011-05-02",
+  "html": "<p>Siihen kameraan liittämiseen riittää normaali 2,5mm plugilla varustettu piuha, maksaa jossain tavarataloissa varmaan pari euroo. Siis normaalistihan noi on 3,5mm plugeja esim. kuulokkeissa, ja en tiedä sun kameran liitännässä millanen se on. Todennäköisesti 2,5mm.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w610",
+  "name": "Marko Kaartinen",
+  "date": "2011-05-02",
+  "html": "<p>Tässä muisteltuani hetken niin itselläni on joku vanha 3.5mm -&gt; 2.5mm adapteri kun joku Nokialainen ei syönyt normi plugia... Missähän lie :D 3.5mm plugilla on piuhaa aika varmasti, teurastaa jotkut vanhat kuulokkeet ni avot :)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w609",
+  "name": "Tommi",
+  "date": "2011-05-04",
+  "html": "<p>Moro, kuten tuolla OP:n blogissa jo mainitsinkin niin itsehän hommasin saman laisen setin kuin sinä. Itselläni ei ole mitään aikaisempaa kokemusta tälläisistä härpäkkeistä joten esimerkiksi jotkut oppaat voisivat olla ihan käteviä? Sain rakennettua jo tuon kolmen ledin valohässäkänja nyt koitan soveltaa jotain omaa.</p><p>Julkaise ihmeessä jatkossakin tekeleitäsi, varsinkin tuo kameraprojekti kiinnostaa itseäni.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w608",
+  "name": "Marko Kaartinen",
+  "date": "2011-05-04",
+  "html": "<p>Oppaitahan on internet pullollaan Arduino tutorial hakusanalla löytyy jo muutama ja Youtube on hyvä paikka! Siellä on kanssa Arduino oppaita.<br> <br>Pari linkkiä jo Youtubesta bongattuna: <a href=\"http://www.ladyada.net/learn/arduino/\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://www.ladyada.net/learn/arduino/</a> ja <a href=\"http://tronixstuff.wordpress.com/tutorials/\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://tronixstuff.wordpress.com/tutorials/</a> sekä Arduinon omat sivut <a href=\"http://arduino.cc/en/Tutorial/HomePage\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://arduino.cc/en/Tutorial/HomePage</a></p><p>Seuraavaksi julkaisen omia testejä RFID lukijan kanssa ja sitten kun osaa tulee niin katellaan sitä kameraakin :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

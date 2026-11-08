@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w607",
+  "name": "Petri",
+  "date": "2011-05-12",
+  "html": "<p>Menee vielä aikaa ennen kuin noista laitteista on jotain muutakin hyötyä kuin mahdollisuus prameilla. ;-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w606",
+  "name": "Marko Kaartinen",
+  "date": "2011-05-12",
+  "html": "<p>iPadin näkisin kameran apuna hyvinkin helposti. Kuvat langattomasti siihen ja iPad olisi kevyempi kantaa kuin läppäri ja helpompi ottaa käyttöönkin vielä. On niitä oikeasti hyviäkin sovelluksia niille olemassa.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

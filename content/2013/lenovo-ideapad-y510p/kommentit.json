@@ -1,0 +1,47 @@
+[
+ {
+  "id": "w212",
+  "name": "Juho Leikas",
+  "date": "2014-01-07",
+  "html": "<p>Aika hyvää ja käytännöllistä tietoa tässä artikkelissa! Joten kiitos tästä Marko! Olisiko sinun mahdollista testata esimerkiksi League of Legendsiä, Call of Duty Ghostsia tai jotain muuta hyvää FPS peliä, jos niitä satut omistamaan. Kiitos jo etukäteen!</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w211",
+  "name": "Marko",
+  "date": "2014-01-07",
+  "html": "<p>Kelpaisiko Battlefield 4? Voisin sitä testailla vaikka viikonloppuna, tuo kun on semmoinen kiva vajaan 30 gigan paketti...</p><p>Uusinta CoDyä en omista joten sitä en voi testailla. Olen kuitenkin tuolla pelannut esimerkiksi State of Decaytä ilman ongelmia sekä Sim Cityä ja muita vähemmän tehoja vaativia pelejä. Uskoisin League of Legendsinkin toimivan ongelmitta sillä se on pyörinyt heikommillakin koneilla.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w210",
+  "name": "Juho Leikas",
+  "date": "2014-01-14",
+  "html": "<p>No kyllä kelpaa BF4 jos sitä voit koittaa. Ja hyvä tietää että muutkin pelit pyörii ilman ongelmia.Kiitos!</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w209",
+  "name": "Santtu",
+  "date": "2017-01-08",
+  "html": "<p>Mites toi energy management... Mistä sen saa asennettua...? Itse koitin etsiä Lenovon sivuilta, mut et löytynyt :/</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w208",
+  "name": "Marko",
+  "date": "2017-01-09",
+  "html": "<p>Tuolta Lenovon support sivulta taitaa löytyä: <a href=\"http://support.lenovo.com/fi/en\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://support.lenovo.com/fi/en</a><br>Tuosta search products kohdasta etsii oman koneen ja drivers &amp; software kohdasta sitten koppaa tuon Lenovo Energy Management for Windows softan. Jos on Windows 10 niin tuo 8.1 Windowsille tarkoitettu toimii todennäköisesti oikein mainiosti - taisi itsellä olla juurikin tuo.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

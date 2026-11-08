@@ -1,0 +1,38 @@
+[
+ {
+  "id": "w176",
+  "name": "Juho Lehtinen",
+  "date": "2014-05-09",
+  "html": "<p>Onko Chromecastissa itsessään selainta? Jos on niin jaksaako se pyörittää sivuja ja käsitteleekö sivut sitä mobiililaitteena vai näkyykö sivut desktop versioina?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w175",
+  "name": "Marko",
+  "date": "2014-05-09",
+  "html": "<p>Itse Chromecast on käytännössä striimauslaite. Eli voit työpöydän Chrome selaimen striimata telkkariin. Se näyttää ne sitten siltä miltä se näyttää sun omassa Chromessasi. Hirveästi en ole käyttänyt tuota, että striimaan omaa selainta Chromeen - sen verran että näytti toimivan ok.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w174",
+  "name": "Mika",
+  "date": "2015-04-05",
+  "html": "<p>oletko löytänyt hyvää kuvien katseluohjelmaa?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w173",
+  "name": "Marko",
+  "date": "2015-04-05",
+  "html": "<p>Moro! En ole Chromecastia ihan äsken käyttänyt joten en osaa nyt sanoa sulle ohjelmaa tähän.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w79",
+  "name": "Petri",
+  "date": "2016-04-23",
+  "html": "<p>Kyllästyitkö jo Moto X:ään? :-)</p><p>Speksien mukaan kaikki kolmea vaihtoehtoa ovat melkein identtisiä, paitsi tuossa Galaxy S7 Edgessä on reiluimman kokoinen näyttö ja suurin akun kapasiteetti. Xperiassa oleva prosessori Snapdragon 820 taitaa olla 2,2 gigahertsiä joten melkein sama kuin muissa kahdessa.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w78",
+  "name": "Marko",
+  "date": "2016-04-23",
+  "html": "<p>Moto X Play on hintaluokassaan tosi hyvä puhelin. Cyanogenmodin kanssa vielä parempi.</p><p>AIka identtistä kamaa on tosiaan paitsi muotoilu ja langaton lataus sekä jotain muuta pientä sälä eroa.</p><p>S7 prosessoreita tulee tosiaan Snapdragonia ja Exynosta. Exynos on kaite hitusen tehokkaampi ilmeisesti. Jenkit taitaa saada tuon snapdragonin. Isoa eroa ei liene kuitenkaan noiden välillä. Xperiaan tulee tuota samaa Snapdragonia kuin jenkkien S7.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w346",
+  "name": "Marko Luomala (@LuomalaMarko)",
+  "date": "2012-12-24",
+  "html": "<p>Spotify on kyllä hyvä. Itse käytän hyvin paljon Spotifyä se on meillä Soneran kautta, siinä ei ole niitä mainoksia ja olen erittäin tyytyväinen tuohon. Ei ole kuukausimaksultaan kovinkaan kallis... Olen paljon miettinyt tuota Netflixxiä että ottaisinko käyttööni täytyy katsoa jos vaikka jossain vaiheessa kokeiluksi sitä, eikös sen saa kuukaudeksi ilmaiseksi ns. Koekäytöön? Sekin voisi olla hyvin kiinnostava palvelu</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w345",
+  "name": "Marko",
+  "date": "2012-12-24",
+  "html": "<p>Netflixin sain itse kokeilukäyttöön loppuvuodeksi kun olin spotifyn premium käyttäjä. Sen taitaa kuukaudeksi kyllä saada kokeiluun ja ehdottomasti kannattaa kokeilla!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w876",
+  "name": "Torsti",
+  "date": "2009-07-12",
+  "html": "<p>Meikällä ei ole mokkula katkeillut ollenkaan, mutta onhan siitä huonoja kokemuksiakin vaikka kuinka monilla. On muuten tainnut merkinnässä hieman nuo päivämäärät hyppiä? Kun puhutaan jo elokuusta jossain.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w875",
+  "name": "Marko Kaartinen",
+  "date": "2009-07-12",
+  "html": "<p>No niinpäs onkin vahingossa pompittu tulevaisuuteen.</p><p>Mutta mokkula täyspäiväisessä käytössä ei nopeuden ja toimivuuden puolesta ole sopiva minun tarpeisiin, mutta minkäs teet.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

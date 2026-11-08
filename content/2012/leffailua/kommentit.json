@@ -1,0 +1,83 @@
+[
+ {
+  "id": "w510",
+  "name": "Rolle",
+  "date": "2012-04-08",
+  "html": "<p>Jes! Katsotaan mitenkä maut natsaa ja saanko itsekin vinkkejä leffasivultasi. Oman katalogin olen pyrkinyt pitämään samaan tapaan simppelinä :) pystyykös tuota tilaamaan RSS:nä?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w509",
+  "name": "Marko Kaartinen",
+  "date": "2012-04-08",
+  "html": "<p>En ole vielä koodaillut RSS feediä tuohon. Pitääpä joku päivä koodailla, se nyt ei onneksi ole kummonen homma :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w508",
+  "name": "Marko Kaartinen",
+  "date": "2012-04-08",
+  "html": "<p>Löysin itseasiassa vanhan systeeminkin tuolta kannan puolelta :D Eli vuodelta 2008 on jokunen arvosteltu elokuva :D Helkutti, pitääpä lisätä tähän systeemiin noi!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w507",
+  "name": "Rolle",
+  "date": "2012-04-08",
+  "html": "<p>Hehe. Jep, nopee homma koodata :) Ilmottele kun löytyy se RSS niin laitan tilaukseen!</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w506",
+  "name": "Marko Kaartinen",
+  "date": "2012-04-09",
+  "html": "<p>Nyt on feedi olemassa. Testailin vielä, että se jopa toimii :)<br>Linkki: <a href=\"http://leffat.markokaartinen.net/feed.xml\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://leffat.markokaartinen.net/feed.xml</a></p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w505",
+  "name": "Rolle",
+  "date": "2012-04-09",
+  "html": "<p>Jes, tilattu! Tohon olis tosin kiva saada myös pisteet. Ja kansikuva ;) mutta ainakin ne pisteet.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w504",
+  "name": "Marko Kaartinen",
+  "date": "2012-04-09",
+  "html": "<p>Kansikuvaa ei tuu tällä hetkellä ollenkaan, millään muotoo minnekkään :D Pitää etsiä joku keino muiluttaa sekin. Pisteet voi lisäillä jossain välissä.</p><p>Traileri nappia pitää kehittää kanssa sillä se ei aina löydä traileria.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w503",
+  "name": "Petri",
+  "date": "2012-04-13",
+  "html": "<p>Kuvien HTML-tagien kohdalla kannattaa laittaa width- ja height-attribuutit, koska silloin etenkin hitailla nettiyhteyksillä leiskan pomppiminen vähenee kun kuvien mittasuhteet on ilmoitettu jo ennen kuvien latautumista. ;-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w502",
+  "name": "Marko Kaartinen",
+  "date": "2012-04-13",
+  "html": "<p>Voisi pistelläkkin, kuvia on pari mutta osa on joo laitettu hieman pienemmäksi cssllä kun laiskotti eikä jaksanu kuvankäsittelyohjelmalla ronkkia :D</p><p>Offtopic:<br>Voisi jonkinlaisen taskilistan kehitellä projuille jotka ei ole julkisena githubissa kuten tämäkin leffa saitti :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

@@ -1,0 +1,56 @@
+[
+ {
+  "id": "w207",
+  "name": "jäähdytyskone",
+  "date": "2013-12-17",
+  "html": "<p>hih. ostin. kerronko lisää :)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w206",
+  "name": "Marko",
+  "date": "2013-12-17",
+  "html": "<p>Toki, minua ainakin kiinnostaa tietää muiden kokemuksia Jollasta :)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w205",
+  "name": "Petri",
+  "date": "2013-12-18",
+  "html": "<p>Kiinnostaa minuakin. Kerro lissee.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w204",
+  "name": "S",
+  "date": "2013-12-18",
+  "html": "<p>Ostin Jollan enkä ole katunut sitä hetkeäkään. Lukemistani arvosteluista poiketen Jolla on mielestäni jämäkkä, tyylikäs ja laadukkaan tuntuinen puhelin. Olen käyttänyt aikaisemmin symbian, windows, android ja meego puhelimia ja voin sanoa että tämä tuntuu minulle oikealta valinnalta. Natiivisovelluksia on tällä hetkellä vähän mutta se ei haittaa käyttökokemusta, koska puuttuvat sovellukset voi nyt korvata android sovelluksilla.</p><p>Puhelin käytön opetteluun meni 2 tuntia ja nyt en vaihtaisi sitä toiseen. Jolla ei ole niin vaikea käyttää mitä on puhuttu, pitää vain unohtaa ne paluunapit. Nettiselain on nopea mutta en tiedä vaikuttaako siihen laite vai liittymä. Sailfish on edelleen beta mutta en ole huomannut sitä käytössä. Nämä ovat kuitenkin paljolti käyttäjäkohtaisia kokemuksia, eli toista voi ärsyttää joku asia mitä en edes huomaa.</p><p>Itse olen tyytyväinen siihen, ettei puhelimessa ole mitään ylimääristä. Kaikki sovellukset olen valinnut käytön mukaan. Akun kesto on harmittavan heikko mutta ei sen huonompi kuin aikaisemmassa LG:n puhelimessani.</p><p>Kirjoitus ei vielä toimi vaakasuunnassa mutta se ei ole minun käyttöä haitannut, koska pystysuunnassa kirjoitus onnistuu erinomaisesti. Jollan kirjoitustuntuma on paljon parempi kuin esim aikaisempien LG:n tai Lumia 900 puhelimieni. Niin ja olen tyytyväinen parjattuun kameraan mikä on mielestäni hyvä kännykkäkameraksi.</p><p>Mielipiteeni voi vaikuttaa hieman (paljon) hehkutukselta mutta en voi sille mitään että olen oikeasti erittäin tyytyväinen tähän puhelimeen.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w203",
+  "name": "Jude Vihervaara",
+  "date": "2013-12-18",
+  "html": "<p>Ihminen ei tee ensimmäistäkään hankintaa järjellä perustellen. Kaikki ratkaisut, mitä ihminen tekee, perustuvat tunteeseen. Jälkeenpin ratkaisuja voidaan perustella järjellä, mutta se on lähinnä itsepetosta. Tämä on psykologinen totuus.</p><p>Yritit perustella ostamatta jättämistä järkisyillä, mutta totuus on (ja tiedät sen sisimmässäsi), että et uskaltanut vielä ostaa Jollaa.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w202",
+  "name": "Marko",
+  "date": "2013-12-18",
+  "html": "<p>Osittain en uskaltanutkaan, koska uskon ja toivon että seuraava malli on parempi ja viimeistellympi sekä tuo oma Galaxy S4 on liian tuore puhelin kuopattavaksi.</p><p>Hinnaltaanhan Jolla on mielenkiintoinen ja siksi sitä pohdiskelinkin ja olin useaan otteeseen tilaamassa. Sailfish toisi juuri sitä erilaisuutta mitä oikeastaan puhelimelta haluankin, tästä syystä olenkin omaa Galaxy S4 customoinut hieman massasta poikkeavaksi - tällä hetkellä vasta launcherilla eli ilman custom rommia mennään vielä siinä.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

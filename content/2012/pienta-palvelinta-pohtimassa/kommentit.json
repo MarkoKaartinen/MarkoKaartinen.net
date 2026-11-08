@@ -1,0 +1,47 @@
+[
+ {
+  "id": "w373",
+  "name": "Ilkka Rautiainen",
+  "date": "2012-10-21",
+  "html": "<p><a href=\"http://www.verkkokauppa.com/fi/product/48786/dfjbx/HP-ProLiant-MicroServer-1P-Turion-II-Neo-N40L-4-GB\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://www.verkkokauppa.com/fi/product/48786/dfjbx/HP-ProLiant-MicroServer-1P-Turion-II-Neo-N40L-4-GB</a>, tässä on yks varteen otettava vaihtoehto. Edullinen kotipalvelin, kuluttaa hyvin vähän sähköä ja on hiljainen. Noita vinkkejä vielä, meillä kodin tiedostot on keskitetysti palvelimella, saatavilla siis useammalla koneella ja muilla laitteilla, valokuvat, musiikki, videot ja asiakirjat. Lisäksi kotona on useampi XBMC laite ja XBMC:n kirjastot on kaikkiin laitteisiin synkattu MySQL:n kautta. OpenVPN:llä saa yhteyden mistä vaan ja nykypäivän kannettaviin laiteisiinkin saa openvpn clientin. Tällaisia ratkaisuja on ainakin itselläni.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w372",
+  "name": "Marko",
+  "date": "2012-10-21",
+  "html": "<p>Tuo ratkaisu olisi valmispaketti :D Itse tahdon ehkä tälläkin kertaa kasailla koneen omin kätösin.</p><p>Tarkotuksena olis pistää myös etäohjausta ja muuta mukavaa jotku onnistuu juurikin VPN:n yli ja Linuxin päälle kun aletaan tekemään niin SSH ja muut mukavat. Owncloud pitänee asennella myös, jotta saan Dropboximaisen synkkauksen toimintaan :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w371",
+  "name": "Ilkka Rautiainen",
+  "date": "2012-10-21",
+  "html": "<p>itse käytän tota openvpn:ää koska sille tosiaan pääsee ihan missä vaan, siinä on webclien ja käyttää porttia 443 joten ei tule missään portti ongelmaa ongelmia :)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w370",
+  "name": "Petri",
+  "date": "2012-10-22",
+  "html": "<p>Tilasin keskusyksikön Saksasta. Se oli joko tehtaalla tai toimituksessa vaurioitunut, joten jouduin palauttamaan laitteen takaisin ja maksamaan toimituskulut. Siltikin koneessa oli ja on jotain häikkää. Jos tilaat tavaraa Saksasta ja sen toimittajana on DHL, varaudu siihen, että paketti on ruhjottu ja paketin sisältä löytyy vain ikäviä ylläreitä. :-/</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w369",
+  "name": "Marko",
+  "date": "2012-10-22",
+  "html": "<p>DHL on kyllä omat paketit tuonut ehjänä, mutta ainut huono puoli ollut kotiinkuljetuksessa se että he eivät soita. Viimeksi DHL:n paketti tuli Suomeen ja Suomessa sen kuljetuksen hoiti posti mikä oli sitten ihan hyvä juttu.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

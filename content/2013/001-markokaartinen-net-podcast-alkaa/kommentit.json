@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w244",
+  "name": "Pesukone",
+  "date": "2013-09-22",
+  "html": "<p>Olen hieman yksinkertainen, mutta miten saan podcastisi suoraan beyondpod ohjelmaa?  Tarvitsisin ilmeisesti rss-syötteen osoitteen, enkä sitä löytänyt.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w243",
+  "name": "Marko",
+  "date": "2013-09-23",
+  "html": "<p>Hei, <a href=\"https://markokaartinen.net/mknet-podcast/\" rel=\"nofollow ugc noopener\" target=\"_blank\">Podcast</a> sivulla on linkki Feedburnerin feediin, sen voisi pistää paremmaksi tosin.</p><p>Tässä sinulle kuitenkin tuo syötteen osoite: <a href=\"http://feeds.feedburner.com/markokaartinen/podcast\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://feeds.feedburner.com/markokaartinen/podcast</a></p><p>Tuon kun lisäät sovellukseesi niin pitäisi lähteä toimimaan, samainen syöte on myös iTunesille annettu eli ei jää paitsi mistään vaikka käyttääkin tuota syötteen osoitetta!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w368",
+  "name": "Petri",
+  "date": "2012-11-01",
+  "html": "<p>Entä mailipalvelin, eikö sellainenkin ole asennettavissa?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w367",
+  "name": "Marko",
+  "date": "2012-11-01",
+  "html": "<p>On mutta itse en oikeastaan mailipalvelinta itse halua ylläpitää :D <br>Olen huomannut, että helpoimmalla pääsee kun ohjaa domainin MX tietueet googlen suuntaan ja ottaa ilmaisen google appsin käyttöön. Linodella on pätevät ohjeet siihen touhuun: <a href=\"http://library.linode.com/email/google-mail\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://library.linode.com/email/google-mail</a></p><p>Tietty voisihan tuotakin testailla enemmän, olen joskus säätänyt mailipalvelimen kanssa hieman. Kokemus siitä ei olisi pahitteeksi, pitänee ehkä sitä varten joku erillinen VPS pistää sillä en ehkä tuota halua sekottaa mailipalvelimella :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

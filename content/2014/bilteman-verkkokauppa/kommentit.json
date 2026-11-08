@@ -1,0 +1,47 @@
+[
+ {
+  "id": "w183",
+  "name": "Ilkka Rautiainen",
+  "date": "2014-03-24",
+  "html": "<p>Miks se piti tilata? Mikset vain mennyt Biltemaan ja hakenut pyörää sieltä? Eiks sitä saanut kuin verkosta? Hyvä että tilasit matkahuollon kautta, muuten olisit joutunut kirjottaa toisen artikkelin Itellan toiminnasta ja odotteleisit varmaan vieläkin tuota pyörää :D</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w182",
+  "name": "Marko",
+  "date": "2014-03-24",
+  "html": "<p>Kävin liikkeessä katsomassa tiistaina ja ei ollut edes esittely kappaletta siitä pyöräatä niillä siellä. Tulipahan tuo verkkokauppa koitettua samalla.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w181",
+  "name": "Petri",
+  "date": "2014-03-25",
+  "html": "<p>Olen tilannut Bilteman nettikaupasta pari kertaa ja kummallakin kerralla kaikki sujui ongelmitta. En tosin ole heidän asiakaspalveluaan kokeillut.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w180",
+  "name": "Marko",
+  "date": "2014-03-25",
+  "html": "<p>Joo, toimituksessa ei sinänsä mitään, mutta noi pari kohtaa:<br>- asiakaspalvelu<br>- seurantakoodi<br>- outo puhelinnumero seurantatiedoissa</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w179",
+  "name": "Antti Allonen",
+  "date": "2018-07-29",
+  "html": "<p>Posti on ihan perseestä nykyään. Huomaavat postia. Itselleni tuli cdieselverosta karhu. Samoihin grafiikka että miksi karhu oli kuulema lähtenyt verot 2,kk enkelin sanoin että ei ole näkynyt meillä päin sitä vero lappua. Nainen meinas että Posti ei hukkaa mitään. Kysyin että miten śelität että Posti hukkasi 400 euron värikasetti mistään eilöytynyt. Että tämmöistä postin touhuista ja monta muuta asiaa voisi kertoa mutta en viitsi.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ }
+]

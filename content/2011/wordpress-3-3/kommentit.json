@@ -1,0 +1,38 @@
+[
+ {
+  "id": "w565",
+  "name": "o-p",
+  "date": "2011-12-13",
+  "html": "<p>Wordpress on varmaan ihan hyvä alusta, mutta miten yhden bugin korjaaminen voi kestää yli 13 kuukautta? :D Ilmoitin siitä tosiaan jo aikoja sitten, mutta eipä näytä vieläkään olevan korjattu. Noh, korjausta odotellessa...</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w564",
+  "name": "Marko Kaartinen",
+  "date": "2011-12-13",
+  "html": "<p>Mikähän bugi oli kyseessä? :D Itse tykkään kyllä WordPressistä tosin toi mun uusi proju joka etenee hitaasti mutta varmasti käyttää aika pitkälti omaa koodia :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w563",
+  "name": "o-p",
+  "date": "2011-12-13",
+  "html": "<p>Pingbackeihin liittyy, tosin siellä on niitä pilvin pimein muutenkin. Ilmeisesti korjaaminen toisi vain lisää ongelmia tms. mitä nyt tuota Wordpressin tracia lueskelin.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w562",
+  "name": "Marko Kaartinen",
+  "date": "2011-12-13",
+  "html": "<p>Mmm... tästä olet tainnut joskus mainita ennenkin :P Jotenkin tutulta kun kuulostaa tuo ongelmasi :)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

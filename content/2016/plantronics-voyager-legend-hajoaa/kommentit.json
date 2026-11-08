@@ -1,0 +1,38 @@
+[
+ {
+  "id": "w57",
+  "name": "Petri",
+  "date": "2016-12-01",
+  "html": "<p>Sama juttu on monien kuulokkeiden kanssa. Muoviset nivelet murtuvat aivan liian helposti. :-/ Tuo sinunkin handsfree olisi kestävämpi jos sangan sisällä kulkisi paksu teräslanka.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w56",
+  "name": "Marko",
+  "date": "2016-12-01",
+  "html": "<p>Tuo on jotain enemmän kumin tapaista materiaalia, mutta totta teräslanka helpottaisi varmaan. Muuten kerrassaan loistava vekotin.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w55",
+  "name": "Henrik Niemelä",
+  "date": "2018-03-14",
+  "html": "<p>Moro<br>Oisit ehkens saanu Plantronicsille suoraa soittaessa takkuuseen (ja vittuilemalla enempi Gigantissa) Mennee tuommoset oletuseliniän ja materiaaliheikkouen piikkiin, ei oo tuolla firmalla nii yhen HF:n päälle, ku palautusprosentti varmaan jottae 0.001 luokkaa...</p><p>Henkka</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w54",
+  "name": "Risto Niva",
+  "date": "2020-09-06",
+  "html": "<p>Morjes!Mulle kävi nyt just noin eli se on tyyppivika.Sanoivat ettei korvata kun on muka fyysinen vika🙈Tyyppivika sanoisin😠Hyvähän se muuten olis🤝</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ }
+]

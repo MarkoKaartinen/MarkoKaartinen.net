@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w66",
+  "name": "Petri",
+  "date": "2016-07-19",
+  "html": "<p>Aikaisemmin käytin langattomia kuulokkeita, jotain satasen headsettia, mutta luovuin niistä sen jälkeen kun alkoivat pusertamaan korvalehtiä... Tajusin, että kuulokekupin pitää olla niin iso että korvanlehti ei jää puristuksiin. Ensimmäisen maailman ongelmia. ;-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w65",
+  "name": "Marko",
+  "date": "2016-07-19",
+  "html": "<p>Nämä ei omassa käytössä omaa korvaa pusertaneet, nämä on taas tietenkin osittain henkilökohtaisia asioita eli toisille käy ja toisille ei käy. Pelikuulokkeina on langalliset Hyper X Cloud II kuulokkeet ja niissä on isommat kupit. Nekin toimii pitemmissä sessioissa oikein mallikkaasti omassa päässäni.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

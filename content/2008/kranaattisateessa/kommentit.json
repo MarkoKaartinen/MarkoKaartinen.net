@@ -1,0 +1,29 @@
+[
+ {
+  "id": "w936",
+  "name": "Marko",
+  "date": "2008-05-20",
+  "html": "<p>Päivitystä postaukseen. <br>Lisäsin muutaman kuvan teille.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w935",
+  "name": "Petri",
+  "date": "2008-05-20",
+  "html": "<p>Vaikuttaa erittäin viihdyttävältä peliltä noiden screenshottien perusteella. Tämä olisi unelmapeli minulle jos se ei sijoittuisi &quot;lähitulevaisuuteen&quot;, vaan 2. Maailmansodan seutuville kuten varhaisemmat Call Of Dutyt.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w934",
+  "name": "Marko",
+  "date": "2008-05-20",
+  "html": "<p>Sinä olet siis yksi niistä henkilöistä, jotka eivät ole kyllästyneet tähän toiseen maailmansotaan. <br>Nimittäin CoD 4:sta on pitkälti kehuttu siitä myöskin, että se ei sijoitus toiseen maailmansotaan.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

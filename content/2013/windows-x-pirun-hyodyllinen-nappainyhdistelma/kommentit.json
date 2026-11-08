@@ -1,0 +1,29 @@
+[
+ {
+  "id": "w277",
+  "name": "Ilkka Rautiainen",
+  "date": "2013-07-15",
+  "html": "<p>Tää on todellakin hyödyllinen näppäin yhdistelmä. Itse olen käyttänyt tätä alusta astin. Parilla Win 8 &amp; Win srv 2012 kursilla käynnyt ja niissa on konsultti kans aina hehkuttanut tätä :D Niin tämä sama näppäinyhdistelmä toimii myös 2012:kin.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w276",
+  "name": "Marko",
+  "date": "2013-07-15",
+  "html": "<p>Sietääkin hehkuttaa. Itsellä on tuo Win8 käyttäminen lähinnä tämmöistä: Koneen aukasee -&gt; Desktopille -&gt; Tee kaikki siellä. Tuo starttiruutu on täysin turha itsellä :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w275",
+  "name": "Ilkka Rautiainen",
+  "date": "2013-07-21",
+  "html": "<p>Huomasin muuten tänään, että tämä tulee myös kun klikkaa hiiren kakkos painikkeella ruudun vasemmasta alakulmasta.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ }
+]

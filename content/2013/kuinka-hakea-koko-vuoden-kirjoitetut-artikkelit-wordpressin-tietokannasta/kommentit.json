@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w339",
+  "name": "Petri",
+  "date": "2013-01-04",
+  "html": "<p>Tai jos käytät looppia, tietyn vuoden postaukset saa esiin tällä:</p><p>query_posts( &#x27;year=2012&#x27; );</p><p>Tosin en tiedä poimiiko tuo mukaan myös sivut eikä pelkästään artikkeleita.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w338",
+  "name": "Marko",
+  "date": "2013-01-04",
+  "html": "<p>Tätä en ole testannut, jossain tilanteessa saattaa tulla draftit yms. - joskus olen saanut haettua kaiken mahdollisen tahtomattani :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

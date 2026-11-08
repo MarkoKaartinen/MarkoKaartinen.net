@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w62",
+  "name": "Petri",
+  "date": "2016-08-26",
+  "html": "<p>Kamera näyttää tuottavan tosi hyvälaatuista kuvaa. Kuvatiedostojen EXIF-tietoihin näemmä tulee reilusti infoa, kuten tuossa kissakuvassa. Siellä on tyypillisten infojen lisäksi GPS:n avulla koordinaatit yms. Oikein hyvä. :-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w61",
+  "name": "Marko",
+  "date": "2016-08-26",
+  "html": "<p>Hintaluokan ollessa tuo niin aika kova veto Huaweilta.<br>64 gigaisessa mallissa et tartte muistikorttia ihan heti joten voit pistää vaikka kaksi sim korttia sisään.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

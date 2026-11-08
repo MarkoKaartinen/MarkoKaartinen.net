@@ -1,0 +1,38 @@
+[
+ {
+  "id": "w579",
+  "name": "Terppa",
+  "date": "2011-11-28",
+  "html": "<p>Se ettei virallisia päivityksiä enää tehdä phpBB2:een ei kerro sitä etteikö sen tietoturvaa päivitettäisi? Olen ainakin saanut käsityksen et esim ilmaisia foorumeita tuottavat palveluntarjoajat päivittävät itse vielä phpBB2 foorumeiden tietoturvaa.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w578",
+  "name": "Marko Kaartinen",
+  "date": "2011-11-28",
+  "html": "<p>Totta voi olla tuokin, mutta tästä on saanut vähän huonon kuvan päivityksistä. Itse en henkilökohtaisesti usko, että ne ovat olleet ajantasalla - varsinkaan jos versio on ollut 2.0.22.<br>Tämä olisi hauska kyllä tietää onko sitä päivitetty näillä epävirallisilla päivityksillä. Mikäli jollain on tietoa niin jakoon!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w577",
+  "name": "Petri",
+  "date": "2011-11-29",
+  "html": "<p>Onko hajua miten se phpBB:n kautta tehty murto on tehty? Olen kiinnostunut murtautumisen teknisestä toteutuksesta, sillä se auttaisi hahmottamaan mikäli voisin parantaa omien sivustojeni tietoturvaa jollain muotoa.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w576",
+  "name": "Marko Kaartinen",
+  "date": "2011-11-29",
+  "html": "<p>Itselläni ei ole tätä tietoa, olisi kyllä hyvä tietää sinällään miten tämä tehtiin. Liekö ollut perus SQL-injektio tai sitten jotain muuta?<br>Mikäli joku tietää niin voisi valaista tätäkin asiaa, pitää itsekin katsella josko löytäisi jotain vastauksen tynkää.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

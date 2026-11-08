@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w197",
+  "name": "Petri",
+  "date": "2014-01-01",
+  "html": "<p>Hyvää alkanutta vuotta 2014, Marko! :-) Toivottavasti nähdään vielä lunta maassa. On jotenkin surkeaa kuinka tammikuussa sataa vettä ja nurmikko on vihreänä.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w196",
+  "name": "Marko",
+  "date": "2014-01-02",
+  "html": "<p>Kiitos samoin Petri!<br>Tällä kertaa tämmöinen talvi ja jos sitä lunta jollain ilveellä tulee niin sitten se sulaa pois parin kolmen kuukauden päästä.</p><p>Luonto on ihmeissään tämmöisestä talvesta.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

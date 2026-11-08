@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w72",
+  "name": "Petri",
+  "date": "2016-06-09",
+  "html": "<p>Pystyykö muistikampoja vaihtamaan? Tuo pari gigaa on nykyään aivan liian vähän. Minulla taitaa olla joku useamman vuoden ikäinen miniläppäri jossa on saman verran. :-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w71",
+  "name": "Marko",
+  "date": "2016-06-09",
+  "html": "<p>Jos pitäisi veikata niin ei voi vaihtaa sillä kaikki äly on tuossa näytössä. Varmaksi en osaa sanoa, mutta ei se mikään helppo homma olisi.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

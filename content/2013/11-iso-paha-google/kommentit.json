@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w220",
+  "name": "Petri",
+  "date": "2013-11-15",
+  "html": "<p>En usko, että saat AdSenseen tiliä takaisin lähettämällä Googlelle viestiä. Vaikka oletkin hylännyt tämän idean, mainitsen sen silti: ainoa keino saada AdSensesta rahaa ulos sinun tilanteessasi on käyttää jonkun toisen AdSense-tiliä. ;-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w219",
+  "name": "Marko",
+  "date": "2013-11-18",
+  "html": "<p>Se voi olla joo. Yrittänyttä ei kuitenkaan laiteta!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w313",
+  "name": "Petri",
+  "date": "2013-03-07",
+  "html": "<p>Sain Porvoon Huoneistokeskuksessa eilen ja toissapäivänä asiallista palvelua vaikka olin heille varmaankin asiakkaana pienimmästä päästä kun kyse oli pelkän vuokrasopimuksen tekemisestä muutamaksi kuukaudeksi. Hyvästä asiakaspalvelusta haluan kertoa myös täällä netissä. Ehkä tähän kirjoittamani palaute saa jonkun toisen Markon blogin lukijan harkitsemaan Huoneistokeskusta kun hänellä on tarvetta asioida asumisasioiden takia kyseisen alan firmassa. :-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w312",
+  "name": "Marko",
+  "date": "2013-03-07",
+  "html": "<p>Kyllä, näin se lähtee liikkeelle se huono/hyvä palaute yrityksistä. Tietty jonakin päivänä joku voi saada huonoa palvelua samassa paikassa missä toinen sai hyvää.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

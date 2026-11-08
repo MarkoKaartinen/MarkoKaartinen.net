@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w588",
+  "name": "Petri",
+  "date": "2011-11-17",
+  "html": "<p>Toivottavasti blogillasi ja firmallasi on luvassa ainakin toiset kuusi vuotta. Tässä maassa tarvitaan ajatuksia ja yrittäjiä. :-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w587",
+  "name": "Marko Kaartinen",
+  "date": "2011-11-17",
+  "html": "<p>Itselläni ei ole aikomusta lopettaa kumpaakaan :P Firmalla on vasta 6kk ;)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

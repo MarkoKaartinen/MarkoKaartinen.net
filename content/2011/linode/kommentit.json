@@ -1,0 +1,56 @@
+[
+ {
+  "id": "w556",
+  "name": "incidence",
+  "date": "2011-12-16",
+  "html": "<p>Olen koittanut lähes kaikki suosituimmat VPS-palveluntarjoajat (suomalaisiakin). Ja Linode on ylivoimaisesti paras. =)</p><p>Pihtareille tietty on vielä tarjolla Amazon EC2:n ilmainen mikroinstanssi, pelkän irssin pyörittämiseenhän se soveltuu varsin mainiosti.</p><p>Moni on tosin valittanut EC2 -mikroinstanssin CPU:n steal timen olevan aivan liian korkea, mutta ei tuo paljoa haittaa jos ei aio mitään raskaampaa ajaa. (Esim tietokantapalvelinta)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w555",
+  "name": "Marko Kaartinen",
+  "date": "2011-12-16",
+  "html": "<p>Itselläni Linodella pyörii vähän kaikenlaista omaa testailua ja katsoo aina mitä keksii sinne :P Esimerkiksi tuo minun <a href=\"http://joulu.kalenteri.me\" rel=\"nofollow ugc noopener\" target=\"_blank\">Joulukalenterini</a> on Linoden päällä.</p><p>Amazonin EC2 settejä en ole koittanut, mutta ilmeisesti sekin on ihan pätevä viritys. Aikaa kun olisi niin tekisi vaikka sun mitä ja sitä rahaakin tartteis kaiken kivan testaamiseen :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w554",
+  "name": "incidence",
+  "date": "2011-12-17",
+  "html": "<p>Rahaa? =) EC2-micro instanssi ei maksa mitään. Kannattaa sitä koittaa myös joskus. Sen palomuuri+tietoturva on aika &lt;3</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w553",
+  "name": "Marko Kaartinen",
+  "date": "2011-12-17",
+  "html": "<p>Eikös tuo EC2 oo ilmanen vuoden ajan?</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w552",
+  "name": "Marko",
+  "date": "2011-12-17",
+  "html": "<p>Linode on omaa luokkaansa, myös hintansa osalta. Hyvä jos tarvitsee sen tasoista palvelua, mutta itseä kiinnostaa enemmän ns. budjettiluokan palvelut (luotettavuus/hinta).</p><p>Oletko koittanut <a href=\"https://www.bhost.net/\" rel=\"nofollow ugc noopener\" target=\"_blank\">BHost.netin</a> VPS:iä, jotka tarjoavat spekseiltään &quot;samaa&quot; kuin Linode, mutta murto-osalla hinnasta? Sitä on ainakin kehuttu &quot;halpojen&quot; VPS:ien osalta <a href=\"http://www.lowendbox.com/\" rel=\"nofollow ugc noopener\" target=\"_blank\">Low End Boxissa</a>.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w551",
+  "name": "Marko Kaartinen",
+  "date": "2011-12-17",
+  "html": "<p>Hmm.. BHostia en ole kokeillut (ainakaan vielä). Pitää laittaa korvan taakse! Noissa halvoissa tuppaa olemaan se ongelma, että siellä karsitaan sistten jostain. Liikaa VPS:siä samalla hostilla ja tämmöstä pientä mukavaa. Jokunen paskempi kokemus sattunut matkan varrellakin :P</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

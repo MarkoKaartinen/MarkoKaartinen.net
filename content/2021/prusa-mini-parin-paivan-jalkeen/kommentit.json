@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w2",
+  "name": "Matias",
+  "date": "2022-04-12",
+  "html": "<p>Hei!<br>Kiitos hienosta artikkelista. Tämän perusteella hommasin koulullemme myös Prusa minin. Ekat tulostuskokeilut sujuivat huonosti, kun tulostettava objekti tarttui aina suuttimeen kiinni ja nousi pöydältä ilmaan. Yritin laskea nozzlea, lämmittää pöytää mutta vasta liima pöydällä riitti pitämään tulosteen kiinni pöydässä, vaikka ohjeissa erikseen sanottiin että PLA ei tarvitse liimaa.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w1",
+  "name": "Marko Kaartinen",
+  "date": "2022-04-19",
+  "html": "<p>Ei pitäisi kyllä tarvitakaan.<br>Prusan tukea voi ja kannattaa kiusata niin ne auttaa. Tosin englanniksi.</p><p>Samoin kannattaa ajella sitä testiä jonka aikana live adjust z säätää.</p><p>Mullakin vähän vaihtelevia tuloksia langasta ja varmaan kuun asennosta riippuen ton tarttumisen kanssa. Samaa kuitenkin vähän joka printterissä ollut.</p><p>Itse putsailen IPA:lla tuota petiä.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

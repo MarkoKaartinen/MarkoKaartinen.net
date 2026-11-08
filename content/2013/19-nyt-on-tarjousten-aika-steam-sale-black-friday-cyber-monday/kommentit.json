@@ -1,0 +1,38 @@
+[
+ {
+  "id": "w216",
+  "name": "Petri",
+  "date": "2013-11-29",
+  "html": "<p>Tsiigaa Steamista 5 euron arvoinen Surgeon Simulator. :-) Vaikuttaa tosi lupaavalta.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w215",
+  "name": "Marko",
+  "date": "2013-11-29",
+  "html": "<p>Omistan jo ko. pelin :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w214",
+  "name": "Petri",
+  "date": "2013-11-30",
+  "html": "<p>Okei. :-) Hommasin sen eilen Steamin kautta kun oli vajaan vitosen arvoinen. Oletko laittanut VHS-kasetin päälle ja löytänyt sieltä bonuskentän? Löysin sen äsken ja yritin tehdä sydämensiirtoa, mutta ei se jostain syystä tunnu onnistuvan vaikka uusi sydän on otettu jääkaapista ja pantu rintakehään.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w213",
+  "name": "Marko",
+  "date": "2013-11-30",
+  "html": "<p>Se on aika hauska peli ja haastavakin kun controllit on vängät :D<br>En ole koittanut pistää VHS sisään ja enpä ole ihan äsken pelannutkaan tuota.</p><p>Tällä hetkellä työn alla on Trials Evolution, XCOM ja Contagionin nappasin salesta juuri :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

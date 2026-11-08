@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w112",
+  "name": "Cameliine",
+  "date": "2019-12-26",
+  "html": "<p>Hei, vieläkö laite toimii? Ostin marraskuussa 2015, muutoin täysin moitteettomasti toimiva ja ajantasainen, mutta akun blokit menevät pimeäksi yksi kerrallaan eli laite sammuu, kun tulee akusta pimeä blokki vastaan. Käynnistyy uudelleen heti latauksessa ja näyttää akun olevan esim 56% täynnä.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w111",
+  "name": "Marko Kaartinen",
+  "date": "2019-12-27",
+  "html": "<p>Tämän olen myynyt joku vuosi takaperin jo pois. Toimivana möin silloin.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

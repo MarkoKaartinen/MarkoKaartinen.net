@@ -1,0 +1,74 @@
+[
+ {
+  "id": "w767",
+  "name": "Jyri V.",
+  "date": "2010-10-22",
+  "html": "<p>Hienoa työtä. Mahtava teema. Tässä on sitä jotain!</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w766",
+  "name": "Marko Kaartinen",
+  "date": "2010-10-22",
+  "html": "<p>Kiitoksia!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w765",
+  "name": "Taap",
+  "date": "2010-10-22",
+  "html": "<p>Diggaan!</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w764",
+  "name": "Marko Kaartinen",
+  "date": "2010-10-22",
+  "html": "<p>Niin minäkin!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w763",
+  "name": "Rolle",
+  "date": "2010-10-23",
+  "html": "<p>Tätä on odoteltukin, ja on kyllä todella hieno! Mukavasti hieman perinteisempi ja leveämpi. Hauskasti myös markomaista persoonallista otetta. Tykkään kyllä kovasti.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w762",
+  "name": "Marko Kaartinen",
+  "date": "2010-10-23",
+  "html": "<p>Onhan siinä &quot;markomaisuutta&quot; kun Marko on eksynyt teemaankin ;)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w761",
+  "name": "MarkoTesti",
+  "date": "2010-10-23",
+  "html": "<p>Testi kommentti / testaan subscribe lisäriä.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w760",
+  "name": "Marko Kaartinen",
+  "date": "2010-10-23",
+  "html": "<p>Toimii, mutta vaatii twiikkausta.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

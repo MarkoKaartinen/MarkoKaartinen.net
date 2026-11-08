@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w404",
+  "name": "Jorge",
+  "date": "2012-10-04",
+  "html": "<p>Ei nakojaan mennyt kaupaksi. Meinaatko pistaa takaisin myyntiin huuto.nettiin? Paljonko toivot saavasi, eli mihin hintaan myisit suoraan?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w403",
+  "name": "Marko",
+  "date": "2012-10-04",
+  "html": "<p>EI mennyt ei, kamera on tosin myynnissä Kuopionkirpparilla, päivitinkin linkkiä siihen. Tuolla paketilla on hintaa 400 euroa ja eilen koitettiin tarjota vaihdossa ensin läppäriä ja sitten autoa (en kysellyt edes millainen auto, koska ei se kovin kummoinen voi olla tuohon hintaan)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

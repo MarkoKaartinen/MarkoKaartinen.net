@@ -1,0 +1,38 @@
+[
+ {
+  "id": "w690",
+  "name": "Rolle",
+  "date": "2010-11-30",
+  "html": "<p>Vähän jotenkin arvasin, kun olet niin kiireinen mies :-D</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w689",
+  "name": "Marko Kaartinen",
+  "date": "2010-11-30",
+  "html": "<p>Ei se ehkä niinkään aika vaan se innostuksen ja suoranaisen motivaation saaminen joka päivä, että saisi sen kuvan otettua.<br> <br>Tämmöinen haaste on hyvä jos on innostusta joka päivä ottaa se kuva - käsitellä - julkaista.</p><p>Kuvaa tulen ottamaan - en ehkä kerran päivässä tyylillä. Tosin joku lyhyemmän ajan setti vois olla pätevä tai sitten jotain muuta haastetta seuraavaksi. Ehkä jotain blogaamiseen liittyvää... hmm pistetäänhän korvaa taa.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w688",
+  "name": "Mika Latvala",
+  "date": "2010-12-31",
+  "html": "<p>Pitäisiköhän mun nyt sitten varastaa tuo projekti-idea? Ajan eikä innostuksen suhteen olisi mitään ongelmaa.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w687",
+  "name": "Marko Kaartinen",
+  "date": "2010-12-31",
+  "html": "<p>Anna mennä! Näitä projuja on hauska seurata jos vain joku jaksaa puurtaa niitä! Ja varsinkin jos jaksaa tehdä töitä niiden eteen!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

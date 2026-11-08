@@ -1,0 +1,29 @@
+[
+ {
+  "id": "w224",
+  "name": "Roni Laukkarinen",
+  "date": "2013-11-05",
+  "html": "<p>Näitä on ihan mukava seurata ja kiva nähdä että töitä riittää. Käytätkö videoiden julkaisuun jotain pluggaria joka viskaa lennosta WordPressiin, vai kuinka on sujuvinta?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w223",
+  "name": "Roni Laukkarinen",
+  "date": "2013-11-05",
+  "html": "<p>...painoinkin liian nopeasti entteriä, kuuntelin videota samalla kun kirjoitin. Eli näemmä laitat vasta koneella viteon menemään. :) kai niitä automaattisiakin vipstaakkeja löytyisi.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w222",
+  "name": "Marko",
+  "date": "2013-11-05",
+  "html": "<p>Viskaan ihan puhelimella YouTubeen YouTuben omalla appsilla. Siitä sitten linkki manuaalisesti WordPressiin. Voisi varmaankin tuon automatisoida, että tulisi tänne automaattisesti tietyillä tageilla.</p><p>Suoraan en tuolloin voinut alkaa uppia kun luurin akku alkoi olla vähissä ja piti vielä käväistä asiakkaiden ongelmia ratkomassa :)</p><p>Nämä videoblogit on ihan kivoja kun tekee ne hieman kieliposkella ja tällä hetkellä teen vielä mahdollisimman vähällä editoinnilla niin ei mene aikaakaan ja näitä on siksi helppo lähteä tekemään.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

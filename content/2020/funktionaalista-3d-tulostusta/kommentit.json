@@ -1,0 +1,47 @@
+[
+ {
+  "id": "w10",
+  "name": "Pete",
+  "date": "2020-08-25",
+  "html": "<p>Muistan lukeneeni kuinka jotkut tekevät rahaa myymällä autojen pienosia,  esim. klipsejä sekä kojelaudan säätönappuloita...</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w9",
+  "name": "Marko Kaartinen",
+  "date": "2020-08-25",
+  "html": "<p>Tästä oli aikoinaan joku juttu jossain lehdessä. Muistan itsekin. Sillä itsekin vähän opetellut tuota mallintamista, mutta paljon opettelua itse ohjelmassa vielä.</p><p>Tuntuu tosiaan hassulta, jos jonkin muoviosan hinta on 10+€ kun itse saat tulostettua vastaavan muutamilla kymmenillä senteillä. Tietty menee omaa aikaa kun suunnittelet mallin sekä sitten teet pari protoa... Mutta on siinä oma onnistumisen fiilis sen jälkeen.</p><p>Uupuipa pari kaapelikiinnikettä kun johtoa pistin seinän varteen. Nekin sai näppärästi tulostettua ja säästyi kauppareissulta.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w8",
+  "name": "Pete",
+  "date": "2020-08-26",
+  "html": "<p>Juu, niinpä! Siinä voi olla markkinarako jos on alkuperäisiä osia ja mallintaminen onnistuu. :-) Esim. Renaulteissa on kuulemma ikkunan nostimissa ajan myötä hapristuva muoviosa. Esim. tässä on tuo kellertävä pala, joka taitaa olla muovia:</p><p><a href=\"https://kuvat.autopurkaamot.com/osat/978951_1_orig.jpg\" rel=\"nofollow ugc noopener\" target=\"_blank\">https://kuvat.autopurkaamot.com/osat/978951_1_orig.jpg</a></p><p>Ja tässä on valkoinen muovipalikka: <a href=\"https://kuvat.autopurkaamot.com/osat/1089777_1_orig.jpg\" rel=\"nofollow ugc noopener\" target=\"_blank\">https://kuvat.autopurkaamot.com/osat/1089777_1_orig.jpg</a></p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w7",
+  "name": "Marko Kaartinen",
+  "date": "2020-08-26",
+  "html": "<p>Osa noista voi olla tuurillaan jo valmiiksi mallinnettu :) Niiden myyminen riippuu sitten tekijän lisenssistä. Thingiversessä näkyi jotain jo olevankin.</p><p>Noiden mallintaminen itsekin sinällään onnistuu suht helposti jos vain saa orggis osan ensin käteen. Näin siitä voi ottaa mitat ja kaikki jonka jälkeen sitten mallintaa sen.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w6",
+  "name": "Marko Kaartinen",
+  "date": "2020-08-26",
+  "html": "<p>Noissa pitää sitten huomioida mihin tarkoitukseen osa tulee ja miten kestävä sen pitää olla. Itse olen tulostellut PLA:ta vasta ja käsittääkseni jos haluaa siitä kestävempää niin ABS olisi parempi vaihtoehto. ABS taitaa tosin vaatia tulostukselta kovemmat lämpötilat ja sitten kotelon sekä ilmanvaihdon siihen.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

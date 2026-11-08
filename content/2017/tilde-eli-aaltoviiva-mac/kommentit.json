@@ -1,0 +1,47 @@
+[
+ {
+  "id": "w31",
+  "name": "ei toimi",
+  "date": "2020-04-19",
+  "html": "<p>Ohje ei neuvo oikein. Käytössäni on macOS Catalina 10.15.4. Voisitko korjata ohjeen?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w30",
+  "name": "Marko Kaartinen",
+  "date": "2020-04-21",
+  "html": "<p>Nyt en pysty sanomaan mitään koska ei ole tällä hetkellä macOS konetta enää käytössä. Jos joku tietää oikeaa vastausta niin antaa paukkua.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w29",
+  "name": "Jukka",
+  "date": "2020-07-17",
+  "html": "<p>Apple suuressa viisaudessaan on siirtänyt tilden toisaalle. Löytyy Catalinassa kahtena eri versiona alt + k (~) tai alt+shift+k ( ̃) (ja välilyönti tai jokin kirjain, tarpeesta riippuen, noiden jälkeen). tuo alt+k+välilyönti toimii esimerkiksi terminaalissa.</p><p>Tästä kannattaa laittaa bugiraportti apple.com/feedback, sillä tässä on rikottu pitkän linjan toiminallisuus.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w28",
+  "name": "Väiski",
+  "date": "2023-08-28",
+  "html": "<p>itselläni ei tomi mikään edellämainituista yhdistelmistä.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w27",
+  "name": "Marko Kaartinen",
+  "date": "2023-09-07",
+  "html": "<p>Päivitin artikkeliin. Nyt omassa M1 MacBook Prossa toimii Option + ¨ merkki. Ja sillä tosiaan tulee ~ eli aaltoviiva.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

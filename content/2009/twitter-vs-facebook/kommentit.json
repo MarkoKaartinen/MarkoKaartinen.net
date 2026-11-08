@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w880",
+  "name": "Torsti",
+  "date": "2009-06-17",
+  "html": "<p>Kiitos hienosta merkinnästä. Laitoin sinut nyt oman blogini Tuokion linkkilistaan.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w879",
+  "name": "Marko Kaartinen",
+  "date": "2009-06-17",
+  "html": "<p>Kiitoksia vain!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

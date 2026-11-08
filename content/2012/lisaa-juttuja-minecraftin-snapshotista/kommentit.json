@@ -1,0 +1,47 @@
+[
+ {
+  "id": "w473",
+  "name": "Lamppu",
+  "date": "2012-07-09",
+  "html": "<p>Millä softalla kuvaat, kun itellä o aika lagista jos koittanu :[</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w472",
+  "name": "Marko Kaartinen",
+  "date": "2012-07-09",
+  "html": "<p>Frapsilla nappailen tuota. Pistinköhän tallentaa puolessa koossa ja 30fps. Näkyy toimivan Minen kanssa oikein pätevästi. Editoin sitten noita iMoviella kun tuppaa Fraps tekemään aika isokokoisia videoita ja useassa osassa.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w471",
+  "name": "Lamppu",
+  "date": "2012-07-09",
+  "html": "<p>Kk, pitää kokeilla jos sillä toimis. Muistaakseni ollu ongelmana joskus, että ei Fraps ees tunnista MineCraftia = ei oo voinu kuvata :/</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w470",
+  "name": "Lamppu",
+  "date": "2012-07-09",
+  "html": "<p>Joka johtu siitä että ei ollu fullscreen .____.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w469",
+  "name": "Marko Kaartinen",
+  "date": "2012-07-09",
+  "html": "<p>Minusta se tunnisti sen jo joku aikaa sitten ilman full screeniäkin. Itse pelaan fullscreeninä, joten tuo ei sinäsä ole ongelmana.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

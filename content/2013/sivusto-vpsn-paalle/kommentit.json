@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w291",
+  "name": "Petri",
+  "date": "2013-04-24",
+  "html": "<p>Sivuston pitäminen Suomessa sijaitsevalla palvelimella voi vaikuttaa hakukonenäkyvyyteen myönteisellä tavalla. Tällainen näkökanta kannattaa huomioida jos pidät SEO:ta tärkeänä. :-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w290",
+  "name": "Marko",
+  "date": "2013-04-24",
+  "html": "<p>Nythän sivusto sijaitsee fyysisesti Ruotsin puolella, mutta suomalaisella hostilla :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w354",
+  "name": "Rolle",
+  "date": "2012-12-06",
+  "html": "<p>Kallis. En usko että tulee käytettyä omassa iPad Minissä niin paljon että maksaisi itsensä takaisin.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w353",
+  "name": "Marko",
+  "date": "2012-12-06",
+  "html": "<p>Hinta on suht kova jos ei tarvitse ja pärjää muilla sovelluksilla. Itsehän en maksanut täyttä hintaa kun se taisi olla tarjouksessa kun se julkaistiin (tarkistin niin hinta oli -50% nykyisestä).</p><p>Panicin tuotteet on muutenkin aivan pirun laadukkaita ja toimivia.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

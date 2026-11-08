@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w918",
+  "name": "Martti",
+  "date": "2008-10-26",
+  "html": "<p>Moi! <br>Saanen tarjota suomenkielistä ja toimivaa linkkiä: <br>  <a href=\"http://www.minilappari.com\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://www.minilappari.com</a></p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w917",
+  "name": "Marko",
+  "date": "2008-10-26",
+  "html": "<p>@Martti: Saat tarjota tietty, mutta linkki toimi kun kirjoitin postauksen ja uusi linkki on <a href=\"http://products.liliputing.com/\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://products.liliputing.com/</a> <br> <br>Ja sivuston perusidea on hyvä mutta valikoima on suppea ja 901:n saa halvemmallakin, itse maksoin 399€ omastani. <br>Käyttäisin ennemmin vertailuun Liliputingin sivua kuin tuota tämän hetkisessä kokoonpanossaan!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

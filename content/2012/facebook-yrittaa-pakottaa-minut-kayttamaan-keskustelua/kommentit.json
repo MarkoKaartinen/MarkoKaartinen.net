@@ -1,0 +1,29 @@
+[
+ {
+  "id": "w357",
+  "name": "Martti Laine",
+  "date": "2012-12-03",
+  "html": "<p>Ratkaisu: Valitse, ketkä näkevät sen että olet online-tilassa. Muistaakseni kuitenkin kaikille kavereille voi viestittää vaikkei näkyisikään heille paikallaolevana. Voi toki olla että muista väärin, en nimittäin käytä Facebookin toimintoja kuin joskus harvoin pakon edessä.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w356",
+  "name": "Marko",
+  "date": "2012-12-03",
+  "html": "<p>Pitänee tutkia tuota, että miten &quot;esto&quot; tjs. toimisi. Kiitos kommentistasi!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w355",
+  "name": "Marko",
+  "date": "2012-12-18",
+  "html": "<p>Tähän oli juurikin ratkaisuna tuo. Otin keskustelun lisäasetuksista kohdan käyttöön: Ota keskustelu käyttöön vain joillekkin kavereille. Laitoin siihen pari kaveria ja sen jälkeen tuo on ainakin vaikuttanut toimivan oikein. En ole vielä ongelmia huomannut.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

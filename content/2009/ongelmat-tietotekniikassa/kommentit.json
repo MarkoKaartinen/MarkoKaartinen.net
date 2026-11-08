@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w842",
+  "name": "Osmo",
+  "date": "2009-08-12",
+  "html": "<p>Salama rikkoi tuossa taannoin vanhempieni wlan-modeemin, tilalle tuli Zyxelin P-660HW-D1. Yhdisti nettiin ihan normaalisti, mutta langaton verkko piti saada toimimaan, joten minä säätelin sitä, datanomi kun olen itsekin.<br> <br>Aluksi kannettava tunnisti verkon oikein, mutta ei yhdistänyt verkkoon vaikka salasana oli oikein, jota muutettiin pariinkin kertaan. Muutaman modeemin resetoinnin jälkeen kannettava lakkasi tunnistamasta verkkoa automaagisesti, väitti ettei verkon asettamat vaatimukset ja koneen asetukset vastanneet toisiaan.</p><p>Hetken päästä suojausasetuksia muuttaessani modeemin Internet-valo alkoi välkkyä puna-viher-oranssina eikä edes pöytäkoneella päässyt internettiin. Kokeilin huvikseni muuttaa Encapsulation -asetusta ja nyt kaikki toimii oikein. Toistaiseksi...</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w841",
+  "name": "Jyri V.",
+  "date": "2009-08-13",
+  "html": "<p>Anteeksi, oletko aivan varma? Ko. malli on täynnä bugeja, itselleni kertyi kokonainen tarina tuota palautellessa...</p><p><a href=\"http://hpguru.net/tag/verkkokauppacom/\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://hpguru.net/tag/verkkokauppacom/</a></p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ }
+]

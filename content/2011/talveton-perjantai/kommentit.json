@@ -1,0 +1,65 @@
+[
+ {
+  "id": "w575",
+  "name": "o-p",
+  "date": "2011-12-04",
+  "html": "<p>Arduinojuttuja ehdottomasti lisää :)</p><p>Ajattelin tuossa itsekin hommailla tuon Ethernet Shieldin ja rakennella sillä jotain kivaa. NFC myös kiinnostaisi, eiköhän tule juttua blogiin, jos alan jotain väsäämään :)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w574",
+  "name": "Marko Kaartinen",
+  "date": "2011-12-04",
+  "html": "<p>Pitää melkein alkaa säätelemään jotain :P<br>Arduino tuppaa minusta lämpiämään sen Ethernet Shieldin kanssa ja pohdiskelin, että pitäisi pistää joku perus kotelotuuletin siihe viereen :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w573",
+  "name": "Petri",
+  "date": "2011-12-05",
+  "html": "<p>Arduino on siis joku ohjelmoitava mikropiiri? Olen joskus törmännyt tuohon sanaan, mutta vielä en ole sen syvällisemmin jaksanut tutustua. Pystyisikö Arduino-piirin kiinnittämään johonkin itse tehtyyn robottiin?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w572",
+  "name": "Marko Kaartinen",
+  "date": "2011-12-05",
+  "html": "<p>OP:han on tehnyt kameradollyn jota ohjaa Arduino (<a href=\"http://unknownpixels.com/blogi.php?kategoria=rakentelu&amp;id=137\" rel=\"nofollow ugc noopener\" target=\"_blank\">linkki</a>).<br>Ja käsittääkseni Arduinoa on käytetty myös robotinkin älynä?  Tohon on saatavilla ties mitä ja aika hyvin löytyy valmiita koodinpätkiä netistä.</p><p>Aloittelijalle aivan loistava alusta :)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w571",
+  "name": "Petri",
+  "date": "2011-12-05",
+  "html": "<p>Ai niin! Luinkin sen OP:n kirjoittaman jutun, mutta olin ihan unohtanut. :-D</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w570",
+  "name": "Miika",
+  "date": "2011-12-08",
+  "html": "<p>Kirjoita juttu yrityksesi toiminnasta, tuotteista, tuotekehityksestä ja toimintafilosofiasta. Tulevaisuuden visioita? Voima-alueita ja muuta. Mikä yrityksen pyörittämisessä on vaikeinta? Minkälaista apua kenties tarvitsisit kehittämiseen ym.?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w569",
+  "name": "Marko Kaartinen",
+  "date": "2011-12-08",
+  "html": "<p>Mmm.. tämä voisi olla joo - ehkä kuuluisi firman blogin puolelle enemmänkin. Pitää katsella tuommoista kunhan kiireet hellittää firman puolella. Nehän ei tietty saisi hellittää koskaan ;) Positiivinen ongelma jos töitä on enemmän kun kerkee tehdä.<br>Pitää pohdiskella :) Kiitos ideoista!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

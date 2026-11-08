@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w64",
+  "name": "Taina Kallela",
+  "date": "2017-02-22",
+  "html": "<p>Hei, en tiedä voitko auttaa, mutta poikani 10v. pelaa Pokemon go ja nyt hänen puhelimessaan lukee, että Pokemon go on pysäytetty. Muuten toimii ok, mutta yrittäessään kerätä uusia niin loppuu näin. Mitä tehdä, itse en ymmärrä pelistä mitään.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w63",
+  "name": "Marko Kaartinen",
+  "date": "2017-02-22",
+  "html": "<p>Moikka Taina!<br>Kerrotko vaikka mikä puhelin on kyseessä? Eli merkki/malli.</p><p>Voi olla että Pokemonin uudelleenasennus auttaa tai sitten ei.<br>Voi olla myös se, että puhelimen tehot ei riitä - siksipä kyselin merkkiä/mallia.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

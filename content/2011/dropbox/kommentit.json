@@ -1,0 +1,29 @@
+[
+ {
+  "id": "w628",
+  "name": "Enniriina",
+  "date": "2011-03-27",
+  "html": "<p>Dropbox lan-käytössä on isojen tiedostojen kanssa aika kömpelö. Kuitenkin lähiverkko on nopeampi kuin se, että siirretään ensin tiedostot nettiin palvelimelle.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w627",
+  "name": "Marko Kaartinen",
+  "date": "2011-03-27",
+  "html": "<p>LAN käytössä ja isojen filujen kanssa on kömpelö, tosin vikaa on myös ISP:n uppikaistan vähyydessä... Verkkokovo tai vastaava toimii tuolloin paremmin.<br> <br>Teksteissä ja kuvissa tämä toimii kuitenkin vallan mainiosti.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w626",
+  "name": "Rolle",
+  "date": "2011-03-28",
+  "html": "<p>Nettinopeudet alkaa olla niin suuria, että isoissakin tiedostoissa Dropbox on koettu varsin hyödylliseksi välineeksi. Ainoastaan Dropboxin ilmaisversion tilarajoitus 2GB tulee vastaan, mutta esimerkiksi 700 mb tiedosto synkronoituu reilusti alle 20 minuutissa kotikoneelta työkoneelleni.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ }
+]

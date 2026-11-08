@@ -1,0 +1,74 @@
+[
+ {
+  "id": "w625",
+  "name": "Enniriina",
+  "date": "2011-03-27",
+  "html": "<p>Näyttäs tuossakin olevan ongelmaa noiden viagra-postaajien kanssa. Tosin missä foorumisoftassa on täysi suoja spämmäykselle.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w624",
+  "name": "Marko Kaartinen",
+  "date": "2011-03-27",
+  "html": "<p>Hahah :D hauskaa kyllä, että nuo postaajat tuli vasta tämän postauksen jälkeen :D Botit myllertää.<br> <br>Pitää tutkailla olisiko joku pluggari jolla tuota voisi hieman rajoittaa :)<br> <br>Jokaisessa on ongelmia noiden kanssa. WordPressin Akismet tuppaa syömään noi vaa aika pätevästi.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w623",
+  "name": "Petri",
+  "date": "2011-03-29",
+  "html": "<p>Tuo foorumisysteemi kaipaa selkokieliset URL-osoitteet.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w622",
+  "name": "Marko Kaartinen",
+  "date": "2011-03-29",
+  "html": "<p>Selkokieliset urlit saa käsittääkseni lisäosan avulla jo.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w621",
+  "name": "Petri",
+  "date": "2011-03-29",
+  "html": "<p>Hmm. Ei näy olevan käytössä virallisilla eikä suomenkielisillä foorumeilla eikä millään muullakaan tuota foorumisoftaa käyttävällä sivustolla, joissa kävin. Mielestäni selkokieliset URL:it ovat tärkeä osa moderneja foorumeja, joten ihme kun niitä ei käytetä. :-/</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w620",
+  "name": "Marko Kaartinen",
+  "date": "2011-03-29",
+  "html": "<p>Lupaan Petri koittaa tota pluginia noille urleille :) <br> <br>En ole vain yksinkertaisesti joutanut. Katson mitä saan aikaan :) <br> <br>Huomenna varmaan saan testittyä tuota.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w619",
+  "name": "Marko Kaartinen",
+  "date": "2011-03-30",
+  "html": "<p>Testailin tuota nyt. No tuloksena sanottakoon seuraavaa:<br> <br>- Friendly Url oli pluginin nimi ja se ei tukenut täysin 1.4.5 versiota<br> <br>- Se toimi osittain, osiin se ei tehnyt urleja, linkeissä ei ainakaan ollut</p><p>Tutkiskeltuani asiaa, ilmeisesti 2.0 versioon tulee tämä ominaisuus takaisin ja ihan natiivina ilmeisesti. Eli uskon sen parantavan tilannetta huomattavasti.<br> <br>Lupaava ja hyvä foorumi, tuo puute korjataan ilmeisestikin.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w618",
+  "name": "Petri",
+  "date": "2011-03-31",
+  "html": "<p>Jees, kiitos vaivannäöstä. Löysinpä sen <a href=\"http://fluxbb.org/resources/mods/friendly-url/\" rel=\"nofollow ugc noopener\" target=\"_blank\">Friendly URL</a> -pluginin sieltä hakemistosta. Toivottavasti nuo puhtaat osoitteet tulevat käyttöön. Niiden käyttäminen voi helpottaa käyttäjiä hahmottamaan millä foorumialueella he sillä hetkellä ovat ja tuollaiset osoitteet voivat tuoda hakukoneiden kautta lisää liikennettä.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ }
+]

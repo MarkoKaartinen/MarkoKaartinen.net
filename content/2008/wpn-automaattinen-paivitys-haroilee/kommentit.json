@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w922",
+  "name": "Heikki",
+  "date": "2008-08-18",
+  "html": "<p>Kannattaa lukea varsinkin Nextgenin manuaalit, maininta löytyy että pluggari pitää asentaa kansioon wp-content/plugins/nggallery kun se siinä paketissa on &quot;nextgen-gallery&quot; kansiossa. <br> <br>Tällä ajan vaan sitä takaa että jos nextgenin päivittää automaattisesti niin se sekoaa todennäköisesti noiden eri kansioiden takia. <br> <br><em>Käyttäjän Heikki viimeisin posti: Kannettava ongelmia</em></p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w921",
+  "name": "Marko",
+  "date": "2008-08-18",
+  "html": "<p>@Heikki: <br>Ohjeitahan pitäisi lukea.... Mutta ei sitä aina muista/viitsi/jaksa. ;)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

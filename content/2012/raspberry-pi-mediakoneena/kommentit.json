@@ -1,0 +1,101 @@
+[
+ {
+  "id": "w433",
+  "name": "@MarkoK",
+  "date": "2012-07-28",
+  "html": "<p>Raspberry Pi mediakoneena <a href=\"http://t.co/uJvEirVQ\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://t.co/uJvEirVQ</a></p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w432",
+  "name": "Roni Laukkarinen (@rolle)",
+  "date": "2012-07-28",
+  "html": "<p>Mistä tilasit? Voisi nimittäin itsekin hankkia taulutelkun kylkeen.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w431",
+  "name": "Marko",
+  "date": "2012-07-28",
+  "html": "<p>Noita saa tilattua kahdesta paikkaa, ainakin virallisesti.<br><a href=\"http://www.rs-components.com/raspberrypi\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://www.rs-components.com/raspberrypi</a> ja <a href=\"http://export.farnell.com/rp/order/\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://export.farnell.com/rp/order/</a><br>Lisää infoa saa <a href=\"http://www.raspberrypi.org/\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://www.raspberrypi.org/</a> osoitteesta</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w430",
+  "name": "fmatic",
+  "date": "2012-07-29",
+  "html": "<p>iPad:lle suosittelen: XBMC Constellation appsia. Monipuolinen sovellus, jolla pääsee käsiksi laajasti kirjastoonsa.Toimii erinomaisesti yhteen ainakin AppleTV + XBMC:n kanssa :)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w429",
+  "name": "Marko",
+  "date": "2012-07-29",
+  "html": "<p>Toi virallinen XBMC appi tekee asiasa kyllä aivan pätevästi. Pitää varmaan tuotakin koittaa jossain vaiheessa.<br>Itsellä kun ei ole niinkään kirjastoa asetettu, sillä ensi tutkimisen jälkeen se pitäisi olla tuolla muistikortilla, joten en sitä alkanut pistämään sillä 8Gt ei niinkään hillitön tila ole. Pitää tutustua saisiko tuon kirjaston laitettua tuolle Lacien kovolle, toki voisi pultata ulkosen kiinni tuohon Raspberryynkin.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w428",
+  "name": "fmatic",
+  "date": "2012-07-29",
+  "html": "<p>Onks se sun Lacie NAS-levy? XBMC pääsee näppärästi kiinni samba-jakoihin, jolloin voit pitää mediakirjastosi siellä :)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w427",
+  "name": "Marko",
+  "date": "2012-07-29",
+  "html": "<p>Kyllähän mulla semmonen on :P (<a href=\"http://www.lacie.com/products/product.htm?id=10451\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://www.lacie.com/products/product.htm?id=10451</a>) <br>Pitää tutustua noihin, en innostuksissani ole tuunannut vielä sitä, eka pitäs järjestää tuo sekanen levyki :D</p><p>Mul on myös yks Lacien 750Gt ulkonen pyörimässä ja sen vois ottaa hyötykäyttöön jossain välissä.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w426",
+  "name": "Petri",
+  "date": "2012-08-17",
+  "html": "<p>Vieläkö toimii Spotify? Jos toimii, ohjeita otetaan avosylin vastaan :-) RC4 Raspbmc käytössä ja Spotify ei tunnu toimivan millään. Spotimc:tä ja SpotyXBMC2:sta kokeilleena.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w425",
+  "name": "Marko",
+  "date": "2012-08-17",
+  "html": "<p>Hyvä kysymys, mutta vastausta en voi antaa tällä hetkellä. Olen nimittäin kreikassa lomalla ja palaan Suomeen 26 päivä sunnuntaina joten testaaminen on täältä käsin vaikeaa :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w424",
+  "name": "Petri",
+  "date": "2012-08-21",
+  "html": "<p>Kuolaan: <a href=\"https://www.miniand.com/products/MK802%20Android%20Mini%20PC\" rel=\"nofollow ugc noopener\" target=\"_blank\">https://www.miniand.com/products/MK802%20Android%20Mini%20PC</a></p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w423",
+  "name": "Marko",
+  "date": "2012-08-27",
+  "html": "<p>WP kaikessa viisaudessaan merkkasi tuon spämmiksi, olen pahoillani! :D</p><p>Ui saakeli, bookmark bookmark bookmark :)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

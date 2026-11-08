@@ -1,0 +1,38 @@
+[
+ {
+  "id": "w260",
+  "name": "Petri",
+  "date": "2013-08-01",
+  "html": "<p>Ask your partner to sign up. ;-) If that doesn&#x27;t help, ask your parents or siblings...</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w259",
+  "name": "Marko",
+  "date": "2013-08-02",
+  "html": "<p>That is an option but I have no idea how good checks they do since domain etc. are in my name...</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w258",
+  "name": "Barry Philburn",
+  "date": "2013-08-02",
+  "html": "<p>You got busted for click fraud, and deserve to be banned.  Nobody cares about your crying.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w257",
+  "name": "Marko",
+  "date": "2013-08-02",
+  "html": "<p>The case is not that I had committed click fraud since I did not click my own ads.</p><p>Thanks for your NOT so helpful answer Barry...</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

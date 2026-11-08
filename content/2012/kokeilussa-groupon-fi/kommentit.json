@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w498",
+  "name": "Hullu",
+  "date": "2012-06-12",
+  "html": "<p>Täällä eräs hölmö, joka kokeili groupon.fi &#x27;tä eikä nyt pääse kyseisestä puljusta eroon. Uutiskirje on peruttu monta kertaa, mutta tulee aina vaan. <strong>En suosittele</strong>.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w497",
+  "name": "Marko Kaartinen",
+  "date": "2012-06-12",
+  "html": "<p>Kannattaa kysäistä asiakaspalvelusta onko jotain häikkää sitten tuossa perumisessa. Se mitä itse asioin heidän aspan kanssa niin hyvä kuva tuli siitäkin. Heihin saat yhteyden info@groupon.fi</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w500",
+  "name": "Helena thuneberg",
+  "date": "2012-12-16",
+  "html": "<p>Hyvä esitys. Itse en vaan saa asennettya. Annatko tarkemmat ohjeet??</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w499",
+  "name": "Marko",
+  "date": "2012-12-16",
+  "html": "<p>Hei Helena,<br>Reflection on muuttanut nimensä Reflectoriksi. Heidän kotisivuiltaan löytyy seikkaperäiset ohjeet siihen miten nauhoitus onnistuu. Osoite on: <a href=\"https://www.reflectorapp.com/getstarted.php?platform=windows\" rel=\"nofollow ugc noopener\" target=\"_blank\">https://www.reflectorapp.com/getstarted.php?platform=windows</a></p><p>Mikäli noilla ohjeilla ei onnistu niin jossain välissä voisin kirjoitellakkin pienen ohjeen tai tehdä ohjevideon.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

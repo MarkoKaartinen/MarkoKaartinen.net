@@ -1,0 +1,29 @@
+[
+ {
+  "id": "w75",
+  "name": "Petri",
+  "date": "2016-05-14",
+  "html": "<p>Vaikuttaa ihan siistiltä lisävarusteelta koneeseen etenkin sellaisille, joilla keskusyksikkö on jossain pöydällä tai muualla kuin lattialla pöydän alla. :-) Itselleni tulee mieleen sellainen väriefekti jossa punaista ja oranssia valoa voisi sekoitella keskenään niin kuin kone olisi tulessa tms.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w74",
+  "name": "Marko",
+  "date": "2016-05-14",
+  "html": "<p>Tuossa on itseasiassa ns. candlelight jossa tuo ikäänkuin kynttilämäisesti välkkyy :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w73",
+  "name": "ville",
+  "date": "2018-01-21",
+  "html": "<p>vähän vanha aihe, mutta pakko lisätä tähän CAM sovellukseen<br>ennen hue+ ostoa cs go fps pyöri 300-400 fps<br>latasin CAM sovelluksen ja kas kummaa fps tippui alle 200<br>en ole löytänyt asetusta millä saisi kaikki muut paitsi ledien ohjauksen pois</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ }
+]

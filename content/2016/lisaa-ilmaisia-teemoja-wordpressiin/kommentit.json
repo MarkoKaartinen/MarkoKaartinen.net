@@ -1,0 +1,29 @@
+[
+ {
+  "id": "w90",
+  "name": "Petri",
+  "date": "2016-02-09",
+  "html": "<p>Onko sinulla kovin paljon harmia spämmistä oman WP-sivustosi kanssa? Yhdellä asiakkaallani on sellainen tapaus, ettei ole Akismetia käytössä ja kommentointi on auki. Tuhansittain spämmikommentteja... Tyyliin 15 uutta spämmiviestiä joka minuutti. :-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w89",
+  "name": "Marko",
+  "date": "2016-02-09",
+  "html": "<p>Tälläkin hetkellä 4000+ kommenttia spämmijonossa :) Eli tuppaahan tuota olemaan. Disqus voisi olla hyvä vaihtoehto myöskin.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w88",
+  "name": "Petri",
+  "date": "2016-02-09",
+  "html": "<p>Ääh, sitä siis tulee muillekin roppakaupalla. Jossain vaiheessa WordPressin kanssa oli sellainen kausi, ettei tullut kuin harvakseltaan mutta nyt on ihan älyttömiä määriä. Minullakin oli pari päivää sitten tapaus, jossa deletoin 8000 spämmikommenttia. Oli helpompaa tyhjentää koko tietokannan taulu sen jälkeen kun olin poiminut oikeat kommentit joukosta. :-/</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ }
+]

@@ -1,0 +1,29 @@
+[
+ {
+  "id": "w644",
+  "name": "Dropbear",
+  "date": "2011-02-22",
+  "html": "<p>Tyhjänpäiväistä draamakuningastouhua taas. Tuotteita (kuten verkkosivuja) saa arvioida ihan sananvapauslainkin puolesta, ja helvetti jäätyy jos tuo oikeusjuttu menee minnekään. Jos siitä, että minä sanon noita verkkosivuja susipaskoiksi (koska ne ovat) voisi nostaa minut oikeuteen, eihän minkään asian arviointi tai arvostelu esim. toimisi kun huonot arviot antaneet lehdetkin olisivat samantien käräjillä.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w643",
+  "name": "Petri",
+  "date": "2011-02-23",
+  "html": "<p>Se lakimiehen nimissä lähetetty uhkaus oikeustoimilla on lähetetty useille bloggaajille ihan samanlaisena, eli siinä ei ole eritelty millä sivulla olevat kirjoitukset ovat oikeustoimien syynä. Minäkin sain tuollaisen viestin ja lähetin sen lähettäjälle kysymyksen, jossa pyydän selvittämään tarkemmin millä nettisivullani olevia tekstejä pitäisi mennä poistamaan. :-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w642",
+  "name": "Marko Kaartinen",
+  "date": "2011-02-23",
+  "html": "<p>Jotkut ovat saaneet vastauksena vaan linkin, mutta eivät sitten sen enempää. Eli hämärä hommaa ja perusteita kun ei oikein ole niin tuskinpa postaukset tulevat katoamaan.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

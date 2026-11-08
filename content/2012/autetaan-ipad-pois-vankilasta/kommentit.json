@@ -1,0 +1,92 @@
+[
+ {
+  "id": "w490",
+  "name": "Petri",
+  "date": "2012-06-13",
+  "html": "<p>Jotain häikkää tähtiarvostelun kanssa kun numerot 1-5 tulevat näkyviin nettiselaimen ruudulla vasempaan laitaan. Käytössä on Firefox.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w489",
+  "name": "Marko Kaartinen",
+  "date": "2012-06-13",
+  "html": "<p>Pitää katsoa mistä tuo johtuisi. Muutenkaan ei vakuuta toi plugari tällä hetkellä kun on tuonut pari muutakin css ongelmaa ilmeisesti. Pitää tutkia lisää.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w488",
+  "name": "Tommi",
+  "date": "2012-06-26",
+  "html": "<p>Luulin jailbreikkaamisen olevan vaikeampaa :D En omia laitteita kyllä viitsi/voi breikata koska ne toimii samalla devauslaitteina :( Toisaalta en myöskään itse koe tarvitsevani jailbreikkiä mihinkään.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w487",
+  "name": "Marko Kaartinen",
+  "date": "2012-06-26",
+  "html": "<p>Itse en tuota iOS devausta tee koska en ole hankkinut sitä dev lisenssiä :D Jos tekisin jotain ni tahtosin julkastaki sen :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w486",
+  "name": "Tommi",
+  "date": "2012-06-26",
+  "html": "<p>Olisiko sulla osaamista ja intoa tehdä jos olettaa että sen saisi julki? :)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w485",
+  "name": "Marko Kaartinen",
+  "date": "2012-06-26",
+  "html": "<p>Kieli pitäs opetella :D En oo sitäkää saanu aikaa viel. Pitäs tutkailla tuota kieltä, senhän pystyy tekee ilmatteeksiki ku itellä on mäkki ja xcode kuitenkin :)<br>Pitäs saada joku hjuva idea siitä touhustakin, lähinnä mitä koodais. PHP api + iOS vois olla aika kova kombo sillä php+mysql on sitä mun osaamisalaa :)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w484",
+  "name": "Tommi",
+  "date": "2012-06-26",
+  "html": "<p>Ei muuta kuin Unity 3D moottoria opettelemaan :D Sillä onnistuu niin pelien kuin softienkin teko ja kieli on todella simppeliä! Itse lähdin 1-2 vuotta sitten PHP:n ja webbikehityksen pohjalta opettelemaan kys. moottoria ja opin todella nopeasti. Ja unityllä on laajat mahdollisuudet: PS3, XBOX360, Wii, iOS, Android, PC, Mac, Linux (linux myöhemmin tänä vuonna), Flash, Chrome yms :D</p><p>Menipä kunnon mainostukseksi taas! Joka tapauksessa itse olen nyt rakennellut Unity 3D:n ja PHP / MySQL välille siltaa ja se alkaa jopa toimia. Pyörii myös iOS laitteilla hyvin.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w483",
+  "name": "Marko Kaartinen",
+  "date": "2012-06-26",
+  "html": "<p>Kattelin tota Unityä. Miten pitkälle tolla ilmasella pääsee? Toi maksullinen kun on aika *köh* hintava.</p><p>Itse ajattelin lähinnä jotain hyötyappsia lähteä tekemään jos jotain. Noitakin on tosin jo tuhat ja yksi.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w482",
+  "name": "Tommi",
+  "date": "2012-06-26",
+  "html": "<p>Ilmasella pääsee tosi pitkälle (paitsi iOS kehityksessä ei saa tehtyä mitään). Mulla on työkäytössä kyllä toi Pro mutta appikehityksessä ei todellakaan tarvitse sitä. Pro:n edut liittyvät lähinnä pelin graafisiin ominaisuuksiin ja maksullisessa versiossa voi käyttää plugareita.</p><p>Laitappa mulle mailia tulemaan, vois sen välityksellä jutustella enemmän! :)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w481",
+  "name": "Marko Kaartinen",
+  "date": "2012-06-26",
+  "html": "<p>Katoinkin et iOS kehitykseen pitää olla tukkukaupalla tuohta :D<br>Itse kun en kauhea pelikehittäjä ole vaikka kivaahan sekin olisi niin voi olla, että lähden ihan xcoden kanssa liikkeelle ja sen iOS simulla - pääsen aika pitkälle siinä ja sit kun alkaa kutkuttaa sen julkasu niin pitää kattoo onko siinä mahkuja ihan bisnekseksi asti (köh firman piikkiin ios dev lisenssi köh).</p><p>Laittelen sulle Tommi huomenna mailia, ajattelin lähteä tästä koneelta lueskelemaan joko kirjaa tai iPadia. Jos sulla on ajatuksia niin toki voit laittaa markokaartinen@gmail.com boxii viestiä.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

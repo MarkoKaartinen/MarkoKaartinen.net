@@ -1,0 +1,56 @@
+[
+ {
+  "id": "w87",
+  "name": "Petri",
+  "date": "2016-02-18",
+  "html": "<p>Oliko tuo ranneke sellainen jota käytät myös nukkuessa?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w86",
+  "name": "Marko",
+  "date": "2016-02-18",
+  "html": "<p>Tämä on tosiaan lähes koko ajan kädessä. Latailen sitä yleensä kun olen koneella istumassa. Unen seuranta on yksi omista lempiominaisuuksistani tässä kellossa.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w85",
+  "name": "Heidi Åkerlund",
+  "date": "2016-11-18",
+  "html": "<p>Hei! Mulla on takuuvaihtona uusi Surge juuri samasta syystä: lähtee tämäkin nyt alle neljän kuukauden käytön jälkeen takaisin, taas ranneke halki samasta kohtaa :/</p><p>En käytä öisin, enkä kovinkaan tiukalla. Treeneissäkin ottaa osumaa hyvin hyvin harvoin.  Outo paikka hajota!</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w84",
+  "name": "Marko",
+  "date": "2016-11-18",
+  "html": "<p>Tuntuu että materiaalissa jotain häikkää. Itsellä ei ko. kelloa enää ole. Harmi, että sinulla on ongelmia sen kanssa :(</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w83",
+  "name": "Petri Hakosalo",
+  "date": "2018-03-04",
+  "html": "<p>Onko sinulla Surgen asiakaspalvelun yhteystietoja? Mulla ranneke myös rikki.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w82",
+  "name": "Marko Kaartinen",
+  "date": "2018-03-06",
+  "html": "<p>Olin yhteydessä heidän sivujen kautta: <a href=\"http://help.fitbit.com/?l=en_US&amp;cu=1&amp;fs=ContactUs\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://help.fitbit.com/?l=en_US&amp;cu=1&amp;fs=ContactUs</a></p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

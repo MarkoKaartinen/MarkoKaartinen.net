@@ -1,0 +1,38 @@
+[
+ {
+  "id": "w895",
+  "name": "Marko Kaartinen",
+  "date": "2008-12-29",
+  "html": "<p>Sen verran päivitystä, että bugeja on teemassa ja testaaminen on vielä kesken.<br> <br>Sisältöäkin uusitaan ja teemaa muokataan.<br> <br>Työtä on vielä kohtuullisen paljon. ToDo ja bugi lista kasvaa sitä mukaa mitä kerkeää käydä läpi.<br> <br>Kommentointikin on uusittu ja nyt se sallii suoraan kommenttiin vastaamisen jolloin vastaus sisällytetään (tulette huomaamaan sen).</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w894",
+  "name": "Petri",
+  "date": "2008-12-29",
+  "html": "<p>Tämä on ainakin helppokäyttöinen ulkoasu, kun on kaikki hyvin esillä eikä tarvitse miettiä miten esimerkiksi arkistoon voi päästä. Löysin Facebookista kirjoittamasi ilmoituksen uudesta ulkoasusta. :-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w893",
+  "name": "Marko Kaartinen",
+  "date": "2008-12-29",
+  "html": "<p>Esillä juu, mutta bugeja tuntuu löytyvän aina kun todo lista pienenee...</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w892",
+  "name": "Marko Kaartinen",
+  "date": "2008-12-29",
+  "html": "<p>Koska kommenteissa ei toiminut tinymce editorin mahdollistava plugin oikein, otettiin se pois päältä, tutkitaan josko sen saisi pelittämään.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

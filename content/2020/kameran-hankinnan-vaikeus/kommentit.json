@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w12",
+  "name": "Pete",
+  "date": "2020-06-29",
+  "html": "<p>Kannattaa selata myös Digicamera.netin ilmoituspalstaa:</p><p><a href=\"https://www.digicamera.net/keskus/viewforum.php?f=10\" rel=\"nofollow ugc noopener\" target=\"_blank\">https://www.digicamera.net/keskus/viewforum.php?f=10</a></p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w11",
+  "name": "Marko Kaartinen",
+  "date": "2020-06-29",
+  "html": "<p>Tämä unohtui mainita, on sitäkin selattu. Eilen tuli Torista ostettua kamera (80D) ja siitä tulenee blogiin juttua kunhan saan käsiini.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

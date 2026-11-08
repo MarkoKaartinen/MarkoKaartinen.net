@@ -1,0 +1,74 @@
+[
+ {
+  "id": "w43",
+  "name": "Marko",
+  "date": "2017-03-01",
+  "html": "<p>Palataan alkujuurille blogautuksien merkeissä ja kirjoitetaan vähän mistä sattuu ja omia ajatuksia. Ehkäpä saadaan tätä blogia enemmän vielä tulille!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w42",
+  "name": "Outi",
+  "date": "2017-03-01",
+  "html": "<p>Ennen luin foorumeja, mutta se oli aika ennen Facebookia. Nyt kaikki keskustelu on siirtynyt sinne, niin siellä sitä on luettava. Eniten ärsyttää samojen asioiden kysyminen kerrasta toiseen. Foorumilta ne tiedot löytyisi paljon helpommin. Onneksi on vielä niitä(kin) ihmisiä, jotka jaksavat vastata samoihin kysymyksiin uudelleen ja uudelleen. Minä en jaksa.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w41",
+  "name": "Petri",
+  "date": "2017-03-01",
+  "html": "<p>Oma foorumisoftien suosikkini on miniBB. Vaikka se on todella vanhanaikainen, se on tosi kevyt ja aika yksinkertainen. :-)</p><p>Oletko huomannut, että SSL-varmenne osoitteeseen <a href=\"https://keskustelu.markokaartinen.net/\" rel=\"nofollow ugc noopener\" target=\"_blank\">https://keskustelu.markokaartinen.net/</a> on kai mennyt vanhaksi tai konffattu väärin?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w40",
+  "name": "Marko",
+  "date": "2017-03-01",
+  "html": "<p>Vieläkö miniBB on aktiivisessa kehityksessä?</p><p>Sertissä oli jotain häikkää vaikka olisi pitänyt uusiutua jo hyvissä ajoin ennen uusintaa oikein. Kiitos bongauksesta! Kävin siellä tosin yksi päivä joten olisikohan jotenkin tuo vanhempi sertti päässyt livahtamaan konffeihin - mene ja tiedä :)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w39",
+  "name": "Marko",
+  "date": "2017-03-01",
+  "html": "<p>Flarum on tutustumisenarvoinen proju, mutta harmittavasti vielä kesken jotta kehtaisi pistää kunnon käyttöön sitä vielä.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w38",
+  "name": "Petri",
+  "date": "2017-03-01",
+  "html": "<p>Joo, miniBB:tä kehitetään edelleen, joskin sitä tekee vain yksi latvialainen tai liettualainen koodari. :-)</p><p>Noista foorumisoftista tuli mieleeni, että Ylilauta ja muut sellaiset &quot;kuvalaudat&quot; voi kai rinnastaa foorumeiksi. Ylilaudan tekijä rakentaa YBoard-nimistä softaa. Löytyy Githubista: <a href=\"https://github.com/Sopsys/YBoard\" rel=\"nofollow ugc noopener\" target=\"_blank\">https://github.com/Sopsys/YBoard</a></p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w37",
+  "name": "Marko",
+  "date": "2017-03-02",
+  "html": "<p>Joskus törmäsin tohon YBoardin repoon. Tosin tuo Ylilauta/kuvalauta kulttuuri ja käyttö ei ole oikein koskaan avautunut minulla saati oikein innostanutkaan. Olen enemmän noiden perinteisten kannalla.</p><p>Discourse on todella mielenkiintoinen setti ja todella aktiivisessa kehityksessä. Kannattaa ehdottomasti tutustua siihenkin.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w36",
+  "name": "Marko Kaartinen",
+  "date": "2017-03-03",
+  "html": "<p>Petri kommentointi takas blogiin ;) <a href=\"http://kuopassa.net/aloitin-rottailun\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://kuopassa.net/aloitin-rottailun</a></p><p>En sitä väitäkään etteikö noille ole paikkaansa ja onhan niille - ei ne muuten noin suosittuja olisi kuten esim ylilautakin on.</p><p>Itse en ole vain noita alkanut käyttämään :)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

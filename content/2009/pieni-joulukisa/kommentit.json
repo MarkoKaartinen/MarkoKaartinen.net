@@ -1,0 +1,83 @@
+[
+ {
+  "id": "w825",
+  "name": "Jyri V.",
+  "date": "2009-12-23",
+  "html": "<p>Mulla kyllä on Spotify (ilmainen) mutta kommentoin silti. Mukavaa olla eka!</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w824",
+  "name": "Marko Kaartinen",
+  "date": "2009-12-23",
+  "html": "<p>Todih, hienoa! Menee ainakin invite kaupaks kun yksi kommentti tullut :P<br> <br>Hyvää joulua Jyrillekkin!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w823",
+  "name": "Jyri V.",
+  "date": "2009-12-23",
+  "html": "<p>Kiitoksia, mukavaa joulua sinullekin ja hieno uudistus!</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w822",
+  "name": "Marko Kaartinen",
+  "date": "2009-12-23",
+  "html": "<p>Kiitoksia, mutta harmi kyllä pahasti kesken, johtuen työkiireistä :P</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w821",
+  "name": "marjaana",
+  "date": "2009-12-23",
+  "html": "<p>Vuosi 2009 on kohta takana ja tähän mennessä elämäni rankin, onneksi kaikkialla ulkona on kaunista ja rauhallista. Lumi on satanut maahan ja  huomenna on jo jouluaatto :) Toivottavasti kaikki pääsevät viettämään sitä hyvässä seurassa ja tietenkin maukkaan ruuankin merkeissä.</p><p>Ei mene kauan joulun jälkeen kun vaihtuu vuosi jo 2010, pakosta hyvä vuosi kaikille, kertoohan sen jo tasalukukin! Joulun rauhottumisen jälkeen se on siis sitten hyvä syy taas juhlia (ja rankasti)!</p><p>Eli onnellisen rauhallista joulua ja ratkiriemukasta uuttavuotta :)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w820",
+  "name": "Marko Kaartinen",
+  "date": "2009-12-24",
+  "html": "<p>Hyvät joulut ja uudet vuodet Marjaanallekkin :)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w819",
+  "name": "k00pa",
+  "date": "2009-12-25",
+  "html": "<p>Ulkoasu on selkeä ja toimiva, mukavasti samankaltainen tumblren kanssa. Erikoinen tapa yliviivata linkki hiirenalta, mutta ihan toimiva tapa loppujenlopuksi.</p><p>(Spotify invite on jo jotenka sitä ei tarvitse :)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w818",
+  "name": "Marko Kaartinen",
+  "date": "2009-12-26",
+  "html": "<p>Joo toi linkitys voi muuttua, kuten moni muukin asia tällä saitilla :P</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w817",
+  "name": "Marko Kaartinen",
+  "date": "2009-12-26",
+  "html": "<p>Ja onneksi olkoon <strong>Marjaana</strong>, vilkaiseppas sähköpostiasi :)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

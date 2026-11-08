@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w33",
+  "name": "Pete",
+  "date": "2017-07-20",
+  "html": "<p>Näyttää hyvältä! Se etusivulla oleva lomake on hyvin yksinkertainen eikä ylimääräisiä kenttiä näytä olevan. Monessa nettikaupan tilauslomakkeessa ja vaikka blogin kommentointilomakkeessa on liikaa kenttiä täytettäväksi ja se johtaa tilauksen/toiminnon loppuun viemiseen, joten siinä mielessä mitä yksinkertaisempi lomake on, sitä parempi. :-]</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w32",
+  "name": "Marko Kaartinen",
+  "date": "2017-07-20",
+  "html": "<p>Lomake on käytännössä sama kuin vanhassa :) Hieman paranneltu ja sitä parannellaan. Jos on tunnuksilla sisässä niin nimi + sähköposti onkin jo valmiina täytettynä. Häviääpä tuo googlen captchakin silloin pois ja jossain välissä korvaan sen muutenkin tuolla uudella invisible captchalla. Samoin kalenteri korvataan oma tekemällä ja aika kenttiä parannetaan.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

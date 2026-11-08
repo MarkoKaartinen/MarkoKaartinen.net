@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w523",
+  "name": "Rolle",
+  "date": "2012-02-24",
+  "html": "<p>No minä kahtelen ja luen kuten aina ennenkin :)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w522",
+  "name": "Marko Kaartinen",
+  "date": "2012-02-24",
+  "html": "<p>Jesh! Sain tunnustuksen ;) <br>Hienoa, tiedän sen ja sinun blogi pomppaa auki kun rss lukija huutaa :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

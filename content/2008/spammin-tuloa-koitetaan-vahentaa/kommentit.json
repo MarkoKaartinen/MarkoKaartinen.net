@@ -1,0 +1,47 @@
+[
+ {
+  "id": "w900",
+  "name": "Jyri V.",
+  "date": "2009-07-24",
+  "html": "<p>ei taida olla enää käytössä? No, hyvä näin, kuvavarmistukset täytyisi kieltää lailla. Kokeille vaikka Bad Behavior, jos ei Akismet yksinään riitä.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w899",
+  "name": "Marko Kaartinen",
+  "date": "2009-07-24",
+  "html": "<p>Joo ei ole ko. käytössä enää. Kuten varmaan huomasitkin :P<br> <br>Testailen näitä pluggareita kunhan kerkeän, kiitoksia vain ehdotuksesta.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w898",
+  "name": "Jyri V.",
+  "date": "2009-07-25",
+  "html": "<p>Laitoin blogisi kirjanmerkkeihin. :)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w897",
+  "name": "Marko Kaartinen",
+  "date": "2009-07-25",
+  "html": "<p>Hieno! Itseasiassa blogisi Mediablogi on ollut tiedossani pitkään ja lukenut teikäläisen kirjoituksia pitemmän ajan. Jatka kirjoittamista! :)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w896",
+  "name": "Jyri V.",
+  "date": "2009-07-25",
+  "html": "<p>Kiitokset, jatkan samaa rataa. :)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ }
+]

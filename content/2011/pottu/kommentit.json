@@ -1,0 +1,38 @@
+[
+ {
+  "id": "w654",
+  "name": "Rolle",
+  "date": "2011-02-18",
+  "html": "<p>No höh, olisi kiinnostanut tietää millä eri palveluntarjoajilla pottu on ollut, ja miksi tietyt ovat olleet hyviä tai huonoja. Ei vain &quot;ulkomaisella&quot;, ja &quot;kotimaisella&quot; ;) valota vähän lisää!</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w653",
+  "name": "Marko Kaartinen",
+  "date": "2011-02-18",
+  "html": "<p>Valotetaan hieman :P<br> <br>Otetaan ensiksi Potun taivalta hieman :P En muista välttämättä ihan kaikkia hosteja saati onko järjestyskään oikea :D</p><p><strong>1. EWH - solutions</strong><br> <br>Tästä se alkoi. Palvelu oli loistava ja hinta kohdillaan, kunnes iso paha Futuron tuli ja söi sen. Hinnat olisivat pompanneet ja noh... niin... Siitä lähti vaihtokierre.</p><p><strong>2. Eurovps</strong><br> <br>Hyvä hosti, ongelmaksi taisi tulla hinta, jollon lähdettiin etsimään parempaa ja halvempaa hostia. Palvelimet olivat euroopassa, kunte kaikki muutkin Potun palvelimet.</p><p><strong>3. Rapidswitch</strong><br> <br>Palvelin toimi hyvin kunnes selvisi, että siellä onkin periaatteessa käyttäjärajoitus monta voi olla kirjautuneena sisälle yhtäaikaa. Joten tästä lähti pitkä etsiminen uudelle hostille.</p><p><strong>4. Tentacle Networks</strong><br> <br>Tämä on paluu takaisin Suomeen. Hosti toimii hyvin ja olen ollut tyytyväinen, tällä mennään!</p><p><strong>Muita</strong><br> <br>UrgentVPS -&gt; noh jotain tässä mätti, olisiko ollut downtime aivan kauhea. Jostain syystä lähdin pois täältä.<br> <br>VPSSquad -&gt; Tästä tuli räntittyäkin: <a href=\"http://rantsite.net/2011/01/case-vps-squad/\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://rantsite.net/2011/01/case-vps-squad/</a></p><p>Joitain muitakin on varmaan ollut, mutta en vain muista tai kokeilu on ollut niin pirun lyhyt.</p><p>Mitähän muuta tulee seuraavaksi Rollelle mieleen :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w652",
+  "name": "Rolle",
+  "date": "2011-02-18",
+  "html": "<p>Heh, tätä tietoa juuri hainkin! Minusta nimittäin hauskaa ja erikoista, että sulla on ollut noin paljon eri hostaajia, se tässä lähinnä kiinnosti :-) samalla saa itsekin hieman tietoa mistä kannattaa ja ei kannata ostaa.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w651",
+  "name": "Marko Kaartinen",
+  "date": "2011-02-18",
+  "html": "<p>Osa on ollut Pottua varten ja osa on ollut sitten testailua varten. Parhaimmillaan/pahimmillaan on tainnut olla 3 virtuaalipalvelinta yhtä aikaa käytössä. pottu / oma testi / töiden testi :D<br> <br>EcoVPS taitaa olla tällä hetkellä yksi ulkomainen jota voisi koittaa/testata lisää joskus. EuroVPS:n tytär yhtiö ja homma pelas siellä hyvin.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

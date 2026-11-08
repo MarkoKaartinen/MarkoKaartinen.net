@@ -1,0 +1,38 @@
+[
+ {
+  "id": "w382",
+  "name": "Ilkka Rautiainen",
+  "date": "2012-10-01",
+  "html": "<p>Itse olen kuullut näistä WP:stä. Niissä on näitä Microsoftin älyttömiä ominaisuuksia kuten tämä: <a href=\"http://www.nokia.com/fi-fi/tuki/vianmaaritys/?action=singleFAQ&amp;caseid=FA137005_fi_FI\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://www.nokia.com/fi-fi/tuki/vianmaaritys/?action=singleFAQ&amp;caseid=FA137005_fi_FI</a><br>Myös tiedostojen siirtäminen on todella erikoista. Itse olen ainakin tottunut siihen että puhelimesta saa massamuistilaitteen kun liittää sen koneeseen jotta voi siirtää tiedostoja. Mutta WP:ssä tämä ei ole mahdollista, vaan on asennettava Zune jonka kautta tiedostoja siirretään, paitsi Office tiedostoja jotka pitää siirtää puhelimeen SkyDriven kautta. Omasta mielestä nämä &quot;ominaisuudet&quot; ovat järjettömiä.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w381",
+  "name": "Marko",
+  "date": "2012-10-01",
+  "html": "<p>Lueskelin tuosta tiedostojen siirrosta. Itse käytän muutenkin dropboxia ja boxia (dropboxia ei saa wp:lle... mut on kuulemma 3. osapuolen tekemiä appseja - mutta ei dropboxin omaa).</p><p>Android maailmassa saa puhelimesta massamuistin kun tökkää koneeseen. iPhonen kanssa tottunut jo siihen että iTunesilla pitää säätää ja vängätä sen kanssa joten ohjelma vain vaihtuu WP luurin kanssa. Saas nähdä miten Zune toimii verrattuna iTunesiin.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w380",
+  "name": "Ilkka Rautiainen",
+  "date": "2012-10-01",
+  "html": "<p>Joo arvelinkin että sulle tuosta ei ole ongelmaa, iteselle se on juuri vierasta kun on tottunut siihen että saa sen massamuistilaiteeksi.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w379",
+  "name": "Marko",
+  "date": "2012-10-01",
+  "html": "<p>Uskon kyllä, jos ei ole tottunut tommoseen venkuiluun niin voi olla ongelma :)<br>Ainut kysymysmerkki on tässä vaiheessa yhteystietojen siirto :P Se voi olla vänkä operaatio :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

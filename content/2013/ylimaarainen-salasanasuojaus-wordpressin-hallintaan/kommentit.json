@@ -1,0 +1,56 @@
+[
+ {
+  "id": "w230",
+  "name": "Petri",
+  "date": "2013-10-18",
+  "html": "<p>Tuo .htaccessin avulla tehtävä suojaus on varmaan erittäin pitävä. Sitä voisi ehkä tuunata lisäämällä vielä esim, wp-login.php-tiedoston sisälle jonkun IP-osoitteen tsekkauksen vaikkapa niin, että arrayn sisällä on sallitut IP:t ja jos ei mätsää niin sitten tapahtuu jotain. :-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w229",
+  "name": "Marko",
+  "date": "2013-10-18",
+  "html": "<p>Tuo on itselläni toiminut vallan mainiosti. IP-osoite tarkastus on taas sitten toinen juttu sillä itselläni on muuttuva IP ja kirjaudun hallintaan myös toimistolta ja tien päältä ja milloin mistäkin.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w228",
+  "name": "Petri",
+  "date": "2013-10-19",
+  "html": "<p>Eikö ole mahdollista sallia vain tietyn maan IP-osoitteet? Joku tuollainen maakohtainen lista blokkaisi miljoonittain (tai teoriassa oikeastaan miljardeittain) potentiaalisia tihulaisia. ;-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w227",
+  "name": "Marko",
+  "date": "2013-10-19",
+  "html": "<p>Voisi ollakkin, en ole tutkinut mutta sitten se blokkaa mahdolliset VPN.n käyttäjät ja TORin käyttäjät jotka tuon maan ip:tä käyttäisi :D Haittapuolia joka vaihtoehdossa melkeinpä, jos oikein miettii ;)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w226",
+  "name": "Joni Hasanen (@jonihasanen)",
+  "date": "2013-11-12",
+  "html": "<p>Itse käytän WP Login Security 2-plugaria. Antaa hyvän suojan ja mahdollistaa kirjautumisen mistä vain.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w225",
+  "name": "Marko",
+  "date": "2013-11-13",
+  "html": "<p>Tuohan on ihan näppärän oloinen plugari. Tuo toimisi varmaan hyvin jos olisi useampi kirjoittaja joiden pitäisi päästä sisälle. Tässä blogissa kun on vain yksi niin htaccess toimii vallan mainiosti.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

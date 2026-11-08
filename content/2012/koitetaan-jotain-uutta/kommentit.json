@@ -1,0 +1,83 @@
+[
+ {
+  "id": "w532",
+  "name": "Miika",
+  "date": "2012-02-07",
+  "html": "<p>Hei Marko.<br>Ehdottaisin tähän liiketoimintamallia, mistä Mike Masnick puhuu tällä videolla. Kannattaa katsoa, hyvin viihdyttävä. <a href=\"http://vimeo.com/m/4244922\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://vimeo.com/m/4244922</a></p><p>Homma toimii myös muilla aloilla.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w531",
+  "name": "Marko Kaartinen",
+  "date": "2012-02-07",
+  "html": "<p>Hmm, pitää pohtia ja tutkia miten tuota hyödyntäisi parhaiten. Nythän on julkaistu pari WordPress palikkaa, yksi teema ja yksi lisäosa. Teema odottaa WP:n painavaa sanaa sen pääsystä repoon. Plugin ei tuli koskaan päätymäänkään sinne :P Sen saa ilmaiseksi Githubista.</p><p>Tietty noita WP palikoita voisi jakaa &quot;pay what you want&quot; tyyppisesti. Pitää pohtia, tämä lahjoitus on nyt pieni kokeilu - pitää katsoa mitä keksii :)</p><p>Kiitos Miika vinkistä!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w530",
+  "name": "Miika",
+  "date": "2012-02-07",
+  "html": "<p>Tai olipa tarkoituksesi mikä tahansa, niin voisit luoda jotain vastineita. Vitosella saa accessin vaikka hidden facebook-ryhmään, jossa on teemoja tai muita. Kympillä saa lisäksi alennuksen firman sähköisestä cv/portfoliopalvelusta. 20e saa sinun ottaman valokuvan a4 printin, 30e saa elysium tpaidan(hieno logo), 40 e pienen printtivihkon, jossa valokuvia jne.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w529",
+  "name": "Marko Kaartinen",
+  "date": "2012-02-07",
+  "html": "<p>Niin vastinehan se saa ihmisen lahjoittamaan. Se on totta, en lähde tähän kuitenkaan Elysiumia sekoittamaan millään tapaa. Kaikki toimet teen yksityishenkilönä :)</p><p>Bundlehunt yms tapaiset voisivat olla myös ovelia. Niissähän kun maksat yli keskiarvon niin saat extraa. Muuten saa summan päättää itse, jos alle keskiarvon niin saa sen peruspaketin.</p><p>Pitää siis alkaa tekemään sitä sisältöä! :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w528",
+  "name": "Petri",
+  "date": "2012-02-08",
+  "html": "<p>Hmm, hmm... Koska voin valita lahjoitanko rahaa itselleni vai Markolle, valitsen minut. Sori! Jos saan jotain lahjoituksen vastineeksi niin harkitsen asiaa uudelleen. Textpatternin kotisivuilla on sellainen palkinto, että lahjoittaja saa nimensä ja linkkinsä <a href=\"http://textpattern.com/contributors\" rel=\"nofollow ugc noopener\" target=\"_blank\">Contributors-sivulle</a>. Vaikkakin heillä sen tekninen toteutus on suolesta, koska linkit eivät ole oikeita linkkejä vaan JS-kokkareita, on tuollainen ideatasolla ihan jees.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w527",
+  "name": "Petri",
+  "date": "2012-02-08",
+  "html": "<p>Korjaus edelliseen: ei Contributors vaan <a href=\"http://textpattern.com/patrons\" rel=\"nofollow ugc noopener\" target=\"_blank\">Patrons</a>.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w526",
+  "name": "Miika",
+  "date": "2012-02-08",
+  "html": "<p>Omasta mielestäni lahjoitusten keräämisessä (onnistunesti) on kyse kahdesta asiasta: (1) tavoitteesta, miksi rahaa kerätään. Koenko aatteen olevan tarpeeksi hyvä, jotta voisin lahjoittaa rahaa? Muutaman kerran olen lahjoittanut adom-pelin tekijälle rahaa, ihan vain koska se on viihdyttänyt minua jo yli 10 vuotta. Enkä vieläkään ole päässyt läpi. Se on hyvä merkki se. (2) Vastineesta, jonka lahjoittaja saa. techdirt.com on listannut omat lahjoitusvastineensa tuonne: <a href=\"http://www.techdirt.com/rtb.php\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://www.techdirt.com/rtb.php</a> . Mielestäni tuo on the way to go. Haitaria peliin!</p><p>Nämä kaksi asiaa myös sitouttavat lahjoittajaa. Kun olen tukenut, niin haluan seurata. Kun olen saanut, niin lahjoittaisinko toisenkin kerran? Eikä niiden palkintojen suuria, niiden merkitys on enemmän lisäarvossa. Limited edition / numeroitu tavara toimii hyvin, ne ovat heti keräilykappaleita. Esimerkiksi voisit kokeneena blogaajana tehdä vaikka sen edellisessä postissanikin mainitun printtivihkosen. Sellanen kymppikuva-kokoinen, 8-12 sivuinen vihko, johon vaikka kasaisit parhaimpia postauksia/mietintöjä/tai vaikka ravintola-arvosteluja + hienoja valokuvia. Sitten annat sille hyvä nimen ja teet siitä limited editionin juoksevan numeroinnin kanssa ja laitat vielä oheen hyvälle kartongille painetun terveisen lahjoittajalle ja allekirjoituksen.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w525",
+  "name": "Marko Kaartinen",
+  "date": "2012-02-08",
+  "html": "<p>Sitä kun ei Petri ikinä tiedä kuka hullu tuolla internetsissä pyörii ja sattuu innostumaan lahjoittamiseen.</p><p>Tämän keskustelun tämän hetkinen opetus on se, että pitää tarjota vastinetta rahalle niin sanotusti.</p><p>Ja tosiaan näkyy olevan js:llä tehty noi linkit o_O Miksihän ihmeessä.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w524",
+  "name": "Marko Kaartinen",
+  "date": "2012-02-08",
+  "html": "<p>Techdirtillä on hyvä systeemi ja erittäin vänkä. Ja uskon, että tuossa saadaan sille rahalle sitä vastinetta. Olin ehkä hieman tyhmä osittain kun oletin tuon nykyisen purevan. Tämä keskustelu on kuitenkin antanut ideoita ja pitää pohtia miten nämä ideat toteuttaa. Kiitos Miika sinulle!</p><p>E-kirjat kun ovat olleet tapetilla niin miksi en tosiaan tekisi itse sellaista. On tässä kuitenkin 4+ vuotta enemmän tai vähemmän asiaa takana. Tietty täysin painettu toisi sitä arvoa vielä lisää. Pitää pohtia, suurin osa taidoista on kuitenkin tuolla webbi puolella.</p><p>Kiitos molemmille näistä kommenteista! Olen nyt taas hieman viisaampi.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

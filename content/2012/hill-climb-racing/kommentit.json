@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w366",
+  "name": "fmatic",
+  "date": "2012-11-13",
+  "html": "<p>Tää on loistava :) Kokeilepas myös Road Trip 2:sta. Järettömän koukuttava :)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w365",
+  "name": "Marko",
+  "date": "2012-11-13",
+  "html": "<p>Huomasin tuon appstoressa, mutta en sitä vielä ole koittanut :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

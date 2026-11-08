@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w891",
+  "name": "Rolle",
+  "date": "2009-02-02",
+  "html": "<p>Aika kiva :) minulla on tälläinen: <a href=\"http://rollemaa.org/motd.png\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://rollemaa.org/motd.png</a>  <br>Voisin kokeilla tuota linux_logoa. Susen apt-get ei sitä löytänyt suoraan. Koitanpa yastista.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w890",
+  "name": "Marko Kaartinen",
+  "date": "2009-02-02",
+  "html": "<p>Suselle en suoraan osaa sanoa tosta, mutta veikkaisin että siellä vastaava löytyy.<br> <br>Ja olen edelleenkin kade tosta kahden näytön viritelmästä ;)</p><p>Sen verran pitää jälkeenpäin lisätä, että Debianin repoissa tuo oli nimellä linuxlogo eli ilman alaviivaa</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

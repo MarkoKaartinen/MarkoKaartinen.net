@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w745",
+  "name": "Outi",
+  "date": "2010-11-01",
+  "html": "<p>Minun mielestä tämä sopii ihan jokaiseen addiktoivaan peliin, eikä vain Civ:n. :)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w744",
+  "name": "Marko Kaartinen",
+  "date": "2010-11-01",
+  "html": "<p>Toimii vain jos addiktoiva peli on vuoropohjainen :D Tosin jos yhden vuoron käsittää yhdeksi kierrokseksi niin silloin voi toimia moneen muuhunkin peliin tai käsittää vuoron kenttänä niin toimii.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

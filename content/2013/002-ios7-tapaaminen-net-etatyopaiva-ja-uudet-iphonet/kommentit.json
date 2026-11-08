@@ -1,0 +1,56 @@
+[
+ {
+  "id": "w242",
+  "name": "Petri",
+  "date": "2013-09-21",
+  "html": "<p>Ee toemi. Yritin kuunnella suoraan tältä sivulta, popuppina ja myös lataamalla sen äänitiedoston, muttei toimi. :-/</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w241",
+  "name": "Marko",
+  "date": "2013-09-21",
+  "html": "<p>Mikähän selain yms. sillä itsellä toimii ja iTunesin podcastina toimii yms. Muillakin on toiminut kyllä ihan oikein.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w240",
+  "name": "Petri",
+  "date": "2013-09-22",
+  "html": "<p>Firefox. Kun yritän ladata äänitiedoston, tulee virheilmoitus &quot;Videota ei voida toistaa, koska tiedosto on vioittunut.&quot;</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w239",
+  "name": "Marko",
+  "date": "2013-09-22",
+  "html": "<p>Onpas outoa, itselläni Win8 + juuri asennettu Firefox toimii oikein.<br>Mikäs käyttis sinulla on? Sekä miksihän se sanoo videosta vaikka muoto on mp3 :)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w238",
+  "name": "Petri",
+  "date": "2013-09-24",
+  "html": "<p>Windowsin seiskaversiolla ei toiminut. Jaksoin nyt vihdoin (2 päivää myöhemmin) käynnistää Operan ja sillä tuo toimii. Jee. :-D</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w237",
+  "name": "Marko",
+  "date": "2013-09-24",
+  "html": "<p>Voi olla vika siis selaimen lisäosasta :)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

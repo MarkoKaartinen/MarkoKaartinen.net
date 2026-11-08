@@ -1,0 +1,65 @@
+[
+ {
+  "id": "w943",
+  "name": "Marko",
+  "date": "2008-05-18",
+  "html": "<p>Pistetään nyt kommenttina vielä tämmöinen, että: <br>1. En tilaa muille tuolta vaikka PayPalin omistankin (joku jo irkissä alkoi huutelee) <br>2. Ilmoittelen jos jostain syystä toi seriali lakkaa toimimasta <br>3. Ruotsin kokeeseen luku tulee kärsimään ja pahasti tästä ;)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w942",
+  "name": "deehoo",
+  "date": "2008-05-19",
+  "html": "<p>Hienostipa tuntuu CoD 4 tässäkin päässä pelaavan. Ei ollenkaan huonolta palvelulta vaikuta tähän mennessä, toivottavasti pimeää kääntöpuolta ei paljastu ajan kuluessa.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w941",
+  "name": "Petri",
+  "date": "2008-05-20",
+  "html": "<p>Erittäin hyvä vinkki! Näyttää löytyvän tuo Company Of Heroes, jonka taidankin tästä tilata oitis. :-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w940",
+  "name": "Marko",
+  "date": "2008-05-22",
+  "html": "<p>Kyseisen sivuston hinnat ovat nousseet, esimerkiksi CoD4 oli sen 15$ ja sen jälkeen nousi 16$ ja nyt on sitten jo 20$. <br>Muidenkin pelien hinnat ovat nousseet, tiedä sitten onko syynä suosio vai mikä :)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w939",
+  "name": "deehoo",
+  "date": "2008-05-22",
+  "html": "<p>Hintoja nostavat minkä kerkiävät. Ainakin CoD4:n, UT3:n ja Hellgate Londonin hinnat ovat nousseet tuntuvasti. Ja vielä kun ajattelin Unrealiin sijoittaa :(</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w938",
+  "name": "Jarppa",
+  "date": "2008-06-12",
+  "html": "<p>Cod4:n voisipi tuolta hankkiakkin. <br> <br>Kysymykseksi jäikin aikoinaan kun artikkelin mainitsit toisaalla että onnistuisiko Cod4:n cd-key:llä hankkimaan pelin Steamista. Harmillisesti ei voi. :-( Olisi ollut hieno niin ei olisi päivityksien kanssa leikkiä kun olisi voinut antaa Steamin päivittää.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w937",
+  "name": "Marko",
+  "date": "2008-06-12",
+  "html": "<p>Xfire esimerkiksi päivittää pelejä halutessasi itse eli latailee pätsin ja ilmoittaa sulle.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

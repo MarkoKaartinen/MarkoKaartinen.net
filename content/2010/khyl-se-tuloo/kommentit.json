@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w794",
+  "name": "Rolle",
+  "date": "2010-07-19",
+  "html": "<p>Jee, täälläkin vihdoin tapahtuu :-) Hyvää loppukesää myös Markolle!</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w793",
+  "name": "Marko Kaartinen",
+  "date": "2010-07-19",
+  "html": "<p>Tapahtuu, tapahtuu! Just olin inspiraatiota ja ideoita etsiskelemässä interwebin puolelta. Enemmän kiinnostanut toi cami + muu kuin web koodailu muuten kuin työn puolesta.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

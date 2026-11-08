@@ -1,0 +1,65 @@
+[
+ {
+  "id": "w324",
+  "name": "Petri",
+  "date": "2013-01-27",
+  "html": "<p>En pääse asentamaan softaa, kun Google Playhyn kirjautuminen edellyttää salasanassa sellaisen erikoismerkin syöttämistä, jota en löydä Androidin näppäimistöstä. :-/</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w323",
+  "name": "Marko",
+  "date": "2013-01-27",
+  "html": "<p>o_O okeiii tähän en osaa sanoa kyl mitään :D Kyl mä uskon et semmonen merkki jonkun tampun takaa voi löytyä. Liian vaikee salasana ;)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w322",
+  "name": "Petri",
+  "date": "2013-01-27",
+  "html": "<p>Mjoo. Löysin nyt asteriskin näppiksestä. Vielä sisäänkirjautumisen jälkeen ei päässyt installoimaan softaasi. Pitääkö Playhyn tallentaa oman täppärin tiedot vai kummaa?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w321",
+  "name": "Marko",
+  "date": "2013-01-27",
+  "html": "<p>Itse asensin ihan laitteessa olevan softan kautta. Oma softani ei kyllä vaadi mitään muuta kuin asenna ja naps pitäs olla sillä selvä. Mitään tietojahan toi ei kysele.</p><p>Mikäli webbisivun kautta koittaa niin silloin ei välttis mee läpi noi asennukset ainakaan itsellä aina. En ole kuullut että muilla olisi ongelmia. Itsellä meni ihan play kaupan kautta onnistuneesti niin asennus kuin päivitys.</p><p>Mikähän laite kyseessä?</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w320",
+  "name": "Marko",
+  "date": "2013-01-27",
+  "html": "<p>Onhan muuten uudempi kuin 3.0 android?</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w319",
+  "name": "Petri",
+  "date": "2013-01-28",
+  "html": "<p>Tämä on joku Arnovan halpismalli, mutta laitteessa on Androidin 4.0.3. Masiinassa on ainoastaan joku AppsLib-niminen ohjelma, mutta ei se taida olla Android Market / Google Play. Siksi softasi pitää asentaa nettiselaimen kautta...</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w318",
+  "name": "Marko",
+  "date": "2013-01-28",
+  "html": "<p>Ok, tuo on vain google playssä ja tuosta AppsLibsistä en ole kuullutkaan :D Voi johtua ihan siitä.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

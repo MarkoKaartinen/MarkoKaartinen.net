@@ -1,0 +1,47 @@
+[
+ {
+  "id": "w251",
+  "name": "Petri",
+  "date": "2013-08-23",
+  "html": "<p>Jos upotat suolaveteen tai muuhun likaiseen veteen, kannattaa varmaankin huuhdella puhtaassa vedessä ettei pannuloiden saumoihin tms. kerry mitään moskaa joka voisi hankaloittaa laitteen käyttämistä.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w250",
+  "name": "Marko",
+  "date": "2013-09-09",
+  "html": "<p>Juurikin näin. Itse huuhtelin pullovedellä tuota aina kun olin käynyt merivedessä sen kanssa. Kamera toimii ja tuli ehjänä perille!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w249",
+  "name": "Petri",
+  "date": "2013-09-09",
+  "html": "<p>Örg. Omituinen kirjoitusvirhe, koska pannuloiden = nappuloiden.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w248",
+  "name": "Marko",
+  "date": "2013-09-10",
+  "html": "<p>Kas enpäs huomannutkaan :D <br>Muuten onneksi olkoon - pannuloiden = nappuloiden kommenttisi oli 1000 kommentti tähän blogiin! Voitit juuri kupposen virtuaalikahvia!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w247",
+  "name": "Petri",
+  "date": "2013-09-10",
+  "html": "<p>Jee! Kiitos. :-D</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ }
+]

@@ -1,0 +1,38 @@
+[
+ {
+  "id": "w716",
+  "name": "o-p",
+  "date": "2010-11-05",
+  "html": "<p>Kiitokset maininnasta :) Löysin taas yhden uuden blogin seurattavaksi.</p><p>(Reservin aurinkokin alkaa jo tosiaan pikku hiljaa pilkottamaan...)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w715",
+  "name": "Marko Kaartinen",
+  "date": "2010-11-05",
+  "html": "<p>Oleppa hyvä :P</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w714",
+  "name": "Pietari",
+  "date": "2010-11-10",
+  "html": "<p>Kiitos vihjeistä. Pitääpä käydä läpi ennestään tuntemattomat blogit.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w713",
+  "name": "Marko Kaartinen",
+  "date": "2010-11-10",
+  "html": "<p>Oleppas hyvä, hienoa jos löyty uutta lukemista.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

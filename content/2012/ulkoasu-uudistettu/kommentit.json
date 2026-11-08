@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w455",
+  "name": "Petri",
+  "date": "2012-07-16",
+  "html": "<p>Vaikuttaa hienolta. Täytyypä tutustua tarkemmin vaikkakin huomasin jo yhden asian, kun kirjanmerkeissäni on tallennettu blogisi osoitteeksi www.markokaartinen.net/blogi/ ja nyt siellä ei näytä olevan mitään. Kannattaa varmaan laittaa htaccessilla joku redirecti.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w454",
+  "name": "Marko",
+  "date": "2012-07-17",
+  "html": "<p>Aivan, pitääpä pistää mieleen ja laittaa tänään tuo redirect toimintaan.</p><p>Olen taustalla myös kategorisoinut näitä postauksia joten tulen hieman tuunaamaan vielä sivustoa :)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

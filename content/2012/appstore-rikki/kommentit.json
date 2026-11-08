@@ -1,0 +1,65 @@
+[
+ {
+  "id": "w389",
+  "name": "Katja",
+  "date": "2012-09-25",
+  "html": "<p>Sama ongelma! Kokeilin äsken varmaan viiteen kertaan ja aina käy samalla tavalla..</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w388",
+  "name": "Marko",
+  "date": "2012-09-25",
+  "html": "<p>Sama vaivaa vielä itselläkin :(</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w387",
+  "name": "Katja",
+  "date": "2012-09-25",
+  "html": "<p>Keksin ratkaisun joka toimi ainakin minulle. Menin iTunesiin mukamas lataamaan jotakin. Heittää samat kysymykset sielläkin. Vastasin siellä niihin ja meni läpi! Sitten peruin ostoksen. Nyt toimii app storekin latauksineen!</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w386",
+  "name": "Marko",
+  "date": "2012-09-25",
+  "html": "<p>Oma Mac on epäkunnossa ja siinä oli synkattuna kaikki iphonet ja ipadit sekä iTunes konffittu siihen. Odottelen sen kuntoutumista, kunhan saan SSD:n (huomenna).</p><p>Hyvä jos tämä ratkaisu toimii sinulla ja toivottavasti tuo auttaa muitakin!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w385",
+  "name": "Markku Itkonen",
+  "date": "2012-09-25",
+  "html": "<p>Minulla sama aikakatkaisu ongelma.  Toimii kyllä kun kytkee iPadin USB johdolla tietokoneeseen ja menee iTunesilla Storeen lataamaan. Mutta paska mikä paska. Ei pitäisi olla noin hankalaa.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w384",
+  "name": "Marko",
+  "date": "2012-09-25",
+  "html": "<p>Pitäisi saada toimimaan tuo kyllä. Antaa edes vaihtoehto tehdä netin kautta tuo homma!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w383",
+  "name": "Marko",
+  "date": "2012-09-25",
+  "html": "<p>Itse sain tuon vihdoin toimimaan kun tein tuon iPhonellani.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

@@ -1,0 +1,56 @@
+[
+ {
+  "id": "w650",
+  "name": "Petri",
+  "date": "2011-02-21",
+  "html": "<p>Jos on jotain <strong>järkevää sanottavaa</strong> niin siinä tapauksessa jaksan katsoa videoblogin. Tavallisen tekstin lukeminen on paljon vaivattomampaa kuin videoklipin kelaaminen alkamaan siitä kohdasta, jossa bloggaaja alkaa puhumaan kiinnostavasta asiasta.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w649",
+  "name": "Marko Kaartinen",
+  "date": "2011-02-21",
+  "html": "<p>Sepä se, ehkä tänne tulisi enintään jotain roinan tutkiskelu/mietintä juttuja jos niitäkään. Tosin aikoinaan tekemäni Minecraft video kerää jostain syystä vieläkin kommentteja :D  (<a href=\"http://www.youtube.com/watch?v=DIm6m6uJDRU\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://www.youtube.com/watch?v=DIm6m6uJDRU</a>)</p><p>Kokeilunahan tuo olisi jännä, sillä tommosta en ole tehnyt. Toisaalta näitä vlogeja on kun sieniä sateella loppujen lopuksi. Pitäisi jotenkin erottua joukosta. Tuskin ketään kiinnostaa Linuxin pulttaus Acer läppäriin videolla :D (itse en ainakaan katsoisi :D:D )<br> <br>Tosin juuri jonkun läppärin purku atomeiksi tai jonkun muun jännän lelun ronkkiminen olisi ehkä nice, mutta pitäisi se lelu jostain neppasta :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w648",
+  "name": "Petri",
+  "date": "2011-02-23",
+  "html": "<p>Joo, juuri jotain tuollaista teknistä hifistelyä olisi hauska katsella. Esimerkiksi juuri miten läppärin akku vaihdetaan tai miten muistia lisätään, miten jonkun digikameran valotusasetukset voidaan säätää tilanteeseen sopivaksi jne.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w647",
+  "name": "Marko Kaartinen",
+  "date": "2011-02-23",
+  "html": "<p>Pitää katsoa jos tulee jotain saumaa niin leikkiä videoinnillakin joskus :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w646",
+  "name": "Tommi",
+  "date": "2011-02-26",
+  "html": "<p>Itse olen myös leikitellyt ajatuksella vloggauksesta. Itsellä vaan on ajatus kaatunut aina tuohon &quot;Mistä puhua&quot; ongelmaan. Mutta jos jonkun kiinnostavan aiheen keksit niin tee ihmeessä! Esimerkiksi juuri valokuvaukseen / pelaamiseen liittyvä vlogi voisi olla kiinnostava.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w645",
+  "name": "Marko Kaartinen",
+  "date": "2011-02-26",
+  "html": "<p>Pelaamiseen.. noh tuskin kukaan haluaa nähdä videolla kun pelaan :D Pelaamisessa pitäisi ehkä ennemmin olla pelikuvaa videolla ja ns. selostus taustalla. (näitä on jo noin miljoona youtubessa :D)</p><p>Valokuvaus on aina jees, mutta siihenkään ei nyt ole mitään &quot;lelua&quot; mitä voisi kuvailla. Tosin hmm... katsotaan jos jotain keksiikin vaikka :P</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

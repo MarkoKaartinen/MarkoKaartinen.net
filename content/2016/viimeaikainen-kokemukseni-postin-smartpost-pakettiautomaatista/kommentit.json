@@ -1,0 +1,47 @@
+[
+ {
+  "id": "w53",
+  "name": "Petri",
+  "date": "2016-12-08",
+  "html": "<p>Sait sentään pakettisi eikä se päätynyt <a href=\"http://kuopassa.net/images/515.png\" rel=\"nofollow ugc noopener\" target=\"_blank\">hämärän rajamaille</a>. :-)</p><p>Ainakin täällä etelässä tehdään niin, että kun pakettiautomaatti alkaa olla täynnä, pakettien vastaanottajille lähetetään tekstiviestillä ilmoitus asiasta (kehotetaan noutamaan paketti mahdollisimman nopeasti).</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w52",
+  "name": "Marko",
+  "date": "2016-12-08",
+  "html": "<p>Ihme kyllä sain sen. :D</p><p>On täälläkin tullut ilmoituksia että haetko pakettisi pian, mutta se meinaa vaan että se pakettisi odottaa jo pakettiautomaatissa :)</p><p>Tässähän tämä ei ollut vielä päässyt sinne asti saati edes mahtunutkaan sinne.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w51",
+  "name": "mikko",
+  "date": "2017-02-07",
+  "html": "<p>mitäs jos kipittäsit vaa sinne liikkeeseen hakemaan sen tuotten, on muuten pljon kätevämpää</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w50",
+  "name": "Marko",
+  "date": "2017-02-07",
+  "html": "<p>Onhan se, mutta kaikkea tavaraa ei ole kaupan hyllyillä ja osa tarjouksista koskee verkkokauppatilauksia.</p><p>Itse teen jonkin verran hintavertailua ennen ostamista ja käyn ihan liikkeissä kyselemässä pystyykö tarjoamaan vastaavaa.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w49",
+  "name": "#BÖLLIS",
+  "date": "2019-01-24",
+  "html": "<p>UGH!</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ }
+]

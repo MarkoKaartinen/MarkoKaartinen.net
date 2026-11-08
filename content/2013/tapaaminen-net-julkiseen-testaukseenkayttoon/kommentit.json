@@ -1,0 +1,38 @@
+[
+ {
+  "id": "w287",
+  "name": "Petri",
+  "date": "2013-05-15",
+  "html": "<p>Entäs kun tapahtuman käy luomassa sillä etusivulla olevalla lomakkeella, voinko sen jälkeen tehdä tapahtumaan muutoksia tai poistaa sen? Tuleeko esim. sähköpostilla joku viesti, jossa on ohjeet tapahtuman editoimiseen/deletoimiseen? ;-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w286",
+  "name": "Marko",
+  "date": "2013-05-15",
+  "html": "<p>Voit vapaasti kokeilla tuota, ei se rikki mene ja testitapaamisia löytyy jo kannasta jokunen :)<br>Mutta lyhykäisyydessään kun luot tapaamisen niin saat sen jälkeen sähköpostiin linkin tapaamisen julkiseen osoitteeseen sekä tapaamisen hallinta linkkiin. Siellä voit tällä hetkellä salasanasuojata, lukita, poistaa tai sallia/estää kommentoinnin. Tulossa on tarkemmat muutokset tapaamisen sisältöön, aikoihin ja osallistumisiin. Sekä mm. Google Kalenteriin vienti, osallistujien kutsuminen yms.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w285",
+  "name": "Petri",
+  "date": "2013-05-15",
+  "html": "<p>Toimii hyvin. :-) Kannattaa mainita tästä asiasta esim. Optimointi.comin foorumilla.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w284",
+  "name": "Marko",
+  "date": "2013-05-15",
+  "html": "<p>Tämän &quot;launchi&quot; ylitti omat odotukset. Tähän mennessä uniikkeja kävijöitä on ollut 374 kappaletta, käyntejä 427 kappaletta ja sivun latauksia 927 kappaletta.</p><p>Tämän ensimmäinen oikea käyttäjä tuli jo ennen virallista julkistusta ja se ajoi minut julkistamaan tämän hieman etuajassa :D Tätä on käytetty jo Savonian opettajien toimesta ja sieltä olen saanut hyviä apuja testauksessa.</p><p>Erittäin positiivinen vastaanotto on ollut muutenkin. Jokunen yhteydenotto josta olen saanut lisää vinkkejä ja ideoita.</p><p>Tulen kirjoittelemaan tämän viikon loppupuolella hieman lisää tämän julkaisusta ja sen saamasta huomiosta ja palautteesta!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

@@ -1,0 +1,47 @@
+[
+ {
+  "id": "w274",
+  "name": "Ilkka Rautiainen",
+  "date": "2013-07-17",
+  "html": "<p>Tosta searchistä sen verran että Win+Q hakee esillä olevasta ohejelmasta, Win+F tiedostoista ja Win+W asetuksista. Win+I päässee asetuksiin josta lyöty se sammuta-nappi. Mut itse ihmettelen kyllä että miksi sitä sammuta nappia muka pitää etsia?? sehän on koneessa =D se sama nappi mistä se vehje pistetään päälle =D Win 8.1 puheen ollen siinä tietääkseni tuo näytön jakaminen on &quot;portaaton&quot; ja se &quot;starti-painike&quot; on vaan se sama kuin näppäimistöllä Win-näppäin, että ei sen takii ainakaan kannata odotaa sitä Win 8.1:stä. PS. Lisää näitä =D</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w273",
+  "name": "Marko",
+  "date": "2013-07-17",
+  "html": "<p>Kiitos selvennyksistä noihin hakuihin!</p><p>Sammuta nappi mikä koneessa on pistää koneen nukkumaan ainakin itsellä on näin oletuksena. Tämä ei minua haittaa sillä kone käynnistyykin sitten nopeemmin &quot;unesta&quot;. Liekö tämä Win8 oletusasetus sitten tuolle toiminnalle ja saisihan tuon säädettyä Power Settingseistä jos haluaisi.</p><p>Eli Startti painike heittää takaisin tiilikäyttöliittymään? :D Voe voe, näin simppeli asia ja se osataan mokeltaa.</p><p>Lisää tulee ja aihe pitäisi vain keksiä ;) Pitää katsella reissun jälkeen mitä keksii. Nythän on ns. kuumana aiheena täällä blogissa tuo Canon PowerShot S110 ja siitä tulee vielä reissun jälkeen juttua. Tulossa on myös mm. arvontaa ja muuta jännää!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w272",
+  "name": "Ilkka Rautiainen",
+  "date": "2013-07-17",
+  "html": "<p>Joo, nukkumaan se menee minullakin, mutta nykyään se on ainakin itselle sama asia kuin kone olisi sammutettu :D</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w271",
+  "name": "Ilkka Rautiainen",
+  "date": "2013-07-17",
+  "html": "<p>Tuohon Startti-painikkeeseen palatakseni/korjatakseni, luin aikaisemmin jonkun artikkelin jossa kerrottiin että MS tekisi vain koodaamalla painikkeen joka vastaa tablettien Win painiketta eli sama asiakuin näppiksen Win painike mutta se tulisi tuohon desktopille. Nyt kuitenkin tutkiskelin asiaa kun RC on julkaistu niin sain sen käsityksen että se olisikkin painike josta aukeaa tämä sama valikko kuin Win+X. Ainut asia minkä takia itse odottaisin 8.1:stä on että metro näkymään saa vaihdettua oman taustakuvan :D</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w270",
+  "name": "Marko",
+  "date": "2013-07-17",
+  "html": "<p>Näin muuten saman kuvan, että tekisi saman kuin Win+X - harmillista jos tuotakaan ei tehdä kunnolla.</p><p>No Metro näkymän taustakuvalla ei ole itselle mitään merkitystä sillä en juurikaan sitä katsele :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

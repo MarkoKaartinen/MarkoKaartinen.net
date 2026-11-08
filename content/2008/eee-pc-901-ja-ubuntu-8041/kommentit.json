@@ -1,0 +1,146 @@
+[
+ {
+  "id": "w916",
+  "name": "Tha Fox",
+  "date": "2008-09-19",
+  "html": "<p>Kohdassa 6 ilmeisesti copy-paste -virhe. Ei varmaankaan pitäisi kahta kertaa olla samaa komentoa? <br> <br>Hyvät ohjeet! Itse aion lisätä vielä logien kirjoituksen keskusmuistille ja elmuraton skriptit pitäisi ajaa, jotta saisi nuo pikanapit toimintaan.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w915",
+  "name": "Marko",
+  "date": "2008-09-19",
+  "html": "<p>@Tha Fox: <br>Joo siellä olikin copy-paste härö ja korjasin sen juuri oikeaksi.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w914",
+  "name": "tila",
+  "date": "2008-09-27",
+  "html": "<p>Hyvä ohje. en vaan meinannut saada tota eka boottaamaan tolta usb tikulta. Siten sai toimimaan kun kesken käynnistyksen sammutti vaan virtanapista ja sitten käynisti uudestaan ja esc:iä pitää pitää pohjassa niin kauan että tulee se boottivalikko. <br> <br>PS Miks tää ubuntu puhuu puoliks suomea ja enkkua</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w913",
+  "name": "tila",
+  "date": "2008-09-28",
+  "html": "<p>Semmosta kysyisin vielä, kun en millään saa toimimaan, että miten sais touchpadin pois päältä ku se häiritsee aika paljon ku kirjottaa ku sillä vahinkossa klikkailee jokapaikkaa. Ja sain jopa suomenkielisenkin tosta.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w912",
+  "name": "Marko",
+  "date": "2008-09-28",
+  "html": "<p>@tila: <br>Hmm, itse sain jossain välissä niin toimimaan, että sen sai pois, mutta sitä en saanut toimimaan kun kirjottaa. <br>Tällä hetkellä itselläni on testissä Windows XP tuossa Eee:ssä, joten en voi Ubuntulla demota tota. <br>Olen myös aikomassa testata Ubuntun Eee versiota Eeebuntu. <br> <br>Ja muillekkin tiedoksi niin suomenkieliseksi sen sai muistaakseni asentamalla synapticilla suomipaketit.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w911",
+  "name": "Matti Partonen",
+  "date": "2009-05-07",
+  "html": "<p>Hei Marko,</p><p>koskeeko nämä ohjeesi myös Eee PC:n ekaa miniläppäriä, jossa on ilmeisesti<br> <br>Linuxin Fedora-versio tai jotain sinne päin? Koska pitäisi saada usb-nettitikku 636 Hsupa<br> <br>örkkimään laitteessa.</p><p>Tiedosta kiitollinen.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w910",
+  "name": "Marko Kaartinen",
+  "date": "2009-05-07",
+  "html": "<p>En mene vannomaan sillä ilmeisesti tarkoitat 701 mallia? Ja itse en ole ainakaan testannut Ubuntua sillä saati kokonaan kyseistä Eee:n konetta.<br> <br>Mutta uskoisin jos saat Ubuntun asennettua Eeelle niin ko. tikku voisi toimiakin.<br> <br>Ubuntun suomenkielisiltä <a href=\"http://ubuntu-fi.org\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://ubuntu-fi.org</a> sivuilta löytyy todennäköisesti apuja.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w909",
+  "name": "Matti",
+  "date": "2009-05-07",
+  "html": "<p>Joo, mä sain tohon tikun asennukseen hyvät ohjeet Ubuntun sivuilta,<br> <br>mutta jostain syystä en löydä ohjeita tohon Ubuntun asentamiseen 701 malliin tai<br> <br>sitten olen vain niin tyhmä.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w908",
+  "name": "Marko Kaartinen",
+  "date": "2009-05-07",
+  "html": "<p>No periaatteessa samalla tavalla se toimii, muistat vaan että osiointi samalla tyylillä eli ei SWAP osioo ja ext2 tiedostonjärjestelmä ja / osio tulee sille nopeammalle levylle /home sille hitaammalle.<br> <br>Eipä siinä mitään ihmeellisyyskiä pitäisi olla.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w907",
+  "name": "Matti",
+  "date": "2009-05-07",
+  "html": "<p>ok, kunhan ensin saan sen oikein buuttaamaan eli käynnistys cd ineen ja f2 painetaan käynnistyksen yhteydessä?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w906",
+  "name": "Marko Kaartinen",
+  "date": "2009-05-07",
+  "html": "<p>Eee 901:ssä piti Esciä näpytellä sen jälkeen kun painoi koneen käynnistysnappia.<br> <br>Jonka jälkeen tulee boottivalikko ja valitaan se USB-tikku</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w905",
+  "name": "Matti",
+  "date": "2009-05-07",
+  "html": "<p>Aha kiitti, mä oon näpytellyt f2 tai f9, mutta Esc on vielä kokeilematta.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w904",
+  "name": "Juho",
+  "date": "2009-07-06",
+  "html": "<p>Terve.<br> <br>4-3-4 kohdassa tyssäsi kun koitin asentaa noita linux-imagea ja linux-ubuntu-modulessia.<br> <br>Terminaalissa herjaa että Cannot access archive: No such file or directory. Ja kun käsin koitin avata, niin sanoi että dependency is not satisfiable: linux-ubuntu-modules-2.6.24-21-eeepc</p><p>Osioinnin laitoin vahingossa oletusasetuksilla, johtuuko siitä?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w903",
+  "name": "Marko Kaartinen",
+  "date": "2009-07-09",
+  "html": "<p>Jos kopypastesit noi komennot niin todennäköisesti versiot ovat uudistuneet.<br> <br>Suosittelen tutkimaan uusimmat asennusohjeet array.orgista  (<a href=\"http://array.org/ubuntu/setup.html\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://array.org/ubuntu/setup.html</a>) ja näin saat uusimman versionkin.</p><p>En usko, että osioinnissa on vika, mutta swap ei silti tee hyvää Eeen kovolle.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w902",
+  "name": "jmm",
+  "date": "2009-07-16",
+  "html": "<p>Apuaa!!! mitkä ovat pikanäppäimet työpöytätilan vaihtoon?! Nopeaa apua kiitos...</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w901",
+  "name": "Marko Kaartinen",
+  "date": "2009-07-19",
+  "html": "<p>Olikohan ctrl alt nuoli oikeaan tai vasempaan</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

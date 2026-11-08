@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w883",
+  "name": "köpi",
+  "date": "2009-06-22",
+  "html": "<p>olipa hieno! tosin aika paljolti näyttää vaa hiotulta ja viilatulta cod neloselta. Laatua tulossa joka tapauksessa. :)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w882",
+  "name": "Marko Kaartinen",
+  "date": "2009-06-22",
+  "html": "<p>Ostolistallehan se menee :P tosin moni muukin peli on &quot;joutunut&quot; sinne listalle.<br> <br>Pitkä on tosni odotus...</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

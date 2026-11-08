@@ -1,0 +1,38 @@
+[
+ {
+  "id": "w295",
+  "name": "Petri",
+  "date": "2013-04-17",
+  "html": "<p>Näiden lisäksi kannattaa ehdottomasti tutustua WP:n turvallisuutta parantaviin plugineihin. Löytyy ainakin sellainen kuin Better WP Security, jonka avulla järjestelmän turvallisuutta voi parantaa huomattavasti.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w294",
+  "name": "Marko",
+  "date": "2013-04-17",
+  "html": "<p>Kyllä, tuo lisäosa on toimiva, itse otin tämän käyttöön eilen ja olen testaillut sitä hieman tässä. Tämä oma blogini on vielä säästynyt hyökkäykseltä. Varmuuskopiointia pitäisi harrastaa kyllä useammin!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w293",
+  "name": "Petri",
+  "date": "2013-04-18",
+  "html": "<p>Joo, varmuuskopioiden ottaminen on minultakin jäänyt. Vaikka tietokannoista joskus viitsin ottaa kopsun, myös muut tiedostot pitäisi napata talteen siltä varalta jos sattuu jotain. :-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w292",
+  "name": "Marko",
+  "date": "2013-04-18",
+  "html": "<p>Pitäisi muistaa ottaa kyllä, työprojekteissa niitä tulee otettua paljon herkemmin kuin omista :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

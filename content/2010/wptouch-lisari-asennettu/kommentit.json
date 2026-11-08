@@ -1,0 +1,65 @@
+[
+ {
+  "id": "w752",
+  "name": "Rolle",
+  "date": "2010-10-27",
+  "html": "<p>Mulla tuo ei toiminut. Ei tehnyt mitään. Onkos tuo se missä admin-paneelikin on muutettu puhelinmuotoon?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w751",
+  "name": "Marko Kaartinen",
+  "date": "2010-10-27",
+  "html": "<p>Hallinta näkyy olevan ihan &quot;normaalissa&quot; selain muodossa.<br> <br>Tuo ainakin minun iPhonessa toimii, pitää illemmalla testata vanhemmalla 3G:llä tuota.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w750",
+  "name": "Jyri V.",
+  "date": "2010-12-21",
+  "html": "<p>Testaan Samsung Galaxy S:llä sivuasi... Palaan asiaan...</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w749",
+  "name": "Jyri V.",
+  "date": "2010-12-21",
+  "html": "<p>Toimii myös täällä mobiiliteema.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w748",
+  "name": "Marko Kaartinen",
+  "date": "2010-12-21",
+  "html": "<p>Hienoa! Kiitoksia Jyrille!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w747",
+  "name": "Jyri V.",
+  "date": "2010-12-21",
+  "html": "<p>Täytyy melkein asentaa omaankin blogiin... vaikutti hyvältä. Kiitos vinkistä samalla. :)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w746",
+  "name": "Jyri V.",
+  "date": "2010-12-22",
+  "html": "<p>Olen korjannut itse nyt lisäosasta muutaman bugin CSS:ssä, parantanut CSS:ää ja suomentanut teeman ulkoasun. :)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ }
+]

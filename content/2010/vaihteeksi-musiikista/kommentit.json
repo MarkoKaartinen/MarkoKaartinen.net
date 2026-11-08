@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w735",
+  "name": "Rolle",
+  "date": "2010-11-04",
+  "html": "<p>Hyvää musiikkia! Kiitos nostosta. Tiedätkö muuten miksi paluuviitteet eivät tule täältä Rollemaahan asti? :/</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w734",
+  "name": "Marko Kaartinen",
+  "date": "2010-11-04",
+  "html": "<p>Oleppa hyvä.<br> <br>Tähän en kyllä osaa vastata miksi ei tule o_O</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

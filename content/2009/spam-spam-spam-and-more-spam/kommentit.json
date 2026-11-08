@@ -1,0 +1,74 @@
+[
+ {
+  "id": "w874",
+  "name": "k00pa",
+  "date": "2009-07-15",
+  "html": "<p>No akismet on itelläni yli tuhat spämmiä ottanut kiinni. Ohi on mennyt vain joku 5-8 spämmiä. Vääriä spämmejä ei ole tullut kertaakaan.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w873",
+  "name": "Torsti",
+  "date": "2009-07-15",
+  "html": "<p>Mä taas poistin kerran Akismetin vahingossa (:D) ja blogi ollut pystyssä kohta 2 kuukautta, spämmejä tullut 8. Aika hyvin on myös hakukoneoptimoitu, ihme ettei ole botit kummemmin häirinneet. Jos/kun se jossain vaiheessa alkaa, niin pitää varmaan sitten suojausta nostaa jollain lisäosalla.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w872",
+  "name": "Osmo",
+  "date": "2009-07-16",
+  "html": "<p>Akismet. Mut se onkin jo sanottu täällä pariin kertaan :D</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w871",
+  "name": "zxcvcxz",
+  "date": "2009-07-17",
+  "html": "<p>blokkaako tämän? test<br> <br>zxxxzxzxzx</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w870",
+  "name": "Marko Kaartinen",
+  "date": "2009-07-19",
+  "html": "<p>Kyseinen kommentti meni hyväksyttäväksi (ei siis spämmi puolelle) ja tämä siksi, koska uudet (ensikertalaiset) kommentoijat joutuvat odottamaan, että minä hyväksyn heidän kommentin.</p><p>Tämän kommentin hyväksyin, koska halusin ja koska tämä ei sinänsä ollut spämmi vain testi. Mutta epäilen, että Akismet on fiksumpi sillä tuo nyt ei sinänsä täytä spämmin merkkejä sisältämällä zxxzxzx yms kirjaimia, vaan spämmissä on yleensä linkkejä ja muuta shittiä.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w869",
+  "name": "Marko Kaartinen",
+  "date": "2009-07-19",
+  "html": "<p>Akismet toimii kyllä hyvin, ei siinä mitään. Ja muutenkin neppasen ilmoituksen aina kun uusi kommentti on tullut sivustolle (kommentti joka ei ole spämmiä). Ja puhelimen kautta voin hallita myös kommentointia ja muuta kivaa.</p><p>Ja olen myöskin alkanut blokkaamaan ip-osotteita ihan kylmästi. Varsinkin jos sieltä tulee useampi spämmi.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w868",
+  "name": "Jyri V.",
+  "date": "2009-07-24",
+  "html": "<p>Hei,</p><p>Tiedustelit lisäosia. Akismet toimii hyvin, kerroit kuitenkin, että kärsit roskarekisteröinneistä. Lataa siinä tapauksessa <a href=\"http://wordpress.org/extend/plugins/sabre/,\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://wordpress.org/extend/plugins/sabre/,</a> jolla estät kaikki roskarekisteröinnit. Mediablogissani Akismet toimii hyvin, se on muutenkin paljon luettu blogi, päivässä saattaa olla jopa 1 000 uniikkia Counterizen mukaan -&gt; Akismet on suojannut sivustoasi jo 17,997 roskaviestiltä, ja juuri nyt 223 kommenttia roskaviestijonossa.</p><p>Eipä mulla kai muuta. Hyvää kesää!</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w867",
+  "name": "Marko Kaartinen",
+  "date": "2009-07-24",
+  "html": "<p>Akismet toimii, ei siinä mitään. Ja nekin jotka erehtyy spämmimään ja samasta ip:stä vielä niin ne menee manuaalisesti .htaccessiin ja estoihin sitä kautta.</p><p>Sabrea voisi jossain välissä koittaa kunhan jaksan alkaa säätämään sivuja.</p><p>Ja hyvää kesää sinnekkin!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

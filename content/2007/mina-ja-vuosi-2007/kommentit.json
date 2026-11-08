@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w949",
+  "name": "Rolle",
+  "date": "2008-01-02",
+  "html": "<p>Luinpa tämänkin vihdoinkin. Itse en ole Assemblyillä koskaan käynyt, pitäiskö?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w948",
+  "name": "Marko",
+  "date": "2008-01-02",
+  "html": "<p>Noh jos siltä tuntuu, mutta itse tykkäsin tapahtumasta (parantumaton nörtti kun olen). <br>Siellä on kyllä kaikkea vähän jokaisellekkin, tai no itse löysin sieltä vaikka mitä kivaa, ja lisääkin olisi varmaan ollut jos olisin oikein tutkinut. <br>Mutta suosittelen kaikille tätä tapahtumaa, suurin hommahan on se kone raahata sinne, itselläni on tämä läppäri jota raahasin :)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

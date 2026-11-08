@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w615",
+  "name": "Enniriina",
+  "date": "2011-04-28",
+  "html": "<p>Onhan tuo Pallontallaajat, jossa on foorumi kanssa. Minulla on huonoja kokemuksia phpbb:n kanssa. Se tuntuu tähänastisista testamistani blogisoftista tarvitsevan eniten päivitystä juuri noiden bottien takia.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w614",
+  "name": "Marko Kaartinen",
+  "date": "2011-04-28",
+  "html": "<p>Pallontallaajat on keskittynyt omatoimimatkailuun lähinnä.</p><p>PhpBB on vähän vänkä ja botit saa kyytiä kun pakottaa rekisteröitymään, tosin toi olisi muutenkin ihan passeli idea. PhpBB:n kanssa ei oo vielä ollu mitää ongelmaa.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

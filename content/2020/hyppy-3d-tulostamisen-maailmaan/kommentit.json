@@ -1,0 +1,56 @@
+[
+ {
+  "id": "w18",
+  "name": "Pete",
+  "date": "2020-03-12",
+  "html": "<p>Muistan nähneeni Robomaan nettikaupassa, tai jossain muualla, kuinka 3D-tulostimen rinnalle voi hankkia sellaisen viimeistelylaitteen. Se toimii jotenkin niin, että laite hioo/sulattaa tms. teräväksi jääneet reunat ja tasoittaa pinnat. Esimerkiksi noi valkoiset vaatekoukut tms. voisivat näyttää paremmilta sellaisen jälkikäsittelyn avulla. :-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w17",
+  "name": "Marko Kaartinen",
+  "date": "2020-03-13",
+  "html": "<p>Eihän kyse ole resin 3d printtauksesta eli jossa ne on pakko käsitellä muistaakseni alkoholikylvyssä. Olen myös nähnyt jonkun tommoisen jonka pitäisi tehdä tuota fdm mallin tulosteillekkin ja toimikohan jollain kaasulla (voi olla että muistan väärin).</p><p>Ihan hiomapaperilla saa kyllä hienoa jälkeä ja sitten jos käsittelee ihan pohjamaalilla ja maalilla. Kesällä kunhan ulkona tarkenee niin pitää alkaa tekemään testejä tuossa terassilla. Sisällä ei ole tällä hetkellä mulla semmoista puuhahuonetta :(</p><p>Aika moni on kyllä käytössä ihan ilman käsittelyäkin :)<br>Switchiin on tulosteltu telakka jonka sisukset varastin orggiksesta. Raspberry Pi:lle on koteloa tietty sekä Ruuvi tag sensoreille on saunassa, ulkona ja sisällä telineet.</p><p>Aika kivasti saa tosiaan tulosteltua tuolla ihan käyttökamaa. Hintaa kun muoville tulee joitain kymmeniä senttejä isommille tulosteille jos ei laske sähköä ja aikaa tietty.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w16",
+  "name": "Pekka",
+  "date": "2021-01-24",
+  "html": "<p>Mitä eri filamenttejä ender 3 pro: lla voi käyttää  ?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w15",
+  "name": "Marko Kaartinen",
+  "date": "2021-01-25",
+  "html": "<p>Moro Pekka!<br>Itse olen tulostellut PLA:ta ja PET(G):tä onnistuneesti.</p><p>Osa filamenteistä vaatinee hieman säätöä. ABS tulostaessa kannattanee olla kotelo jotta lämmöt (ja hajut?) pysyy kunnossa. <br>Flexible filamenttejä tulostaessa suositaan ns. direct driveä jolloin ei jää tuohon putkeen kiinni.</p><p>Itse en ole seikkaillut noiden PLA ja PET ulkopuolella vielä ja PET aloin vasta tulostelemaan, kun sain edukkaasti sitä.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w14",
+  "name": "Joona",
+  "date": "2021-09-22",
+  "html": "<p>Kommentoija tarkoitti varmaan tuota polymakerin polysheriä. ABS tulosteita voi siloitella asetonilla.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w13",
+  "name": "Marko Kaartinen",
+  "date": "2021-09-23",
+  "html": "<p>Aivan muuten joo. Oon tainnu joskus törmätä vastaavaan konseptiin.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

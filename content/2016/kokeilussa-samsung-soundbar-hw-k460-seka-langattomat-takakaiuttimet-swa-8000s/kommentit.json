@@ -1,0 +1,47 @@
+[
+ {
+  "id": "w48",
+  "name": "Marko",
+  "date": "2017-01-11",
+  "html": "<p>Nyt kun olen käyttänyt vielä lisää niin nuo takakajarit tuo ihan hauskaa lisää ja syvyyttä katseluun. Välillä havahtuu, että &quot;hitto kuulostaapa tämä hyvältä&quot;.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w47",
+  "name": "Petri",
+  "date": "2017-01-13",
+  "html": "<p>Jos jonakin päivänä ne luottokortin paksuiset telkkarit tulevat hyvin yleisiksi, tuollaiset erilliset äänentoistojärjestelmät voivat mennä hyvin kaupaksi. ;-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w46",
+  "name": "Marko Kaartinen",
+  "date": "2017-01-13",
+  "html": "<p>Toi on tällä hetkellä itselle paras valinta kyllä ollut. Saa tarpeeksi mökää taloon halutessa ja äänenlaatu voittaa telkkarin äänenlaadun. Tosin telkkarin äänenlaadun voittanee jos pistää perus tietokoneen 2.1 kajarit kiinni :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w45",
+  "name": "Pekka",
+  "date": "2017-01-24",
+  "html": "<p>Ostin myös HW-k560 soudbarin Gigantista joulun jälkeen alennusmyynnistä ja tilasin takakaiuttimet annetusta osoitteesta mutta vieläkään ei ole tullut edes varmistusviestiä rekisteröinnistä, Kaiutin tosiaan paransi ääntä huomattavasti ja myös lisäsi kaikenlaista tausta ääntä mikä ei ennen kuulunut, siis myönteisessä mielessä. Saa nähdä tuleeko tarjous kaiuttimet milloinkaan lisäämään äänimaailmaa.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w44",
+  "name": "Marko",
+  "date": "2017-01-24",
+  "html": "<p>Moi Pekka! Tuolla kampanjasivuilla oli sähköposti: kampanj@veddesta-distribution.se <br>Siihen kannattanee laittaa viestiä ja laittaisin ehkä vielä englanniksi.</p><p>Tuollahan lukee:<br>3. Langattomat Samsung Wireless Rear Kit SWA-8000S -kaiuttimet toimitetaan postitse lähimpään noutopisteeseen 14 päivän sisällä hyväksytystä rekisteröitymisestä kertovan vahvistusviestin vastaanottamisen jälkeen.</p><p>Katsoin omaa sähköpostiani niin minulle tuli ainoastaan ilmoitus, että se on postitettu. Siinäkin taisi hetki vierähtää.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

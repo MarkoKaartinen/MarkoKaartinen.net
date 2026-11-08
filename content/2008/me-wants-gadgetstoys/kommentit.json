@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w926",
+  "name": "Heikki",
+  "date": "2008-08-06",
+  "html": "<p>Onpa kalliit lelut taas <br> <br><em>Käyttäjän Heikki viimeisin posti: Fiat Punto</em></p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w925",
+  "name": "Marko",
+  "date": "2008-08-06",
+  "html": "<p>@Heikki: <br>Pitäähän sitä leluja olla :)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

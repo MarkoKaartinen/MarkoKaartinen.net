@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w665",
+  "name": "Petri",
+  "date": "2011-01-25",
+  "html": "<p>Näyttää hyvältä ja näköjään siinä on vuosien takaista huumoriakin pidetty hengissä, kuten vessassa ramppaaminen ja tissibaareista nauttiminen.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w664",
+  "name": "Marko Kaartinen",
+  "date": "2011-01-26",
+  "html": "<p>Kyllä on säilytetty :D Toivotaan, että se VIHDOIN tulee ja sitä pääsee pelailemaan kunnolla :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w110",
+  "name": "Petri",
+  "date": "2015-10-04",
+  "html": "<p>Onko yksittäisen tapaamisen URL-osoite vielä samanlainen kuin siinä esimerkkitapaamisessa? Siis tällainen:</p><p><a href=\"http://tapaaminen.net/nayta/4e49cf541f4de7284c3d8042312b0a75ccb5ea75\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://tapaaminen.net/nayta/4e49cf541f4de7284c3d8042312b0a75ccb5ea75</a></p><p>Tuossa on yksi pieni asia, jota voisi kehittää käytettävyyden takia. Tarvitaanko noin pitkää rimssua osoitteen lopussa? ;-) Ehkä sen voisi puristaa lyhyemmäksi kuten:</p><p><a href=\"http://tapaaminen.net/4e49cf\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://tapaaminen.net/4e49cf</a></p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w109",
+  "name": "Marko",
+  "date": "2015-10-04",
+  "html": "<p>Tätä testailin alussa kun tein, mutta päädyin silloin noihin pitkiin osotteisiin. Tuo on yksi kohteista mikä muuttuu ja hallintalinkin ajattelin pitää pitkänä.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

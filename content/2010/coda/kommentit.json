@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w712",
+  "name": "Tomi",
+  "date": "2010-11-08",
+  "html": "<p>Itselläni ovat käytössä TextMate ja CSSEdit, ovat yhteensä halvempia. Ensin mainittua saa laajennettua aika paljon.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w711",
+  "name": "Marko Kaartinen",
+  "date": "2010-11-08",
+  "html": "<p>Pitää kokeilla - olen tohon Codaan ollut jo suhteellisen tyytyväinen ja ajattelin käyttää tuon 2 viikon ajan hyödyksi.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

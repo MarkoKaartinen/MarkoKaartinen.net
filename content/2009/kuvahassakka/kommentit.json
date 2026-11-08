@@ -1,0 +1,11 @@
+[
+ {
+  "id": "w840",
+  "name": "Petri",
+  "date": "2009-08-21",
+  "html": "<p>Thumbnaileihin voisi lisätä with- ja height-attribuutit siihen img-tagin sisälle, jotta ne kuvatiedostot skaalattaisiin välittömästi oikeisiin mittasuhteisiin ja ennen kuvatiedoston grafiikan lataamista. Erityisesti omien havaintojeni mukaan vanhat nettiselaimet nimittäin kärsivät usein siitä vaivasta, että kuvat &quot;pomppivat&quot; ruudulla sen takia kun korkeutta ja leveyttä ei ole laitettu.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ }
+]

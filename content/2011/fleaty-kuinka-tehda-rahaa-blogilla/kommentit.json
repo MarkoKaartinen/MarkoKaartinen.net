@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w601",
+  "name": "Petri",
+  "date": "2011-06-07",
+  "html": "<p>Joo, joo. jQueryn laittaminen on turha vaihe. Vitosvaihekin on vähän niin ja näin, koska laadun sijaan määrä taitaa olla tärkeämpi tekijä.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w600",
+  "name": "Marko Kaartinen",
+  "date": "2011-06-07",
+  "html": "<p>jQuery, nooooo en ihan täysin turhaksi allekirjoita :D Sillä saa jotain pientä kivaa tehtyä aina. Määrä on kyllä aika arvostettu tänä päivänä noissa blogeissa, sillä ne tuottaa näkyvyyttä eri paikoissa enemmän. Laatuun voi panostaa, mutta ei ehkä niin isossa määrin kuten kuvassa oon kuvattu - eli en tekisi yötä myöten artikkelia vain sen takia, että saisin siitä täydellisen joka suhteessa. Hyvin pieni asia auttaa artikkelin laadun parantamisessa, nimittäin artikkeliin jos lisää kuvan niin voisinpa väittää, että se on heti kiinnostavampi :)</p><p>Ei se blogi yhdessä yössä tunnetuksikaan tule, tätä sivustoa on tehty monta monituista vuotta ja vieläkin jaksan innostua siitä pienestä kävijähypystä tilastoissa ja siitä, että joku kirjoittaa kommentin blogiin!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

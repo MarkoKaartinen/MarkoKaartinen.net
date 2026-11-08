@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w105",
+  "name": "Petri",
+  "date": "2015-11-25",
+  "html": "<p>NES-pelien pelaaminen saattaisi ehkä olla hyvä niche koska monet rämppäävät vain niitä &quot;latest and greatest&quot; -pelejä. :-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w104",
+  "name": "Marko",
+  "date": "2015-11-25",
+  "html": "<p>Wii U:ssahan on Virtual Console johon voi ostaa NES/SNES pelejä ja ne toimii aika mukavasti. Alkuperäiseen verrattuna niissä on vielä muistaakseni tallennusmahdollisuus :D</p><p>Tämä tosin vaatii myös tuon capture cardin sillä Wii U ei osaa striimata suoraan kuten esim PS4.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

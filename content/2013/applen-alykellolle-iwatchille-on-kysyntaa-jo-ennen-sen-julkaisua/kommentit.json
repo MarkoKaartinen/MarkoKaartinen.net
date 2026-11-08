@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w289",
+  "name": "Petri",
+  "date": "2013-04-25",
+  "html": "<p>Yksi aika siisti juttu olisi jos kellossa olisi GPS ja sillä voisi jotenkin nauhoittaa/tallentaa reitin mitä pitkin on kuljettu. Voisi olla hyödyllinen esimerkiksi kävelylenkillä, kun voisi myöhemmin pistää reitin kartalle ja katsoa miten paljon on tullut liikuttua jne.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w288",
+  "name": "Marko",
+  "date": "2013-04-25",
+  "html": "<p>Tuommoinen kello on olemassakin, ainakin Nikellä on Nike+ SportWatch. Ja minusta Garminilla on kanssa vastaava. Eli tuommoisia GPS kelloja on.</p><p>Mimmoinenhan olisi iWatchin akunkesto :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

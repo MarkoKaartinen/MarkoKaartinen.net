@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w120",
+  "name": "kuopassa2",
+  "date": "2015-04-17",
+  "html": "<p>Kiitos mukavasta iltalukemisesta. :-) Oletko huomannut eroja virolaisessa ja suomalaisissa liikennekulttuurissa? Huomioidaanko esim. suojatiellä ylittämistä odottavia paremmin tai huonommin kuin Suomessa?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w119",
+  "name": "Marko",
+  "date": "2015-04-20",
+  "html": "<p>Oleppa hyvä! Reissusta palailin ja jaksoin nyt alkaa katsomaan hieman mitä on tullut minnekkin :)<br>Isoin ero tulee juurikin esille tuossa suojatiestä. Tallinnassa nimittäin väistetään jalankulkijaa, eli sinun ei kauaa tarvitse odottaa suojatien ylittämistä oli sitten kyseessä isompikin tie. Käsittääkseni jos tuota ei noudata niin siitä lätkästään sakot kouraan.<br>Sen huomion myös kiinnitin siellä, että ajavat suhteellisen kovaa siellä Tallinnan alueella. Kaupunkialueelle nopeudet tuntuvat välillä olevan suht kovia ja mielenkiintoisia ohituksia ja ratkaisuja näkyykin suht usein.</p><p>Itsehän ajelin Tallinnassa parina päivänä ja kilometrejä kertyi noin 50km. Ajeltiin mm. Ulemiste keskukseen, Sikupillin Prismaan ja Rocca Al Mareen.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

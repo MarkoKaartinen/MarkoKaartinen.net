@@ -1,0 +1,56 @@
+[
+ {
+  "id": "w301",
+  "name": "Petri",
+  "date": "2013-04-11",
+  "html": "<p>Gmailiin on muuten joku viritelmä, jolla saa säilytettyä oman sähköpostiosoitteen, mutta voi hyödyntää Gmailin levytilaa jne. Tai ainakin pari vuotta takaperin oli tällainen mahdollisuus jos teki joitain muutoksia sähköpostitilin MX-tietueisiin. Ideana tässä on siis, että voisi laittaa sähköpostiosoitteen (esim. matti.meikalainen@domain.fi) hyödyntämään Gmailin resursseja. Varmaan googlettamalla löytyy tarkempia ja parempia selostuksia ko. asiasta. ;-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w300",
+  "name": "Marko",
+  "date": "2013-04-11",
+  "html": "<p>Joo Google Appsin sai säädettyä noin, mutta en tiedä onko tuo enää ilmaiseksi mahdollista. Google Apps for businessiin tuon saa vieläkin säädettyä. Yhden asiakasyrityksen mailit on Google Appsilla ja se toimii kyllä vallan mainiosti kun sen on kerran asettanut toimintaan. Tuleepahan siinä kalenterit ja muut pelitkin.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w299",
+  "name": "fmatic",
+  "date": "2013-04-18",
+  "html": "<p>Hienosti toteutettu sovellus, mutta iso miinus tulee siitä että jos nyt palautat puhelimesi joudut takaisin jonottamaan. Puljun ohjeistuksissa mainittiin että palauttamalla ohjelman varmuuskopiosta se pitäisi toimia edelleen, mutta itse jouduin takaisin jonottamaan :) Oletkos Triagea testannut?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w298",
+  "name": "Marko",
+  "date": "2013-04-18",
+  "html": "<p>Eikös ne ottanut ton jonottamisen pois, nehän ilmoitti siitä päivä/pari sitten (<a href=\"http://www.mailboxapp.com/blog/?p=1#mailbox-now-available-without-the-wait\" rel=\"nofollow ugc noopener\" target=\"_blank\">Linkki</a>).</p><p>Triagea ne ole koittanut, mutta huomasin jutun blogistasi. Näitä mailisofta tulee nyt kyllä kuin sieniä sateella :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w297",
+  "name": "Minna-liisa tamminen",
+  "date": "2020-01-12",
+  "html": "<p>En saa mailboxia auki</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w296",
+  "name": "Marko Kaartinen",
+  "date": "2020-01-15",
+  "html": "<p>En osaa sanoa onko tuo Mailbox enää olemassakaan.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

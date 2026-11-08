@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w680",
+  "name": "o-p",
+  "date": "2010-12-22",
+  "html": "<p>Seuraan mielenkiinnolla. Itsellänikin meneillään kuvagallerian koodaus, tosin se perustuu jo aikaisemmin koodaamaani ja sivuillani esillä olevaan kuvagalleriaan. Lähinnä olisi tarkoitus demota CSS3+HTML5+AJAX -yhdistelmää, saa nähdä mitä saan aikaiseksi.</p><p>Ehdotuksia projektiisi: kuvien tagaus, luokittelu tagien mukaan, luokittelu kuvasuhteen mukaan, geotagit, exif-tietojen esitys... siinä nyt muutama alkuun, muut voi ehdotella lisää :)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w679",
+  "name": "Marko Kaartinen",
+  "date": "2010-12-22",
+  "html": "<p>Itselläkin on vanhaa koodia olemassa ja tulen käyttämään varmasti aika paljon jQueryä, HTML5 ja CSS3 tulee varmaan jotenkin mukaan ja jossain välissä homma pyöritetään noiden päälle kokonaan.</p><p>Tagaus tulee / luokittelut tulee kyllä jollain tapaa / geotagit ja exif tulee :P<br> <br>Eilen illalla innostuin yhden saitin ansiosta ja tulen rakentamaan tälle myös oman sivuston ja Google Coden puoli tulee pysymään enemmän koodikasana ja aluksi ainakin englanninkielisenä paikkana softalle. Sivu tulee suomeksi näin aluksi.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

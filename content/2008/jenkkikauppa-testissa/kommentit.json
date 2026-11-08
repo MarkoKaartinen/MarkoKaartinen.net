@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w933",
+  "name": "deehoo",
+  "date": "2008-05-22",
+  "html": "<p>Itse asiassahan DealExtreme on Hong Kongilainen putiikki, vaikkakin hinnat ovat globaalin kaupankäynnin helpottamiseksi dollareina.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w932",
+  "name": "Marko",
+  "date": "2008-05-22",
+  "html": "<p>Katos prkl, niin onkin Hong Kongissa toi paikka. <br>Noh anyway :)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

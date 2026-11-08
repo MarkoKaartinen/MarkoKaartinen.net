@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w236",
+  "name": "Terhi",
+  "date": "2016-03-04",
+  "html": "<p>Voinko lisätä iphonella nauhoittamiani saneluita suoraan podcastiksi itunesiin, vai onko edettävä noiden välivaiheiden kautta?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w235",
+  "name": "Marko",
+  "date": "2016-03-05",
+  "html": "<p>Hei, Podcastin periaatehan on, että iTunesiin ja muihin podcast hakemistoihin laitetaan nimenomaan RSS syöte jossa on sitten tiedot noista nauhotteista. Eli suoraan tiedostoja sinne ei siirretä vaan hakemistoihin lisätään tuo syöte itsessään. Eli pitää olla joku työkalu tai sitten käsin tehdä tuota RSS syötettä ja itse tiedostot pitää olla sitten jossain verkossa hostattuna, samoin syöte.</p><p>Itunes tukee seuraavia tiedostomuotoja: M4A, MP3, MOV, MP4, M4V, PDF tai EPUB.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

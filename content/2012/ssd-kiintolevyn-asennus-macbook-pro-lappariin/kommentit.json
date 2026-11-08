@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w375",
+  "name": "Pekka Väkiparta",
+  "date": "2017-02-11",
+  "html": "<p>Kiitos hyvästä videosta. Tämän innoittamana tilasin omaani SSD-levyn. Onko sinulla ohjeita mitä kaikkea pitää tehdä ennen tuota levyn vaihtoa?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w374",
+  "name": "Marko",
+  "date": "2017-02-12",
+  "html": "<p>Moro Pekka!<br>Kannattaa ottaa Time Machine varmuuskopiointi. Sitten voit palauttaa siitä varmuuskopiosta suoraan ssd levylle. <a href=\"https://support.apple.com/fi-fi/HT201250\" rel=\"nofollow ugc noopener\" target=\"_blank\">https://support.apple.com/fi-fi/HT201250</a><br>Jos haluaa taas puhtaan asennuksen niin tekee usb tikun jolla voi asentaa: <a href=\"https://support.apple.com/fi-fi/HT201372\" rel=\"nofollow ugc noopener\" target=\"_blank\">https://support.apple.com/fi-fi/HT201372</a></p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

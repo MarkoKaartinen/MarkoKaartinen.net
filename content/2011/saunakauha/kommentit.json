@@ -1,0 +1,29 @@
+[
+ {
+  "id": "w637",
+  "name": "Tommi",
+  "date": "2011-02-27",
+  "html": "<p>Hieno kuva ja hauska idea tuossa kauhassa :)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w636",
+  "name": "Marko Kaartinen",
+  "date": "2011-02-27",
+  "html": "<p>Kiitos! Isä teki tämmösen meidän saunaan :) Toi ei ihan heti tuhoudu :D Puu osa kuluu, mutta metalli osa kestää aika pitkälti ikuisuuden :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w635",
+  "name": "Tommi",
+  "date": "2011-02-27",
+  "html": "<p>Kyllähän tuo normaalit saunakauhat vie 10-0 :) Kelpaisi mullekkin, jos olisi edes se sauna :(</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ }
+]

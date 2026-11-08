@@ -1,0 +1,56 @@
+[
+ {
+  "id": "w545",
+  "name": "TannerMirabel",
+  "date": "2012-09-06",
+  "html": "<p>Tulikos tästä ideasta koskaan mitään? :)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w544",
+  "name": "Marko",
+  "date": "2012-09-06",
+  "html": "<p>No, innostuneisuus ei ole ollut niin hyvää kuin olisin toivonut. Tietysti jos porukkaa löytyy niin mahdollisuus toiminnan aloittamiseen on vieläkin!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w543",
+  "name": "TannerMirabel",
+  "date": "2012-09-07",
+  "html": "<p>Vähän huonosti tuota startup-skeneä täällä Kuopiossa, eikä Suomi tällä hetkellä ole maailman yrittäjäystävällisin paikka. Sekin voi johtaa siihen, että WP-harrastajia ei niin paljon liiku, toisaalta siihen tottaki liittyy myös suomalaisten sosiaalinen luonne. :)</p><p>Itse vasta tutustunut WP:n maailmaan työn kautta, mutta minuun on tehnyt vaikutuksen se yhteisö mikä liittyy WP:iin, joka on vielä vireämpi kuin PHP:n vastaava. Sen takia olisi mukava, jos Kuopioonkin saisi jotain miittiä, vaikka ihan harrastajia ja kiinnostuneita. Että saatas vähän sanaa eteenpäin, että nyt ei puhuta pelkistä blogeista vaan myös suhteellisen voimakkaista sisällönhallintajärjestelmistä.</p><p>Toivottavasti löytys porukkaa. Oiskohan jotain muita kanavia (blogeja, foorumeita yms), johon sais sanaa liikkeelle?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w542",
+  "name": "Marko",
+  "date": "2012-09-07",
+  "html": "<p>Itsekin olen kyllä yrittäjä ja tällä WordPress toiminalla tarkoitan lähinnä samankaltaista paikallistoimintaa kuten Tampereella Daniel (danielkoskinen.com/) vetää. Eli WordPressistä kiinnostuneet kokoontuvat silloin tällöin yhteen keskustelemaan WordPressistä ja jakelemaan vinkkejä ja muuta mukavaa. Mikään pakko ei ole olla yrittäjäkään :)</p><p>WordPress on loistava CMS ja sille on hyvä rakentaa teemoja ja plugineja. PHP:llähän ne plugarit tehdään ja teemaakin saadaan omia temppuja PHP:n avulla.</p><p>WordPressillä olen toteuttanut monenmoista ja viimeisimmässä työprojektissa oli käytössä WordPressin multisite/network puolikin ja siitä tuli oikein passeli toteutus.</p><p>fi.wordpress.org foorumille on laitettu aikoinaan sama ilmoitus kuin täällä. Twitterissä olen koittanut huudella silloin tällöin. Hauskahan se olisi porukkaa saada edes jokunen :)</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w541",
+  "name": "TannerMirabel",
+  "date": "2012-09-07",
+  "html": "<p>Joo, pitää olla hereillä ja pitää korvat auki, jos sais porukkaa kasaan. Osaatko muuten mainita suomalaisia WordPress-vaikuttajia itsesi ja Danielin lisäksi? Olisi mukava oppia tuntemaan vähän suomalaista WordPress-maisemaa.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w540",
+  "name": "Marko",
+  "date": "2012-09-07",
+  "html": "<p>En itseäni ehkä tituleeraisi WordPress -vaikuttajaksi :D Netti on pullollaan lahjakkaita ja hyviä WP:n säätäjiä :)<br>Tuo WordPressin foorumi on passeli paikka tutkia suomalaisia tekijöitä ja netissä surffaillessa tulee vastaan aina uusia tuttavuuksia.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

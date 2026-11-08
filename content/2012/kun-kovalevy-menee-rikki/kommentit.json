@@ -1,0 +1,56 @@
+[
+ {
+  "id": "w395",
+  "name": "Ilkka Rautiainen",
+  "date": "2012-09-24",
+  "html": "<p>Itselläni on työkoneessa SSD ja se sanoi kesällä työsopimuksensa irti. Minkään laista varoitusta se ei antanut siitä että olisi rikkoutumassa. Huomasin vain yks aamu laittaessani kannettavan telakkaan, että kone vilkuttaa vain valkoista alaviivaa. Onneksi meillä kuitenkin käytetään verkkoasemia. Mekaaniset kiintolevystä monestikin pystyi päättelemään milloin se vetelee viimeisiä, toisin kun SSD:stä. Muistutuksena sanon että SSD:ssä varmuuskopiointi on ehdotonta. Huomasin itse että SSD:stä on mahdotonta palautella mitään. Mielenkiinnosta kokeilin saisinko kaiveltua mitään dataa ulos, mutta tuloksetta. Luin vasta myös artikkelin aika mielenkiintoisesta tekniikasta jota WD aikoo käyttää kiintolevyissää (<a href=\"http://www.tietokone.fi/uutiset/western_digital_esitteli_helium_tekniikkaa_kauppoihin_ensi_vuonna\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://www.tietokone.fi/uutiset/western_digital_esitteli_helium_tekniikkaa_kauppoihin_ensi_vuonna</a>)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w394",
+  "name": "Marko",
+  "date": "2012-09-24",
+  "html": "<p>Itse tilasin Samsungin 830 sarjan SSD levyn ja toivon, että se kestää edes hetken :D Tässä olenkin pohdiskellut varmuuskopiointia ja tullut siihen ratkaisuun että yksi ulkonen kovo menee varmuuskopiointiin. Pitää tutkia saisinko sen verkkokovalevyksi lähiverkkoon.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w393",
+  "name": "Martti Laine",
+  "date": "2012-09-24",
+  "html": "<p>Itse säilytän kaikkea säilyttämisen arvoista Dropboxissa, tähän lukeutuu siis työjutut, projektit, firmadokumentit ja muu tärkeä kama. Tiukkaa tosin tekee, ettei 2GB tule täyteen, mutta enköhän vielä jossain vaiheessa päivitä suurempaan. Oli äärettömän hyvä systeemi kun puoli vuotta sitten vaihdoin konetta. Ei tarvinnut mitä siirrellä fyysisesti, ei muuta kuin Dropbox uudelle koneelle.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w392",
+  "name": "Marko",
+  "date": "2012-09-24",
+  "html": "<p>Itselläkin on Dropboxi käytössä ja itsellä on tilaa siellä vajaa 8gigaa kun olen suosituksilla saanut kasvatettua sitä. SIellä on hurja määrä dataa ja se auttaakin aika paljon tässä siirtymässä.</p><p>Tämän aikaa kun kone odottaa uutta SSD levyä niin joudun käyttämään Windows konetta ja hieman on totuttelua Windows maailmaan. Saati siinä kun en voi mitenkään saada kaikkia ohjelmointisoftia tähän :D Dropboxin asennus auttaa jo siinäkin kun data tulee lähes itsekseen koneelle ja koodi on versionhallinnassa.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w391",
+  "name": "Martti Laine",
+  "date": "2012-09-24",
+  "html": "<p>Tämä nyt ei kirjoituksen aiheeseen hirveästi liity, mutta suosittelen Sublime Text 2 -editoria. Toimii kaikilla alustoilla (OS X, Windows ja Linux) ja on ylivoimaisesti tehokkain editori. En voi enää kuvitellakaan jonkun toisen editorin käyttöä.</p><p>Mutta joo, Dropbox on loistava, vaikkei sinne mitään leffoja änkeäkään. Itselläni on 320 gigan taskuun mahtuva ulkoinen kovalevy, jolla kaikki media. Musiikkiakaan ei enää tarvitse kovalevyllä olla, kun Spotifystä maksaa sen 5e/kk.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w390",
+  "name": "Marko",
+  "date": "2012-09-24",
+  "html": "<p>Itsellä on käytössä Coda ja sen kanssa olen tullut varsin hyvin toimeen ja tutkin tota Sublime Text 2 editoria jossain vaiheessa ja pitäydyin silloinkin Codassa. En ole muuttamassa mieltäni :)<br>Tietty Windowsille voisi kokeilla ainakin tuota.</p><p>Spotify mullisti aikoinaan omankin mp3 kirjaston kutistumisen sillä itse maksan tuosta sen 10 euroo niin saan puhelimellakin kuunnella sitä :D</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

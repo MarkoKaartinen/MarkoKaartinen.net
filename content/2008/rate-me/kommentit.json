@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w945",
+  "name": "Rolle",
+  "date": "2008-05-17",
+  "html": "<p>Mikäs tuo scripti on? Onko sama kuin verkkosivutplussassa? Voisin itsekin tarvita kyseistä scriptiä.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w944",
+  "name": "Marko",
+  "date": "2008-05-17",
+  "html": "<p>Kyseessähän on WP-PostRatings skripti jonka saat hankittua itsellesi <a href=\"http://lesterchan.net/wordpress/readme/wp-postratings.html\" rel=\"nofollow ugc noopener\" target=\"_blank\">Täältä</a></p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w406",
+  "name": "Jorge",
+  "date": "2012-10-04",
+  "html": "<p>Viela kun joku keksisi keinon milla iPadille saa kameran muistikortilta siirrettya vain ja ainoastaan jpeg-tiedostot. Monissa jarkkareissahan on mahdollisuus kuvata RAW+jpeg, mutta typera iPad siirtaa sitten molemmat sisaansa ja yli 20 megan RAW on liian raskas ja syo tilaa iPadilta aivan turhaan.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w405",
+  "name": "Marko",
+  "date": "2012-10-04",
+  "html": "<p>Näin taisi tosiaan olla, itse käytin aika pitkälti pokkarin kuvia koska se oli herkemmin mukana. Kuviahan voi onneksi poistaa iPadiltä, itse en ainakaan jätä niitä kauaksi aikaa viemään tilaa siihen.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w100",
+  "name": "Petri",
+  "date": "2015-12-24",
+  "html": "<p>Hyvää joulua myös sinulle ja perheellesi. :-)</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w99",
+  "name": "Marko",
+  "date": "2015-12-24",
+  "html": "<p>Sitä samaa myös sinne päin!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

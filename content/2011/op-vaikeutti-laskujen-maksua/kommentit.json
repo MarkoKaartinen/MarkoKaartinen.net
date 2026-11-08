@@ -1,0 +1,47 @@
+[
+ {
+  "id": "w561",
+  "name": "Outi",
+  "date": "2011-12-13",
+  "html": "<p>Tuo ehdottomasi uudistus on ollut jo pitkään käytössä ainakin paikallisosuuspankilla. Itseasiassa niin kauna ainakin kun olen heidän nettipankkinsa asiakas ollut (vuodesta 2002). Mielestäni se on ihan toimiva vaihtoehto. Ennenhän op:lla ei tarvinnut vahvista laskua ollenkaan, vaan riitti kun oli kirjautumisen jälkeen avainluvun kirjoittanut.</p><p>Minua itseäni häiritsee vielä enemmän se, ettei tilin saldoa näe ilman avainluvun kirjoittamista. Käytän kuitenkin nettipankkia myös tilin saldon tarkistamiseen, niin en ymmärrä miksei se voi olla niin kuin ennen, että saldon näki heti kirjauduttuaan, mutta jos halusi jotakin rahoillaan tehdä piti se varmistaa avainluvulla.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w560",
+  "name": "Marko Kaartinen",
+  "date": "2011-12-13",
+  "html": "<p>Saman uudistuksen tai no päivityksen oikeastaan voisivat tehdä OP.lle. Toivottavasti tämä on suunnitelmissa. Odottelen sitä vastausta mielenkiinnolla.</p><p>Tuo ei itseäni sinäsä häiritse, ihan hyvä vain ettei pääse ilman avainlukua minun etusivua katsomaan. Näkyypä siellä firman tilikin ja muut infot.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w559",
+  "name": "Daniel Koskinen",
+  "date": "2011-12-13",
+  "html": "<p>Joskus kun olin Nordean asiakas, se toimi juuri noin. Vaikuttaa tämä uusin op:n veto hieman pseudouudistukselta, vähän niin kuin vesipullokiellot lentokoneissa.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w558",
+  "name": "Marko Kaartinen",
+  "date": "2011-12-14",
+  "html": "<p>Vesipullokieltokin taitaa loppua siihen että pääset turvatarkastuksen läpi. Helsinki-Vantaalla sain sen limsapullon ostettua sen jälkeen.<br>Tämä uudistus tehtiin joko tuota ominaisuutta silmällä pitäen tai sitten haluttiin tuoda omaa päivitysalttiutta esille tietoturvan nimessä. Toivotaan, että tulee tuo ominaisuus.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w557",
+  "name": "Marko Kaartinen",
+  "date": "2011-12-16",
+  "html": "<p>Osuuspankki vastasi ja lisäsin sen vastauksen tuohon. Eli avainlukuja ei kulu enempää vaan vanhoja kierrätetään uudestaan.</p><p>He myös välittivät viestini eteenpäin heidän verkkopankin kehitystiimille. Olen tyytyväinen tähän, mutta haluaisin hieman vahvistusta onko tulossa vai ei... Sitä tuskin koskaan saa...</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

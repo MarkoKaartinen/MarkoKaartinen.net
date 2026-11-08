@@ -1,0 +1,38 @@
+[
+ {
+  "id": "w266",
+  "name": "Petri",
+  "date": "2013-07-16",
+  "html": "<p>Joop, tämähän voi olla aika näppärä keksintö jos tuo verkkoon uploadaaminen sujuu luotettavasti. Tuossa ehkä ongelmia tuottaa jos Canon jossain vaiheessa lakkaa tukemasta sitä iMAGE GATEWAY -palvelua. Jos se lakkaa toimimasta, lakkaako samalla mahdollisuus ladata filmiä YouTubeen?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w265",
+  "name": "Marko",
+  "date": "2013-07-16",
+  "html": "<p>Todennäköisesti kyllä, ellei jotain toista tapaa keksi. Tuo videon siirto taitaa toimia seuraavalla lailla (näin ainakin arvelen):<br>1. Video siirtyy tuonne iMAGE GATEWAYHIN ja kamera sanoo siirretty<br>2. SIeltä video siirtyy Youtubeen ja Youtube käsittelee sen<br>3. Se on näkyvissä Youtubessa ja voit muokata otsikon paremmaksi ja laittaa mitä muuta haluatkaan.</p><p>Syynä tuohon ratkaisuun on autentikointi, näin uskoisin. Sinun pitää nimittäin sallia tuon iMAGE GATEWAYN käyttää tuota omaa Youtube tiliä (samaten FB, Twitter yms.). Helpoin ja oikeastaan järkevä ratkaisu on tuo välipalikka ollut tuohon pistää sillä muuten kameraan olisi pitänyt pistää se äly, että se osaa siirtää dataa rajapintojen kautta noihin palveluihin. Näin myös on helppo päivittää rajapintoja käyttävää koodia kun rajapinnan määritykset muuttuvat.</p><p>Jos haluaa toisenlaisen toteutuksen niin esim. Eye-Fi kortit tuovat wifi:n oikeastaan mihin tahansa kameraan (kantsii kattoo tuki erikseen <a href=\"http://www.eye.fi/\" rel=\"nofollow ugc noopener\" target=\"_blank\">http://www.eye.fi/</a> saitilta).</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w264",
+  "name": "miikarautiainen",
+  "date": "2013-07-18",
+  "html": "<p>Tukeeko Instagramia? Instagramissahan pystyy nykyään lataamaan 15 sekunnin tjsp. videopätkiäkin sinne.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w263",
+  "name": "Marko",
+  "date": "2013-07-22",
+  "html": "<p>Instagrammiin tuossa ei tainnut tukea olla. Harmillista sinänsä.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

@@ -1,0 +1,38 @@
+[
+ {
+  "id": "w887",
+  "name": "Marko Kaartinen",
+  "date": "2009-05-23",
+  "html": "<p>Testaan kommentointia!</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w886",
+  "name": "Marko Kaartinen",
+  "date": "2009-05-23",
+  "html": "<p>Testaanpa vastausta saman tien</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w885",
+  "name": "mustikkasoppa",
+  "date": "2009-05-23",
+  "html": "<p>Ihana ulkoasu!</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w884",
+  "name": "Marko Kaartinen",
+  "date": "2009-05-23",
+  "html": "<p>Kiitos ^^</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

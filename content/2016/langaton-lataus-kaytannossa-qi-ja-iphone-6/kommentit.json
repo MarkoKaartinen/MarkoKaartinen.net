@@ -1,0 +1,56 @@
+[
+ {
+  "id": "w96",
+  "name": "Karin Pessi",
+  "date": "2016-06-03",
+  "html": "<p>Hyvä selkeä teksti, taidan hankkia latausalustan ja tuon Qi-vastaanottimen, meillä on aina keittiössä piuhat sekaisin, koska jokainen latailee omia phonejaan. Ja Ikealta voi kyllä valitettavasti odottaakin tuollaista?</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w95",
+  "name": "Marko",
+  "date": "2016-06-03",
+  "html": "<p>Tuo insmatin lätkä oli kyllä toimiva ja varsinkin kun oli kotelon kanssa niin toimi hyvin. Joskus piti asetella oikeaan kohtaan, että aloitti latauksen mutta itsellä latasi ongelmitta.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w94",
+  "name": "Suvi",
+  "date": "2017-10-17",
+  "html": "<p>Hei! Osaatko sanoa saisiko tämän lampun ja lataushommelin toimimaan honor 8:lla? Miehelle joululahjaa mietin, mutta oma osaaminen ei riitä muuhun kuin googlaamiseen, ettei ko. puhelinmalli ilmeisesti suoraan tue langatonta latausta :/</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w93",
+  "name": "Marko Kaartinen",
+  "date": "2017-10-17",
+  "html": "<p>Honor 8:ssa ei tosiaan ole langatonta latausta. Siihen saa vastaavan lätkän kuin itsellä oli eli tuommoisen USB-C QI vastaanottimen. Tässä pari mitä äkkiseltään löysin:<br><a href=\"https://www.mytrendyphone.fi/shop/yleismallinen-c-tyypin-214400p.html\" rel=\"nofollow ugc noopener\" target=\"_blank\">https://www.mytrendyphone.fi/shop/yleismallinen-c-tyypin-214400p.html</a><br><a href=\"https://www.mytrendyphone.fi/shop/nillkin-magic-tags-202991p.html\" rel=\"nofollow ugc noopener\" target=\"_blank\">https://www.mytrendyphone.fi/shop/nillkin-magic-tags-202991p.html</a><br><a href=\"https://www.karkkainen.com/verkkokauppa/grateq-qi-micro-usb-langaton-latausadapteri\" rel=\"nofollow ugc noopener\" target=\"_blank\">https://www.karkkainen.com/verkkokauppa/grateq-qi-micro-usb-langaton-latausadapteri</a></p><p>En tosin tiedä miten hyödyllinen tuo olisi Honor 8 kanssa, koska sen mukana tullut pikalaturi on aika vikkelä itsestään jo. Tuommoisella sen saa pelittämään sen lampun kanssa - mahdollisesti. <br>En osaa sanoa latausnopeudesta tai toimivuudesta yhtään mitään kun en ole kokeillut :/ En nimittäin tuommoista lätkää USB-C liittimeen käypäisenä vaikka Honor 8 tuossa hyllyssä olisikin.</p><p>Psssst. Kantsii vilasta IT-Nurkan keskustelualuekin jos tulee it ongelmia :) Siellä voipi saada apuja! Nyt voi myös voittaa kajarit! <a href=\"https://keskustelu.it-nurkka.fi/\" rel=\"nofollow ugc noopener\" target=\"_blank\">https://keskustelu.it-nurkka.fi/</a></p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ },
+ {
+  "id": "w92",
+  "name": "Suvi",
+  "date": "2017-10-18",
+  "html": "<p>Kiitos nopeasta vastauksesta! Ongelmana onkin se, että ukkokulta aina hukkaa laturinsa, siksi tämä lamppusysteemi olisi niin loistava, sitä kun on hankalampi ottaa töihin, autotalliin, autoon jne :) pitänee tutkailla vielä aihetta lisää.</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w91",
+  "name": "Marko Kaartinen",
+  "date": "2017-10-18",
+  "html": "<p>Eipä mitään!<br>Tosiaan tuon kanssa kannattaa sopiva kuorikin olla ja ottaa huomioon, että tuommoinen lätkä tuo lisää paksuutta siihen ja itsellä se hieman pullistikin kuoren kanssa.</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]

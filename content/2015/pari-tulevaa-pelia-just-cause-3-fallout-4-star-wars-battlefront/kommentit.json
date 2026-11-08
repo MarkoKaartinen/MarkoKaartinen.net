@@ -1,0 +1,20 @@
+[
+ {
+  "id": "w108",
+  "name": "Petri",
+  "date": "2015-10-20",
+  "html": "<p>Nuo Star Wars -pelit tuntuvat minusta jotenkin rahastukselta mutta vasta jälkeenpäin kun peli on hankittu ja sitä on kokeiltu. Sitä ennen peli vaikuttaa tosi siistiltä. :-D</p>",
+  "parent": null,
+  "author": false,
+  "source": "wp"
+ },
+ {
+  "id": "w107",
+  "name": "Marko",
+  "date": "2015-10-20",
+  "html": "<p>Itsekin odottelen vikat arvostelut sisään Star Warsista. Beta vaikutti kuitenkin suht lupaavalta mutta EA...</p>",
+  "parent": null,
+  "author": true,
+  "source": "wp"
+ }
+]
