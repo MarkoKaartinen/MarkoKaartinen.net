@@ -166,6 +166,10 @@ timeZone = 'Europe/Helsinki'
   [[build.cachebusters]]
     source = 'assets/notwatching/hugo_stats\.json'
     target = 'css'
+  # Templatemuutos tyhjentää CSS-välimuistin heti, jotta uudet Tailwind-luokat näkyvät kehityspalvelimessa ilman uudelleenkäynnistystä
+  [[build.cachebusters]]
+    source = 'layouts/.*'
+    target = 'css'
 
 [module]
   [[module.mounts]]
