@@ -1400,3 +1400,17 @@ button:hover > .kbd-quiet {
   background-color: color-mix(in srgb, var(--ctp-yellow) 25%, transparent);
   color: var(--ctp-yellow);
 }
+
+/* Sarjalaatikon otsikko: viiva lähtee pallosta ja jatkuu osien viivaan (pallo on otsikon ensimmäisen rivin kohdalla) */
+.puu-ylos {
+  position: relative;
+}
+.puu-ylos::before {
+  content: '';
+  position: absolute;
+  top: calc(0.45rem + 0.625rem);
+  bottom: -0.15rem;
+  left: calc(0.3125rem - 1px);
+  width: 2px;
+  background-color: var(--ctp-surface2);
+}

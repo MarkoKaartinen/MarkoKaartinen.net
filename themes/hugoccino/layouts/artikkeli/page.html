@@ -36,11 +36,12 @@
     {{- $pos := 0 }}
     {{- range $i, $p := $parts }}{{ if eq $p.RelPermalink $current.RelPermalink }}{{ $pos = add $i 1 }}{{ end }}{{ end }}
     <aside class="mb-8 rounded-lg border border-surface1 bg-mantle p-4 font-mono text-sm md:float-right md:mb-4 md:ml-8 md:w-64" aria-label="Sarja {{ $name }}">
-      <p class="flex flex-wrap items-center gap-x-2">
-        <span class="puu-pallo" aria-hidden="true"></span>
-        <span class="text-overlay1">sarja</span>
-        <a href="{{ $series.RelPermalink }}" class="font-bold text-mauve hover:text-lavender">{{ $name }}</a>
-        <span class="text-overlay1">· osa {{ $pos }}/{{ len $parts }}</span>
+      <p class="puu-ylos flex items-start gap-2">
+        <span class="puu-pallo mt-[0.45rem]" aria-hidden="true"></span>
+        <span class="min-w-0">
+          <a href="{{ $series.RelPermalink }}" class="font-bold text-mauve hover:text-lavender">{{ $name }}</a>
+          <span class="block text-xs text-overlay1">sarja · osa {{ $pos }}/{{ len $parts }}</span>
+        </span>
       </p>
       <ul class="puu-osat">
         {{- range $parts }}
