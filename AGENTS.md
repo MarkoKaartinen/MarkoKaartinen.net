@@ -39,5 +39,5 @@ Commitoi vain, kun käyttäjä pyytää.
 
 - `hugo server -D`: kehityspalvelin (`-D` näyttää luonnokset)
 - `hugo`: rakenna `public/`
-- `npm run build`: tuotantokoonti (`hugo` kahdesti, jotta Tailwind saa luokat `hugo_stats.json`:sta, ja sen jälkeen Pagefind-hakuindeksi `public/pagefind/`)
+- `npm run build`: tuotantokoonti (`hugo` ja sen jälkeen Pagefind-hakuindeksi `public/pagefind/`). Tailwind lukee luokat suoraan teeman layouteista ja JS-tiedostoista (`@source` `main.css`:ssä), joten yksi koonti riittää. Jos luokka muodostetaan templatessa osista (esim. `text-{{ .tone }}`), kirjoita koko luokka johonkin näkyviin tai lisää se `@source inline(...)`-listaan.
 - `npm run search:dev`: tekee Pagefind-indeksin kehityspalvelinta varten (`static/pagefind/`, ei versionhallintaan). Aja uudelleen, kun sisältö muuttuu.

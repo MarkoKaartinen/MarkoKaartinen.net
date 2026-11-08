@@ -5,7 +5,7 @@
     "tailwindcss": "^4.3.5"
   },
   "scripts": {
-    "build": "hugo && hugo && pagefind --site public",
+    "build": "hugo && pagefind --site public",
     "search:dev": "hugo -d public && pagefind --site public --output-path static/pagefind"
   }
 }

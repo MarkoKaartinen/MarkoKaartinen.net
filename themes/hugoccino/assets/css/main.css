@@ -1,5 +1,7 @@
 @import "tailwindcss";
 @source "hugo_stats.json";
+@source "../../layouts";
+@source "../js";
 
 /*
  * Catppuccin, viralliset värit (https://catppuccin.com/palette/)
