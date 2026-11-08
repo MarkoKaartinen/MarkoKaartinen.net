@@ -1,12 +1,84 @@
 {{ define "main" }}
-{{- $pages := .Pages -}}
-{{- if eq .Data.Plural "series" }}{{ $pages = .Pages.ByDate }}{{ end }}
-<h1 class="font-mono font-bold text-3xl mb-2"><span class="text-overlay0 select-none"># </span>{{ if in (slice "tags" "recipe_tags") .Data.Plural }}{{ lower .Title }}{{ else }}{{ .Title }}{{ end }}</h1>
-<p class="mb-8 font-mono text-sm text-overlay1">{{ len $pages }} {{ if in (slice "recipe_categories" "recipe_tags") .Data.Plural }}{{ if eq (len $pages) 1 }}resepti{{ else }}reseptiä{{ end }}{{ else }}artikkelia{{ end }}</p>
-{{- with .Content }}<div class="sisalto mb-10">{{ . }}</div>{{ end }}
+{{- $plural := .Data.Plural }}
+{{- $isTag := in (slice "tags" "recipe_tags") $plural }}
+{{- $isRecipe := in (slice "recipe_categories" "recipe_tags") $plural }}
+{{- $isSeries := eq $plural "series" }}
+{{- $pages := .Pages }}
+{{- if $isSeries }}{{ $pages = .Pages.ByDate }}{{ end }}
+{{- $newest := index .Pages.ByDate.Reverse 0 }}
+{{- $oldest := index .Pages.ByDate 0 }}
+
+{{- /* Nimi alkuperäisessä kirjoitusasussa (Hugo isontaa termien sanat) */ -}}
+{{- $name := .Title }}
+{{- $key := cond (eq $plural "recipe_tags") "recipe_tags" $plural }}
+{{- range first 1 $pages }}
+  {{- range index .Params $key }}
+    {{- if eq (urlize .) (urlize $.Data.Term) }}{{ $name = . }}{{ end }}
+  {{- end }}
+{{- end }}
+{{- if $isTag }}{{ $name = lower $name }}{{ end }}
+
+<header class="mb-8">
+  <h1 class="font-mono font-bold text-3xl"><span class="text-overlay0 select-none">{{ if $isTag }}#{{ else }}# {{ end }}</span>{{ $name }}</h1>
+  <p class="mt-3 font-mono text-sm text-overlay1">
+    {{ len $pages }} {{ if $isRecipe }}{{ if eq (len $pages) 1 }}resepti{{ else }}reseptiä{{ end }}{{ else if $isSeries }}{{ if eq (len $pages) 1 }}osa{{ else }}osaa{{ end }}{{ else }}{{ if eq (len $pages) 1 }}artikkeli{{ else }}artikkelia{{ end }}{{ end }}
+    {{- if ne $oldest.Date.Year $newest.Date.Year }} · {{ $oldest.Date.Year }}–{{ $newest.Date.Year }}{{ else }} · {{ $oldest.Date.Year }}{{ end }}
+  </p>
+</header>
+{{- with .Content }}<div class="sisalto mb-8">{{ . }}</div>{{ end }}
+
+{{- /* Liittyvät avainsanat: yleisimmät muut avainsanat samoissa artikkeleissa */ -}}
+{{- if and (not $isSeries) (gt (len $pages) 2) }}
+  {{- $tagKey := cond $isRecipe "recipe_tags" "tags" }}
+  {{- $sc := newScratch }}
+  {{- range $pages }}
+    {{- range .GetTerms $tagKey }}
+      {{- if or (not $isTag) (ne .RelPermalink $.RelPermalink) }}
+        {{- $k := printf "%s|%s" .RelPermalink (lower .LinkTitle) }}
+        {{- $cur := index ($sc.Get "c" | default dict) $k | default 0 }}
+        {{- $sc.SetInMap "c" $k (add 1 $cur) }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+  {{- $related := slice }}
+  {{- range $k, $n := ($sc.Get "c") }}
+    {{- if ge $n 2 }}{{ $related = $related | append (dict "k" $k "n" $n) }}{{ end }}
+  {{- end }}
+  {{- $related = first 10 (sort (sort $related "k" "asc") "n" "desc") }}
+  {{- if $related }}
+<p class="mb-8 flex flex-wrap items-baseline gap-x-4 gap-y-1 font-mono text-sm">
+  <span class="text-overlay1">{{ if $isTag }}liittyvät{{ else }}yleisimmät{{ end }}:</span>
+    {{- range $related }}
+      {{- $parts := split .k "|" }}
+  <a href="{{ index $parts 0 }}" class="text-teal hover:text-sky">#{{ index $parts 1 }}<span class="ml-1 text-overlay1">{{ .n }}</span></a>
+    {{- end }}
+</p>
+  {{- end }}
+{{- end }}
+
+{{- if $isSeries }}
+<ol class="space-y-1 font-mono text-sm">
+  {{- range $i, $p := $pages }}
+  <li class="flex gap-3">
+    <span class="w-10 shrink-0 text-right text-overlay1">{{ add $i 1 }}/{{ len $pages }}</span>
+    <span class="min-w-0"><a href="{{ $p.RelPermalink }}" class="font-sans text-base text-text hover:text-mauve">{{ $p.Title }}</a> <time datetime="{{ $p.Date.Format "2006-01-02" }}" class="text-xs text-overlay1">{{ $p.Date.Format "2006-01-02" }}</time></span>
+  </li>
+  {{- end }}
+</ol>
+{{- else if gt (len $pages) 20 }}
+  {{- range $pages.GroupByDate "2006" "desc" }}
+<section class="mb-8">
+  <h2 class="mb-2 font-mono text-xl font-bold"><span class="text-overlay0 select-none">## </span>{{ .Key }} <span class="text-sm font-normal text-overlay1">({{ len .Pages }})</span></h2>
+  <ul class="divide-y divide-surface0">
+    {{- range .Pages }}{{ partial "article-row.html" . }}{{ end }}
+  </ul>
+</section>
+  {{- end }}
+{{- else }}
 <ul class="divide-y divide-surface0">
   {{- range $pages }}
     {{ partial "article-row.html" . }}
   {{- end }}
 </ul>
+{{- end }}
 {{ end }}
