@@ -13,7 +13,7 @@
     </a>
 
     {{- /* Työpöytä: valikko oikeaan reunaan. ml-auto (ei justify-end), jotta vaakavieritys toimii. */ -}}
-    <nav aria-label="Päävalikko" class="hidden flex-1 items-stretch overflow-x-auto sm:flex">
+    <nav aria-label="Päävalikko" class="hidden flex-1 items-stretch overflow-x-auto text-[0.8125rem] sm:flex">
       <div class="ml-auto flex items-stretch">
         {{- range site.Menus.main }}
           {{- $active := or (hasPrefix $page.RelPermalink .URL) (and (eq .Name "blogi") (findRE `^\d{4}$` $page.Section)) -}}
@@ -29,7 +29,7 @@
       <summary class="flex h-full cursor-pointer list-none items-center border-t-2 px-3 {{ if $moreActive }}border-t-mauve bg-base text-text{{ else }}border-t-transparent text-subtext0 hover:text-text{{ end }}" aria-label="Lisää sivuja" title="Lisää sivuja">
         {{ partial "icon.html" (dict "name" "lucide/ellipsis" "class" "size-4") }}
       </summary>
-      <div class="absolute right-0 top-full z-40 w-52 overflow-hidden rounded-b-md border border-t-0 border-surface1 bg-mantle shadow-lg">
+      <div class="absolute right-0 top-full z-40 w-52 overflow-hidden text-[0.8125rem] rounded-b-md border border-t-0 border-surface1 bg-mantle shadow-lg">
         {{- range site.Menus.more }}
         <a href="{{ .URL | relURL }}" data-palette-link class="flex px-4 py-2.5 hover:bg-surface0 {{ if hasPrefix $page.RelPermalink .URL }}text-text{{ else }}text-subtext1{{ end }}"><span class="mr-0.5 text-mauve">/</span>{{ .Name }}</a>
         {{- end }}
