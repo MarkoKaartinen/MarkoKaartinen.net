@@ -4,7 +4,7 @@
     <a href="{{ .RelPermalink }}" class="text-text hover:text-mauve">{{ .Title }}</a>
     {{- with .GetTerms "tags" }}
     <span class="ml-2 font-mono text-xs text-overlay1">
-      {{- range first 3 . }}<span class="mr-1">#{{ .LinkTitle }}</span>{{ end -}}
+      {{- range first 3 . }}<span class="mr-1">#{{ lower .LinkTitle }}</span>{{ end -}}
     </span>
     {{- end }}
   </span>

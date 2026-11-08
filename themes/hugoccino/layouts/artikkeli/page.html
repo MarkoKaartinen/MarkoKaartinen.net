@@ -39,7 +39,7 @@
     {{- with .GetTerms "tags" }}
     <p class="flex flex-wrap items-center gap-x-3 gap-y-1 text-teal">
       {{ partial "icon.html" (dict "name" "lucide/tag" "class" "size-4") }}
-      {{- range . }}<a href="{{ .RelPermalink }}" class="hover:text-sky">#{{ .LinkTitle }}</a>{{ end -}}
+      {{- range . }}<a href="{{ .RelPermalink }}" class="hover:text-sky">#{{ lower .LinkTitle }}</a>{{ end -}}
     </p>
     {{- end }}
     <p class="mt-6">
