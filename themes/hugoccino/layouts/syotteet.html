@@ -11,7 +11,7 @@
     {{- with $m }}{{ template "syote" (dict "title" "Mastodon" "desc" (printf "Julkiset viestit tililtä %s." .handle) "url" (printf "%s.rss" .profile)) }}{{ end }}
   </ul>
 
-  <p class="mt-8 text-sm text-subtext0">Jokaisessa syötteessä on 50 uusinta kirjoitusta. Avainsanoille ja kategorioille ei ole omia syötteitä.</p>
+  <p class="mt-8 text-sm text-subtext0">Jokaisessa syötteessä on 20 uusinta kirjoitusta kokonaan (teksti ja kuvat). Avainsanoille ja kategorioille ei ole omia syötteitä.</p>
 </article>
 {{- $js := resources.Get "js/kopioi.js" | resources.Minify | fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
