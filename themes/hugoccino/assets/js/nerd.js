@@ -230,6 +230,11 @@
     if (document.querySelector('[data-search-autoopen]')) openPalette('');
   }
 
+  // Sulkunapit (haku ja oikotieohje)
+  document.querySelectorAll('dialog.palette [data-close]').forEach(function (b) {
+    b.addEventListener('click', function () { b.closest('dialog').close(); });
+  });
+
   // ---------- Oikotiet ----------
 
   var chord = false;

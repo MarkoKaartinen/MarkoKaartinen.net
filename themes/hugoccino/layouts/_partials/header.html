@@ -39,6 +39,11 @@
     {{- /* Mobiili: tila viemään teemanvaihtimen ja valikon oikeaan reunaan */ -}}
     <div class="flex-1 sm:hidden"></div>
 
+    {{- /* Mobiili: haku-kuvake (työpöydällä haku on valikossa) */ -}}
+    <button type="button" data-search-open class="flex shrink-0 items-center p-2 text-subtext0 hover:text-text sm:hidden" aria-label="Haku" title="Haku">
+      {{ partial "icon.html" (dict "name" "lucide/search" "class" "size-4") }}
+    </button>
+
     <button id="theme-toggle" type="button" class="flex shrink-0 items-center p-2 text-subtext0 hover:text-text" aria-label="Vaihda tumman ja vaalean teeman välillä" title="Vaihda teemaa (t)">
       <span class="theme-sun">{{ partial "icon.html" (dict "name" "lucide/sun" "class" "size-4") }}</span>
       <span class="theme-moon">{{ partial "icon.html" (dict "name" "lucide/moon" "class" "size-4") }}</span>
@@ -52,10 +57,12 @@
       <div class="absolute inset-x-0 top-full z-40 border-b border-surface1 bg-mantle shadow-lg">
         <div class="mx-auto grid max-w-7xl grid-cols-2 px-2 py-2">
           {{- range (site.Menus.main | append site.Menus.more) }}
+          {{- if ne .Name "haku" }}
           {{- $current := or (hasPrefix $page.RelPermalink .URL) (and (eq .Name "blogi") (findRE `^\d{4}$` $page.Section)) }}
           <a href="{{ .URL | relURL }}" data-palette-link {{ if eq .Name "haku" }}data-search-open{{ end }}
              class="flex items-center rounded px-3 py-3 {{ if $current }}bg-surface0 text-text{{ else }}text-subtext1 hover:bg-surface0{{ end }}"
              {{- if $current }} aria-current="page"{{ end }}><span class="mr-0.5 text-mauve">/</span>{{ .Name }}</a>
+          {{- end }}
           {{- end }}
         </div>
       </div>

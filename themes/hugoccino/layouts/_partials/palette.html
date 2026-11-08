@@ -2,7 +2,8 @@
 <dialog id="palette" class="palette" data-index="{{ "index.json" | relURL }}" aria-label="Haku ja komennot">
   <div class="palette-bar">
     <span class="text-green" aria-hidden="true">$</span>
-    <input type="text" data-input class="palette-input" placeholder="hae artikkeleita, #tagi tai >komento" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Haku" role="combobox" aria-expanded="true" aria-controls="palette-results">
+    <input type="text" data-input class="palette-input" placeholder="hae, #tagi tai >komento" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Haku" role="combobox" aria-expanded="true" aria-controls="palette-results">
+    <button type="button" data-close class="palette-close" aria-label="Sulje haku" title="Sulje (Esc)">{{ partial "icon.html" (dict "name" "lucide/x" "class" "size-4") }}</button>
   </div>
   <ul id="palette-results" data-results role="listbox" class="palette-results"></ul>
   <div class="palette-hints" aria-hidden="true">
@@ -15,7 +16,7 @@
 </dialog>
 
 <dialog id="shortcuts" class="palette" aria-label="Näppäinoikotiet">
-  <div class="palette-bar"><span class="text-green" aria-hidden="true">$</span><span class="font-bold">man hugoccino</span></div>
+  <div class="palette-bar"><span class="text-green" aria-hidden="true">$</span><span class="font-bold">man hugoccino</span><button type="button" data-close class="palette-close" aria-label="Sulje ohje" title="Sulje (Esc)">{{ partial "icon.html" (dict "name" "lucide/x" "class" "size-4") }}</button></div>
   <dl class="shortcut-list">
     <div><dt><kbd class="kbd">/</kbd> <kbd class="kbd">Ctrl</kbd>+<kbd class="kbd">K</kbd></dt><dd>haku ja komennot</dd></div>
     <div><dt><kbd class="kbd">t</kbd></dt><dd>vaihda teema</dd></div>

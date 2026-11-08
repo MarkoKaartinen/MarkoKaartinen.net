@@ -412,6 +412,24 @@ button:hover > .kbd-quiet {
   border-bottom: 1px solid var(--ctp-surface0);
   background-color: var(--ctp-crust);
 }
+.palette-close {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  padding: 0.4rem;
+  border: 0;
+  border-radius: 0.375rem;
+  background: none;
+  color: var(--ctp-overlay1);
+  cursor: pointer;
+}
+.palette-close:hover,
+.palette-close:focus-visible {
+  background-color: var(--ctp-surface0);
+  color: var(--ctp-text);
+}
 .palette-input {
   flex: 1;
   min-width: 0;
@@ -1502,4 +1520,13 @@ button:hover > .kbd-quiet {
   left: calc(var(--av) / 2 - 1px);
   width: 2px;
   background-color: var(--rail);
+}
+
+/* Kosketusnäytöllä näppäinvihjeet eivät ole tarpeen: paletin vihjerivi, alatunnisteen oikotienappi ja edellinen/seuraava-korttien näppäimet */
+@media (hover: none) {
+  .palette-hints,
+  [data-shortcuts-open],
+  .adj .kbd {
+    display: none;
+  }
 }
