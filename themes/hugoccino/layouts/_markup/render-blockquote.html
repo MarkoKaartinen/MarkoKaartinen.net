@@ -1,0 +1,22 @@
+{{- /*
+  Huomiolaatikot: GitHub-tyylinen merkintä lainauksen alussa.
+    > [!NOTE]
+    > Teksti
+  Tyypit: NOTE (huomio), TIP (vinkki), IMPORTANT (tärkeää), WARNING (varoitus), CAUTION (varo).
+  Oma otsikko: > [!TIP] Oma otsikko.
+
+  Lainaus lähteellä: viimeinen kappale, joka alkaa ajatusviivalla, muuttuu lähde-footeriksi:
+    > Teksti
+    >
+    > — Lähde
+*/ -}}
+{{- if eq .Type "alert" -}}
+  {{- $labels := dict "note" "huomio" "tip" "vinkki" "important" "tärkeää" "warning" "varoitus" "caution" "varo" -}}
+  {{- $label := index $labels .AlertType | default .AlertType -}}
+<div class="alert alert-{{ .AlertType }}" role="note">
+  <p class="alert-title">{{ with .AlertTitle }}{{ . }}{{ else }}{{ $label }}{{ end }}</p>
+  {{ .Text }}
+</div>
+{{- else -}}
+<blockquote>{{ .Text | replaceRE `(?s)<p>(?:—|&mdash;)\s*(.+?)</p>\s*$` "<footer>$1</footer>" | safeHTML }}</blockquote>
+{{- end -}}

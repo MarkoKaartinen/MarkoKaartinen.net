@@ -66,4 +66,5 @@ Työkoneena minulla on MacBook, palvelimina on Ubuntu palvelimia, kotona on Wind
 
 Kannattaa siis rohkeasti kokeilla eri jakeluita eikä jäädä liikaa miettimään sitä täydellistä vaihtoehtoa. Jos ensimmäinen distro ei tunnu omalta, niin ei muuta kuin seuraavaa kokeilemaan. Ei sen ensimmäisen tarvitse olla se viimeinen (distro-hopping). Sekä Linuxia saat säätää vapaasti omanlaiseksi.
 
-**Jaa omat vinkkisi Linux-jakelun löytämiseen alla tai kerro mitä Linuxia sinä käytät/suosittelet!?**
+> [!TIP] Kerro omasi
+> Jaa omat vinkkisi Linux-jakelun löytämiseen alla tai kerro mitä Linuxia sinä käytät/suosittelet!?

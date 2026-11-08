@@ -131,8 +131,10 @@
 }
 
 @layer base {
-  html {
-    scroll-behavior: smooth;
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
   }
   body {
     background-color: var(--ctp-base);
@@ -207,11 +209,26 @@
   .sisalto li::marker {
     color: var(--ctp-overlay1);
   }
+  /* Lainaus: liukuviiva vasemmalla */
   .sisalto blockquote {
-    border-left: 3px solid var(--ctp-mauve);
-    padding-left: 1rem;
-    color: var(--ctp-subtext1);
-    font-style: italic;
+    position: relative;
+    margin: 2rem 0;
+    padding: 0.125rem 0 0.125rem 1.5rem;
+    color: var(--ctp-text);
+    font-size: 0.9375em;
+  }
+  .sisalto blockquote::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 4px;
+    border-radius: 2px;
+    background: linear-gradient(to bottom, var(--ctp-mauve), var(--ctp-blue));
+  }
+  .sisalto blockquote > :last-child {
+    margin-bottom: 0;
   }
   .sisalto code {
     font-family: var(--font-mono);
@@ -982,4 +999,108 @@ button:hover > .kbd-quiet {
 .sisalto .small {
   font-size: 0.8125rem;
   color: var(--ctp-subtext0);
+}
+
+/* Huomiolaatikot (> [!NOTE], [!TIP], [!IMPORTANT], [!WARNING], [!CAUTION]) */
+.sisalto .alert {
+  --alert: var(--ctp-blue);
+  margin: 1.75rem 0;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--ctp-surface0);
+  border-left: 4px solid var(--alert);
+  border-radius: 0.375rem;
+  background-color: var(--ctp-mantle);
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  line-height: 1.65;
+}
+.sisalto .alert-tip { --alert: var(--ctp-green); }
+.sisalto .alert-important { --alert: var(--ctp-mauve); }
+.sisalto .alert-warning { --alert: var(--ctp-yellow); }
+.sisalto .alert-caution { --alert: var(--ctp-red); }
+.sisalto .alert > :last-child {
+  margin-bottom: 0;
+}
+.sisalto .alert-title {
+  margin: 0 0 0.25rem;
+  color: var(--alert);
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+.sisalto .alert-title::before {
+  content: '// ';
+}
+
+/* Lainaus lähteellä: lopussa <footer> (markdownissa viimeinen kappale "— Lähde" muuttuu footeriksi) */
+.sisalto blockquote footer {
+  margin-top: 0.75rem;
+  color: var(--ctp-overlay1);
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  font-style: normal;
+}
+.sisalto blockquote footer::before {
+  content: '\2014\00a0';
+}
+
+/* Koodikommentti (shortcode kommentti): // kappaleen edessä */
+.sisalto .kommentti {
+  margin: 2rem 0;
+  color: var(--ctp-overlay1);
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  font-variant-ligatures: none;
+  line-height: 1.65;
+}
+.sisalto .kommentti p {
+  position: relative;
+  margin: 0.25rem 0;
+  padding-left: 2rem;
+  font-style: italic;
+}
+.sisalto .kommentti p::before {
+  content: '//';
+  position: absolute;
+  left: 0;
+  font-style: normal;
+}
+
+/* Kappaleväli lainauksen sisällä */
+.sisalto blockquote > p + p {
+  margin-top: 0.75rem;
+}
+
+/* Otsikkoankkurit ja kohteen korostus */
+.sisalto .anchor {
+  display: inline-flex;
+  margin-left: 0.5rem;
+  color: var(--ctp-overlay0);
+  opacity: 0;
+  vertical-align: middle;
+  transition: opacity 0.15s, color 0.15s;
+}
+.sisalto .anchor:hover {
+  color: var(--ctp-mauve);
+}
+.sisalto :is(h2, h3, h4):hover > .anchor,
+.sisalto .anchor:focus-visible {
+  opacity: 1;
+}
+@media (hover: none) {
+  .sisalto .anchor {
+    opacity: 0.5;
+  }
+}
+@keyframes kohde {
+  from { background-color: color-mix(in srgb, var(--ctp-mauve) 28%, transparent); }
+  to { background-color: transparent; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .sisalto :is(h2, h3, h4):target {
+    margin-left: -0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 0.25rem;
+    animation: kohde 2s ease-out;
+  }
 }

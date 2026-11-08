@@ -1,0 +1,5 @@
+{{- /* Otsikot ankkureina: linkki-ikoni ilmestyy otsikon perään, ja osoitteeseen voi viitata muodossa #otsikko. */ -}}
+<h{{ .Level }} id="{{ .Anchor }}"{{ range $k, $v := .Attributes }}{{ if ne $k "id" }} {{ $k }}="{{ $v }}"{{ end }}{{ end }}>
+  {{- .Text | safeHTML -}}
+  <a class="anchor" href="#{{ .Anchor }}" aria-label="Linkki otsikkoon: {{ .Text | plainify }}">{{ partial "icon.html" (dict "name" "lucide/link" "class" "size-4") }}</a>
+</h{{ .Level }}>
