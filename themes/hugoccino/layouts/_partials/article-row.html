@@ -1,11 +1,17 @@
-<li class="py-2 flex flex-col sm:flex-row sm:items-baseline gap-x-4">
-  <time datetime="{{ .Date.Format "2006-01-02" }}" class="font-mono text-sm text-overlay1 shrink-0">{{ .Date.Format "2006-01-02" }}</time>
-  <span class="min-w-0">
-    <a href="{{ .RelPermalink }}" class="text-text hover:text-mauve">{{ .Title }}</a>
-    {{- with .GetTerms "tags" }}
-    <span class="ml-2 font-mono text-xs text-overlay1">
-      {{- range first 3 . }}<span class="mr-1">#{{ lower .LinkTitle }}</span>{{ end -}}
-    </span>
+{{- /* Artikkelin tai reseptin rivi: otsikko ja alla metarivi (päivä · kategoria · avainsanat) */ -}}
+{{- $isRecipe := eq .Type "resepti" }}
+{{- $tagKey := cond $isRecipe "recipe_tags" "tags" }}
+{{- $catKey := cond $isRecipe "recipe_categories" "categories" }}
+<li data-g="|{{ range .GetTerms $tagKey }}{{ lower .LinkTitle }}|{{ end }}" data-c="|{{ range .GetTerms $catKey }}{{ lower .LinkTitle }}|{{ end }}" class="py-2.5">
+  <a href="{{ .RelPermalink }}" class="text-text hover:text-mauve">{{ .Title }}</a>
+  <p class="mt-0.5 flex flex-wrap items-center gap-x-2 font-mono text-xs text-overlay1">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+    {{- range .GetTerms $catKey }}
+      {{- if ne .LinkTitle "Blogi" }}<span class="text-surface2" aria-hidden="true">·</span><a href="{{ .RelPermalink }}" class="text-peach hover:text-yellow">{{ .LinkTitle }}</a>{{ end }}
     {{- end }}
-  </span>
+    {{- with .GetTerms $tagKey }}
+    <span class="text-surface2" aria-hidden="true">·</span>
+    <span class="flex flex-wrap gap-x-2">{{ range first 3 . }}<a href="{{ .RelPermalink }}" class="text-teal hover:text-sky">#{{ lower .LinkTitle }}</a>{{ end }}</span>
+    {{- end }}
+  </p>
 </li>
