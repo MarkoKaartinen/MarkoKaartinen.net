@@ -660,7 +660,7 @@ button:hover > .kbd-quiet {
   cursor: zoom-in;
 }
 .masto-clamp {
-  max-height: 15rem;
+  max-height: 11rem;
   overflow: hidden;
 }
 .masto-clamped {
