@@ -1,16 +1,49 @@
 {{ define "main" }}
-<h1 class="font-mono font-bold text-3xl mb-8"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
-{{- with .Content }}<div class="sisalto mb-10">{{ . }}</div>{{ end }}
+{{- $articles := where site.RegularPages "Type" "artikkeli" }}
+{{- $newest := index $articles.ByDate.Reverse 0 }}
+{{- $oldest := index $articles.ByDate 0 }}
+{{- $groups := $articles.GroupByDate "2006" "desc" }}
 
-{{- $articles := where site.RegularPages "Type" "artikkeli" -}}
-{{- range $articles.GroupByDate "2006" "desc" }}
-<section class="mb-10">
-  <h2 class="font-mono font-bold text-xl mb-3"><span class="text-overlay0 select-none">## </span>{{ .Key }} <span class="text-sm font-normal text-overlay1">({{ len .Pages }})</span></h2>
-  <ul class="divide-y divide-surface0">
+<h1 class="font-mono font-bold text-3xl mb-6"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
+{{- with .Content }}<div class="sisalto mb-8">{{ . }}</div>{{ end }}
+
+{{- /* Päätelaatikko: määrä, uusin ja tilanne */ -}}
+<div class="mb-8 rounded-lg border border-surface1 bg-mantle p-4 font-mono text-sm leading-relaxed">
+  <p><span class="text-green select-none">$</span> ls blogi | wc -l</p>
+  <p class="mb-2 text-subtext1">{{ len $articles }} artikkelia, {{ $oldest.Date.Year }}–{{ $newest.Date.Year }}</p>
+  <p><span class="text-green select-none">$</span> tail -n3 blogi</p>
+  <ul class="mt-1 space-y-0.5">
+    {{- range first 3 $articles.ByDate.Reverse }}
+    <li class="flex gap-3"><time datetime="{{ .Date.Format "2006-01-02" }}" class="shrink-0 text-overlay1">{{ .Date.Format "2006-01-02" }}</time><a href="{{ .RelPermalink }}" class="min-w-0 truncate font-sans text-text hover:text-mauve">{{ .Title }}</a></li>
+    {{- end }}
+  </ul>
+</div>
+
+{{- /* Suodatin (JS näyttää) */ -}}
+<div id="blogi-suodatin" hidden class="mb-6 font-mono text-sm">
+  <label class="flex items-center gap-2 rounded-lg border border-surface1 bg-mantle px-3 py-2 focus-within:border-mauve">
+    <span class="text-green select-none" aria-hidden="true">$</span>
+    <span class="text-overlay1 select-none">grep -i</span>
+    <input type="search" data-q autocomplete="off" spellcheck="false" placeholder="teksti, #avainsana tai @kategoria" aria-label="Suodata artikkeleita" class="min-w-0 flex-1 bg-transparent text-text outline-none placeholder:text-overlay0">
+    <span data-count class="shrink-0 text-overlay1"></span>
+  </label>
+</div>
+
+{{- range $i, $g := $groups }}
+<details id="y{{ .Key }}" data-year="{{ .Key }}" class="blogi-vuosi mb-4 scroll-mt-24"{{ if lt $i 2 }} open{{ end }}>
+  <summary class="cursor-pointer select-none list-none py-1 font-mono text-xl font-bold hover:text-mauve [&::-webkit-details-marker]:hidden">
+    <span class="text-overlay0">## </span>{{ .Key }} <span class="text-sm font-normal text-overlay1" data-ycount data-total="{{ len .Pages }}">({{ len .Pages }})</span>
+  </summary>
+  <ul class="mt-2 divide-y divide-surface0">
     {{- range .Pages }}
       {{ partial "article-row.html" . }}
     {{- end }}
   </ul>
-</section>
+</details>
 {{- end }}
+
+<p id="blogi-tyhja" hidden class="mt-6 font-mono text-sm text-overlay1">Ei osumia.</p>
+
+{{- $js := resources.Get "js/blogi.js" | resources.Minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
 {{ end }}
