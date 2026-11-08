@@ -1,8 +1,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
+{{- /* Ohuet avainsana- ja kategoriasivut (alle 3 sisältöä) pidetään pois hakukoneiden indeksistä, mutta linkit seurataan */ -}}
+{{- $thin := and (eq .Kind "term") (in (slice "tags" "categories") .Data.Plural) (lt (len .Pages) 3) }}
 {{- if .Params.noindex }}
 <meta name="robots" content="noindex, nofollow">
+{{- else if $thin }}
+<meta name="robots" content="noindex, follow">
 {{- end }}
 {{- $title := site.Title -}}
 {{- if not .IsHome }}{{ $title = printf "%s - %s" .Title site.Title }}{{ end }}
@@ -11,6 +15,7 @@
 <meta name="description" content="{{ . }}">
 {{- end }}
 <link rel="canonical" href="{{ .Permalink }}">
+{{ partial "seo.html" . }}
 <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="48x48">
 <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
 <link rel="icon" href="{{ "favicon-96x96.png" | relURL }}" type="image/png" sizes="96x96">

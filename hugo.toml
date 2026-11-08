@@ -7,6 +7,7 @@ removePathAccents = true
 timeZone = 'Europe/Helsinki'
 
 [params]
+  author = 'Marko Kaartinen'
   description = 'MarkoKaartinen.net on yhden nörtin projekti ja sisältää sekalaista settiä niin tekniikasta kuin muusta nörtteilystä.'
 
   # Tämän sivuston lähdekoodi (näkyy alatunnisteessa)

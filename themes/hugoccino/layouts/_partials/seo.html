@@ -1,0 +1,76 @@
+{{- /* Hakukone- ja jakokuvat: Open Graph, Twitter/X-kortti, Mastodon-tekijä ja JSON-LD */ -}}
+{{- $page := . -}}
+{{- $author := site.Params.author | default "Marko Kaartinen" -}}
+{{- $title := cond .IsHome site.Title .Title -}}
+{{- $desc := or .Description site.Params.description -}}
+{{- $img := partial "og-image.html" . -}}
+{{- $isEntry := and .IsPage (in (slice "artikkeli" "resepti") .Type) -}}
+{{- $keywords := slice -}}
+{{- range first 8 (.GetTerms (cond (eq .Type "resepti") "recipe_tags" "tags")) }}{{ $keywords = $keywords | append (lower .LinkTitle) }}{{ end -}}
+
+<meta name="author" content="{{ $author }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:locale" content="fi_FI">
+<meta property="og:type" content="{{ if $isEntry }}article{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ $img.Permalink }}">
+<meta property="og:image:width" content="{{ $img.Width }}">
+<meta property="og:image:height" content="{{ $img.Height }}">
+<meta property="og:image:alt" content="{{ $title }}">
+{{- if $isEntry }}
+<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+{{- if not .Lastmod.IsZero }}
+<meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
+{{- end }}
+<meta property="article:author" content="{{ $author }}">
+{{- with index (.GetTerms (cond (eq .Type "resepti") "recipe_categories" "categories")) 0 }}
+<meta property="article:section" content="{{ .LinkTitle }}">
+{{- end }}
+{{- range $keywords }}
+<meta property="article:tag" content="{{ . }}">
+{{- end }}
+{{- end }}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ $img.Permalink }}">
+{{- with site.Params.mastodon.handle }}
+<meta name="fediverse:creator" content="{{ . }}">
+{{- end }}
+
+{{- /* JSON-LD */ -}}
+{{- $person := dict "@type" "Person" "name" $author "url" site.Home.Permalink -}}
+{{- $sameAs := slice -}}
+{{- range site.Params.social }}{{ $sameAs = $sameAs | append .url }}{{ end -}}
+{{- if $sameAs }}{{ $person = merge $person (dict "sameAs" $sameAs) }}{{ end -}}
+{{- $graph := slice -}}
+{{- if .IsHome -}}
+  {{- $graph = $graph | append (dict "@type" "WebSite" "name" site.Title "url" site.Home.Permalink "description" $desc "inLanguage" "fi" "publisher" $person) -}}
+{{- else if $isEntry -}}
+  {{- $crumbs := slice (dict "@type" "ListItem" "position" 1 "name" site.Title "item" site.Home.Permalink) -}}
+  {{- if eq .Type "resepti" -}}
+    {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 2 "name" "Reseptit" "item" ("reseptit" | absURL)) -}}
+  {{- else -}}
+    {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 2 "name" "Blogi" "item" ("blogi" | absURL)) -}}
+  {{- end -}}
+  {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 3 "name" .Title "item" .Permalink) -}}
+  {{- $graph = $graph | append (dict "@type" "BreadcrumbList" "itemListElement" $crumbs) -}}
+  {{- $entry := dict "name" .Title "description" $desc "url" .Permalink "mainEntityOfPage" .Permalink "image" $img.Permalink "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00") "dateModified" ((cond (.Lastmod.IsZero) .Date .Lastmod).Format "2006-01-02T15:04:05Z07:00") "author" $person "inLanguage" "fi" -}}
+  {{- if $keywords }}{{ $entry = merge $entry (dict "keywords" (delimit $keywords ", ")) }}{{ end -}}
+  {{- if eq .Type "resepti" -}}
+    {{- $ing := slice -}}
+    {{- range .Params.ingredients }}{{ if .name }}{{ $ing = $ing | append (strings.TrimSpace (printf "%v %s %s" (cond (isset . "amount") .amount "") (.unit | default "") .name)) }}{{ end }}{{ end -}}
+    {{- $entry = merge $entry (dict "@type" "Recipe" "recipeIngredient" $ing) -}}
+    {{- with .Params.servings_amount }}{{ $entry = merge $entry (dict "recipeYield" (printf "%v" .)) }}{{ end -}}
+    {{- with index (.GetTerms "recipe_categories") 0 }}{{ $entry = merge $entry (dict "recipeCategory" .LinkTitle) }}{{ end -}}
+  {{- else -}}
+    {{- $entry = merge $entry (dict "@type" "BlogPosting" "headline" .Title "wordCount" .WordCount) -}}
+    {{- with index (.GetTerms "categories") 0 }}{{ $entry = merge $entry (dict "articleSection" .LinkTitle) }}{{ end -}}
+  {{- end -}}
+  {{- $graph = $graph | append $entry -}}
+{{- end -}}
+{{- if $graph }}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS }}</script>
+{{- end }}
