@@ -1,53 +1,74 @@
 // Kuvien ja gallerioiden lightbox. Käyttää <dialog>-elementtiä, ei riippuvuuksia.
+// Sivun omat kuvat (.sisalto ja img[data-lightbox]) avautuvat automaattisesti. Muut skriptit (esim. Mastodon-kuvat)
+// voivat avata katselun kutsulla window.hugoLightbox([{ src, alt, caption }], aloitusindeksi).
 (function () {
   'use strict';
-  var imgs = Array.prototype.slice.call(document.querySelectorAll('.sisalto img, img[data-lightbox]'))
-    .filter(function (img, i, all) { return all.indexOf(img) === i && !img.closest('a') && (parseInt(img.getAttribute('width'), 10) || 999) >= 120; });
-  if (!imgs.length || typeof HTMLDialogElement === 'undefined') return;
+  if (typeof HTMLDialogElement === 'undefined') return;
 
-  var dlg = document.createElement('dialog');
-  dlg.className = 'lightbox';
-  dlg.setAttribute('aria-label', 'Kuvan katselu');
-  dlg.innerHTML =
-    '<figure><img alt=""><figcaption></figcaption></figure>' +
-    '<button type="button" class="lb-btn lb-close" aria-label="Sulje">&times;</button>' +
-    '<button type="button" class="lb-btn lb-prev" aria-label="Edellinen">&lsaquo;</button>' +
-    '<button type="button" class="lb-btn lb-next" aria-label="Seuraava">&rsaquo;</button>' +
-    '<span class="lb-count"></span>';
-  document.body.appendChild(dlg);
-  var view = dlg.querySelector('img');
-  var cap = dlg.querySelector('figcaption');
-  var count = dlg.querySelector('.lb-count');
+  var dlg = null;
+  var view, cap, count;
+  var items = [];
   var cur = 0;
 
-  function show(i) {
-    cur = (i + imgs.length) % imgs.length;
-    var img = imgs[cur];
-    view.src = img.getAttribute('data-full') || img.currentSrc || img.src;
-    view.alt = img.alt;
-    var fc = img.closest('figure') && img.closest('figure').querySelector('figcaption');
-    cap.textContent = fc ? fc.textContent : img.alt;
-    count.textContent = imgs.length > 1 ? (cur + 1) + ' / ' + imgs.length : '';
-    dlg.classList.toggle('lb-single', imgs.length < 2);
+  function build() {
+    if (dlg) return;
+    dlg = document.createElement('dialog');
+    dlg.className = 'lightbox';
+    dlg.setAttribute('aria-label', 'Kuvan katselu');
+    dlg.innerHTML =
+      '<figure><img alt=""><figcaption></figcaption></figure>' +
+      '<button type="button" class="lb-btn lb-close" aria-label="Sulje">&times;</button>' +
+      '<button type="button" class="lb-btn lb-prev" aria-label="Edellinen">&lsaquo;</button>' +
+      '<button type="button" class="lb-btn lb-next" aria-label="Seuraava">&rsaquo;</button>' +
+      '<span class="lb-count"></span>';
+    document.body.appendChild(dlg);
+    view = dlg.querySelector('img');
+    cap = dlg.querySelector('figcaption');
+    count = dlg.querySelector('.lb-count');
+
+    dlg.querySelector('.lb-close').addEventListener('click', function () { dlg.close(); });
+    dlg.querySelector('.lb-prev').addEventListener('click', function () { show(cur - 1); });
+    dlg.querySelector('.lb-next').addEventListener('click', function () { show(cur + 1); });
+    dlg.addEventListener('click', function (e) {
+      if (e.target === dlg || e.target.tagName === 'FIGURE') dlg.close();
+    });
+    dlg.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowLeft') { e.preventDefault(); show(cur - 1); }
+      else if (e.key === 'ArrowRight') { e.preventDefault(); show(cur + 1); }
+    });
+    dlg.addEventListener('close', function () { view.removeAttribute('src'); });
   }
-  function open(i) {
-    show(i);
+
+  function show(i) {
+    cur = (i + items.length) % items.length;
+    var it = items[cur];
+    view.src = it.src;
+    view.alt = it.alt || '';
+    cap.textContent = it.caption || it.alt || '';
+    count.textContent = items.length > 1 ? (cur + 1) + ' / ' + items.length : '';
+    dlg.classList.toggle('lb-single', items.length < 2);
+  }
+
+  function open(list, i) {
+    if (!list || !list.length) return;
+    build();
+    items = list;
+    show(i || 0);
     if (!dlg.open) dlg.showModal();
+  }
+  window.hugoLightbox = open;
+
+  // Sivun omat kuvat
+  var imgs = Array.prototype.slice.call(document.querySelectorAll('.sisalto img, img[data-lightbox]'))
+    .filter(function (img, i, all) { return all.indexOf(img) === i && !img.closest('a') && (parseInt(img.getAttribute('width'), 10) || 999) >= 120; });
+
+  function toItem(img) {
+    var fc = img.closest('figure') && img.closest('figure').querySelector('figcaption');
+    return { src: img.getAttribute('data-full') || img.currentSrc || img.src, alt: img.alt, caption: fc ? fc.textContent : img.alt };
   }
 
   imgs.forEach(function (img, i) {
     img.classList.add('lb-zoom');
-    img.addEventListener('click', function () { open(i); });
+    img.addEventListener('click', function () { open(imgs.map(toItem), i); });
   });
-  dlg.querySelector('.lb-close').addEventListener('click', function () { dlg.close(); });
-  dlg.querySelector('.lb-prev').addEventListener('click', function () { show(cur - 1); });
-  dlg.querySelector('.lb-next').addEventListener('click', function () { show(cur + 1); });
-  dlg.addEventListener('click', function (e) {
-    if (e.target === dlg || e.target.tagName === 'FIGURE') dlg.close();
-  });
-  dlg.addEventListener('keydown', function (e) {
-    if (e.key === 'ArrowLeft') { e.preventDefault(); show(cur - 1); }
-    else if (e.key === 'ArrowRight') { e.preventDefault(); show(cur + 1); }
-  });
-  dlg.addEventListener('close', function () { view.removeAttribute('src'); });
 })();
