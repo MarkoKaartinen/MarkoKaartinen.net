@@ -19,21 +19,6 @@
     {{- end }}
   </header>
 
-  {{- range .GetTerms "series" }}
-    {{- $series := . }}
-    {{- $current := $.Page }}
-    <aside class="mb-10 rounded-lg border border-surface1 bg-mantle p-4 font-mono text-sm">
-      <p class="text-subtext0">Sarja: <a href="{{ $series.RelPermalink }}" class="text-mauve hover:text-lavender">{{ $series.LinkTitle }}</a></p>
-      <ol class="mt-2 list-decimal pl-5 marker:text-overlay1">
-        {{- range $series.Pages.ByDate }}
-        <li>
-          {{- if eq .RelPermalink $current.RelPermalink }}<span class="text-text">{{ .Title }}</span>{{ else }}<a href="{{ .RelPermalink }}" class="text-blue hover:text-sapphire">{{ .Title }}</a>{{ end -}}
-        </li>
-        {{- end }}
-      </ol>
-    </aside>
-  {{- end }}
-
   {{- $ref := cond (gt .Lastmod .Date) .Lastmod .Date }}
   {{- if and (gt (now.Sub $ref).Hours 17520) (or (not (isset .Params "vanhentunut")) .Params.vanhentunut) }}
   <div class="sisalto"><div class="alert alert-warning" role="note">
@@ -41,6 +26,32 @@
     <p>Tämä on kirjoitettu {{ .Date.Year }}{{ if ne $ref.Year .Date.Year }} ja päivitetty viimeksi {{ $ref.Year }}{{ end }}. Linkit, versiot ja tekniset yksityiskohdat voivat olla vanhentuneita.</p>
   </div></div>
   {{- end }}
+
+  {{- range .GetTerms "series" }}
+    {{- $series := . }}
+    {{- $current := $.Page }}
+    {{- $parts := $series.Pages.ByDate }}
+    {{- $name := $series.LinkTitle }}
+    {{- range $.Params.series }}{{ if eq (urlize .) (urlize $series.Data.Term) }}{{ $name = . }}{{ end }}{{ end }}
+    {{- $pos := 0 }}
+    {{- range $i, $p := $parts }}{{ if eq $p.RelPermalink $current.RelPermalink }}{{ $pos = add $i 1 }}{{ end }}{{ end }}
+    <aside class="mb-8 rounded-lg border border-surface1 bg-mantle p-4 font-mono text-sm md:float-right md:mb-4 md:ml-8 md:w-64" aria-label="Sarja {{ $name }}">
+      <p class="flex flex-wrap items-center gap-x-2">
+        <span class="puu-pallo" aria-hidden="true"></span>
+        <span class="text-overlay1">sarja</span>
+        <a href="{{ $series.RelPermalink }}" class="font-bold text-mauve hover:text-lavender">{{ $name }}</a>
+        <span class="text-overlay1">· osa {{ $pos }}/{{ len $parts }}</span>
+      </p>
+      <ul class="puu-osat">
+        {{- range $parts }}
+        <li class="puu-osa">
+          {{- if eq .RelPermalink $current.RelPermalink }}<span aria-current="page" class="font-sans text-base font-bold text-text">{{ .Title }}</span>{{ else }}<a href="{{ .RelPermalink }}" class="font-sans text-base text-subtext0 hover:text-mauve">{{ .Title }}</a>{{ end -}}
+        </li>
+        {{- end }}
+      </ul>
+    </aside>
+  {{- end }}
+
 
   <div data-pagefind-body>{{ partial "pagefind-meta.html" . }}<div class="sisalto" data-reading>{{ .Content }}</div></div>
 
