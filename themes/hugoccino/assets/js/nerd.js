@@ -40,6 +40,17 @@
     return loading;
   }
 
+  function openRandom() {
+    loadIndex().then(function (all) {
+      if (!all.length) return;
+      window.location.href = all[Math.floor(Math.random() * all.length)].u;
+    });
+  }
+
+  document.querySelectorAll('[data-random]').forEach(function (b) {
+    b.addEventListener('click', openRandom);
+  });
+
   function commands() {
     var list = [];
     var seen = {};
@@ -52,6 +63,7 @@
     });
     list.push({ title: 'Vaihda teema', meta: 'näppäin t', run: toggleTheme, search: 'vaihda teema tumma vaalea' });
     list.push({ title: 'Näppäinoikotiet', meta: 'näppäin ?', run: openHelp, search: 'nappainoikotiet ohje ?' });
+    list.push({ title: 'Satunnainen artikkeli', meta: 'komento shuf', run: openRandom, search: 'satunnainen artikkeli shuf random arvo' });
     var rss = document.querySelector('a[aria-label="RSS-syöte"]');
     if (rss) list.push({ title: 'RSS-syöte', meta: rss.getAttribute('href'), href: rss.getAttribute('href'), search: 'rss syote feed' });
     return list;
@@ -236,6 +248,7 @@
     if (chord) {
       chord = false;
       clearTimeout(chordTimer);
+      if (e.key.toLowerCase() === 's') { e.preventDefault(); openRandom(); return; }
       var path = GO[e.key.toLowerCase()];
       if (path) { e.preventDefault(); window.location.href = path; }
       return;
@@ -289,18 +302,52 @@
 
   var bar = document.getElementById('reading-progress');
   var article = document.querySelector('[data-reading]');
+  var ascii = document.getElementById('read-ascii');
   if (bar && article) {
     bar.hidden = false;
+    if (ascii) ascii.hidden = false;
     var update2 = function () {
       var r = article.getBoundingClientRect();
       var total = r.height - window.innerHeight;
       var p = total > 0 ? Math.min(1, Math.max(0, -r.top / total)) : 1;
       bar.style.transform = 'scaleX(' + p + ')';
+      if (ascii) {
+        var n = Math.round(p * 10);
+        ascii.textContent = '[' + '#'.repeat(n) + '-'.repeat(10 - n) + '] ' + Math.round(p * 100) + ' %';
+      }
     };
     window.addEventListener('scroll', update2, { passive: true });
     window.addEventListener('resize', update2);
     update2();
   }
+
+  // ---------- Alaviitteet ikkunana ----------
+
+  var tip = null;
+  function hideTip() { if (tip) { tip.remove(); tip = null; } }
+  function showTip(ref) {
+    var id = (ref.getAttribute('href') || '').slice(1);
+    var note = id && document.getElementById(id);
+    if (!note) return;
+    hideTip();
+    tip = document.createElement('div');
+    tip.className = 'fn-tip';
+    tip.setAttribute('role', 'tooltip');
+    Array.prototype.slice.call(note.childNodes).forEach(function (n) { tip.appendChild(n.cloneNode(true)); });
+    tip.querySelectorAll('.footnote-backref').forEach(function (a) { a.remove(); });
+    document.body.appendChild(tip);
+    var r = ref.getBoundingClientRect();
+    var w = tip.offsetWidth;
+    var left = Math.max(8, Math.min(window.scrollX + r.left, window.scrollX + document.documentElement.clientWidth - w - 8));
+    tip.style.left = left + 'px';
+    tip.style.top = (window.scrollY + r.bottom + 6) + 'px';
+  }
+  document.querySelectorAll('.footnote-ref').forEach(function (ref) {
+    ref.addEventListener('mouseenter', function () { showTip(ref); });
+    ref.addEventListener('mouseleave', hideTip);
+    ref.addEventListener('focus', function () { showTip(ref); });
+    ref.addEventListener('blur', hideTip);
+  });
 
   // ---------- "lisää"-valikko ----------
 

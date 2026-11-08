@@ -1,11 +1,11 @@
 {{ define "main" }}
-<article class="max-w-3xl" data-reading>
+<article class="max-w-3xl">
   <header class="mb-10">
     <h1 class="font-mono font-bold text-3xl leading-tight"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
     <p class="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-sm text-subtext0">
       <span class="text-overlay1">//</span>
       <span class="inline-flex items-center gap-1.5">{{ partial "icon.html" (dict "name" "lucide/calendar" "class" "size-4") }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time></span>
-      <span class="inline-flex items-center gap-1.5">{{ partial "icon.html" (dict "name" "lucide/clock" "class" "size-4") }}{{ .ReadingTime }} min lukuaika</span>
+      <span class="inline-flex items-center gap-1.5">{{ partial "icon.html" (dict "name" "lucide/clock" "class" "size-4") }}<span title="$ wc -w index.md">{{ if ge .WordCount 1000 }}{{ printf "%d %03d" (div .WordCount 1000) (mod .WordCount 1000) | replaceRE " " "&nbsp;" | safeHTML }}{{ else }}{{ .WordCount }}{{ end }} sanaa · {{ .ReadingTime }} min</span></span>
       {{ partial "mastodon-meta.html" . }}
       {{- if and (not .Lastmod.IsZero) (ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02")) }}
       <span>päivitetty <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod | time.Format ":date_long" }}</time></span>
@@ -34,7 +34,15 @@
     </aside>
   {{- end }}
 
-  <div class="sisalto">{{ .Content }}</div>
+  {{- $ref := cond (gt .Lastmod .Date) .Lastmod .Date }}
+  {{- if and (gt (now.Sub $ref).Hours 17520) (or (not (isset .Params "vanhentunut")) .Params.vanhentunut) }}
+  <div class="sisalto"><div class="alert alert-warning" role="note">
+    <p class="alert-title">vanha artikkeli</p>
+    <p>Tämä on kirjoitettu {{ .Date.Year }}{{ if ne $ref.Year .Date.Year }} ja päivitetty viimeksi {{ $ref.Year }}{{ end }}. Linkit, versiot ja tekniset yksityiskohdat voivat olla vanhentuneita.</p>
+  </div></div>
+  {{- end }}
+
+  <div class="sisalto" data-reading>{{ .Content }}</div>
 
   <footer class="mt-12 pt-6 border-t border-surface0 font-mono text-sm">
     {{- with .GetTerms "tags" }}
@@ -52,5 +60,6 @@
   {{ partial "mastodon-comments.html" . }}
 
   {{ partial "vanhat-kommentit.html" . }}
+  <div id="read-ascii" hidden class="max-md:hidden pointer-events-none fixed bottom-3 right-4 z-30 rounded border border-surface1 bg-mantle/90 px-2 py-1 font-mono text-xs text-overlay1" aria-hidden="true"></div>
 </article>
 {{ end }}

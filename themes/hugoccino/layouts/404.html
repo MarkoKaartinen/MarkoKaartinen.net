@@ -1,4 +1,5 @@
 {{ define "main" }}
 <h1 class="font-mono font-bold text-3xl mb-4"><span class="text-red select-none">404 </span>Sivua ei löydy</h1>
 <p class="font-mono text-sm text-subtext0">Osoite ei vie mihinkään. Kokeile <a href="{{ "/blogi" | relURL }}" class="text-blue hover:text-sapphire">blogin arkistoa</a> tai <a href="{{ "/" | relURL }}" class="text-blue hover:text-sapphire">etusivua</a>.</p>
+<p class="mt-4 font-mono text-sm"><button type="button" data-random class="rounded border border-surface1 bg-mantle px-3 py-1.5 hover:border-mauve hover:text-mauve"><span class="text-green">$</span> shuf -n1 artikkelit</button></p>
 {{ end }}

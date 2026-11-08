@@ -22,6 +22,8 @@ Sivustoa voi käyttää kokonaan näppäimistöllä:
 | <kbd class="kbd">#</kbd> haussa | hae avainsanoilla |
 | <kbd class="kbd">t</kbd> | vaihda teema (vaalea / tumma) |
 | <kbd class="kbd">g</kbd> + <kbd class="kbd">h</kbd> <kbd class="kbd">b</kbd> <kbd class="kbd">r</kbd> <kbd class="kbd">v</kbd> <kbd class="kbd">l</kbd> <kbd class="kbd">t</kbd> <kbd class="kbd">n</kbd> | siirry: etusivu, blogi, reseptit, vieraskirja, linkit, tietoa, nyt |
+| <kbd class="kbd">p</kbd> / <kbd class="kbd">n</kbd> | edellinen / seuraava artikkeli |
+| <kbd class="kbd">g</kbd> + <kbd class="kbd">s</kbd> | satunnainen artikkeli |
 | <kbd class="kbd">?</kbd> | näppäinoikotiet |
 | <kbd class="kbd">Esc</kbd> | sulje ikkuna |
 
@@ -242,6 +244,19 @@ YouTube ja Vimeo kirjoitetaan Hugon omilla shortcodeilla, ja ne käyttävät yks
 
 <iframe src="https://open.spotify.com/embed/track/RAIDAN_ID" title="Spotify" loading="lazy" allowfullscreen></iframe>
 ````
+
+## Terminaalityyli
+
+Artikkelin tiedoissa sanamäärä on `wc`-tyylinen (vie hiiri päälle: `$ wc -w index.md`), ja alaosan lähderivi on `git blame` -tyylinen:
+
+```text
+$ wc -w index.md
+1 204 index.md
+$ git blame content/2020/esimerkki/index.md
+→ Marko Kaartinen, 2020-01-02 · ehdota korjausta
+```
+
+Lisäksi `p` ja `n` siirtyvät edelliseen ja seuraavaan artikkeliin, alaviitteet avautuvat pieneen ikkunaan, artikkelin lukuetenemä näkyy alakulmassa muodossa `[#####-----] 52 %`, yli kaksi vuotta vanhoissa artikkeleissa on varoitus ja komentopaletin `shuf` arpoo satunnaisen artikkelin (oikotie `g` + `s`).
 
 ## Resepti
 
