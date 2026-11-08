@@ -99,6 +99,10 @@ timeZone = 'Europe/Helsinki'
   url = '/blogi'
   weight = 10
 [[menus.main]]
+  name = 'selaa'
+  url = '/selaa'
+  weight = 15
+[[menus.main]]
   name = 'vieraskirja'
   url = '/vieraskirja'
   weight = 20
