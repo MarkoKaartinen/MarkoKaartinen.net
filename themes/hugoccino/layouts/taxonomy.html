@@ -1,11 +1,72 @@
 {{ define "main" }}
-<h1 class="font-mono font-bold text-3xl mb-8"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
+<h1 class="font-mono font-bold text-3xl mb-4"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
+
+{{- $isTags := in (slice "tags" "recipe_tags") .Data.Plural }}
+{{- if $isTags }}
+  {{- /* Avainsanapilvi: yleiset avainsanat pilvessä, harvinaiset taitettuna aakkosellisena listana */ -}}
+  {{- $terms := .Data.Terms.Alphabetical }}
+  {{- $min := cond (gt (len $terms) 60) 10 1 }}
+  {{- $max := 1 }}
+  {{- range $terms }}{{ if gt .Count $max }}{{ $max = .Count }}{{ end }}{{ end }}
+  {{- $logMin := math.Log (float $min) }}
+  {{- $span := sub (math.Log (float $max)) $logMin }}
+  {{- if le $span 0.0 }}{{ $span = 1.0 }}{{ end }}
+
+  {{- $popular := slice }}
+  {{- $rest := slice }}
+  {{- range $terms }}
+    {{- if ge .Count $min }}{{ $popular = $popular | append . }}{{ else }}{{ $rest = $rest | append . }}{{ end }}
+  {{- end }}
+
+  <p class="mb-8 font-mono text-sm text-overlay1">{{ if ge (len $terms) 1000 }}{{ printf "%d&nbsp;%03d" (div (len $terms) 1000) (mod (len $terms) 1000) | safeHTML }}{{ else }}{{ (len $terms) }}{{ end }} avainsanaa{{ if $rest }} · yleisimmät pilvessä, loput alla{{ end }}</p>
+
+  {{- $accents := slice "mauve" "teal" "peach" "pink" "blue" "green" "yellow" "sapphire" "flamingo" "lavender" "sky" "maroon" }}
+  <ul class="pilvi mx-auto flex max-w-3xl flex-wrap items-center justify-center gap-x-5 gap-y-2 py-4 font-mono" aria-label="Avainsanapilvi">
+    {{- range $i, $e := $popular }}
+      {{- $rel := div (sub (math.Log (float $e.Count)) $logMin) $span }}
+      {{- $size := add 0.875 (mul 1.75 $rel) }}
+      {{- $name := lower $e.Page.LinkTitle }}
+      {{- $accent := index $accents (mod (add (len $name) (mul $i 5)) (len $accents)) }}
+      {{- $rot := mul (sub (mod (add $i (len $name)) 5) 2) 1.5 }}
+    <li><a href="{{ $e.Page.RelPermalink }}" style="--r: {{ $rot }}deg; color: var(--ctp-{{ $accent }}); font-size: {{ printf "%.3f" $size }}rem" title="{{ $e.Count }} {{ if eq $.Data.Plural "recipe_tags" }}{{ if eq $e.Count 1 }}resepti{{ else }}reseptiä{{ end }}{{ else }}artikkelia{{ end }}"><span class="hash">#</span>{{ $name }}</a></li>
+    {{- end }}
+  </ul>
+
+  {{- if $rest }}
+  <details class="group mt-10 font-mono text-sm">
+    <summary class="inline-flex cursor-pointer select-none list-none items-center gap-2 rounded-lg border border-surface1 bg-mantle px-3 py-1.5 text-text hover:border-mauve hover:text-mauve [&::-webkit-details-marker]:hidden">
+      <span class="text-green">$</span>
+      <span class="group-open:hidden">näytä kaikki avainsanat (+{{ if ge (len $rest) 1000 }}{{ printf "%d&nbsp;%03d" (div (len $rest) 1000) (mod (len $rest) 1000) | safeHTML }}{{ else }}{{ (len $rest) }}{{ end }})</span>
+      <span class="hidden group-open:inline">piilota harvinaiset avainsanat</span>
+    </summary>
+    {{- $letter := "" }}
+    <div class="mt-6 space-y-3">
+      {{- range $rest }}
+        {{- $first := upper (substr (lower .Page.LinkTitle) 0 1) }}
+        {{- if findRE `[0-9]` $first }}{{ $first = "0–9" }}{{ end }}
+        {{- if ne $first $letter }}
+          {{- if $letter }}</ul></div>{{ end }}
+          {{- $letter = $first }}
+      <div class="flex gap-4">
+        <h2 class="w-12 shrink-0 whitespace-nowrap text-right font-bold text-lg text-yellow">{{ $letter }}</h2>
+        <ul class="flex min-w-0 flex-wrap gap-x-4 gap-y-1">
+        {{- end }}
+          <li><a href="{{ .Page.RelPermalink }}" class="text-subtext0 hover:text-teal">{{ lower .Page.LinkTitle }}</a>{{ if gt .Count 1 }} <span class="text-overlay1">{{ .Count }}</span>{{ end }}</li>
+      {{- end }}
+        </ul>
+      </div>
+    </div>
+  </details>
+  {{- end }}
+
+{{- else }}
 <ul class="flex flex-wrap gap-x-5 gap-y-2 font-mono text-sm">
   {{- range .Data.Terms.Alphabetical }}
   <li>
-    <a href="{{ .Page.RelPermalink }}" class="text-teal hover:text-sky">{{ if in (slice "tags" "recipe_tags") $.Data.Plural }}{{ lower .Page.LinkTitle }}{{ else }}{{ .Page.LinkTitle }}{{ end }}</a>
+    <a href="{{ .Page.RelPermalink }}" class="text-teal hover:text-sky">{{ .Page.LinkTitle }}</a>
     <span class="text-overlay1">{{ .Count }}</span>
   </li>
   {{- end }}
 </ul>
+{{- end }}
 {{ end }}

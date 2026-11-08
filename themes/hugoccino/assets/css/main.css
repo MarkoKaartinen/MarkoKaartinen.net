@@ -1316,3 +1316,20 @@ button:hover > .kbd-quiet {
 .fn-tip p {
   margin: 0;
 }
+
+/* Avainsanapilvi */
+.pilvi a {
+  display: inline-block;
+  font-weight: 700;
+  line-height: 1.2;
+  transform: rotate(var(--r, 0deg));
+}
+.pilvi a:hover,
+.pilvi a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+/* Hashmerkki himmeämpänä, mutta alleviivaus pysyy samanvärisenä (ei opacityä) */
+.pilvi .hash {
+  color: color-mix(in srgb, currentColor 50%, transparent);
+}
