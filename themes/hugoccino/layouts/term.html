@@ -65,6 +65,10 @@
   </li>
   {{- end }}
 </ol>
+{{- else if $isRecipe }}
+<ul class="grid gap-4 sm:grid-cols-2">
+  {{- range $pages }}{{ partial "recipe-card.html" . }}{{ end }}
+</ul>
 {{- else if gt (len $pages) 20 }}
   {{- range $pages.GroupByDate "2006" "desc" }}
 <section class="mb-8">

@@ -2,16 +2,23 @@
 <h1 class="font-mono font-bold text-3xl mb-8"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
 {{- with .Content }}<div class="sisalto mb-10">{{ . }}</div>{{ end }}
 {{- $recipes := where site.RegularPages "Section" "resepti" }}
-<p class="mb-4 font-mono text-sm text-overlay1">{{ len $recipes }} {{ if eq (len $recipes) 1 }}resepti{{ else }}reseptiä{{ end }}</p>
-<ul class="divide-y divide-surface0">
-  {{- range $recipes.ByDate.Reverse }}
-  <li class="py-2 flex flex-col sm:flex-row sm:items-baseline gap-x-4">
-    <time datetime="{{ .Date.Format "2006-01-02" }}" class="font-mono text-sm text-overlay1 shrink-0">{{ .Date.Format "2006-01-02" }}</time>
-    <span class="min-w-0">
-      <a href="{{ .RelPermalink }}" class="text-text hover:text-mauve">{{ .Title }}</a>
-      {{- with .GetTerms "recipe_categories" }}<span class="ml-2 font-mono text-xs text-peach">{{ range . }}{{ .LinkTitle }}{{ end }}</span>{{ end }}
-    </span>
-  </li>
+<p class="mb-4 font-mono text-sm text-overlay1">
+  {{ len $recipes }} {{ if eq (len $recipes) 1 }}resepti{{ else }}reseptiä{{ end }}
+  <span class="text-surface2"> · </span><a href="{{ "/reseptit/kategoriat" | relURL }}" class="text-peach hover:text-yellow">kategoriat</a>
+  <span class="text-surface2"> · </span><a href="{{ "/reseptit/avainsanat" | relURL }}" class="text-teal hover:text-sky">avainsanat</a>
+</p>
+{{- $cats := site.Taxonomies.recipe_categories.ByCount }}
+{{- if gt (len $cats) 1 }}
+<div id="resepti-suodatin" hidden class="mb-6 flex flex-wrap items-center gap-2 font-mono text-sm" role="group" aria-label="Suodata kategorian mukaan">
+  <button type="button" data-cat="" aria-pressed="true" class="rounded border border-surface1 px-2 py-0.5 text-subtext0 hover:border-peach hover:text-peach aria-pressed:border-peach aria-pressed:bg-surface0 aria-pressed:text-peach">kaikki <span class="text-overlay1">{{ len $recipes }}</span></button>
+  {{- range $cats }}
+  <button type="button" data-cat="{{ lower .Page.LinkTitle }}" aria-pressed="false" class="rounded border border-surface1 px-2 py-0.5 text-subtext0 hover:border-peach hover:text-peach aria-pressed:border-peach aria-pressed:bg-surface0 aria-pressed:text-peach">{{ .Page.LinkTitle }} <span class="text-overlay1">{{ .Count }}</span></button>
   {{- end }}
+</div>
+{{- end }}
+<ul id="resepti-lista" class="grid gap-4 sm:grid-cols-2">
+  {{- range $recipes.ByDate.Reverse }}{{ partial "recipe-card.html" . }}{{ end }}
 </ul>
+{{- $js := resources.Get "js/reseptilista.js" | resources.Minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
 {{ end }}

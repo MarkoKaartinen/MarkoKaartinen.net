@@ -1,0 +1,21 @@
+{{- /* Reseptikortti: kuva, otsikko, kuvaus ja kategoria sekä avainsanat linkkeinä. Koko kortti on klikattava otsikkolinkin ::after-peitteellä, ja kategoria- ja avainsanalinkit (z-10) pysyvät omina linkkeinään. */ -}}
+<li data-g="|{{ range .GetTerms "recipe_tags" }}{{ lower .LinkTitle }}|{{ end }}" data-c="|{{ range .GetTerms "recipe_categories" }}{{ lower .LinkTitle }}|{{ end }}" class="group relative flex flex-col overflow-hidden rounded-lg border border-surface1 bg-mantle hover:border-green">
+  {{- with .Params.image }}
+    {{- with $.Resources.Get . }}
+      {{- $img := .Fill "720x405 webp q80 center" }}
+  <a href="{{ $.RelPermalink }}" tabindex="-1" aria-hidden="true" class="block aspect-video overflow-hidden bg-crust">
+    <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="" loading="lazy" decoding="async" class="size-full object-cover transition-transform duration-300 group-hover:scale-105">
+  </a>
+    {{- end }}
+  {{- end }}
+  <div class="flex flex-1 flex-col gap-1.5 p-4">
+    <a href="{{ .RelPermalink }}" class="font-bold text-text after:absolute after:inset-0 group-hover:text-green">{{ .Title }}</a>
+    {{- with .Description }}<p class="line-clamp-2 text-sm leading-snug text-subtext0">{{ . }}</p>{{ end }}
+    <p class="mt-auto flex flex-wrap items-center gap-x-2 pt-1 font-mono text-xs text-overlay1">
+      {{- range .GetTerms "recipe_categories" }}<a href="{{ .RelPermalink }}" class="relative z-10 text-peach hover:text-yellow">{{ .LinkTitle }}</a>{{ end }}
+      {{- with .GetTerms "recipe_tags" }}
+      <span class="flex flex-wrap gap-x-2">{{ range first 3 . }}<a href="{{ .RelPermalink }}" class="relative z-10 text-teal hover:text-sky">#{{ lower .LinkTitle }}</a>{{ end }}</span>
+      {{- end }}
+    </p>
+  </div>
+</li>
