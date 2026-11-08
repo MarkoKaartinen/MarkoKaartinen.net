@@ -36,16 +36,22 @@ timeZone = 'Europe/Helsinki'
   category = 'categories'
   tag = 'tags'
   serie = 'series'
+  recipe_category = 'recipe_categories'
+  recipe_tag = 'recipe_tags'
 
 [permalinks.taxonomy]
   categories = '/kategoriat/'
   tags = '/avainsanat/'
   series = '/sarjat/'
+  recipe_categories = '/reseptit/kategoriat/'
+  recipe_tags = '/reseptit/avainsanat/'
 
 [permalinks.term]
   categories = '/kategoria/:slug/'
   tags = '/avainsana/:slug/'
   series = '/sarja/:slug/'
+  recipe_categories = '/reseptit/kategoria/:slug/'
+  recipe_tags = '/reseptit/avainsana/:slug/'
 
 # Vuosikansioissa olevat sisällöt ovat artikkeleita
 [[cascade]]
@@ -54,6 +60,13 @@ timeZone = 'Europe/Helsinki'
     publishResources = false
   [cascade.target]
     path = '/20*/**'
+
+# Reseptien kuvat julkaistaan vain pienennettyinä
+[[cascade]]
+  [cascade.build]
+    publishResources = false
+  [cascade.target]
+    path = '/resepti/**'
 
 [markup]
   [markup.goldmark.renderer]
@@ -71,7 +84,14 @@ timeZone = 'Europe/Helsinki'
 
 # Etusivun JSON-indeksi (/index.json) ruokkii haku- ja komentopalettia
 [outputs]
-  home = ['html', 'rss', 'json']
+  home = ['html', 'rss', 'json', 'humanjson']
+
+# /human.json (https://codeberg.org/robida/human.json)
+[outputFormats.humanjson]
+  mediaType = 'application/json'
+  baseName = 'human'
+  isPlainText = true
+  notAlternative = true
 
 # Päävalikko ja "lisää"-valikko, samat sivut kuin nykyisellä sivustolla
 [[menus.main]]

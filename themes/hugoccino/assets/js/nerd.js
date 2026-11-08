@@ -319,6 +319,6 @@
   // ---------- Pääsiäismuna konsolissa ----------
 
   if (window.console && console.log) {
-    console.log('%c> hei, nörtti. Kurkkaa lähdekoodi: https://github.com/MarkoKaartinen/MarkoKaartinen.net  (paina ? oikotieohjeille)', 'font-family: monospace; color: #cba6f7');
+    console.log('%c> hei, nörtti. Kurkkaa lähdekoodi: https://github.com/MarkoKaartinen/MarkoKaartinen.net  (paina ? oikotieohjeille tai lue: /hugoccino)', 'font-family: monospace; color: #cba6f7');
   }
 })();

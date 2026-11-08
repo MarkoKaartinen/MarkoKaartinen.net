@@ -1,0 +1,13 @@
+{{ define "main" }}
+<article class="max-w-3xl">
+  <h1 class="font-mono font-bold text-3xl mb-8"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
+  <div class="sisalto">
+    {{ .Content }}
+    <ul>
+      {{- range hugo.Data.vouches.vouches }}
+      <li><a href="{{ .url }}" rel="noopener noreferrer" target="_blank">{{ (urls.Parse .url).Host | strings.TrimPrefix "www." }}</a> <small>({{ .vouched_at }})</small></li>
+      {{- end }}
+    </ul>
+  </div>
+</article>
+{{ end }}

@@ -1,0 +1,2 @@
+{{- /* human.json (https://codeberg.org/robida/human.json): vahvistetut ihmisten pitämät sivustot */ -}}
+{{- dict "version" "0.1.1" "url" "https://markokaartinen.net" "vouches" hugo.Data.vouches.vouches | jsonify (dict "indent" "  ") -}}

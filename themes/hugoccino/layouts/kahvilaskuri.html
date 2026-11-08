@@ -1,0 +1,47 @@
+{{ define "main" }}
+<article class="max-w-3xl">
+  <h1 class="font-mono font-bold text-3xl mb-8"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
+  <div class="sisalto">{{ .Content }}</div>
+
+  <div id="kahvilaskuri" class="mt-10 font-mono text-sm" data-default-ratio="15" data-default-cup="240">
+    <h2 class="font-bold text-xl mb-3"><span class="text-overlay0 select-none">## </span>Suhde</h2>
+    <div class="flex flex-wrap items-center gap-2" role="group" aria-label="Kahvin ja veden suhde">
+      <button type="button" data-preset="15" aria-pressed="false" class="rounded border border-surface1 px-3 py-1.5 text-subtext0 hover:border-mauve hover:text-mauve aria-pressed:border-mauve aria-pressed:bg-mauve aria-pressed:text-crust">1:15 <span class="text-xs opacity-70">vahva</span></button>
+      <button type="button" data-preset="16" aria-pressed="false" class="rounded border border-surface1 px-3 py-1.5 text-subtext0 hover:border-mauve hover:text-mauve aria-pressed:border-mauve aria-pressed:bg-mauve aria-pressed:text-crust">1:16</button>
+      <button type="button" data-preset="17" aria-pressed="false" class="rounded border border-surface1 px-3 py-1.5 text-subtext0 hover:border-mauve hover:text-mauve aria-pressed:border-mauve aria-pressed:bg-mauve aria-pressed:text-crust">1:17 <span class="text-xs opacity-70">mieto</span></button>
+      <label class="ml-2 inline-flex items-center gap-2 text-subtext0">oma: 1 :
+        <input type="number" data-ratio min="1" max="30" step="0.5" value="15" inputmode="decimal" aria-label="Veden osuus, kun kahvia on 1" class="w-20 rounded border border-surface1 bg-mantle px-2 py-1 text-text focus:border-mauve focus:outline-none">
+      </label>
+    </div>
+    <p class="mt-2 text-xs text-overlay1">1 gramma kahvia per valittu määrä grammoja vettä.</p>
+
+    <h2 class="font-bold text-xl mt-10 mb-3"><span class="text-overlay0 select-none">## </span>Määrä</h2>
+    <div class="flex flex-wrap items-center gap-2" role="group" aria-label="Kupit">
+      <span class="mr-1 text-subtext0">Kupit:</span>
+      {{- range seq 1 10 }}
+      <button type="button" data-cups="{{ . }}" aria-pressed="false" class="size-9 rounded border border-green text-green hover:bg-green hover:text-crust aria-pressed:bg-green aria-pressed:text-crust">{{ . }}</button>
+      {{- end }}
+    </div>
+    <p class="mt-3 flex flex-wrap items-center gap-2 text-subtext0">
+      <span>Yhden kupin koko</span>
+      <input type="number" data-cup min="50" max="1000" step="10" value="240" inputmode="numeric" aria-label="Yhden kupin koko grammoina vettä" class="w-20 rounded border border-surface1 bg-mantle px-2 py-1 text-text focus:border-mauve focus:outline-none">
+      <span>g vettä</span>
+    </p>
+
+    <h2 class="font-bold text-xl mt-10 mb-3"><span class="text-overlay0 select-none">## </span>Tulos</h2>
+    <div class="flex flex-wrap items-center gap-x-8 gap-y-3">
+      <label class="inline-flex items-center gap-2 text-subtext0">Kahvia
+        <input type="number" data-coffee min="0.1" step="0.1" inputmode="decimal" aria-label="Kahvia grammoina" class="w-28 rounded border border-surface1 bg-mantle px-2 py-1 text-lg font-bold text-peach focus:border-mauve focus:outline-none">
+        <span>g</span>
+      </label>
+      <label class="inline-flex items-center gap-2 text-subtext0">Vettä
+        <input type="number" data-water min="1" step="1" inputmode="decimal" aria-label="Vettä grammoina" class="w-28 rounded border border-surface1 bg-mantle px-2 py-1 text-lg font-bold text-peach focus:border-mauve focus:outline-none">
+        <span>g</span>
+      </label>
+    </div>
+    <p class="mt-4 text-xs"><button type="button" data-reset hidden class="text-mauve hover:underline">nollaa oletukset</button></p>
+  </div>
+</article>
+{{- $js := resources.Get "js/kahvilaskuri.js" | resources.Minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{ end }}

@@ -1,0 +1,19 @@
+# human.json: sivustot, jotka vahvistan ihmisten pitämiksi (näkyy /ai-sivulla ja osoitteessa /human.json)
+[[vouches]]
+url = 'https://saaste.net'
+vouched_at = '2026-03-27'
+[[vouches]]
+url = 'https://markok.dev'
+vouched_at = '2026-03-27'
+[[vouches]]
+url = 'https://feuerx.net'
+vouched_at = '2026-03-27'
+[[vouches]]
+url = 'https://oranki.net'
+vouched_at = '2026-03-27'
+[[vouches]]
+url = 'https://nikopoikulainen.fi'
+vouched_at = '2026-03-27'
+[[vouches]]
+url = 'https://samimaatta.fi/'
+vouched_at = '2026-03-27'

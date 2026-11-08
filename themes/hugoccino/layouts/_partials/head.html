@@ -1,6 +1,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
+{{- if .Params.noindex }}
+<meta name="robots" content="noindex, nofollow">
+{{- end }}
 {{- $title := site.Title -}}
 {{- if not .IsHome }}{{ $title = printf "%s - %s" .Title site.Title }}{{ end }}
 <title>{{ $title }}</title>
@@ -15,6 +18,7 @@
 <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
 <meta name="theme-color" content="#eff1f5" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#1e1e2e" media="(prefers-color-scheme: dark)">
+<link rel="human-json" href="{{ "human.json" | relURL }}">
 {{- with .OutputFormats.Get "rss" }}
 <link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ .Permalink }}">
 {{- end }}

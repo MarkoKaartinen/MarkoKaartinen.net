@@ -1,0 +1,91 @@
+# Linkit-sivun ryhmät. Ikoni: assets/icons/-kansion nimi, esim. simple/mastodon tai lucide/globe.
+[[groups]]
+title = 'Sosiaalinen media'
+  [[groups.links]]
+  name = 'Mastodon'
+  url = 'https://kaartinen.social/@marko'
+  icon = 'simple/mastodon'
+  rel = 'me'
+  [[groups.links]]
+  name = 'Pixelfed'
+  url = 'https://kaartinen.photos/@marko'
+  icon = 'simple/pixelfed'
+  rel = 'me'
+
+[[groups]]
+title = 'Ylläpitämäni instanssit'
+  [[groups.links]]
+  name = 'Pixl.fi'
+  url = 'https://pixl.fi'
+  icon = 'simple/pixelfed'
+  [[groups.links]]
+  name = 'Blogi.social'
+  url = 'https://blogi.social'
+  icon = 'simple/mastodon'
+  [[groups.links]]
+  name = 'Kalakukko.social'
+  url = 'https://kalakukko.social'
+  icon = 'simple/mastodon'
+  [[groups.links]]
+  name = 'Kaartinen.social'
+  url = 'https://kaartinen.social'
+  icon = 'simple/mastodon'
+  rel = 'me'
+  [[groups.links]]
+  name = 'Kaartinen.photos'
+  url = 'https://kaartinen.photos'
+  icon = 'simple/pixelfed'
+  rel = 'me'
+
+[[groups]]
+title = 'Foorumit'
+  [[groups.links]]
+  name = 'BBQ Foorumi'
+  url = 'https://bbq.palstat.fi'
+  icon = 'lucide/message-circle'
+  [[groups.links]]
+  name = 'Pelittää.fi'
+  url = 'https://pelittaa.fi'
+  icon = 'lucide/message-circle'
+  [[groups.links]]
+  name = 'Kreikassa.net'
+  url = 'https://kreikassa.net'
+  icon = 'lucide/message-circle'
+
+[[groups]]
+title = 'Muut projektit'
+  [[groups.links]]
+  name = 'MarkoK.dev'
+  url = 'https://markok.dev'
+  icon = 'lucide/globe'
+  [[groups.links]]
+  name = 'SpottiHinta.fi'
+  url = 'https://spottihinta.fi'
+  icon = 'lucide/globe'
+  [[groups.links]]
+  name = 'Saunotaanko.fi'
+  url = 'https://saunotaanko.fi'
+  icon = 'lucide/globe'
+  [[groups.links]]
+  name = 'BBQ Blogi'
+  url = 'https://bbqblogi.fi'
+  icon = 'lucide/globe'
+  [[groups.links]]
+  name = 'Auringonalla'
+  url = 'https://auringonalla.fi'
+  icon = 'lucide/sun'
+  [[groups.links]]
+  name = 'Tapaaminen.net'
+  url = 'https://tapaaminen.net'
+  icon = 'lucide/calendar'
+  [[groups.links]]
+  name = 'Palstat.fi'
+  url = 'https://palstat.fi'
+  icon = 'lucide/message-circle'
+
+[[groups]]
+title = 'Muut linkit'
+  [[groups.links]]
+  name = 'Ko-fi'
+  url = 'https://ko-fi.com/markokaa'
+  icon = 'simple/kofi'
