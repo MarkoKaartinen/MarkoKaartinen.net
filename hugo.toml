@@ -58,6 +58,12 @@ timeZone = 'Europe/Helsinki'
 [markup]
   [markup.goldmark.renderer]
     unsafe = true
+  [markup.goldmark.extensions]
+    typographer = false
+    [markup.goldmark.extensions.extras.mark]
+      enable = true
+  [markup.goldmark.parser.attribute]
+    block = true
   [markup.highlight]
     noClasses = false
     lineNos = true
@@ -109,6 +115,13 @@ timeZone = 'Europe/Helsinki'
   name = 'kahvilaskuri'
   url = '/kahvilaskuri'
   weight = 50
+
+# Upotukset: YouTube youtube-nocookie.com-osoitteen kautta, Vimeo Do Not Track
+[privacy]
+  [privacy.youtube]
+    privacyEnhanced = true
+  [privacy.vimeo]
+    enableDNT = true
 
 # Hugo saa ajaa Tailwindin
 [security.exec]
