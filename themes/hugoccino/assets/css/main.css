@@ -1549,3 +1549,55 @@ button:hover > .kbd-quiet {
   width: 2px;
   background-color: var(--rail);
 }
+
+/* Takaisin ylös -nappi: näkyy, kun sivua on vieritetty alas */
+#to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  z-index: 30;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 1px solid var(--ctp-surface1);
+  border-radius: 9999px;
+  background-color: color-mix(in srgb, var(--ctp-mantle) 92%, transparent);
+  color: var(--ctp-subtext0);
+  cursor: pointer;
+}
+#to-top:hover,
+#to-top:focus-visible {
+  border-color: var(--ctp-mauve);
+  color: var(--ctp-mauve);
+}
+#to-top[hidden] {
+  display: none;
+}
+/* Artikkelissa leveillä näytöillä lukuetenemä on oikeassa alakulmassa, joten nappi nousee sen päälle */
+#to-top[data-lift] {
+  bottom: 3.75rem;
+}
+
+/* Takaisin ylös -napin ympärillä kulkeva rengas näyttää artikkelin lukuetenemän (puhelimella ja kapeilla näytöillä; leveällä näytöllä lukuetenemä on merkkijonona alakulmassa) */
+#to-top svg.to-top-ring {
+  position: absolute;
+  inset: -1px;
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  transform: rotate(-90deg);
+  pointer-events: none;
+  display: none;
+}
+#to-top[data-progress]:not([data-lift]) svg.to-top-ring {
+  display: block;
+}
+.to-top-bar {
+  fill: none;
+  stroke: var(--ctp-mauve);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+}

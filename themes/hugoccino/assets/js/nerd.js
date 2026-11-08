@@ -312,14 +312,19 @@
   var bar = document.getElementById('reading-progress');
   var article = document.querySelector('[data-reading]');
   var ascii = document.getElementById('read-ascii');
+  var topBtn = document.getElementById('to-top');
+  var topRing = topBtn ? topBtn.querySelector('.to-top-bar') : null;
   if (bar && article) {
     bar.hidden = false;
+    if (topBtn) topBtn.setAttribute('data-progress', '');
     if (ascii) ascii.hidden = false;
     var update2 = function () {
       var r = article.getBoundingClientRect();
       var total = r.height - window.innerHeight;
       var p = total > 0 ? Math.min(1, Math.max(0, -r.top / total)) : 1;
       bar.style.transform = 'scaleX(' + p + ')';
+      // Renkaan täyttö suoraan tyylinä (calc()-lauseke ei toimi kaikissa selaimissa stroke-dashoffsetissa)
+      if (topRing) topRing.style.strokeDashoffset = String(Math.round((1 - p) * 1000) / 10);
       if (ascii) {
         var n = Math.round(p * 10);
         ascii.textContent = '[' + '#'.repeat(n) + '-'.repeat(10 - n) + '] ' + Math.round(p * 100) + ' %';
@@ -357,6 +362,24 @@
     ref.addEventListener('focus', function () { showTip(ref); });
     ref.addEventListener('blur', hideTip);
   });
+
+  // ---------- Takaisin ylös ----------
+
+  var toTop = document.getElementById('to-top');
+  if (toTop) {
+    var updateTop = function () {
+      toTop.hidden = window.scrollY < 300;
+      if (ascii && getComputedStyle(ascii).display !== 'none') toTop.setAttribute('data-lift', '');
+      else toTop.removeAttribute('data-lift');
+    };
+    window.addEventListener('scroll', updateTop, { passive: true });
+    window.addEventListener('resize', updateTop);
+    toTop.addEventListener('click', function () {
+      var calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({ top: 0, behavior: calm ? 'auto' : 'smooth' });
+    });
+    updateTop();
+  }
 
   // ---------- "lisää"-valikko ----------
 
