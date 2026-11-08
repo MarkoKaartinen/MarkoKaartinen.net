@@ -5,6 +5,7 @@
     <p class="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-sm text-subtext0">
       <span class="text-overlay1">//</span>
       <span class="inline-flex items-center gap-1.5">{{ partial "icon.html" (dict "name" "lucide/calendar" "class" "size-4") }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time></span>
+      {{ partial "mastodon-meta.html" . }}
     </p>
     {{- with .GetTerms "recipe_categories" }}
     <p class="mt-2 flex flex-wrap items-center gap-x-3 font-mono text-sm">
@@ -65,6 +66,8 @@
     {{- end }}
     {{ partial "share.html" . }}
   </footer>
+
+  {{ partial "mastodon-comments.html" . }}
 </article>
 {{- $js := resources.Get "js/resepti.js" | resources.Minify | fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
