@@ -1475,3 +1475,31 @@ button:hover > .kbd-quiet {
   width: 2px;
   background-color: var(--ctp-surface2);
 }
+
+/* Kapea näyttö: pisteen väliin jäämistä ei voi hallita rivityksessä, joten erotinpiste piilotetaan */
+@media (max-width: 639px) {
+  .komm-dot {
+    display: none;
+  }
+}
+
+/* Kapea näyttö: pienempi avatar ja tiiviimmät välit. Ketju on suora lista, jossa viiva kulkee avatarista seuraavaan avatariin. */
+@media (max-width: 639px) {
+  .komm-section {
+    --av: 2.25rem;
+    --gap: 0.65rem;
+    --pad: 1.25rem;
+  }
+}
+.komm-next > .komm-body {
+  padding-bottom: 0.75rem;
+}
+.komm-next > .komm-body::after {
+  content: '';
+  position: absolute;
+  top: calc(var(--av) + 4px);
+  bottom: 0;
+  left: calc(var(--av) / 2 - 1px);
+  width: 2px;
+  background-color: var(--rail);
+}

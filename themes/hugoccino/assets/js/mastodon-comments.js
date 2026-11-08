@@ -21,6 +21,8 @@
   if (!instance || !statusId || !list) return;
 
   var el = L.el;
+  // Kapealla näytöllä ketju näytetään suorana listana (ei sisennystä), ja viiva kulkee avatarista avatariin
+  var NARROW = !!(window.matchMedia && window.matchMedia('(max-width: 639px)').matches);
   var MAX_DEPTH = 4;
 
   function api(path) {
@@ -127,6 +129,26 @@
     return li;
   }
 
+  // Kapea näyttö: juurikommentti ja sen kaikki vastaukset peräkkäin samassa sarakkeessa (järjestys kuten puussa, ylhäältä alas)
+  function renderThreadFlat(root) {
+    var all = [];
+    (function walk(node) {
+      node.children.forEach(function (c) { all.push(c); walk(c); });
+    })(root);
+    var li = renderReply(root.status, [], 1);
+    if (all.length) {
+      li.classList.add('komm-next');
+      var ul = el('ul', 'komm-list komm-flat');
+      all.forEach(function (c, i) {
+        var item = renderReply(c.status, [], 2);
+        if (i < all.length - 1) item.classList.add('komm-next');
+        ul.appendChild(item);
+      });
+      li.appendChild(ul);
+    }
+    return li;
+  }
+
   function buildTree(descendants) {
     var nodes = {};
     descendants.forEach(function (s) { nodes[s.id] = { status: s, children: [] }; });
@@ -195,7 +217,9 @@
       return;
     }
     setInfo('');
-    buildTree(descendants).forEach(function (n) { list.appendChild(renderReply(n.status, n.children, 1)); });
+    buildTree(descendants).forEach(function (n) {
+      list.appendChild(NARROW ? renderThreadFlat(n) : renderReply(n.status, n.children, 1));
+    });
   }
 
   var shown = false;
