@@ -42,7 +42,7 @@
   </div></div>
   {{- end }}
 
-  <div class="sisalto" data-reading>{{ .Content }}</div>
+  <div data-pagefind-body>{{ partial "pagefind-meta.html" . }}<div class="sisalto" data-reading>{{ .Content }}</div></div>
 
   <footer class="mt-12 pt-6 border-t border-surface0 font-mono text-sm">
     {{- with .GetTerms "tags" }}

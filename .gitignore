@@ -46,3 +46,6 @@ _testmain.go
 
 # Hugon generoima
 hugo_stats.json
+
+# Pagefindin hakuindeksi (tehdään koonnin jälkeen)
+/static/pagefind/

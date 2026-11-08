@@ -1,0 +1,11 @@
+{{- /* Pagefindin tiedot: otsikko, päivä ja suodattimet (vuosi, kategoria, tyyppi). Sijoitetaan data-pagefind-body-elementin sisään. */ -}}
+<meta data-pagefind-meta="title[content]" content="{{ .Title }}">
+{{- if not .Date.IsZero }}
+<meta data-pagefind-meta="pvm[content]" content="{{ .Date.Format "2006-01-02" }}">
+<meta data-pagefind-filter="vuosi[content]" content="{{ .Date.Year }}">
+{{- end }}
+{{- $tyyppi := cond (eq .Type "artikkeli") "artikkeli" (cond (eq .Type "resepti") "resepti" "sivu") }}
+<meta data-pagefind-filter="tyyppi[content]" content="{{ $tyyppi }}">
+{{- range .Params.categories }}<meta data-pagefind-filter="kategoria[content]" content="{{ . }}">{{ end }}
+{{- range .Params.recipe_categories }}<meta data-pagefind-filter="kategoria[content]" content="{{ . }}">{{ end }}
+<span hidden data-pagefind-weight="10">{{ .Title }}</span>

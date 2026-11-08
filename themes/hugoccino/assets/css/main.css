@@ -1390,3 +1390,11 @@ button:hover > .kbd-quiet {
   border-bottom: 2px solid var(--rail);
   border-bottom-left-radius: 0.625rem;
 }
+
+/* Edistyneen haun osumat */
+.haku-katkelma mark {
+  padding: 0 0.15em;
+  border-radius: 0.2em;
+  background-color: color-mix(in srgb, var(--ctp-yellow) 25%, transparent);
+  color: var(--ctp-yellow);
+}

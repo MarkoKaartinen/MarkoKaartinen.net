@@ -55,7 +55,7 @@
   </section>
   {{- end }}
 
-  <div class="sisalto mt-8">{{ .Content }}</div>
+  <div data-pagefind-body>{{ partial "pagefind-meta.html" . }}<div class="sisalto mt-8">{{ .Content }}</div></div>
 
   <footer class="mt-12 pt-6 border-t border-surface0 font-mono text-sm">
     {{- with .GetTerms "recipe_tags" }}

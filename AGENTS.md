@@ -39,3 +39,5 @@ Commitoi vain, kun käyttäjä pyytää.
 
 - `hugo server -D`: kehityspalvelin (`-D` näyttää luonnokset)
 - `hugo`: rakenna `public/`
+- `npm run build`: tuotantokoonti (`hugo` kahdesti, jotta Tailwind saa luokat `hugo_stats.json`:sta, ja sen jälkeen Pagefind-hakuindeksi `public/pagefind/`)
+- `npm run search:dev`: tekee Pagefind-indeksin kehityspalvelinta varten (`static/pagefind/`, ei versionhallintaan). Aja uudelleen, kun sisältö muuttuu.

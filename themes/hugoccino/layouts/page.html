@@ -4,6 +4,6 @@
   {{- if and .Params.show_updated (not .Lastmod.IsZero) }}
   <p class="mb-8 font-mono text-sm text-overlay1">päivitetty <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod | time.Format ":date_long" }}</time></p>
   {{- else }}<div class="mb-6"></div>{{ end }}
-  <div class="sisalto">{{ .Content }}</div>
+  <div data-pagefind-body>{{ partial "pagefind-meta.html" . }}<div class="sisalto">{{ .Content }}</div></div>
 </article>
 {{ end }}

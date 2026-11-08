@@ -63,6 +63,7 @@
     });
     list.push({ title: 'Vaihda teema', meta: 'näppäin t', run: toggleTheme, search: 'vaihda teema tumma vaalea' });
     list.push({ title: 'Näppäinoikotiet', meta: 'näppäin ?', run: openHelp, search: 'nappainoikotiet ohje ?' });
+    list.push({ title: 'Edistynyt haku (koko teksti)', meta: '/haku', href: '/haku', search: 'edistynyt haku koko teksti pagefind' });
     list.push({ title: 'Satunnainen artikkeli', meta: 'komento shuf', run: openRandom, search: 'satunnainen artikkeli shuf random arvo' });
     var rss = document.querySelector('a[aria-label="RSS-syöte"]');
     if (rss) list.push({ title: 'RSS-syöte', meta: rss.getAttribute('href'), href: rss.getAttribute('href'), search: 'rss syote feed' });
@@ -116,9 +117,12 @@
       if (score) out.push({ it: it, score: score, idx: idx });
     });
     out.sort(function (a, b) { return b.score - a.score || a.idx - b.idx; });
-    return out.slice(0, 15).map(function (o) {
+    var found = out.slice(0, 15).map(function (o) {
       return { title: o.it.t, meta: o.it.y + (o.it.d ? ' · ' + o.it.d : ''), href: o.it.u };
     });
+    // Viimeisenä rivinä oikotie koko tekstin hakuun
+    found.push({ title: 'Hae koko tekstistä: ' + q, meta: 'edistynyt haku', href: '/haku?q=' + encodeURIComponent(q) });
+    return found;
   }
 
   function render() {
