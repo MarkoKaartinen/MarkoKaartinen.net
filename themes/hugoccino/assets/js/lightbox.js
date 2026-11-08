@@ -37,6 +37,24 @@
       else if (e.key === 'ArrowRight') { e.preventDefault(); show(cur + 1); }
     });
     dlg.addEventListener('close', function () { view.removeAttribute('src'); });
+
+    // Kosketus: pyyhkäisy sivulle vaihtaa kuvaa, pyyhkäisy alas sulkee
+    var sx = 0, sy = 0, tracking = false;
+    dlg.addEventListener('touchstart', function (e) {
+      if (e.touches.length !== 1) { tracking = false; return; }
+      sx = e.touches[0].clientX;
+      sy = e.touches[0].clientY;
+      tracking = true;
+    }, { passive: true });
+    dlg.addEventListener('touchend', function (e) {
+      if (!tracking) return;
+      tracking = false;
+      var t = e.changedTouches[0];
+      var dx = t.clientX - sx;
+      var dy = t.clientY - sy;
+      if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) show(cur + (dx < 0 ? 1 : -1));
+      else if (dy > 90 && dy > Math.abs(dx) * 1.5) dlg.close();
+    }, { passive: true });
   }
 
   function show(i) {

@@ -22,7 +22,9 @@
 
   var el = L.el;
   // Kapealla näytöllä ketju näytetään suorana listana (ei sisennystä), ja viiva kulkee avatarista avatariin
-  var NARROW = !!(window.matchMedia && window.matchMedia('(max-width: 639px)').matches);
+  var narrowQuery = window.matchMedia ? window.matchMedia('(max-width: 639px)') : null;
+  var NARROW = !!(narrowQuery && narrowQuery.matches);
+  var lastData = null;
   var MAX_DEPTH = 4;
 
   function api(path) {
@@ -207,6 +209,7 @@
   var MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
 
   function render(status, rawDescendants) {
+    lastData = { status: status, raw: rawDescendants };
     var descendants = (rawDescendants || []).filter(function (s) {
       return s.visibility === 'public' || s.visibility === 'unlisted';
     });
@@ -219,6 +222,14 @@
     setInfo('');
     buildTree(descendants).forEach(function (n) {
       list.appendChild(NARROW ? renderThreadFlat(n) : renderReply(n.status, n.children, 1));
+    });
+  }
+
+  // Jos näytön leveys ylittää rajan (esim. puhelimen kääntö), ketju piirretään uudelleen sopivassa asettelussa
+  if (narrowQuery && narrowQuery.addEventListener) {
+    narrowQuery.addEventListener('change', function (e) {
+      NARROW = e.matches;
+      if (lastData) render(lastData.status, lastData.raw);
     });
   }
 
