@@ -1,0 +1,10 @@
+{{- /* Samankaltaiset: avainsanat, kategoria ja sarja (painot hugo.toml:n [related]) */ -}}
+{{- $items := first 4 (where (site.RegularPages.Related .) "Type" .Type) }}
+{{- if $items }}
+<section class="mt-12 font-mono text-sm" aria-labelledby="samankaltaiset">
+  <h2 id="samankaltaiset" class="font-bold text-xl mb-3"><span class="text-overlay0 select-none">## </span>{{ if eq .Type "resepti" }}Samankaltaisia reseptejä{{ else }}Samankaltaiset{{ end }}</h2>
+  <ul class="divide-y divide-surface0 font-sans text-base">
+    {{- range $items }}{{ partial "article-row.html" . }}{{ end }}
+  </ul>
+</section>
+{{- end }}

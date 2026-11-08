@@ -67,6 +67,9 @@
     {{ partial "share.html" . }}
   </footer>
 
+  {{ partial "related.html" . }}
+  {{ partial "article-nav.html" . }}
+
   {{ partial "mastodon-comments.html" . }}
 </article>
 {{- $js := resources.Get "js/resepti.js" | resources.Minify | fingerprint }}

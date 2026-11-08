@@ -244,6 +244,10 @@
     if (e.key === '/' && palette) { e.preventDefault(); openPalette(''); }
     else if (e.key === '?') { e.preventDefault(); openHelp(); }
     else if (e.key === 't') { toggleTheme(); }
+    else if (e.key === 'p' || e.key === 'n') {
+      var adj = document.querySelector('a.adj[rel="' + (e.key === 'p' ? 'prev' : 'next') + '"]');
+      if (adj) window.location.href = adj.href;
+    }
     else if (e.key === 'g') {
       chord = true;
       chordTimer = setTimeout(function () { chord = false; }, 1000);

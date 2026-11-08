@@ -163,3 +163,23 @@ timeZone = 'Europe/Helsinki'
     disableWatch = true
     source = 'hugo_stats.json'
     target = 'assets/notwatching/hugo_stats.json'
+
+[related]
+  includeNewer = true
+  threshold = 30
+  toLower = true
+  [[related.indices]]
+    name = 'series'
+    weight = 100
+  [[related.indices]]
+    name = 'tags'
+    weight = 80
+  [[related.indices]]
+    name = 'categories'
+    weight = 40
+  [[related.indices]]
+    name = 'recipe_tags'
+    weight = 80
+  [[related.indices]]
+    name = 'recipe_categories'
+    weight = 40
