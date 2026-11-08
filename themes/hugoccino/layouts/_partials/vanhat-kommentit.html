@@ -1,0 +1,16 @@
+{{- /*
+  Vanhat kommentit (WordPress ja Laravel) staattisena. Data tulee artikkelin kansion tiedostosta kommentit.json
+  (scripts/migrate/export_comments.py). Sähköposteja ei ole mukana.
+*/ -}}
+{{- with .Resources.Get "kommentit.json" }}
+{{- $items := . | transform.Unmarshal }}
+<section id="vanhat-kommentit" class="komm-section mt-12 pt-6 border-t border-surface0">
+  <h2 class="font-mono font-bold text-xl mb-2"><span class="text-overlay0 select-none">## </span>Vanhat kommentit <span class="text-sm font-normal text-overlay1">({{ len $items }})</span></h2>
+  <p class="text-sm text-subtext0 leading-relaxed">Nämä kommentit on siirretty blogin vanhoista versioista. Kommentointi niissä on suljettu.</p>
+  <ul class="komm-list komm-root">
+    {{- range $items }}
+      {{- if not .parent }}{{ partial "vanha-kommentti.html" (dict "c" . "all" $items) }}{{ end }}
+    {{- end }}
+  </ul>
+</section>
+{{- end }}

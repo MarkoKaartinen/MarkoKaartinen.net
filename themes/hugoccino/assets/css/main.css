@@ -1276,3 +1276,17 @@ button:hover > .kbd-quiet {
   width: 0.875rem;
   height: 0.875rem;
 }
+
+/* Vanhojen kommenttien nimikirjain avatarin paikalla */
+.komm-initial {
+  display: grid;
+  place-items: center;
+  color: var(--ctp-overlay1);
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.komm-author .komm-initial {
+  color: var(--ctp-mauve);
+}
