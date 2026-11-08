@@ -10,7 +10,7 @@
     {{- with .GetTerms "recipe_categories" }}
     <p class="mt-2 flex flex-wrap items-center gap-x-3 font-mono text-sm">
       <span class="text-peach">{{ partial "icon.html" (dict "name" "lucide/folder-open" "class" "size-4") }}</span>
-      {{- range . }}<a href="{{ .RelPermalink }}" class="text-peach hover:text-yellow">{{ .LinkTitle }}</a>{{ end -}}
+      {{- range . }}<a href="{{ .RelPermalink }}" class="tap text-peach hover:text-yellow">{{ .LinkTitle }}</a>{{ end -}}
     </p>
     {{- end }}
   </header>

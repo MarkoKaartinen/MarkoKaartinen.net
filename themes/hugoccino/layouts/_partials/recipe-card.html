@@ -12,9 +12,9 @@
     <a href="{{ .RelPermalink }}" class="font-bold text-text after:absolute after:inset-0 group-hover:text-green">{{ .Title }}</a>
     {{- with .Description }}<p class="line-clamp-2 text-sm leading-snug text-subtext0">{{ . }}</p>{{ end }}
     <p class="mt-auto flex flex-wrap items-center gap-x-2 pt-1 font-mono text-xs text-overlay1">
-      {{- range .GetTerms "recipe_categories" }}<a href="{{ .RelPermalink }}" class="relative z-10 text-peach hover:text-yellow">{{ .LinkTitle }}</a>{{ end }}
+      {{- range .GetTerms "recipe_categories" }}<a href="{{ .RelPermalink }}" class="tap relative z-10 text-peach hover:text-yellow">{{ .LinkTitle }}</a>{{ end }}
       {{- with .GetTerms "recipe_tags" }}
-      <span class="flex flex-wrap gap-x-2">{{ range first 3 . }}<a href="{{ .RelPermalink }}" class="relative z-10 text-teal hover:text-sky">#{{ lower .LinkTitle }}</a>{{ end }}</span>
+      <span class="flex flex-wrap gap-x-2">{{ range first 3 . }}<a href="{{ .RelPermalink }}" class="tap relative z-10 text-teal hover:text-sky">#{{ lower .LinkTitle }}</a>{{ end }}</span>
       {{- end }}
     </p>
   </div>

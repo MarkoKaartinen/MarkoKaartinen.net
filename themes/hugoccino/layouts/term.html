@@ -50,7 +50,7 @@
   <span class="text-overlay1">{{ if $isTag }}liittyvät{{ else }}yleisimmät{{ end }}:</span>
     {{- range $related }}
       {{- $parts := split .k "|" }}
-  <a href="{{ index $parts 0 }}" class="text-teal hover:text-sky">#{{ index $parts 1 }}<span class="ml-1 text-overlay1">{{ .n }}</span></a>
+  <a href="{{ index $parts 0 }}" class="tap text-teal hover:text-sky">#{{ index $parts 1 }}<span class="ml-1 text-overlay1">{{ .n }}</span></a>
     {{- end }}
 </p>
   {{- end }}

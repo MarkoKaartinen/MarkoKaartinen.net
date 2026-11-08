@@ -7,11 +7,11 @@
   <p class="mt-0.5 flex flex-wrap items-center gap-x-2 font-mono text-xs text-overlay1">
     <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
     {{- range .GetTerms $catKey }}
-      {{- if ne .LinkTitle "Blogi" }}<span class="text-surface2 max-sm:hidden" aria-hidden="true">·</span><a href="{{ .RelPermalink }}" class="text-peach hover:text-yellow">{{ .LinkTitle }}</a>{{ end }}
+      {{- if ne .LinkTitle "Blogi" }}<span class="text-surface2 max-sm:hidden" aria-hidden="true">·</span><a href="{{ .RelPermalink }}" class="tap text-peach hover:text-yellow">{{ .LinkTitle }}</a>{{ end }}
     {{- end }}
     {{- with .GetTerms $tagKey }}
     <span class="text-surface2 max-sm:hidden" aria-hidden="true">·</span>
-    <span class="flex flex-wrap gap-x-2">{{ range first 3 . }}<a href="{{ .RelPermalink }}" class="text-teal hover:text-sky">#{{ lower .LinkTitle }}</a>{{ end }}</span>
+    <span class="flex flex-wrap gap-x-2">{{ range first 3 . }}<a href="{{ .RelPermalink }}" class="tap text-teal hover:text-sky">#{{ lower .LinkTitle }}</a>{{ end }}</span>
     {{- end }}
   </p>
 </li>
