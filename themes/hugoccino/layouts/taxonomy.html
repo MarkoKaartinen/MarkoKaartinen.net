@@ -59,6 +59,32 @@
   </details>
   {{- end }}
 
+{{- else if in (slice "categories" "recipe_categories") .Data.Plural }}
+  {{- /* Kategoriat ls -lS -tyylisenä listana (järjestys määrän mukaan) */ -}}
+  {{- $terms := .Data.Terms.ByCount }}
+  {{- $isRecipe := eq .Data.Plural "recipe_categories" }}
+  <div class="max-w-3xl rounded-lg border border-surface1 bg-mantle p-4 font-mono text-sm leading-relaxed">
+    <p><span class="text-green select-none">$</span> ls -l<span data-flag>S</span> {{ if $isRecipe }}reseptit/kategoriat{{ else }}kategoriat{{ end }}/</p>
+    <p data-sorts hidden class="mt-1 flex flex-wrap gap-2 text-xs">
+      <button type="button" data-sort="S" aria-pressed="true" class="rounded border border-surface1 px-2 py-0.5 text-subtext0 hover:border-mauve hover:text-mauve aria-pressed:border-mauve aria-pressed:text-mauve">-S määrä</button>
+      <button type="button" data-sort="t" aria-pressed="false" class="rounded border border-surface1 px-2 py-0.5 text-subtext0 hover:border-mauve hover:text-mauve aria-pressed:border-mauve aria-pressed:text-mauve">-t uusin</button>
+      <button type="button" data-sort="" aria-pressed="false" class="rounded border border-surface1 px-2 py-0.5 text-subtext0 hover:border-mauve hover:text-mauve aria-pressed:border-mauve aria-pressed:text-mauve">aakkos</button>
+    </p>
+    <p class="mb-2 mt-2 text-overlay1">total {{ len $terms }}</p>
+    <ul data-sort-list>
+      {{- range $terms }}
+        {{- $latest := index .Page.Pages.ByDate.Reverse 0 }}
+      <li data-n="{{ .Count }}" data-d="{{ $latest.Date.Format "2006-01-02" }}" data-a="{{ lower .Page.LinkTitle }}" class="flex items-baseline gap-4">
+        <span class="w-10 shrink-0 text-right text-overlay1">{{ .Count }}</span>
+        <time datetime="{{ $latest.Date.Format "2006-01-02" }}" class="shrink-0 text-overlay1 max-sm:hidden" title="Viimeisin {{ if $isRecipe }}resepti{{ else }}artikkeli{{ end }}">{{ $latest.Date.Format "2006-01-02" }}</time>
+        <a href="{{ .Page.RelPermalink }}" class="min-w-0 truncate font-bold text-blue hover:text-sapphire">{{ .Page.LinkTitle }}/</a>
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+  {{- $js := resources.Get "js/luokat.js" | resources.Minify | fingerprint }}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+
 {{- else }}
 <ul class="flex flex-wrap gap-x-5 gap-y-2 font-mono text-sm">
   {{- range .Data.Terms.Alphabetical }}
