@@ -1,0 +1,2 @@
+{{- /* Latausnappi: {{< lataa "https://..." "App Storesta" >}} */ -}}
+<p><a class="lataa" href="{{ .Get 0 }}" rel="nofollow noopener">{{ partial "icon.html" (dict "name" "lucide/download" "class" "size-4") }}<span>Lataa{{ with .Get 1 }} {{ . }}{{ end }}</span></a></p>
