@@ -63,7 +63,7 @@
   {{- /* Kategoriat ls -lS -tyylisenä listana (järjestys määrän mukaan) */ -}}
   {{- $terms := .Data.Terms.ByCount }}
   {{- $isRecipe := eq .Data.Plural "recipe_categories" }}
-  <div class="max-w-3xl rounded-lg border border-surface1 bg-mantle p-4 font-mono text-sm leading-relaxed">
+  <div class="rounded-lg border border-surface1 bg-mantle p-4 font-mono text-sm leading-relaxed">
     <p><span class="text-green select-none">$</span> ls -l<span data-flag>S</span> {{ if $isRecipe }}reseptit/kategoriat{{ else }}kategoriat{{ end }}/</p>
     <p data-sorts hidden class="mt-1 flex flex-wrap gap-2 text-xs">
       <button type="button" data-sort="S" aria-pressed="true" class="rounded border border-surface1 px-2 py-0.5 text-subtext0 hover:border-mauve hover:text-mauve aria-pressed:border-mauve aria-pressed:text-mauve">-S määrä</button>
@@ -88,7 +88,7 @@
 {{- else if eq .Data.Plural "series" }}
   {{- /* Sarjat: sarjan nimi ja sen osat järjestyksessä, viivat samaan tapaan kuin kommenteissa */ -}}
   {{- $terms := .Data.Terms.ByCount }}
-  <div class="max-w-3xl rounded-lg border border-surface1 bg-mantle p-4 font-mono text-sm leading-relaxed">
+  <div class="rounded-lg border border-surface1 bg-mantle p-4 font-mono text-sm leading-relaxed">
     <p><span class="text-green select-none">$</span> tree sarjat/</p>
     <ul class="mt-4 space-y-6">
       {{- range $terms }}

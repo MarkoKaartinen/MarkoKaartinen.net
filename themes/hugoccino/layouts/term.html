@@ -61,7 +61,7 @@
 <p class="mb-8 font-mono text-sm">
   <a href="{{ $firstPart.RelPermalink }}" class="inline-flex items-center gap-2 rounded-lg border border-surface1 bg-mantle px-3 py-1.5 text-text hover:border-mauve hover:text-mauve"><span class="text-green">$</span> aloita sarja alusta {{ partial "icon.html" (dict "name" "lucide/arrow-right" "class" "size-4") }}</a>
 </p>
-<ol class="max-w-3xl divide-y divide-surface0">
+<ol class="divide-y divide-surface0">
   {{- range $i, $p := $pages }}
   <li class="group relative flex items-baseline gap-4 py-4">
     <span class="w-10 shrink-0 text-right font-mono text-sm text-overlay1">{{ printf "%02d" (add $i 1) }}</span>

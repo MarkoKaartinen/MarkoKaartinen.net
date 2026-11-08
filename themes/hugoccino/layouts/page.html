@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article class="max-w-3xl">
+<article>
   <h1 class="font-mono font-bold text-3xl mb-2"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
   {{- if and .Params.show_updated (not .Lastmod.IsZero) }}
   <p class="mb-8 font-mono text-sm text-overlay1">päivitetty <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod | time.Format ":date_long" }}</time></p>

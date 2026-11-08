@@ -6,7 +6,7 @@
 {{- $moreActive := false -}}
 {{- range site.Menus.more }}{{ if hasPrefix $page.RelPermalink .URL }}{{ $moreActive = true }}{{ end }}{{ end -}}
 <header class="sticky top-0 z-30 border-b border-surface0 bg-mantle font-mono text-sm">
-  <div class="relative max-w-4xl mx-auto px-4 flex items-stretch">
+  <div class="relative max-w-7xl mx-auto px-4 flex items-stretch">
     <a href="{{ "/" | relURL }}" data-home class="group mr-3 flex shrink-0 items-center gap-2.5 py-2.5 font-bold whitespace-nowrap" aria-label="{{ site.Title }}, etusivu">
       {{ partial "logo.html" (dict "class" "size-9 shrink-0") }}
       <span class="hidden sm:inline"><span class="text-mauve">~/</span><span class="text-text">markokaartinen</span><span class="text-overlay1">.net</span><span class="cursor opacity-0 group-hover:opacity-100" aria-hidden="true"></span></span>
@@ -50,7 +50,7 @@
         {{ partial "icon.html" (dict "name" "lucide/menu" "class" "size-5") }}
       </summary>
       <div class="absolute inset-x-0 top-full z-40 border-b border-surface1 bg-mantle shadow-lg">
-        <div class="mx-auto grid max-w-4xl grid-cols-2 px-2 py-2">
+        <div class="mx-auto grid max-w-7xl grid-cols-2 px-2 py-2">
           {{- range (site.Menus.main | append site.Menus.more) }}
           {{- $current := or (hasPrefix $page.RelPermalink .URL) (and (eq .Name "blogi") (findRE `^\d{4}$` $page.Section)) }}
           <a href="{{ .URL | relURL }}" data-palette-link {{ if eq .Name "haku" }}data-search-open{{ end }}
