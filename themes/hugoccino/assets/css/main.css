@@ -131,6 +131,10 @@
 }
 
 @layer base {
+  /* Yksi säädin koko sivun tekstikoolle: kaikki rem-koot skaalautuvat (100 % = 16 px) */
+  html {
+    font-size: 106.25%;
+  }
   @media (prefers-reduced-motion: no-preference) {
     html {
       scroll-behavior: smooth;
