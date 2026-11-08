@@ -25,11 +25,12 @@
 
   {{- with .Description }}<div class="sisalto mt-6"><p class="lead">{{ . }}</p></div>{{ end }}
 
+  <div data-pagefind-body>{{ partial "pagefind-meta.html" . }}
   {{- with .Params.ingredients }}
   <section id="ainekset" class="mt-8 font-mono text-sm" data-base="{{ $.Params.servings_amount | default 0 }}">
     <h2 class="font-bold text-xl mb-4"><span class="text-overlay0 select-none">## </span>Ainesosat</h2>
     {{- with $.Params.servings_amount }}
-    <div class="mb-4 inline-flex items-center gap-2 rounded-lg border border-surface1 bg-mantle px-3 py-1.5">
+    <div data-pagefind-ignore class="mb-4 inline-flex items-center gap-2 rounded-lg border border-surface1 bg-mantle px-3 py-1.5">
       <button type="button" data-step="-1" class="size-6 rounded border border-surface1 hover:border-mauve hover:text-mauve" aria-label="Vähennä annoksia">−</button>
       <span data-servings class="min-w-6 text-center font-bold" aria-live="polite">{{ . }}</span>
       <button type="button" data-step="1" class="size-6 rounded border border-surface1 hover:border-mauve hover:text-mauve" aria-label="Lisää annoksia">+</button>
@@ -55,7 +56,8 @@
   </section>
   {{- end }}
 
-  <div data-pagefind-body>{{ partial "pagefind-meta.html" . }}<div class="sisalto mt-8">{{ .Content }}</div></div>
+  <div class="sisalto mt-8">{{ .Content }}</div>
+  </div>
 
   <footer class="mt-12 pt-6 border-t border-surface0 font-mono text-sm">
     {{- with .GetTerms "recipe_tags" }}

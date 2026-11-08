@@ -1,4 +1,16 @@
 {{- /* Artikkelin koko sisältö syötettä varten: linkit ja kuvat absoluuttisiksi, otsikoiden ankkurikuvakkeet pois. Palauttaa HTML-merkkijonon. */ -}}
 {{- $base := strings.TrimSuffix "/" site.BaseURL -}}
+{{- /* Resepti: ainesosat ja annosmäärä sisällön alkuun (ne eivät ole Markdown-sisällössä) */ -}}
+{{- $ingredients := "" -}}
+{{- if and (eq .Type "resepti") .Params.ingredients -}}
+  {{- $ingredients = "<h2>Ainesosat</h2>" -}}
+  {{- with .Params.servings_amount }}{{ $ingredients = printf "%s<p>Annoksia: %s</p>" $ingredients (strings.TrimSpace (printf "%v %s" . ($.Params.servings_unit | default "" | htmlEscape))) }}{{ end -}}
+  {{- $ingredients = printf "%s<ul>" $ingredients -}}
+  {{- range .Params.ingredients -}}
+    {{- if .section }}{{ $ingredients = printf "%s<li><strong>%s</strong></li>" $ingredients (.section | htmlEscape) }}
+    {{- else }}{{ $ingredients = printf "%s<li>%s</li>" $ingredients (strings.TrimSpace (printf "%v %s %s" (cond (isset . "amount") .amount "") (.unit | default "" | htmlEscape) (.name | htmlEscape))) }}{{ end -}}
+  {{- end -}}
+  {{- $ingredients = printf "%s</ul>" $ingredients -}}
+{{- end -}}
 {{- $html := .Content | replaceRE `(?s)<a class="anchor".*?</a>` "" | replaceRE `(src|href)="/([^"/])` (printf "${1}=\"%s/${2}" $base) | replaceRE ` data-full="[^"]*"` "" -}}
-{{- return $html -}}
+{{- return (printf "%s%s" $ingredients $html) -}}

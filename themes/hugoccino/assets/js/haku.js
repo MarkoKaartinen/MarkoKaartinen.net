@@ -100,15 +100,24 @@
     return li;
   }
 
+  // Lukitus estää saman erän lataamisen kahdesti (nopea kaksoisklikkaus), mutta uusi haku saa aina ladata omansa
+  var loadingFor = -1;
+
   function showMore() {
-    if (!current) return;
-    var batch = current.results.slice(shown, shown + PAGE);
+    if (!current || loadingFor === token) return;
     var my = token;
+    loadingFor = my;
+    moreBtn.disabled = true;
+    var batch = current.results.slice(shown, shown + PAGE);
     Promise.all(batch.map(function (r) { return r.data(); })).then(function (items) {
       if (my !== token) return;
       items.forEach(function (d) { listEl.appendChild(renderResult(d)); });
       shown += batch.length;
       moreBtn.hidden = shown >= current.results.length;
+    }).then(function () {
+      if (loadingFor === my) { loadingFor = -1; moreBtn.disabled = false; }
+    }, function () {
+      if (loadingFor === my) { loadingFor = -1; moreBtn.disabled = false; }
     });
   }
 
