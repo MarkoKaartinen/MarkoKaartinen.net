@@ -1,8 +1,43 @@
-{{- /* Samankaltaiset: avainsanat, kategoria ja sarja (painot hugo.toml:n [related]) */ -}}
-{{- $items := first 4 (where (site.RegularPages.Related .) "Type" .Type) }}
-{{- if $items }}
-<section class="mt-12 font-mono text-sm" aria-labelledby="samankaltaiset">
-  <h2 id="samankaltaiset" class="font-bold text-xl mb-3"><span class="text-overlay0 select-none">## </span>{{ if eq .Type "resepti" }}Samankaltaisia reseptejä{{ else }}Samankaltaiset{{ end }}</h2>
+{{- /*
+  Lue myös / Kokeile myös. Ehdokkaat tulevat Hugon samankaltaisuushausta (sarja, avainsanat ja kategoria, painot hugo.toml:n [related]).
+  Jos jokin sivun avainsana on vähintään kolmella ehdokkaalla, lista rajataan niihin ja otsikko on komento
+  `grep -rl <avainsana> . | head -4`, joka pitää paikkansa jokaisella rivillä. Muuten otsikko on `related . | head -4`.
+  Ruudunlukijalle otsikko on teksti "Lue myös".
+*/ -}}
+{{- $cands := first 12 (where (site.RegularPages.Related .) "Type" .Type) }}
+{{- if $cands }}
+  {{- $isRecipe := eq .Type "resepti" }}
+  {{- $tagKey := cond $isRecipe "recipe_tags" "tags" }}
+  {{- /* Avainsana, joka on useimmilla ehdokkailla */ -}}
+  {{- $best := "" }}
+  {{- $bestN := 0 }}
+  {{- range .GetTerms $tagKey }}
+    {{- $t := .RelPermalink }}
+    {{- $n := 0 }}
+    {{- range $cands }}
+      {{- $has := false }}
+      {{- range .GetTerms $tagKey }}{{ if eq .RelPermalink $t }}{{ $has = true }}{{ end }}{{ end }}
+      {{- if $has }}{{ $n = add $n 1 }}{{ end }}
+    {{- end }}
+    {{- if gt $n $bestN }}{{ $bestN = $n }}{{ $best = . }}{{ end }}
+  {{- end }}
+  {{- $items := slice }}
+  {{- $cmd := "related . | head -4" }}
+  {{- if ge $bestN 3 }}
+    {{- range $cands }}
+      {{- $has := false }}
+      {{- range .GetTerms $tagKey }}{{ if eq .RelPermalink $best.RelPermalink }}{{ $has = true }}{{ end }}{{ end }}
+      {{- if $has }}{{ $items = $items | append . }}{{ end }}
+    {{- end }}
+    {{- $items = first 4 $items }}
+    {{- $word := lower $best.LinkTitle }}
+    {{- if strings.Contains $word " " }}{{ $word = printf "\"%s\"" $word }}{{ end }}
+    {{- $cmd = printf "grep -rl %s . | head -4" $word }}
+  {{- else }}
+    {{- $items = first 4 $cands }}
+  {{- end }}
+<section class="mt-12 font-mono text-sm" aria-labelledby="lue-myos">
+  <h2 id="lue-myos" class="mb-3 font-normal"><span class="sr-only">{{ if $isRecipe }}Kokeile myös{{ else }}Lue myös{{ end }}</span><span aria-hidden="true">{{ partial "prompt.html" (dict "path" (cond $isRecipe "~/reseptit" "~/blogi") "cmd" $cmd) }}</span></h2>
   <ul class="divide-y divide-surface0 font-sans text-base">
     {{- range $items }}{{ partial "article-row.html" . }}{{ end }}
   </ul>
