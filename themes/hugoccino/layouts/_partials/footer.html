@@ -37,7 +37,7 @@
 
   </div>
 </footer>
-{{- range slice "js/site.js" "js/nerd.js" }}
+{{- range slice "js/site.js" "js/nerd.js" "js/lightbox.js" }}
   {{- with resources.Get . }}
     {{- with . | fingerprint }}
 <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>

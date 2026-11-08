@@ -252,7 +252,14 @@
 
   // ---------- Koodilohkojen kopiointi ----------
 
-  document.querySelectorAll('.sisalto .highlight').forEach(function (box) {
+  document.querySelectorAll('.sisalto pre').forEach(function (pre) {
+    var box = pre.closest('.highlight');
+    if (!box) {
+      box = document.createElement('div');
+      box.className = 'highlight';
+      pre.parentNode.insertBefore(box, pre);
+      box.appendChild(pre);
+    }
     var btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'copy-btn';

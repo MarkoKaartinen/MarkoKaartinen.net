@@ -280,6 +280,43 @@
     padding: 0 0.2em;
     border-radius: 0.15rem;
   }
+  .sisalto .lead {
+    margin-bottom: 2rem;
+    font-size: 1.3em;
+    line-height: 1.55;
+    color: var(--ctp-text);
+  }
+  .sisalto .lead::before {
+    content: '// ';
+    color: var(--ctp-mauve);
+    font-family: var(--font-mono);
+    font-size: 0.8em;
+  }
+  .sisalto .galleria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+    gap: 0.75rem;
+  }
+  .sisalto .galleria > p {
+    display: contents;
+  }
+  .sisalto .galleria > * + * {
+    margin-top: 0;
+  }
+  .sisalto .galleria figure {
+    margin: 0;
+  }
+  .sisalto .galleria img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border: 1px solid var(--ctp-surface0);
+    transition: border-color 0.15s, opacity 0.15s;
+  }
+  .sisalto .galleria img:hover {
+    border-color: var(--ctp-mauve);
+    opacity: 0.9;
+  }
   .sisalto .footnotes {
     font-size: 0.9375rem;
     color: var(--ctp-subtext0);
@@ -833,4 +870,116 @@ button:hover > .kbd-quiet {
 }
 .chroma .err {
   color: var(--ctp-red);
+}
+
+/* Latausnappi (shortcode lataa) */
+.sisalto .lataa {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid var(--ctp-surface1);
+  border-radius: 0.25rem;
+  background-color: var(--ctp-surface0);
+  color: var(--ctp-text);
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+.sisalto .lataa:hover {
+  border-color: var(--ctp-mauve);
+  color: var(--ctp-mauve);
+}
+
+/* Lightbox */
+.lb-zoom {
+  cursor: zoom-in;
+}
+.lightbox {
+  width: 100vw;
+  height: 100vh;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--ctp-text);
+  font-family: var(--font-mono);
+}
+.lightbox[open] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lightbox::backdrop {
+  background-color: rgb(17 17 27 / 0.92);
+}
+.lightbox figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0;
+  max-width: 94vw;
+}
+.lightbox img {
+  max-width: 94vw;
+  max-height: 82vh;
+  width: auto;
+  height: auto;
+  border-radius: 0.25rem;
+}
+.lightbox figcaption {
+  max-width: 60rem;
+  color: var(--ctp-subtext0);
+  font-size: 0.8125rem;
+  text-align: center;
+}
+.lb-btn {
+  position: fixed;
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid var(--ctp-surface1);
+  border-radius: 0.25rem;
+  background-color: var(--ctp-mantle);
+  color: var(--ctp-text);
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.lb-btn:hover {
+  border-color: var(--ctp-mauve);
+  color: var(--ctp-mauve);
+}
+.lb-close { top: 1rem; right: 1rem; }
+.lb-prev { top: 50%; left: 1rem; transform: translateY(-50%); }
+.lb-next { top: 50%; right: 1rem; transform: translateY(-50%); }
+.lb-single .lb-prev, .lb-single .lb-next { display: none; }
+.lb-count {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--ctp-overlay1);
+  font-size: 0.75rem;
+}
+
+/* Spotify-upotukset: kompakti soitin */
+.sisalto iframe[src*="open.spotify.com"] {
+  display: block;
+  width: 100%;
+  max-width: 32rem;
+  height: 152px;
+  border: 0;
+  /* Upotuksen oma tausta on läpinäkyvä vain, kun iframen color-scheme vastaa upotetun sivun omaa (light). */
+  color-scheme: light;
+}
+
+/* Pieni teksti (kuvalähteet) */
+.sisalto .small {
+  font-size: 0.8125rem;
+  color: var(--ctp-subtext0);
 }

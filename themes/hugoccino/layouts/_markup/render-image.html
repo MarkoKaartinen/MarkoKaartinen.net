@@ -4,6 +4,7 @@
 */ -}}
 {{- $url := urls.Parse .Destination -}}
 {{- $src := .Destination -}}
+{{- $full := "" -}}
 {{- $width := 0 -}}
 {{- $height := 0 -}}
 {{- if not $url.IsAbs -}}
@@ -14,11 +15,15 @@
       {{- $img = .Resize (printf "%dx webp q82" $target) -}}
     {{- end -}}
     {{- $src = $img.RelPermalink -}}
+    {{- $full = $src -}}
+    {{- if and (eq .ResourceType "image") (ne .MediaType.SubType "gif") (ne .MediaType.SubType "svg") (gt .Width 1600) -}}
+      {{- $full = (.Resize (printf "%dx webp q85" (cond (gt .Width 2560) 2560 .Width))).RelPermalink -}}
+    {{- end -}}
     {{- $width = $img.Width -}}
     {{- $height = $img.Height -}}
   {{- end -}}
 {{- end -}}
-{{- $img := printf `<img src="%s" alt="%s" loading="lazy" decoding="async"%s%s>` $src (.PlainText | htmlEscape) (cond (gt $width 0) (printf ` width="%d"` $width) "") (cond (gt $height 0) (printf ` height="%d"` $height) "") -}}
+{{- $img := printf `<img src="%s" alt="%s" loading="lazy" decoding="async"%s%s%s>` $src (.PlainText | htmlEscape) (cond (gt $width 0) (printf ` width="%d"` $width) "") (cond (gt $height 0) (printf ` height="%d"` $height) "") (cond (ne $full "") (printf ` data-full="%s"` $full) "") -}}
 {{- if .Title -}}
 <figure>{{ $img | safeHTML }}<figcaption>{{ .Title }}</figcaption></figure>
 {{- else -}}
