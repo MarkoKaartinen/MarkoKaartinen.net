@@ -14,7 +14,7 @@
 {{- with or .Description site.Params.description }}
 <meta name="description" content="{{ . }}">
 {{- end }}
-<link rel="canonical" href="{{ .Permalink }}">
+<link rel="canonical" href="{{ partial "canonical.html" . }}">
 {{ partial "seo.html" . }}
 <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="48x48">
 <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">

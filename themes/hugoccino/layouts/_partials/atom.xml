@@ -18,10 +18,10 @@
   {{- range $items }}
   {{- $key := strings.TrimSuffix "/" .File.Dir }}
   {{- $legacy := index site.Data.legacy_ids $key }}
-  {{- $id := cond (ne $legacy nil) (printf "%s/%d" (strings.TrimSuffix "/" site.BaseURL) (int $legacy)) .Permalink }}
+  {{- $id := cond (ne $legacy nil) (printf "%s/%d" (strings.TrimSuffix "/" site.BaseURL) (int $legacy)) (partial "canonical.html" .) }}
   <entry>
     <title>{{ .Title }}</title>
-    <link rel="alternate" href="{{ .Permalink }}" />
+    <link rel="alternate" href="{{ partial "canonical.html" . }}" />
     <id>{{ $id }}</id>
     <author>
       <name>{{ $author }}</name>

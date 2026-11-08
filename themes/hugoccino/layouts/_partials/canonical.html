@@ -1,0 +1,4 @@
+{{- /* Sivun osoite ilman loppukauttaviivaa (etusivua lukuun ottamatta): canonical, og:url, JSON-LD, sivukartta ja syötteet. Palauttaa merkkijonon. */ -}}
+{{- $u := .Permalink -}}
+{{- if and (not .IsHome) (strings.HasSuffix $u "/") }}{{ $u = strings.TrimSuffix "/" $u }}{{ end -}}
+{{- return $u -}}
