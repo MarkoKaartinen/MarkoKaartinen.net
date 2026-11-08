@@ -1,0 +1,6 @@
+{{- /* Mastodon-apurit (puhdistus ja yhteiset osat), ladataan ennen syöte- ja kommenttiskriptiä */ -}}
+{{- with resources.Get "js/mastodon-lib.js" }}
+  {{- with . | fingerprint }}
+<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+  {{- end }}
+{{- end }}

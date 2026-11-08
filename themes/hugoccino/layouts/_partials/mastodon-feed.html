@@ -6,6 +6,7 @@
     <p class="font-mono text-sm text-subtext0">Syöte vaatii JavaScriptin. Viestit löytyvät osoitteesta <a href="{{ $m.profile }}" rel="me" class="text-blue hover:text-sapphire">{{ $m.handle }}</a>.</p>
   </noscript>
 </div>
+{{ partial "mastodon-lib.html" . }}
 {{- with resources.Get "js/mastodon.js" }}
   {{- with . | fingerprint }}
 <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
