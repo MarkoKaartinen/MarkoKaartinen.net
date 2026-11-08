@@ -11,7 +11,7 @@ Olen bongannut tämän paristakin blogista([RaivoGalleria](http://www.com64.net/
 
 En ala listaamaan kaikkia Google Readerissani olevia blogjea, mutta osan niistä jaan teidän kanssa. Listaan myöhemmin tänään muiden [PeLE](/avainsana/pele)ttäjien sivustoja.
 
-## [Rollemaa](rollemaa.org)
+## [Rollemaa](https://rollemaa.org)
 
 Rollen blogia olen lukenut jo ties kuinka kauan. Ja suosittelen tätä blogia kyllä kaikille. Kirjoittajana toimii Rolle, lainaus Rollemaasta: *”Kirjoittaja on 22-vuotias hevimusiikin ja tietokoneiden fanaattinen harrastelija, elämäntapanörtti, naimisissa kuurosokean vaimon kanssa, ja pienen tytön isä.”*
 

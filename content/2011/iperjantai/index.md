@@ -12,7 +12,7 @@ aliases: ["/iperjantai/"]
 
 Kirjoittelen tätä pohdintaa vaihteeksi iPadillä. Tästä vekottimesta on pitänyt kirjoittaa arvostelu tai jonkinlainen juttu jo kauan. Pyrin viikonloppuna kirjoittamaan hieman kattavemman artikkelin tästä. Näin lyhyenä ränttinä sanottakoon, että laite on erittäin pätevä, mutta näppäimistö on vähän heikko kirjoittamiseen – ainakin pitempään tekstiin.
 
-Jos hieman jatkaa vielä iPad aiheella, olen tässä koittanut rakentaa erittäin kevyttä ympäristöä siihen, kevyllä tarkoitan painoltaan kevyttä. Tällä hetkellähän tuo on ollut täysin viihdekäytössä, mutta tulen kokeilemaan saisinko jonkinlaista ohjelmointiympäristöä rakennettua sille. Tähän sain innoikkeen Markin [blogikirjoituksesta](yieldthought.com/post/12239282034/swapped-my-macbook-for-an-ipad). Sovelluksia saa ehdotella tänne päin ;)
+Jos hieman jatkaa vielä iPad aiheella, olen tässä koittanut rakentaa erittäin kevyttä ympäristöä siihen, kevyllä tarkoitan painoltaan kevyttä. Tällä hetkellähän tuo on ollut täysin viihdekäytössä, mutta tulen kokeilemaan saisinko jonkinlaista ohjelmointiympäristöä rakennettua sille. Tähän sain innoikkeen Markin [blogikirjoituksesta](https://yieldthought.com/post/12239282034/swapped-my-macbook-for-an-ipad). Sovelluksia saa ehdotella tänne päin ;)
 
 Jatketaan iLaitteilla, onhan sentään iPerjantai. Olen pohdiskellut miten saisi tämän huushollin vanhan käytössä olevan 3G:n uusittua uudempaan malliin. Elisalla on hintataso huimasti korkeampi verrattuna Soneraan, toisaalta Soneraan en lähtisi enää ollenkaan, enkä oikein voikaan. Pitääköhän tässä odottaa hieman, josko hinnat laskisivat?
 

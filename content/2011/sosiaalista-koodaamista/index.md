@@ -18,7 +18,7 @@ Ilmaistunnareilla voit tehdä julkisia repoja niin monta kuin sielu sietää, mu
 
 Innostuin oikeastaan GitHubista vasta äskettäin, koska aloin kääntämään parin kaverin kanssa FluxBB foorumia suomeksi ja nyt tämä alkaa olla loistava työkalu. Tulen tuonne julkaisemaan jotain pientä ja jännää. GitHubissa on myös mahdollista Wikille ja jonkinlaiselle bugitrackerille. Eli saat ilmaiseksi avoimille projekteille erittäin hyvän alustan.
 
-Mainittakoon nyt vielä, että käytän Gittiä MacBookillani ja sen saa toimintaan myös Windowsilla ja Linuxilla. MacBookille suosittelen loistavaa appsia nimeltä [Tower](www.git-tower.com/) (opiskelijat saa muuten -50% tästä Towerista kun toimittaa kopion/kuvan opiskelijakortista).
+Mainittakoon nyt vielä, että käytän Gittiä MacBookillani ja sen saa toimintaan myös Windowsilla ja Linuxilla. MacBookille suosittelen loistavaa appsia nimeltä [Tower](https://www.git-tower.com/) (opiskelijat saa muuten -50% tästä Towerista kun toimittaa kopion/kuvan opiskelijakortista).
 
 Tämmöistä tällä kertaa. Sosiaalisuus on myös koodareiden apuna tänä päivänä. Tuossa käännösprojektissakin on minun lisäksi kaksi muuta tekijää. Jotka voivat käytännössä milloin vain tehdä muutoksia käännökseen. Versiohallinnan etuna on se, että muutos näkyy ja edellisen version saa palautettua helposti. Versionhallinnasta tulee lisää joskus toiste.
 
