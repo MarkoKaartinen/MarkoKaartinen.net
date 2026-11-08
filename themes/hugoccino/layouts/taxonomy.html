@@ -85,6 +85,34 @@
   {{- $js := resources.Get "js/luokat.js" | resources.Minify | fingerprint }}
   <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
 
+{{- else if eq .Data.Plural "series" }}
+  {{- /* Sarjat: sarjan nimi ja sen osat järjestyksessä, viivat samaan tapaan kuin kommenteissa */ -}}
+  {{- $terms := .Data.Terms.ByCount }}
+  <div class="max-w-3xl rounded-lg border border-surface1 bg-mantle p-4 font-mono text-sm leading-relaxed">
+    <p><span class="text-green select-none">$</span> tree sarjat/</p>
+    <ul class="mt-4 space-y-6">
+      {{- range $terms }}
+        {{- $parts := .Page.Pages.ByDate }}
+        {{- $first := index $parts 0 }}
+        {{- $last := index $parts.Reverse 0 }}
+        {{- $name := .Page.LinkTitle }}
+        {{- with $first.Params.series }}{{ $name = index . 0 }}{{ end }}
+      <li>
+        <p class="flex flex-wrap items-center gap-x-2">
+          <span class="puu-pallo" aria-hidden="true"></span>
+          <a href="{{ .Page.RelPermalink }}" class="font-bold text-mauve hover:text-lavender">{{ $name }}</a>
+          <span class="text-overlay1">{{ .Count }} {{ if eq .Count 1 }}osa{{ else }}osaa{{ end }}, {{ if eq $first.Date.Year $last.Date.Year }}{{ $first.Date.Year }}{{ else }}{{ $first.Date.Year }}–{{ $last.Date.Year }}{{ end }}</span>
+        </p>
+        <ul class="puu-osat">
+          {{- range $parts }}
+          <li class="puu-osa"><a href="{{ .RelPermalink }}" class="font-sans text-base text-text hover:text-mauve">{{ .Title }}</a></li>
+          {{- end }}
+        </ul>
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+
 {{- else }}
 <ul class="flex flex-wrap gap-x-5 gap-y-2 font-mono text-sm">
   {{- range .Data.Terms.Alphabetical }}

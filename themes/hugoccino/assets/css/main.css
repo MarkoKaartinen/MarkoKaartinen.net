@@ -1337,3 +1337,48 @@ button:hover > .kbd-quiet {
 .pilvi .hash {
   color: color-mix(in srgb, currentColor 50%, transparent);
 }
+
+/* Sarjojen puu: viivat kuten kommenteissa (pyöristetty haara, viimeinen päättyy kulmaan) */
+.puu-pallo {
+  flex-shrink: 0;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 9999px;
+  background-color: var(--ctp-mauve);
+}
+.puu-osat {
+  --rail: var(--ctp-surface2);
+  --branch: 1.25rem;
+  margin: 0.15rem 0 0 calc(0.3125rem - 1px);
+  padding-left: var(--branch);
+}
+.puu-osa {
+  position: relative;
+  padding: 0.2rem 0;
+  line-height: 1.45;
+}
+/* Pystyviiva osa kerrallaan; viimeisellä ei jatkoa */
+.puu-osa::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(-1 * var(--branch));
+  width: 2px;
+  background-color: var(--rail);
+}
+.puu-osa:last-child::after {
+  display: none;
+}
+/* Haara: pyöristetty kulma viivasta osan otsikkoon */
+.puu-osa::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: calc(-1 * var(--branch));
+  width: calc(var(--branch) - 0.4rem);
+  height: calc(0.2rem + 0.75em + 1px);
+  border-left: 2px solid var(--rail);
+  border-bottom: 2px solid var(--rail);
+  border-bottom-left-radius: 0.625rem;
+}
