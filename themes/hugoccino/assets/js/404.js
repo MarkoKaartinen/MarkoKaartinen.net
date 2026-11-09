@@ -58,7 +58,7 @@
         var li = document.createElement('li');
         var a = document.createElement('a');
         a.href = s.it.u;
-        a.className = 'tap flex flex-wrap items-baseline gap-x-3 py-2.5 text-text hover:text-mauve';
+        a.className = 'flex flex-wrap items-baseline justify-between gap-x-4 py-2.5 text-text hover:text-mauve';
         var t = document.createElement('span');
         t.textContent = s.it.t;
         var m = document.createElement('span');
