@@ -391,6 +391,19 @@
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') menus.forEach(function (m) { m.open = false; });
     });
+    // Firefox (Zen) saattoi hypätä sivun alkuun summary-elementtiä klikatessa.
+    // Avataan valikko itse, eikä hiiren painallus siirrä fokusta sticky-headerin sisälle.
+    menus.forEach(function (m) {
+      var s = m.querySelector('summary');
+      if (!s) return;
+      s.addEventListener('mousedown', function (e) { e.preventDefault(); });
+      s.addEventListener('click', function (e) {
+        e.preventDefault();
+        var willOpen = !m.open;
+        menus.forEach(function (o) { o.open = false; });
+        m.open = willOpen;
+      });
+    });
     // Haku avautuu paletissa, joten valikko suljetaan sitä klikatessa
     menus.forEach(function (m) {
       m.querySelectorAll('[data-search-open]').forEach(function (a) {
