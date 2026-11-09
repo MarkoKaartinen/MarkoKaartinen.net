@@ -185,6 +185,11 @@
     content: "## ";
     color: var(--ctp-overlay0);
   }
+  /* Sivu, jonka otsikot ovat komentoja (front matter: komennot: true) */
+  .sisalto-komennot h2::before {
+    content: "$ ";
+    color: var(--ctp-green);
+  }
   .sisalto h3::before {
     content: "### ";
     color: var(--ctp-overlay0);
@@ -214,6 +219,41 @@
   }
   .sisalto li::marker {
     color: var(--ctp-overlay1);
+  }
+  /* Tehtävälista: [x] ja [ ] merkkeinä */
+  .sisalto li:has(> input[type="checkbox"]) {
+    list-style: none;
+    margin-left: -1.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.95em;
+  }
+  .sisalto li > input[type="checkbox"] {
+    appearance: none;
+    display: inline;
+    margin: 0 0.5rem 0 0;
+    cursor: default;
+  }
+  .sisalto li > input[type="checkbox"]::before {
+    content: "[ ]";
+    color: var(--ctp-overlay1);
+  }
+  .sisalto li > input[type="checkbox"]:checked::before {
+    content: "[x]";
+    color: var(--ctp-green);
+  }
+  /* Epäonnistunut tehtävä: yliviivattu teksti (~~teksti~~) saa merkin [!] */
+  .sisalto li:has(> input[type="checkbox"]):has(> del) > input[type="checkbox"]::before {
+    content: "[!]";
+    color: var(--ctp-red);
+  }
+  .sisalto li:has(> input[type="checkbox"]) > del {
+    color: var(--ctp-overlay1);
+    text-decoration-color: var(--ctp-red);
+  }
+  .sisalto li:has(> input[type="checkbox"]:checked) {
+    color: var(--ctp-overlay1);
+    text-decoration: line-through;
+    text-decoration-color: var(--ctp-surface2);
   }
   /* Lainaus: liukuviiva vasemmalla */
   .sisalto blockquote {
