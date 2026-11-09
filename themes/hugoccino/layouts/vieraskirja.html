@@ -1,0 +1,81 @@
+{{ define "main" }}
+{{- $api := site.Params.guestbook.api -}}
+<article>
+  <h1 class="font-mono font-bold text-[2.1rem] sm:text-4xl break-words leading-tight mb-6"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
+  <div data-pagefind-body>{{ partial "pagefind-meta.html" . }}<div class="sisalto">{{ .Content }}</div></div>
+
+  {{- if $api }}
+  <div id="vieraskirja" data-api="{{ $api }}" class="mt-10">
+    <section aria-labelledby="vk-lomake-otsikko">
+      <h2 id="vk-lomake-otsikko" class="mb-4 font-mono text-xl font-bold"><span class="text-overlay0 select-none">## </span>Jätä terveiset</h2>
+      <form data-form novalidate class="space-y-4 rounded-lg border border-surface0 bg-mantle p-4 sm:p-5">
+        <div>
+          <label for="vk-nimimerkki" class="mb-1 block font-mono text-sm text-subtext1">Nimimerkki <span class="text-red" aria-hidden="true">*</span></label>
+          <input id="vk-nimimerkki" name="nickname" type="text" maxlength="80" required autocomplete="nickname" aria-describedby="vk-nimimerkki-virhe" class="w-full rounded-md border border-surface1 bg-base px-3 py-2 text-text outline-none placeholder:text-overlay0 focus:border-mauve">
+          <p id="vk-nimimerkki-virhe" data-error="nickname" class="mt-1 text-sm text-red" hidden></p>
+        </div>
+        <div>
+          <label for="vk-kotisivu" class="mb-1 block font-mono text-sm text-subtext1">Kotisivu <span class="text-meta">(valinnainen)</span></label>
+          <input id="vk-kotisivu" name="homepage" type="url" maxlength="2048" inputmode="url" autocomplete="off" placeholder="https://" aria-describedby="vk-kotisivu-virhe" class="w-full rounded-md border border-surface1 bg-base px-3 py-2 text-text outline-none placeholder:text-overlay0 focus:border-mauve">
+          <p id="vk-kotisivu-virhe" data-error="homepage" class="mt-1 text-sm text-red" hidden></p>
+        </div>
+        <div>
+          <label for="vk-viesti" class="mb-1 block font-mono text-sm text-subtext1">Viesti <span class="text-red" aria-hidden="true">*</span></label>
+          <textarea id="vk-viesti" name="message" rows="5" maxlength="5000" required aria-describedby="vk-viesti-virhe" class="w-full resize-y rounded-md border border-surface1 bg-base px-3 py-2 text-text outline-none placeholder:text-overlay0 focus:border-mauve"></textarea>
+          <div class="mt-1 flex items-start justify-between gap-4 font-mono text-xs text-meta">
+            <details id="vk-viesti-ohje" class="min-w-0 flex-1">
+              <summary class="tap cursor-pointer select-none hover:text-mauve">muotoiluohje</summary>
+              <div class="mt-2 space-y-1.5 rounded-md border border-surface0 bg-base p-3 text-subtext1">
+                <p><code>**lihavointi**</code> &rarr; <strong>lihavointi</strong></p>
+                <p><code>*kursiivi*</code> tai <code>_kursiivi_</code> &rarr; <em>kursiivi</em></p>
+                <p><code>`koodi`</code> &rarr; <code class="rounded bg-surface0 px-1">koodi</code></p>
+                <p>koodilohko: omille riveilleen <code>```</code> ennen ja jälkeen koodin, värit kielimerkinnällä (esim. <code>```php</code>, js, python, bash, json, css, html, sql)</p>
+                <p><code>[linkin teksti](https://osoite)</code> tai pelkkä osoite</p>
+                <p><code>- kohta</code> tai <code>1. kohta</code> (lista)</p>
+                <p><code>&gt; lainaus</code></p>
+                <p class="text-meta">Ei kuvia, otsikoita eikä HTML:ää. Enintään kaksi linkkiä.</p>
+              </div>
+            </details>
+            <span data-count aria-hidden="true" class="shrink-0">0 / 5000</span>
+          </div>
+          <p id="vk-viesti-virhe" data-error="message" class="mt-1 text-sm text-red" hidden></p>
+        </div>
+
+        {{- /* Honeypot: ei näy eikä ole tab-järjestyksessä, vain botit täyttävät */}}
+        <div class="absolute -left-[9999px] h-0 w-0 overflow-hidden" aria-hidden="true">
+          <label>Älä täytä tätä kenttää<input name="website" type="text" tabindex="-1" autocomplete="off" value=""></label>
+        </div>
+
+        <p data-error="form_token" class="text-sm text-red" hidden></p>
+        <div class="flex flex-wrap items-center gap-3">
+          <button type="submit" data-submit class="inline-flex items-center gap-2 rounded border border-surface1 bg-base px-3 py-1.5 font-mono text-sm text-text hover:border-mauve hover:text-mauve disabled:cursor-wait disabled:opacity-60"><span class="text-green" aria-hidden="true">$</span> <span data-submit-label>lähetä viesti</span></button>
+          <p data-status role="status" aria-live="polite" class="text-sm text-subtext1"></p>
+        </div>
+      </form>
+    </section>
+
+    <section class="mt-12" aria-labelledby="vk-viestit-otsikko">
+      <h2 id="vk-viestit-otsikko" class="mb-4 font-mono text-xl font-bold"><span class="text-overlay0 select-none">## </span>Viestit <span data-total class="text-sm font-normal text-meta"></span></h2>
+      <p data-list-status class="font-mono text-sm text-meta" role="status" aria-live="polite">Ladataan viestejä&hellip;</p>
+      <div data-list-error hidden class="rounded-md border border-surface1 bg-mantle p-4 text-sm">
+        <p class="text-red">Viestien lataaminen ei onnistunut.</p>
+        <p class="mt-2"><button type="button" data-retry class="rounded border border-surface1 bg-base px-3 py-1.5 font-mono text-text hover:border-mauve hover:text-mauve"><span class="text-green" aria-hidden="true">$</span> yritä uudelleen</button></p>
+      </div>
+      <ol data-list class="space-y-4"></ol>
+      <nav data-pager hidden aria-label="Viestien sivutus" class="mt-8 flex items-center justify-between gap-4 font-mono text-sm">
+        <a data-prev href="#" class="tap rounded border border-surface1 bg-mantle px-3 py-1.5 text-subtext1 hover:border-mauve hover:text-mauve">&larr; uudemmat</a>
+        <span data-page class="text-meta"></span>
+        <a data-next href="#" class="tap rounded border border-surface1 bg-mantle px-3 py-1.5 text-subtext1 hover:border-mauve hover:text-mauve">vanhemmat &rarr;</a>
+      </nav>
+    </section>
+  </div>
+  <noscript><p class="mt-6 font-mono text-sm text-subtext0">Vieraskirja vaatii JavaScriptin.</p></noscript>
+  {{- else }}
+  <p class="mt-8 font-mono text-sm text-subtext0">Vieraskirja ei ole tällä hetkellä käytössä.</p>
+  {{- end }}
+</article>
+{{- if $api }}
+{{- $js := resources.Get "js/vieraskirja.js" | resources.Minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{- end }}
+{{ end }}
