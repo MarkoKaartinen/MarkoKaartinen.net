@@ -1,5 +1,33 @@
 {{ define "main" }}
-<h1 class="font-mono font-bold text-[2.1rem] sm:text-4xl break-words leading-tight mb-4"><span class="text-red select-none">404 </span>Sivua ei löydy</h1>
-<p class="font-mono text-sm text-subtext0">Osoite ei vie mihinkään. Kokeile <a href="{{ "/blogi" | relURL }}" class="text-blue hover:text-sapphire">blogin arkistoa</a> tai <a href="{{ "/" | relURL }}" class="text-blue hover:text-sapphire">etusivua</a>.</p>
-<p class="mt-4 font-mono text-sm"><button type="button" data-random class="rounded border border-surface1 bg-mantle px-3 py-1.5 hover:border-mauve hover:text-mauve"><span class="text-green">$</span> shuf -n1 artikkelit</button></p>
+<h1 class="font-mono font-bold text-[2.1rem] sm:text-4xl break-words leading-tight mb-6"><span class="text-red select-none">404 </span>Sivua ei löydy</h1>
+
+<div class="overflow-x-auto rounded-md border border-surface0 bg-crust px-4 py-3 font-mono text-sm leading-relaxed" aria-label="Virheilmoitus">
+  <p><span class="text-blue">~</span> <span class="text-green">$</span> cd <span data-404-path class="text-text break-all">/tämä/osoite</span></p>
+  <p class="text-red">bash: cd: <span data-404-path class="break-all">/tämä/osoite</span>: Tiedostoa tai hakemistoa ei ole</p>
+  <p class="mt-2"><span class="text-blue">~</span> <span class="text-green">$</span> echo $?</p>
+  <p class="text-yellow">404</p>
+</div>
+
+<p class="mt-6 text-subtext1">Osoite ei vie mihinkään. Sivu on voinut siirtyä, poistua tai osoitteessa on kirjoitusvirhe.</p>
+
+<section data-404-suggest hidden class="mt-8">
+  <p class="mb-3"><span class="inline-flex max-w-full items-center overflow-x-auto whitespace-nowrap rounded-md border border-surface0 bg-crust px-3 py-2 font-mono text-sm"><span class="text-blue">~/blogi</span>&nbsp;<span class="text-green">$</span>&nbsp;<span class="text-text">find . -iname "*<span data-404-term>osoite</span>*"</span></span></p>
+  <p class="mb-2 font-mono text-sm text-meta">Tarkoititko jotain näistä?</p>
+  <ul data-404-list class="divide-y divide-surface0 text-sm"></ul>
+</section>
+
+<div class="mt-8 flex flex-wrap gap-2 font-mono text-sm">
+  <button type="button" data-random class="rounded border border-surface1 bg-mantle px-3 py-1.5 hover:border-mauve hover:text-mauve"><span class="text-green">$</span> shuf -n1 artikkelit</button>
+  <a href="{{ "/haku" | relURL }}" data-404-search class="rounded border border-surface1 bg-mantle px-3 py-1.5 hover:border-mauve hover:text-mauve"><span class="text-green">$</span> grep -r &hellip;</a>
+  <a href="{{ "/blogi" | relURL }}" class="rounded border border-surface1 bg-mantle px-3 py-1.5 hover:border-mauve hover:text-mauve"><span class="text-green">$</span> ls blogi</a>
+  <a href="{{ "/" | relURL }}" class="rounded border border-surface1 bg-mantle px-3 py-1.5 hover:border-mauve hover:text-mauve"><span class="text-green">$</span> cd ~</a>
+</div>
+
+<p class="mt-8 font-mono text-xs text-meta">Vinkki: paina <kbd class="kbd">/</kbd> hakeaksesi koko sivustolta.</p>
+
+{{- with resources.Get "js/404.js" }}
+  {{- with . | fingerprint }}
+<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+  {{- end }}
+{{- end }}
 {{ end }}

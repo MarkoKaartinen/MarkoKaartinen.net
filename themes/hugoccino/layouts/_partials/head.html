@@ -9,7 +9,8 @@
 <meta name="robots" content="noindex, follow">
 {{- end }}
 {{- $title := site.Title -}}
-{{- if not .IsHome }}{{ $title = printf "%s - %s" .Title site.Title }}{{ end }}
+{{- if eq .Kind "404" }}{{ $title = printf "404 Sivua ei löydy - %s" site.Title }}
+{{- else if not .IsHome }}{{ $title = printf "%s - %s" .Title site.Title }}{{ end }}
 <title>{{ $title }}</title>
 {{- with or .Description site.Params.description }}
 <meta name="description" content="{{ . }}">
