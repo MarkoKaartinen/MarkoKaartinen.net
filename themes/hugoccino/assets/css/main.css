@@ -1595,6 +1595,13 @@ button:hover > .kbd-quiet {
   background-color: var(--rail);
 }
 
+/* Pienet linkit saavat vähintään 24 px korkean painoalueen (WCAG 2.2). Negatiivinen marginaali pitää rivin korkeuden ennallaan. */
+.tap {
+  display: inline-block;
+  padding-block: 0.25rem;
+  margin-block: -0.25rem;
+}
+
 /* Kosketusnäytöllä pienten linkkien painoalue on isompi kuin teksti (näkymätön laajennus, ulkoasu ei muutu) */
 @media (pointer: coarse) {
   .tap {
