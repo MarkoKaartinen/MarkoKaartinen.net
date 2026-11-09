@@ -14,15 +14,11 @@
     });
   }
 
-  // Kävijälaskuri: haetaan luku API:sta, jos osoite on asetettu
-  document.querySelectorAll('[data-visitors]').forEach(function (el) {
-    var api = el.getAttribute('data-api');
-    if (!api) return;
-    fetch(api, { headers: { Accept: 'application/json' } })
-      .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
-      .then(function (data) {
-        var n = String(parseInt(data.visits, 10));
-        if (!/^\d+$/.test(n)) return;
+  // Kävijälaskuri: haetaan luku API:sta, jos osoite on asetettu. Virheessä jätetään viimeksi näytetty luku (tai viiva).
+  var visitorEls = document.querySelectorAll('[data-visitors]');
+  if (visitorEls.length) {
+    var showVisits = function (n) {
+      visitorEls.forEach(function (el) {
         var digits = el.querySelector('[data-visitors-digits]');
         var text = el.querySelector('[data-visitors-text]');
         if (text) text.textContent = n;
@@ -36,7 +32,25 @@
           });
         }
         el.title = 'Kävijöitä yhteensä';
-      })
-      .catch(function () { /* jätetään placeholder */ });
-  });
+      });
+    };
+
+    var api = visitorEls[0].getAttribute('data-api');
+    if (api) {
+      try {
+        var last = localStorage.getItem('visits');
+        if (last && /^\d+$/.test(last)) showVisits(last);
+      } catch (e) {}
+
+      fetch(api, { headers: { Accept: 'application/json' }, credentials: 'omit' })
+        .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+        .then(function (data) {
+          var n = parseInt(data && data.visits, 10);
+          if (!isFinite(n) || n < 0) return;
+          showVisits(String(n));
+          try { localStorage.setItem('visits', String(n)); } catch (e) {}
+        })
+        .catch(function () { /* 503 tai verkkovirhe: jätetään edellinen luku tai viiva */ });
+    }
+  }
 })();

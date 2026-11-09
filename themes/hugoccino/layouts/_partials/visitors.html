@@ -1,13 +1,14 @@
 {{- /*
-  Kävijälaskuri numeroruutuina. Näyttää placeholder-luvun, kunnes params.visitors.api on asetettu.
-  API:n pitää palauttaa JSON {"visits": 123}. Koko: dict "size" "lg" (iso) tai oletus (pieni).
+  Kävijälaskuri numeroruutuina. Jos params.visitors.api on asetettu, luku haetaan sieltä selaimessa (JSON {"visits": 123});
+  siihen asti (tai virheen sattuessa) näkyy viiva. Ilman api-asetusta näkyy placeholder-luku.
+  Koko: dict "size" "lg" (iso) tai oletus (pieni).
 */ -}}
 {{- $v := site.Params.visitors -}}
 {{- $size := "sm" -}}
 {{- with .size }}{{ $size = . }}{{ end -}}
-{{- $placeholder := string ($v.placeholder | default 0) -}}
+{{- $placeholder := cond (ne $v.api "") "–" (string ($v.placeholder | default 0)) -}}
 <div data-visitors data-api="{{ $v.api }}" class="visitors-{{ $size }} inline-flex items-center gap-1" title="Kävijöitä yhteensä{{ if not $v.api }} (esimerkkiluku){{ end }}">
-  <span class="sr-only">Kävijöitä yhteensä: <span data-visitors-text>{{ $placeholder }}</span></span>
+  <span class="sr-only">Kävijöitä yhteensä: <span data-visitors-text>{{ if $v.api }}ei vielä saatavilla{{ else }}{{ $placeholder }}{{ end }}</span></span>
   <span aria-hidden="true" data-visitors-digits class="inline-flex gap-1">
     {{- range split $placeholder "" }}
     <span class="digit">{{ . }}</span>
