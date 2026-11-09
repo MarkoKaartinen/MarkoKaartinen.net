@@ -17,6 +17,23 @@ MarkoKaartinen.net blogin staattinen [Hugo](https://gohugo.io/)-versio.
 - `npm run build`: tuotantokoonti. Tyhjentää `public/`-kansion (poistuneet sivut eivät jää mukaan) ja tekee sen jälkeen Pagefind-hakuindeksin. Älä julkaise pelkällä `hugo`-koonnilla, koska silloin `/haku` ei toimi.
 - `npm run search:dev`: tekee hakuindeksin kehityspalvelinta varten (`static/pagefind/`, ei versionhallintaan). Aja uudelleen, kun sisältö muuttuu.
 
+## Uuden sisällön luominen
+
+Pohjat ovat kansiossa `archetypes/`. Luo tiedosto Hugolla niin front matter on valmiina (`draft: true`, joten `hugo server -D` näyttää sen). Slug on kansion tai tiedoston nimi: pienillä kirjaimilla, ilman ä/ö/å-kirjaimia ja välilyöntejä.
+
+```sh
+# Artikkeli (osoite /{vuosi}/{slug}, kuvat samaan kansioon)
+hugo new content --kind artikkeli content/2026/uuden-artikkelin-slug/index.md
+
+# Resepti (osoite /resepti/{slug})
+hugo new content --kind resepti content/resepti/reseptin-slug/index.md
+
+# Sivu (osoite /{slug}, esim. /tietoa)
+hugo new content --kind sivu content/sivun-slug.md
+```
+
+Kun sisältö on valmis, poista front matterista `draft: true`. Artikkelin `date` on julkaisuaika (`2026-11-09T08:30:00`, ilman aikavyöhykettä). Jos artikkelista on postaus Mastodonissa, lisää sen tunnus kenttään `mastodon_post_id`, niin keskustelu näkyy artikkelin kommentteina. Kuvat nimetään slugattuina (`artikkelin-slug-kuvan-nimi.jpg`).
+
 Lisätietoja periaatteista, rakenteesta ja käytännöistä on tiedostossa [AGENTS.md](AGENTS.md).
 
 ## Analytiikka (Plausible)
