@@ -1,0 +1,75 @@
+#!/usr/bin/env bash
+# Luo uusi sisältö oikeaan paikkaan valmiilla front matterilla.
+# Käyttö: ./uusi [tyyppi] [otsikko]   (puuttuvat tiedot kysytään)
+set -euo pipefail
+
+käyttö() {
+  echo "Käyttö: $0 [tyyppi] [otsikko]"
+  echo "  tyyppi:  artikkeli | resepti | sivu"
+  echo "  otsikko: esim. \"Miten sauna tehdään\" (kysytään, jos puuttuu)"
+  exit 1
+}
+
+TYYPPI="${1:-}"
+[[ $# -gt 0 ]] && shift
+OTSIKKO="$*"
+
+if [[ -z "$TYYPPI" ]]; then
+  echo "Mitä luodaan?"
+  select TYYPPI in artikkeli resepti sivu; do
+    [[ -n "$TYYPPI" ]] && break
+  done
+fi
+
+if [[ -z "$OTSIKKO" ]]; then
+  read -r -p "Otsikko: " OTSIKKO
+fi
+[[ -z "$OTSIKKO" ]] && käyttö
+
+# Otsikosta slug: pienet kirjaimet, ä/ö/å -> a/o/a, välilyönnit -> viivoiksi, muut merkit pois
+slug() {
+  echo "$1" \
+    | tr '[:upper:]' '[:lower:]' \
+    | sed 's/ä/a/g; s/ö/o/g; s/å/a/g; s/Ä/a/g; s/Ö/o/g; s/Å/a/g; s/é/e/g; s/ü/u/g' \
+    | sed 's/[^a-z0-9 -]//g' \
+    | sed 's/  */ /g; s/^ *//; s/ *$//' \
+    | tr ' ' '-'
+}
+
+SLUG=$(slug "$OTSIKKO")
+if [[ -z "$SLUG" ]]; then
+  echo "Otsikosta ei saatu osoitetta (slug)."
+  exit 1
+fi
+
+case "$TYYPPI" in
+  artikkeli)
+    POLKU="content/$(date +%Y)/${SLUG}/index.md"
+    OSOITE="/$(date +%Y)/${SLUG}"
+    ;;
+  resepti)
+    POLKU="content/resepti/${SLUG}/index.md"
+    OSOITE="/resepti/${SLUG}"
+    ;;
+  sivu)
+    POLKU="content/${SLUG}.md"
+    OSOITE="/${SLUG}"
+    ;;
+  *)
+    echo "Tuntematon tyyppi '${TYYPPI}'."
+    käyttö
+    ;;
+esac
+
+if [[ -e "$POLKU" ]]; then
+  echo "Tiedosto on jo olemassa: ${POLKU}"
+  exit 1
+fi
+
+hugo new content --kind "$TYYPPI" "$POLKU" > /dev/null
+
+# Pohjan otsikko tulee slugista, joten korvataan se annetulla otsikolla
+OTSIKKO="$OTSIKKO" perl -i -pe 'BEGIN { $t = $ENV{OTSIKKO}; $t =~ s/\\/\\\\/g; $t =~ s/"/\\"/g } s/^title: ".*"$/title: "$t"/ if /^title:/ && !$done++' "$POLKU"
+
+echo "Luotu: ${POLKU}"
+echo "Osoite: ${OSOITE}"

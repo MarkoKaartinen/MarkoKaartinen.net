@@ -282,7 +282,7 @@ Jos osoite ei löydy, 404-sivu näyttää haetun osoitteen komentona (`cd /osoit
 
 ## Uusi sisältö
 
-Pohjat ovat kansiossa `archetypes/`: `hugo new content --kind artikkeli content/2026/slug/index.md` (myös `resepti` ja `sivu`). Komennot on kuvattu tarkemmin repon README:ssä.
+Pohjat ovat kansiossa `archetypes/`: `./uusi artikkeli` (myös `resepti` ja `sivu`, otsikko kysytään). Komennot on kuvattu tarkemmin repon README:ssä.
 
 ## Resepti
 

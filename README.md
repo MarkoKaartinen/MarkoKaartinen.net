@@ -19,20 +19,19 @@ MarkoKaartinen.net blogin staattinen [Hugo](https://gohugo.io/)-versio.
 
 ## Uuden sisällön luominen
 
-Pohjat ovat kansiossa `archetypes/`. Luo tiedosto Hugolla niin front matter on valmiina (`draft: true`, joten `hugo server -D` näyttää sen). Slug on kansion tai tiedoston nimi: pienillä kirjaimilla, ilman ä/ö/å-kirjaimia ja välilyöntejä.
+Apukomento `./uusi` kysyy tyypin ja otsikon, tekee otsikosta slugin (ä/ö/å → a/o/a, pienet kirjaimet, viivat), luo tiedoston oikeaan paikkaan ja täyttää front matterin. Pohjat ovat kansiossa `archetypes/`. Uusi sisältö on `draft: true`, joten `hugo server -D` näyttää sen.
 
 ```sh
-# Artikkeli (osoite /{vuosi}/{slug}, kuvat samaan kansioon)
-hugo new content --kind artikkeli content/2026/uuden-artikkelin-slug/index.md
-
-# Resepti (osoite /resepti/{slug})
-hugo new content --kind resepti content/resepti/reseptin-slug/index.md
-
-# Sivu (osoite /{slug}, esim. /tietoa)
-hugo new content --kind sivu content/sivun-slug.md
+./uusi                            # kysyy tyypin ja otsikon
+./uusi artikkeli                  # kysyy otsikon
+./uusi artikkeli "Otsikko tähän"  # content/{vuosi}/otsikko-tahan/index.md  -> /{vuosi}/otsikko-tahan
+./uusi resepti "Reseptin nimi"    # content/resepti/reseptin-nimi/index.md  -> /resepti/reseptin-nimi
+./uusi sivu "Sivun nimi"          # content/sivun-nimi.md                   -> /sivun-nimi
 ```
 
-Kun sisältö on valmis, poista front matterista `draft: true`. Artikkelin `date` on julkaisuaika (`2026-11-09T08:30:00`, ilman aikavyöhykettä). Jos artikkelista on postaus Mastodonissa, lisää sen tunnus kenttään `mastodon_post_id`, niin keskustelu näkyy artikkelin kommentteina. Kuvat nimetään slugattuina (`artikkelin-slug-kuvan-nimi.jpg`).
+Komento ei ylikirjoita olemassa olevaa tiedostoa. Sama ilman apukomentoa: `hugo new content --kind artikkeli content/2026/slug/index.md` (myös `resepti` ja `sivu`). Kuvat laitetaan samaan kansioon ja nimetään slugattuina (`artikkelin-slug-kuvan-nimi.jpg`).
+
+Kun sisältö on valmis, poista front matterista `draft: true`. Artikkelin `date` on julkaisuaika (`2026-11-09T08:30:00`, ilman aikavyöhykettä). Jos artikkelista on postaus Mastodonissa, lisää sen tunnus kenttään `mastodon_post_id`, niin keskustelu näkyy artikkelin kommentteina.
 
 Lisätietoja periaatteista, rakenteesta ja käytännöistä on tiedostossa [AGENTS.md](AGENTS.md).
 
