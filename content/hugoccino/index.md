@@ -258,6 +258,32 @@ $ git blame content/2020/esimerkki/index.md
 
 Lisäksi `p` ja `n` siirtyvät edelliseen ja seuraavaan artikkeliin, alaviitteet avautuvat pieneen ikkunaan, artikkelin lukuetenemä näkyy alakulmassa muodossa `[#####-----] 52 %`, yli kaksi vuotta vanhoissa artikkeleissa on varoitus ja komentopaletin `shuf` arpoo satunnaisen artikkelin (oikotie `g` + `s`).
 
+## Tehtävälistat
+
+Tavallinen Markdownin tehtävälista näkyy `[x]`- ja `[ ]`-merkkeinä. Tehty rivi on yliviivattu ja vihreällä, ja epäonnistunut tehtävä kirjoitetaan yliviivattuna (`~~teksti~~`), jolloin se saa punaisen `[!]`-merkin:
+
+````markdown
+- [x] tehty
+- [ ] tekemättä
+- [ ] ~~peruttu tai epäonnistui~~
+````
+
+- [x] tehty
+- [ ] tekemättä
+- [ ] ~~peruttu tai epäonnistui~~
+
+## Komentotyyliset otsikot
+
+Sivulle voi laittaa otsikoihin `$`-kehotteen lisäämällä front matteriin `komennot: true`. Otsikko kirjoitetaan komentona, esimerkiksi `## ls ~/koti 🏡 {#koti}` (loppuun oma ankkuri, jotta osoite on lyhyt). Esimerkki on [Nyt](/nyt)-sivulla.
+
+## Sivun löytäminen
+
+Jos osoite ei löydy, 404-sivu näyttää haetun osoitteen komentona (`cd /osoite`), ehdottaa samankaltaisia artikkeleita osoitteen sanojen perusteella ja tarjoaa `shuf`-napin sekä valmiiksi täytetyn haun. Kokeile avata jokin olematon osoite, esimerkiksi `/2012/nokia-n97-vaara`.
+
+## Uusi sisältö
+
+Pohjat ovat kansiossa `archetypes/`: `hugo new content --kind artikkeli content/2026/slug/index.md` (myös `resepti` ja `sivu`). Komennot on kuvattu tarkemmin repon README:ssä.
+
 ## Resepti
 
 Reseptillä on oma sivutyyppinsä, jossa ainesosien määrä skaalautuu annosmäärän mukaan. Kokeile esimerkiksi [Tsatsikia](/resepti/tsatsiki).
