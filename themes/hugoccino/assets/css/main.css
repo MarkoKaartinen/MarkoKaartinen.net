@@ -154,7 +154,7 @@
     line-height: 1.7;
   }
   ::selection {
-    background-color: var(--ctp-surface2);
+    background-color: color-mix(in srgb, var(--ctp-overlay2) 30%, transparent);
   }
   a:focus-visible,
   button:focus-visible {
@@ -208,7 +208,7 @@
     text-underline-offset: 3px;
   }
   .sisalto a:hover {
-    color: var(--ctp-sapphire);
+    color: var(--ctp-sky);
   }
   .sisalto ul {
     list-style: disc;
@@ -888,7 +888,7 @@ button:hover > .kbd-quiet {
   overflow-wrap: anywhere;
 }
 .masto-text a:hover {
-  color: var(--ctp-sapphire);
+  color: var(--ctp-sky);
 }
 .masto-text a.mention,
 .masto-text a.hashtag {
@@ -1062,7 +1062,7 @@ button:hover > .kbd-quiet {
   min-width: 2.5ch;
   margin-right: 1rem;
   text-align: right;
-  color: var(--ctp-overlay0);
+  color: var(--ctp-overlay1);
   user-select: none;
 }
 .chroma .k,
@@ -1124,7 +1124,7 @@ button:hover > .kbd-quiet {
   color: var(--ctp-green);
 }
 .chroma .se {
-  color: var(--ctp-sapphire);
+  color: var(--ctp-pink);
 }
 .chroma .o {
   color: var(--ctp-sky);
@@ -1137,7 +1137,7 @@ button:hover > .kbd-quiet {
 .chroma .cm,
 .chroma .c1,
 .chroma .cs {
-  color: var(--ctp-overlay0);
+  color: var(--ctp-overlay2);
   font-style: italic;
 }
 .chroma .cp,
