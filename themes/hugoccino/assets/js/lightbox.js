@@ -6,7 +6,7 @@
   if (typeof HTMLDialogElement === 'undefined') return;
 
   var dlg = null;
-  var view, cap, count;
+  var view, cap, capMeta, count;
   var items = [];
   var cur = 0;
 
@@ -16,14 +16,15 @@
     dlg.className = 'lightbox';
     dlg.setAttribute('aria-label', 'Kuvan katselu');
     dlg.innerHTML =
-      '<figure><img alt=""><figcaption></figcaption></figure>' +
+      '<figure><img alt=""><figcaption><span class="lb-text"></span><span class="lb-meta"></span></figcaption></figure>' +
       '<button type="button" class="lb-btn lb-close" aria-label="Sulje">&times;</button>' +
       '<button type="button" class="lb-btn lb-prev" aria-label="Edellinen">&lsaquo;</button>' +
       '<button type="button" class="lb-btn lb-next" aria-label="Seuraava">&rsaquo;</button>' +
       '<span class="lb-count"></span>';
     document.body.appendChild(dlg);
     view = dlg.querySelector('img');
-    cap = dlg.querySelector('figcaption');
+    cap = dlg.querySelector('.lb-text');
+    capMeta = dlg.querySelector('.lb-meta');
     count = dlg.querySelector('.lb-count');
 
     dlg.querySelector('.lb-close').addEventListener('click', function () { dlg.close(); });
@@ -63,6 +64,7 @@
     view.src = it.src;
     view.alt = it.alt || '';
     cap.textContent = it.caption || it.alt || '';
+    capMeta.textContent = it.meta || '';
     count.textContent = items.length > 1 ? (cur + 1) + ' / ' + items.length : '';
     dlg.classList.toggle('lb-single', items.length < 2);
   }
@@ -82,11 +84,17 @@
 
   function toItem(img) {
     var fc = img.closest('figure') && img.closest('figure').querySelector('figcaption');
-    return { src: img.getAttribute('data-full') || img.currentSrc || img.src, alt: img.alt, caption: fc ? fc.textContent : img.alt };
+    var meta = [img.getAttribute('data-name'), img.getAttribute('data-dim')].filter(Boolean).join(' · ');
+    return { src: img.getAttribute('data-full') || img.currentSrc || img.src, alt: img.alt, caption: fc ? fc.textContent : img.alt, meta: meta };
   }
 
-  imgs.forEach(function (img, i) {
+  imgs.forEach(function (img) {
     img.classList.add('lb-zoom');
-    img.addEventListener('click', function () { open(imgs.map(toItem), i); });
+    img.addEventListener('click', function () {
+      // Galleriassa selataan vain saman gallerian kuvia, muuten avautuu pelkkä klikattu kuva
+      var gal = img.closest('.galleria');
+      var group = gal ? imgs.filter(function (el) { return gal.contains(el); }) : [img];
+      open(group.map(toItem), group.indexOf(img));
+    });
   });
 })();
