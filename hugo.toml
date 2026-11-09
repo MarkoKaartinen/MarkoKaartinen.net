@@ -22,10 +22,18 @@ timeZone = 'Europe/Helsinki'
     handle = '@marko@kaartinen.social'
     limit = 6
 
-  # Kävijälaskuri: placeholder-luku, kunnes API on valmis. Aseta api-osoite, niin luku haetaan sieltä (JSON: {"visits": 123})
+  # API (Laravel, repo: https://github.com/MarkoKaartinen/api.markokaartinen.net). Kaikki haut ja lähetykset tehdään selaimessa.
+  # Tuotantoarvot tässä; kehityspalvelin (hugo server) käyttää config/development/params.toml-tiedoston testiosoitteita.
+  # Osoitteen voi vaihtaa suhteelliseksi polkuksi (esim. '/api/v1/visits'), kun nginx proxyttaa API:n sivuston alle.
+
+  # Kävijälaskuri: JSON {"visits": 123}. Placeholder näkyy vain, jos api on tyhjä.
   [params.visitors]
     placeholder = 123456
-    api = ''
+    api = 'https://api.markokaartinen.net/api/v1/visits'
+
+  # Vieraskirja: lista (GET), lähetys (POST) ja lomaketunnus (GET <api>/form-token). Tyhjä api piilottaa lomakkeen ja listan.
+  [params.guestbook]
+    api = 'https://api.markokaartinen.net/api/v1/guestbook'
 
   # Plausible: nginx proxyttaa polut <proxy>/script.js ja <proxy>/event (ks. README). Tyhjä = ei skriptiä. Vain tuotantokoonnissa.
   [params.plausible]

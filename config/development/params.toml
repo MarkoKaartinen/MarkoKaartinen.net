@@ -1,0 +1,6 @@
+# Kehityspalvelin (hugo server) käyttää API:n testiosoitetta. Tuotantokoonti käyttää hugo.toml:n arvoja.
+[visitors]
+  api = 'https://api.markokaartinen.net.test/api/v1/visits'
+
+[guestbook]
+  api = 'https://api.markokaartinen.net.test/api/v1/guestbook'
