@@ -367,11 +367,22 @@
 
   var toTop = document.getElementById('to-top');
   if (toTop) {
+    // Kun alatunniste on näkyvissä, kiinteät apuvälineet (nappi ja lukuetenemä) piilotetaan, jotta ne eivät peitä sitä
+    var atEnd = false;
     var updateTop = function () {
       toTop.hidden = window.scrollY < 300;
+      toTop.toggleAttribute('data-away', atEnd);
+      if (ascii) ascii.toggleAttribute('data-away', atEnd);
       if (ascii && getComputedStyle(ascii).display !== 'none') toTop.setAttribute('data-lift', '');
       else toTop.removeAttribute('data-lift');
     };
+    var pageFooter = document.querySelector('body > footer');
+    if (pageFooter && 'IntersectionObserver' in window) {
+      new IntersectionObserver(function (entries) {
+        atEnd = entries[0].isIntersecting;
+        updateTop();
+      }).observe(pageFooter);
+    }
     window.addEventListener('scroll', updateTop, { passive: true });
     window.addEventListener('resize', updateTop);
     toTop.addEventListener('click', function () {

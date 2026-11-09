@@ -1644,6 +1644,26 @@ button:hover > .kbd-quiet {
   bottom: 3.75rem;
 }
 
+/* Nappi ja lukuetenemä häivytetään pois alatunnisteen kohdalla (ja takaisin sen jälkeen) */
+#to-top,
+#read-ascii {
+  transition:
+    opacity 0.25s ease,
+    visibility 0.25s;
+}
+#to-top[data-away],
+#read-ascii[data-away] {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  #to-top,
+  #read-ascii {
+    transition: none;
+  }
+}
+
 /* Takaisin ylös -napin ympärillä kulkeva rengas näyttää artikkelin lukuetenemän (puhelimella ja kapeilla näytöillä; leveällä näytöllä lukuetenemä on merkkijonona alakulmassa) */
 #to-top svg.to-top-ring {
   position: absolute;
