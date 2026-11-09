@@ -7,9 +7,14 @@
 {{- $full := "" -}}
 {{- $width := 0 -}}
 {{- $height := 0 -}}
+{{- $name := path.Base $url.Path -}}
+{{- $dim := "" -}}
 {{- if not $url.IsAbs -}}
   {{- with .PageInner.Resources.Get $url.Path -}}
     {{- $img := . -}}
+    {{- if and (eq .ResourceType "image") (ne .MediaType.SubType "svg") -}}
+      {{- $dim = printf "%d×%d" .Width .Height -}}
+    {{- end -}}
     {{- if and (eq .ResourceType "image") (ne .MediaType.SubType "gif") (ne .MediaType.SubType "svg") -}}
       {{- $target := cond (gt .Width 1600) 1600 .Width -}}
       {{- $img = .Resize (printf "%dx webp q82" $target) -}}
@@ -23,8 +28,12 @@
     {{- $height = $img.Height -}}
   {{- end -}}
 {{- end -}}
-{{- $img := printf `<img src="%s" alt="%s" loading="lazy" decoding="async"%s%s%s>` $src (.PlainText | htmlEscape) (cond (gt $width 0) (printf ` width="%d"` $width) "") (cond (gt $height 0) (printf ` height="%d"` $height) "") (cond (ne $full "") (printf ` data-full="%s"` $full) "") -}}
-{{- if .Title -}}
+{{- /* data-name ja data-dim: tiedostonimi ja alkuperäinen koko (ikkunan otsikkorivi, gallerian nimilaput ja lightbox) */ -}}
+{{- $img := printf `<img src="%s" alt="%s" loading="lazy" decoding="async"%s%s%s%s%s>` $src (.PlainText | htmlEscape) (cond (gt $width 0) (printf ` width="%d"` $width) "") (cond (gt $height 0) (printf ` height="%d"` $height) "") (cond (ne $full "") (printf ` data-full="%s"` $full) "") (cond (ne $name "") (printf ` data-name="%s"` ($name | htmlEscape)) "") (cond (ne $dim "") (printf ` data-dim="%s"` $dim) "") -}}
+{{- if and .IsBlock (ne $name "") (ne $name ".") (ne $name "/") -}}
+{{- /* Oma rivinsä: kuva "ikkunassa", jonka otsikkorivillä on tiedostonimi ja koko */ -}}
+<figure class="kuva"><span class="kuva-ikkuna" aria-hidden="true"><span class="kuva-nimi">{{ $name }}</span>{{ with $dim }}<span class="kuva-koko">{{ . }}</span>{{ end }}</span>{{ $img | safeHTML }}{{ with .Title }}<figcaption>{{ . }}</figcaption>{{ end }}</figure>
+{{- else if .Title -}}
 <figure>{{ $img | safeHTML }}<figcaption>{{ .Title }}</figcaption></figure>
 {{- else -}}
 {{ $img | safeHTML }}

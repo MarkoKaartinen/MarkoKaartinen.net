@@ -89,6 +89,9 @@ timeZone = 'Europe/Helsinki'
     typographer = false
     [markup.goldmark.extensions.extras.mark]
       enable = true
+  [markup.goldmark.parser]
+    # Oma rivinsä oleva kuva ei jää <p>:hen, jotta kuvan render-hook saa tehdä siitä figure-elementin (IsBlock)
+    wrapStandAloneImageWithinParagraph = false
   [markup.goldmark.parser.attribute]
     block = true
   [markup.highlight]

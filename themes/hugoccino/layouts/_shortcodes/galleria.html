@@ -1,2 +1,5 @@
 {{- /* Kuvagalleria: sisällä markdown-kuvia, esim. {{< galleria >}} ![](a.jpg) ![](b.jpg) {{< /galleria >}} */ -}}
-<div class="galleria">{{ .Inner | .Page.RenderString }}</div>
+{{- /* Ikkuna, jonka otsikkorivillä on kuvien määrä, ja sisällä ruudut, joiden alareunassa on tiedostonimi (data-name) */ -}}
+{{- $html := .Inner | .Page.RenderString | replaceRE `(<img [^>]*data-name="([^"]*)"[^>]*>)` `<span class="g-item">${1}<span class="g-nimi" aria-hidden="true">${2}</span></span>` -}}
+{{- $n := len (findRE `<img ` $html) -}}
+<div class="galleria"><span class="kuva-ikkuna" aria-hidden="true"><span class="kuva-nimi">galleria</span><span class="kuva-koko">{{ $n }} {{ cond (eq $n 1) "kuva" "kuvaa" }}</span></span><div class="g-ruudut">{{ $html | safeHTML }}</div></div>
