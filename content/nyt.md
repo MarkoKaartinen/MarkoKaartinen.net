@@ -1,47 +1,59 @@
 ---
 title: "Mitä nyt tapahtuu"
 description: "Tämä on Nyt -sivu, jossa kerron mitä elämässä tapahtuu tällä hetkellä."
-lastmod: 2025-12-22T07:51:00
+lastmod: 2026-11-09T06:00:00
 show_updated: true
+komennot: true
 ---
 
-Tämä on **nyt** sivu, jossa kerron mitä tapahtuu elämässäni juuri nyt. Päivittelen sivua säännöllisen epäsäännöllisesti! 
+Tämä on **nyt** sivu, jossa kerron mitä tapahtuu elämässäni juuri nyt. Päivittelen sivua säännöllisen epäsäännöllisesti!
 {.lead}
 
-Tämä sivu on saanut inspiraationsa [nownownow.com projektista](https://nownownow.com/about). 
+Tämä sivu on saanut inspiraationsa [nownownow.com projektista](https://nownownow.com/about).
 
-## 🏡 Koti
+## ls ~/koti 🏡 {#koti}
 
-Mentiin ja ostettiin omakotitalo Kuopiosta 🇫🇮 ja asustellaan nyt siellä rouvan kanssa.
+Saunan lauteet saatiin juuri uusittua, mutta sauna odottaa vielä valoja. Samoin on suunnitteilla työhuoneen pintaremppa, joten sitäkin pitäisi alkaa ns. oikeasti tekemään.
 
-## 🎮 Pelit
+- [x] saunan lauteet
+- [ ] saunan valot
+- [ ] työhuoneen pintaremontti
 
-Tällä hetkellä pelailen [Clair Obscur: Expedition 33](https://store.steampowered.com/app/1903340/Clair_Obscur_Expedition_33/) [PC:llä](/sarja/pelikone-lapparin-tilalle) sekä [Star Wars Outlaws](https://store.steampowered.com/app/2842040/Star_Wars_Outlaws/) PS5:llä..
+## ls ~/kotiautomaatio 🤖 {#kotiautomaatio}
 
-Uutena hankintana on tullut [Anbernic RG40XXV](https://anbernic.com/products/rg-40xxv) retrohärveli, jolla tulee pelattua tällä hetkellä pääosin GBA pelejä kuten Pokemonit.
+[Älykoti](/sarja/alykoti) puolella on taas suunnitelmia. Kaukolämmön mittarin lukemista kameralla pitäisi saada kokeiltua, ja Matter-verkko pitää ns. rakentaa uusiksi.
 
-## 🎬 Elokuvat & Sarjat
+- [ ] kaukolämmön luku kameralla
+- [ ] Matter-verkon uudelleenrakennus
 
-Rouvan kanssa on ns. normaalien suomalaisten TV sarjojen (Farmi, Huutokauppa Keisari, Kape yms.) lisäksi menossa [Sons of Anarchy](https://www.imdb.com/title/tt1124373/).
+## ls ~/pelit 🎮 {#pelit}
 
-Itse olen katsonut [Blue Bloods](https://www.imdb.com/title/tt1595859/) sarjaa.
+Nyt on taas vähän vähemmän tullut pelailtua, mutta nokan edessä on ollut [Cyberpunk 2077](https://store.steampowered.com/app/1091500/Cyberpunk_2077/) ja [Tape to Tape](https://store.steampowered.com/app/1566200/Tape_to_Tape/). Toki kovasti odotellaan [GTA VI:tä](https://www.rockstargames.com/VI).
 
-## 🍕 Ruoka
+## ls ~/sarjat 🎬 {#sarjat}
 
-Pizzahommat on säännöllisen epäsäännöllisesti jatkunut ja pitäisi jatkaa näitä hommia. Talven myötä grilli hommia vähemmän, mutta viikonloppuna tuli kinkku paisteltua kamadossa. Samoin joulun kunniaksi tuli myös graavilohta sekä kylmäsavulohta tehtyä itse.
+Itse katselen [For All Mankind](https://www.imdb.com/title/tt7772588/) sarjaa. Rouvan kanssa on menossa [Nälkäpeli](https://www.imdb.com/title/tt1392170/) elokuvat sekä [Modernit miehet](https://areena.yle.fi/1-4530023) sarja.
 
-## 👨🏻‍💻 Omat projektit
+## ls ~/ruoka 🍕 {#ruoka}
 
-Näitähän on. Jatkuvassa aktiivisessa kehityksessä on [Pelittää.fi](https://pelittaa.fi) ja [MarkoK.dev](https://markok.dev) projektit.
+Ruoan suhteen ei olla erikoisempaa puuhattu, vaan arkiruokaa ja pizzahommia säännöllisen epäsäännöllisesti. Lohta pitäisi kylmäsavustaa, ja jos sopiva kinkku sattuu kohdalle, niin voisi sellaisen paistella kamadossa.
+
+- [ ] kylmäsavulohi
+- [ ] kinkku kamadossa
+
+## ls ~/projektit 👨🏻‍💻 {#projektit}
+
+Työn alla on tämä sivu eli MarkoKaartinen.net. Hugo versio on tehty ja siitä tulee vielä oma blogiartikkeli, kunhan ehdin kirjoittaa. Lisäksi [Tapaaminen.net](https://tapaaminen.net) on ollut työn alla, samoin [Ronsu](/2026/vibekoodasin-mastodon-sovelluksen), jonka vibekoodasin.
 
 Samoin on työn alla vanhoja projekteja, joita edistelen kun niitä joutaa ja on tarve. [Linkit](/linkit) sivulla on listausta eri projekteistakin.
 
-## 🗺️ Matkustus
+## ls ~/matkat 🗺️ {#matkat}
 
-Kesällä uli käytyä Ruotsissa! Noh kai se Haaparannassa käynti lasketaan.
+Kreikassa tuli käytyä, ja siitä on [matkablogin](https://auringonalla.fi) puolella kertomusta: [Rethymnon 2026](https://auringonalla.fi/matka/rethymnon-2026). Nyt ei ole sitten mitään suunnitelmissa.
 
-Vuoden 2026 Kreikan 🇬🇷 matkakohde on vielä arvoitus, mutta viime vuoden makasta onkin  [matkablogin](https://auringonalla.fi) puolella kertomusta ja se pitäisi saattaa vielä finaaliin viime vuodelta.
+- [x] Kreikka
+- [ ] ~~Helsingin kirjamessut~~
 
-## 💻 Työ
+## ls ~/tyo 💻 {#tyo}
 
 Työt jatkuu ns. entiseen malliin. Tehdään verkkosivuja sekä -projekteja. Samoin puuhastellaan mitä puuhastellaan toiminimen puitteissa.
