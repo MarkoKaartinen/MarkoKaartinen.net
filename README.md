@@ -18,3 +18,29 @@ MarkoKaartinen.net blogin staattinen [Hugo](https://gohugo.io/)-versio.
 - `npm run search:dev`: tekee hakuindeksin kehityspalvelinta varten (`static/pagefind/`, ei versionhallintaan). Aja uudelleen, kun sisältö muuttuu.
 
 Lisätietoja periaatteista, rakenteesta ja käytännöistä on tiedostossa [AGENTS.md](AGENTS.md).
+
+## Analytiikka (Plausible)
+
+Skripti ladataan vain tuotantokoonnissa, ja se kulkee oman verkkotunnuksen kautta. Asetus on `params.plausible.proxy` (`hugo.toml`), ja nginxin pitää proxytata kaksi polkua Plausible-palvelimelle:
+
+```nginx
+# server-lohkoon (korvaa <plausible-palvelin> ja <skriptin-tunnus> Plausiblen antamilla arvoilla)
+location = /plau/script.js {
+    proxy_pass https://<plausible-palvelin>/js/<skriptin-tunnus>.js;
+    proxy_set_header Host <plausible-palvelin>;
+    proxy_ssl_server_name on;
+}
+
+location = /plau/event {
+    proxy_pass https://<plausible-palvelin>/api/event;
+    proxy_set_header Host <plausible-palvelin>;
+    proxy_ssl_server_name on;
+    proxy_http_version 1.1;
+    proxy_set_header X-Forwarded-For $remote_addr;
+    proxy_set_header CF-Connecting-IP $remote_addr;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header X-Forwarded-Host $host;
+}
+```
+
+Cloudflare-proxyn takana nginxin on palautettava kävijän oikea IP ennen tätä (`set_real_ip_from` Cloudflaren alueille ja `real_ip_header`, http-tasolla esim. `conf.d/cloudflare.conf`). Muuten `$remote_addr` on Cloudflaren osoite ja Plausible laskee kaikki kävijät samaksi.

@@ -1,0 +1,14 @@
+{{- /*
+  Plausible-analytiikka, vain tuotantokoonnissa. Skripti ja tapahtumat kulkevat oman verkkotunnuksen kautta
+  (nginx proxyttaa polut), joten selain ei tee pyyntöjä ulkoiseen osoitteeseen.
+  Asetukset: params.plausible.proxy (polun alku, esim. /plau). Tyhjä asetus poistaa skriptin.
+*/ -}}
+{{- with site.Params.plausible }}
+{{- if and hugo.IsProduction .proxy }}
+<script async src="{{ .proxy }}/script.js"></script>
+<script>
+  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+  plausible.init({endpoint:"{{ .proxy }}/event"})
+</script>
+{{- end }}
+{{- end }}

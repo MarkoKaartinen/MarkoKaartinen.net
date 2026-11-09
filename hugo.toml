@@ -27,6 +27,10 @@ timeZone = 'Europe/Helsinki'
     placeholder = 123456
     api = ''
 
+  # Plausible: nginx proxyttaa polut <proxy>/script.js ja <proxy>/event (ks. README). Tyhjä = ei skriptiä. Vain tuotantokoonnissa.
+  [params.plausible]
+    proxy = '/plau'
+
   [[params.social]]
     name = 'Mastodon'
     icon = 'simple/mastodon'
