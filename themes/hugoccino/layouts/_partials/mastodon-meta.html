@@ -3,7 +3,8 @@
   Piilossa, kunnes mastodon-comments.js on hakenut luvut. Linkki vie keskusteluosioon.
 */ -}}
 {{- if .Params.mastodon_post_id }}
-<a href="#keskustelu" data-masto-meta hidden class="masto-meta-stats hover:text-mauve" aria-label="Mastodon-keskustelu">
+<a href="#keskustelu" data-masto-meta hidden class="masto-meta-stats hover:text-mauve">
+  <span class="sr-only">Mastodon-keskustelu: </span>
   <span data-masto-item="replies" class="inline-flex items-center gap-1.5">{{ partial "icon.html" (dict "name" "lucide/message-circle" "class" "size-4") }}<span data-count></span></span>
   <span data-masto-item="boosts" class="inline-flex items-center gap-1.5">{{ partial "icon.html" (dict "name" "lucide/repeat-2" "class" "size-4") }}<span data-count></span></span>
   <span data-masto-item="likes" class="inline-flex items-center gap-1.5">{{ partial "icon.html" (dict "name" "lucide/star" "class" "size-4") }}<span data-count></span></span>

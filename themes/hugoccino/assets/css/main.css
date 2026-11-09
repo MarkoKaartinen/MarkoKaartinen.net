@@ -776,7 +776,8 @@ button:hover > .kbd-quiet {
 .masto-text a.mention,
 .masto-text a.hashtag {
   color: var(--ctp-lavender);
-  text-decoration: none;
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
 }
 .masto-text .invisible {
   display: none;

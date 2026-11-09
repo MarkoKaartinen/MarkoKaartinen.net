@@ -92,6 +92,7 @@
     if (isAuthor) {
       var mark = el('span', 'komm-author-mark');
       mark.title = 'Kirjoittaja';
+      mark.setAttribute('role', 'img');
       mark.setAttribute('aria-label', 'Kirjoittaja');
       var tpl = iconBox && iconBox.content.querySelector('[data-icon="author"]');
       if (tpl) mark.appendChild(tpl.firstElementChild.cloneNode(true));
