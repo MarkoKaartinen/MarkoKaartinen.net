@@ -168,7 +168,7 @@
 
   function renderRich(text, topClass, depth) {
     depth = depth || 0;
-    var wrap = el('div', 'space-y-2 leading-normal break-words [overflow-wrap:anywhere] ' + (topClass || ''));
+    var wrap = el('div', 'space-y-2 leading-normal wrap-break-word [overflow-wrap:anywhere] ' + (topClass || ''));
     var lines = cleanText(text).split('\n');
     var i = 0;
     var bullet = /^\s{0,3}[-*+]\s+(.*)$/;
