@@ -28,7 +28,7 @@
 <a href="{{ .url | relURL }}" class="group flex flex-col rounded-lg border border-surface1 bg-mantle p-4 {{ .border }}">
   <p class="flex flex-col gap-0.5 font-mono sm:flex-row sm:items-baseline sm:justify-between sm:gap-3">
     <span class="font-bold text-text {{ .text }}">{{ .title }}</span>
-    <span class="shrink-0 text-sm text-overlay1">{{ if ge .count 1000 }}{{ printf "%d&nbsp;%03d" (div .count 1000) (mod .count 1000) | safeHTML }}{{ else }}{{ .count }}{{ end }} {{ if and (eq .count 1) .one }}{{ .one }}{{ else }}{{ .unit }}{{ end }}</span>
+    <span class="shrink-0 text-sm text-meta">{{ if ge .count 1000 }}{{ printf "%d&nbsp;%03d" (div .count 1000) (mod .count 1000) | safeHTML }}{{ else }}{{ .count }}{{ end }} {{ if and (eq .count 1) .one }}{{ .one }}{{ else }}{{ .unit }}{{ end }}</span>
   </p>
   <p class="mt-2 text-sm leading-relaxed text-subtext0">{{ .desc }}</p>
 </a>

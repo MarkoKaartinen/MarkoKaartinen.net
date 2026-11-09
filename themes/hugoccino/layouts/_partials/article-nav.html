@@ -6,13 +6,13 @@
 <nav class="mt-10 grid grid-cols-1 gap-2 sm:grid-cols-2 sm:gap-3 font-mono text-sm" aria-label="Edellinen ja seuraava">
   {{- with $older }}
   <a href="{{ .RelPermalink }}" rel="prev" class="adj group sm:col-start-1 flex min-w-0 flex-col gap-1 rounded-lg border border-surface1 bg-mantle px-3 py-2.5 hover:border-mauve">
-    <span class="flex items-center gap-1.5 text-xs text-overlay1">{{ partial "icon.html" (dict "name" "lucide/arrow-left" "class" "size-3.5") }}edellinen<kbd class="kbd max-sm:hidden opacity-0 transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100">p</kbd></span>
+    <span class="flex items-center gap-1.5 text-xs text-meta">{{ partial "icon.html" (dict "name" "lucide/arrow-left" "class" "size-3.5") }}edellinen<kbd class="kbd max-sm:hidden opacity-0 transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100">p</kbd></span>
     <span class="line-clamp-2 text-text group-hover:text-mauve">{{ .Title }}</span>
   </a>
   {{- end }}
   {{- with $newer }}
   <a href="{{ .RelPermalink }}" rel="next" class="adj group sm:col-start-2 flex min-w-0 flex-col items-end gap-1 rounded-lg border border-surface1 bg-mantle px-3 py-2.5 text-right hover:border-mauve">
-    <span class="flex items-center gap-1.5 text-xs text-overlay1"><kbd class="kbd max-sm:hidden opacity-0 transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100">n</kbd>seuraava{{ partial "icon.html" (dict "name" "lucide/arrow-right" "class" "size-3.5") }}</span>
+    <span class="flex items-center gap-1.5 text-xs text-meta"><kbd class="kbd max-sm:hidden opacity-0 transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100">n</kbd>seuraava{{ partial "icon.html" (dict "name" "lucide/arrow-right" "class" "size-3.5") }}</span>
     <span class="line-clamp-2 text-text group-hover:text-mauve">{{ .Title }}</span>
   </a>
   {{- end }}

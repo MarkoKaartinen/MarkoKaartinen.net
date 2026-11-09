@@ -18,7 +18,7 @@
     {{- if ge .Count $min }}{{ $popular = $popular | append . }}{{ else }}{{ $rest = $rest | append . }}{{ end }}
   {{- end }}
 
-  <p class="mb-8 font-mono text-sm text-overlay1">{{ if ge (len $terms) 1000 }}{{ printf "%d&nbsp;%03d" (div (len $terms) 1000) (mod (len $terms) 1000) | safeHTML }}{{ else }}{{ (len $terms) }}{{ end }} avainsanaa{{ if $rest }} · yleisimmät pilvessä, loput alla{{ end }}</p>
+  <p class="mb-8 font-mono text-sm text-meta">{{ if ge (len $terms) 1000 }}{{ printf "%d&nbsp;%03d" (div (len $terms) 1000) (mod (len $terms) 1000) | safeHTML }}{{ else }}{{ (len $terms) }}{{ end }} avainsanaa{{ if $rest }} · yleisimmät pilvessä, loput alla{{ end }}</p>
 
   {{- $accents := slice "mauve" "teal" "peach" "pink" "blue" "green" "yellow" "sapphire" "flamingo" "lavender" "sky" "maroon" }}
   <ul class="pilvi mx-auto flex max-w-3xl flex-wrap items-center justify-center gap-x-5 gap-y-2 py-4 font-mono" aria-label="Avainsanapilvi">
@@ -51,7 +51,7 @@
         <h2 class="w-12 shrink-0 whitespace-nowrap text-right font-bold text-lg text-yellow">{{ $letter }}</h2>
         <ul class="flex min-w-0 flex-wrap gap-x-4 gap-y-1">
         {{- end }}
-          <li><a href="{{ .Page.RelPermalink }}" class="text-subtext0 hover:text-teal">{{ lower .Page.LinkTitle }}</a>{{ if gt .Count 1 }} <span class="text-overlay1">{{ .Count }}</span>{{ end }}</li>
+          <li><a href="{{ .Page.RelPermalink }}" class="text-subtext0 hover:text-teal">{{ lower .Page.LinkTitle }}</a>{{ if gt .Count 1 }} <span class="text-meta">{{ .Count }}</span>{{ end }}</li>
       {{- end }}
         </ul>
       </div>
@@ -70,13 +70,13 @@
       <button type="button" data-sort="t" aria-pressed="false" class="rounded border border-surface1 px-2 py-0.5 text-subtext0 hover:border-mauve hover:text-mauve aria-pressed:border-mauve aria-pressed:text-mauve">-t uusin</button>
       <button type="button" data-sort="" aria-pressed="false" class="rounded border border-surface1 px-2 py-0.5 text-subtext0 hover:border-mauve hover:text-mauve aria-pressed:border-mauve aria-pressed:text-mauve">aakkos</button>
     </p>
-    <p class="mb-2 mt-2 text-overlay1">total {{ len $terms }}</p>
+    <p class="mb-2 mt-2 text-meta">total {{ len $terms }}</p>
     <ul data-sort-list>
       {{- range $terms }}
         {{- $latest := index .Page.Pages.ByDate.Reverse 0 }}
       <li data-n="{{ .Count }}" data-d="{{ $latest.Date.Format "2006-01-02" }}" data-a="{{ lower .Page.LinkTitle }}" class="flex items-baseline gap-4">
-        <span class="w-10 shrink-0 text-right text-overlay1">{{ .Count }}</span>
-        <time datetime="{{ $latest.Date.Format "2006-01-02" }}" class="shrink-0 text-overlay1 max-sm:hidden" title="Viimeisin {{ if $isRecipe }}resepti{{ else }}artikkeli{{ end }}">{{ $latest.Date.Format "2006-01-02" }}</time>
+        <span class="w-10 shrink-0 text-right text-meta">{{ .Count }}</span>
+        <time datetime="{{ $latest.Date.Format "2006-01-02" }}" class="shrink-0 text-meta max-sm:hidden" title="Viimeisin {{ if $isRecipe }}resepti{{ else }}artikkeli{{ end }}">{{ $latest.Date.Format "2006-01-02" }}</time>
         <a href="{{ .Page.RelPermalink }}" class="min-w-0 truncate font-bold text-blue hover:text-sapphire">{{ .Page.LinkTitle }}/</a>
       </li>
       {{- end }}
@@ -101,7 +101,7 @@
         <p class="flex flex-wrap items-center gap-x-2">
           <span class="puu-pallo" aria-hidden="true"></span>
           <a href="{{ .Page.RelPermalink }}" class="font-bold text-mauve hover:text-lavender">{{ $name }}</a>
-          <span class="text-overlay1">{{ .Count }} {{ if eq .Count 1 }}osa{{ else }}osaa{{ end }}, {{ if eq $first.Date.Year $last.Date.Year }}{{ $first.Date.Year }}{{ else }}{{ $first.Date.Year }}–{{ $last.Date.Year }}{{ end }}</span>
+          <span class="text-meta">{{ .Count }} {{ if eq .Count 1 }}osa{{ else }}osaa{{ end }}, {{ if eq $first.Date.Year $last.Date.Year }}{{ $first.Date.Year }}{{ else }}{{ $first.Date.Year }}–{{ $last.Date.Year }}{{ end }}</span>
         </p>
         <ul class="puu-osat">
           {{- range $parts }}
@@ -118,7 +118,7 @@
   {{- range .Data.Terms.Alphabetical }}
   <li>
     <a href="{{ .Page.RelPermalink }}" class="text-teal hover:text-sky">{{ .Page.LinkTitle }}</a>
-    <span class="text-overlay1">{{ .Count }}</span>
+    <span class="text-meta">{{ .Count }}</span>
   </li>
   {{- end }}
 </ul>

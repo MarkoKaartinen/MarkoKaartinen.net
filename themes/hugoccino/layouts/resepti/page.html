@@ -3,7 +3,7 @@
   <header class="mb-8">
     <h1 class="font-mono font-bold text-[2.1rem] sm:text-4xl break-words leading-tight"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
     <p class="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-sm text-subtext0">
-      <span class="text-overlay1">//</span>
+      <span class="text-meta">//</span>
       <span class="inline-flex items-center gap-1.5">{{ partial "icon.html" (dict "name" "lucide/calendar" "class" "size-4") }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time></span>
       {{ partial "mastodon-meta.html" . }}
     </p>
@@ -34,8 +34,8 @@
       <button type="button" data-step="-1" class="size-6 rounded border border-surface1 hover:border-mauve hover:text-mauve" aria-label="Vähennä annoksia">−</button>
       <span data-servings class="min-w-6 text-center font-bold" aria-live="polite">{{ . }}</span>
       <button type="button" data-step="1" class="size-6 rounded border border-surface1 hover:border-mauve hover:text-mauve" aria-label="Lisää annoksia">+</button>
-      {{- with $.Params.servings_unit }}<span class="text-xs uppercase text-overlay1">{{ . }}</span>{{ end }}
-      <button type="button" data-reset hidden class="ml-1 text-xs text-overlay1 hover:text-mauve">nollaa</button>
+      {{- with $.Params.servings_unit }}<span class="text-xs uppercase text-meta">{{ . }}</span>{{ end }}
+      <button type="button" data-reset hidden class="ml-1 text-xs text-meta hover:text-mauve">nollaa</button>
     </div>
     {{- end }}
     <ul class="space-y-1">

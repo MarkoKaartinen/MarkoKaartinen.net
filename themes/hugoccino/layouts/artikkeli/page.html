@@ -3,7 +3,7 @@
   <header class="mb-10">
     <h1 class="font-mono font-bold text-[2.1rem] sm:text-4xl break-words leading-tight"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
     <p class="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-sm text-subtext0">
-      <span class="text-overlay1">//</span>
+      <span class="text-meta">//</span>
       <span class="inline-flex items-center gap-1.5">{{ partial "icon.html" (dict "name" "lucide/calendar" "class" "size-4") }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time></span>
       <span class="inline-flex items-center gap-1.5">{{ partial "icon.html" (dict "name" "lucide/clock" "class" "size-4") }}<span title="$ wc -w index.md">{{ if ge .WordCount 1000 }}{{ printf "%d %03d" (div .WordCount 1000) (mod .WordCount 1000) | replaceRE " " "&nbsp;" | safeHTML }}{{ else }}{{ .WordCount }}{{ end }} sanaa · {{ .ReadingTime }} min</span></span>
       {{ partial "mastodon-meta.html" . }}
@@ -40,7 +40,7 @@
         <span class="puu-pallo mt-[0.45rem]" aria-hidden="true"></span>
         <span class="min-w-0">
           <a href="{{ $series.RelPermalink }}" class="font-bold text-mauve hover:text-lavender">{{ $name }}</a>
-          <span class="block text-xs text-overlay1">sarja · osa {{ $pos }}/{{ len $parts }}</span>
+          <span class="block text-xs text-meta">sarja · osa {{ $pos }}/{{ len $parts }}</span>
         </span>
       </p>
       <ul class="puu-osat">
@@ -73,6 +73,6 @@
   {{ partial "mastodon-comments.html" . }}
 
   {{ partial "vanhat-kommentit.html" . }}
-  <div id="read-ascii" hidden class="max-md:hidden pointer-events-none fixed bottom-3 right-4 z-30 rounded border border-surface1 bg-mantle/90 px-2 py-1 font-mono text-xs text-overlay1" aria-hidden="true"></div>
+  <div id="read-ascii" hidden class="max-md:hidden pointer-events-none fixed bottom-3 right-4 z-30 rounded border border-surface1 bg-mantle/90 px-2 py-1 font-mono text-xs text-meta" aria-hidden="true"></div>
 </article>
 {{ end }}

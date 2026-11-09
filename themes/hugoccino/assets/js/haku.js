@@ -91,7 +91,7 @@
     var cat = data.filters && data.filters.kategoria;
     if (cat) meta.push([].concat(cat).filter(function (c) { return c !== 'Blogi'; }).join(', '));
     meta = meta.filter(Boolean);
-    if (meta.length) li.appendChild(el('p', 'mt-0.5 font-mono text-xs text-overlay1', meta.join(' · ')));
+    if (meta.length) li.appendChild(el('p', 'mt-0.5 font-mono text-xs text-meta', meta.join(' · ')));
 
     // Pagefind palauttaa katkelman, jossa osumat on merkitty <mark>-elementeillä
     var ex = el('p', 'haku-katkelma mt-1 text-sm leading-relaxed text-subtext0');

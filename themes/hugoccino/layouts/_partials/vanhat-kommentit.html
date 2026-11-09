@@ -5,7 +5,7 @@
 {{- with .Resources.Get "kommentit.json" }}
 {{- $items := . | transform.Unmarshal }}
 <section id="vanhat-kommentit" class="komm-section mt-12 pt-6 border-t border-surface0">
-  <h2 class="font-mono font-bold text-xl mb-2"><span class="text-overlay0 select-none">## </span>Vanhat kommentit <span class="text-sm font-normal text-overlay1">({{ len $items }})</span></h2>
+  <h2 class="font-mono font-bold text-xl mb-2"><span class="text-overlay0 select-none">## </span>Vanhat kommentit <span class="text-sm font-normal text-meta">({{ len $items }})</span></h2>
   <p class="text-sm text-subtext0 leading-relaxed">Nämä kommentit on siirretty blogin vanhoista versioista. Kommentointi niissä on suljettu.</p>
   <ul class="komm-list komm-root">
     {{- range $items }}

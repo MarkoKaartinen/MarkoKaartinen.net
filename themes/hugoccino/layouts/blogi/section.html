@@ -14,7 +14,7 @@
   <p><span class="text-green select-none">$</span> tail -n3 blogi</p>
   <ul class="mt-1 space-y-0.5">
     {{- range first 3 $articles.ByDate.Reverse }}
-    <li class="flex gap-3"><time datetime="{{ .Date.Format "2006-01-02" }}" class="shrink-0 text-overlay1">{{ .Date.Format "2006-01-02" }}</time><a href="{{ .RelPermalink }}" class="min-w-0 truncate font-sans text-text hover:text-mauve">{{ .Title }}</a></li>
+    <li class="flex gap-3"><time datetime="{{ .Date.Format "2006-01-02" }}" class="shrink-0 text-meta">{{ .Date.Format "2006-01-02" }}</time><a href="{{ .RelPermalink }}" class="min-w-0 truncate font-sans text-text hover:text-mauve">{{ .Title }}</a></li>
     {{- end }}
   </ul>
 </div>
@@ -23,16 +23,16 @@
 <div id="blogi-suodatin" hidden class="mb-6 font-mono text-sm">
   <label class="flex items-center gap-2 rounded-lg border border-surface1 bg-mantle px-3 py-2 focus-within:border-mauve">
     <span class="text-green select-none" aria-hidden="true">$</span>
-    <span class="text-overlay1 select-none max-sm:hidden">grep -i</span>
+    <span class="text-meta select-none max-sm:hidden">grep -i</span>
     <input type="search" data-q autocomplete="off" spellcheck="false" placeholder="teksti #avainsana @kategoria" aria-label="Suodata artikkeleita" class="min-w-0 flex-1 bg-transparent text-text outline-none placeholder:text-overlay0">
-    <span data-count class="shrink-0 text-overlay1"></span>
+    <span data-count class="shrink-0 text-meta"></span>
   </label>
 </div>
 
 {{- range $i, $g := $groups }}
 <details id="y{{ .Key }}" data-year="{{ .Key }}" class="blogi-vuosi mb-4 scroll-mt-24"{{ if lt $i 2 }} open{{ end }}>
   <summary class="cursor-pointer select-none list-none py-1 font-mono text-xl font-bold hover:text-mauve [&::-webkit-details-marker]:hidden">
-    <span class="text-overlay0">## </span>{{ .Key }} <span class="text-sm font-normal text-overlay1" data-ycount data-total="{{ len .Pages }}">({{ len .Pages }})</span>
+    <span class="text-overlay0">## </span>{{ .Key }} <span class="text-sm font-normal text-meta" data-ycount data-total="{{ len .Pages }}">({{ len .Pages }})</span>
   </summary>
   <ul class="mt-2 divide-y divide-surface0">
     {{- range .Pages }}
@@ -42,7 +42,7 @@
 </details>
 {{- end }}
 
-<p id="blogi-tyhja" hidden class="mt-6 font-mono text-sm text-overlay1">Ei osumia.</p>
+<p id="blogi-tyhja" hidden class="mt-6 font-mono text-sm text-meta">Ei osumia.</p>
 
 {{- $js := resources.Get "js/blogi.js" | resources.Minify | fingerprint }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
