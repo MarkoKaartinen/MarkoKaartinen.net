@@ -13,9 +13,9 @@ Aloitetaan tärkeimmällä asialla. Sisältöä **ei ole** tehty tekoälyllä. B
 
 Tekoälyä on kuitenkin käytetty apuna. Voi olla, että sparraan tekoälyn kanssa jonkin artikkelin parissa tai saatan kysellä vinkkejä / osviittaa artikkeliin. Tekstin kuitenkin tuotan itse (sen myös useimmiten huomaa 😆).
 
-Tekoälyä on myös käytetty apuna blogin koodaamisessa. Tämän blogin olen kuitenkin koodannut itse. Jos tekoäly on jotain tehnyt niin sen olen itse tarkastanut ja muokannut tarvittaessa sekä tietysti testannut. 
+Tekoälyä on myös käytetty apuna blogin ylläpidossa. Tämä blogi on nykyään Hugo päällä, joten ei ole itse koodattu moottori enää. Hugo teema on tehty tekoälyn avulla ja sitä on säädetty itse ja kyselty tekoälyltä apua sen kanssa.
 
-Kirjoitin tästä tarkemmin blogiin ja pääset lukemaan sen artikkelin [tästä](/2026/miten-kaytan-tekoalya).
+Kirjoitin tästä tarkemmin blogiin ja pääset lukemaan sen artikkelin [tästä](/2026/miten-kaytan-tekoalya). Tähän on tulossa tuoreempi artikkeli sillä käyttön on muuttunut.
 
 ## human.json
 
