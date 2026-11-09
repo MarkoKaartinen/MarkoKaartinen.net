@@ -8,7 +8,7 @@
     <span class="komm-avatar komm-initial" aria-hidden="true">{{ upper (substr (strings.TrimLeft "@#" $c.name) 0 1) }}</span>
     <header class="komm-head">
       <span class="komm-who"><span class="komm-name">{{ $c.name }}</span></span>
-      {{- if $c.author }}<span class="komm-author-mark" role="img" aria-label="Kirjoittaja" title="Kirjoittaja">{{ partial "icon.html" (dict "name" "lucide/badge-check" "class" "size-4") }}</span>{{ end }}
+      {{- if $c.author }}<span class="komm-author-mark" role="img" aria-label="Kirjoittaja" title="Kirjoittaja">{{ partial "icon.html" (dict "name" "lucide/coffee" "class" "size-4") }}</span>{{ end }}
       <span class="komm-dot">·</span>
       <time class="komm-time" datetime="{{ $c.date }}">{{ time.AsTime $c.date | time.Format ":date_long" }}</time>
     </header>
