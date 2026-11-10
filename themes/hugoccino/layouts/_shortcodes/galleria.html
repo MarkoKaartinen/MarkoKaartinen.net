@@ -2,4 +2,7 @@
 {{- /* Ikkuna, jonka otsikkorivillä on kuvien määrä, ja sisällä ruudut, joiden alareunassa on tiedostonimi (data-name) */ -}}
 {{- $html := .Inner | .Page.RenderString | replaceRE `(<img [^>]*data-name="([^"]*)"[^>]*>)` `<span class="g-item">${1}<span class="g-nimi" aria-hidden="true">${2}</span></span>` -}}
 {{- $n := len (findRE `<img ` $html) -}}
-<div class="galleria"><span class="kuva-ikkuna" aria-hidden="true"><span class="kuva-nimi">galleria</span><span class="kuva-koko">{{ $n }} {{ cond (eq $n 1) "kuva" "kuvaa" }}</span></span><div class="g-ruudut">{{ $html | safeHTML }}</div></div>
+{{- /* Sarakkeita enintään 4, ja ruudut jaetaan riveille tasaisesti: 5-6 kuvaa -> 3 saraketta, 7-8 -> 4, 9 -> 3 jne. Kapealla näytöllä sarakkeita on vähemmän (CSS). */ -}}
+{{- $rivit := div (add $n 3) 4 -}}
+{{- $sarakkeet := cond (gt $n 0) (div (add $n (sub $rivit 1)) $rivit) 1 -}}
+<div class="galleria"><span class="kuva-ikkuna" aria-hidden="true"><span class="kuva-nimi">galleria</span><span class="kuva-koko">{{ $n }} {{ cond (eq $n 1) "kuva" "kuvaa" }}</span></span><div class="g-ruudut{{ if eq $n 1 }} g-yksi{{ end }}" style="--sarakkeet: {{ $sarakkeet }}">{{ $html | safeHTML }}</div></div>

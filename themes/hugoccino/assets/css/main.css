@@ -384,9 +384,20 @@
   }
   .sisalto .g-ruudut {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+    /* Sarakkeiden määrä tulee kuvien määrästä (--sarakkeet, enintään 4). Ruutu on vähintään 9 rem, joten
+       kapealla näytöllä sarakkeita on vähemmän (puhelimella kaksi), ja ruudut täyttävät rivin. */
+    --sarakkeet: 4;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(min(100%, max(9rem, calc((100% - (var(--sarakkeet) - 1) * 0.75rem) / var(--sarakkeet)))), 1fr)
+    );
     gap: 0.75rem;
     padding: 0.75rem;
+  }
+  /* Yhden kuvan galleria ei veny koko leveydelle */
+  .sisalto .g-ruudut.g-yksi {
+    grid-template-columns: minmax(0, 28rem);
+    justify-content: center;
   }
   .sisalto .g-ruudut > p {
     display: contents;
