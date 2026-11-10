@@ -33,6 +33,24 @@ Komento ei ylikirjoita olemassa olevaa tiedostoa. Sama ilman apukomentoa: `hugo 
 
 Kun sisältö on valmis, poista front matterista `draft: true`. Artikkelin `date` on julkaisuaika (`2026-11-09T08:30:00`, ilman aikavyöhykettä). Jos artikkelista on postaus Mastodonissa, lisää sen tunnus kenttään `mastodon_post_id`, niin keskustelu näkyy artikkelin kommentteina.
 
+## Mastodon-postaus
+
+`scripts/mastodon-post.py` postaa julkaistut artikkelit ja reseptit Mastodoniin ja kirjoittaa postauksen tunnuksen artikkelin front matteriin.
+
+Artikkelin `mastodon_post_id` toimii näin:
+
+| Arvo | Merkitys |
+| --- | --- |
+| `"115599350527283405"` | Postaus on tehty. Keskustelu näkyy artikkelin alla. |
+| `false` | Artikkelia ei koskaan postata Mastodoniin. |
+| kenttä puuttuu | Postataan, kun artikkeli on julkaistu (`draft: false`, `date` mennyt) ja `date` on uudempi kuin rajapäivä. |
+
+Rajapäivä (`MASTODON_SINCE`, oletus `2026-11-09`) on olemassa, ettei satoja vanhoja artikkeleita postata. Vanhoihin ei siksi tarvitse lisätä `false`-arvoa.
+
+Postaus koostuu alkulauseesta ("Blogiini on ilmestynyt uusi juttu!" tai "…uusi resepti!"), otsikosta, kuvauksesta (`description`), linkistä ja avainsanoista hashtageina (`tags`, resepteillä `recipe_tags`). Tyhjät osat jätetään pois. Reseptit (`content/resepti/`) postataan samalla säännöllä kuin artikkelit. Jos tilin viimeisimmistä postauksista löytyy jo artikkelin linkki, uutta ei postata vaan sen tunnus otetaan talteen.
+
+Skripti lukee ympäristömuuttujat `MASTODON_TOKEN` (pääsytunnus, jolla on `write:statuses`-oikeus), `MASTODON_INSTANCE`, `MASTODON_ACCOUNT`, `MASTODON_SINCE` ja `SITE_URL`. Kokeilu ilman postausta: `DRY_RUN=1 python3 scripts/mastodon-post.py`.
+
 Lisätietoja periaatteista, rakenteesta ja käytännöistä on tiedostossa [AGENTS.md](AGENTS.md).
 
 ## Analytiikka (Plausible)
