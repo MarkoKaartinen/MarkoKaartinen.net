@@ -2,21 +2,20 @@
 <article>
   <header class="mb-10">
     <h1 class="font-mono font-bold text-[2.1rem] sm:text-4xl wrap-break-word leading-tight"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
-    <p class="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-sm text-subtext0">
-      <span class="text-meta">//</span>
-      <span class="inline-flex items-center gap-1.5">{{ partial "icon.html" (dict "name" "lucide/calendar" "class" "size-4") }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time></span>
-      <span class="inline-flex items-center gap-1.5">{{ partial "icon.html" (dict "name" "lucide/clock" "class" "size-4") }}<span title="$ wc -w index.md">{{ if ge .WordCount 1000 }}{{ printf "%d %03d" (div .WordCount 1000) (mod .WordCount 1000) | replaceRE " " "&nbsp;" | safeHTML }}{{ else }}{{ .WordCount }}{{ end }} sanaa · {{ .ReadingTime }} min</span></span>
+    <p class="mt-4 flex flex-wrap items-center gap-x-5 gap-y-1.5 font-mono text-sm text-subtext0">
+      <span class="inline-flex items-center gap-1.5">{{ partial "icon.html" (dict "name" "lucide/git-commit-horizontal" "class" "size-4") }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time></span>
+      {{- with .GetTerms "categories" }}
+      <span class="inline-flex flex-wrap items-center gap-x-3 text-peach">
+        {{ partial "icon.html" (dict "name" "lucide/git-branch" "class" "size-4") }}
+        {{- range . }}<a href="{{ .RelPermalink }}" class="tap text-peach hover:text-yellow">{{ .LinkTitle }}</a>{{ end -}}
+      </span>
+      {{- end }}
+      <span class="inline-flex items-center gap-1.5">{{ partial "icon.html" (dict "name" "lucide/file-text" "class" "size-4") }}<span title="$ wc -w index.md">{{ if ge .WordCount 1000 }}{{ printf "%d %03d" (div .WordCount 1000) (mod .WordCount 1000) | replaceRE " " "&nbsp;" | safeHTML }}{{ else }}{{ .WordCount }}{{ end }} sanaa</span></span>
       {{ partial "mastodon-meta.html" . }}
       {{- if and (not .Lastmod.IsZero) (ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02")) }}
       <span>päivitetty <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod | time.Format ":date_long" }}</time></span>
       {{- end }}
     </p>
-    {{- with .GetTerms "categories" }}
-    <p class="mt-2 flex flex-wrap items-center gap-x-3 font-mono text-sm">
-      <span class="text-peach">{{ partial "icon.html" (dict "name" "lucide/folder-open" "class" "size-4") }}</span>
-      {{- range . }}<a href="{{ .RelPermalink }}" class="tap text-peach hover:text-yellow">{{ .LinkTitle }}</a>{{ end -}}
-    </p>
-    {{- end }}
   </header>
 
   {{- $ref := cond (gt .Lastmod .Date) .Lastmod .Date }}
