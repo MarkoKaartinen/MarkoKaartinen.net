@@ -1,9 +1,9 @@
-{{- /* git blame -tyylinen lähderivi: linkit lähdetiedostoon ja muokkaukseen GitHubissa */ -}}
+{{- /* git blame -tyylinen lähderivi: linkki lähdetiedostoon GitHubissa ja korjausehdotus. Näkyvä nimi on vain tiedostonimi, koko polku on linkissä ja vihjeessä. */ -}}
 {{- $repo := site.Params.repo }}
 {{- with and $repo .File }}
-<p class="mt-4 text-xs text-meta wrap-break-word">
-  <span class="text-green select-none">$</span> git blame <a href="{{ $repo }}/blob/main/content/{{ .Path }}" target="_blank" rel="noopener" class="text-blue hover:text-sapphire">{{ .Path }}</a>
-  <span class="text-overlay0">→</span> Marko Kaartinen, <time datetime="{{ $.Date.Format "2006-01-02" }}">{{ $.Date.Format "2006-01-02" }}</time>
-  <span class="text-overlay0">·</span> <a href="{{ $repo }}/issues/new?template=korjaus.yml&title={{ printf "Korjaus: %s" $.Title | urlquery }}&sivu={{ $.Permalink | urlquery }}" target="_blank" rel="noopener" class="text-blue hover:text-sapphire">ehdota korjausta</a>
+<p class="mt-6 text-xs text-meta wrap-break-word">
+  <span class="text-green select-none">$</span> git blame <a href="{{ $repo }}/blob/main/content/{{ .Path }}" target="_blank" rel="noopener" title="{{ .Path }}" class="text-blue hover:text-sapphire">{{ path.Base .Path }}</a>
+  <span class="text-overlay0">→</span> <span class="whitespace-nowrap">Marko Kaartinen, <time datetime="{{ $.Date.Format "2006-01-02" }}">{{ $.Date.Format "2006-01-02" }}</time></span>
+  <span class="text-overlay0">·</span> <a href="{{ $repo }}/issues/new?template=korjaus.yml&title={{ printf "Korjaus: %s" $.Title | urlquery }}&sivu={{ $.Permalink | urlquery }}" target="_blank" rel="noopener" class="whitespace-nowrap text-blue hover:text-sapphire">ehdota korjausta</a>
 </p>
 {{- end }}

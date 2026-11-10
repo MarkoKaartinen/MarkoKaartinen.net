@@ -62,8 +62,8 @@
       {{- range . }}<a href="{{ .RelPermalink }}" class="hover:text-sky">#{{ lower .LinkTitle }}</a>{{ end -}}
     </p>
     {{- end }}
-    {{ partial "share.html" . }}
     {{ partial "lahde.html" . }}
+    {{ partial "jaa.html" . }}
   </footer>
 
   {{ partial "related.html" . }}

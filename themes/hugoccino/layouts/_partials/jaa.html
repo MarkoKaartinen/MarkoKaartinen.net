@@ -1,0 +1,12 @@
+{{- /* Jaa ja seuraa -rivi artikkelin ja reseptin lopussa: Jaa Mastodonissa, Seuraa Mastodonissa, Kopioi linkki ja RSS. Käyttö: {{ partial "jaa.html" . }} */ -}}
+{{- $nappi := "inline-flex items-center gap-2 rounded border border-surface1 px-3 py-1.5 text-subtext0 hover:border-mauve hover:text-mauve" -}}
+<p class="mt-6 flex flex-wrap items-center gap-3">
+  <a href="https://share.joinmastodon.org/#text={{ printf "%s %s" .Title .Permalink | urlquery }}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded border border-mauve px-3 py-1.5 text-mauve hover:bg-mauve hover:text-crust">{{ partial "icon.html" (dict "name" "simple/mastodon" "class" "size-4") }}Jaa Mastodonissa</a>
+  {{- with site.Params.mastodon.profile }}
+  <a href="{{ . }}" target="_blank" rel="me noopener noreferrer" class="{{ $nappi }}">{{ partial "icon.html" (dict "name" "simple/mastodon" "class" "size-4") }}Seuraa Mastodonissa</a>
+  {{- end }}
+  <button type="button" data-copy-url="{{ partial "canonical.html" . }}" class="{{ $nappi }}">{{ partial "icon.html" (dict "name" "lucide/link" "class" "size-4") }}<span data-copy-label>Kopioi linkki</span></button>
+  <a href="{{ "syotteet" | relURL }}" class="{{ $nappi }}" title="RSS-syötteet">{{ partial "icon.html" (dict "name" "lucide/rss" "class" "size-4") }}RSS</a>
+</p>
+{{- $js := resources.Get "js/kopioi.js" | resources.Minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
