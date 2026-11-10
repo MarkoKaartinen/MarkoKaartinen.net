@@ -1,6 +1,6 @@
 {{- /*
-  Vanhat kommentit (WordPress ja Laravel) staattisena. Data tulee artikkelin kansion tiedostosta kommentit.json
-  (scripts/migrate/export_comments.py). Sähköposteja ei ole mukana.
+  Vanhat kommentit (WordPress ja Laravel) staattisena. Data tulee artikkelin kansion tiedostosta kommentit.json.
+  Sähköposteja ei ole mukana.
 */ -}}
 {{- with .Resources.Get "kommentit.json" }}
 {{- $items := . | transform.Unmarshal }}
