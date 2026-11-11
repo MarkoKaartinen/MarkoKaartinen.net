@@ -46,6 +46,8 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
     env:
+      # Alatunnisteen koontiaika näytetään Suomen aikaa (Hugon now käyttää prosessin aikavyöhykettä)
+      TZ: Europe/Helsinki
       SITE_URL: https://markokaartinen.net
       MASTODON_INSTANCE: https://kaartinen.social
       MASTODON_ACCOUNT: marko
