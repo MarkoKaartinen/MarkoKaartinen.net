@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="color-scheme" content="light dark">
+  <title>Huoltotauko | MarkoKaartinen.net</title>
+  <meta name="description" content="MarkoKaartinen.net on hetken huollossa. Palaan pian.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <style>
+    /* Catppuccin Latte (vaalea) ja Mocha (tumma). Sivu on itsenäinen: ei ulkoisia tiedostoja. */
+    :root {
+      --base: #eff1f5; --surface0: #ccd0da; --overlay0: #9ca0b0;
+      --text: #4c4f69; --subtext0: #6c6f85; --mauve: #8839ef; --peach: #fe640b; --green: #40a02b;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --base: #1e1e2e; --surface0: #313244; --overlay0: #6c7086;
+        --text: #cdd6f4; --subtext0: #a6adc8; --mauve: #cba6f7; --peach: #fab387; --green: #a6e3a1;
+      }
+    }
+
+    * { box-sizing: border-box; }
+    html { background: var(--base); }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem 1.5rem;
+      background: var(--base);
+      color: var(--text);
+      font: 1.0625rem/1.7 ui-monospace, "JetBrains Mono", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      text-align: center;
+    }
+
+    main { width: 100%; max-width: 30rem; }
+
+    .kuppi {
+      display: block;
+      width: 7.5rem;
+      height: 7.5rem;
+      margin: 0 auto 2.5rem;
+      color: var(--mauve);
+    }
+    .hoyry { color: var(--peach); }
+    .hoyry path { animation: nouse 2.8s ease-in-out infinite; transform-box: fill-box; }
+    .hoyry path:nth-child(2) { animation-delay: 0.5s; }
+    .hoyry path:nth-child(3) { animation-delay: 1s; }
+    @keyframes nouse {
+      0%   { opacity: 0.15; transform: translateY(2px); }
+      50%  { opacity: 1;    transform: translateY(-1.5px); }
+      100% { opacity: 0.15; transform: translateY(2px); }
+    }
+    @media (prefers-reduced-motion: reduce) { .hoyry path { animation: none; } }
+
+    h1 {
+      margin: 0 0 1.25rem;
+      font-size: clamp(1.75rem, 7vw, 2.25rem);
+      line-height: 1.2;
+      color: var(--mauve);
+    }
+    p { margin: 0 0 1rem; }
+    .vaimea { color: var(--subtext0); font-size: 0.95rem; }
+
+    .tila {
+      display: inline-block;
+      margin-top: 2.5rem;
+      padding: 0.4rem 0.9rem;
+      border: 1px solid var(--surface0);
+      border-radius: 999px;
+      color: var(--subtext0);
+      font-size: 0.85rem;
+    }
+    .tila span { color: var(--peach); }
+
+    a { color: var(--mauve); text-underline-offset: 0.2em; }
+    a:hover, a:focus-visible { text-decoration-thickness: 2px; }
+    a:focus-visible { outline: 2px solid var(--mauve); outline-offset: 3px; border-radius: 2px; }
+  </style>
+</head>
+<body>
+  <main>
+    <svg class="kuppi" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <g class="hoyry" stroke="currentColor">
+        <path d="M6 2v2" />
+        <path d="M10 2v2" />
+        <path d="M14 2v2" />
+      </g>
+      <path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1" />
+    </svg>
+
+    <h1>Kahvitauko</h1>
+    <p>Sivustolla tehdään parhaillaan päivitystä tai huoltoa. Palaan pian takaisin.</p>
+    <p class="vaimea">Kuulumisia voi sillä välin kurkata <a href="https://kaartinen.social/@marko" rel="me">Mastodonista</a>.</p>
+
+    <div class="tila">$ status: <span>huolto käynnissä</span></div>
+  </main>
+</body>
+</html>
