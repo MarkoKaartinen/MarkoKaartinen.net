@@ -33,9 +33,9 @@ Komento ei ylikirjoita olemassa olevaa tiedostoa. Sama ilman apukomentoa: `hugo 
 
 Kun sisältö on valmis, poista front matterista `draft: true`. Artikkelin `date` on julkaisuaika (`2026-11-09T08:30:00`, ilman aikavyöhykettä). Jos artikkelista on postaus Mastodonissa, lisää sen tunnus kenttään `mastodon_post_id`, niin keskustelu näkyy artikkelin kommentteina.
 
-## Mastodon-postaus
+## Julkaisu ja Mastodon
 
-`scripts/mastodon-post.py` postaa julkaistut artikkelit ja reseptit Mastodoniin ja kirjoittaa postauksen tunnuksen artikkelin front matteriin.
+GitHub Actions -workflow rakentaa ja julkaisee sivun sekä postaa uudet artikkelit Mastodoniin. Ajo käynnistyy pushista `main`-haaraan, ajastettuna (cron) ja käsin. Postauksen tekee `scripts/mastodon-post.py`, joka kirjoittaa postauksen tunnuksen artikkelin front matteriin.
 
 Artikkelin `mastodon_post_id` toimii näin:
 
@@ -43,13 +43,56 @@ Artikkelin `mastodon_post_id` toimii näin:
 | --- | --- |
 | `"115599350527283405"` | Postaus on tehty. Keskustelu näkyy artikkelin alla. |
 | `false` | Artikkelia ei koskaan postata Mastodoniin. |
-| kenttä puuttuu | Postataan, kun artikkeli on julkaistu (`draft: false`, `date` mennyt) ja `date` on uudempi kuin rajapäivä. |
+| kenttä puuttuu | Postataan, kun artikkeli on julkaistu (`draft: false`, `date` mennyt) ja `date` on uudempi kuin workflowssa asetettu rajapäivä. |
 
-Rajapäivä (`MASTODON_SINCE`, oletus `2026-11-09`) on olemassa, ettei satoja vanhoja artikkeleita postata. Vanhoihin ei siksi tarvitse lisätä `false`-arvoa.
+Rajapäivä (`MASTODON_SINCE`, asetettu workflowssa) on olemassa, ettei satoja vanhoja artikkeleita postata. Vanhoihin ei siksi tarvitse lisätä `false`-arvoa.
 
 Postaus koostuu alkulauseesta ("Blogiini on ilmestynyt uusi juttu!" tai "…uusi resepti!"), otsikosta, kuvauksesta (`description`), linkistä ja avainsanoista hashtageina (`tags`, resepteillä `recipe_tags`). Tyhjät osat jätetään pois. Reseptit (`content/resepti/`) postataan samalla säännöllä kuin artikkelit. Jos tilin viimeisimmistä postauksista löytyy jo artikkelin linkki, uutta ei postata vaan sen tunnus otetaan talteen.
 
+Ajon kulku:
+
+1. Pushissa `main`-haaraan ja käsin ajettaessa julkaistaan aina (push tarkoittaa esim. ulkoasukorjausta). Ajastettu ajo tekee ensin kevyen tarkistuksen (ks. alla) eikä jatka, jos mitään ei ole julkaistavana.
+2. Hugo rakentaa sivun. Tulevaisuuden päivämäärällä oleva artikkeli ei tule mukaan.
+3. Sivu viedään palvelimelle (ks. "Palvelimen rakenne").
+4. Jokaisesta postaamattomasta artikkelista tehdään Mastodon-postaus. Linkkikortti toimii, koska sivu on jo livenä.
+5. Postauksen tunnus kirjoitetaan artikkelin front matteriin ja commitoidaan `main`-haaraan botin nimissä. Ennen committia tehdään `pull --rebase`.
+6. Jos tunnuksia lisättiin, sivu rakennetaan ja viedään uudelleen, jolloin keskustelu tulee näkyviin.
+
+Ajastettu ajo (15 minuutin välein) on olemassa tulevaisuuden artikkeleita varten: Hugo ei rakenna artikkelia ennen sen `date`-aikaa. Tarkistus (`scripts/odottaa-julkaisua.py`) ei rakenna mitään, vaan kestää muutaman sekunnin ja katsoo kahta asiaa:
+
+- **Julkaisematon artikkeli:** artikkeli tai resepti ei ole luonnos ja sen `date` on mennyt, mutta osoite puuttuu livenä olevasta sivukartasta. Silloin sivu rakennetaan ja viedään, ja Mastodon-postaus tehdään perään.
+- **Mastodon-postaus puuttuu:** julkaistu artikkeli odottaa postausta (esim. aiempi postaus epäonnistui). Silloin postataan ja viedään sivu uudelleen uudella tunnuksella.
+
+Jos kumpaakaan ei ole, ajo päättyy tarkistukseen. Jos livenä olevaa sivukarttaa ei saada luettua, oletetaan että julkaisu tarvitaan. Cron ajetaan `main`-haarassa, ja GitHub voi myöhästyttää sitä muutaman minuutin.
+
+Toteutus on `.github/workflows/julkaise.yml`, `scripts/odottaa-julkaisua.py`, `scripts/vie-palvelimelle.sh` ja `scripts/mastodon-post.py`. Ennen ensimmäistä ajoa GitHubiin tarvitaan `production`-ympäristö, jonka secretit ovat:
+
+| Secret | Sisältö |
+| --- | --- |
+| `DEPLOY_HOST` | palvelimen osoite |
+| `DEPLOY_USER` | SSH-käyttäjä |
+| `DEPLOY_PATH` | sivuston juurikansio palvelimella (esim. `/home/mknet/markokaartinen.net`), jonka alle skripti tekee `releases/`, `current` ja `public/` |
+| `DEPLOY_SSH_KEY` | yksityinen SSH-avain, jonka julkinen puoli on palvelimella |
+| `DEPLOY_KNOWN_HOSTS` | palvelimen rivi `ssh-keyscan`-komennolla |
+| `MASTODON_TOKEN` | kaartinen.social-sovelluksen pääsytunnus (`write:statuses`) |
+
 Skripti lukee ympäristömuuttujat `MASTODON_TOKEN` (pääsytunnus, jolla on `write:statuses`-oikeus), `MASTODON_INSTANCE`, `MASTODON_ACCOUNT`, `MASTODON_SINCE` ja `SITE_URL`. Kokeilu ilman postausta: `DRY_RUN=1 python3 scripts/mastodon-post.py`.
+
+### Palvelimen rakenne
+
+`scripts/vie-palvelimelle.sh` vie sivun rsyncillä SSH:n yli. Jokainen vienti menee omaan kansioonsa ja `current`-symlinkki vaihdetaan siihen atomisesti, joten kävijä ei näe puolivalmista sivustoa:
+
+```
+$DEPLOY_PATH/
+├── public/               huoltosivu (huolto.html -> index.html)
+├── releases/<aika-sha>/  kolme viimeisintä vientiä
+└── current -> releases/<uusin>
+```
+
+- Forgessa **Web directory** on `/current`, ja sivusto on livenä.
+- **Huoltotila:** vaihda Web directoryksi `/public`, jolloin näkyy huoltosivu. Takaisin `/current`.
+- **Palautus** edelliseen versioon palvelimella: `ln -sfn releases/<vanha> current`.
+- Huoltosivu (`huolto.html` repon juuressa) päivitetään `public/`-kansioon joka viennillä. Se on itsenäinen eikä kuulu sivustoon.
 
 Lisätietoja periaatteista, rakenteesta ja käytännöistä on tiedostossa [AGENTS.md](AGENTS.md).
 

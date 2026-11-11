@@ -1,0 +1,120 @@
+name: Julkaise
+
+# Rakentaa ja julkaisee sivun sekä postaa uudet artikkelit Mastodoniin.
+# Kuvaus: README.md, osio "Julkaisu ja Mastodon".
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Tulevaisuuden päivämäärällä oleva artikkeli ei tule mukaan ennen sen aikaa. Ajastettu ajo
+    # tekee ensin kevyen tarkistuksen (jobi "tarkista") eikä rakenna mitään, ellei jotain ole julkaistavana.
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+# Ajot jonoon, ettei kaksi julkaisua tai bot-committia mene päällekkäin.
+concurrency:
+  group: julkaise
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  # Pushissa ja käsin ajettaessa julkaistaan aina. Ajastetussa ajossa vain, jos artikkeli on
+  # julkaistavissa mutta ei vielä livenä, tai se odottaa Mastodon-postausta.
+  tarkista:
+    runs-on: ubuntu-latest
+    outputs:
+      julkaise: ${{ steps.tarkista.outputs.julkaise }}
+      tarvitaan: ${{ steps.tarkista.outputs.tarvitaan }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: tarkista
+        env:
+          SITE_URL: https://markokaartinen.net
+          MASTODON_SINCE: "2026-11-09"
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            python3 scripts/odottaa-julkaisua.py
+          else
+            printf 'julkaise=true\ntarvitaan=true\n' >> "$GITHUB_OUTPUT"
+          fi
+
+  julkaise:
+    needs: tarkista
+    if: needs.tarkista.outputs.tarvitaan == 'true'
+    runs-on: ubuntu-latest
+    environment: production
+    env:
+      SITE_URL: https://markokaartinen.net
+      MASTODON_INSTANCE: https://kaartinen.social
+      MASTODON_ACCOUNT: marko
+      # Tätä uudemmat artikkelit postataan. Vanhoja ei.
+      MASTODON_SINCE: "2026-11-09"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.169.0"
+          extended: true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Rakenna sivu
+        run: npm run build
+
+      - name: Ota SSH käyttöön
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/id_deploy
+          chmod 600 ~/.ssh/id_deploy
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
+
+      # Ajastetussa ajossa vienti tehdään vain, kun artikkeli odottaa julkaisua. Pelkkä Mastodon-postaus
+      # ei tarvitse ensimmäistä vientiä, koska sivu on jo livenä.
+      - name: Vie sivu palvelimelle
+        if: needs.tarkista.outputs.julkaise == 'true'
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+        run: scripts/vie-palvelimelle.sh
+
+      - name: Postaa uudet artikkelit Mastodoniin
+        id: mastodon
+        env:
+          MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
+        run: python3 scripts/mastodon-post.py
+
+      - name: Tallenna postausten tunnukset
+        if: steps.mastodon.outputs.posted == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content
+          git commit -m "Lisää Mastodon-postausten tunnukset"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1
+
+      # Tunnukset ovat nyt front matterissa, joten keskustelu tulee sivulle uudella koonnilla.
+      - name: Rakenna ja vie sivu uudelleen
+        if: steps.mastodon.outputs.posted == 'true'
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+        run: |
+          npm run build
+          scripts/vie-palvelimelle.sh
