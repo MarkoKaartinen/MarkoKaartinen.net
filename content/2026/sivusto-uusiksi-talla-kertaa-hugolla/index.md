@@ -4,7 +4,7 @@ date: 2026-11-11T17:05:00
 description: "Blogi sai taas uuden kodin: WordPressistä ja Laravelista siirryttiin staattiseen Hugoon ja ulkoasu uusittiin Catppuccin-väreillä. Käyn läpi miten sivusto muuttui, mitä nörttijuttuja siihen tuli ja mikä on tekoälyn rooli."
 categories: ["Blogi"]
 tags: ["uudistus", "blogi", "hugo", "ulkoasu", "teema", "catppuccin", "tekoäly", "mastodon"]
-# mastodon_post_id: ""
+mastodon_post_id: "117598465651566663"
 ---
 
 Tervetuloa uudistettuun MarkoKaartinen.net-blogiin! Tällä kertaa mennään vielä enemmän staattiseen suuntaan, tosin pienellä twistillä.
