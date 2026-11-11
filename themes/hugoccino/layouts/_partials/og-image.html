@@ -1,6 +1,7 @@
 {{- /*
   Sosiaalisen median kuva (1200x630). Palauttaa kuvaresurssin.
-  Artikkeli ja resepti: front matterin og_image tai bundlen ensimmäinen riittävän iso kuva, muuten otsikkokortti.
+  Artikkeli ja resepti: generoitu otsikkokortti (otsikko, kuvaus ja päivämäärä). Artikkelin kuvia ei käytetä automaattisesti;
+  vain jos front matterissa on og_image (bundlen kuvan nimi), käytetään sitä.
   Muut sivut: oletuskortti.
 */ -}}
 {{- $page := . -}}
@@ -8,11 +9,6 @@
 {{- if and $page.IsPage (in (slice "artikkeli" "resepti") $page.Type) -}}
   {{- $pick := "" -}}
   {{- with $page.Params.og_image }}{{ $pick = $page.Resources.Get . }}{{ end -}}
-  {{- if not $pick }}
-    {{- range $page.Resources.ByType "image" }}
-      {{- if and (not $pick) (ge .Width 800) (not (in (slice "gif" "svg") .MediaType.SubType)) }}{{ $pick = . }}{{ end }}
-    {{- end }}
-  {{- end -}}
   {{- if $pick -}}
     {{- $out = $pick.Fill "1200x630 Center jpg q85" -}}
   {{- else -}}
