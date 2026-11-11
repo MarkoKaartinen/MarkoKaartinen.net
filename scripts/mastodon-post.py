@@ -140,7 +140,7 @@ def api(method, path, data=None, headers=None):
         INSTANCE + path,
         data=urllib.parse.urlencode(data).encode() if data else None,
         method=method,
-        headers={"Authorization": f"Bearer {TOKEN}", **(headers or {})},
+        headers={"Authorization": f"Bearer {TOKEN}", "User-Agent": "markokaartinen-net-julkaisu", **(headers or {})},
     )
     with urllib.request.urlopen(req, timeout=30) as res:
         return json.load(res)
