@@ -66,6 +66,16 @@ jobs:
 
       - run: npm ci
 
+      # Hugon kuvavälimuisti (kuvat ja jakokortit). Ilman sitä koonti prosessoi kaikki kuvat uudelleen (~6 min),
+      # sen kanssa vain uudet ja muuttuneet. Avaimessa on commit, jotta jokainen koonti tallentaa tuoreen
+      # välimuistin, ja restore-keys hakee viimeisimmän.
+      - name: Palauta Hugon kuvavälimuisti
+        uses: actions/cache@v4
+        with:
+          path: resources/_gen
+          key: hugo-kuvat-${{ runner.os }}-${{ github.sha }}
+          restore-keys: hugo-kuvat-${{ runner.os }}-
+
       - name: Rakenna sivu
         run: npm run build
 
