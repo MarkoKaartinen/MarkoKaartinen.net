@@ -1,5 +1,6 @@
 {{- $m := site.Params.mastodon -}}
-{{- $built := now -}}
+{{- /* Sama aika kaikilla sivuilla (kerran koontia kohden), Suomen aikaa */ -}}
+{{- $built := partialCached "build-time.html" "koonti" -}}
 <footer class="mt-12 border-t border-surface0 bg-mantle font-mono text-xs text-subtext0">
   <div class="max-w-7xl mx-auto px-4">
 
@@ -27,7 +28,7 @@
         </span>
         <span class="inline-flex items-center gap-1.5" title="Tähän aikaan sivusto rakennettiin viimeksi">
           {{ partial "icon.html" (dict "name" "lucide/git-commit-horizontal" "class" "size-4") }}
-          <time datetime="{{ $built.Format "2006-01-02T15:04:05Z07:00" }}">rakennettu {{ $built.Format "2.1.2006" }} <span class="text-surface2">·</span> {{ $built.Format "15:04" }}</time>
+          <time datetime="{{ time.Format "2006-01-02T15:04:05Z07:00" $built }}">rakennettu {{ time.Format "2.1.2006" $built }} <span class="text-surface2">·</span> {{ time.Format "15:04" $built }}</time>
         </span>
       </p>
       <button type="button" data-shortcuts-open class="hidden items-center gap-2 text-overlay0 hover:text-mauve sm:inline-flex" title="Näppäinoikotiet">
