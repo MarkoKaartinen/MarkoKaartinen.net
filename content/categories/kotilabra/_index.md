@@ -1,6 +1,6 @@
 ---
 title: "Kotilabra"
-description: "Kotipalvelin, selfhostaus, VPS:n ylläpito ja älykoti. Home Assistant löytyy myös avainsanalla."
+description: "Kotipalvelin, kotiverkko, selfhostaus ja älykoti. Home Assistant löytyy myös avainsanalla. Julkisten palvelujen ylläpito (Mastodon, Lemmy) löytyy kategoriasta Internet."
 ---
 
-Kotipalvelin, selfhostaus, VPS:n ylläpito ja älykoti. Home Assistant löytyy myös avainsanalla.
+Kotipalvelin, kotiverkko, selfhostaus ja älykoti. Home Assistant löytyy myös avainsanalla. Julkisten palvelujen ylläpito (Mastodon, Lemmy) löytyy kategoriasta Internet.

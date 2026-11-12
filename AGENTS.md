@@ -24,7 +24,7 @@ Kategoriat: Elämä, Matkat, Mobiili, Tietokoneet, Vempaimet, Internet, Pelit, K
 Valintasäännöt, ensimmäinen osuma ratkaisee:
 
 1. Tämän blogin omat uudistukset, tekniikka ja ilmoitukset: Kulisseissa.
-2. Itse hostattu palvelu, palvelimen ylläpito tai älykoti: Kotilabra. Palvelun pelkkä käyttö: Internet.
+2. Kotipalvelin, oman kodin verkko ja älykoti: Kotilabra. Julkisen verkkopalvelun tai instanssin (Mastodon, Lemmy) ylläpito ja pelkkä käyttö: Internet.
 3. Testi, kokeilu tai arvio laitteesta, palvelusta, sovelluksesta tai pelistä: Marko testaa. Laite jää avainsanaksi.
 4. Podcast-jakso tai videoblogi: Podcastit ja vlogit, myös silloin kun jakso käsittelee yhtä laitetta.
 5. Perjantaipohdinta, tilapäivitys, vuosikatsaus ja muut kuulumiset: Kuulumiset.
