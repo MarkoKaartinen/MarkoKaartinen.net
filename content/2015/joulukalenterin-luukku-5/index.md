@@ -3,7 +3,7 @@ title: "Joulukalenterin luukku 5"
 date: 2015-12-05T13:39:00
 lastmod: 2015-12-04T10:00:00
 description: "Tällä kertaa jaetaankin jotain aivan muuta. Tätä ei täällä blogissa ole ennen nähty ja tullaanko enää koskaan näkemäänkään. Jaan nimittäin teille reseptin! Tämän reseptin takana on tietenkin parempi puolisko Outi. Suurin osa haluaa kinkkunsa päälle sinappia ja jaankin tässä teille ohjeen omenaisen viskisinapin tekoon. Alkuperäinen ohje on vuodelta 2011 ja löytyypi täältä. Ainesosat: 12 rkl"
-categories: ["Elämä"]
+categories: ["Joulu"]
 tags: ["joulu", "joulukalenteri", "joulukalenteri 2015", "jouluruoka", "kinkku", "luukku 5", "resepti", "sinappi"]
 aliases: ["/joulukalenterin-luukku-5/"]
 ---

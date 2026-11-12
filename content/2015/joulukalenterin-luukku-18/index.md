@@ -3,7 +3,7 @@ title: "Joulukalenterin luukku 18"
 date: 2015-12-18T09:18:00
 lastmod: 2016-09-26T15:33:00
 description: "Suomalaiseen jouluun kuuluu ehdottomasti ruoka. Käynkin läpi omia lempiruokiani mitä joulun aikaan tulee syötyä. Olen pyrkinyt lisäämään linkin reseptiin vielä jokaisen ruoan kohdalle - ei välttämättä ole sama resepti millä kotona tehdään, mutta onpahan osviittaa teille!"
-categories: ["Elämä"]
+categories: ["Joulu"]
 tags: ["joulu", "joulukalenteri", "joulukalenteri 2015", "jouluruoka", "luukku", "luukku 18", "ruoka"]
 aliases: ["/joulukalenterin-luukku-18/"]
 ---

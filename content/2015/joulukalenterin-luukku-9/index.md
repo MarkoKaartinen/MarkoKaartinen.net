@@ -3,7 +3,7 @@ title: "Joulukalenterin luukku 9"
 date: 2015-12-09T09:33:00
 lastmod: 2015-12-04T09:45:00
 description: "Tässä luukussa laitetaan tietokonekin joulukuntoon sillä jaan teille muutaman jouluisen taustakuvan. Jokaisen kuvan jälkeen on linkki mistä sen kuvan saa otettua omalle koneelle oman näytön kokoisena."
-categories: ["Elämä"]
+categories: ["Joulu"]
 tags: ["joulu", "jouluinen", "joulukalenteri", "joulukalenteri 2015", "kuva", "luukku", "luukku 9", "taustakuva"]
 aliases: ["/joulukalenterin-luukku-9/"]
 ---

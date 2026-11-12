@@ -3,7 +3,7 @@ title: "Hyvää joulua!"
 date: 2013-12-24T16:32:00
 lastmod: 2014-12-10T18:33:00
 description: "Haluan toivottaa hyvää joulua kaikille lukijoilleni, tutuille sekä tuntemattomille!"
-categories: ["Elämä"]
+categories: ["Joulu"]
 tags: ["hyvää", "joulu", "joulua", "joulukuusi"]
 aliases: ["/hyvaa-joulua/"]
 ---

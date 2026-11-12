@@ -3,7 +3,7 @@ title: "Joulukalenterin luukku 21"
 date: 2015-12-21T09:21:00
 lastmod: 2016-09-26T15:33:00
 description: "Tänä jouluna voittekin katsoa hieman erilaisen jouluelokuvan ilmaiseksi Yle Areenasta. Nimittäin Rare Exports on siellä katsottavana jokusen päivän ajan ilmaiseksi. Kannattaa vilaista, ite pidin tuosta elokuvasta ja tässähän on hieman erilainen joulupukki."
-categories: ["Elämä"]
+categories: ["Joulu"]
 tags: ["elokuva", "joulu", "joulukalenteri", "joulukalenteri 2015", "luukku", "luukku 21", "rare exports", "yle areena"]
 aliases: ["/joulukalenterin-luukku-21/"]
 ---

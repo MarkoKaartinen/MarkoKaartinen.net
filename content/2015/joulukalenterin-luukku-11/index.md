@@ -3,7 +3,7 @@ title: "Joulukalenterin luukku 11"
 date: 2015-12-11T11:40:00
 lastmod: 2015-12-04T09:43:00
 description: "Selataan tässäkin luukussa hieman Pinterestiä lisää ja katsellaan tällä kertaa joulukoristeita. Vielä on aikaa puuhastella ja askarrella omiakin koristeita. Alla onkin pari inspiraation lähdettä! Tämähän on taas näitä, että ne tekee jotka osaa ja minä kun en osaa niin muut saa tehdä! Jos siis joku innostui askartelemaan niin kuvat on tervetulleita!"
-categories: ["Elämä"]
+categories: ["Joulu"]
 tags: ["askartelu", "joulu", "joulukalenteri", "joulukalenteri 2015", "joulukoriste", "koriste", "koristeet", "luukku", "luukku 11"]
 aliases: ["/joulukalenterin-luukku-11/"]
 ---

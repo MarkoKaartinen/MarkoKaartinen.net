@@ -3,7 +3,7 @@ title: "Joulukalenterin luukku 8"
 date: 2015-12-08T08:30:00
 lastmod: 2015-12-04T09:45:00
 description: "Joulukortit pitää lähettää viimeistään 14.12 ja tarkempaa tietoa tästä saat Postin sivuilta. Vietinkin aikaa Pinterestissä ja etsin teille muutaman idean joulukorttien askarteluun. Teillä on vielä vajaa viikko aikaa askarrella niitä!"
-categories: ["Elämä"]
+categories: ["Joulu"]
 tags: ["askartelu", "joulu", "joulukalenteri", "joulukalenteri 2015", "joulukortit", "luukku", "luukku 8"]
 aliases: ["/joulukalenterin-luukku-8/"]
 ---

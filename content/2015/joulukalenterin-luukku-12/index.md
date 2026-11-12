@@ -3,7 +3,7 @@ title: "Joulukalenterin luukku 12"
 date: 2015-12-12T12:41:00
 lastmod: 2015-12-04T10:01:00
 description: "Vinkkasin teille aiemmassa luukussa numero viisi jo reseptin sinapin tekoon. Nyt toistetaan reseptin jakaminen ja tällä kertaa saattekin tehtäväksi Rocky roads -namuja. Tämänkin reseptin takana on Outi ja alkuperäinen resepti löytyy tietysti hänen blogistaan. Ainesosat: 200 g lakua 3 dl suolapähkinöitä 100 g vaanhtokarkkeja 200 g maitosuklaata 200 g tummaa suklaata 50 g valkosuklaata 1"
-categories: ["Elämä"]
+categories: ["Joulu"]
 tags: ["joulu", "joulukalenteri", "joulukalenteri 2015", "karkit", "luukku", "luukku 12", "namit", "resepti", "suklaa"]
 aliases: ["/joulukalenterin-luukku-12/"]
 ---

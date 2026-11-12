@@ -17,9 +17,9 @@ MarkoKaartinen.net blogin staattinen Hugo-versio. Korvaa vanhan Laravel-version 
 
 ## Kategoriat
 
-Artikkelilla on täsmälleen yksi kategoria (`categories: ["Mobiili"]`), ja nimi kirjoitetaan frontmatteriin täsmälleen alla olevassa muodossa. Tarkempi aihe, laite, merkki ja julkaisumuoto kirjataan avainsanoiksi (`tags`), jatkumot sarjoiksi (`series`). Ruoka, Apple, Tumblr, joulukalenteri ja perjantaipohdinta ovat avainsanoja.
+Artikkelilla on täsmälleen yksi kategoria (`categories: ["Mobiili"]`), ja nimi kirjoitetaan frontmatteriin täsmälleen alla olevassa muodossa. Tarkempi aihe, laite, merkki ja julkaisumuoto kirjataan avainsanoiksi (`tags`), jatkumot sarjoiksi (`series`). Ruoka, Apple, Tumblr ja perjantaipohdinta ovat avainsanoja.
 
-Kategoriat: Elämä, Matkat, Mobiili, Tietokoneet, Vempaimet, Internet, Pelit, Koodaus, Kotilabra, Kulisseissa, Marko testaa, Podcastit ja vlogit, Kuulumiset, Huumori. Kategoriasivujen kuvaukset ovat tiedostoissa `content/categories/{slug}/_index.md`.
+Kategoriat: Elämä, Matkat, Mobiili, Tietokoneet, Vempaimet, Internet, Pelit, Koodaus, Kotilabra, Kulisseissa, Marko testaa, Podcastit ja vlogit, Kuulumiset, Huumori, Joulu. Kategoriasivujen kuvaukset ovat tiedostoissa `content/categories/{slug}/_index.md`.
 
 Valintasäännöt, ensimmäinen osuma ratkaisee:
 
@@ -27,16 +27,17 @@ Valintasäännöt, ensimmäinen osuma ratkaisee:
 2. Kotipalvelin, oman kodin verkko ja älykoti: Kotilabra. Julkisen verkkopalvelun tai instanssin (Mastodon, Lemmy) ylläpito ja pelkkä käyttö: Internet.
 3. Testi, kokeilu tai arvio laitteesta, palvelusta, sovelluksesta tai pelistä: Marko testaa. Laite jää avainsanaksi.
 4. Podcast-jakso tai videoblogi: Podcastit ja vlogit, myös silloin kun jakso käsittelee yhtä laitetta.
-5. Perjantaipohdinta, tilapäivitys, vuosikatsaus ja muut kuulumiset: Kuulumiset.
-6. Vitsit, meemit, sarjakuvat ja hauskat videot: Huumori.
-7. Matkakertomukset: Matkat.
-8. Kehitystyö ja omat verkkoprojektit: Koodaus. Tekoäly kuuluu tänne vain, jos artikkeli käsittelee kehitystyötä, muuten Internetiin.
-9. Pelin sisältö, konsolit ja mobiilipelit: Pelit. Pelitietokone ja komponentit: Tietokoneet.
-10. Puhelimet, tabletit, älykellot ja mobiilisovellukset: Mobiili. Apple-artikkelit luokitellaan laitteen mukaan (iPhone ja iPad Mobiili, Mac Tietokoneet).
-11. PC, Mac, käyttöjärjestelmät, hiiret ja näppäimistöt: Tietokoneet.
-12. Muut lisälaitteet (kamerat, äänilaitteet, 3D-tulostus): Vempaimet.
-13. Verkkopalvelut, some ja tietoturva: Internet.
-14. Kaikki muu: Elämä.
+5. Joulukalenterin luukut, joulutervehdykset ja muut selvästi jouluun liittyvät jutut: Joulu.
+6. Perjantaipohdinta, tilapäivitys, vuosikatsaus ja muut kuulumiset: Kuulumiset.
+7. Vitsit, meemit, sarjakuvat ja hauskat videot: Huumori.
+8. Matkakertomukset: Matkat.
+9. Kehitystyö ja omat verkkoprojektit: Koodaus. Tekoäly kuuluu tänne vain, jos artikkeli käsittelee kehitystyötä, muuten Internetiin.
+10. Pelin sisältö, konsolit ja mobiilipelit: Pelit. Pelitietokone ja komponentit: Tietokoneet.
+11. Puhelimet, tabletit, älykellot ja mobiilisovellukset: Mobiili. Apple-artikkelit luokitellaan laitteen mukaan (iPhone ja iPad Mobiili, Mac Tietokoneet).
+12. PC, Mac, käyttöjärjestelmät, hiiret ja näppäimistöt: Tietokoneet.
+13. Muut lisälaitteet (kamerat, äänilaitteet, 3D-tulostus): Vempaimet.
+14. Verkkopalvelut, some ja tietoturva: Internet.
+15. Kaikki muu: Elämä.
 
 Podcastit ja vlogit sekä Kuulumiset jakavat artikkelit muodon mukaan, eivät aiheen. Muut kategoriat ovat aiheita.
 

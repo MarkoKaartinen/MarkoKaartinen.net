@@ -3,7 +3,7 @@ title: "Joulukalenterin luukku 3"
 date: 2015-12-03T15:47:00
 lastmod: 2015-12-04T09:44:00
 description: "Tässä luukussa ollaankin eläimellisissä merkeissä ja tarkemmin sanottuna kissamaisissa merkeissä. Olenkin koonnut jokusen hassun hauskan jouluaiheisen kissamaisen kuvan tähän luukkuun."
-categories: ["Elämä"]
+categories: ["Joulu"]
 tags: ["joulu", "joulukalenteri", "joulukalenteri 2015", "kissa", "kissakuva", "kissakuvat", "kissat", "luukku", "luukku 3"]
 aliases: ["/joulukalenterin-luukku-3/"]
 ---

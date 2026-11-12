@@ -3,7 +3,7 @@ title: "Joulukalenterin luukku 22"
 date: 2015-12-22T00:22:00
 lastmod: 2016-09-26T15:33:00
 description: "On viimeiset hetket ostaa niitä joululahjoja ja jaankin tässä vielä jokusen vinkin mitä ostaa nörtille näin joulun alla. Nämä lahjat saat varmasti hankittua vielä, sillä ne ei vaadi paketin odottelua ja hakua postista."
-categories: ["Vempaimet"]
+categories: ["Joulu"]
 tags: ["joulu", "joulukalenteri", "joulukalenteri 2015", "joululahja", "joululahjat", "lahja", "luukku", "luukku 22", "vinkit"]
 aliases: ["/joulukalenterin-luukku-22/"]
 ---
