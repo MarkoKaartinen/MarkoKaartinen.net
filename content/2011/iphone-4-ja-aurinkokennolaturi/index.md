@@ -3,7 +3,7 @@ title: "iPhone 4 ja aurinkokennolaturi"
 date: 2011-07-10T10:29:00
 lastmod: 2012-07-16T13:35:00
 description: "Testasin tätä aiemmin saamaani aurinkokennolaturia / lisäakkua iPhoneen. Sanotaanko näin, että tämmöistä suosittelen kaikille iPhonen omaaville, sillä älypuhelimissa akku voi mennä suhteellisen nopeaan (riippuu miten paljon rämppää sitä) ja iPhonessa kun ei ole suoraan irroitettavissa olevaa akkua niin tämänkaltainen ratkaisu on juurikin passeli! Aurinko lataa tuota settiä suhteellisen hyvin, mutta en ole saanut pidettyä sitä"
-categories: ["Apple", "Blogi", "Marko testaa"]
+categories: ["Marko testaa"]
 tags: ["akku", "apple", "aurinko", "aurinkokenno", "iphone 4", "lataus", "lisäakku", "power pack", "solar", "testi", "iphone"]
 aliases: ["/iphone-4-ja-aurinkokennolaturi/"]
 ---

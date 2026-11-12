@@ -2,7 +2,7 @@
 title: "Miten löytää sopiva Linux-jakelu"
 date: 2026-10-27T08:22:00
 description: "Miten löytää itselle sopiva Linux-jakelu? Vinkkejä distrojen vertailuun ja kokeiluun sekä omia kokemuksia CachyOS:stä ja Linuxin käytöstä."
-categories: ["Linux"]
+categories: ["Tietokoneet"]
 tags: ["linux-jakelut", "linux", "distro", "distrowatch", "distrochooser", "distrosea", "cachyos"]
 mastodon_post_id: "117511442083610543"
 ---

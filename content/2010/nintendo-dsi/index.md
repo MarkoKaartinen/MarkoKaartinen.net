@@ -3,7 +3,7 @@ title: "Nintendo DSi"
 date: 2010-12-06T17:16:00
 lastmod: 2014-12-10T19:16:00
 description: "Vaikka tämä laite on ollut minulla jo kauan niin en ole kirjoittanut siitä tänne. En ainakaan omaa artikkelia ole sille omistanut. Joten tässä tulee se artikkeli joka olisi pitänyt kirjoittaa jo kauan sitten. DSihän on Nintendon valmistama käsikonsoli ja se on oikeastaan parannettu versio alkuperäisestä DS:stä ja DS litestä. Kokoahan tällä laitteella ei ole paljoa"
-categories: ["Blogi", "Marko testaa", "Pelit"]
+categories: ["Marko testaa"]
 tags: ["dsi", "käsikonsoli", "nintendo", "nintendo dsi", "pelaaminen", "pelit"]
 aliases: ["/nintendo-dsi/"]
 ---

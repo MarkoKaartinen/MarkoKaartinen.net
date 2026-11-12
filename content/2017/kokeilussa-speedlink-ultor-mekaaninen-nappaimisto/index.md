@@ -2,7 +2,7 @@
 title: "Kokeilussa Speedlink ULTOR mekaaninen näppäimistö"
 date: 2017-05-02T10:44:00
 description: "Ensimmäistä kertaa sain mahdollisuuden päästä kokeilemaan Speedlink ULTOR mekaanista näppäimistöä. Kerronkin hieman omia kokemuksiani tästä näppäimistöstä."
-categories: ["Kokeilussa"]
+categories: ["Marko testaa"]
 tags: ["kokeilu", "kokeilussa", "mekaaninen", "mekaaninen näppäimistö", "näppäimistö", "näppis", "speedlink", "speedlink ultor", "testi", "ultor"]
 aliases: ["/kokeilussa-speedlink-ultor-mekaaninen-nappaimisto/"]
 ---

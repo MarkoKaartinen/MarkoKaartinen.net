@@ -3,7 +3,7 @@ title: "Myydään Canon EOS 1000D + EFS 18-55mm + EF 75-300mm + muuta"
 date: 2012-09-09T15:23:00
 lastmod: 2012-10-17T10:13:00
 description: "Myydään täydellinen aloituspakkaus aloittelevalle kuvaajalle! Ainut mitä sinun pitää hankkia on sopiva muistikortti! (SD-/SDHC-kortti) Paketissa on Canon EOS 1000D järjestelmäkamera, mukana tullut kittiobjektiivi EFS 18-55m sekä vähän isompi objektiivi EF 75-300mm. Molemmat objektiivit ovat Canonin omia objektiivejä! Mukaan tulee myös ylimääräinen akku kameraan, sekä vastavalosuojat molemmille linsseille! Sekä tietysti myös laturi akuille. Listattuna vielä kaikki"
-categories: ["Blogi"]
+categories: ["Vempaimet"]
 tags: ["canon", "järjestelmäkamera", "kuopio", "myydään"]
 aliases: ["/myydaan-canon-eos-1000d-efs-18-55mm-ef-75-300mm-muuta/"]
 ---

@@ -2,7 +2,7 @@
 title: "Seuraamiani blogeja"
 date: 2010-11-05T14:37:00
 description: "Olen bongannut tämän paristakin blogista(RaivoGalleria ja Unknown Pixels) jo, niin päätin kirjoittaa itsekin samantapaisen artikkelin. Tämä on myös hirveän hyvä tapa tutustua uusiin blogeihin. En ala listaamaan kaikkia Google Readerissani olevia blogjea, mutta osan niistä jaan teidän kanssa. Listaan myöhemmin tänään muiden PeLEttäjien sivustoja. Rollemaa Rollen blogia olen lukenut jo ties kuinka kauan. Ja suosittelen"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["blogeja", "blogit", "esittely", "internet"]
 aliases: ["/seuraamiani-blogeja/"]
 ---

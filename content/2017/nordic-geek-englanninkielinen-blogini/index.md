@@ -2,7 +2,7 @@
 title: "Nordic Geek - englanninkielinen blogini"
 date: 2017-04-03T09:21:00
 description: "Viime viikolla julkaisin englanninkielisen blogini - Nordic Geekin. Mainitsinkin halustani alkaa bloggaamaan englanniksi."
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["bloggaaminen", "blogi", "englanninkielinen", "englanti", "enlanniksi"]
 aliases: ["/nordic-geek-englanninkielinen-blogini/"]
 ---

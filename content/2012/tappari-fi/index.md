@@ -2,7 +2,7 @@
 title: "Täppäri.fi"
 date: 2012-12-15T11:27:00
 description: "Julkaisin eilen uusimman projektini, Täppäri.fi sivuston. Täppäri tulee keskittymään täysin täppäreihin eli tabletteihin eli taulutietokoneisiin. Täppäriiin tulen kirjoittelemaan arvosteluita, uutisia, huhuja sekä muita täppäreihin liittyviä artikkeleita. Pyrin saamaan täppäreitä testiin suoraan valmistajilta, mutta tämä prosessi voi kestää oman aikansa joten tällä hetkellä testilaitteet ovat omia. Täppäri on tietysti rakennettu WordPressin päälle ja teemana on käytetty Genesis"
-categories: ["Blogi", "Internet"]
+categories: ["Koodaus"]
 tags: ["projekti", "sivusto", "täppäri", "tietokoneet", "vekottimet"]
 aliases: ["/tappari-fi/"]
 ---

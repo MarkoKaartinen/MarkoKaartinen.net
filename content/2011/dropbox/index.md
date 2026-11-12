@@ -3,7 +3,7 @@ title: "Dropbox"
 date: 2011-03-26T23:55:00
 lastmod: 2011-03-26T22:55:00
 description: "Dropboxista olen maininnutkin aiemmin kirjoittamassani artikkelissa. Nyt kuitenkin heitän jokusen vinkin, kuinka Dropboxia voi käyttää kunnolla hyödyksi. Opiskelujen apuna Dropbox soveltuu parillakin tapaa opiskelujen avuksi. Jos tallennat Dropboxiin vaikka koulutyösi, pääset käsiksi siihen koulussakin helposti verkon yli, samalla kaikilla koneillasi on sama versio työstäsi. Otetaan esimerkki: Tein opinnäytetyötä kaverini kanssa ja meillä oli tallennuspaikkana Dropbox"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["dropbox", "sovellukset", "työkalut", "vinkit"]
 aliases: ["/dropbox/"]
 ---

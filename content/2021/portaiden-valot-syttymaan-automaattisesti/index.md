@@ -3,7 +3,7 @@ title: "Portaiden valot syttymään automaattisesti"
 date: 2021-12-03T11:10:00
 lastmod: 2021-12-03T11:12:00
 description: "Portaikon valot syttymään automaattisesti Ikea Trådfri liiketunnistimen ja valojen avulla. Kaksi liiketunnistinta ohjaa yhtä valoa."
-categories: ["Älykoti"]
+categories: ["Kotilabra"]
 tags: ["äly", "älykoti", "ikea", "smart home", "trådfri", "valot"]
 series: ["Älykoti"]
 aliases: ["/portaiden-valot-syttymaan-automaattisesti/"]

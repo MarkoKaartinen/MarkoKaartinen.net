@@ -3,7 +3,7 @@ title: "Simppelit napit SoMea varten"
 date: 2015-06-08T16:22:00
 lastmod: 2015-06-08T16:15:00
 description: "Kirjoittelin tässä koodia ja en löytänyt sopivaa lisäosaa WordPressiin, jolla saisin hyvin simppelit sosiaalisen median jakonapit näkyviin siihen kohtaan mihin haluan ne. En halunnut mitään hienoja laskureita tai mitään vaan yksinkertaisen ikonin, jota klikkaamalla voi jakaa artikkelin. Enkä halunnut isoa kasaa erilaisia ikoneita vaan nämä neljä: Faceboo, Twitter, G+ ja LinkedIn. Alla on jotakuinkin lopputulos"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["css", "facebook", "gplus", "linkedin", "napit", "php", "some", "teema", "twitter", "ulkoasu", "vinkki", "wordpress"]
 aliases: ["/simppelit-napit-somea-varten/"]
 ---

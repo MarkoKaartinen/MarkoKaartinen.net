@@ -2,7 +2,7 @@
 title: "Eka kosketus CachyOS Linuxiin pelikoneessa"
 date: 2026-01-15T19:59:00
 description: "Ensimmäiset pari päivää takana CachyOS Linuxin kanssa ja hommat on saatu ns. alulle. Kuten aiemmin sanoin, niin Windowsin rinnalle asennellaan CachyOS ja näin tapahtui tässä tiistaina iltapuhteiksi. Katsotaan hieman mihin asti on päästy parina iltana ja mitä on tullut vastaan tähän mennessä."
-categories: ["Tietokoneet", "Linux"]
+categories: ["Tietokoneet"]
 tags: ["dualboot", "linux", "windows 11", "windows", "cachyos", "pelaaminen", "pelikone", "pelit", "arch linux", "kde plasma", "proton", "käyttöjärjestelmä", "amd", "secure boot", "limine"]
 series: ["Windows ja Linux pelikoneessa"]
 mastodon_post_id: "115900416276421454"

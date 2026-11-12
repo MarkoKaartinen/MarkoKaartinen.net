@@ -3,7 +3,7 @@ title: "Canon PowerShot D20 ensikosketus"
 date: 2013-08-22T14:22:00
 lastmod: 2014-12-10T18:47:00
 description: "Sain postissa Canon PowerShot D20 kompaktikameran eli tuttavallisemmin pokkarin. Ihmettelen tässä artikkelissa hieman tämän kameran spesifikaatioita ja sitä mihin tämä nyt on lähdössä ja miksi. Artikkelissa, joka ilmestyy kuukauden sisään käsitellään tätä kameraa taas tarkemmin siitä miten se pärjäsi minun matkassani. Tulen siis ottamaan tämän kameran mukaan Kreikan matkalleni ja siellä se pääseekin mereen uimaan, snorkkeli"
-categories: ["Blogi"]
+categories: ["Marko testaa"]
 tags: ["canon", "d20", "ensikosketus", "kamera", "kompaktikamera", "matka", "pokkari", "powershot", "powershot d20", "testi", "vedenalainen", "vedenalla", "vedenkestävä", "vesitiivis"]
 aliases: ["/canon-powershot-d20-ensikosketus/"]
 ---

@@ -2,7 +2,7 @@
 title: "Gitlab - Hallitse omia Git repoja"
 date: 2012-11-06T09:01:00
 description: "Gitlab oli myös yksi must have softia omalle palvelimelleni. Sen kanssa tuli säädettyä jo perjantaina, mutta eilen vasta sain laitettua sen siihen kuntoon että lisäilin omia projekteja sinne. Itsellähän oli myös Githubiin privaattirepoja, mutta tämä hoitaa asian ilmaiseksi ja mikä parasta tätäkin kehitetään aktiivisesti."
-categories: ["Blogi", "Kotipalvelin"]
+categories: ["Kotilabra"]
 tags: ["asennus", "git", "gitlab", "kotipalvelin", "ohjelma", "palvelin", "serveri", "softa", "ubuntu"]
 aliases: ["/gitlab-hallitse-omia-git-repoja/"]
 ---

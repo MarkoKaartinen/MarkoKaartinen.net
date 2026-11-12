@@ -2,7 +2,7 @@
 title: "Mitähän tämäkin on?"
 date: 2010-10-19T13:00:00
 description: "Sain tänään kaksi vähintäänkin mielenkiintoista palautetta palautelomakkeen kautta. Ja koska niissä ei ole päätä eikä häntää niin julkaisen ne ja kysynkin: MITÄ IHMETTÄ?!?! Ensimmäinen viesti tuli klo 12.21 ja lähettäjänä oli Tero Pelkonen (kukahan lie) ja otsikko oli Pysythän Savossa: Emme halua sinua Etelä-Suomeen. Me. Ja toinen viesti tuli klo 12.23 ja lähettäjänä Marko Kyttälä"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["mitä ihmettä", "palaute", "sähköposti", "trolli"]
 aliases: ["/mitahan-tamakin-on/"]
 ---

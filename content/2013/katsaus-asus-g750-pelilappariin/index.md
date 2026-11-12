@@ -2,7 +2,7 @@
 title: "Katsaus ASUS G750 peliläppäriin"
 date: 2013-07-30T12:58:00
 description: "Katsastan Asus G750 peliläppäriä alla olevalla videolla ja lopussa on vielä tekniset tiedot kyseisestä koneesta. Tekniset tiedot Näyttö: 17.3″ FullHD (1920×1080) matta Suoritin: Intel Core i7 4700HQ 2.4 GHz Muisti: 8 GB (2x4GB, 4 muistikantaa 2 vapaana) DDR3-1600 Kiintolevy: 750 GB SATA, 2 2,5″ levypaikkaa 1 vapaana Näytönohjain: NVIDIA GTX 770 3 GB tai NVIDIA"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["asus", "g750", "kannettava", "pelaaminen", "peliläppäri", "pelit", "rog", "tietokone", "tietokoneet"]
 aliases: ["/katsaus-asus-g750-pelilappariin/"]
 ---

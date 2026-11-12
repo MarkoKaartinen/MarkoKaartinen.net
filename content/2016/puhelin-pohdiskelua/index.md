@@ -3,7 +3,7 @@ title: "Puhelin pohdiskelua"
 date: 2016-04-22T19:23:00
 lastmod: 2017-03-06T08:32:00
 description: "Palataan taas tähän tuttuun ja \"turvalliseen\" aiheeseen. Nimittäin puhelimiin ja siihen, että minkä helkutin puhelimen sitä seuraavaksi ostaa."
-categories: ["Matkapuhelimet"]
+categories: ["Mobiili"]
 tags: ["galaxy s7", "galaxy s7 edge", "kännykkä", "matkapuhelin", "puhelin", "s7", "s7 edge", "samsung", "sony", "x performance", "xperia", "xperia x performance"]
 aliases: ["/puhelin-pohdiskelua/"]
 ---

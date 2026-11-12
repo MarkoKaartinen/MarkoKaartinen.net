@@ -3,7 +3,7 @@ title: "Ikoneita, ikoneita ja lisää ikoneita"
 date: 2009-01-05T10:50:00
 lastmod: 2009-01-05T11:11:00
 description: "Kuten olette varmaan huomanneet, sivustoni käyttää ikoneita tietyissä kohdissa. Kyseessä on famfamfam.comin ikonisetti nimeltään Silk Icons. Ikonit on käytettävissä seuraavalla lisenssillä, suora lainaus: I also love to hear of my work being used, feel encouraged to send an email with a link or screenshot of the icons in their new home to mjames at gmail"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["ikonit", "sivusto"]
 aliases: ["/ikoneita-ikoneita-ja-hieman-lisaa-ikoneita/"]
 ---

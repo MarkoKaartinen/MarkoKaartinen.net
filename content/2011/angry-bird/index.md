@@ -1,7 +1,7 @@
 ---
 title: "Angry Bird!!!"
 date: 2011-03-22T16:30:00
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["angry", "angry bird", "bird", "kuva", "lintu", "pehmolelu"]
 aliases: ["/angry-bird/"]
 ---

@@ -3,7 +3,7 @@ title: "O hai! Pitkästä aikaa!"
 date: 2009-05-07T18:31:00
 lastmod: 2014-12-10T19:25:00
 description: "O hai!! En ole pariin kuukauteen kirjoitellutkaan tänne ja päätin, että nyt on katkaistava tämä blogaamattomuuden putki. Tämän blogauksen tarkoitus on hieman kerrata parin kuukauden tapahtumia eli edellisen postauksen jälkeisiä säätöjä/hankintoja (Lapselle leluja). Leluja ja dataromua Aloitetaan näistä leluista ensimmäisenä! Eli olen hankkinut tuon iPhonen, kyllä luitte oikein Applen iPhone 16gig tuli hankittua tässä reilu"
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["eee pc 901", "elämä", "iphone", "kamera", "kesä", "lelut", "synttärit", "vappu"]
 aliases: ["/o-hai-pitkasta-aikaa/"]
 ---

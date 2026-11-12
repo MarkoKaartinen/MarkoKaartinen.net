@@ -3,7 +3,7 @@ title: "#MKnet @ QuakeNet"
 date: 2014-12-22T16:17:00
 lastmod: 2024-10-21T09:41:00
 description: "Jotkut muistaa varmaan ajan jolloin ylläpidin omaa webhostia ja ajan jolloin tarjosin ilmaisia irssi shellejä. Näiden kokemusten kautta olenkin kerännyt oppia ja tietoa itselleni tätä päivää varten. Nämä ilmaiset projektit ovat mahdollistaneet sellaisen oppimisen mihin en muuten olisi välttämättä tilaisuutta saanut. Olkoon tämä alku teille kaikille ilmaisena vinkkinä: Säätäkää, kokeilkaa ja yrittäkää! Takaisin otsikon mukaiseen"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["irc", "irssi", "kanava", "mknet", "nörtti", "podcast", "quakenet", "sivusto"]
 aliases: ["/mknet-quakenet/"]
 ---

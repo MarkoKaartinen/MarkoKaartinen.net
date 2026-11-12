@@ -3,7 +3,7 @@ title: "Hajoilemista"
 date: 2008-01-09T21:46:00
 lastmod: 2012-04-07T11:21:00
 description: "Blogissa on ideana kirjoitella kirjoittajan ilosta ja surusta ja ennen kaikkea hajoilemisista. Voisin aloittaa näistä hajoamisista. Eilen hajoilen Visual Basiciin ja harkkatyöhön todella pahasti, sitten se alkoi helpottamaan iltaa myöten ja siitä tuli oikein passeli työ, aina siihen asti kunnes tänään avasin sen. Hajoisin VB:n tiedoston käsittelyyn aika ihanasti, sillä sekään ei meinannut oikein ottaa tuulta allensa, mutta senkin sain ratkaistua. Ja olin jo luullut, että homma on pihvi. Mutta mutta kas kummaa"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["avautuminen", "hajoaminen"]
 aliases: ["/hajoilemista/"]
 ---

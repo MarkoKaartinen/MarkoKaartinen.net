@@ -3,7 +3,7 @@ title: "Kranaattisateessa"
 date: 2008-05-20T01:13:00
 lastmod: 2014-12-10T19:29:00
 description: "Olipa kerran taistelija nimeltä ZeTakes. Eräänä päivänä hän joutui keskellä taistelua nimeltä mainitsemattomassa maassa ja paikassa. Taistelun tuoksinnassa hän kuuli kilinää ympäriltään ja sillä hetkellä hän yritti juosta karkuun minkä kintuistaan pääsi, mutta turhaan sillä tämä kilinä oli kranaattisade. Pari askelta otettuaan granaatit räjähtelivät ZeTakesin ympärillä ja mitäpä muuta tästä voi seurata kuin kuolema. Tämä"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["cod4", "granaattisade", "pc", "pelit", "zetakes"]
 aliases: ["/kranaattisateessa/"]
 ---

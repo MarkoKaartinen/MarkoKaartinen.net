@@ -2,7 +2,7 @@
 title: "Anonymiteetti blogissa"
 date: 2010-12-12T22:15:00
 description: "Pohdiskelin jo Twitterissä anonyyminä bloggaamista. Ja ajattelin pohtia sitä hieman täälläkin. En voi täällä puhua kaikista asioista, koska en halua tuoda internetissä esille kovinkaan henkilökohtaisia asioita. Ja olen tietoinen siitä, että tämä blogi on minun nimelläni ja kaikki kirjoitukset ovat minun. Täällä ei ole mitään kauhean henkilökohtaista. Mitä hyviä puolia tässä sitten olisi? No ainakin"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["anonymiteetti", "anonyymi", "bloggaaminen", "blogi", "elämä"]
 aliases: ["/anonymiteetti-blogissa/"]
 ---

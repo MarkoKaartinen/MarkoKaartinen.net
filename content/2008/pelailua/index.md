@@ -3,7 +3,7 @@ title: "Pelailua"
 date: 2008-06-14T12:32:00
 lastmod: 2013-08-05T14:51:00
 description: "Kesä ja kärpäset, nörtti ja tietokone. Olen lomalla, kuukauden päivät ollut jo. Töitä koittanut saada, mutta ei ole tärpännyt, näinpä olen keskittynyt dataamiseen. Pelit, nämä ajan tappajat ja arjen piristäjät. Olen keskittänyt pelaamiseen muutamaan peliin. Nyt kerron omat mielipiteeni kolmesta pelistä. Joista jokaisesta on shotteja kirjoituksen lopussa. Crysis Tämä tehosyöppö peli on yksi parhaimman näköisistä"
-categories: ["Blogi"]
+categories: ["Pelit"]
 tags: ["kesä", "pelaaminen", "pelit"]
 aliases: ["/pelailua/"]
 ---

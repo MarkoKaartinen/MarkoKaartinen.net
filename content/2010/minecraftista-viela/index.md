@@ -3,7 +3,7 @@ title: "Minecraftista vielä"
 date: 2010-09-14T16:31:00
 lastmod: 2013-08-05T16:25:00
 description: "Kirjoitettuani artikkelin Minecraftista aiemmin. On sivustolle eksynyt päivittäin kävijöitä hakusanalla minecraft. Tämä nyt kertoo minulle jo tietämäni asian, eli sen että Minecraft on noussut erittäin suosituksia ja useampikin media on kiinnittänyt huomiota siihen. Olen ollut pari viikkoa irti Minecraftista sillä en ole saanut aikaiseksi pelata oikein mitään, yksi peli on työn alla, mutta ei siitä"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["hype", "minecraft", "pelaaminen", "pelit"]
 aliases: ["/minecraftista-viela/"]
 ---

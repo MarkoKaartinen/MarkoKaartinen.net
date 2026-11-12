@@ -2,7 +2,7 @@
 title: "Pottu"
 date: 2011-02-17T17:11:00
 description: "Nyt kaikki miettii, että mikähän peruna artikkeli täältä on tulossa. No tällä kertaa en ala perunasta puhumaan, eikä nyt kyllä liipata ruokaa millään muulla kuin tuolla nimellä. Mikä on Pottu? Pottu on nimittäin minun pitkäaikainen projekti. Kyseessähän on siis minun oma virtuaalipalvelin. Virtuaalipalvelinhan (vps) on käytännössä osa fyysistä palvelinta, virtuaalipalvelinhan käyttäytyy kuitenkin kuin oikea fyysinen"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["palvelin", "pottu", "projekti", "twitter", "vps", "www"]
 aliases: ["/pottu/"]
 ---

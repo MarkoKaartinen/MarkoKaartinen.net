@@ -2,7 +2,7 @@
 title: "Käyttämiäni Mac sovelluksia"
 date: 2015-02-20T13:23:00
 description: "Olen tehnyt listauksia iPadin ja iPhonen sovelluksista. Miksi en siis listaisi ihan perus Mac sovelluksia joita käytän. Suurin osa sovelluksista tulee olemaan työhöni viittaavia sovelluksia sillä MacBook Pro on itselläni pääasiassa työkone. Käytän toki konetta myös vapaa-ajalla, mutta suurin osa käytöstä on työkäyttöä. Aloitetaan nyt kuitenkin! Tower Tower on graafinen Git clientti ja olen käyttänyt tätä sovellusta"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["1password", "apps", "codekit", "evernote", "mac", "mac os x", "macbook pro", "sovellukset", "sublime text", "tower", "tweetbot", "vinkit"]
 aliases: ["/kayttamiani-mac-sovelluksia/"]
 ---

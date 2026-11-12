@@ -2,7 +2,7 @@
 title: "Git"
 date: 2011-12-17T21:28:00
 description: "Tämä aihe menee taas kategoriaan harva ymmärtää tai toivon ainakin, että moni lukija ymmärtää (parempi puoliskoni ei, pahoittelut hänelle :)). Git on erittäin suosittu Linus Torvaldsin kehittämä versionhallintaohjelmisto, joka on suunniteltu toimimaan hajautetusti ja mahdollisimman tehokkaasti. Lueskelin Wikipediasta Gitistä tässä ja silmään pisti se, että Git tarkoittaa britti slangissa ääliötä. Linus Torvalds sanoi tuohon liittyen"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["git", "github", "koodaus", "ohjelmointi", "versionhallinta"]
 aliases: ["/git/"]
 ---

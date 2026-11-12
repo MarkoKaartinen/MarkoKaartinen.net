@@ -3,7 +3,7 @@ title: "Sony DSC-QX10 arvostelu"
 date: 2013-11-25T14:21:00
 lastmod: 2014-03-29T16:25:00
 description: "Sain vajaa pari viikkoa sitten käsiini Sonyn DSC-QX10 kameran. Tämä kamerahan on tarkoitettu käytettäväksi kännykän kaverina. Tällöin kännykkä saa varsin passelin kameran. QX10:n etsimenä toimii käytännössä kännykkä ja voitkin laittaa sen kännykkään kiinni mukana tulevan adapterin avulla. Itse keskityinkin lähinnä mitenkä tämä soveltuu vlogaamiseen ja esimerkiksi tämä vlogi on kuvattu tuolla Sonyn kameralla. Vasemmalla onkin"
-categories: ["Blogi"]
+categories: ["Marko testaa"]
 tags: ["dsc-qx10", "kamera", "kännykkä", "puhelin", "sony", "videokamera", "vlog"]
 aliases: ["/sony-dsc-qx10-arvostelu/"]
 ---

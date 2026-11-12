@@ -3,7 +3,7 @@ title: "Pleikka.fi - uusin projektini"
 date: 2015-03-05T16:18:00
 lastmod: 2015-03-09T15:10:00
 description: "Pleikka.fi domain oli ”pöytälaatikossani” puolisen vuotta ja nyt sain suunnnan ja innostuksen rakentaa siitä jotain fiksua. Törmäsin nimittäin Discourse nimiseen foorumisoftaan (tästä lisää myöhemmin) ja otin sen pohjaksi. Lopputuloksena on Pleikka.fi – Suomalainen PlayStation yhteisö. Olen koittanu rakentaa erinäköisiä yhteisöjä ja epäonnistunutkin niissä aikeissa. Nyt kuitenkin koitan viedä tämän siihen pisteeseen, että saadaan keskustelua aikaan"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["discourse", "foorumi", "playstation", "pleikka", "pleikka.fi", "projekti", "proju", "ps", "sivusto", "yhteisö"]
 aliases: ["/pleikka-fi-uusin-projektini/"]
 ---

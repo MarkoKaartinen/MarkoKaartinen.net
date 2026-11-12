@@ -2,7 +2,7 @@
 title: "'9gag:"
 date: 2010-10-30T09:08:00
 description: "9gag: Halo007"
-categories: ["Tumblr"]
+categories: ["Huumori"]
 tags: ["tumblr"]
 aliases: ["/9gaghalo007/"]
 ---

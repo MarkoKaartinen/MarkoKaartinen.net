@@ -3,7 +3,7 @@ title: "Joulukalenterin luukku 13"
 date: 2015-12-13T13:43:00
 lastmod: 2015-12-04T10:36:00
 description: "Tällä kertaa onkin yksinkertainen luukku nimittäin vinkkaan teille jouluradiosta. Jouluradiosta kuuleekin joulumusiikkia ja siitä kannattaakin lueskella enemmän jouluradion omilta verkkosivuilta. Jouluradiota voi kuunnella niin nettiradiona kuin sitten perinteisellä radiolla. Alla onkin tämän vuoden jouluradion taajuudet lueteltuna. Rovaniemi 90,0 MHz Oulu 91,6 MHz Kajaani 90,0 MHz Seinäjoki 102,4 MHz Jyväskylä 98,7 MHz Kuopio 96,3 MHz Joensuu"
-categories: ["Joulukalenteri 2015"]
+categories: ["Elämä"]
 tags: ["joulu", "joulukalenteri", "joulukalenteri 2015", "jouluradio", "luukku", "luukku 13", "musiikki", "radio"]
 aliases: ["/joulukalenterin-luukku-13/"]
 ---

@@ -3,7 +3,7 @@ title: "Arkihaaste 2/5"
 date: 2014-04-27T20:45:00
 lastmod: 2014-04-30T07:43:00
 description: "Arkihaaste jatkuu sunnuntaipäivänä ja se jatkuikin suht laiskan päivän merkeissä."
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["arkihaaste", "elämä", "grilli", "kissa", "kuva", "kuvat", "kuvia", "marko", "paavo"]
 aliases: ["/arkihaaste-25/"]
 ---

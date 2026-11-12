@@ -3,7 +3,7 @@ title: "Apple iPad2 – markkinoiden paras tablet?"
 date: 2011-05-05T10:14:00
 lastmod: 2024-10-21T17:10:00
 description: "Apple julkaisi Maaliskuun loppupuolella päivitetyn version suositusta iPad tabletistaan. Muutamilla pienillä ja parilla suuremmallakin uudistuksella Applen jalansija tablet markkinoilla alkaa olla todella vankka. Ensimmäisen polven iPad ostajilla ei kuitenkaan ole syytä paniikkiin sillä suoranaisia huippuominaisuuksia uuteen versioon on lisätty niukasti. Toki vannoutuneelle Apple fanille ostos on välttämätön. Toinen versio iPadistä tulikin markkinoille monien mielestä verrattain"
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["apple", "ipad", "ipad2", "tablet"]
 aliases: ["/apple-ipad2-markkinoiden-paras-tablet/"]
 ---

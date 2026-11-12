@@ -2,7 +2,7 @@
 title: "Ei tekosyitä..."
 date: 2012-03-24T20:35:00
 description: "Suotta niitä latelemaan, ei ole ollut vain kauheaa innostusta kirjoitella mistään. Ideoita on silti ja katselen tässä saanko testattavaksi pari asiaa tänne. Ei niinkään laitteita, mutta ohjelmia ja tämmösiä pieniä juttuja olisi mielessä. Perjantaipohdinnan olen tahtomattani oikeastaan kuopannut. Ei nimittäin ihan äsken ole tullut minkäänlaista perjantaipohdintaa. No ehkäpä palaan siihen perinteiseen ”kirjoitan kun jaksan” taktiikkaan."
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["blogi", "elämä", "marko", "sekalaista", "sivusto"]
 aliases: ["/ei-tekosyita/"]
 ---

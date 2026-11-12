@@ -3,7 +3,7 @@ title: "Pari Firefox lisäosaa Eeelle"
 date: 2008-11-26T15:29:00
 lastmod: 2014-12-10T19:26:00
 description: "Lupailin teille opasta tästä aiheesta joten tässä se on. Oletuksena Firefox näyttää seuraavalta: Tarkoituksena on luoda hieman lisää tilaa sivun näkymiselle ja se on erittäin simppeli operaatio ja seuraavien ohjeiden avulla se onnistuu. Aloitetaan asentamalla kaksi lisäosaa: Stop-or-Reload Button Tiny Menu Tämän jälkeen käynnistä Firefox uudestaan. Käynnistyksen jälkeen muokataan työkalupalkkeja, joka tapahtuu seuraavan polun kautta:"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["eee pc 901", "firefox", "vinkki"]
 aliases: ["/pari-firefox-lisaosaa-eeelle/"]
 ---

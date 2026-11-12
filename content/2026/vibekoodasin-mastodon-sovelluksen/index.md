@@ -2,7 +2,7 @@
 title: "Vibekoodasin Mastodon-sovelluksen"
 date: 2026-10-12T11:35:00
 description: "Vibekoodasin tekoälyn avulla oman Mastodon-sovelluksen. Näin syntyi Ronsu, jolla voin jatkaa Mastodonin lukemista samasta kohdasta eri laitteilla."
-categories: ["Tekoäly"]
+categories: ["Koodaus"]
 tags: ["tekoäly", "ai", "openclaw", "claude code", "claude", "chatgpt", "codex", "vibekoodaus", "koodaaminen", "koodaus", "ronsu", "mastodon", "ohjelmointi"]
 mastodon_post_id: "117427018504238760"
 ---

@@ -3,7 +3,7 @@ title: "Podcast välineistöä"
 date: 2014-11-08T14:11:00
 lastmod: 2014-11-13T10:21:00
 description: "Olen nyt viime päivien aikana tutkinut millaista välineistöä podcastin tekemiseen voisi hankkia. Olen nyt saanut vajaan parin sadan euron setin joka sisältää hyvän välineistön ja mahdollistaa laajennettavuuden tarvittaessa. Lähdenkin esittelemään tätä settiä teille kommentoitavaksi ja ihmeteltäväksi – kommentit ja ehdotukset ovat tervetulleita! Mikrofoni on tietysti yksi tärkein osa tätä setuppia ja tutkailemisen jälkeen päädyin Audio-Technica AT2020"
-categories: ["Blogi"]
+categories: ["Vempaimet"]
 tags: ["mikrofoni", "mikseri", "podcast", "tekniikka", "välineet"]
 aliases: ["/podcast-valineistoa/"]
 ---

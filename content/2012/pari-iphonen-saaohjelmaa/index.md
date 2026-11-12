@@ -3,7 +3,7 @@ title: "Pari iPhonen sääohjelmaa"
 date: 2012-06-11T16:34:00
 lastmod: 2014-12-10T19:05:00
 description: "iPhonelle on tullut pari sääohjelmaa, jotka huomasin tuossa yksi päivä. Nimittäin Foreca ja Ilmatieteen laitos ovat tuoneet omat sääohjelmansa iPhonelle. Käytän molempien verkkosivuja ja halusin katsoa millaisia näiden ohjelmat ovat. Päätin siis hieman tutustua niihin. Ilmatieteen laitos Ilmatieteen laitoken sääohjelma on kertakaikkiaan komean näköinen. Itselläni ei ollut mitään ongelmaa tuon kanssa kun koitin sitä suhteellisen"
-categories: ["Apple", "Blogi", "Marko testaa"]
+categories: ["Marko testaa"]
 tags: ["app store", "apple", "apps", "appsit", "appstore", "foreca", "ilmatieteen laitos", "iphone", "ohjelmat", "sää", "testi"]
 aliases: ["/pari-iphonen-saaohjelmaa/"]
 ---

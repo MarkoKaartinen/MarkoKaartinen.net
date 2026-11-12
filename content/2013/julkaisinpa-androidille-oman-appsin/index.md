@@ -3,7 +3,7 @@ title: "Julkaisinpa Androidille oman appsin"
 date: 2013-01-27T12:38:00
 lastmod: 2014-12-10T18:59:00
 description: "Näin pääsi tosiaan käymään ja tein ensimmäisen mobiilipuolen sovelluksen ikinä. Valitsin ympäristöksi Androidin sillä siellä ei ole järjettömiä kehittämiskustannuksia siitä, että voit julkaista sovelluksen. Googlen Play kauppaan piti pistää 25 dollaria, mutta katsotaan josko sen saisi tienattua takaisin joskus. Androidin valitsin myös siksi, koska halusin tehdä jotain Nexus 7 täppärille ja olen Eclipseä käyttänyt kouluaikoina"
-categories: ["Blogi", "Matkapuhelimet"]
+categories: ["Koodaus"]
 tags: ["adt", "android", "app", "google", "google play", "play", "sovellus", "sovelluskehitys", "täppäri", "täppäri.fi", "matkapuhelin"]
 aliases: ["/julkaisinpa-androidille-oman-appsin/"]
 ---

@@ -3,7 +3,7 @@ title: "Kokeilussa AdminLabs valvontatyökalu"
 date: 2016-08-15T17:27:00
 lastmod: 2016-09-26T14:49:00
 description: "Minulle tarjottiin mahdollisuutta päästä kokeilemaan AdminLabs valvontatyökalua ja tietenkin suostuin siihen. Tässä siis omia kokemuksia työkalusta."
-categories: ["Kokeilussa"]
+categories: ["Marko testaa"]
 tags: ["esittelyssä", "kokeilussa", "palvelimet", "palvelin", "palvelu", "sivusto", "sivut", "valvonta", "valvontatyökalu", "verkko", "verkkopalvelu", "verkkosivu", "verkkosivut", "ylläpito"]
 aliases: ["/kokeilussa-adminlabs-valvontatyokalu/"]
 ---

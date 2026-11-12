@@ -2,7 +2,7 @@
 title: "Kun kovalevy menee rikki..."
 date: 2012-09-24T12:58:00
 description: "Tämä on ehkä ärsyttävin tilanne mihin tietokoneen käyttäjä voi törmätä. Kovalevy on kuitenkin se osa tietokoneesta, jolle kaikki data tallennetaan. Monelle tulee yllätyksenä, se tilanne kun kovalevy menee rikka ja data saattaa olla menetetty. Itselläni tuli tämä tilanne eteen viime lauantaina kun oman MacBook Pro läppärini kiintolevy päätti sanoa työsopimuksensa irti. Itsellänihän on se tilanne,"
-categories: ["Apple", "Blogi"]
+categories: ["Tietokoneet"]
 tags: ["apple", "kiintolevy", "kovalevy", "laiterikko", "macbook", "macbook pro", "varmuuskopiointi"]
 aliases: ["/kun-kovalevy-menee-rikki/"]
 ---

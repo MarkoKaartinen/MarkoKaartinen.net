@@ -3,7 +3,7 @@ title: "Kokeilussa Groupon.fi"
 date: 2012-06-04T17:28:00
 lastmod: 2012-07-16T12:29:00
 description: "Päätin kokeilla Groupon.fi palvelua sillä sieltä näkyy saavan edullisia lahjakortteja. Näitä en ole ennen kokeillut, joten päätin lähteä koittamaan sillä eihän se kirpaise kuin kerran. Tutkiskelin parin viikon ajan milloin löytyisi passeli diili minulle kokeiltavaksi ja tänään se löytyi. Huomasin nimittäin, että siellä oli avaimen näköinen muistitikku ja vielä suhteellisen edullisesti (värikin oli valittavissa, sainpahan"
-categories: ["Blogi", "Marko testaa"]
+categories: ["Marko testaa"]
 tags: ["groupon", "kokeilu", "palvelu", "sivusto"]
 aliases: ["/kokeilussa-groupon-fi/"]
 ---

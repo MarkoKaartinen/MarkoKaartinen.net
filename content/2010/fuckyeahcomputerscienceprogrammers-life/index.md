@@ -3,7 +3,7 @@ title: "fuckyeahcomputerscience:Programmer’s Life"
 date: 2010-07-31T10:33:00
 lastmod: 2024-10-21T16:49:00
 description: "fuckyeahcomputerscience: Programmer’s Life"
-categories: ["Tumblr"]
+categories: ["Huumori"]
 tags: ["tumblr"]
 aliases: ["/fuckyeahcomputerscienceprogrammers-life/"]
 ---

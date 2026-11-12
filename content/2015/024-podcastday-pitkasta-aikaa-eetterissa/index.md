@@ -3,7 +3,7 @@ title: "024 #Podcastday - pitkästä aikaa eetterissä"
 date: 2015-09-30T18:04:00
 lastmod: 2017-03-02T15:07:00
 description: "Palaan pitkästä aikaa eetteriin podcastin merkeissä. Hävettää ihan, että näin vähän on tullut podcasteja tänä vuonna.. Hyi minua! Alla kuitenkin tämänkertaisen podcastin muistilista ja kommentteja. #Podcastday Tämä kansainvälinen podcast päivä sai minut tekemään tämän podcastin joten suon sille pari sanaa ja mainosta samalla. Tuota linkkaamaani sivustoa kannataa käydä tutkailemassa, löytyypi nimittäin mielenkiintoista historiaa ja muuta"
-categories: ["Podcast"]
+categories: ["Podcastit ja vlogit"]
 tags: ["blogi", "podcast", "podcastday", "tapaaminen.net"]
 aliases: ["/024-podcastday-pitkasta-aikaa-eetterissa/"]
 ---

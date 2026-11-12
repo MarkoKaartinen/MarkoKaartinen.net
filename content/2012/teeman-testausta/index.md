@@ -2,7 +2,7 @@
 title: "Teeman testausta"
 date: 2012-02-25T15:49:00
 description: "Hei taas! Eilen tein videoblogin jossa mainitsin, että teemassa oli bugi. Koitan siis saada tätä teemaa WordPressin teema listaukseen ja tätä kautta teille saataville mahdollisimman helposti. Teemahan on rakennettu Twitterin bootstrapin päälle ja testaukseen tahtoisinkin teidän apuanne! Mikäli huomaat tällä sivustolla jotain outoa niin voit ilmoittaa siitä suoraan Githubissa olevaan Issues osioon. Pääset sinne tästä (Issue-lista)."
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["github", "markosource", "teemat", "testaus", "wordpress"]
 aliases: ["/teeman-testausta/"]
 ---

@@ -3,7 +3,7 @@ title: "011 Marraskuun kertaus, vempaimia & hyvinvointirannekkeet"
 date: 2013-12-05T15:33:00
 lastmod: 2016-01-26T14:10:00
 description: "Pitkästä aikaa uutta podcastia ja tällä kertaa onkin luvassa sekalainen setti erilaisista asioista. Alla on hirveä kasa linkkejä! Vlog Digiexpot 2013 CM Storm Trigger Razer Deathadder 2013 Canon Legria mini: linkki 1 – linkki 2 – linkki 3 Sony DSC-QX10 Sony Xperia Tablet Z: linkki 1 – linkki 2 Jolla JollaSuomi Fitbit Flex Jawbone Up"
-categories: ["Podcast"]
+categories: ["Podcastit ja vlogit"]
 tags: ["fitbit", "fitbit flex", "hyvinvointiranneke", "jawbone", "jawbone up", "jolla", "podcast"]
 aliases: ["/011-marraskuun-kertaus-vempaimia-hyvinvointirannekkeet/"]
 ---

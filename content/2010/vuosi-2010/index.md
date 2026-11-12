@@ -2,7 +2,7 @@
 title: "Vuosi 2010"
 date: 2010-12-31T12:19:00
 description: "On taas tullut aika kirjoittaa se jo perinteeksi muodostunut vuotuinen katsaus minusta ja blogista. (Tästäkin artikkelista tulee varmaan 100 kysymystä eräältä ihmiseltä joten koitan olla kattava ;) ). Eli tulossa on erittäin sekalainen katsaus vuodesta 2010 – asiat eivät ole missään järkevässä järjestyksessä, joten koittakaa kestää. Artikkeleita on tullut 30.12.2010 mennessä 106 kappaletta (kun lasketaan"
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["2010", "elämä", "kertaus", "marko", "vuosi 2010"]
 aliases: ["/vuosi-2010/"]
 ---

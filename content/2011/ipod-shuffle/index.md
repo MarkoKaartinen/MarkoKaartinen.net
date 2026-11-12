@@ -3,7 +3,7 @@ title: "iPod shuffle"
 date: 2011-02-15T20:12:00
 lastmod: 2014-12-10T19:14:00
 description: "Posti toi tänään yhden omppu tuotteen lisää. Nyt oli vuorossa iPod shuffle! Tämän hankinnan syynä oli se, että itsellä ei ole mp3 soitinta tällä hetkellä ja puhelimen akku kuluu suhteellisen aktiivisesti. Tietysti laitteen pieni koko ja näppäryys on eduksi! Seuraavaksi kerron hieman tästä laitteesta ja kerron ensivaikutelman tästä pienestä, mutta pippurisesta vekottimesta. Parin viikon tai"
-categories: ["Apple", "Blogi", "Marko testaa"]
+categories: ["Marko testaa"]
 tags: ["apple", "ipod", "ipod shuffle", "lelut", "mp3", "mp3-soitin", "shuffle"]
 aliases: ["/ipod-shuffle/"]
 ---

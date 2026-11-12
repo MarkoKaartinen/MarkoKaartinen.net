@@ -3,7 +3,7 @@ title: "Rift"
 date: 2011-04-10T21:10:00
 lastmod: 2012-07-16T12:39:00
 description: "Otsiiko jo sen kertoo… tuli langettua… no perhana! Kaikki jotka on seurannut ja tuntee minun pelimieltymyksiä tietävät etten ole MMO pelien fani. Olen koittanut WoWia, mutta se ei iskenyt millään muotoa. 9Dragons on oikeastaan ainut MMO peli jota tuli pelattua enemmän ku pari tuntia. Nyt tosin tuli yritettyä MMO genreä uudestaan Riftin muodossa."
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["elämä", "marko", "mmo", "mmorpg", "pelaaminen", "pelit", "rift"]
 aliases: ["/rift/"]
 ---

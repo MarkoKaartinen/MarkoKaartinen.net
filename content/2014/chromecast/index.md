@@ -3,7 +3,7 @@ title: "Chromecast"
 date: 2014-03-30T16:55:00
 lastmod: 2014-12-10T18:34:00
 description: "Chromecast on simppeli suoratoistolaite, joka tulee television HDMI liitäntään. Laitoin sen tilaukseen heti kun Play kaupan kautta sai sen Suomeen tilattua."
-categories: ["Blogi"]
+categories: ["Vempaimet"]
 tags: ["chrome", "chromecast", "elokuvat", "google", "laite", "netflix", "sarjat", "suoratoisto", "valokuvat", "youtube"]
 aliases: ["/chromecast/"]
 ---

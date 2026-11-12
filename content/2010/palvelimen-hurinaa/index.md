@@ -2,7 +2,7 @@
 title: "Palvelimen hurinaa"
 date: 2010-09-11T13:14:00
 description: "Osa tietääkin, että olen pyörittänyt omaa virtuaalipalvelinta jo parisen vuotta ja ajattelin hieman kertoa kokemuksiani ja mietteitäni. Ensinnäkin selitetään teille sana palvelin: Palvelimella (ark. serveri, servu) tarkoitetaan tietoliikenteen yhteydessä tietokoneessa suoritettavaa palvelinohjelmistoa sekä tällaista ohjelmistoa suorittavaa tietokonetta. Palvelinohjelmistojen tehtävänä on tarjota erilaisia palveluja muille ohjelmille joko tietokoneverkon välityksellä tai paikallisesti samassa tietokoneessa. Palvelinta käyttävää sovellusta"
-categories: ["Blogi"]
+categories: ["Kotilabra"]
 tags: ["elämä", "mietteitä", "palvelin", "säätäminen", "serveri", "virtuaalipalvelin"]
 aliases: ["/palvelimen-hurinaa/"]
 ---

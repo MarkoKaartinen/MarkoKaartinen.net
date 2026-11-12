@@ -2,7 +2,7 @@
 title: "Paperisodan huipennus"
 date: 2011-06-01T20:35:00
 description: "Olen juossut palavereissa, olen täytellyt papereita, olen allekirjoittanut papereita, olen siis ollut niin sanotussa paperisodassa. Kaikki tämä ”sotiminen” on huipentunut siihen, että olemme saaneet perustettua yrityksen ja sillä on jo Y-tunnus! Perustaminen on vaatinut tapaamisia pankeissa, vakuutysyhtiöissä, tilitoimistoissa ja herra ties missä paikoissa. Olemme niin ikään hakeneet starttirahaa ja alkaneet kasvattamaan verkostoa, tulemme vielä kohtaamaan"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["elämä", "kesä", "marko", "paperisota", "yritys"]
 aliases: ["/paperisodan-huipennus/"]
 ---

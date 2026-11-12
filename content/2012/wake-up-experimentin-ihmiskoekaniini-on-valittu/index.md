@@ -2,7 +2,7 @@
 title: "Wake Up Experimentin ihmiskoekaniini on valittu"
 date: 2012-11-12T13:49:00
 description: "Kirjoittelin jo aiemmin tästä Philipsin Wake Up Experimentistä ja tänään julkaistiin projektin ihmiskoekaniini. Hän on Henrik Ljungqvist. Alla Facebookissa Wake Up Experimentin sivuilla julkaistu esittely: Our human guinea pig The human guinea pig in our experiment is Henrik Ljungqvist. Henrik is 24 years old and has spent most of his life oversleeping and wasting time on"
-categories: ["Blogi", "Internet"]
+categories: ["Vempaimet"]
 tags: ["ihmiskoekaniini", "philips", "wake up experiment", "wake-up light", "wakeupexperiment"]
 aliases: ["/wake-up-experimentin-ihmiskoekaniini-on-valittu/"]
 ---

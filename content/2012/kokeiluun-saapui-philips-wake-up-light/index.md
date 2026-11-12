@@ -3,7 +3,7 @@ title: "Kokeiluun saapui Philips Wake-up Light"
 date: 2012-11-27T20:03:00
 lastmod: 2014-12-10T19:01:00
 description: "Sain Philipsiltä kokeiltavaksi Philipsin Wake-up Lightin. Sain sen juuri käsiini ja avasin sen juuri paketista. Tämä malli sattuu olemaan vielä se malli, johon voit pistää iPhonen telakkaan ja tätä taidetaan hallitakin aika pitkälti iPhonella. Jännä nähdä miten tämä valo tulee vaikuttamaan omiin aamuihin sillä itse herään yleensä ennen herätyskelloa. Tämänhän pitäisi aloittaa herättäminen ennen kellon"
-categories: ["Blogi"]
+categories: ["Vempaimet"]
 tags: ["herääminen", "herätys", "philips", "philips wake-up light", "wake-up light"]
 aliases: ["/kokeiluun-saapui-philips-wake-up-light/"]
 ---

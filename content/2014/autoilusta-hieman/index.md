@@ -3,7 +3,7 @@ title: "Autoilusta hieman"
 date: 2014-05-02T14:27:00
 lastmod: 2014-05-01T17:51:00
 description: "Ajattelin kirjoittaa autoilusta hieman sillä olenhan kuitenkin ollut auton omistaja jo useamman vuoden. Ensimmäinen autoni oli Toyota Corolla ja vuosimalli taisi olla 89 ellen väärin muista. Tämä auto meni kuitenkin veljelleni myöhemmin sillä itse en tarvinnut autoa tarpeeksi ja hän tarvitsi sitä enemmän kuin minä. Joku aika Toyotasta luopumisen jälkeen sain toiseksi autoksi dieselillä kulkevan"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["autoilu", "autot", "mazda", "nissan", "toyota", "varaosa", "varaosat"]
 aliases: ["/autoilusta-hieman/"]
 ---

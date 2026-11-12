@@ -2,7 +2,7 @@
 title: "Perjantaipohdinta - tänään pohditaan!"
 date: 2011-10-07T21:30:00
 description: "Viime viikolla jäi pohdinta todella vähäiseksi. Tämä johtui siitä, että olin hieman matkustelemassa ja en muistanutkaan koko pohdintaa ja kun muistin niin en oikein jaksanut kirjoitella siitä sen enempää. Misäthän aloittaisi. No jos alottaisi isoimmasta hankinnastani pitkään pitkään aikaan. Tapahtui niin, että auto pääsi vaihtumaan. Nyt alla on Nissan Almera (vm. -96, diesel) sijaan Mazda"
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["auto", "elämä", "marko", "perjantaipohdinta", "pohdinta", "satunnaista", "tietokoneet"]
 aliases: ["/perjantaipohdinta-tanaan-pohditaan/"]
 ---

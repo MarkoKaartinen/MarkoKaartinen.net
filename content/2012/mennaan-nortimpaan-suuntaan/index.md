@@ -2,7 +2,7 @@
 title: "Mennään nörtimpään suuntaan!"
 date: 2012-10-30T18:31:00
 description: "Olen lueskellut tässä paria ”nörttiblogia” parin päivän ajan ja tullut siihen tulokseen, että omaa blogiani pitää nörintää hieman lisää. Törmään nimittäin silloin tällöin ongelmiin joiden ratkaisu vaatii ns. guuglaamista. Omia ongelmia voisin siis hyödyntää sillä tavalla, että jakaisin ne teidän kanssanne. Varsinkin nyt on hyvä aika aloittaa tämä sillä hankin itselleni tuon aiemmin mainitsemani kotipalvelimen."
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["blogi", "nörtinnys", "sivusto"]
 aliases: ["/mennaan-nortimpaan-suuntaan/"]
 ---

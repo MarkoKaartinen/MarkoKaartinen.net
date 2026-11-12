@@ -2,7 +2,7 @@
 title: "Kaupunki on rajaton Samsung Galaxy S8:n Infinity-näytön avulla"
 date: 2017-05-02T12:20:00
 description: "Kaupunki on rajaton Samsung Galaxy S8:n Infinity-näytön avulla. Samsung Galaxy S8 omaakin mitä mainioimman näytön ja näyttäähän puhelinkin mahtavalta."
-categories: ["Matkapuhelimet"]
+categories: ["Mobiili"]
 tags: ["galaxy s8", "kännykkä", "matkapuhelin", "näyttö", "puhelin", "samsung", "samsung galaxy s8", "samsung s8"]
 aliases: ["/kaupunki-on-rajaton-samsung-galaxy-s8n-infinity-nayton-avulla/"]
 ---

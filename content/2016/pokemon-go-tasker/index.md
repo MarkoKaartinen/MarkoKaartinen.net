@@ -3,7 +3,7 @@ title: "Pokemon Go & Tasker"
 date: 2016-07-17T10:37:00
 lastmod: 2017-03-06T08:30:00
 description: "Olen hieman tutkaillut Pokemon Go peliä tässä viikon aikana ja tänään tuli sitten mieleen, että Tasker nimisellä ohjelmalla saan pari ärsyttävyyttä pois."
-categories: ["Android"]
+categories: ["Mobiili"]
 tags: ["android", "pokemon", "pokemon go", "tasker"]
 aliases: ["/pokemon-go-tasker/"]
 ---

@@ -3,7 +3,7 @@ title: "Nokia Lumia - speksien perusteella"
 date: 2012-02-14T11:29:00
 lastmod: 2014-12-10T19:08:00
 description: "No nyt jotkut lukijoista miettivät ”onko tämä jannu aivan sekaisin?”. Olette huomanneet, että olen ollut Apple myönteinen aina siitä asti, kun iPhone 3G:n suomeen tulosta alettiin huhuta. Nyt kuitenkin puhutaan Nokiasta, ei Androidista eikä Applesta vaan Nokian uusista Lumia puhelimista. Koko tämä ajatus lähti tuosta alla olevasta Tweetistä liikkeelle. [tweet https://twitter.com/MarkoK/status/169017975213535232] Löysin Lumioita kaksi kappaletta"
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["älypuhelin", "lumia", "nokia", "puhelin", "windows"]
 aliases: ["/nokia-lumia-speksien-perusteella/"]
 ---

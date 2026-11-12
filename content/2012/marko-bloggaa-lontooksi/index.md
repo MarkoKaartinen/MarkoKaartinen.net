@@ -2,7 +2,7 @@
 title: "Marko bloggaa lontooksi"
 date: 2012-01-10T08:47:00
 description: "Tämä tulee ehkä päivän myöhässä ns. virallisesta launchista, mutta tämä johtuu taas siitä, että halusin esitellä teille tuota Jekyll settiä ensin. Olen siis aloittanut bloggaamisen myös englanniksi ja tätä en halunnut tietoisesti tuoda tänne sivustolle. Tämä siksi, koska tämä on aina ollut enemmän tai vähemmän suomeksi ja haluan sen pitääkin niin. Tuo englanninkielinen blogi toimii"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["bloggaaminen", "blogi", "englanti", "in english", "marko", "sivusto"]
 aliases: ["/marko-bloggaa-lontooksi/"]
 ---

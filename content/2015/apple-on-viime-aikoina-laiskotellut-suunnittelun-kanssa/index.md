@@ -3,7 +3,7 @@ title: "Apple on viime aikoina laiskotellut suunnittelun kanssa"
 date: 2015-12-10T17:55:00
 lastmod: 2015-12-10T09:42:00
 description: "Nyt on Apple alkanut laiskottelemaan designin kanssa sitten ihan urakalla. Otankin kootusti tässä käsittelyyn kolme tapausta tältä vuodelta ja käydään niitä läpi sitten porukalla."
-categories: ["Apple"]
+categories: ["Mobiili"]
 tags: ["apple", "apple pencil", "design", "iphone", "iphone 6", "latauskuori", "macbook", "magic mouse", "moka", "mokaillut", "suojakuori"]
 aliases: ["/apple-on-viime-aikoina-laiskotellut-suunnittelun-kanssa/"]
 ---

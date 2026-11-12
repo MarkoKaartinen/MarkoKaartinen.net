@@ -2,7 +2,7 @@
 title: "Koitetaan jotain uutta"
 date: 2012-02-07T16:57:00
 description: "Nyt lähdetään koittamaan täysin jotain uutta tämän sivuston historiassa. Yritetään nimittäin saada lahjoituksia, jotka perustuvat täysin vapaaehtoisuuteen. Ketään ei siis pakoteta mihinkään ja mitään ei menetä, jos ei lahjoita. Tosin lahjoittaminen ei tuo myöskään mitään etuja heti. Lahjoittamisen tavoitteena on saada kerättyä euroja erilaisiin ns. palikoihin. Nämä palikat tulisivat sitten erilaisten projektien käyttöön ja tavoitteena"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["keräys", "kokeilu", "lahjoita", "lahjoitus", "paypal", "sivusto"]
 aliases: ["/koitetaan-jotain-uutta/"]
 ---

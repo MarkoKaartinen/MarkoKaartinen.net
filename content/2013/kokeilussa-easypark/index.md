@@ -3,7 +3,7 @@ title: "Kokeilussa EasyPark"
 date: 2013-08-02T18:03:00
 lastmod: 2016-07-19T09:22:00
 description: "Tulin joku aika sitten jo tilanneeksi EasyParkin tarrat ja rekisteröidyin jäseneksi. Tulin huomanneeksi, että Kuopiossa on juurikin asiakkaan parkkipaikka EasyPark parkkipaikka ja näin ollen saan käytettyä tuota EasyParkkia aina kun pysäköin siellä. Tämän ko. asiakkaan luona tuleekin käytyä suhteellisen usein, joten tämä on loistava apuväline siihen. Käyttäminenhän on suhteellisen simppeliä. Länttäät ensin tuon EasyParkin tarran"
-categories: ["Kokeilussa", "Testi"]
+categories: ["Marko testaa"]
 tags: ["auto", "autoilu", "easypark", "kokeilussa", "palvelu", "parkkeeraus", "parkki", "pysäköinti", "pysäköintialue", "testi"]
 aliases: ["/kokeilussa-easypark/"]
 ---

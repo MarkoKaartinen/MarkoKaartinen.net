@@ -3,7 +3,7 @@ title: "Discoursen asentelua"
 date: 2015-03-09T15:09:00
 lastmod: 2016-09-26T15:42:00
 description: "Löysin Discoursen vähän aikaa sitten. Muistaakseni törmäsin tähän jo aiemmin, mutta sivuutin sen aika pitkälti. Piru, se on ilmainen ja avointa lähdekoodia."
-categories: ["Blogi"]
+categories: ["Kotilabra"]
 tags: ["digitalocean", "discourse", "foorumi", "https", "namecheap", "nörtti", "oppiminen", "pleikka", "pleikka.fi", "säätö", "ssl"]
 aliases: ["/discoursen-asentelua/"]
 ---

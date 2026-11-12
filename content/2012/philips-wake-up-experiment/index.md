@@ -2,7 +2,7 @@
 title: "Philips Wake Up Experiment"
 date: 2012-10-19T20:50:00
 description: "Philipsillä on meneillään erittäin mielenkiintoinen kampanja, jossa he koittavat löytää ihmiskoekaniinia herätettäväksi 30 eri tavalla 30 aamun aikana. Tänä syksynä, 14. marraskuuta alkaen, aloitamme selvityksen siitä mikä oikeastaan on paras tapa herätä. Tämän toteutamme kokeilemalla kaikki mieleen tulevat mahdolliset ja mahdottomatkin herätystavat – 30 päivän ajan joka päivä uusi tapa kokeilussa. Uskomme, että uusi, paranneltu"
-categories: ["Blogi", "Internet"]
+categories: ["Vempaimet"]
 tags: ["herääminen", "ihmiskoekaniini", "kampanja", "philips", "wake up experiment", "wake-up light", "wakeupexperiment"]
 aliases: ["/philips-wake-up-experiment/"]
 ---

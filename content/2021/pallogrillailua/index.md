@@ -2,7 +2,7 @@
 title: "Pallogrillailua"
 date: 2021-07-13T08:38:00
 description: "Muutettiin tuossa viime vuoden lopulla ja tänä kesänä taas alkoi herätä ajatus hiilella/briketeillä grillaamisesta, kun siihen tuli mahdollisuus uuden asunnon myötä. Kaasugrillihän minulla on ollut jo aiemminkin pidemmän aikaa ja kesällä grilli käykin kuumana harva se päivä. Laitettiin siis kaasugrilli myyntiin ja uutta grilliä hankkimaan. Kamadohan se olisi ollut perhanan mukava laitos ja se tuleekin"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["bbq", "grilli", "pallogrilli", "ruoka", "weber"]
 aliases: ["/pallogrillailua/"]
 ---

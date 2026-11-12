@@ -2,7 +2,7 @@
 title: "Good stuff and money well spend. I approve!!"
 date: 2010-09-14T16:42:00
 description: "Good stuff and money well spend. I approve!!"
-categories: ["Tumblr"]
+categories: ["Elämä"]
 tags: ["tumblr"]
 aliases: ["/good-stuff-and-money-well-spend-i-approve/"]
 ---

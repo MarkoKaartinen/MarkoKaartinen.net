@@ -3,7 +3,7 @@ title: "Pari sanaa CoD MW2:sta"
 date: 2010-02-12T18:15:00
 lastmod: 2013-08-05T14:40:00
 description: "Pitkästä aikaa jotain CoD MW2:sta tännekkin. Tarkoituksena olisi siis jakaa joitain ajatuksia/”saavutuksia” tai jotain vastaavaa tässä postauksessa. Aloitetaan aina niin hienosta aiheesta kuin huijarit. Nämä pelien pohjasakka ja inhotuimmat jäsenet. Olen törmännyt pelatessani jokusen kerran niin aimbottien käyttäjiin kuin muihin vastaaviin huijareihin. Törkeimpiä huijauksia on huijata itselle pisteitä. Tähän liittyen törmäsin eräs päivä pelatessani huijariin,"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["cod", "cod mw2", "pelaaminen", "pelit"]
 aliases: ["/pari-sanaa-cod-mw2sta/"]
 ---

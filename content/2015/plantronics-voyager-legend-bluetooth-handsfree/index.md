@@ -3,7 +3,7 @@ title: "Plantronics Voyager Legend bluetooth handsfree"
 date: 2015-09-28T14:42:00
 lastmod: 2016-11-30T08:04:00
 description: "Minun piti uusia bluetooth handsfree ja tällä kertaa ajattelin ostaa kunnollisen. Katsotaan miten Plantronicsin Voyager legend on minun käytössä pärjännyt."
-categories: ["Vempaimet"]
+categories: ["Marko testaa"]
 tags: ["arvostelu", "autoilu", "bluetooth handsfree", "handsfree", "lisätarvike", "lisävaruste", "plantronics", "voyager legend"]
 aliases: ["/plantronics-voyager-legend-bluetooth-handsfree/"]
 ---

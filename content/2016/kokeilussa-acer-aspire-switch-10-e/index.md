@@ -3,7 +3,7 @@ title: "Kokeilussa Acer Aspire Switch 10 E"
 date: 2016-06-07T07:08:00
 lastmod: 2016-07-19T07:11:00
 description: "Sain Acerilta kokeiluun heidän pienen Acer Aspire Switch 10 E kannettavan. Päätin lähteä kokeilemaan saisinko omaa työnkulkua tälle koneelle toimimaan."
-categories: ["Kokeilussa"]
+categories: ["Marko testaa"]
 tags: ["acer", "aspire", "esittelyssä", "hybridi", "kannettava", "läppäri", "switch 10 e", "testailee", "testi", "testissä", "tietokone"]
 aliases: ["/kokeilussa-acer-aspire-switch-10-e/"]
 ---

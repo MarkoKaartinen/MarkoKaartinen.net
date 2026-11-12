@@ -3,7 +3,7 @@ title: "Konsoli tuli taloon"
 date: 2009-10-25T11:45:00
 lastmod: 2014-12-10T19:23:00
 description: "Tarkkaavaisimmat ovat huomanneet Twitterin ja Twitpicin (ja ehkä Facebookin) kautta, että olen hankkinut Xbox 360 pelikonsolin. Hankinta on ollut jo pitkään mielessä ja nyt se tuli viimein hankittua. Ja sanon jo nyt tämän: PS3 hehkuttajat voivat hehkuttaa jossain muualla! Mutta itse asiaan, eli ellei joku nyt tiedä niin Xboxi on Mikkisoftan konsoli ja kyseessä on"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["konsoli", "nhl 2010", "pelaaminen", "pelit", "xbox 360"]
 aliases: ["/konsoli-tuli-taloon/"]
 ---

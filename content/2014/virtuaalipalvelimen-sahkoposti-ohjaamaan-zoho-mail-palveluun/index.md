@@ -3,7 +3,7 @@ title: "Virtuaalipalvelimen sähköposti ohjaamaan Zoho Mail palveluun"
 date: 2014-01-24T12:44:00
 lastmod: 2014-12-10T18:33:00
 description: "Kuten tiedätte niin tämä sivusto on virtuaalipalvelimen päällä. Palvelimen resurssien takia en itse halua hostata sähköpostipalvelinta samalla palvelimella. Ennen ohjailin Google Appsin puolelle, mutta ne kun muuttivat sen hyvän aikaa sitten pelkästään maksulliseksi niin kaikilla domaineilla ei ole ollut sähköpostia ollenkaan. Nyt halusin kuitenkin tehdä mie@markokaartinen.net sähköpostin ja näin piti sitten joku ratkaisu keksiä. Päädyin"
-categories: ["Blogi"]
+categories: ["Kotilabra"]
 tags: ["mx-tietue", "ohjaus", "sähköposti", "virtuaalipalvelin", "vps", "zoho mail"]
 aliases: ["/virtuaalipalvelimen-sahkoposti-ohjaamaan-zoho-mail-palveluun/"]
 ---

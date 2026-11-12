@@ -3,7 +3,7 @@ title: "Spotify invitejä"
 date: 2010-11-07T15:22:00
 lastmod: 2011-02-02T21:12:00
 description: "No nyt jaetaan Spotify invitejä! Aloitetaan selittämällä Wikipedian avulla teille mikä Spotify oikein on! Spotify on ruotsalainen musiikkipalvelu, jossa käyttäjät voivat kuunnella musiikkia suoratoistona Internetistä. Valikoimaa voi kuunnella artisteittain, albumeittain, tai tekemällä soittolistoja haluamistaan kappaleista. DRM-rajoituksista johtuen musiikkia ei voi kuunnella ohjelman ulkopuolella, mutta palvelussa tarjotaan kuitenkin linkkejä kauppoihin, joista musiikin voi ostaa joko ladattavana"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["invite", "kutsu", "spotify", "spotify invite"]
 aliases: ["/spotify-inviteja/"]
 ---

@@ -2,7 +2,7 @@
 title: "SlimmeLezer+ sähkönkulutuksen seurannassa"
 date: 2025-11-23T15:55:00
 description: "SlimmeLezer+ on ESPHome pohjainen laite, joka kytketään sähkömittarin P1 HAN porttiin ja lähettää reaaliajassa tietoa sähkönkulutuksesta Home Assistanttiin."
-categories: ["Home Assistant"]
+categories: ["Kotilabra"]
 tags: ["slimmelezer+", "sähkönkulutus", "energia", "kotiautomaatio", "selfhosted", "esphome", "sähkömittari", "home assistant"]
 series: ["Älykoti"]
 mastodon_post_id: "115599350527283405"

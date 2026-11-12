@@ -2,7 +2,7 @@
 title: "Puhelin minkä ostaisin tällä hetkellä on OnePlus 3T"
 date: 2017-03-24T12:56:00
 description: "Puhelinmarkkinat on jännä juttu ja sitä tuleekin seurattua. OnePlus 3T on tällä hetkellä oman listan ykkönen mikäli puhelin pitäisi hankkia."
-categories: ["Matkapuhelimet"]
+categories: ["Mobiili"]
 tags: ["kännykkä", "matkapuhelin", "oneplus", "oneplus 3t", "pohdita", "puhelin"]
 aliases: ["/puhelin-minka-ostaisin-talla-hetkella-on-oneplus-3t/"]
 ---

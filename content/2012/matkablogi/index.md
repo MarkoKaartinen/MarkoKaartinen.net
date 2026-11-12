@@ -2,7 +2,7 @@
 title: "Matkablogi"
 date: 2012-07-16T20:02:00
 description: "Oikein harmittaa, kun en viime vuonna pitänyt matkablogia kun kävimme Kreikassa. Tänä vuonna otetaan kuitenkin vahinko takaisin ja panostetaan siihen enemmän. Viime vuonna tietty tuli kuvia otettua ja tulipa siitä pieni videokin koostettua. Tänä vuonna päätimme aloittaa bloggaamisen lomasta jo ennen lomaa. Tein myös sitä varten täysin oman blogin ja sen nimi on Auringon alla"
-categories: ["Blogi"]
+categories: ["Matkat"]
 tags: ["auringonalla", "aurinko", "blogi", "kreikka", "loma", "lomamatka", "matka", "matkablogi", "naxos", "santorini"]
 aliases: ["/matkablogi/"]
 ---

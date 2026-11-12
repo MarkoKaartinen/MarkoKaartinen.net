@@ -3,7 +3,7 @@ title: "Samsung Smart Dock"
 date: 2014-03-23T16:54:00
 lastmod: 2016-07-19T09:20:00
 description: "Sain testattavaksi Samsung Smart Dock telakan ja tämä on oikeastaan ainut mikä puhelimen lisävarusteista puuttuu tällä hetkellä."
-categories: ["Kokeilussa", "Testi"]
+categories: ["Marko testaa"]
 tags: ["dock", "galaxy s4", "kokeilu", "puhelin", "samsung", "sgs4", "smart dock", "telakka", "testi"]
 aliases: ["/samsung-smart-dock/"]
 ---

@@ -3,7 +3,7 @@ title: "Myydään: LIFEBOOK T901 kannettava tietokone"
 date: 2012-07-31T17:40:00
 lastmod: 2014-12-10T19:03:00
 description: "Lähden mainostamaan tämän läppärin myymistä nyt täällä blogissani. Myyn LIFEBOOK T901:n lähinnä sen takia, koska minulla ei ole mitään käyttöä tälle ja parempi että joku muu ottaa tämän koneen käyttöön sillä se on käytännössä kuin uusi. Sain koneen LIFEBOOK4Life projektin kautta ja nyt se on oikeastaan turhan panttina seisomassa toimiston pöydän nurkalla. Toiveissa olisi, että"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["kannettava", "läppäri", "lifeboo", "myydään", "t901", "tietokone"]
 aliases: ["/myydaan-lifebook-t901-kannettava-tietokone/"]
 ---

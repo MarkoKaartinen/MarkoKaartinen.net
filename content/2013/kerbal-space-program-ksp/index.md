@@ -3,7 +3,7 @@ title: "Kerbal Space Program (KSP)"
 date: 2013-06-17T19:56:00
 lastmod: 2014-12-10T18:56:00
 description: "KSP eli Kerbal Space Program on erittäin koukuttava peli, jossa voit rakentaa oman raketin ja lentää sillä avaruuteen – siis mikäli se kestää ja ei räjähdä laukaisussa. Pelihän on Alpha-vaiheessa vielä joten se kehittyy vielä ja siihen on tulossa varmaan paljon lisää vaikka nytkin tuntuu, että siinä on aivan hillittömästi tavaraa. Pelissä ei ole vielä"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["alpha", "avaruus", "kehitys", "kerbal", "kerbal space program", "kerbin", "pelaaminen", "peli", "pelit"]
 aliases: ["/kerbal-space-program-ksp/"]
 ---

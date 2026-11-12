@@ -2,7 +2,7 @@
 title: "Olen uusinut teeman (jos et jo huomannut)"
 date: 2015-11-22T15:27:00
 description: "Vaihdoin teemaa tässä pari-kolme viikkoa sitten. Löysin mahtavan teeman nimeltä Independent Publisher ja päätin tehdä siitä lapsiteeman omaa blogia varten. Käänsinkin osittain tämän jo suomeksi aiemmin tällä viikolla ja tein pientä tuunausta sinne sun tänne. Tänään tein vielä lisää tuunauksia ja päätin kirjoittaa tämän perinteisen postauksen siitä, että teema on vaihtunut. Itselleni ehkä isoin muutos"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["blogi", "sivusto", "teema", "wordpress"]
 aliases: ["/olen-uusinut-teeman-jos-et-jo-huomannut/"]
 ---

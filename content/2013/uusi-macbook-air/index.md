@@ -3,7 +3,7 @@ title: "Uusi MacBook Air"
 date: 2013-06-20T22:25:00
 lastmod: 2014-12-10T18:56:00
 description: "Olisin voinut kirjoitella tämän artikkelin jo aiemmin kun Apple piti oman settinsä joku aika sitten, jossa julkaistiin mm. uusi MacBook Air. Olen oikeastaan ensimmäisestä Airistä lähtien halunnut tämmöisen koneen ja kun oma MacBook Pro on vielä hyvin hönkinyt niin ei ole oikein perusteita ostaa vaikka halu olisi kova. Itselläni kannettava on pääasiassa työkone ja MBP"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["air", "apple", "kannettava", "läppäri", "macbook", "macbook air", "tietokone"]
 aliases: ["/uusi-macbook-air/"]
 ---

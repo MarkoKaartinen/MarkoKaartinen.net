@@ -3,7 +3,7 @@ title: "Miksi et keskity yhteen aiheeseen?"
 date: 2012-11-17T11:00:00
 lastmod: 2012-11-16T19:29:00
 description: "Tätä kysymystä minulle ei ole kukaan esittänyt (jos on niin en ainakaan muista). Ajattelin kuitenkin, että tähän voisi olla hauska vastata sillä pohdiskelin itse juuri tätä asiaa. Tällä blogillahan ei ole mitään yhtä ja ainutta aihetta vaan ne vaihtelee – välillä aika paljonkin. Aiheena on oikeastaan ne asiat mitkä sattuu millonkin minua kiinnostamaan. Mikäli halusit"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["blogi", "historia", "sivusto"]
 aliases: ["/miksi-et-keskity-yhteen-aiheeseen/"]
 ---

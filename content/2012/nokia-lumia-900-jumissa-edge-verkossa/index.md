@@ -2,7 +2,7 @@
 title: "Nokia Lumia 900 \"jumissa\" EDGE -verkossa"
 date: 2012-11-07T08:25:00
 description: "Huomasin eilen, että Lumia 900 puhelimeni tuntui olevan koko ajan EDGE -verkossa. Aina kun katsoin niin oli E-symboli ruudun yläreunassa. Ajattelin, että kyllä se siitä 3G verkkoon pompahtaa vielä ja katson huomenna onko asialla tapahtunut mitään. Tänä aamuna katsoin uudelleen ja siellähän se E-symboli nökötti omalla paikallaan ja 3G tai HDSPA verkosta ei ollut tietoakaan."
-categories: ["Blogi", "Matkapuhelimet", "Nokia"]
+categories: ["Mobiili"]
 tags: ["3g", "edge", "hdspa", "kännykkä", "lumia", "lumia 900", "matkapuhelin", "nokia", "ongelma", "verkko"]
 aliases: ["/nokia-lumia-900-jumissa-edge-verkossa/"]
 ---

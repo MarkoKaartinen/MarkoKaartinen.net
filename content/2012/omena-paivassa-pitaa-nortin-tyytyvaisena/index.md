@@ -3,7 +3,7 @@ title: "Omena päivässä pitää nörtin tyytyväisenä!"
 date: 2012-02-14T19:22:00
 lastmod: 2014-12-10T19:08:00
 description: "Kaikkihan tietää nykyään, että pidän Applen tuotteista ja niitä olisi kiva omistaa enemmänkin. Päätin siis pyhittää yhden postauksen täysin Applen tuotteille ja lähinnä niille mitä olisi kiva omistaa, mutta en omista ja en osaa sanoa tulenko koskaan omistamaan. Onneksi haaveilu ja haluaminen on täysin ilmaista! MacBook Air Ensimmäisenä tehdään kuitenkin poikkeus yllä olevaan sillä tämä"
-categories: ["Apple", "Blogi"]
+categories: ["Mobiili"]
 tags: ["apple", "imac", "ipad", "iphone", "macbook", "macbook air"]
 aliases: ["/omena-paivassa-pitaa-nortin-tyytyvaisena/"]
 ---

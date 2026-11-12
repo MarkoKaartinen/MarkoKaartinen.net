@@ -3,7 +3,7 @@ title: "Minä ja vuosi 2007"
 date: 2007-12-31T16:05:00
 lastmod: 2012-02-19T10:08:00
 description: "Samalla kun kirjoitan vuoden 2007 viimeistä merkintää, tämä on samalla uuden Hajatelmia, blogini alku. Eli blogin nimi muuttui, ja mikä onkaan parempi tapa potkaista se alkuun kuin, kirjoittamalla sinne vuoden 07 viimeinen blogiviestini. Älkää huoliko tulen kirjoittelelmaan blogiini vielä tästä eteenpäinkin, mutta sivustollakin tapahtuu vaikka sun mitä. Odottakaa ja kommentoikaa! Mitä tapahtui vuonna 2007 minulla ja blogilleni/sivustolle ja muutenkin, tässä luettelo, ja tämä luettelo koittaa pysyä aikajärjestyksessä. Armeija Aloitin intin 8.1.2007 Olin p-kauden lopussa"
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["2007", "marko", "mennyt"]
 aliases: ["/mina-ja-vuosi-2007/"]
 ---

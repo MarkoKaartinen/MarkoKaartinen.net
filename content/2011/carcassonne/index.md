@@ -3,7 +3,7 @@ title: "Carcassonne"
 date: 2011-12-27T10:45:00
 lastmod: 2014-12-10T19:09:00
 description: "Lähde: Wikipedia Kuten tuossa lautapelailuani selittäneessä artikkelissa mainitsin niin tulen kirjoittamaan Carcassonnesta pienen artikkelin. Tässä olisi hieman tarkoitus kirjoitella omia mielipiteitä ja kokemuksia tästä mainiosta lautapelistä. Carcassonnehan on Klaus-Jürgen Wreden nimisen henkilön suunnittelema lautapeli, josta on mielestäni tullut ajan saatossa suhteellisen suosittu peli. Peli on julkaistu vuonna 2000 ja suomenkielinen versio tuli ulos 2004. Siinä on"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["carcassonne", "lautapelit", "pelaaminen"]
 aliases: ["/carcassonne/"]
 ---

@@ -2,7 +2,7 @@
 title: "Pientä palvelinta pohtimassa"
 date: 2012-10-21T11:32:00
 description: "Olen jo pitkään halunnut hankkia pienen palvelimen itselleni, jossa olisi tarkoitus pyöritellä pientä varmuuskopiointia, omia webbiprojekteja sekä muuta mukavaa. Tällä hetkellä olen pohtimassa seuraavanlaista kokoonpanoa: Emolevyn, prosessorin ja näytönohjaimen virkaa ajaisi AsRockin E350M1/USB3, koska siinä on aika hyvä paketti yhdessä. Myöhemmin jos tulee tarve niin voi uusia emolevyä ja hankkia siihen parempaa prosessoria yms. Tehojakin tuntuisi"
-categories: ["Blogi", "Rauta"]
+categories: ["Kotilabra"]
 tags: ["kotipalvelin", "palvelin", "rauta", "tietotekniikka"]
 aliases: ["/pienta-palvelinta-pohtimassa/"]
 ---

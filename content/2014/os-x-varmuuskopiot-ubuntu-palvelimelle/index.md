@@ -3,7 +3,7 @@ title: "OS X varmuuskopiot Ubuntu palvelimelle"
 date: 2014-11-18T08:31:00
 lastmod: 2014-12-10T17:17:00
 description: "OS X tarjoaa erittäin toimivan varmuuskopioinnin jos suoraan. Itse olen käyttänyt tähän asti ulkoista kiintolevyä varmuuskopiointiin Time Machinella. Eilen tuli kuitenkin mieleen, että miksi en käyttäisi toimiston nurkassa olevaa Ubuntu pohjaista palvelinta hyödyksi ja laittaisi sinne varmuuskopiot menemään? Löysinkin nopeasti ohjeen minkä suomennankin teille tässä niiltä osin mitä itse tarvitsi tehdä. Tätä operaatiota varten tarvitset"
-categories: ["Blogi"]
+categories: ["Kotilabra"]
 tags: ["linux", "mac", "mäk", "ohje", "opas", "os x", "osx", "palvelin", "time machine", "ubuntu", "varmuuskopio", "varmuuskopiot"]
 aliases: ["/os-x-varmuuskopiot-ubuntu-palvelimelle/"]
 ---

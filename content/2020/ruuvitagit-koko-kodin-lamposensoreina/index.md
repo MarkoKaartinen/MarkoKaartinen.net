@@ -2,7 +2,7 @@
 title: "RuuviTagit koko kodin lämpösensoreina"
 date: 2020-12-21T13:28:00
 description: "Voisin väittää, että moni meistä on ostanut yhden jos toisenkin sääaseman, jossa on langattomia ja langallisia sensoreita. Itse ainakin olen ostanut useammankin kappaleen. Kaikissa on ollut samaa ongelmaa ja ovat lopulta joutaneet roskiin. Se ulkosensori ei nyt vaan toimi kunnolla ja ei signaali tule edes luotettavasti muutamaa metriä ulkoa sisälle. En edes muista monennenko halpavehkeen"
-categories: ["Blogi"]
+categories: ["Kotilabra"]
 tags: ["iot", "ruuvi", "ruuvitag"]
 aliases: ["/ruuvitagit-koko-kodin-lamposensoreina/"]
 ---

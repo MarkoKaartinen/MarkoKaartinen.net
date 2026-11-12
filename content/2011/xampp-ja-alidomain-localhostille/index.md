@@ -2,7 +2,7 @@
 title: "XAMPP ja alidomain localhostille"
 date: 2011-09-20T17:48:00
 description: "Virittelen tässä itselleni työympäristöä ja en halua sekoittaa työtä ja normikoodailua keskenään. Halusin erottaa jotenkin localhostin ja työpuolen. No keksin sitten, että miten onnistuisi work.localhost osoitteen tekeminen. Käytössänihän on XAMPP ja Windows 7 – uskon tosin, että tämä toimii muillakin Windows asennuksilla. 1. Avaa C:WindowsSystem32driversetchosts tiedosto ja lisää sinne seuraava rivi: 127.0.0.1 work.localhost 2. Avaa C:xamppapacheconfextrahttpd-vhosts.conf tiedosto"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["apache", "säätäminen", "säätö", "vhost", "virtualhost", "xampp"]
 aliases: ["/xampp-ja-alidomain-localhostille/"]
 ---

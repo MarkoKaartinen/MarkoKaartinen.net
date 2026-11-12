@@ -3,7 +3,7 @@ title: "BF Bad Company 2"
 date: 2010-02-03T17:44:00
 lastmod: 2014-12-10T19:23:00
 description: "BattleField sarja saa jatko ja tiedän, että suurin osa teistä tiesikin jo tämän! Mutta en ole kirjoitellut tästä aiemmin tänne, joten tässä tulee omia ajatuksia kyseisestä pelistä. Itsehän ennakkotilasin Bad Company 2:n tossa joulun aikoihin ja täten sain viime viikolla beta koodin ja olen päässyt pelailemaan betaa. Aluksihan se bugasi palvelimen valinnassa, mutta tähän tuli"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["bad company 2", "battlefield", "bf bc 2", "pelaaminen", "pelit"]
 aliases: ["/bf-bad-company-2/"]
 ---

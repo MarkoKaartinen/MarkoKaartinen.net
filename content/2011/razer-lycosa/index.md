@@ -3,7 +3,7 @@ title: "Razer Lycosa"
 date: 2011-02-16T23:09:00
 lastmod: 2014-12-10T19:14:00
 description: "Posti kiikutti tänään lisää roinaa. Tuli nimittäin uusi näppäimistö! Entinen näppäimistö (Logitech Wave) sai väistyä Razerin tieltä, koska langaton Wave ei enää toiminut yhtä vakaasti kuten olisi pitänyt(näppäimet ns. lagittivat). Olisin ostanut Waven langallisena, mutta kun niitä ei tahdo saada mistään – tyydyin siis koittamaan uutta merkkiä."
-categories: ["Blogi", "Marko testaa"]
+categories: ["Marko testaa"]
 tags: ["lelut", "lycosa", "näppäimistö", "razer", "tekniikka", "tietokoneet"]
 aliases: ["/razer-lycosa/"]
 ---

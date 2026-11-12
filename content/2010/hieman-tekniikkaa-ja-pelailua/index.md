@@ -2,7 +2,7 @@
 title: "Hieman tekniikkaa ja pelailua"
 date: 2010-11-24T18:45:00
 description: "Ajattelin kirjoitella tämmöisen postauksen, jossa on vähän tekniikasta ja pelailusta. Mielessä oli myös isompia artikkeleita näistä, mutta aloitetaan ainakin lyhyistä kommenteista ja ajatuksista. Katsotaan jos siirrytään sitten isompiin ja kattavempiin artikkeleihin. Kovat on huhut, että Suomeenkin on tulossa iPad myyntiin. Tosin Ellos myy sitä jo, mutta tämä vain sen ansiosta, että heillä on hyvät yhteistyökumppanit."
-categories: ["Blogi"]
+categories: ["Pelit"]
 tags: ["cod", "cod black ops", "elämä", "ipad", "kinect", "pelit", "tekniikka", "xbox"]
 aliases: ["/hieman-tekniikkaa-ja-pelailua/"]
 ---

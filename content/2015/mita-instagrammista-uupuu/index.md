@@ -3,7 +3,7 @@ title: "Mitä Instagrammista uupuu"
 date: 2015-06-24T17:18:00
 lastmod: 2015-06-24T09:18:00
 description: "Katsastetaankin tässä jokunen asia millä Instagrammia saisi vielä paremmaksi ja miten se voisi kehittää itseään."
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["instagram", "kuvien lisäys", "puutteet", "rajapinta", "some", "sosiaalinen media", "toiveita"]
 aliases: ["/mita-instagrammista-uupuu/"]
 ---

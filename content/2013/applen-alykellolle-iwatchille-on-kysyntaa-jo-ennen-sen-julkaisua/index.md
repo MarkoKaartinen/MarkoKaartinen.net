@@ -3,7 +3,7 @@ title: "Applen älykellolle \"iWatchille\" on kysyntää jo ennen sen julkaisua"
 date: 2013-04-22T08:49:00
 lastmod: 2014-12-10T18:57:00
 description: "Apple on siinä maineessa, että sen huhutut tuotteet tekisivät kauppansa jo ennen julkaisua vaikka sen ominaisuuksista ei tiedetä vielä yhtään mitään. Tämä on Applelle jo hirveän hyvä tilanne sillä he tietävät jo nyt, että tuo kannattaisi tehdä sillä uuden tutkimuksen mukaan 19% amerikkalaisista ostaisi huhutun ”iWatchin”. 5% vastaajista ilmoitti erittäin todennäköisesti ostavansa tulevan iWatchin. Lisäksi 14%"
-categories: ["Apple"]
+categories: ["Mobiili"]
 tags: ["älykello", "apple", "hype", "iwatch", "julkaisu"]
 aliases: ["/applen-alykellolle-iwatchille-on-kysyntaa-jo-ennen-sen-julkaisua/"]
 ---

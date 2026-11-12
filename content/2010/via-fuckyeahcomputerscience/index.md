@@ -2,7 +2,7 @@
 title: "(via fuckyeahcomputerscience)"
 date: 2010-08-04T10:59:00
 description: "(via fuckyeahcomputerscience)"
-categories: ["Tumblr"]
+categories: ["Huumori"]
 tags: ["tumblr"]
 aliases: ["/via-fuckyeahcomputerscience/"]
 ---

@@ -3,7 +3,7 @@ title: "Asus EeeBox kotipalvelimeksi?"
 date: 2011-12-10T14:57:00
 lastmod: 2014-12-10T19:09:00
 description: "Olen moneen otteeseen pohdiskellut omaa kotipalvelinta itselleni. Tarkoituksena olisi pistää simppeli ja suhteellisen pienikokoinen palvelin, joka toimisi perus webbipalvelimena, tiedostopalvelimena ja ehkäpä jopa mediakoneena. Pääpaino olisi webissä ja tiedostoissa, tietysti jotain simppeliä voip-palvelinta voisi pyörittää myöskin. Asuksen tuotteita olen aikaisemminkin käyttänyt, tuli aikoinaan hankittua Eee PC 901 miniläppäri, joka oli suhteellisen loistava vekotin. Tuossa kuvassa on"
-categories: ["Blogi"]
+categories: ["Kotilabra"]
 tags: ["asus", "eeebox", "kotipalvelin", "pc", "tietokone", "vekotin"]
 aliases: ["/asus-eeebox-kotipalvelimeksi/"]
 ---

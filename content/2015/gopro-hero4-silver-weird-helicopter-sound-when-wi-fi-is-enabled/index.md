@@ -3,7 +3,7 @@ title: "GoPro Hero4 Silver weird \"helicopter sound\" when Wi-Fi is enabled"
 date: 2015-11-24T13:01:00
 lastmod: 2016-09-26T15:34:00
 description: "I noticed helicopter sound on my GoPro Hero4 Silver after I tested the wifi feature on the camera. This post follows what happens to my GoPro."
-categories: ["GoPro"]
+categories: ["Vempaimet"]
 tags: ["bug", "gopro", "gopro hero4 silver", "helicopter", "hero4", "hero4 silver", "sound"]
 aliases: ["/gopro-hero4-silver-weird-helicopter-sound-when-wi-fi-is-enabled/"]
 ---

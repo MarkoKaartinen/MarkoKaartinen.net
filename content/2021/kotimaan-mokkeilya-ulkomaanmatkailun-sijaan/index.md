@@ -2,7 +2,7 @@
 title: "Kotimaan mökkeilyä ulkomaanmatkailun sijaan"
 date: 2021-08-16T12:50:00
 description: "Meillä ei ole tänä vuonna kovinkaan isoja haluja lähteä ulkomaille. Syyt varmaan kaikki ymmärtää. Kotimaassa sen sijaan haluaisimme matkustaa ja nimenomaan turvallisesti, joten mökin vuokraus tuleekin yhdeksi hyväksi vaihtoehdoksi. Miksi sitten mökille? No yksinkertaisesti sen takia, kun siellä ollaan rauhassa luonnon keskellä ja lähellä ei ole välttämättä muita ihmisiä. Saat siis olla omassa rauhassa ja"
-categories: ["Blogi"]
+categories: ["Matkat"]
 tags: ["matkailu", "mökkeily", "mökki"]
 aliases: ["/kotimaan-mokkeilya-ulkomaanmatkailun-sijaan/"]
 ---

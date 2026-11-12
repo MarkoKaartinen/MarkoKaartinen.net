@@ -3,7 +3,7 @@ title: "\"Älypuhelimen vanki\""
 date: 2011-02-26T21:01:00
 lastmod: 2014-12-10T19:14:00
 description: "Nyt on käynyt niin ikävästi, että iPhone 4 on joutunut huollon kouriin. Tarkkasilmäiset ovat varmaan tämänkin tragedian bonganneet Twitteristäni. Eli iPhone teki ikävän tempun ja puhelimen kaiutin meni rikki. Eli soittaessa ei kuulu vastapuolesta niin yhtään mitään. Muutenhan puhelin toimii normaalisti. Syytäkään tälle ilmiölle ei löytynyt, joten huoltoonhan tämä piti kiikuttaa. Eli tässä kirjoituksessa tulen"
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["älypuhelin", "huolto", "iphone", "iphone 4", "nokia", "nokia 6760 slide", "puhelin", "vanki"]
 aliases: ["/alypuhelimen-vanki/"]
 ---

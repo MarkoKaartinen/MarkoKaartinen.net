@@ -2,7 +2,7 @@
 title: "Perjantaipohdinta - se liian lyhyt versio"
 date: 2011-09-09T23:02:00
 description: "Perjantaita on vielä jäljellä noin tunnin verran, mutta vielä kerkeää kirjoitella perjantaipohdinnan! Viikko meni yllättävän nopeasti ja tuli lähinnä odoteltua LIFEBOOK4Life projektin läppäriä, no tänään se tuli! Piti muuten harhailla Kuopiossa, kun ei tuota DHL:n terminaalia meinannut löytyä… Blogi alkaa muuten suhteellisen hyvin täyttyä tuosta LIFEBOOK4Life setistä, sillä pyrin olemaan aktiivinen sen kanssa ja tänne"
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["elämä", "ipad", "ipad 2", "lifebook4life", "lyhyt", "marko", "perjantaipohdinta", "pohdintaa"]
 aliases: ["/perjantaipohdinta-se-liian-lyhyt-versio/"]
 ---

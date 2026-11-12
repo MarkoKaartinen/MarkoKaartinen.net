@@ -3,7 +3,7 @@ title: "Tallinna mielessä"
 date: 2015-03-05T10:15:00
 lastmod: 2015-03-05T14:55:00
 description: "Tapana on käydä reissussa pari kertaa vuodessa. Yleensä pari viikkoa hieman lämpimämmässä ja lyhyempiä reissuja lähemmäs. Tällä kertaa suuntana on Tallinna."
-categories: ["Blogi"]
+categories: ["Matkat"]
 tags: ["eesti", "loma", "matkailu", "tallinn", "tallinna", "turisti", "vinkit", "viro"]
 aliases: ["/tallinna-mielessa/"]
 ---

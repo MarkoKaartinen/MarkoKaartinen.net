@@ -3,7 +3,7 @@ title: "Viikon 3 alku (jtn täysin turhaa avautumista)"
 date: 2008-01-14T23:22:00
 lastmod: 2008-12-27T13:31:00
 description: "Elikkäs maanantai se ihanin päivä viikosta (not). Kouluun ei ole kiire sillä opiskelu alkaa klo 15 ruotsilla (joo ja eikä oikein kiinnostaisi). Joten ei myöskään herätyskelloa tarvitse sillä en ole ihan äsken nukkunut kolmeen. Noh unelmat pitkään nukkumisesta kariutuu vaille 10 kun ovikello soi. Siinä edes miettimättä kuka siellä on etsin t-paidan päälle sekä verkkarit jalkaan etten pelota mahdollista vierasta aamuisella olemuksellani (en minä niin pelottava ole mutta kuitenkin). Tuloksena"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["avautuminen", "jääkaappi", "koulu"]
 aliases: ["/viikon-3-alku-jtn-taysin-turhaa-avautumista/"]
 ---

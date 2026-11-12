@@ -3,7 +3,7 @@ title: "Windows 8 kirjautumisen ohitus"
 date: 2013-10-13T09:25:00
 lastmod: 2014-12-10T18:39:00
 description: "Säädin aiemmin tällä viikolla pääkoneeni tunnuksia ja kirjauduin Live tilillä sisään, jotta sain Storen käyttöön ja näin ilmeisesti asetukset synkkautuisivat tuonne Live tilille. No tästä sitten tuli harmillinen takaisku kun jokainen bootti alkoi kysellä tilin salasanaa ja paikallisella tilillä näin ei ollut. Tänään päätin sitten säätää ja tutkia miten pääsisin eroon tästä kirjautumisesta. Alla onkin"
-categories: ["Blogi", "Window 8 vinkit"]
+categories: ["Tietokoneet"]
 tags: ["cmd", "command prompt", "kirjautuminen", "komentokehoite", "microsoft", "ohje", "salasana", "vinkki", "windows", "windows 8"]
 aliases: ["/windows-8-kirjautumisen-ohitus/"]
 ---

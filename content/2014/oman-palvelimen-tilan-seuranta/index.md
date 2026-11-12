@@ -2,7 +2,7 @@
 title: "Oman palvelimen tilan seuranta"
 date: 2014-10-29T13:33:00
 description: "Oman palvelimen tilan seuranta auttaa sinua saamaan selville milloin palvelin on ollut saavuttamattomissa ja saat siitä vielä halutessasi ilmoituksen."
-categories: ["Blogi", "Kotipalvelin"]
+categories: ["Kotilabra"]
 tags: ["kotipalvelin", "palvelin", "seuranta", "status", "tila"]
 aliases: ["/oman-palvelimen-tilan-seuranta/"]
 ---

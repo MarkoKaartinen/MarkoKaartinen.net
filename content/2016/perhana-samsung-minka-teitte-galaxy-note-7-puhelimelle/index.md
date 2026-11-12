@@ -3,7 +3,7 @@ title: "Perhana Samsung minkä teitte Galaxy Note 7 puhelimelle!"
 date: 2016-10-14T10:29:00
 lastmod: 2017-03-02T15:25:00
 description: "Voihan Samsung sentään tämän Note7 puhelimen kanssa. Tästä tuli tämän vuoden isoin floppi puhelin puolella ellei nyt mitään ihmeitä satu tulemaan."
-categories: ["Samsung"]
+categories: ["Mobiili"]
 tags: ["fail", "galaxy", "galaxy note 7", "kännykkä", "matkapuhelin", "note 7", "puhelin", "s-pen", "samsung", "samsung galaxy note 7"]
 aliases: ["/perhana-samsung-minka-teitte-galaxy-note-7-puhelimelle/"]
 ---

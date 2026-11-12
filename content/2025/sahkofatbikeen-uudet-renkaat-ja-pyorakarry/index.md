@@ -2,7 +2,7 @@
 title: "Sähköfatbikeen uudet renkaat ja pyöräkärry"
 date: 2025-07-09T08:00:00
 description: "Nyt täysin jotain erilaista ja puuhataan hieman sähköfatbiken kanssa. Hankin nimittäin tähän uudet renkaat sisäkumeineen ja pyöräkärryn. Kaikkihan ei taas mene, kuin kuuluisassa Strömsössä, mutta lopulta saatiin homma maaliin."
-categories: ["Pyöräily"]
+categories: ["Elämä"]
 tags: ["fatbike", "sähköfatbike", "renkaat", "pyöräkärry", "polkupyörä", "pyöräily", "sähköpyörä"]
 ---
 

@@ -3,7 +3,7 @@ title: "Cyanogenmod saapui Samsung Galaxy S4 puhelimeeni"
 date: 2014-02-07T15:01:00
 lastmod: 2016-08-03T16:51:00
 description: "Ärsyynnyin Samsungin omaan versioon Androidista ja Cyanogenmod saapui Samsung Galaxy S4 puhelimeeni tekemään ihmeitä. Tässä kokemuksiani päivän jälkeen."
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["android", "custom rom", "cyanogenmod", "galaxy", "galaxy s4", "puhelin", "rom", "root", "samsung", "samsung galaxy s4"]
 aliases: ["/cyanogenmod-saapui-samsung-galaxy-s4-puhelimeeni/"]
 ---

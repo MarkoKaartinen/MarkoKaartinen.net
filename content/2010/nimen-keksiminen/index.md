@@ -2,7 +2,7 @@
 title: "Nimen keksiminen"
 date: 2010-09-15T11:42:00
 description: "Ensimmäiseksi tarkennetaan, että tällä kertaa on kyse nimen keksimisestä eräälle projektille, josta tulette kyllä kuulemaan lisää ajan myötä. Miten se nimen keksiminen on ollut aina hieman haastavaa, jokaisen uuden softan/sivun/projektin nimen keksiminen on ollut se haastavin osuus. Kuten myös jo aikoinaan koulussa harjoitusyrityksen nimen keksiminen. Kun se omasta mielestä sopiva nimi tulee eteen ja alat"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["elämä", "idea", "keksiminen", "nimen keksiminen", "nimi", "ongelma"]
 aliases: ["/nimen-keksiminen/"]
 ---

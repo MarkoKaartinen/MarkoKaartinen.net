@@ -3,7 +3,7 @@ title: "Kanavakuva YouTubeen"
 date: 2013-11-25T08:07:00
 lastmod: 2014-12-10T18:36:00
 description: "YouTuben kanavia voi nykyään oikeastaan tuunata vain kanavakuvan avulla. Tietty oma avatarkin siinä näkyy, mutta kanavakuva taitaa olla se isoin asia mitä pystyt tekemään. Kuten tuosta oikealla olevasta kuvasta näkee niin matkapuhelimellakin tuo kanavakuva näkyy ja se näkyy erikokoisilla laitteilla hieman eritavalla. Kanavakuvan koko kannattaa pistää suosiolla 2560×1440 pikselin kokoiseksi, sillä näin saat parhaiten tuunattua"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["kanava", "kanavakuva", "kuva", "taustakuva", "youtube"]
 aliases: ["/kanavakuva-youtubeen/"]
 ---

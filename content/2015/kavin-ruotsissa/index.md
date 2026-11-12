@@ -3,7 +3,7 @@ title: "Kävin Ruotsissa"
 date: 2015-06-29T15:02:00
 lastmod: 2015-11-20T12:37:00
 description: "Tuli käytyä viikonloppuna päivä Tukholmassa risteilyllä. Kuvia tuli oteltua ja niistäkin suurin osa tuli heiteltyä Instagrammin puolelle. Heittelenkin tähän postaukseen noita Instagram upotuksia kasan. Ensin piti tietysti päästä Helsinkiin. Oltiin varailtu VR:n kautta lipetit ja koska säästeltiin tässä niin Helsingissä oltiin 10 aikaa aamulla ja laiva lähti viiden aikaan. https://instagram.com/p/4YG5ldTNEb/ Helsingin päässä olikin aikaa ihan"
-categories: ["Matkailu"]
+categories: ["Matkat"]
 tags: ["instagram", "kuvia", "reissu", "risteily", "ruotsi", "tukholma"]
 aliases: ["/kavin-ruotsissa/"]
 ---

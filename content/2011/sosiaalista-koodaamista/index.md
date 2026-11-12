@@ -3,7 +3,7 @@ title: "Sosiaalista koodaamista"
 date: 2011-03-28T17:17:00
 lastmod: 2014-12-10T19:12:00
 description: "Otsikon sanoilla GitHub niminen palvelu mainostaa itseään. Oikeastaan se on täysin totta! Tässä on nimittäin samoja piirteitä kuin Twitterissäkin. Seuraa toisia koodareita ja toisia projekteja. Saat niiden päivitykset suoraan etusivullesi. Commit viestit ajavat tilapäivitysten virkaa. Hieno systeemi koodarille."
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["git", "github", "koodi", "ohjelmointi", "some", "versionhallinta"]
 aliases: ["/sosiaalista-koodaamista/"]
 ---

@@ -3,7 +3,7 @@ title: "Kokeilussa Y-cam Evo"
 date: 2016-09-22T17:21:00
 lastmod: 2017-03-02T15:25:00
 description: "Kokeiluun tuli sisäkäyttöön tarkoitettu valvontakamera nimeltä Y-cam Evo. Tämä tulikin tilauksesta sillä tämä saapui juuri ennen Kreikan reissua."
-categories: ["Kokeilussa"]
+categories: ["Marko testaa"]
 tags: ["esittelyssä", "kamera", "kissakamera", "kokeilussa", "valvontakamera", "y-cam", "y-cam evo"]
 aliases: ["/kokeilussa-y-cam-evo/"]
 ---

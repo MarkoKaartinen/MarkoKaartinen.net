@@ -3,7 +3,7 @@ title: "MacBook Pro & Magic Mouse"
 date: 2010-10-28T17:14:00
 lastmod: 2014-12-10T19:18:00
 description: "Kappas mitä kaupasta tarttui käteen tänään. Tuli nimittäin hankittua MacBook Pro sekä sille kaveriksi Magic Mouse. Käsittelen tässä artikkelissa näitä molempia vekottimia. Lähinnä ensituntuma niistä sillä käyttöä ei ole paljoa kerennyt tulla vielä näille."
-categories: ["Apple", "Blogi", "Marko testaa"]
+categories: ["Marko testaa"]
 tags: ["apple", "mac", "macbook", "macbook pro", "magic mouse"]
 aliases: ["/macbook-pro-magic-mouse/"]
 ---

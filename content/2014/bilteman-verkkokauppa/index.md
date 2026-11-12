@@ -2,7 +2,7 @@
 title: "Bilteman verkkokauppa"
 date: 2014-03-24T20:27:00
 description: "Pitkän harkinnan perusteella päädyin Bilteman verkkokauppaan ja tilasin polkupyörän sieltä. Tässä kerronkin suht heikosti menneestä asiakaspalvelusta."
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["asiakaspalvelu", "biltema", "kokemus", "palaute", "palvelu", "sähköinen", "verkkokauppa", "viestintä"]
 aliases: ["/bilteman-verkkokauppa/"]
 ---

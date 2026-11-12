@@ -3,7 +3,7 @@ title: "Viisi ilmaista WordPress teemaa"
 date: 2014-04-06T09:16:00
 lastmod: 2015-11-23T15:10:00
 description: "Kokosin tähän artikkeliin viisi ilmaista WordPress teemaa, joita olen joko itse käyttänyt tai käyttäisin omissa projekteissani."
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["ilmainen", "linkkejä", "teemat", "vinkit", "wordpress", "wp"]
 aliases: ["/viisi-ilmaista-wordpress-teemaa/"]
 ---

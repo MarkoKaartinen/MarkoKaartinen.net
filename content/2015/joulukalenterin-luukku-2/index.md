@@ -3,7 +3,7 @@ title: "Joulukalenterin luukku 2"
 date: 2015-12-02T13:45:00
 lastmod: 2015-12-04T09:44:00
 description: "Tällä kertaa jaan teille muita joulukalentereita."
-categories: ["Joulukalenteri 2015"]
+categories: ["Elämä"]
 tags: ["joulu", "joulukalenteri", "joulukalenteri 2015", "luukku", "luukku 2"]
 aliases: ["/joulukalenterin-luukku-2/"]
 ---

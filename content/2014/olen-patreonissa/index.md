@@ -2,7 +2,7 @@
 title: "Olen Patreonissa!"
 date: 2014-11-06T20:24:00
 description: "Ajattelin lähteä kokeilemaan tämän blogin ja podcastin rahapuolen pyörittämistä täysin eri kantilta. Lyhyesti sanottuna: Olen Patreonissa!"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["patreon", "tukeminen", "tuki"]
 aliases: ["/olen-patreonissa/"]
 ---

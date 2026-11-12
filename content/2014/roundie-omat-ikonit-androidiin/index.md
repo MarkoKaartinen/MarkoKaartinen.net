@@ -3,7 +3,7 @@ title: "Roundie - Omat ikonit Androidiin"
 date: 2014-02-12T02:15:00
 lastmod: 2014-12-10T18:27:00
 description: "En tykännyt Androidin oletuksena olevista ikoneista ja valmiista paketeista mikään ei miellyttänyt. Aloin siis tekemään omaa ikonipakettia nimeltä Roundie."
-categories: ["Android", "Blogi"]
+categories: ["Koodaus"]
 tags: ["adt", "alpha", "android", "beta", "devaus", "google", "ikoni", "ikonit", "nörtteily", "play store", "roundie", "säätö", "testi"]
 aliases: ["/roundie-omat-ikonit-androidiin/"]
 ---

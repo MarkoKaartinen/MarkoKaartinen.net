@@ -3,7 +3,7 @@ title: "Samsung Galaxy S4 parin kuukauden jälkeen"
 date: 2013-08-07T09:20:00
 lastmod: 2014-12-10T18:47:00
 description: "Samsung Galaxy S4 tuli hankittua pari kuukautta sitten ja ajattelin jakaa hieman kokemuksiani ko. puhelimesta. Itsehän siirryin tähän puhelmieen oikeastaan seuraavanlaisen kaaren kautta: iPhone 4 -> Lumia 900 -> iPhone 4 -> Galaxy S4. Eli kävin hieman tuolla Windows Phone leirissä ja totesin sen ettei se ollut minua varten ja siirryin takaisin iPhoneen väliaikaisesti. Tuo"
-categories: ["Android", "Blogi"]
+categories: ["Mobiili"]
 tags: ["älypuhelin", "android", "galaxy s4", "iphone", "kokemuksia", "ominaisuudet", "puhelin", "samsung", "samsung galaxy s4"]
 aliases: ["/samsung-galaxy-s4-parin-kuukauden-jalkeen/"]
 ---

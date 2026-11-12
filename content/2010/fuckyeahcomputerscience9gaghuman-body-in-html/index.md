@@ -2,7 +2,7 @@
 title: "'fuckyeahcomputerscience:"
 date: 2010-08-05T16:15:00
 description: "fuckyeahcomputerscience: 9gag: Human Body in HTML"
-categories: ["Tumblr"]
+categories: ["Huumori"]
 tags: ["tumblr"]
 aliases: ["/fuckyeahcomputerscience9gaghuman-body-in-html/"]
 ---

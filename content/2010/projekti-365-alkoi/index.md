@@ -3,7 +3,7 @@ title: "Projekti 365 alkoi"
 date: 2010-10-20T16:57:00
 lastmod: 2010-10-20T17:12:00
 description: "Eli nyt se sitten alkoi! Nimittäin Projekti 365! Lisää tietoa projektista saat sen omalta sivulta: markokaartinen.net/avainsana/projekti-365. Ensimmäinen kuva julkaistiin juuri äsken Flickriin ja julkaisen sen tännekin! Kommentit kuvasta/projektista voi laittaa tänne tai Flickriin. Tästä kuvasta on tehty myös Making of blogipostaus: https://markokaartinen.net/making-of-1/"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["365", "kuvaaminen", "projekti 365"]
 aliases: ["/projekti-365-alkoi/"]
 ---

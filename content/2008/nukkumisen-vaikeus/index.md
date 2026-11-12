@@ -3,7 +3,7 @@ title: "Nukkumisen vaikeus"
 date: 2008-01-21T00:38:00
 lastmod: 2008-12-27T13:32:00
 description: "Tämä on taas näitä öitä jolloin ei meinaa saada unenpäästä millään kiinni. Aloin siinä 11 jälkeen nukkumaan, tai no ainakin yritin nukkua, sitten tässä 1,5h pyörittyäni päätin nousta ylös ja tulla tähän koneelle, mutta ei tässäkään oikein innosta olla. Ideanahan oli, että nukkuisin tänä yönä oikein kunnon yöunet, mutta ei se tahdo oikein onnistua. Katsoessani ulos ikkunasta huomaan ja kuulen auton ajavan ohi, mutta silti näen rauhallisen ja nukkuvan Kuopion. Niin"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["marko", "nukkuminen", "ongelmat", "yö"]
 aliases: ["/nukkumisen-vaikeus/"]
 ---

@@ -2,7 +2,7 @@
 title: "100 000 kävijää tai ei kannata?"
 date: 2012-06-23T12:47:00
 description: "Törmäsin tämmöiseen englanninkieliseen lausahdukseen: ”If you are not getting 100,000 visits to your site a month it’s not really worth doing”. Tämähän tietysti viittaa siihen, että bloggaaminen ei olisi kannattavaa jos et saa blogillesi 100 000 kävijää kuussa. En itse lähde tuolle kannalle, toki tuolla määrällä varmaan saat enemmän tuloja sivuilla olevista mainoksista. Itselläni ei"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["bloggaaminen", "blogi", "kävijämäärät", "kävijät", "sivusto"]
 aliases: ["/100-000-kavijaa-tai-ei-kannata/"]
 ---

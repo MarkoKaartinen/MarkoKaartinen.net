@@ -2,7 +2,7 @@
 title: "Turvallisuutta sanon minä"
 date: 2008-06-22T12:35:00
 description: "Ystäväni Heikki puhuu vainoharhaisuudesta, mutta minä puhun turvallisuudesta. Eli kattokaas Info sivu niin voitte alkaa pistämään suojattua postia minulle päin. Ohjetta ja plugin Thunderbirdiin: http://enigmail.mozdev.org/home/index.php"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["turvallisuus"]
 aliases: ["/turvallisuutta-sanon-mina/"]
 ---

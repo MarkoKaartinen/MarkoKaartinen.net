@@ -3,7 +3,7 @@ title: "Paljon katselukertoja videoillesi"
 date: 2012-11-23T12:23:00
 lastmod: 2013-08-05T15:29:00
 description: "Sain Youtuben yksityisviestien kautta seuraavanlaisen viestin: Im astonished Hello there, I just finished watchinɡ one your videos (http://www.youtube.com/watch?v=ydjhnlLvlZQ), just wanted to take a minute to let you know I thought it was great! I can’t believe that your video isn’t getting more views, I mean come on people! Honestly, you have some of the ƅest vidеоs"
-categories: ["Blogi", "Internet"]
+categories: ["Internet"]
 tags: ["huijaus", "katselukertoja", "videot", "youtube"]
 aliases: ["/paljon-katselukertoja-videoillesi/"]
 ---

@@ -3,7 +3,7 @@ title: "Canon PowerShot S110 matkalla mukana"
 date: 2013-07-29T13:06:00
 lastmod: 2013-07-30T11:04:00
 description: "Kävin reilu viikko sitten Tallinnassa viettämässä pitkää viikonloppua ja kun matkassa oli mukana henkilö jolle Tallinna oli lähes kokonaan tuntematon kokemus niin tuli kierrettyä vanhaa kaupunkia ja lähiympäristöä suhteellisen kivasti. PowerShot S110 oli matkassa mukana ja se valikoitui matkaan mukaan sen GPS ja WiFi ominaisuuksien takia. Päätin myös jo etukäteen, että annan automatiikan hoitaa hommansa"
-categories: ["Blogi", "Testi"]
+categories: ["Marko testaa"]
 tags: ["canon", "kamera", "matkalla", "matkustus", "pokkari", "powershot", "powershot s110", "tallinna", "testi", "viro"]
 aliases: ["/canon-powershot-s110-matkalla-mukana/"]
 ---

@@ -3,7 +3,7 @@ title: "Elgato Game Capture HD"
 date: 2012-07-25T16:14:00
 lastmod: 2014-12-10T19:05:00
 description: "Törmäsin tähän Elgato Game Capture HD -laitteeseen jo joskus aiemminkin, mutta tänään törmättyäni uudestaan päätin kirjoittaa siitä lyhyen katsauksen. Elgato Game Capture HD on laite jolla voit tallentaa pelivideoita XBOXilta ja PS3:lta joko PC:llesi tai MACillesi. Laitteen mukana tulee itse laite, USB kaapeli jolla laitteen saa kiinni koneeseen, HDMI piuha jolla XBOXin saa kiinni laitteeseen sekä PS3"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["elgato", "elgato game capture hd", "game capture hd", "laitteet", "pelaaminen", "pelit", "vekottimet", "vempaimet"]
 aliases: ["/elgato-game-capture-hd/"]
 ---

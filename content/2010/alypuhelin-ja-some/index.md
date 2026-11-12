@@ -3,7 +3,7 @@ title: "Älypuhelin ja SoMe"
 date: 2010-10-05T10:08:00
 lastmod: 2014-12-10T19:19:00
 description: "SoMe = Sosiaalinen media, näin tämäkin on tuotu teidän tietoon (jos ette siis jo tietänyt). Oli sinulla sitten Nokia, HTC, Samsung, Apple tai mikä vaan puhelin jonka voi luokitella älypuhelimeksi niin on erittäin todennäköistä, että siihen saa jonkinlaisen sosiaalisen median sovelluksen laitettua. Itse en voi kirjoittaa muusta näkökulmasta kuin Applen iPhonen, sillä en ole käyttänyt"
-categories: ["Apple", "Blogi"]
+categories: ["Mobiili"]
 tags: ["älypuhelin", "facebook", "iphone", "some", "sosiaalinen media", "twitter", "apple"]
 aliases: ["/alypuhelin-ja-some/"]
 ---

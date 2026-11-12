@@ -3,7 +3,7 @@ title: "Lapselle leluja"
 date: 2009-03-19T17:23:00
 lastmod: 2014-12-10T19:25:00
 description: "Jostain olen kuullut, että kaikissa meissä asuu pieni lapsi ja toinen kuulemani lause on ”antaa lapsen leikkiä”. No leikkimiseen lapsi tarvitsee leluja ja olen huomannut, että mitä vanhemmaksi tulen niin sitä kalliimmaksi sisäisen lapseni lelut tulevat (Eee Pc 901). Eli tässä kirjoituksessa tulen hieman kertomaan mitä leluja tulen saamaan tässä lähiaikoina ja tietysti saatte kommentoida"
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["eee pc 901", "iphone", "ixus 85 is", "kamera", "kännykkä", "lelut", "matkapuhelin"]
 aliases: ["/lapselle-leluja/"]
 ---

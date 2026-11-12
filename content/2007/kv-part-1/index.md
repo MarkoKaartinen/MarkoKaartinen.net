@@ -3,7 +3,7 @@ title: "K&V - Part 1"
 date: 2007-10-17T21:28:00
 lastmod: 2008-12-27T13:30:00
 description: "Ajattelin aloitta K&V sarjan (eli Kymysyksiä ja vastauksia sarjan) Eli yksinkertainen idea vielä yksinkertaisemmin. Bongaan jostain kyselyn ja vastaan siihen ja paljastan teille asioita minusta. Koti? Yksiö, Kuopion sydämmessä Lemmikit? Ei ole (jos villakoiria ei lasketa) Luonne? Öööö... rauhallinen Seurusteletko? En tällä hetkellä Rakastatko? Hmm... Monimutkaista... Paljon eri vastausvaihtoehtoja... Passaan.. Juotko? Kahvia päivittäin, samoin vettä ja monia muitakin juomia *Hörppää appelsiinimehua* Poltatko? En polta Kengänkoko? *Tarkistaa* 45-46 (otappa selvää sitten...) Hiusten väri? Ruskea, mutta tietyssä valossa näyttää mustalle Silmien väri?"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["kysymyksiä", "vastauksia"]
 aliases: ["/kv-part-1/"]
 ---

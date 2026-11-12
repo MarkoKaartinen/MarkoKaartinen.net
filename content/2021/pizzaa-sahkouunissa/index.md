@@ -2,7 +2,7 @@
 title: "Pizzaa sähköuunissa"
 date: 2021-05-26T09:51:00
 description: "Jatketaan pizzan viitoittamalla tiellä. Kerron omia vinkkejä sähköuunissa paistoon ja mitä itse havainnut toimivaksi. Tuo oma aiempi postaus pitää kyllä paikkansa ja ainoa isompi muutos mitä oikeastaan tekisin on tomaattikastikkeeseen. Vähentäisin suolan määrää 7 grammaan ja murskaisin tomaatit käsin. Tulee hitusen tekstuuria ja värikin sekä makukin on eri. Ota 2-3h ennen pizzanpaistoa pizzapallot huoneenlämpöön ellei"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["ohje", "pizza", "sähköuuni"]
 aliases: ["/pizzaa-sahkouunissa/"]
 ---

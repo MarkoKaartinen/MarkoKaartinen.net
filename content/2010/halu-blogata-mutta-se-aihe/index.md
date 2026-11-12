@@ -2,7 +2,7 @@
 title: "Halu blogata, mutta se aihe..."
 date: 2010-10-26T16:37:00
 description: "Tämä on varmasti jokaisen bloggaajan ongelma jossain välissä. Haluaisi blogata, mutta ei keksi mitään aihetta mistä blogata. Itselläni on näitä joskus ja tahtoisin tuottaa sisältöä blogiin, mutta se aihe uupuu… Joten blogaankin nyt tästä, ettei ole aihetta joten tämä muuttuu aiheeksi jolloin voin blogata! Hmh menipä sekavaksi, no ei se mitään! Eteenpäin sanoi mummo lumessa."
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["aihe", "blogi", "elämä", "sekava"]
 aliases: ["/halu-blogata-mutta-se-aihe/"]
 ---

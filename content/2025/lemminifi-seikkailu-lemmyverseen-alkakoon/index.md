@@ -2,7 +2,7 @@
 title: "Lemmini.fi - Seikkailu Lemmyverseen alkakoon!"
 date: 2025-03-12T18:36:00
 description: "Nyt alkoi kokeilut Lemmyn kanssa ja päädyin perustamaan Lemmini.fi nimisen Lemmy instanssin."
-categories: ["Lemmy"]
+categories: ["Kotilabra"]
 tags: ["lemmy", "lemmini.fi", "lemmyverse", "fediverse", "fediversumi", "lemmini"]
 ---
 

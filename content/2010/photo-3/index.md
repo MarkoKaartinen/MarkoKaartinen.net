@@ -1,7 +1,7 @@
 ---
 title: "Photo"
 date: 2010-08-08T11:01:00
-categories: ["Tumblr"]
+categories: ["Elämä"]
 tags: ["tumblr"]
 aliases: ["/photo-3/"]
 ---

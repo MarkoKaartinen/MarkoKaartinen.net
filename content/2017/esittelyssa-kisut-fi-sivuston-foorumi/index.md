@@ -2,7 +2,7 @@
 title: "Esittelyssä Kisut.fi sivuston foorumi"
 date: 2017-11-22T11:44:00
 description: "Halusin hieman esitellä täällä minunkin blogin puolella Kisut.fi sivuston foorumia, jonne on tarkoitus kerätä kissaihmisiä keskustelemaan."
-categories: ["Internet"]
+categories: ["Koodaus"]
 tags: ["arvonta", "discourse", "foorumi", "keskustelu", "keskustelualue", "kilpailu", "kisut.fi", "osallistu", "projekti", "sivusto"]
 aliases: ["/esittelyssa-kisut-fi-sivuston-foorumi/"]
 ---

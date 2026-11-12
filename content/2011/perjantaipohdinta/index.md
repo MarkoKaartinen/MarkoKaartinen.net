@@ -3,7 +3,7 @@ title: "Perjantaipohdinta"
 date: 2011-09-02T19:21:00
 lastmod: 2011-09-02T19:23:00
 description: "Katsotaan jos saisi aloitettua uuden sarjan tänne blogiin, tarkoituksena olisi perjantaisin aina pohtia jotain minun elämään liittyvää. Tällä kertaa tulee aika sekalainen seurakunta eri aiheista. Toki voitte liittyä seuraani pohtimaan ja aloittaa tekemään samaa omassa blogissa! Omat projektit Aloitetaan verkosta, eli kävästään läpi muutama oma projekti ja niiden status. MarkoKaartinen.net on hyvässä jamassa ja sitä en"
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["android", "apple", "bisnes", "elämä", "firma", "htc", "iphone", "l4l2011", "lifebook4life", "marko", "perjantaipohdinta", "pohdintaa", "projektit", "tekniikka"]
 aliases: ["/perjantaipohdinta/"]
 ---

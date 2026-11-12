@@ -3,7 +3,7 @@ title: "Raspberry Pi"
 date: 2012-07-19T13:23:00
 lastmod: 2014-12-10T19:05:00
 description: "Raspberry Pi on käytännössä yhden piirilevyn tietokone jonka on kehittänyt Raspberry Pi Foundation. Itse innostuin tästä lähes heti kun kuulin projektista ja näin pre-order mahdollisuuden. Myöhästyin kuitenkin hieman, että olisin saanut laitteen käsiini nopeammin. Raspberry Pi tuli kuitenkin minulle postissa ja en ole kerennyt sitä säätämään sillä tarvitsen vielä SDHC-muistikortin, joka on postissa tulossa. Itse"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["kokeilut", "lelut", "nörtti", "pi", "raspberry", "raspberry pi", "tekniikka", "tietokone", "tietokoneet"]
 aliases: ["/raspberry-pi/"]
 ---

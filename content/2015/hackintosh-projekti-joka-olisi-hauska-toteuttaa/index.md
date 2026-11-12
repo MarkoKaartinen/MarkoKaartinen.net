@@ -3,7 +3,7 @@ title: "Hackintosh - projekti joka olisi hauska toteuttaa"
 date: 2015-01-03T10:05:00
 lastmod: 2015-01-03T10:06:00
 description: "Avataan ensin tuo termi hackintosh. Tämähän tarkoittaa sitä, että tehdään OS X pohjainen tietokone kasaamalla kone itse. Käytännössä hankitaan OS X:n kanssa yhteensopivat osat ja pamautetaan asentaa OS X käyttöjärjestelmä ja sen jälkeen sinulla on oma hackintosh kone. Tämähän tulee suoraan halvemmaksi, kuin ostaa pöytäkone Applelta, mutta saat kuitenkin saman käyttökokemuksen ja sinulla on vielä"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["dualboot", "hackintosh", "hauska", "mac pro", "os x", "pelaaminen", "projekti", "windows", "windows 8.1"]
 aliases: ["/hackintosh-projekti-joka-olisi-hauska-toteuttaa/"]
 ---

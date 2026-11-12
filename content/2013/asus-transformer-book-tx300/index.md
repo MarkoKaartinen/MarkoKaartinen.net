@@ -3,7 +3,7 @@ title: "ASUS Transformer Book TX300"
 date: 2013-09-28T09:31:00
 lastmod: 2014-12-10T18:39:00
 description: "Sain torstaina Asukselta postissa Transformer Book TX300 läppärin kokeiltavaksi. Oikeastaan läppäri on ehkä väärä määritys tälle koneelle sillä tässä koneessa on irroitettava kosketusnäyttö, mutta tehoja on kuitenkin kuin läppärissä. Näppäimistö osa toimii siis ikään kuin telakkana ja siihen on survottu 500 gigan sata kiintolevy ja näin saadaan hieman lisä tilaa tuohon koneeseen. Tuo näyttö tai"
-categories: ["Blogi"]
+categories: ["Marko testaa"]
 tags: ["asus", "hybridi", "kannettava", "läppäri", "tablet", "testi", "tietokone", "transformer book", "tx300", "video", "youtube"]
 aliases: ["/asus-transformer-book-tx300/"]
 ---

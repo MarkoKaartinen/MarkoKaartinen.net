@@ -3,7 +3,7 @@ title: "Esittele työpöytäsi!"
 date: 2010-10-23T15:24:00
 lastmod: 2014-12-10T19:19:00
 description: "Rolle meni tekemään tästä meemin joten lähdetään mukaan! Ohjeet tähän ovat tässä: Jos olet bloggaaja ja satut lukemaan tätä, saat luvan julkaista nykyisen työpöytäsi (yksikössä tai monikossa) kera kuvankaappauksen, ja kertoa samalla hieman ohjelmista joita kuvankaappauksessa näkyy. Olen jo aiemmin postannut minun tietokonepisteeni ja tässä tulee vastaus tuohon meemiin minkä jo esittelin teille. Eli kyseessähän"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["meemi", "tietokoneita", "työpöytä"]
 aliases: ["/esittele-tyopoytasi/"]
 ---

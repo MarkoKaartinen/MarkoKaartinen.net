@@ -2,7 +2,7 @@
 title: "Pixelfed vinkkejä"
 date: 2025-03-10T15:33:00
 description: "Tässä artikkelissa on kerrottu vinkkejä Pixelfedin käyttöön ja hieman sen eroista Mastodoniin verrattuna sekä millaista sitä on ylläpitää."
-categories: ["Pixelfed"]
+categories: ["Internet"]
 tags: ["pixelfed", "vinkit", "sosiaalinen media", "fediverse", "fediversumi", "instagram"]
 ---
 

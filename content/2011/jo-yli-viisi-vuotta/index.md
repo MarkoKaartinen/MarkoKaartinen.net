@@ -2,7 +2,7 @@
 title: "Jo yli viisi vuotta"
 date: 2011-01-10T10:50:00
 description: "No katsos ketkua kun ei huomannut tätäkään asiaa aiemmin. Tutkiskelin äsken domainiani MarkoKaartinen.net ja kävi ilmi, että hankin sen 17 päivä marraskuuta 2005. Eli voisinkin sanoa, että MarkoKaartinen.net on täyttänyt jo ainakin 5 vuotta. En nimittäin muista tarkkaa päivää milloin tämä perustettiin, mutta miksi se ei voisi olla tuo päivä? Paljon on kerennyt tapahtua viidessä"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["historia", "kaartinen", "marko", "markokaartinen.net", "sivusto"]
 aliases: ["/jo-yli-viisi-vuotta/"]
 ---

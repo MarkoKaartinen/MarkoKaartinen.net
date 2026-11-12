@@ -3,7 +3,7 @@ title: "Nexus 4 luuri kiinnostaa, mutta sen hinta!"
 date: 2013-01-21T16:47:00
 lastmod: 2014-12-10T18:59:00
 description: "Google on alkanut puskemaan omia loistavia tuotteitaan ulos kuten Nexus 7 täppärin, joka tuli hankittua. Onneksi siinä sentään hinta oli täällä pohjolassakin kohdallaan. LG:n valmistama Googlen Nexus 4 kännykkä taas onkin aivan toinen tarina. Otetaan kuitenkin ensin hieman teknistä tietoa tästä puhelimesta esiin. Puhelin on 4.7 tuuman näytöllä varustettu ja sen resoluutio on 1280×768 eli"
-categories: ["Blogi", "Matkapuhelimet"]
+categories: ["Mobiili"]
 tags: ["google", "hinta", "kännykkä", "lg", "luuri", "matkapuhelin", "nexus 4", "nexus 7", "puhelin"]
 aliases: ["/nexus-4-luuri-kiinnostaa-mutta-sen-hinta/"]
 ---

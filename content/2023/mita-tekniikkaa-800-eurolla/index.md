@@ -2,7 +2,7 @@
 title: "Mitä tekniikkaa 800 eurolla?"
 date: 2023-09-07T13:35:00
 description: "Pohditaanpas hieman sillä kuvitteellisen rahan tuhlaaminen on paljon edullisempaa, kuin oikean. Sekä se on hauskaa puuhaa sillä voi kuvitella olevansa 800 euroa rikkaampi. Mitä tekniikkaa ostettaisiin siis 800 eurolla? Tämä ajatus Sortter lainavertailun puolelta. Eli leikitäänpäs. Otetaan kaupaksi Gigantin verkkokauppa ja hinnat mitä esitän ovat olleet hintoja 7.9.2023 ja ne ovat voineet muuttua. Mitä ostetaan?"
-categories: ["Blogi"]
+categories: ["Vempaimet"]
 aliases: ["/mita-tekniikkaa-800-eurolla/"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Ongelmat tietotekniikassa"
 date: 2009-08-10T10:31:00
 description: "Kuten varmaan tiedätte, olen opiskellut tietotekniikkaa jokusen vuoden ja ollut töissä lähituessa ja tehnyt sitä sun tätä koneiden kanssa. Ja silti aina ei voi antaa mitään järkevää selitystä miksi joku ongelma ratkeaa. Tiedättekö mitä tarkoitan? Jos ette niin tässä pari esimerkkiä. Windows Server käyttistä olen joutunut konffailemaan useaan eri otteeseen koulutuksen puolesta/takia ja siinä onkin"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["ongelmat", "tietokone", "tietotekniikka"]
 aliases: ["/ongelmat-tietotekniikassa/"]
 ---

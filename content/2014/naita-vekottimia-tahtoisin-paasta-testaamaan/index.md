@@ -2,7 +2,7 @@
 title: "Näitä vekottimia tahtoisin päästä testaamaan"
 date: 2014-04-09T16:32:00
 description: "Listaan tähän artikkeliin kasan vekottimia joita tahtoisin päästä testaamaan. Listasin vain jokusen kappaleen sillä, muuten lista olisi ollut todella pitkä."
-categories: ["Blogi"]
+categories: ["Vempaimet"]
 tags: ["chromebook", "chromeos", "glass", "google", "google glass", "jolla", "surface", "surface pro 2", "testaus", "vekotin", "vimpain"]
 aliases: ["/naita-vekottimia-tahtoisin-paasta-testaamaan/"]
 ---

@@ -3,7 +3,7 @@ title: "Suunnittelija vs kehittäjä"
 date: 2010-11-20T00:48:00
 lastmod: 2014-12-10T19:16:00
 description: "Noh Twitter ei helpottanut tätäkään hommaa. Joten pistetään tämmöinen kuva ja pohdiskellaan hieman omaa osaa tässä kuvassa. Täsmääkö vai ei? Sen näette kohta, mutta se kuva kuitenkin ensiksi. (kuvan lähde: Six Revisions) Minussahan on vähän molempaa näistä hahmoista. Tosin pääasiassa työni on tällä hetkellä webkehittäjän olemista, mutta olen tehnyt vähän molempaa hommaa. Aloitetaan parrasta: itselläni"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["elämä", "kehittäjä", "marko", "suunnittelija", "webbi"]
 aliases: ["/suunnittelija-vs-kehittaja/"]
 ---

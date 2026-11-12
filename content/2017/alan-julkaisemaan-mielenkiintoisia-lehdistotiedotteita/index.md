@@ -2,7 +2,7 @@
 title: "Alan julkaisemaan mielenkiintoisia lehdistötiedotteita"
 date: 2017-03-06T15:52:00
 description: "Minulla tulee sähköpostiin kasa erilaisia lehdistötiedotteita julkaisuista ja muusta vastaavasta. Ajattelin, että julkaisen niistä valittuja tännekkin."
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["blogi", "lehdistö", "lehdistötiedote", "tiedote"]
 aliases: ["/alan-julkaisemaan-mielenkiintoisia-lehdistotiedotteita/"]
 ---

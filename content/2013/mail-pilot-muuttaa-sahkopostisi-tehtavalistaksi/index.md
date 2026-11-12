@@ -3,7 +3,7 @@ title: "Mail Pilot muuttaa sähköpostisi tehtävälistaksi"
 date: 2013-04-11T21:27:00
 lastmod: 2014-12-10T18:57:00
 description: "Ettei sähköpostiohjelmia alkaisi tulla korvista ulos niin tuodaan esille juuri ilmestynyt Mail Pilot. Itsehän olin tämän sovelluksen tukija jo hyvissä ajoin ja sain tämän itselleni hieman aikaisemmin muuta yleisöä. Aikaisemmin tätä pystyi käyttämään vain selaimella, mutta tänään Mail Pilot saapui myös iPhonelle ja iPadille. Tähän sovellukseen voit liittää minkä tahansa IMAP postilaatikon ja tällöin alkaa"
-categories: ["Apple"]
+categories: ["Mobiili"]
 tags: ["app", "app store", "apple", "appsi", "e-mail", "ipad", "iphone", "itunes", "mail pilot", "ohjelma", "sähköposti", "sovellus"]
 aliases: ["/mail-pilot-muuttaa-sahkopostisi-tehtavalistaksi/"]
 ---

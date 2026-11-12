@@ -2,7 +2,7 @@
 title: "Kynttilä (Taken with instagram)"
 date: 2011-01-08T21:56:00
 description: "Kynttilä (Taken with instagram)"
-categories: ["Tumblr"]
+categories: ["Elämä"]
 tags: ["tumblr"]
 aliases: ["/kynttila-taken-with-instagram/"]
 ---

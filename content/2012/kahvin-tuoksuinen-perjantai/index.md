@@ -2,7 +2,7 @@
 title: "Kahvin tuoksuinen perjantai"
 date: 2012-02-03T21:18:00
 description: "© withassociates On taas vaihteeksi perjantai, hienoa! Perjantai tietää aina viikonloppua ja sitä, että saa pari päivää ottaa rennosti. Tämä perjantai ei ollut se vahvin mahdollinen sillä tulipa juotua kahvit erittäin pikaisesti. Nimittäin syliinhän ne lensivät, huppari tuoksahti kahville tämän päivän jälkeen. Joskus näinkin päin… Päivittelin ja tuunasin samalla tätä teemaakin, huomaatte varmaan pieniä muutoksia. Tai"
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["elämä", "marko", "markosource", "perjantai", "perjantaipohdinta", "wordpress"]
 aliases: ["/kahvin-tuoksuinen-perjantai/"]
 ---

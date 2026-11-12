@@ -3,7 +3,7 @@ title: "Diet Coda - Koodaa iPadillä"
 date: 2012-12-06T19:21:00
 lastmod: 2013-08-05T17:58:00
 description: "Itselle tulee silloin tällöin tilanteita kun haluan tehdä tabletilla jotain hieman haastavempaa kuin pelkästään pelata tai tuottaa tekstiä. Koodaus on yksi näistä ja haluan, että omassa tabletissani on mahdollisuus koodaukseen. Olenkin sitä varten testaillut useampaa sovellusta. Diet Coda on tullut jo hyvän aikaa sitten (24.5.2012), mutta intouduin hankkimaan tämän vasta vähän aikaa sitten. Itsehän olen"
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["apple", "apps", "coda", "diet coda", "ipad", "panic", "sovellukset"]
 aliases: ["/diet-coda-koodaa-ipadilla/"]
 ---

@@ -2,7 +2,7 @@
 title: "M-Pic projekti"
 date: 2010-12-21T20:13:00
 description: "Ajattelin blogailla tästä hieman tänne. Olen aloittanut uuden/vanhan projektin. Nimittäin kuvagalleriaa olen jo jonkin aikaa halunnut tehdä. Ja nyt aloin sitten tekemään sitä. Tässä projektissa on se ero, että tämän tekeminen on täysin teidän seurattavissanne ja te voitte ehdottaa ominaisuuksia tähän. Projektin tulos tulee myös ilmaiseksi jakoon teille. Eli tarkoituksena on tehdä kuvagalleria, jonka olisi"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["koodaus", "kuvagalleria", "m-pic", "projekti"]
 aliases: ["/m-pic-projekti/"]
 ---

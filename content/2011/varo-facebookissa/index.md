@@ -2,7 +2,7 @@
 title: "Varo Facebookissa"
 date: 2011-03-15T18:50:00
 description: "Tämänkin pitäisi olla tänä päivänä itsestäänselvyys, mutta se ei ole. Facebookissa on omat vaaransa ja nyt näkyy olevan erittäin yleistä se, että seinällesi tulee linkki josta kaverisi on tykännyt. Aina se ei kuitenkaan ole aivan siltä miltä se näyttää. Sillä sekunnilla, kun klikkaat linkkiä tulee sinunkin seinällesi viesti, että olet tykännyt samasta linkistä kuin kaverisi"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["facebook", "internet", "järki", "linkki", "spämmi", "vaarat"]
 aliases: ["/varo-facebookissa/"]
 ---

@@ -3,7 +3,7 @@ title: "Uutta konetta"
 date: 2008-01-19T23:07:00
 lastmod: 2008-12-27T13:32:00
 description: "On aika ostaa uusi kone itselleni, en suinkaan korvatakseni tätä uskollista kannettavaa konetta vaan ostaakseni sen rinnalle ei niin kannettavan pöytäkoneen. Olen varmaan aivan liian paljon sumplinut mielessäni uuden koneen ostoa ja varmaan pari kolme kuukautta pyöritellyt eri osia ja niin eespäin. Mutta nyt on aika tilata ja ostaa ne. Kuten kirjoitin jo vuoden alussa (Minä ja vuosi 2007) Tein nyt kohta loppuvalla viikolla pientä tutkiskelua kahdessa kuopion alueen"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["marko", "tietokone"]
 aliases: ["/uutta-konetta/"]
 ---

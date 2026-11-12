@@ -3,7 +3,7 @@ title: "OP vaikeutti laskujen maksua"
 date: 2011-12-13T19:00:00
 lastmod: 2011-12-16T16:03:00
 description: "OP teki tietoturvan nimessä uudistuksen verkkopalveluihinsa. Sama uudistus vaikeutti elämääni kuitenkin aika paljon tai lähinnä laskujen maksamista. Maksoin nimittäin viime viikolla yrityksen laskuja (sielläkin OP käytössä) ja niitä oli jokunen siinä maksettavana. Ei normaalisti mitään, mutta tällä kertaa jokainen maksettava lasku piti hyväksyä vielä avainluvulla. Itseäni ei häirinnyt se uudistus, että heti kirjautumisen jälkeen kysytään"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["kehitysehdotus", "op", "osuuspankki", "pankki", "verkkopalvelu"]
 aliases: ["/op-vaikeutti-laskujen-maksua/"]
 ---

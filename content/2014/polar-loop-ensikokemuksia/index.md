@@ -3,7 +3,7 @@ title: "Polar Loop ensikokemuksia"
 date: 2014-02-23T17:17:00
 lastmod: 2014-02-23T17:18:00
 description: "Sain testattavaksi Polar Loop aktiivisuusrannekkeen ja kerronkin tässä kirjoituksessa ensikokemuksia tästä rannekkeesta."
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["aktiivisuus", "aktiivisuusranneke", "askelet", "kalorit", "liikunta", "loop", "polar", "polar loop", "ranneke", "syke"]
 aliases: ["/polar-loop-ensikokemuksia/"]
 ---

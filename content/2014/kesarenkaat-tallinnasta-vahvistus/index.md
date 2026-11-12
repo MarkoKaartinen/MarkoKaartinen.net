@@ -3,7 +3,7 @@ title: "Kesärenkaat Tallinnasta: Vahvistus"
 date: 2014-05-22T09:05:00
 lastmod: 2015-11-08T10:05:00
 description: "Tiedustelin ja varasin noin kuukausi sitten uudet renkaat ja niiden vaihdon Tallinnasta (aiempi artikkeli). Lyhyesti kerrattuna omat kesärenkaat alkaa olla tiensä päässä ja Tallinnassa tämä operaatio on reilu 100 euroa halvempi kuin täällä Suomessa. Nyt viikko ennen matkaa lähdin kyselemään vahvistusta tälle asialle. Mikäli joku olisi tässä vaiheessa ollut ongelmana niin olisin kerennyt tarvittaessa järkätä"
-categories: ["Blogi"]
+categories: ["Matkat"]
 tags: ["autonrenkaat", "kesärenkaat", "rengas", "renkaat", "tallinna", "viro"]
 series: ["Kesärenkaat Tallinnasta"]
 aliases: ["/kesarenkaat-tallinnasta-vahvistus/"]

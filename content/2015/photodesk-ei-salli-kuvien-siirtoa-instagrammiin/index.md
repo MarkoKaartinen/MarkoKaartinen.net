@@ -2,7 +2,7 @@
 title: "Photodesk ei salli kuvien siirtoa Instagrammiin"
 date: 2015-02-18T09:54:00
 description: "Kirjoitan tämän artikkelin, jotta muut oppisivat minun huolimattomuudestani. Eräs ilta törmäsin vahingossa Photodesk nimiseen appiin ja kuvittelin sen olevan ratkaisu siihen, että voin siirtää koneelta suoraan kuvia Instagrammiin. Ei muuten ollut… Vitosen maksava sovellus on kyllä loistava siihen mihin se on tarkoitettu – Instagrammin selaamiseen. Sovelluksella voit nimittäin puuhastella kaikkea muuta paitsi lähettää kuvia Instagrammiin"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["fail", "huolimattomuus", "instagram", "kuvan siirto", "moka", "nörtti", "photodesk"]
 aliases: ["/photodesk-ei-salli-kuvien-siirtoa-instagrammiin/"]
 ---

@@ -3,7 +3,7 @@ title: "Kokeilussa Speedlink Snappy kaiuttimet"
 date: 2017-08-28T16:40:00
 lastmod: 2017-09-01T08:22:00
 description: "Tällä kertaa kokeiluun tuli Speedlink Snappy kaiuttimet. Nämä kaiuttimet on hintaluokaltaan 20 euron hintaluokassa ja on kyse ihan peruskaiuttimista."
-categories: ["Kokeilussa"]
+categories: ["Marko testaa"]
 tags: ["arvonta", "kaiuttimet", "kokeilu", "kokeilussa", "snappy", "speedlink", "testi"]
 aliases: ["/kokeilussa-speedlink-snappy-kaiuttimet/"]
 ---

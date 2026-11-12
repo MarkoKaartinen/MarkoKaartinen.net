@@ -3,7 +3,7 @@ title: "Kokeilussa ROCCAT Leadr"
 date: 2018-11-21T08:25:00
 lastmod: 2018-12-07T07:42:00
 description: "Kyllä nyt pelaajaa hemmotellaan, kun juuri Battlefield V julkaisun kynnyksellä sain testattavaksi pelihiiren! Kyseessä on ROCCATin tekemän Leadr pelihiiri."
-categories: ["Kokeilussa"]
+categories: ["Marko testaa"]
 tags: ["arvostelu", "hiiri", "kokeilu", "kokeilussa", "leadr", "pelaaminen", "pelihiiri", "pelit", "rgb", "roccat", "roccat leadr", "tietokone"]
 aliases: ["/kokeilussa-roccat-leadr/"]
 ---

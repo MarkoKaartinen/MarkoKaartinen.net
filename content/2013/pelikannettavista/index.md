@@ -3,7 +3,7 @@ title: "Pelikannettavista"
 date: 2013-08-13T12:32:00
 lastmod: 2014-12-10T18:41:00
 description: "Olen kirjoitellut pari tekstiä, jossa olen katsastanut paria peliläppäriä – Asuksen G750 ja Lenovon IdeaPad Y510p kannettavia. Molemmat ovat hyvä esimerkki suhteellisen järkevähintaisista pelikannettavista ja molemmissa on hillittömästi tehoja eli puhuttiin todellakin pelikäyttöön tarkoitetuista kannettavista. Tässä artikkelissa ihmettelenkin pelikannettavien hyötyjä, haittoja sekä ihmetellään myös sitä mitä muuta sillä oikein voisi tehdä – tehojahan niissä kun"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["asus", "g750", "haitat", "hyödyt", "ideapad", "kannettava", "läppäri", "lenovo", "pelaaminen", "pelikannettava", "peliläppäri", "pelit", "tietokone", "y510p"]
 aliases: ["/pelikannettavista/"]
 ---

@@ -2,7 +2,7 @@
 title: "Ylimääräinen salasanasuojaus WordPressin hallintaan"
 date: 2013-10-17T16:35:00
 description: "Olen omille sivuilleni asettanut ylimääräisen salasanasuojauksen htaccessin avulla WordPressin hallintaan. Tämä sen takia, koska aika moni koitti pommittaa tuota kirjautumista ja koitti kirjautua milloin milläkin tunnuksilla sisälle. Koska tähän blogiin ei voi rekisteröityä ja kommentointi onnistuu sosiaalisten medioiden tunnuksilla niin koin turhaksi pitää tuota kirjautumissivua avoimena kaikille – säädin siis htaccess suojauksen tuohon ja tässä"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["htaccess", "htpasswd", "salasanasuojaus", "turvallisuus", "wordpress", "wp-login"]
 aliases: ["/ylimaarainen-salasanasuojaus-wordpressin-hallintaan/"]
 ---

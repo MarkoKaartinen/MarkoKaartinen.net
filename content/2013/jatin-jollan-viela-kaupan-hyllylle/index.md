@@ -3,7 +3,7 @@ title: "Jätin Jollan vielä kaupan hyllylle"
 date: 2013-12-17T17:18:00
 lastmod: 2014-12-10T18:34:00
 description: "Näin kävi, kävin Kuopiossa Päivärannan Citymarketissa ja huomasin siellä DNA:n liikkeessä Jollan. Pitihän sitä hieman hypistellä ja sanoisinko näin, että vaatisi hieman totuttelua sen käyttäminen – näin tosin on lähes joka puhelimen kanssa. Lyhyellä hypistelyllä puhelin vaikutti sinällään mielenkiintoiselta, mutta ei herättänyt ehkä niin suuria tuntemuksia kuin olin luullut (ja toivonut). Tietty Sailfish on vielä"
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["dna", "iphone", "jolla", "kännykkä", "puhelin", "sailfish"]
 aliases: ["/jatin-jollan-viela-kaupan-hyllylle/"]
 ---

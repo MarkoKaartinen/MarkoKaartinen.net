@@ -3,7 +3,7 @@ title: "MarkoKaartinen.info"
 date: 2010-11-14T10:32:00
 lastmod: 2014-12-10T19:16:00
 description: "Ajattelin nyt julkaista tämän minisaitin täälläkin hieman paremmin kuin tuolla linkillä sivupalkissa. Eli kyseessä on MarkoKaartinen.info domainissa sijaitseva minisaitti englanniksi. Ja aiheena on kukas muu, kuin minä. Minisaitin tarkoituksena on olla käyntikorttina ja toimia englanninkielisenä esittelysivuna. Minisaitille olen laittanut neljä eri osiota. About me -osio kertoo minusta lyhyesti ja sieltä on linkit MarkoKaartinen.nettiin ja ZeTakes.info"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["in english", "kaartinen", "käyntikortti", "marko", "marko kaartinen", "markokaartinen.info", "minisaitti"]
 aliases: ["/markokaartinen-info/"]
 ---

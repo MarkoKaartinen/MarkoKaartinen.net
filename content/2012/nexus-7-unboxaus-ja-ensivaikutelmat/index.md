@@ -3,7 +3,7 @@ title: "Nexus 7 unboxaus ja ensivaikutelmat"
 date: 2012-12-12T12:38:00
 lastmod: 2014-12-10T19:00:00
 description: "Kuten Twitteristäni ja YouTubesta on saatettu jo huomata, olen saanut käsiini Googlen Nexus 7 tabletin, jonka on valmistanut Asus. Julkaisin nimittäin alhaalla olevan videon jo pari päivää sitten YouTubeen ja sitä on voinut siellä ihmetellä. Kyseessähän on 7 tuuman taulutietokone eli tablet eli täppäri. Tätä voisi sanoa oikeastaan jo hieman budjettimallin tabletiksi sillä 32 gigainen"
-categories: ["Blogi"]
+categories: ["Marko testaa"]
 tags: ["asus", "ensivaikutelma", "google", "nexus", "nexus 7", "tabletti", "täppäri", "taulutietokone", "testi", "vekottimet", "vempaimet", "video"]
 aliases: ["/nexus-7-unboxaus-ja-ensivaikutelmat/"]
 ---

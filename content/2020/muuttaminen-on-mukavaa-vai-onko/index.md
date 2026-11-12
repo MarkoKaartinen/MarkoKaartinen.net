@@ -2,7 +2,7 @@
 title: "Muuttaminen on mukavaa vai onko?"
 date: 2020-11-17T10:09:00
 description: "Tässä on nyt käynyt niin, että 7 vuoden asumisen jälkeen pitää muuttaa. Olemme asuneet nyt kaksiossa ja pääsemme vihdoin ja viimein muuttamaan kolmioon. Eli saadaan nyt kerralla yksi huone jo lisää, joka on meille 2 aikuiselle ja 3 eläimelle aikas tarpeen. Muuttamiseen liittyy paljon tehtävää sekä muutenkin se on perhanan iso projekti. Suoraan sanottuna en"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["muuttaminen", "muutto"]
 aliases: ["/muuttaminen-on-mukavaa-vai-onko/"]
 ---

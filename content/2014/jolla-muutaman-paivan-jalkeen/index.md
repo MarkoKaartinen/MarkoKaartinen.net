@@ -3,7 +3,7 @@ title: "Jolla muutaman päivän jälkeen"
 date: 2014-07-27T13:34:00
 lastmod: 2014-12-10T18:22:00
 description: "Jätin Jollan aiemmin kaupan hyllylle, tällä viikolla kuitenkin vanha puhelin sai kyytiä ja hankin Jolla puhelimen."
-categories: ["Blogi"]
+categories: ["Marko testaa"]
 tags: ["android", "arvostelu", "jolla", "käytössä", "kokemus", "puhelin", "sailfish", "sailfishos"]
 aliases: ["/jolla-muutaman-paivan-jalkeen/"]
 ---

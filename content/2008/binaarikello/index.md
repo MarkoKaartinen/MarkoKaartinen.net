@@ -2,7 +2,7 @@
 title: "Binäärikello"
 date: 2008-05-22T20:15:00
 description: "Vaikka syntymäpäivästäni on jo melkein kuukausi aikaa niin posti ja verkkokauppa ei noudata aina haluttua aikataulua. Porukat päättivät tilata minulle yllätyksenä binäärikellon verkkokaupasta (jota en tiedä), ja ilmeisesti tuote loppui varastosta tai vastaavaa ja sain lahjan vasta tänään. Eli kyseessä on binäärikello, eli kello joka näyttää ajan valojen avulla. Kyseessä ei ole kuitenkaan tavallinen kellotaulu"
-categories: ["Blogi"]
+categories: ["Vempaimet"]
 tags: ["binäärikello", "lahja", "synttärit"]
 aliases: ["/binaarikello/"]
 ---

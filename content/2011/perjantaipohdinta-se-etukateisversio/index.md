@@ -3,7 +3,7 @@ title: "Perjantaipohdinta - se etukäteisversio"
 date: 2011-09-15T21:28:00
 lastmod: 2011-09-15T21:30:00
 description: "Tästä tuleekin hieman erilainen perjantaipohdinta, sillä olen kirjoittanut tämän torstaina! Syynä tähän on se, että olen tämän kirjoituksen julkaisuhetkellä joko ajamassa kohti Kotkaa tai Kotkassa tai jopa ajamassa pois Kotkasta. Kyllä, olen siis työmatkalla. (Hups… julkaisin tämän heti… no olen huomenna ajamassa jonnekkin suuntaan… ehkäpä luet tätä silloin) Viikko meni ja viikko oli taas kiirettä."
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["blogi", "elämä", "kalpa", "marko", "perjantaipohdinta", "pohdinta", "torstai", "viikonloppu"]
 aliases: ["/perjantaipohdinta-se-etukateisversio/"]
 ---

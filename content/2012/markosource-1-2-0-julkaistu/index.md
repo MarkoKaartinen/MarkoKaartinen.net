@@ -2,7 +2,7 @@
 title: "MarkoSource 1.2.0 julkaistu"
 date: 2012-02-26T17:07:00
 description: "Päätin alkaa tekemään tänne pienen postauksen, kun joku teemoistani/lisäosista saavuttaa isomman päivityksen rajapyykin. Tällä tarkoitan sitä, että versionumero kasvaa joko esimerkiksi 1.7.8 –> 2.0.0 tai 1.1.4 –> 1.2.0. En tule siis raportoimaan jos versionumero nousee esimerkiksi 1.2.1 –> 1.2.2. Toivottavasti pysyitte kärryillä edes jotenkin. MarkoSource on siis tämä teema mitä käytän kirjoitus hetkellä MarkoKaartinen.netissä. Päivitin"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["markosource", "päivitys", "sivusto", "teema", "wordpress"]
 aliases: ["/markosource-1-2-0-julkaistu/"]
 ---

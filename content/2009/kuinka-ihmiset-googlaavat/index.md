@@ -3,7 +3,7 @@ title: "Kuinka ihmiset Googlaavat?"
 date: 2009-07-21T09:58:00
 lastmod: 2009-07-21T10:59:00
 description: "Viikonloppuna näytettiin kuu aiheisia elokuvia, joista itse katsoin Apollo 13 ja Apollo 11. Molemmat hyviä leffoja ja itse pidin ja tykkäsin. Mutta nyt en ajatellut kirjoittaa siitä, että ihminen kävi kuussa ekan kerran 40 vuotta sitten, enkä siitä miten hyviä/huonoja kuu aiheisia leffoja tuli viikon aikana. Vaan siitä miten tämä vaikutti Googlaamiseen ja minun sivustoon."
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["googlaus", "google", "käynti", "kuussa", "sivusto"]
 aliases: ["/kuinka-ihmiset-googlaavat/"]
 ---

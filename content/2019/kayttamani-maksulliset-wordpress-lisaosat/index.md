@@ -2,7 +2,7 @@
 title: "Käyttämäni maksulliset WordPress lisäosat"
 date: 2019-10-01T15:39:00
 description: "Erinäisten tarpeiden kautta ollaankin hankittu jokunen maksullinen WordPress lisäosa, joita hieman kehun tässä ja suosittelenkin niitä."
-categories: ["WordPress"]
+categories: ["Koodaus"]
 tags: ["acf", "acf pro", "gravity forms", "lisäosa", "lisäosat", "lomake", "polylang", "välimuisti", "wordpress", "wp rocket"]
 aliases: ["/kayttamani-maksulliset-wordpress-lisaosat/"]
 ---

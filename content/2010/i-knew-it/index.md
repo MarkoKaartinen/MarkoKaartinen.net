@@ -2,7 +2,7 @@
 title: "I KNEW IT!"
 date: 2010-12-24T18:14:00
 description: "I KNEW IT!"
-categories: ["Tumblr"]
+categories: ["Huumori"]
 tags: ["tumblr"]
 aliases: ["/i-knew-it/"]
 ---

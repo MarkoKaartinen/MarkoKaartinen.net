@@ -3,7 +3,7 @@ title: "\"Parhaat\" verkkosivut"
 date: 2010-09-12T08:35:00
 lastmod: 2010-09-12T08:36:00
 description: "En voinut vastustaa tähän tarttumista omassa blogissani. Rolle kirjoitti artikkelin Suomen huonoimmat verkkosivut ja kyseessä on Websiterace.comin ”Suomen parhaat verkkosivut” -kilpailu. Katsoin vuoden 2009 yksityisten sarjan voittajia ja ihmettelin, että mitähän ihmettä tässäkin on taas tapahtunut. Onko joku päättänyt ”trollata” kisan ja äänestää HUONOIMMAT voittoon. Katsoin vielä äänestysohjeita ja siellähän olikin, että ”Huomaathan, että samalta"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["bongattu", "internet", "verkkosivut. suomi"]
 aliases: ["/parhaat-verkkosivut/"]
 ---

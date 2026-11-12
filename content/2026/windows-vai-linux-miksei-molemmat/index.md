@@ -2,7 +2,7 @@
 title: "Windows vai Linux? Miksei molemmat!"
 date: 2026-01-11T16:59:00
 description: "Pelikoneeseen asennetaan Windows 11 ja CachyOS Linux dualboot-ympäristöön. Miksi valitsin juuri CachyOS:n, miten dualboot toteutetaan ja mitä haasteita edessä? Seuraa projektin etenemistä artikkelisarjassa."
-categories: ["Tietokoneet", "Linux"]
+categories: ["Tietokoneet"]
 tags: ["dualboot", "linux", "windows 11", "windows", "cachyos", "pelaaminen", "pelikone", "pelit", "arch linux", "kde plasma", "proton", "käyttöjärjestelmä", "amd"]
 series: ["Windows ja Linux pelikoneessa"]
 mastodon_post_id: "115877079033996373"

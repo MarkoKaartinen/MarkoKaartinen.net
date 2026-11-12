@@ -3,7 +3,7 @@ title: "Mutant Mudds on tullut myös iPadille!"
 date: 2012-12-14T15:24:00
 lastmod: 2013-08-05T18:02:00
 description: "Alunperin Nintendo 3DS:lle julkaistu koukuttava ja suhteellisen haastava hieman old-school tasohyppely on tullut myös iPadille, sekä myös iPhonelle. Molemmille alustoille hintakin on naurettavat 89 senttiä. Nintendon 3DS käsikonsolilla tuo iski heti ja se on iPadilläkin rahansa arvoinen peli. Tuo on muuten myös saataville 3DS laitteille demoversiona käsikonsolin omassa kaupassa. Katso alla oleva video ja kuuntele"
-categories: ["Blogi"]
+categories: ["Pelit"]
 tags: ["appsit", "ipad", "iphone", "mudds", "mutant", "mutant mudds", "old-school", "pelaaminen", "pelit", "tasohyppely"]
 aliases: ["/mutant-mudds-on-tullut-myos-ipadille/"]
 ---

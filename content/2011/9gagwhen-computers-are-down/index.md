@@ -2,7 +2,7 @@
 title: "'9gag:"
 date: 2011-02-09T10:34:00
 description: "9gag: when computers are down"
-categories: ["Tumblr"]
+categories: ["Huumori"]
 tags: ["tumblr"]
 aliases: ["/9gagwhen-computers-are-down/"]
 ---

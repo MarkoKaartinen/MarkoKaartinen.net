@@ -3,7 +3,7 @@ title: "020 Kissoja ja sekalaista lätinää (alku meni hyvin)"
 date: 2014-12-15T16:50:00
 lastmod: 2016-01-26T14:07:00
 description: "Tässä jaksossa oli tarkoitus saada segmentoitua podcastia fiksusti ja jaoteltua aiheita omiin osioihin – eihän se mennyt kuten Strömssössä… Muutama linkki: Blubrry Twitter Facebook Instagram Codekit Tower Sublime Text SourceTree Kasa kysymyksiä teille: Miten podcastia olisi teistä fiksuin tehdä? Vinkkejä webdevaus workflowhun? Muuta? Ja lopuksi niitä kissoja joita lupasin teille!"
-categories: ["Podcast"]
+categories: ["Podcastit ja vlogit"]
 tags: ["kehitys", "kissa", "kissat", "podcast", "sivusto", "web", "webdev", "webdevaus"]
 aliases: ["/020-kissoja-ja-sekalaista-latinaa-alku-meni-hyvin/"]
 ---

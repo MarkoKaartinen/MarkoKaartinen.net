@@ -3,7 +3,7 @@ title: "Näin se homma etenee"
 date: 2010-11-30T19:15:00
 lastmod: 2014-12-10T19:16:00
 description: "Jokainen joka on jossain vaiheessa opiskellut/ollut tekemisissä ohjelmistosuunnittelussa on varmasti nähnyt tämän seuraavan kuvan jossain yhteydessä."
-categories: ["Blogi"]
+categories: ["Huumori"]
 tags: ["huumori", "kuva", "ohjelmistosuunnittelu", "projekti"]
 aliases: ["/nain-se-homma-etenee/"]
 ---

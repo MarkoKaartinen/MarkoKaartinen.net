@@ -2,7 +2,7 @@
 title: "Ärsytyksen kohteet HBO Nordicissa"
 date: 2013-06-25T13:19:00
 description: "Olen ollut aktiivinen HBO Nordicin käyttäjä oikeastaan sen taipaleen alusta asti. Nyt on kuitenkin aika avata sanainen arkkuni pitemmän ajan jälkeen ja kertoa mitkä asiat ovat alkaneet ärsyttämään minua tuossa palvelussa. Kirjoittelin alkuvuodesta artikkelin tästä aiheesta ja aloitetaan sillä, että katsotaan onko mitään sen aikaisia epäkohtia korjattu. ”Muistaisi mihin jäin” – eli osaisi tarjota kesken"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["apple", "ärsytys", "epäkohdat", "hbo", "hbo nordic", "ipad", "ongelmat", "sovellus", "televisio", "tietokone"]
 aliases: ["/arsytyksen-kohteet-hbo-nordicissa/"]
 ---

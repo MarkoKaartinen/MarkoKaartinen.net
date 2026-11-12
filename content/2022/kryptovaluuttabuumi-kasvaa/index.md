@@ -2,7 +2,7 @@
 title: "Kryptovaluuttabuumi kasvaa"
 date: 2022-04-08T10:58:00
 description: "Kryptovaluuttojen sanotaan mahdollisesti mullistavan maailmaa tulevaisuudessa. Ne kuitenkin jakavat sijoittajia eri ryhmiin, sillä osa sijoittajista suhtautuu kryptovaluuttoihin hyvin kriittisesti, ja uskoo ettei kryptovaluuttoja oteta osaksi jokapäiväistä talouttamme. Nyt tilanne näyttää kuitenkin kääntyvän ainakin jonkin verran, sillä vaikka edellisinä vuosina kryptovaluutat ovat olleet lähinnä sijoituskohde ja voittoja on tehty spekuloimalla hinnan kehitystä, on osaa kryptoista vihdoin"
-categories: ["Blogi"]
+categories: ["Internet"]
 aliases: ["/kryptovaluuttabuumi-kasvaa/"]
 ---
 

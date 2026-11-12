@@ -3,7 +3,7 @@ title: "Sivusto siirtyi VPS:n päälle"
 date: 2013-05-22T07:47:00
 lastmod: 2014-12-10T18:57:00
 description: "Kuten osa varmaan huomasi niin täällä oli ehkä parin päivän ajan tylsä Moi -teksti näkyvillä. Tämä johtui siitä, että siirsin sivuston uuden hostin alle ja tällä kertaa tämä pyörii oman VPS:n päällä. Tällä kertaa hostiksi valikoitui DigitalOcean niminen lafka. Odottelun jälkeen heille tuli lisää IP-osoitteita EU paketteihin ja sain tilattua VPS:n Amsterdamista, joten yhteyksien pitäisi"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["markokaartinen.net", "mknet", "palvelin", "siirto", "sivusto", "vps"]
 aliases: ["/sivusto-siirtyi-vpsn-paalle/"]
 ---

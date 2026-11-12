@@ -3,7 +3,7 @@ title: "Marko sanoo: Tweet tweet"
 date: 2009-05-27T11:55:00
 lastmod: 2013-08-05T14:52:00
 description: "Kuten varmaan olette huomanneet, niin layoutin uudistuksen myötä Twitter on alkanut valloittaa sivua. Kyllä minä pidän yllä ”mikroblogia” Twitterin puolella ja olen Facebookissakin. Olenko siis sosiaalinen? En… Mutta postauksen pääasia oli Twitter joten keskitytään siihen enemmän. Mikä Twitter on? Twitter on yhteisö- ja mikroblogipalvelu, joka mahdollistaa käyttäjiensä lähettää ja lukea toisten käyttäjiensä päivityksiä, joista käytetään"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["internet", "marko", "twitter"]
 aliases: ["/marko-sanoo-tweet-tweet/"]
 ---

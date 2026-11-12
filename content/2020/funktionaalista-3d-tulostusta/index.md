@@ -2,7 +2,7 @@
 title: "Funktionaalista 3D tulostusta"
 date: 2020-08-24T13:16:00
 description: "Kirjoittelinkin puolisen vuotta sitten 3D tulostuksen aloittamisesta ja nyt on aika kirjoitella siitä lisää. Olen tulostellut jonkin verran ns. funktionaalisia tulosteita eli tavaraa mikä pistetään suoraan hyötykäyttöön ja on joiltain osin hyödyllistä ”muovikamaa”. Alle listailinkin jokusen hyödyllisen tulosteen mikä on tälläkin hetkellä käytössä. Osasto on kuva jemmassa, mutta osasta taas sitten ei… Ylläolevien lisäksi on"
-categories: ["Blogi"]
+categories: ["Vempaimet"]
 aliases: ["/funktionaalista-3d-tulostusta/"]
 ---
 

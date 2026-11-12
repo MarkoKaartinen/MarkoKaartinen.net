@@ -2,7 +2,7 @@
 title: "Puhelinkisan voitti..."
 date: 2012-10-01T08:46:00
 description: "Nokia Lumia 900! Siis täh! Eihän tämä ollut edes kisassa mukana, miten se voi voittaa!??! Kuinkahan moni tätä seuranneista ajattelee noin? Itse ainakin, jos olisin ulkopuolelta seuraamassa tätä ”kisaa”. Selitän siis teille miksi en vielä hankkinut mitään kisassa olleista älypuhelimista. Lyhyesti syynä oli hinta. Nokia Lumia 900 hinta tipahti sadalla eurolla viime viikon perjantaina. Pohdiskelin"
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["lumia 900", "lumia 920", "nokia", "nokia 900", "nokia lumia", "nokia lumia 900", "nokia lumia 920", "windows phone"]
 aliases: ["/puhelinkisan-voitti/"]
 ---

@@ -2,7 +2,7 @@
 title: "Uusia tuulia ja haasteita"
 date: 2011-05-19T18:42:00
 description: "Vuosi 2007 oli monellakin tavalla mielenkiintoinen vuosi itselleni. Kävin armeijan, kävin assyillä, olin töissä, aloitin opiskelut ammattikorkeakoulussa ja muutin pois kotoa (tarkempaa erittelyä vuodesta 2007 voit lukea täältä). Nyt nostan kuitenkin vuonna 2007 alkaneen urakan esille, nimittäin ammattikorkeakoulun. Valmistun tänä keväänä IT-tradenomiksi Savonia-ammattirkoekakoulusta. Toisin sanoen taskustani löytyy sitten datanomin ja tradenomin paperit! Hienoa! Homma venähti"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["elämä", "koulu", "marko", "menneisyys", "opiskelu", "pele", "ple", "tulevaisuus", "yrittäjyys", "yritys"]
 aliases: ["/uusia-tuulia-ja-haasteita/"]
 ---

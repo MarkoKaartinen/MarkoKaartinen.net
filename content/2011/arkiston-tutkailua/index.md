@@ -2,7 +2,7 @@
 title: "Arkiston tutkailua"
 date: 2011-05-21T10:19:00
 description: "Tutkailinpa tuossa arkistoa huvikseni ja huomasin, että tänä vuonna ollaan aika kovassa vauhdissa – mikäli siis verrataan viime vuoteen. Tosin ensin voisi kertoilla vuosion 2008 ja 2009 lukuja, koska nekin näkyy arkistossa vallan mainiosti. 2007 vuodelta on vain pari postausta tuotu tänne, joten se ei ole kovin vertailukelpoinen enää. 2008 vuonna olin kirjoitellut 62 postausta"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["arkistot", "bloggaaminen", "blogi", "historia", "marko", "markokaartinen.net", "menneisyys", "sivusto"]
 aliases: ["/arkiston-tutkailua/"]
 ---

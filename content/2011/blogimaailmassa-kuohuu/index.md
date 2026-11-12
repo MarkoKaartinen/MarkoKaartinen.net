@@ -2,7 +2,7 @@
 title: "Blogimaailmassa kuohuu"
 date: 2011-02-22T16:49:00
 description: "Tänään on ollut vähintäänkin mielenkiintoinen päivä suomalaisten bloggaajien maailmassa. Nimittäin on sadellut sähköposteja, joissa pyydetään poistamaan eräs blogipostaus. Kysehän on Twitterissäkin hashtagin saaneesta #NovaTrotters hässäkästä. Tämä on ylittänyt myös uutiskynnyksen sillä, esimerkiksi Tietoviikko uutisoi näin: Useat suomalaiset bloginpitäjät kertovat saaneensa tänään sähköpostin, jossa ilmoitetaan Suomen Parhaat Verkkosivut -kilpailun järjestäjän tehneen heistä rikosilmoituksen. Viestin mukaan Nova"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["#novatrotters", "suomen parhaat verkkosivut", "uhkailu", "uhkaus"]
 aliases: ["/blogimaailmassa-kuohuu/"]
 ---

@@ -3,7 +3,7 @@ title: "Kesärenkaat Tallinnasta: Itse operaatio"
 date: 2014-06-09T17:50:00
 lastmod: 2015-11-08T10:05:00
 description: "Suoraan sanottuna tämä artikkeli olisi pitänyt jo kirjoittaa viikko sitten. Parempi myöhään kuin ei milloinkaan – eikös. Mennääs asiaan, olen tässä artikkelisarjassa kertonut uusien renkaiden hankkimisesta Tallinnasta – tämä on sarjan viimeinen osa sillä renkaat on nyt ollut 1.5vko alla. Aika oli siis varattu helatorstaille kello kymmeneksi Autorehvid nimiseen yritykseen (rehvid.ee). Olimme paikalla hieman etuajassa"
-categories: ["Blogi"]
+categories: ["Matkat"]
 tags: ["autonrenkaat", "kesärenkaat", "rengas", "renkaat", "tallinna", "viro"]
 series: ["Kesärenkaat Tallinnasta"]
 aliases: ["/kesarenkaat-tallinnasta-itse-operaatio/"]

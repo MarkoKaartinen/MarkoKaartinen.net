@@ -2,7 +2,7 @@
 title: "#3 - Digiexpo"
 date: 2013-11-02T17:28:00
 description: "Pahoittelut hiljaisesta äänestä!"
-categories: ["Vlog"]
+categories: ["Podcastit ja vlogit"]
 tags: ["digiexpo", "vlog", "vr"]
 aliases: ["/3-digiexpo/"]
 ---

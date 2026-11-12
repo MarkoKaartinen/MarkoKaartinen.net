@@ -3,7 +3,7 @@ title: "Katsaus Lenovo IdeaPad Y510p peliläppäriin"
 date: 2013-08-08T15:54:00
 lastmod: 2014-12-10T18:48:00
 description: "Aikaisemmin tässä blogissa katsastettiin Asuksen pelikannettavaa ja tällä kertaa otetaan sille erittäin varteenotettava kilpailija katsastukseen. Itse jos konetta hankkisin niin tämä Lenovon IdeaPad Y510p veisi voiton. Katsotaan tosin ensin hieman mitä se pitää sisällään ja miltä se oikein näyttää sekä mitä ratkaisuja tässä koneessa on tehty. Harmikseni tätäkään konetta en omista sillä pankkitilin saldo ei"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["ideapad", "ideapad y510p", "kannettava", "lenovo", "pelaaminen", "pelikannettava", "peliläppäri", "pelit", "tehokannettava", "tehokone", "tietokone", "y510p"]
 aliases: ["/katsaus-lenovo-ideapad-y510p-pelilappariin/"]
 ---

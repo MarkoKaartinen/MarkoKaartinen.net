@@ -3,7 +3,7 @@ title: "Asus RT-AC66 reititin ja Asus USB-AC56 WLAN adapteri"
 date: 2013-12-07T12:21:00
 lastmod: 2016-07-19T09:21:00
 description: "Sain Asukselta lainaan tällä kertaa verkkolaitteita. Sain testattavaksi AC-standardin verkkolaitteita – Asus RT-AC66U Gigabit Dualband AC1750 WLAN-reititin sekä Asus USB-AC56 kaksitaajuuksinen N1200 USB3.0 WLAN-adapteri. Tarkoituksena oli, että vertaan AC-standardin nopeutta omaan nykyiseen verkkooni verrattuna. Oma verkkoni on tällä hetkellä hieman monimutkainen simppelisti selitettäväksi, mutta sanotaanko näin, että langaton verkko NATattuna ja standardina on N-standardi. Eli saan suhteellisen"
-categories: ["Blogi", "Kokeilussa", "Testi"]
+categories: ["Marko testaa"]
 tags: ["asus", "internet", "langaton", "reititin", "rt-ac66", "testi", "usb-ac56", "verkko", "wlan", "wlan adapteri"]
 aliases: ["/asus-rt-ac66-reititin-ja-asus-usb-ac56-wlan-adapteri/"]
 ---

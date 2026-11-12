@@ -2,7 +2,7 @@
 title: "Kameran hankinnan vaikeus"
 date: 2020-06-25T15:20:00
 description: "3.5 vuotta sitten möin järjestelmäkamerani ja hankin mikrojärkkärin tilalle. Senkin möin aikaa sitten jo pois. Noooo nyt onkin taas järjestelmäkamera alkanut kiinnostamaan ja kiinnostusta on tullut tuon vaimon puolelta. Yksi asia on ollut tässä hankinnassa varma ja se on Canon sekä hinta olisi hyvä pysyä reilusti alle tonnissa. Tosin on katseltu erilaisia vaihtoehtoja ja paketteja,"
-categories: ["Blogi"]
+categories: ["Vempaimet"]
 tags: ["canon", "järjestelmäkamera", "kamera"]
 aliases: ["/kameran-hankinnan-vaikeus/"]
 ---

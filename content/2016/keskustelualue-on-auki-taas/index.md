@@ -3,7 +3,7 @@ title: "Keskustelualue on auki (taas)"
 date: 2016-06-23T14:09:00
 lastmod: 2017-03-06T08:31:00
 description: "Laitoinpa serverin siirron ja Githubin käytön kunniaksi keskustelualueen taas auki. Se on tällä kertaa tehty kehitteillä olevan Flarumin päälle."
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["blogi", "esittelyssä", "flarum", "keskustelu", "sivusto"]
 aliases: ["/keskustelualue-on-auki-taas/"]
 ---

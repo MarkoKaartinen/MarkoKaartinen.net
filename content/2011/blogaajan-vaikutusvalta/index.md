@@ -2,7 +2,7 @@
 title: "Blogaajan vaikutusvalta?"
 date: 2011-01-10T23:07:00
 description: "Mielessä kävi ajatus, että blogaajalla on joissain tilanteissa vaikutusvaltaa. Helkutti olenko vaikuttanut muiden ihmisten päätöksiin? elämään ehkäpä? Pohditaas hieman. Kirjoitin äsken kiintolevyn hankkimisesta artikkelin ja mainitsinkin siinä Gigantin nimellä ja joku lukija voi tietty tästä tehdä omat johtopäätöksensä. Itsekin luen blogeja ja googlaan kun teen hankintoja – voin myös tehdä ostopäätöksiä näiden hakujen tuloksena. Olen"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["blogaaja", "elämä", "pohdinta", "vaikutusvalta"]
 aliases: ["/blogaajan-vaikutusvalta/"]
 ---

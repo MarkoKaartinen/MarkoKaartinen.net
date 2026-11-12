@@ -3,7 +3,7 @@ title: "Arkihaaste 1/5"
 date: 2014-04-27T13:19:00
 lastmod: 2014-04-30T07:45:00
 description: "Sattuihan se tämäkin arkihaaste omalle kohdalle. En kuitenkaan halua Facebookissa tehdä tätä, joten teen tämän täällä blogissa."
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["arkihaaste", "elämä", "grilli", "kissa", "kuva", "kuvat", "kuvia", "marko", "paavo"]
 aliases: ["/arkihaaste-15/"]
 ---

@@ -2,7 +2,7 @@
 title: "Maailmaa yrittäjän silmin"
 date: 2012-07-11T17:44:00
 description: "Tänään pysähdyin ja jäin pohtimaan sitä, miten tämä yrittäjyys on sinänsä muokannut omaa näkemystäni maailmasta ja sen menosta. Tietty oman uran ja yrittäjyyden valinta muuttaa jollain tapaa ihmistä ja ajattelutapaa, ei välttämättä kovinkaan paljon mutta vähän kuitenkin. Muiden tukeminen Itsekin olen pienyrittäjä ja kun auto pitää huoltaa niin alan ensin miettimään onko lähellä ketään tuttua"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["elämä", "maailma", "pienyritys", "pohdinta", "yrittäjä", "yrittäjyys", "yritys"]
 aliases: ["/maailmaa-yrittajan-silmin/"]
 ---

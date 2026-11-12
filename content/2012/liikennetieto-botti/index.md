@@ -2,7 +2,7 @@
 title: "@Liikennetieto botti"
 date: 2012-07-07T10:06:00
 description: "Eilen innostuin koodailemaan ja testaamaan miten saisin tehtyä pätevän botin Twitteriin. Koska työkseni koodaan PHP:tä niin kielen valinta oli luonnollinen ja lähdin rakentamaan sillä bottia joka parsii liikennedataa. Selitän tuon @Liikennetieto botin toimintaa seuraavaksi ja kerron hieman miten se tekee sen ja mitä ominaisuuksia siinä käytännössä on. Joka viides minuutti skripti tarkastaan onko tullut uusia"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["botti", "koodaus", "liikenne", "liikennetiedotteet", "liikennetieto", "php", "twitter"]
 aliases: ["/liikennetieto-botti/"]
 ---

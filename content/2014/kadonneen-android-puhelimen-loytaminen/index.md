@@ -2,7 +2,7 @@
 title: "Kadonneen Android puhelimen löytäminen"
 date: 2014-05-03T10:30:00
 description: "Kadonneen Android puhelimen löytäminen onnistuu Googlen omilla työkaluilla täysin ilmaiseksi, joten sinun ei tarvitse hankkia erillistä palvelua tätä varten."
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["android", "google", "kadonnut", "kännykkä", "löytäminen", "puhelimen", "puhelin", "vinkki"]
 aliases: ["/kadonneen-android-puhelimen-loytaminen/"]
 ---

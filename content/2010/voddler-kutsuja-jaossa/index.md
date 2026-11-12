@@ -3,7 +3,7 @@ title: "Voddler kutsuja jaossa"
 date: 2010-11-03T19:28:00
 lastmod: 2010-11-12T13:36:00
 description: "Sain käsiini jokusen kappaleen kutsuja Voddleriin. Jos aloittaisin kertomalla, että mikä se Voddler on yleensäkkään. Wikipedia tarjoaa tietoa minun puolesta tälläkin kertaa! Voddler on ruotsalaisen Voddlerin kehittämä kaupallinen tilausvideopalvelu ja asiakasohjelma (client), joka välittää elokuvia ja TV-ohjelmia Internetissä samaan tapaan kuin Spotify. Voddler toistaa elokuvat omilta palvelimiltaan, jotka sisältävät uutuuksia ja jopa ensi-ilta-elokuvia. Vähemmän suosittuja"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["kilpailu", "kisa", "leffat", "voddler"]
 aliases: ["/voddler-kutsuja-jaossa/"]
 ---

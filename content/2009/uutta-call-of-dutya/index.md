@@ -3,7 +3,7 @@ title: "Uutta Call of Dutyä"
 date: 2009-05-23T08:09:00
 lastmod: 2012-07-16T12:48:00
 description: "Osa varmaan tietää ja arvaa, että olen Call of Duty fani ja pelaan ko. peliä suhteellisen paljon. Aloitin aikoinaan CoD UO:lla ja tänä päivänä eniten peliaikaa vie Call of Duty World at War. Mutta ei enempää siitä mitä CoDyjä pelaan vaan sitää mitä on tulossa! Nimittäin CoD sarjaan on tulossa uusi jäsen Infinity Wardilta ja"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["call of duty", "cod", "modern warfare 2", "pelaaminen", "pelit"]
 aliases: ["/uutta-call-of-dutya/"]
 ---

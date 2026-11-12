@@ -2,7 +2,7 @@
 title: "Energiajuomat pannaan - sen teki Ii ja nyt myös Rautalampi"
 date: 2012-11-12T15:28:00
 description: "Sunnuntaina uutisoitiin siitä, että Ii laittoin energiajuomat pannaan alle 16-vuotiailta. Tänään Savon Sanomissa oli juttu siitä, että Rautalammellakin on energiajuomat pannassa. Tämä on mielestäni hyvä asia, että on saatu toteutettua ja kaikki kaupat ovat vielä mukana tässä! Löysin vielä listankin missä on listattu kauppiaita, jotka ovat eivät myy energiajuomia alle 16-vuotiaille. Muistelin, että asiasta on"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["energiajuoma", "energiajuomat", "kansalaisaloite", "suomen vanhempainliitto"]
 aliases: ["/energiajuomat-pannaan-sen-teki-ii-ja-nyt-myos-rautalampi/"]
 ---

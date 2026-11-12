@@ -3,7 +3,7 @@ title: "Soundtrack of my life"
 date: 2007-11-02T18:41:00
 lastmod: 2008-12-27T13:30:00
 description: "Ohjeet: Laita KAIKKI mp3-kappaleesi samaan soittolistaan Pistä shuffle päälle Paina play Jokaiseen kohtaan laita biisi mikä soi Kun tulee uusi kohta vaihda seuraava biisi Ole rehellinen Kun lopetit niin pistä tämä eteenpäin Let's do it! Alkutekstit: Love Injection feat CHRISTINE / Brazil Injection Jasso... Vai että tämmönen biisikin löytyy minun playlistiltä :P Herääminen: All Saints - Rock Steady Ei paskempi biisi aamun ensimmäiseksi Ensimmäinen koulupäivä: Armand Van Helden feat Spalding Rockwell - Hear my Name Radio Edit Say my name... Ei huono"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["elämä", "soundtrack"]
 aliases: ["/soundtrack-of-my-life/"]
 ---

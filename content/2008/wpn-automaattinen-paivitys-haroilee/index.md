@@ -3,7 +3,7 @@ title: "WP:n automaattinen päivitys häröilee..."
 date: 2008-08-17T10:19:00
 lastmod: 2014-12-10T19:28:00
 description: "Kun lisäosaan tulee uusi versio niin se näkyy pallona hallintapaneelin oikeassa yläkulmassa, lisäosat painikkeen vieressä. Sen jälkeen mennään ja katsotaan mikä lisäosa vaatii päivitystä ja päivitellään se joko automaattisesti tai manuaalisesti. Eikö muuten kuulosta kivalta toi automaattinen päivitys lisäosien kohdalla? Ei se ole aina niin kiva kun luulisi. Nimittäin eilen illalla bongasin, että Nextgen gallery"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["lisäosa", "ongelma", "päivitys", "wordpress"]
 aliases: ["/wpn-automaattinen-paivitys-haroilee/"]
 ---

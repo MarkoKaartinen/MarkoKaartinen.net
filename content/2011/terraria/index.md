@@ -3,7 +3,7 @@ title: "Terraria"
 date: 2011-05-17T21:59:00
 lastmod: 2012-07-16T12:39:00
 description: "Löysin uuden, loistavan, mahtavan, koukuttavan pelin. Nimittäin löysin 2D-seikkailupelin, mennään aikalikellä Minecraftin henkeä, mutta 2D:nä. Terrarian sivustoa lainaten: ”Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. The world is your canvas and the ground itself is your paint” Pelihän ei maksa paljoa ja rahat menevät varmasti hyvään käyttöön, sillä Terraria kaipaa kehittämistä"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["2d", "addiktoiva", "elämä", "marko", "minecraft", "pelaaminen", "pelit", "seikkailu", "terraria", "traileri"]
 aliases: ["/terraria/"]
 ---

@@ -3,7 +3,7 @@ title: "MineZ - Mielenkiintoinen Minecraft modi"
 date: 2012-07-20T14:03:00
 lastmod: 2013-08-05T15:25:00
 description: "Minecraftia tuunataan koko ajan, pirulainen sitä peliä jaksaa pelata näiden modien ja servereiden takia yhä enemmän ja enemmän. Nyt olen löytänyt suosittuun Arma 2 pelin DayZ modiin perustuvan Minecraft serverin. MineZ palvelimet ovat vielä beta vaiheessa, mutta silti ne tuppaa toimimaan suhteellisen hyvin! MineZissä ideana on yksinkertaisesti selviytyä. Uhkana MineZissä ovat Zombit (joiden älyä on"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["minecraft", "minez", "modi", "palvelin", "pelaaminen", "pelit"]
 aliases: ["/minez-mielenkiintoinen-minecraft-modi/"]
 ---

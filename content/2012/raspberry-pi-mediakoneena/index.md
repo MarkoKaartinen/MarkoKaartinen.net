@@ -3,7 +3,7 @@ title: "Raspberry Pi mediakoneena"
 date: 2012-07-28T13:11:00
 lastmod: 2014-12-10T19:05:00
 description: "Sain aikaisemmin postissa Raspberry Pi tietokoneen ja siihen sen muistikortinkin. Raspberry Pi päätyi televisioon kiinni lähinnä sen takia, koska siinä on HDMI-liitäntä suoraan ja siitä se ajatus sitten lähti. Asentelin muistikortilla Raspbmc nimisen XBMC distribuution ja se luonnistui ilman mitään ongelmia. Tietty hieman hidashan tuo on verrattuna muihin koneisiin, mutta Raspberry Pi:n tehoja kun katsoo"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["elokuvat", "leffat", "mediakone", "raspberry pi", "raspbmc", "sarjat", "tietokoneet", "vekottimet", "xbmc"]
 aliases: ["/raspberry-pi-mediakoneena/"]
 ---

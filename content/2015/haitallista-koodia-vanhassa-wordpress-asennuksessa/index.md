@@ -2,7 +2,7 @@
 title: "Haitallista koodia vanhassa WordPress asennuksessa"
 date: 2015-05-04T15:45:00
 description: "Olen viikonlopun aikana siirrellyt sivujani palvelimelta toiselle sillä asentelin Vesta nimisen hallintapaneelin ja lähdin sen kanssa pelaamaan. Tästä tulee juttua vielä erikseen. Siirsin kaikki sivut sellaisenaan ja tavoite oli päivitellä WordPressit ja muut samalla ellei ne olleet ajantasalla. Sivustoissa oli yksi tai kaksi WP asennusta, jotka ei ole juurikaan käytössä ja domainit meni minne sattuu"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["debian", "find", "linux", "ncdu", "ongelma", "rm", "sähköposti", "spam", "wordpress"]
 aliases: ["/haitallista-koodia-vanhassa-wordpress-asennuksessa/"]
 ---

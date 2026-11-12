@@ -3,7 +3,7 @@ title: "Kokeilussa Fitbit Surge"
 date: 2015-12-29T17:18:00
 lastmod: 2015-12-29T17:23:00
 description: "Olen nyt vajaan kuukauden kokeillut Fitbit Surge fitness älykelloa. Kerronkin tässä hieman kokemuksia ja miten se on korvannut Polar Loopin."
-categories: ["Kokeilussa"]
+categories: ["Marko testaa"]
 tags: ["aktiivisuusranneke", "älykello", "fitbit", "fitbit surge", "fitness", "kuntokello", "liikkuminen", "liikunta", "surge"]
 aliases: ["/kokeilussa-fitbit-surge/"]
 ---

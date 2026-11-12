@@ -3,7 +3,7 @@ title: "E-kirja olisi hyvä matkakumppani, mutta..."
 date: 2013-09-10T13:31:00
 lastmod: 2014-03-29T16:40:00
 description: "Niin, mutta ongelmana on se, että suomeksi ei e-kirjoja ole juurikaan. Oikeastaan onhan niitä, mutta esimerkiksi suosittua Tulen ja jään laulu (Game of Thrones) -kirjasarjaa et saa suomeksi e-kirjana ollenkaan. Nämä ovatkin vielä varsinaisia tiiliskiviä. Kirjoittelin muuten tästä aiheesta jo viime vuonna. Olin lomalla pari viikkoa Kreikassa ja matkalaukkuuni eksyi jokunen kirja ja mm. siellä"
-categories: ["Blogi"]
+categories: ["Vempaimet"]
 tags: ["e-kirja", "ebook", "elisa", "elisa kirja", "kindle", "kirja", "kirjat", "lukeminen", "matka", "matkakumppani", "matkalle", "suomalainen", "täppäri"]
 aliases: ["/e-kirja-olisi-hyva-matkakumppani-mutta/"]
 ---

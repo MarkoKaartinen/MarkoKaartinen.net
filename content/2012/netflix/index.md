@@ -3,7 +3,7 @@ title: "Netflix"
 date: 2012-10-18T17:43:00
 lastmod: 2014-12-10T19:02:00
 description: "Suomeen tuli saataville tänään Netflix niminen palvelu. Jos yksinkertaisesti sanon niin palvelu on elokuvien ja sarjojen Spotify. Netflixin tarjoamia elokuvia ja sarjoja voit katsoa tietokoneella, tableteilla (ainakin iPad) ja pelikonsoleilla (Xbox, PS3, Wii). Tarkemman listan kaikista vekottimista kuten myös televisioista voit nähdä Netflixin omilta sivuilta. Nyt kun rekisteröidyt niin saat kuukauden ajan käyttää ilmaiseksi Netflixiä"
-categories: ["Blogi", "Internet"]
+categories: ["Internet"]
 tags: ["elokuvat", "internet", "ipad", "netflix", "palvelu", "sarjat", "tabletti", "televisio"]
 aliases: ["/netflix/"]
 ---

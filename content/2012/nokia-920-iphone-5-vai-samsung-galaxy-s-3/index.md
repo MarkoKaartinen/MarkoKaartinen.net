@@ -3,7 +3,7 @@ title: "Nokia 920, iPhone 5 vai Samsung Galaxy S 3?"
 date: 2012-09-17T19:10:00
 lastmod: 2014-12-10T19:03:00
 description: "Kolme puhelinta, kolme valmistajaa ja kolme käyttöjärjestelmää. Edellisessä kirjoituksessa uhkasin ostaa iPhone 5 puhelimen syksyn aikana, silloin vertasin sitä vain iPhone 4 puhelimeen eli nykyiseen malliini. Tänään aloin pohtimaan asiaa uusiksi ja pitänee alkaa vertailemaan puhelimia hieman laajemmaltakin rintamalta. Pohdiskelin miten lähtisin vertaamaan näitä kolmea puhelinta sillä en ole koittanut ensimmäistäkään ja kahta niistä ei"
-categories: ["Apple", "Blogi"]
+categories: ["Mobiili"]
 tags: ["apple", "iphone", "iphone 5", "nokia", "nokia 920", "samsung", "samsung galaxy", "samsung galaxy s 3"]
 aliases: ["/nokia-920-iphone-5-vai-samsung-galaxy-s-3/"]
 ---

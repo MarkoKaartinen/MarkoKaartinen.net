@@ -2,7 +2,7 @@
 title: "Bongasinpa huijarin"
 date: 2013-01-24T15:59:00
 description: "Kuten osa on huomannut niin olen myymässä kannettavaa tietokonetta (Lifebook UH572, lisää voitte kysäistä minulta). Minulla on ilmoitus Tori.fi palvelussa ja sitä olen käyttänyt ennenkin ja ei ole siitä kuin positiivista sanottavaa. Tänään tuli kuitenkin vähintäänkin mielenkiintoinen yhteydenotto Tori.fi viestisysteemin kautta. Onko kohde vielä saatavilla ostaa? on, että viimeinen hinta Tämä oli ostajaehdokkaan lähettämä viesti."
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["huijari", "huijaus", "myydään", "myyminen", "myynti", "tori"]
 aliases: ["/bongasinpa-huijarin/"]
 ---

@@ -3,7 +3,7 @@ title: "Kamado? Täh!?"
 date: 2021-08-12T13:35:00
 lastmod: 2021-08-16T10:36:00
 description: "Nyt olen tutkinut hieman mikä ihme on kamado grilli ja olisiko semmoinen passeli lisä pallogrillin kaveriksi."
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["bbq", "grillaus", "grilli", "kamado", "kamadogrilli", "munagrilli", "ruoka"]
 aliases: ["/kamado-tah/"]
 ---

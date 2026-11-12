@@ -2,7 +2,7 @@
 title: "Tux instagram)"
 date: 2011-01-13T18:05:00
 description: "Tux instagram)"
-categories: ["Tumblr"]
+categories: ["Elämä"]
 tags: ["tumblr"]
 aliases: ["/tux-instagram/"]
 ---

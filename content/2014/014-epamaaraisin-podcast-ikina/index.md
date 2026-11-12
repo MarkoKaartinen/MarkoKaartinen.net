@@ -3,7 +3,7 @@ title: "014 Epämääräisin podcast ikinä!"
 date: 2014-10-18T18:42:00
 lastmod: 2016-01-26T14:09:00
 description: "Tällä kertaa onkin vuorossa ehkä epämääräisin podcast jakso ikinä – siis niistä mitä olen jo tehnyt. Haluaisin teiltä mielipiteitä ja ajatuksia seuraavista asioista: Podcast Mikä olisi hyvä mikki? Vlogaaminen Kamerakalusto? Kannattaakohan? Youtube… (bannattu adsensestä – estää hieman laajenemista tulevaisuudessa) Itse sivusto (ulkoasu yms.) Vempaimet mitä haeskelin tuossa podcastissa: Canon Legria mini (tämä oli testissä minulla) Canon"
-categories: ["Podcast"]
+categories: ["Podcastit ja vlogit"]
 tags: ["audio", "canon", "podcast", "video", "vinkkejä", "vlog"]
 aliases: ["/014-epamaaraisin-podcast-ikina/"]
 ---

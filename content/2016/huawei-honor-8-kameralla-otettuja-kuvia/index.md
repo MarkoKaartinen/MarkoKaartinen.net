@@ -3,7 +3,7 @@ title: "Huawei Honor 8 kameralla otettuja kuvia"
 date: 2016-10-02T09:32:00
 lastmod: 2017-03-02T15:25:00
 description: "Olin tosiaan reissussa pari viikkoa sitten ja siellä tuli otettua kuvia. Jaankin teille tässä artikkelissa Honor 8 puhelimella otettuja kuvia."
-categories: ["Huawei"]
+categories: ["Mobiili"]
 tags: ["honor", "honor 8", "huawei", "kamera", "kreikka", "kuva", "kuvat", "kuvia", "loma", "panoraama", "tarkennus"]
 aliases: ["/huawei-honor-8-kameralla-otettuja-kuvia/"]
 ---

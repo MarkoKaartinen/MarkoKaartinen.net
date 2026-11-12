@@ -2,7 +2,7 @@
 title: "Parin viikon setti"
 date: 2012-01-15T11:22:00
 description: "Viime viikolla jäi perjantaipohdinta välistä, viime perjantai olikin loppiainen – tämä ei tosin ollu syynä siihen ettei pohdintaa tullut. Osittainen syy viime perjantain pohdinnan puuttumiseen on se, että olin rakentamassa asiakkaalle lähiverkko koko päivän ja blogin kirjoittaminen unohtui silloin. Olen tässä tuunaillut myös englanninkielisen bloginkin – sain samalla Kaartinen.me domainin käyttöön ja testattua ssl-sertifikaattia sekä"
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["blogi", "elämä", "juna", "perjantai", "perjantaipohdinta"]
 aliases: ["/parin-viikon-setti/"]
 ---

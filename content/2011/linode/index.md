@@ -2,7 +2,7 @@
 title: "Linode"
 date: 2011-12-16T20:12:00
 description: "Olen pyöritellyt useamman vuoden VPS settejä. VPS on siis virtuaalipalvelin ja VPS tulee sanoista Virtual Private Server. Olen kokeillut usammankin eri palvelutarjoajan tuotteita ja pettynyt jokusen kerran joutessani ja hävinnyt joskus jopa jokusen euron rahaakin. Olen nyt vihdoin löytänyt jokusen luotettavan jossa homma vaan pelaa, nyt oikestaan olen löytänyt yhden luottopaikan. Kyseessä on nimittäin Linode"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["linux", "palvelin", "virtuaalipalvelin", "vps"]
 aliases: ["/linode/"]
 ---

@@ -3,7 +3,7 @@ title: "Projekti 365"
 date: 2010-10-19T22:54:00
 lastmod: 2014-12-10T19:19:00
 description: "Aloitan uuden projektin ja sen nimi on Projekti 365. Tämän projektin tarkoituksena on ottaa kuva päivässä periaatteessa kuvia vuoden ajan. Eli projekti alkaa 20.10.2010 ja loppuu 19.10.2011. Tämän projektin kaikki kuvat tulevat Flickriin ja sinne linkki löytyy tästä. Sekä tänne sivustolle tulee oma Projekti 365 sivu sekä oma tekemäni kalenteri jossa on täysin samat kuvat"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["365", "kuvaaminen", "projekti 365"]
 aliases: ["/projekti-365/"]
 ---

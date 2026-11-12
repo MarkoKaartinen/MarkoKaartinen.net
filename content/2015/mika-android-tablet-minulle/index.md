@@ -3,7 +3,7 @@ title: "Mikä Android tablet minulle?"
 date: 2015-05-12T16:03:00
 lastmod: 2021-12-02T08:14:00
 description: "Nyt on aika selvittää mikä Android tablet kannattaa minun hankkia. Sen pitää sopia nörtille ja miksi ei muullekkin talouden jäsenille."
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["android", "galaxy tab s", "google", "hankinga", "nexus", "nexus 9", "samsung", "tablet", "täppäri", "xperia z4", "xperia z4 tablet"]
 aliases: ["/mika-android-tablet-minulle/"]
 ---

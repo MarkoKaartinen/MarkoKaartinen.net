@@ -3,7 +3,7 @@ title: "Me wants gadgets/toys"
 date: 2008-08-04T22:26:00
 lastmod: 2014-12-10T19:28:00
 description: "Nyt on se aika vuodesta jolloin erään Marko nimisen nisäkkään gadgetti kuume on pahimmillaan. Nimittäin olen iskenyt silmäni kahteen erittäin mielenkiintoiseen ja mielestäni hyvään härpäkkeeseen/leluun. Tässä viestissä aion jotenkin kertoa niistä, tai sitten vain länttään kuvat teille ja voitte ottaa itse selvää, mutta se jääköön nähtäväksi. Riippuu miten tämä viesti nyt etenee. Asus Eee PC"
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["901", "eee", "eee pc 901", "härpäkkeet", "iphone", "läppäri", "lelut", "miniläppäri", "pc"]
 aliases: ["/me-wants-gadgetstoys/"]
 ---

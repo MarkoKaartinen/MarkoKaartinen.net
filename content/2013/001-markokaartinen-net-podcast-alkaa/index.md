@@ -3,7 +3,7 @@ title: "001 MarkoKaartinen.net Podcast alkaa"
 date: 2013-09-18T16:11:00
 lastmod: 2016-01-26T11:14:00
 description: "Tässä on MarkoKaartinen.netin ensimmäinen Podcast ikinä! Alla on vielä podcastissa käytyjen aiheiden listaus sekä muistiinpanot minkä avulla jakso tehtiin. Mikä on Podcast? Yksinkertaisesti: julkaistaan äänitiedostoja verkossa Hieman syvemmin: RSS tai Atom syötteessä on tiedot äänitiedostosta ja kuuntelija tilaa syötettä tietokoneella, kännykällä, mp3-soittimella tai muulla laitteella. Podcasting sanahan tulee sanoista iPod ja broadcasting joka viittaa tiedostojen"
-categories: ["Podcast"]
+categories: ["Podcastit ja vlogit"]
 tags: ["apple", "asus", "gta", "gta v", "ios7", "iphone", "ipod", "markokaartinen", "nexus 7", "phonebloks", "podcast", "twitter"]
 aliases: ["/001-markokaartinen-net-podcast-alkaa/"]
 ---

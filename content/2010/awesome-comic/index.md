@@ -2,7 +2,7 @@
 title: "awesome comic!"
 date: 2010-06-11T22:08:00
 description: "awesome comic!"
-categories: ["Tumblr"]
+categories: ["Huumori"]
 tags: ["tumblr"]
 aliases: ["/awesome-comic/"]
 ---

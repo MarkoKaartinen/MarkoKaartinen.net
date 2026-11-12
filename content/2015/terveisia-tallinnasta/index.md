@@ -3,7 +3,7 @@ title: "Terveisiä Tallinnasta!"
 date: 2015-04-17T16:22:00
 lastmod: 2015-11-20T12:37:00
 description: "Kirjoittelen tätä artikkelia erittäin hyvässä kuppilassa nimeltä Drink. Siemailen tässä Westonsin Old Rosie Still siideriä joka kustansi 4 euroa. Olen täällä käynyt parilla reissulla nyt ja olen erittäin tyytyväinen siihen, että täältä saa hanasta kunnon siideriä kuten tuota em. Old Rosieta ja Wyld Woodia sekä Stowford Pressiä – pullossa on sitten jokusta muuta siideriä vielä"
-categories: ["Matkailu"]
+categories: ["Matkat"]
 tags: ["alkoholi", "auto", "autoilu", "eesti", "ravintolat", "suositukset", "tallinna", "viro"]
 aliases: ["/terveisia-tallinnasta/"]
 ---

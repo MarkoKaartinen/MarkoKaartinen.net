@@ -2,7 +2,7 @@
 title: "Perjantai, no perhana"
 date: 2011-10-28T21:20:00
 description: "Miten nämä nyt näin pomppii ohi. Tämäkin meinasi mennä ohi, mutta noh tällä kertaa pohditaan. Tämä perjantaipohdinta onkin sitten kaikkien näiden kolmen (?) viikon ajalta. Tästähän piti tulla joka viikkoinen tapa, mutta olen perhana sentään päässyt lipsumaan tästäkin. Tänään en lipsu, onhan perjantaita sentään jäljellä 3 tuntia. Voisi oikeastaan sanoa niin, että osa artikkeleistani meni"
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["battlefield 3", "elämä", "l4l2011", "marko", "matka", "perjantaipohdinta", "tallinna", "viro"]
 aliases: ["/perjantai-no-perhana/"]
 ---

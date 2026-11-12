@@ -3,7 +3,7 @@ title: "Earn to Die HD - Koukuttava ajopeli iPadille"
 date: 2012-12-08T11:09:00
 lastmod: 2013-08-05T18:04:00
 description: "Eilen löytyi todella koukuttava ajopeli iPadille, peli kantaa nimeä Earn to Die HD. Pelasin tämän story-moden saman iltana läpi, oli se niin koukuttava. Pelin idea on yksinkertainen. Ajat autolla eteenpäin ja päivität niitä tienaamallasi rahalla. Matkan varrella koitat päästä aina kentän loppuun asti ja tuhoat zombeja siinä sivussa. Tavoitteenasi on päästä ajoissa lentokoneeseen jolla pääset"
-categories: ["Blogi"]
+categories: ["Pelit"]
 tags: ["apple", "apps", "ipad", "iphone", "pelit", "sovellukset"]
 aliases: ["/earn-to-die-hd-koukuttava-ajopeli-ipadille/"]
 ---

@@ -3,7 +3,7 @@ title: "Viimeaikaiset tietovuodot"
 date: 2011-11-28T18:36:00
 lastmod: 2011-11-29T14:56:00
 description: "Heitänpä minäkin oman lusikan soppaan tai heitän lusikan soppaan tässä blogissa. Olen puhunut tästä aiheesta RantSitellä ja yksityisissä keskusteluissa. Nyt on aika tuoda tämä aihe myös tälle sivustolle. Viime yönä julkaistiin taas tietoja, tällä kertaa kyseessä oli noin 70000 ihmisen salasanat, sähköpostiosoitteet ja tunnukset Terve.fi sivustoperheestä. Näiden takanahan on Darwin Media Oy ja heidän mukaansa"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["fail", "phpbb", "phpbb2", "tietovuodot", "tietovuoto"]
 aliases: ["/viimeaikaiset-tietovuodot/"]
 ---

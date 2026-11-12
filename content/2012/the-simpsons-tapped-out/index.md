@@ -3,7 +3,7 @@ title: "The Simpsons™: Tapped Out"
 date: 2012-03-02T14:19:00
 lastmod: 2014-12-10T19:08:00
 description: "Otetaan nyt käsittelyyn iOS:llä oleva peli, jota itse ainakin tykkään pelata iPadillä huomattavasti enemmän kuin iPhonella. Kyseessä on EA:n tekemä The Simpsons™: Tapped Out niminen peli, jossa rakennetaan omaa Springfieldiä. Kyseinen peli on täysin ilmainen, joten se kannattaa hankkia ja ainakin kokeilla. Pelissä on donitseja, joita voi ostaa jos haluaa hieman nopeutta pelin etenemiseen ja"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["apple", "ios", "ipad", "ipad 2", "iphone", "pelaaminen", "pelit", "tapped out", "the simpsons"]
 aliases: ["/the-simpsons-tapped-out/"]
 ---

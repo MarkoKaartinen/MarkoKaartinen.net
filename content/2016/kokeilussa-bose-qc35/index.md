@@ -3,7 +3,7 @@ title: "Kokeilussa Bose QC35"
 date: 2016-07-18T16:56:00
 lastmod: 2016-09-27T17:22:00
 description: "Sain kokeiluun tällä kertaa kuulokkeet ja lähdettiin heti isoilla panoksilla liikenteeseen, kun kokeiltavaksi tuli Bose QC35 kuulokkeet!"
-categories: ["Kokeilussa"]
+categories: ["Marko testaa"]
 tags: ["ääni", "bose", "bose qc35", "headset", "kokeilu", "kokeilussa", "kuulokkeet", "musiikki", "testi"]
 aliases: ["/kokeilussa-bose-qc35/"]
 ---

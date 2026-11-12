@@ -3,7 +3,7 @@ title: "Huomaamaton vaihdos"
 date: 2010-03-13T18:15:00
 lastmod: 2010-03-13T18:16:00
 description: "Osa teistä on varmaan huomannut ”// Uusi” tekstin sivuston otsikkopalkissa. Tälle on tarkoituksensa, nimittäin laitoin uuden hostin tilaukseen ja domainin siirtymään sinne. Ja tuo uusi-teksti on merkki siitä, että sivusto on uudella hostilla. Osalle tämä tapahtui aikaisemmin ja osalle myöhemmin, tämä taas johtuu DNS:n päivittymisestä. Itselläni tämä päivittyi vasta nyt joten suurin osa muutoksista on"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["siirto", "sivusto", "uudistus"]
 aliases: ["/huomaamaton-vaihdos/"]
 ---

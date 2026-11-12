@@ -2,7 +2,7 @@
 title: "E-kirja vai oikea kirja"
 date: 2012-01-20T17:12:00
 description: "Kirjoittelin e-kirjan saatavuudesta ja hinnasta tuossa äskettäin. Nyt voisin hieman verrata noita kahta eli oikeata kirjaa ja e-kirjaa. Oikealla kirjalla tarkoitan ihan paperille painettua opusta. Tulen hieman pohtimaan asiaa eri kantilta kuten hinnalta, hyödyistä ja muusta vastaavasta. Aloitetaan vaikka hinnasta. Tällä hetkellähän e-kirjat on aika lailla samoissa hinnoissa kuin oikeat kirjat. Tämä hieman ihmetyttää sillä"
-categories: ["Blogi"]
+categories: ["Vempaimet"]
 tags: ["e-kirja", "elämä", "ipad", "kirjat", "lukeminen"]
 aliases: ["/e-kirja-vai-oikea-kirja/"]
 ---

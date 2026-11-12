@@ -3,7 +3,7 @@ title: "Kasa iPhone 6 suojakuoria"
 date: 2014-09-29T18:26:00
 lastmod: 2014-12-10T19:43:00
 description: "Sain testattavaksi iPhone 6 suojakuoria. Postissa tuli useita erinäköisiä kuoria ja näistä tuleekin videota vielä erikseen. Osa suojista arvotaan eteenpäin!"
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["apple", "iphone", "iphone 6", "suojakuoret", "suojakuori", "suojat"]
 aliases: ["/kasa-iphone-6-suojakuoria/"]
 ---

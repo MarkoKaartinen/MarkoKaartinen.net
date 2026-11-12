@@ -3,7 +3,7 @@ title: "iPad Air"
 date: 2014-02-04T14:09:00
 lastmod: 2014-12-10T18:27:00
 description: "Olen pyöritellyt käsissäni jo parin viikon ajan Applen uutta iPad Air täppäriä."
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["apple", "ipad", "ipad air", "tablet", "täppäri"]
 aliases: ["/ipad-air/"]
 ---

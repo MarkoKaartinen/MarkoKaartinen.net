@@ -3,7 +3,7 @@ title: "Liikennetieto botin tekeminen"
 date: 2012-07-16T13:10:00
 lastmod: 2012-07-16T11:43:00
 description: "Ajattelin aukaista teille hieman tekniikkaa ja koodia tuon @Liikennetieto botin takaa. Tässä postauksessa on siis aimo annos nörtti-puhetta. Käytetyt tekniikat Liikennetieto botin takana on paljon muutakin, kuin pelkkä Twitter-tili johon ilmestyy automaattisesti päivityksiä. Kerron tässä kappaleessa seikkaperäisesti eri tekniikoista ja miten niitä käytetään tämän botin kanssa. TwitterOAuth on PHP-kirjasto, jonka avulla voidaan käyttää Twitterin APIa"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["bootstrap", "botti", "git", "jquery", "koodaus", "nörtti", "ohjelmointi", "php", "twitter"]
 aliases: ["/liikennetieto-botin-tekeminen/"]
 ---

@@ -2,7 +2,7 @@
 title: "iPad matkakumppanina"
 date: 2012-09-01T20:01:00
 description: "Alustetaan hieman tätä juttua mainostamalla meidän matkablogia. Olimme reissussa 2 viikkoa ja pidimme koko reissun ajan matkablogia iPadin avulla ja suurin osa tämän artikkelin havainnoista on juurikin tältä matkalta! Blogin osoite on auringonalla.fi. Voisin yhtä hyvin puhua muustakin tabletista, kuin iPadistä sillä suurin osa näistä asioista pätee Android pohjaisiinkin tabletteihin. Itselläni ei vain ole Android"
-categories: ["Apple", "Internet"]
+categories: ["Mobiili"]
 tags: ["apple", "ipad", "loma", "matka", "matkailu", "reissu"]
 aliases: ["/ipad-matkakumppanina/"]
 ---

@@ -3,7 +3,7 @@ title: "Call of Duty: Black Ops 2 - Moninpeli"
 date: 2012-11-23T20:11:00
 lastmod: 2014-12-10T19:01:00
 description: "Olen nyt reilun viikon pelannut uusinta CoDyä ja olen saanut moninpelistä suhteellisen hyvän kuvan. Vielä on tietenkin asioita, joista en osaa sanoa yhtään mitään. En ole esimerkiksi lähtenyt vielä Prestigeä hankkimeen sotilaalleni. Yhden aseen olen jo ”prestannut”, nimittäin MSMC nimisen SMG:n. Paljon on uutta tullut myös scorestreakkeihin ja moneen muuhun osa-alueeseen. Aseluokkien tekeminenkin on erilaista,"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["black ops 2", "blops2", "call of duty", "cod", "moninpeli", "pelaaminen", "pelit"]
 aliases: ["/call-of-duty-black-ops-2-moninpeli/"]
 ---

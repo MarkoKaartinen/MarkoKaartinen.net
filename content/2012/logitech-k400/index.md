@@ -3,7 +3,7 @@ title: "Logitech K400"
 date: 2012-02-06T17:57:00
 lastmod: 2014-12-10T19:08:00
 description: "Tuli tuossa pari kuukautta sitten hankittua tämmönen pikkunäppärä näppäimistö olohuoneeseen. Itselläni on nimittäin yksi kone kiinni telkkarissa ja siitä tulee katseltua sitten vähä sitä sun tätä. Langaton näppäimistö tuli siis aiheelliseksi ja päädyin hankkimaan tämmösen missä on näppis ja touchpadi samassa. Logitechin K400 käyttää Unifying vastaanotinta joten kaikki muut Logitechin tuotteet, jotka käyttävät tuota tekniikkaa"
-categories: ["Blogi", "Marko testaa"]
+categories: ["Marko testaa"]
 tags: ["k400", "logitech", "näppäimistö"]
 aliases: ["/logitech-k400/"]
 ---

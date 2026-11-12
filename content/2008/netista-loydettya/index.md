@@ -3,7 +3,7 @@ title: "Netistä löydettyä"
 date: 2008-08-19T14:13:00
 lastmod: 2014-12-10T19:27:00
 description: "Voisi hieman kertoilla parista saitista mitkä löysin tänään netistä, tai no toisen löysin tänään ja toiseen tutustuin jo aikaisemmin, mutta testasin sitä vasta tänään. Mygazines.com Kyseessä on loistava sivusto jossa on useita erilaisia lehtiä luettavissa täysin ilmaiseksi. Sitä en osaa sanoa miten kauan kyseinen sivusto pysyy pystyssä ja miten pahasti tuossa rikotaan tekijänoikeuslakia. Mutta nautitaan"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["internet", "lehtiä", "löydettyä", "musiikkia"]
 aliases: ["/netista-loydettya/"]
 ---

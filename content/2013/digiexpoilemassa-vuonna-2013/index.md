@@ -2,7 +2,7 @@
 title: "Digiexpoilemassa vuonna 2013"
 date: 2013-11-06T15:42:00
 description: "Tänä vuonna oli taas VR:llä 10 euron lauantai kampanja ja tuolla hinnalla kannatti jo lähteä Helsingin Messukeskuksen suuntaan Digiexpoille. Samaan aikaa siellä oli myös Hifi-, Ski- ja Boardexpot – samalla lipetillä pääsi siis neljään eri messuun sisälle. Tällä kertaa sainkin liput DNA:lta, joten iso kiitos heille vielä siitä! Voitte muuten tutkailla Digiexpojen twiittivirtaani tuosta aiemmasta"
-categories: ["Blogi"]
+categories: ["Vempaimet"]
 tags: ["apple", "canon", "digiexpo", "ipad", "ipad air", "iphone", "lumia", "lumia 1520", "lumia 2520", "nikon", "nokia", "ps4", "sony", "xbox one"]
 aliases: ["/digiexpoilemassa-vuonna-2013/"]
 ---

@@ -2,7 +2,7 @@
 title: "Loistavaa asiakaspalvelua"
 date: 2013-02-09T20:53:00
 description: "Olin tällä viikolla toistamiseen yhteydessä Kuopion Prisman viihdepuolen ihmisiin sähköpostilla. Aiemmin olen heiltä ennakkotilannut iPadin ja siinäkin Prisman väki loisti asiakaspalvelullaan. Olin silloinkin varsin tyytyväinen saamaani palveluun ja päätin tällä viikolla lähteä kokeilemaan uudestaan. Otin yhteyttä sähköpostilla kysellen näytöstä, joka ei suoraan ole Kuopion Prisman valikoimassa. Näyttöä saa kuitenkin Prisman verkkokaupasta sekä joistain muista Kuopion"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["asiakaspalvelu", "kokemus", "kuopio", "prisma"]
 aliases: ["/loistavaa-asiakaspalvelua/"]
 ---

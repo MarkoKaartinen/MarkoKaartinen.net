@@ -2,7 +2,7 @@
 title: "Kokeilussa Plantronics Voyager 3200 UC"
 date: 2017-10-19T16:46:00
 description: "Tällä kertaa kokeiluun saapui Plantronics Voyager 3200 UC handsfree. Tämähän on tietenkin bluetoothin yli toimiva handsfree."
-categories: ["Kokeilussa"]
+categories: ["Marko testaa"]
 tags: ["autoilu", "bluetooth handsfree", "handsfree", "plantronics", "työ", "voyager", "voyager 3200", "voyager 3200 uac"]
 aliases: ["/kokeilussa-plantronics-voyager-3200-uc/"]
 ---

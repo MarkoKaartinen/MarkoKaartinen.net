@@ -2,7 +2,7 @@
 title: "Sivuston muutoksia ja PeLEtystä"
 date: 2009-10-05T12:58:00
 description: "Sivusto tulee syksyn/talven aikana muuttumaan enemmän sosiaalisempaan ja työ/opiskelu painotteisempaan muotoon. Tämä siksi, koska sivustolla nyt ei ole mitään varsinaista suuntaa ollut, noh blogi on ainut mikä päivittyy aktiivisesti. Syy muutokseen on juuri alkanut koululla alkanut PeLE projekti, jossa olen mukana ja tämä sivusto tulee olemaan oma PeLEni (Personal Learning Enviroment PLE). Tänne sivustolle tulee"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["koulu", "opiskelu", "pele", "ple", "sivusto"]
 aliases: ["/sivuston-muutoksia-ja-peletysta/"]
 ---

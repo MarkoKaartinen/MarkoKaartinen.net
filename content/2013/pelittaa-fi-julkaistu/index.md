@@ -3,7 +3,7 @@ title: "Pelittää.fi julkaistu!"
 date: 2013-08-14T12:09:00
 lastmod: 2014-12-10T18:41:00
 description: "En tiedä kuinka moni huomasi eilen Twitteristäni kun twiittasin pari linkkiä Pelittää.fi sivustolle. Pelittää.fi on uusi pelaamiseen keskittynyt sivusto, jonne tulee arvosteluita, trailereita, artikkeleita ja yleistä keskustelua peleistä. Aluksi sisältöä on tietysti niukasti, mutta ajan kuluessa sisältöä tulee lisää ja suosion kasvaessa lisäämme uusia ominaisuuksia ja kehitämme sivustoa eteenpäin. Seuraa sivustoa myös Twitterissä (@Pelittaa_fi) josta näet"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["arvostelu", "arvostelut", "pelaaminen", "peliarvostelu", "pelit", "pelittää", "projekti", "sivusto"]
 aliases: ["/pelittaa-fi-julkaistu/"]
 ---

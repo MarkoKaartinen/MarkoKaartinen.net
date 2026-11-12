@@ -2,7 +2,7 @@
 title: "Puhutaan hieman pörssisähköstä"
 date: 2026-02-08T10:20:00
 description: "Viime aikoina on taas ollut puhetta pörssisähkön hinnasta ja tämähän on useamman kerran vuodessa toistuva keskustelunaihe, kun pörssisähkön hinta on korkealla. Annan omat \"kaksi senttiä\" tästä aiheesta."
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["sähkö", "pörssisähkö", "energia", "sähkön hinta", "sähkösopimus", "sähkönkulutus", "sähkön optimointi", "sähkön seuraaminen", "sähkönkäyttö"]
 mastodon_post_id: "116034050751072774"
 ---

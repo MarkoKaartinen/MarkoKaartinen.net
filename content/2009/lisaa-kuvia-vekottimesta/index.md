@@ -3,7 +3,7 @@ title: "Lisää kuvia vekottimesta"
 date: 2009-08-14T10:53:00
 lastmod: 2014-12-10T19:24:00
 description: "Kuten vähän lupailin aikaisemmassa kirjoituksessa (Uusi vekotin saapui taloon) niin tässä on pari kuvaa ko. vekottimesta. Ja vieraileepa niissä kuvissa myös pikkuinen Eee PC."
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["acer", "kannettava", "kuvia", "läppäri"]
 aliases: ["/lisaa-kuvia-vekottimesta/"]
 ---

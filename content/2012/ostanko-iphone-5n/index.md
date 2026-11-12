@@ -2,7 +2,7 @@
 title: "Ostanko iPhone 5:n?"
 date: 2012-09-15T11:03:00
 description: "Siinä onkin kysymys jota moni uutta iPhone 5 puhelinta on odottanut. Luonnollisesti itsekin kysyn tätä itseltäni ja tulen kertomaan tässä artikkelissa teille vastauksen. Itsellänihän on nyt iPhone 4 joten tulen tekemään tähän vertailun näiden kahden puhelimen välillä ja sitä kautta teen päätöksen hankinnasta. Ominaisuus iPhone 4 iPhone 5 Voittaja Prosessori A4 A6 iPhone 5 Koko"
-categories: ["Apple", "Blogi"]
+categories: ["Mobiili"]
 tags: ["apple", "iphone", "iphone 4", "iphone 5", "päätös", "puhelin", "vertailu"]
 aliases: ["/ostanko-iphone-5n/"]
 ---

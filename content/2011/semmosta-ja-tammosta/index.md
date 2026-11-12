@@ -2,7 +2,7 @@
 title: "Semmosta ja tämmöstä"
 date: 2011-12-09T18:40:00
 description: "Viikko meni taas nopeasti, voi johtua osittain siitä, että viikonloppu meni pirun nopeasti (edellinen siis). Tuli kävästyä keilaamassa pitkästä aikaa, en muista edes millon olisin viimeksi keilannut (vuosia siitä on) – no tuohan oli osa pikkujouluja joten siinäpä se loppuilta menikin. Viikon normaali rytmiä sotki itsenäisyyspäivä, jolloin tahtoi vähän joka paikka olla kiinni ja sitä"
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["blogi", "elämä", "perjantai", "perjantaipohdinta", "rantsite", "sivusto", "teemat"]
 aliases: ["/semmosta-ja-tammosta/"]
 ---

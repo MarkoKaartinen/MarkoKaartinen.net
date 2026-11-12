@@ -2,7 +2,7 @@
 title: "Domaineja"
 date: 2011-12-11T15:06:00
 description: "Domain, eli verkkotunnus jotka helpottaa huomattavasti surffaamista Internetissä. Nimittäin ellet voisi kirjoittaa osoitetta markokaartinen.net joutuisit kirjoittamaan ip-osoitteen ja siihen oman tunnistimen. Elämä on siis huomattavasti helpompaa domainien avulla. Tällä artikkelilla on yksi tarkoitus, nimittäin kertoa mistä itse hankin domainit – tätä kun on jokusen kerran minulta kysytty ja itse olen jokusen domainin hankkinut sillä sattuupa"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["domain", "domainit", "internet", "verkko"]
 aliases: ["/domaineja/"]
 ---

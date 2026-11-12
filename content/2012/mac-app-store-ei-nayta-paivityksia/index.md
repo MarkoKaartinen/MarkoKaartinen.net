@@ -3,7 +3,7 @@ title: "Mac App Store ei näytä päivityksiä?"
 date: 2012-06-26T17:05:00
 lastmod: 2012-06-26T09:52:00
 description: "Onko sinulla ollut joskus ongelma Macin App Storen kanssa, kun koitat päivittää ohjelmia. Herjaako se silloin sinulle seuraavaa: ”Päivitä ohjelma kirjautumalla sisään tilille, jolla ostit ohjelman.”? Ei hätää tähän ongelmaan on ratkaisu. Itse törmäsin tähän ongelmaan tänään kun koitin päivittää Coda 2:sta ja tiesin, että siihen oli tullut päivitys. App Store ei näyttänyt, että minulla"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["app store", "apple", "indeksointi", "mac", "mac app store", "päivitykset"]
 aliases: ["/mac-app-store-ei-nayta-paivityksia/"]
 ---

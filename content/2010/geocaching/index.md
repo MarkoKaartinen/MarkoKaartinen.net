@@ -3,7 +3,7 @@ title: "Geocaching"
 date: 2010-10-24T18:27:00
 lastmod: 2014-12-10T19:19:00
 description: "Eli suomeksi väännettynä geokätköily. Tuli tänään koitettua tuotakin ja saldona oli 2 löydettyä kätköä ja yksi jäi löytämättä (välineenä tietysti iPhone 4, mikäs muukaan?). Mitäs tämä geokätkeily on? Tämänkin tiedon palasen teille tarjoaa suuri ja mahtava Wikipedia. (kiittäkäämme siis sitä!) Geokätköily (engl. geocaching) on ulkoiluharrastus, jossa piilotetaan ja etsitään geokätköiksi kutsuttuja rasioita. Useimmiten kätkön sijainti"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["geocaching", "geokätkö", "geökätköily", "harrastukset"]
 aliases: ["/geocaching/"]
 ---

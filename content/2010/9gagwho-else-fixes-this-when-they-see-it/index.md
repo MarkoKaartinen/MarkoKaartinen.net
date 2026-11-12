@@ -2,7 +2,7 @@
 title: "'9gag:"
 date: 2010-12-03T18:40:00
 description: "9gag: Who else fixes this when they see it?"
-categories: ["Tumblr"]
+categories: ["Huumori"]
 tags: ["tumblr"]
 aliases: ["/9gagwho-else-fixes-this-when-they-see-it/"]
 ---

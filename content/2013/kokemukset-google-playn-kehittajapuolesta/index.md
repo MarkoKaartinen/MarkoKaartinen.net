@@ -3,7 +3,7 @@ title: "Kokemukset Google Playn kehittäjäpuolesta"
 date: 2013-01-29T14:41:00
 lastmod: 2014-12-10T18:58:00
 description: "Saadakseen Google Playhin kehittäjäpuolen auki ja pystyäkseen julkaisemaan sovelluksia pitää maksaa 25 dollarin suuruinen liittymismaksu. Tämä on käsittääkseni kertaluontoinen maksu kun taas Applella iOS kehittäjäohjelma maksaa 99 dollaria per vuosi. Androidin puolella sovelluksen voit heittää lähes suoraan Play kauppaan ja se on parin tunnin päästä siellä. Niin simppeliä se on. Päivityksen heittäminen on yhtä helppoa,"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["android", "google", "google play", "kehittäjä", "mobiili", "sovelluskehitys"]
 aliases: ["/kokemukset-google-playn-kehittajapuolesta/"]
 ---

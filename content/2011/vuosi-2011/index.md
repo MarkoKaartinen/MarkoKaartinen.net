@@ -3,7 +3,7 @@ title: "Vuosi 2011"
 date: 2011-12-31T12:05:00
 lastmod: 2011-12-31T19:15:00
 description: "On taas se aika vuodesta, kun tarkastellaan kulunutta vuotta taaksepäin blogin ja oman elämän osalta. Pyrin käymään jokaisen kuukauden läpi jollain tavalla tässä artikkelissa ja aiheet tulevat pomppimaan hyvinkin paljon. Oikeastaan aiheena on MarkoKaartinen.net eli minun blogi eli sisältö pomppii kuten blogikirjoituksetkin. Aihettahan en ole varsinaisesti rajannut tänne, mutta aina ne vaan tuntuu tuonne tekniikkaan"
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["2011", "elämä", "marko", "vuosi 2011"]
 aliases: ["/vuosi-2011/"]
 ---

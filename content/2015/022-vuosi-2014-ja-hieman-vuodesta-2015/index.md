@@ -3,7 +3,7 @@ title: "022 Vuosi 2014 ja hieman vuodesta 2015"
 date: 2015-01-01T14:10:00
 lastmod: 2016-01-26T14:06:00
 description: "Tässä podcastissa käymme läpi vuoden 2014 niin blogin puolelta, kuin hieman muiltakin osin. Alla on hieman muistiinpanoja podcastista ja listaukset suosituimmista asioista ja niistä mitä käytiin podcastissa läpi tällä kertaa. Hyvää uutta vuotta 2015! Suosituimmat kirjoitukset vuonna 2014 (ne jotka julkaistiin tänä vuonna): Kesärenkaat Tallinnasta: Tarjouspyynnöt Polar Loop ensikokemuksia Jolla muutaman päivän jälkeen Kadonneen Android"
-categories: ["Podcast"]
+categories: ["Podcastit ja vlogit"]
 tags: ["blogi", "kooste", "podcast", "suosituimmat", "vuosi", "vuosikatsaus"]
 aliases: ["/022-vuosi-2014-ja-hieman-vuodesta-2015/"]
 ---

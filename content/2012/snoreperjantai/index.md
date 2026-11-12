@@ -2,7 +2,7 @@
 title: "Snöreperjantai"
 date: 2012-02-10T22:39:00
 description: "Snöre tämä herkullinen karkkinauha. Löysin näitä kaapista ja ainut ero vanhoihin Snöreihin mitä olen junnuna syönyt on se, että nämä ovat Ikeasta. Normaalit Snörethän ovat Leafin tuote tai ainakin ne Snöret ovat mitä itse olen syönyt. Pitääpä muuten ottaa kaupan hyllyltä näitä ”oikeita” Snörejä ja testata! Jos hyppäisi karkeista johonkin muuhun, en tosin tiedä mihin"
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["elämä", "leaf", "marko", "perjantaipohdinta", "snöre", "stand up"]
 aliases: ["/snoreperjantai/"]
 ---

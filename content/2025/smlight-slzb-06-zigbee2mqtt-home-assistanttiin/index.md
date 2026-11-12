@@ -2,7 +2,7 @@
 title: "SMLIGHT SLZB-06 & Zigbee2MQTT Home Assistanttiin"
 date: 2025-02-18T18:49:00
 description: "Tällä kertaa otetaan käsittelyyn Zigbee verkon pystytys ja nimenomaan käytetään hyödyksi Zigbee2MQTT siltaa ja Home Assistanttia. Koordinaattoriksi laitetaan SMLIGHT SLZB-06 laite."
-categories: ["Selfhosted"]
+categories: ["Kotilabra"]
 tags: ["zigbee", "zigbee2mqtt", "smlight", "slzb-06", "home assistant", "älykoti", "kotiautomaatio"]
 series: ["Selfhosted"]
 ---

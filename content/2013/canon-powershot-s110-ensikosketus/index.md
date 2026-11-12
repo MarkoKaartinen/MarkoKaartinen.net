@@ -2,7 +2,7 @@
 title: "Canon PowerShot S110 ensikosketus"
 date: 2013-07-15T17:20:00
 description: "Olen saanut käsiini Canonin PowerShot S110 kompaktikameran eli tuttavallisemmin pokkarin. Tässä artikkelissa käväisen pikaisesti läpi kameran ominaisuuksia ihan paperilla ja hypistelen kameraa enemmän toisessa artikkelissa, jossa tulen tekemään tarkempaa tutustumista tähän kameraan ja pääasia onkin siinä miten tuommoinen kamera soveltuisi kaupunkilomalle. Tulen myös testaamaan sen verkko-ominaisuuksia hieman livejulkaisun kannaltakin. S110 tekniset tiedot Itselleni laitteen spekseistä hyppää"
-categories: ["Blogi"]
+categories: ["Marko testaa"]
 tags: ["canon", "digikamera", "gps", "kaupunkiloma", "kompaktikamera", "livebloggaus", "livejulkaisu", "pokkari", "powershot", "powershot s110", "s110", "testi", "wifi"]
 aliases: ["/canon-powershot-s110-ensikosketus/"]
 ---

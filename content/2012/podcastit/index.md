@@ -3,7 +3,7 @@ title: "Podcastit?"
 date: 2012-07-30T15:15:00
 lastmod: 2012-07-30T08:28:00
 description: "Otetaas tällä kertaa viimeöinen idea pohdintaan, surffailin nimittäin iPadillä ja törmäsin iOSin Podcastit sovellukseen. Ollaan vaihteeksi hieman laiskoja ja lainataan Wikipediaa. Podcasting on tilauspohjaista äänitiedostojen julkaisua verkossa. Podcastin pitäjä julkaisee RSS- tai Atom-syötettä, jossa on tiedot julkaistuista äänitiedostoista. Kuuntelijalla on puolestaan ohjelma, joka seuraa syötteen päivittymistä ja automaattisesti lataa sen perusteella tiedostot myöhemmin kuunneltavaksi. Käytännössä"
-categories: ["Blogi", "Internet"]
+categories: ["Internet"]
 tags: ["ääni", "nauhoitus", "netti", "pohdintaa"]
 aliases: ["/podcastit/"]
 ---

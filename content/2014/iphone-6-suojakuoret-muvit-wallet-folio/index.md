@@ -2,7 +2,7 @@
 title: "iPhone 6 suojakuoret: Muvit Wallet Folio"
 date: 2014-10-09T12:30:00
 description: "Neljäntenä suojana meillä onkin Muvitin Wallet Folio. Linkki suojaan."
-categories: ["Apple", "Blogi"]
+categories: ["Mobiili"]
 tags: ["apple", "iphone", "iphone 6", "suojakuori", "suojat"]
 aliases: ["/iphone-6-suojakuoret-muvit-wallet-folio/"]
 ---

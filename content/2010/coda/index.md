@@ -3,7 +3,7 @@ title: "Coda"
 date: 2010-11-06T17:46:00
 lastmod: 2014-12-10T19:17:00
 description: "Kun mäkkimaailmaan siirryin ja webbipuolen koodari kun olen niin tietysti pitää etsiä sovellus tähänkin touhuun. Tutkiskelin hieman Googlen avustuksella vaihtoehtoja ja päädyin koittamaan Coda nimistä sovellusta. Olin jo vakuuttunut erittäin lyhyen ajan jälkeen tästä ohjelmasta. Minulla on tosin vielä vajaa 14 päivää aikaa käyttää ohjelmaa ilmaiseksi kunnes on tehtävä päätös. Ostanko tämän 99 dollaria maksavan"
-categories: ["Apple", "Blogi", "Marko testaa"]
+categories: ["Marko testaa"]
 tags: ["coda", "mac", "ohjelmat", "softat", "apple"]
 aliases: ["/coda/"]
 ---

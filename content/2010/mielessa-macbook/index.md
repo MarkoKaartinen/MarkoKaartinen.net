@@ -3,7 +3,7 @@ title: "Mielessä MacBook"
 date: 2010-10-22T22:33:00
 lastmod: 2014-12-10T19:19:00
 description: "Ja tästä artikkelista tulee leima kavereilta. Leimahan on ”Apple fanboy” – aivan sama tuleeko. Mutta olen nyt jo jonkin aikaa pohtinut Macbook Pron hankkimista (ei en ole vielä hankkinut). Sain jo kuittailua kun iPhone 3G tupsahti taskuun, ei se vaiakuttanut siihen että se oli paras puhelin mitä minulla on ollut (ennen iPhone 4:sta tietty)."
-categories: ["Apple", "Blogi"]
+categories: ["Tietokoneet"]
 tags: ["apple", "mac", "macbook", "macbook pro"]
 aliases: ["/mielessa-macbook/"]
 ---

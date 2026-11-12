@@ -2,7 +2,7 @@
 title: "Tapaaminen.net julkiseen testaukseen/käyttöön"
 date: 2013-05-12T16:53:00
 description: "Olen koodaillut tässä kuukauden ajan enemmän ja vähemmän aktiivisesti erästä projektia joka sai nimen Tapaaminen.net. Ajatus tähän lähti Twitteristä ja tarkemmin sanottuna alla olevan twiitin jälkeisestä keskustelusta. @muuruvirta mimmosil featureil. Ei nimittäi vaikee oo koodailla ;) — Marko (@MarkoK) April 10, 2013 Tapaaminen.net on siis ilmainen työkalu tapaamisien sopimiseen, oli sitten kyseessä pieni tai iso"
-categories: ["Internet"]
+categories: ["Koodaus"]
 tags: ["aikataulut", "kehitys", "koodi", "projekti", "sivusto", "tapaaminen", "tapaaminen.net", "web", "webkehitys", "www"]
 aliases: ["/tapaaminen-net-julkiseen-testaukseenkayttoon/"]
 ---

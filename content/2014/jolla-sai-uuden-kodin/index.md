@@ -3,7 +3,7 @@ title: "Jolla sai uuden kodin"
 date: 2014-09-29T12:40:00
 lastmod: 2014-09-29T12:34:00
 description: "Reilu pari kuukautta sitten hankkimani Jolla pääsi uuteen kotiin. Tässä kirjoituksessa kokoan ajatuksiani tästä puhelimesta."
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["galaxy s4", "iphone 6", "jolla", "kokemuksia", "puhelimet", "puhelin", "vaihto"]
 aliases: ["/jolla-sai-uuden-kodin/"]
 ---

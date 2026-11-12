@@ -3,7 +3,7 @@ title: "Älä hanki nyt uutta iPhonea"
 date: 2013-03-31T17:57:00
 lastmod: 2014-12-10T18:57:00
 description: "Juuri nyt on ehkä huonoin mahdollinen hetki pohtia uuden iPhone 5 puhelimen hankkimista. iPhone vitosen hinta on vielä suhteellisen suolainen ja tällä hetkellä huhutaan, että kesällä olisi tulossa uusi iPhone. Epäilen, että se olisi iPhone 5S eikä iPhone 6, kuten iPhone 4S tuli iPhone 4:n jälkeen. Kun uusi iPhone tulee niin vanhan iPhonen hinta tippuu,"
-categories: ["Apple"]
+categories: ["Mobiili"]
 tags: ["apple", "iphone", "iphone 4", "iphone 5", "iphone 5s", "iphone 6", "puhelimet", "puhelin"]
 aliases: ["/ala-hanki-nyt-uutta-iphonea/"]
 ---

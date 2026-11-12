@@ -2,7 +2,7 @@
 title: "Formspring.me"
 date: 2011-01-26T16:01:00
 description: "Ajattelin blogailla tästä SoMe palvelusta tällä kertaa (pssst pari muutakin SoMe aiheista tulossa). Eli kyseessä on ”kysy minulta mitä tahansa” -tyyppinen palvelu. Eli sinä voit kysyä siellä keneltä vain palveluun rekisteröityneeltä käytännössä mitä vain. Voit käydä kysymässä minultakin jotain – siis IHAN mitä tahansa! Tietysti en takaa, että vastaan, sillä olen siellä omalla nimelläni ja"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["formspring", "formspring.me", "some"]
 aliases: ["/formspring-me/"]
 ---

@@ -3,7 +3,7 @@ title: "Debian motd säätö"
 date: 2009-02-02T18:37:00
 lastmod: 2014-12-10T19:26:00
 description: "Sain tänään idean muokata hieman Debian serverini motd tiedostoa, eli tiedostoa joka näyttää ”message of the day” viestin kun esimerkiksi ssh:lla kirjautuu palvelimelle. Sehän on hieman mälsä aluksi joten päätin muokata sitä hieman hienommaksi ja no kerronpa tässä mitä tein ja miksi ja lopuksi saatte vielä kuvan minkälainen siitä lopulta sitten tulikaan. Eli aloitetaan asentamalla"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["debian", "linux", "motd", "säätö"]
 aliases: ["/debian-motd-saato/"]
 ---

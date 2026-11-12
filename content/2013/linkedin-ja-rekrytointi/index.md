@@ -2,7 +2,7 @@
 title: "LinkedIn ja rekrytointi"
 date: 2013-03-08T14:23:00
 description: "Muistattekohan PeLE projektin, jossa olin mukana opiskeluaikanani? Itsellä se on vielä takaraivossa ja tämä artikkeli oikeastaan kuuluu tuohon projektiin sillä meidän näkökulma taisi olla PLE työnhaun välineenä tai jotain vastaavaa. Tämän kirjoituksen tarkoituksena onkin olla pieni jatko tuohon PeLE projektiin. Otankin tapetille LinkedIn palvelun sillä se on sosiaalinen media ammatilliselle puolelle. Olen ollut LinkedInissä enemmän/vähemmän"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["headhunter", "linkedin", "pele", "ple", "rekry", "työnhaku", "työt"]
 aliases: ["/linkedin-ja-rekrytointi/"]
 ---

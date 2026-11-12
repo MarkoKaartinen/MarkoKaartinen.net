@@ -3,7 +3,7 @@ title: "iPhone 4 power pack"
 date: 2011-06-13T21:03:00
 lastmod: 2014-12-10T19:11:00
 description: "Tänään tapahtui jotain ainutlaatuista koko blogin historiassa! Sain nimittäin arvosteltavaksi aurinko voimalla toimivan akkupaketin iPhone 4:lle! Kerron tässä viestissä hieman ensikokemuksia tuosta laitteesta ja tulen palaamaan vielä tarkemmin kunhan olen saanut käytettyä tuota ja testattua auringolla lataamista. Ensimmäisenä pistää silmään tuon koko, ilmaiseksihan ei lisäakku puhelimeen tule. iPhonelle tulee lisää paksuutta jonkin verran, ehkä vähän"
-categories: ["Apple", "Blogi", "Marko testaa"]
+categories: ["Marko testaa"]
 tags: ["akku", "apple", "aurinko", "aurinkokenno", "iphone 4", "lataus", "lisäakku", "power pack", "solar", "iphone"]
 aliases: ["/iphone-4-power-pack/"]
 ---

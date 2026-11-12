@@ -3,7 +3,7 @@ title: "Call of Duty: Black Ops"
 date: 2010-12-05T23:27:00
 lastmod: 2014-12-10T19:16:00
 description: "On kulunut melkein kuukausi kun uusin CoDy julkaistiin. Olen pelannut sitä siitä asti ja tullut siihen tulokseen, että se on minunlaiselleni CoD -fanille juurikin sitä mitä tarvitsin!"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["black ops", "call of duty", "call of duty black ops", "cod", "cod bo"]
 aliases: ["/call-of-duty-black-ops/"]
 ---

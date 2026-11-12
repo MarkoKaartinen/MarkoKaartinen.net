@@ -2,7 +2,7 @@
 title: "Kasa käyttämiäni iPhone ohjelmia"
 date: 2015-02-02T12:17:00
 description: "Mietiskelin jonkin aikaa mistä kirjoittaisin teille sillä tämmöiset ns. perinteiset blogipostaukset on liian vähällä. Siitä se ajatus sitten lähti ja päätin lähteä heittämään teille erilaisia iPhone ohjelmia jotka on iPhone 6 puhelimessani suht säännöllisessä käytössä. Tweetbot 3 (4,99 €) Ehdottomasti oma lempparini Twitter sovelluksista. Tätä käyttelin jo aikoinaan kun se tuli ja en ole muihin"
-categories: ["Apple"]
+categories: ["Mobiili"]
 tags: ["apple", "appsit", "bossjock", "easyparki", "feedly", "iphone", "iphone 6", "mobiili", "ohjelmat", "op", "outlook", "sovellukset", "tweetbot"]
 aliases: ["/kasa-kayttamiani-iphone-ohjelmia/"]
 ---

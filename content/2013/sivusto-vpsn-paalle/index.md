@@ -2,7 +2,7 @@
 title: "Sivusto VPS:n päälle?"
 date: 2013-04-21T14:15:00
 description: "Olen pohtinut tässä pitäisikö tämä oma MarkoKaartinen.net sivusto siirtää kokonaan oman VPS:n päälle. VPS on siis virtuaalipalvelin joka on käytännössä oma Linux purkki toisella palvelimella. Minulla olisi siis täysi hallinta virtuaalipalvelimesta ja mitä siellä pyörii. Virtuaalipalvelimesta olisi myös se etu, että saisin kiinteän IP:n ja täydellisen hallinnan sivuista ja sen tilasta. Sähköposteja en käytä oman"
-categories: ["Blogi", "Internet"]
+categories: ["Kulisseissa"]
 tags: ["linode", "nörttiä", "siirto", "sivusto", "virtuaalipalvelin", "vps"]
 aliases: ["/sivusto-vpsn-paalle/"]
 ---

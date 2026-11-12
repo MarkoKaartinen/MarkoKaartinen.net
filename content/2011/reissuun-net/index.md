@@ -3,7 +3,7 @@ title: "Reissuun.net"
 date: 2011-04-28T17:01:00
 lastmod: 2014-12-10T19:12:00
 description: "Kuten Twitterissä jo lupasin niin julkaisen teille uuden projektin, jota olen kaikessa hiljaisuudessa työstänyt. Mikäpä olisi parempi julkaisupäivä kuin allekirjoittaneen syntymäpäivä? En tiedä! (Ubuntukin btw julkaisi uuden version tänään, joten he ovat samaa mieltä kanssani!) Asiaan… Reissuun.net on uusi keskustelufoorumi kaikille matkailusta kiinnostuneille. Idean tälle sain pääsiäisen aikana kun tuli varailtua matkaa etelän lämpöön ja"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["foorumi", "keskustelualue", "phpbb", "projekti", "reissuun", "reissuun.net"]
 aliases: ["/reissuun-net/"]
 ---

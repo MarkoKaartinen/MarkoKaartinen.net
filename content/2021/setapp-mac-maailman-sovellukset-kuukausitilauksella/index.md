@@ -3,7 +3,7 @@ title: "Setapp - Mac maailman sovellukset kuukausitilauksella"
 date: 2021-11-05T10:47:00
 lastmod: 2021-11-05T16:23:00
 description: "Olen palannut pitkästä aikaa Mac maailmaan ja niiden sovelluksien pariin (tästä lisää tulevaisuudessa). Osa loistavista Mac sovelluksista onkin maksullisia ja niistä kyllä sinällään maksaakin ihan mielellään, koska ne onkin sitten jo toimivia. Setapp on palvelu, jossa yhdellä kiinteällä kk-maksulla saat kaikki palvelun sovellukset käyttöön. Näin sinun ei tartte ostaa useaa sovellusta eri paikasta vaan saat"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["app", "applikaatiot", "mac", "macos", "setapp", "sovellus"]
 aliases: ["/setapp-mac-maailman-sovellukset-kuukausitilauksella/"]
 ---

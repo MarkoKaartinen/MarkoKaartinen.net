@@ -2,7 +2,7 @@
 title: "Mihin käyttöön kotipalvelimeni tulee?"
 date: 2012-10-31T21:38:00
 description: "Koska en ole vieläkään saanut muisteja palvelimeen niin päätän kirjoittaa hieman suunnitelmistani tuon palvelimen suhteen. Varmuuskopiointi tulee olemaan yksi iso osa tuon palvelimen toiminnasta. Tarkoituksena olisi hankkia siihen jossain välissä toinenkin kiintolevy varmentamaan tietoa, jotta saisin varmuuskopiot kahdelle erilliselle kiintolevyllä. Tämä taas pitää huolen siitä, että data on turvassa vaikka laiterikko tulisi vastaan. En tosin"
-categories: ["Kotipalvelin"]
+categories: ["Kotilabra"]
 tags: ["boksi", "dropbox", "gitlab", "kotipalvelin", "linux", "owncloud", "palvelin", "ubuntu", "versionhallinta"]
 aliases: ["/mihin-kayttoon-kotipalvelimeni-tulee/"]
 ---

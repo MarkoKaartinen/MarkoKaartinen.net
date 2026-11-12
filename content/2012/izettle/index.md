@@ -3,7 +3,7 @@ title: "iZettle"
 date: 2012-07-04T18:04:00
 lastmod: 2012-07-31T08:39:00
 description: "iZettle on erittäin simppeli tapa maksaa kortilla. Mikäli olet yrittäjä ja etsit suhteellisen halpaa ratkaisua korttimaksuun niin ota tämä vaihtoehto huomioon! Homma luonnistui erittäin sujuvasti ja mitään ongelmia ei ole ilmennyt kun olen testaillut sitä. Tähän vielä lopuksi se paljonko käyttö kustantaa ja vielä havainnollistava video. In short: we only charge for successful transactions. For"
-categories: ["Blogi", "Marko testaa"]
+categories: ["Marko testaa"]
 tags: ["izettle", "kokeilu", "kokeilussa", "testi", "video"]
 aliases: ["/izettle/"]
 ---

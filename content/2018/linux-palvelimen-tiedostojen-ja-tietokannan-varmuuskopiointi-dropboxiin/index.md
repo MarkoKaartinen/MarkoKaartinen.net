@@ -2,7 +2,7 @@
 title: "Linux palvelimen tiedostojen ja tietokannan varmuuskopiointi Dropboxiin"
 date: 2018-07-24T15:14:00
 description: "Kirjoittelin aamulla varmuuskopiointi skriptiä yhdelle palvelimelle. Tästä tulikin ihan hyödyllinen paketti ja jaankin tähän nyt ohjeistusta miten saat tämän toimintaan itsellekkin. Oletan, että olet sinut Linuxin kanssa ja peukalo ei ole keskellä kämmentä :) Eli halusin varmuuskopiot tietokannasta ja tiedostoista. Sekä koska maksan Dropboxista niin minulla on siellä kivasti tilaa niin olisi näppärä jos ne"
-categories: ["Linux"]
+categories: ["Kotilabra"]
 tags: ["dropbox", "howto", "koodi", "linux", "ohje", "opas", "palvelin", "tuto", "varmuuskopiointi", "vinkki"]
 aliases: ["/linux-palvelimen-tiedostojen-ja-tietokannan-varmuuskopiointi-dropboxiin/"]
 ---

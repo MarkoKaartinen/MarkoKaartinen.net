@@ -3,7 +3,7 @@ title: "Sony Xperia Z4 Tablet"
 date: 2015-08-07T15:55:00
 lastmod: 2016-06-22T12:11:00
 description: "Hankin reilu kuukausi sitten Xperia Z4 tabletin ja käynkin tässä artikkelissa läpi sitä miten tämä on pärjännyt omassa käytössäni."
-categories: ["Marko testaa", "Tabletit"]
+categories: ["Marko testaa"]
 tags: ["arvostelu", "kokemuksia", "kokemus", "sony", "tablet", "täppäri", "xperia", "xperia z4", "xperia z4 tablet"]
 aliases: ["/sony-xperia-z4-tablet/"]
 ---

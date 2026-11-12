@@ -3,7 +3,7 @@ title: "iPhone 6 suojien arvonta!"
 date: 2014-10-17T09:17:00
 lastmod: 2014-11-06T20:19:00
 description: "iPhone 6 suojien arvonta on käynnistynyt! Sain pari viikkoa sitten kasan iPhone 6 suojia ja nyt arvon ne teille!"
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["apple", "arvonta", "iphone", "iphone 6", "suojakuori", "suojat"]
 aliases: ["/iphone-6-suojien-arvonta/"]
 ---

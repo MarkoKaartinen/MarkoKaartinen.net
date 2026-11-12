@@ -3,7 +3,7 @@ title: "Riftin trial"
 date: 2011-05-24T19:27:00
 lastmod: 2012-07-16T12:38:00
 description: "Nyt tarjoan teille hyvää mahdollisuutta kokeilla Riftiä ilmaiseksi 7 päivän ajan! Mikäli tykkäätte niin ostakaa! Minä suosittelen tätä peliä ja kannattaa lukaista myös minun aiempi Rift -artikkeli. Pitemmittä puheitta, käyttämällä seuraavaa linkkiä voitte kokeilla täysin maksutta Riftiä: Linkki Linkkiä voitte muuten vapaasti jakaa kavereille!"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["mmo", "mmorpg", "pelaaminen", "pelit", "rift", "trial"]
 aliases: ["/riftin-trial/"]
 ---

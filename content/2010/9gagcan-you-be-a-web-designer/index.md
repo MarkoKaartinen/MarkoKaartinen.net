@@ -2,7 +2,7 @@
 title: "'9gag:"
 date: 2010-07-27T16:27:00
 description: "9gag: Can You Be a Web Designer?"
-categories: ["Tumblr"]
+categories: ["Huumori"]
 tags: ["tumblr"]
 aliases: ["/9gagcan-you-be-a-web-designer/"]
 ---

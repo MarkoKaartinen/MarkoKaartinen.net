@@ -2,7 +2,7 @@
 title: "Soundtrack of my live version 2"
 date: 2008-06-14T21:36:00
 description: "Sillä edellisen kerran kun tein tämän niin silloin tuli aika mielenkiintoinen yhdistelmä ja ajattelin, että samapa tuota on koittaa uudestaa. (Aikaisempi soundtrack) Ja en epäilekään, etteikö tästä tulisi taas yhtä mielenkiintoista yhdistelmää. Ohjeet: Laita KAIKKI mp3-kappaleesi samaan soittolistaan Pistä shuffle päälle Paina play Jokaiseen kohtaan laita biisi mikä soi Kun tulee uusi kohta vaihda seuraava"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["elämä", "marko"]
 aliases: ["/soundtrack-of-my-live-version-2/"]
 ---

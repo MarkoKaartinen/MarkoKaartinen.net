@@ -3,7 +3,7 @@ title: "Speak-er"
 date: 2010-12-05T19:44:00
 lastmod: 2014-12-10T19:16:00
 description: "Löysin ehkä hienoimmat kaiuttimet ikinä! Mistähän näitä saa Suomen perukoille? Se joka tämän tietää/selvittää KERTOKOON tämän tiedon minulle! Kyseessä on Speak-er nimiset kaiuttimet (ovela nimi, eikö?). Löysin nämä seuraavalta saitilta (http://www.thinkofthe.com/product.php?name=speak-er) ja kuvat ovat myöskin samalta saitilta."
-categories: ["Blogi"]
+categories: ["Vempaimet"]
 tags: ["kaiuttimet", "puhekupla", "speak-er"]
 aliases: ["/speak-er/"]
 ---

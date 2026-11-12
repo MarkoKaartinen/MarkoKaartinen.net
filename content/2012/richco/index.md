@@ -2,7 +2,7 @@
 title: "Richco"
 date: 2012-09-01T18:33:00
 description: "Olen itse tehtaillut satunnaisesti Arduinon kanssa, mutta en ole ikinä vienyt mitään ihan ”loppuun” asti. Aina on projekti jäänyt ”rautalankamalliksi” ja sitä en ole koskaan oikeastaan vienyt ihan kotelointiin ja paikalleen asennukseen asti. Innostuin hieman, kun minua pyydettiin kirjoittamaan tästä yrityksestä jo sen suomalaisuuden vuoksi ja sen vuoksi, että heiltä tuntuu saavan vähän kaikkea liittyen"
-categories: ["Yritykset"]
+categories: ["Koodaus"]
 tags: ["arduino", "kiinnikkeet", "richco", "yritys"]
 aliases: ["/richco/"]
 ---

@@ -2,7 +2,7 @@
 title: "Khyl se tuloo"
 date: 2010-07-19T10:02:00
 description: "Ai mikäkö? No se uudistus, pari kuukautta sitten sanoin, että parin viikon päästä alkaa tapahtua. Ilmeisesti sana viikko olisi pitänyt korvata sanalla kuukausi. Sillä nyt on itseäkin alkanut ärsyttämään kun tämä sivusto on jäänyt vähän heitteille. Syitäkin voisi listailla tietty, mutta pääasiassa syynä on ollut työ ja muu sosiaalinen elämä. Joten nyt on alkanut uuden"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["sivusto", "teema", "uudistus"]
 aliases: ["/khyl-se-tuloo/"]
 ---

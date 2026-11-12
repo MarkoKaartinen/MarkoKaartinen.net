@@ -3,7 +3,7 @@ title: "Teaseria pukkaa!"
 date: 2010-08-22T19:15:00
 lastmod: 2014-12-10T19:21:00
 description: "Eli todisteeksi siitä, että oikeasti olen tehnyt jotain sivuston eteen niin pieni teaseri. Olkaapa hyvä! Sekä! Muistakaahan Facebookkiin tehty sivu: MarkoKaartinen.net @ Facebook"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["facebook", "sivupohja", "sivusto", "teaser", "uudistus"]
 aliases: ["/teaseria-pukkaa/"]
 ---

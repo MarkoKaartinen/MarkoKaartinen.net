@@ -2,7 +2,7 @@
 title: "Leatherman Wave + Bit Kit"
 date: 2014-06-30T09:32:00
 description: "Postissa saapui harvinaista herkkua minulle, nimittäin Leatherman Wave monitoimityökalu. Se pääsi heti testiin pienessä pyörän korjaushommassa."
-categories: ["Blogi"]
+categories: ["Vempaimet"]
 tags: ["leatherman", "wave"]
 aliases: ["/leatherman-wave-bit-kit/"]
 ---

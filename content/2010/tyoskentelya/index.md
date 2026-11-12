@@ -3,7 +3,7 @@ title: "Työskentelyä"
 date: 2010-03-16T23:58:00
 lastmod: 2014-12-10T19:22:00
 description: "Jossain tilanteessa on herättänyt keskustelua se, että teen töitä etänä ja projektityyppisesti. Joten ajattelin hieman valoittaa miten teen töitä ja onko se tapa soveltunut minulle. Kerron myös millä välineillä työskentelen ja mitä yleensä teen työkseni. Uskoisin näiden asioiden kiinnostavan teitä ja voitte saada hieman kuvaa millaista olisi työskennellä projektityyppisesti. Aluksi voisi hieman valoittaa mitä ensinnäkin"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["kokemukset", "mietteet", "sovelluskehitys", "työ"]
 aliases: ["/tyoskentelya/"]
 ---

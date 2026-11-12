@@ -3,7 +3,7 @@ title: "America's Army 3"
 date: 2009-07-02T14:07:00
 lastmod: 2012-07-16T12:48:00
 description: "As promised in Twitter, here it is! My post about AA3! Wikipedia says: America’s Army (also known as AA or Army Game Project) is a video game developed by the United States Army and released as a global public relations initiative to help with recruitment, originally envisioned by Colonel Casey Wardynski. I played AA2 long"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["aa3", "america's army 3", "english", "games", "pelaaminen", "pelit"]
 aliases: ["/americas-army-3/"]
 ---

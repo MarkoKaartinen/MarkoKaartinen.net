@@ -3,7 +3,7 @@ title: "Blogs, blogs and more blogs"
 date: 2008-05-15T23:39:00
 lastmod: 2012-04-07T11:22:00
 description: "Ehkä on hyvä kirjoitella muista blogeista kuin omastani. Ainakin näin aluksi, sillä tulette lukemaan tästä blogista vielä paljon lisää täältä. Elikkä on aika paljastaa blogeja joita seuraan ja luen. Lähinnä raapaista hieman pintaa näin aluksi ja hei, jos sinä luet mielenkiintoisia blogeja niin pistä kommenttia ja kerro minullekkin. Ideacafe IdeaCafe on nettisivujen suunnittelijoille tarkoitettu blogi,"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["blogit", "internet"]
 aliases: ["/blogs-blogs-and-more-blogs/"]
 ---

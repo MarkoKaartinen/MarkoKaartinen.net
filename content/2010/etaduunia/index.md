@@ -2,7 +2,7 @@
 title: "Etäduunia"
 date: 2010-09-02T17:49:00
 description: "Bongasin The Oatmeal saitilta sarjakuvan ja ajattelin käydä sen osat läpi tässä. Linkki sarjakuvaan: http://theoatmeal.com/comics/working_home Sarjakuvahan näin nopeasti suomennettuna on: Miksi kotona työskentely on sekä upeeta ja kauheaa. Ajattelin antaa näihin aiheisiin oman näkökulman ja te voitte kommentoida myös! Etätyössä hienoa Ei tarvitse herätä tuskallisen aikaisin Tämä on kyllä hyvä puoli kotona työskentelyssä kun ei"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["elämä", "etäduuni", "etätyö", "marko", "sarjakuva", "the oatmeal", "työ"]
 aliases: ["/etaduunia/"]
 ---

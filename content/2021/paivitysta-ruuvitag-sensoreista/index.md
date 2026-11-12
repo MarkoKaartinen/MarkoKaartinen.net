@@ -2,7 +2,7 @@
 title: "Päivitystä RuuviTag sensoreista"
 date: 2021-07-30T09:46:00
 description: "Nyt onkin aika päivittää tätä tarinaa. RuuviTag sensoreita onkin tällä hetkellä kahdeksan kappaletta ja tuntuu, että pitäisi olla lisää."
-categories: ["Blogi"]
+categories: ["Kotilabra"]
 tags: ["iot", "ruuvi", "ruuvitag"]
 aliases: ["/paivitysta-ruuvitag-sensoreista/"]
 ---

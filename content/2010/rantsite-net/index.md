@@ -2,7 +2,7 @@
 title: "RantSite.net"
 date: 2010-09-19T17:42:00
 description: "Uusin projekti on julkaistu. Sen nimi on RantSite ja sivuston tarkoitus on: Ja nyt osa kysyy mitä ihmettä tämäkin taas nyt on? Noh tämä on RantSite. Sivusto, jossa eri bloggaajat voivat kirjoittaa ränttejä. Tässä tapauksessa haluamme jokaisen oman mielipiteen jostain aiheesta/asiasta. Ja samalla mietitte mistä tämäkin idea lähti: Ideahan lähti siitä, kun mietin jotain uutta"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["projekti", "rantsite", "rantsite.net"]
 aliases: ["/rantsite-net/"]
 ---

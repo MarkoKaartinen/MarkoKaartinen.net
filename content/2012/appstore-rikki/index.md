@@ -3,7 +3,7 @@ title: "AppStore rikki?"
 date: 2012-09-25T11:37:00
 lastmod: 2014-12-10T19:03:00
 description: "Koitin aamulla asentaa erästä ohjelmaa AppStoresta, mutta törmäsin pieneen ongelmaan joka estää ohjelman ostamisen. AppStore haluaa, että täytän kolme turvakysymystä ja sähköpostin johon voi laittaa apuja. Ok, kuulostaa ihan hyvältä idealta. Tuohan olisi ihan hyvä jos se toimisi, törmäsin monesti siihen, että homma aikakatkaistiin ja täten et voi tätä ohjelmaa ostaa. Tällä hetkellä en siis"
-categories: ["Apple", "Blogi"]
+categories: ["Mobiili"]
 tags: ["apple", "appstore", "fail"]
 aliases: ["/appstore-rikki/"]
 ---

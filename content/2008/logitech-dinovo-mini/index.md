@@ -3,7 +3,7 @@ title: "Logitech diNovo Mini"
 date: 2008-05-16T22:33:00
 lastmod: 2014-12-10T19:29:00
 description: "Sattuipa silmään erittäin mielenkiintoinen tuote, että on pakko blogata siitä tänne. Nimittäin Logitechin diNovo mini -näppäimistö jonka hinta on suomessa noin 120 euroa. Koko ei todellakaan ole päätä huimaava ja tämä jos mikä on pientä. Nimittäin hieman kämmentä isompi ja näyttääkin vielä hyvältä. Koon puolesta sopisi olohuone-pc/media centeriin erittäin passelisti. Hieman speksejä: 25 mm kaksois-toiminen"
-categories: ["Blogi"]
+categories: ["Vempaimet"]
 tags: ["dinovo", "härpäke", "logitech"]
 aliases: ["/logitech-dinovo-mini/"]
 ---

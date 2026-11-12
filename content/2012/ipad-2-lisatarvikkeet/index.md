@@ -3,7 +3,7 @@ title: "iPad 2 & lisätarvikkeet"
 date: 2012-02-27T17:28:00
 lastmod: 2013-08-05T14:01:00
 description: "Tein pienen videon omista iPad 2 lisätarvikkeista. Laatu ei ole kaikkein parasta, mutta tätä parempaan ei pysty nykyisillä videon taltiointi välineillä! Videossa on näkyvissä seuraavat lisätarvikkeet: Targus stylus, Casecrown suoja, Apple Smart Cover, Apple langaton Bluetooth näppis. Sekä muut mainitut lisätarvikkeet: Camera kit ja AV kit."
-categories: ["Apple", "Blogi", "Marko testaa"]
+categories: ["Marko testaa"]
 tags: ["apple", "ipad", "ipad 2", "lisätarvikkeet", "video"]
 aliases: ["/ipad-2-lisatarvikkeet/"]
 ---

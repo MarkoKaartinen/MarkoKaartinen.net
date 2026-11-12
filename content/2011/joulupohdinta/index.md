@@ -3,7 +3,7 @@ title: "Joulupohdinta"
 date: 2011-12-23T21:06:00
 lastmod: 2013-08-05T15:22:00
 description: "Glenn Waters ぐれん AWAY Jo joutui joulu taas. Huomenna on jouluaatto joten perjantaipohdinta on oikeaan aikaan. Samaan aikaan on ollut monta muutakin jouluista settiä menossa kuin itse joulu. Aloitetaan perinteisistä ja ei niin perinteisitä joulukalentereista. Itsellänihän on jo oikeastaan pieni perinne, että joko teen uuden joulukalenterin tai parannan vanhaa joulukalenteria. Teen nimittäin sen tapani mukaan"
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["joulu", "joulukalenteri", "perjantaipohdinta", "sauna", "steam"]
 aliases: ["/joulupohdinta/"]
 ---

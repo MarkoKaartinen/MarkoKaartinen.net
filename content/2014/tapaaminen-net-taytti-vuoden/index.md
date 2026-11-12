@@ -2,7 +2,7 @@
 title: "Tapaaminen.net täytti vuoden!"
 date: 2014-05-13T18:20:00
 description: "Vuosi sitten kirjoitin tänne artikkelin omasta uudesta projektistani nimeltä Tapaaminen.net. Käydäänkin nyt läpi mitä vuoden aikana tapahtui."
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["katsaus", "projekti", "tapaaminen", "tapaaminen.net"]
 aliases: ["/tapaaminen-net-taytti-vuoden/"]
 ---

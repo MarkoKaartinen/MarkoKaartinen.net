@@ -2,7 +2,7 @@
 title: "Case: ulkoinen kiintolevy - Osa 2"
 date: 2011-01-20T16:58:00
 description: "Enpä arvannut, että tälle tulee Osa 2:sta, mutta niin vain kävi. Sain nimitätin eilen illalla tekstiviestin Gigantista, että tuotteesi on noudettavissa myymälästä. Hetken mietin, että mitähän olen tilannut – sitten se iski! Tilasin sen kiintolevyn, mutta peruin sen siellä! Ilmeisesti myyjä ei ollutkaan perunut tätä tilausta. Tämähän minua ei haitannut yhtään! Sillä olin katsonut viikkoa"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["case", "gigantti", "kiintolevy", "ulkoinen"]
 aliases: ["/case-ulkoinen-kiintolevy-osa-2/"]
 ---

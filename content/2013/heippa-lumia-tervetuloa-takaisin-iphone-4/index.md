@@ -3,7 +3,7 @@ title: "Heippa Lumia! Tervetuloa takaisin iPhone 4!"
 date: 2013-03-26T19:32:00
 lastmod: 2014-12-10T18:57:00
 description: "Viime vuonna ostamani Lumia 900 oli passeli puhelin kunnes oikeastaan tulin siihen tulokseen, että Lumian ja minun yhteistyö ei sujukaan niin hyvin kuin olisin ehkä tahtonut. Aloitin aikoinaan matkapuhelinten käytön Nokialaisella, mutta tänä päivänä ei Nokia enää vakuuta minua. Tämä Lumia 900 puhelin olikin pieni kokeilu siitä voisinko palata takaisin Nokian kelkkaan. Vastaus on siis"
-categories: ["Apple", "Blogi", "Matkapuhelimet", "Nokia"]
+categories: ["Mobiili"]
 tags: ["apple", "iphone", "iphone 4", "lumia", "lumia 900", "matkapuhelin", "nokia", "puhelimet"]
 aliases: ["/heippa-lumia-tervetuloa-takaisin-iphone-4/"]
 ---

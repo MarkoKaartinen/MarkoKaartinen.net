@@ -3,7 +3,7 @@ title: "005 Lumia 1020, Sony DSC QX -sarja & Chromecast"
 date: 2013-10-02T14:52:00
 lastmod: 2016-01-26T14:02:00
 description: "Lumia 1020 Lumia 1020 “hirviöpuhelin” on siitä erikoinen Nokialainen, että siinä on 41 megapikselin kamera. Muuten konepellin alta löytyy seuraavaa: 4.5 tuuman ClearBlack AMOLED näyttö (1280 x 768), kaksiytiminen 1,5 GHz Qualcomm Snapdragon S4 suoritin, 2 gigaa muistia, 32 gigaa tilaa, NFC ja tietty perus wlan, usb yms. Kolmessa eri värissä: musta, valkoinen ja keltainen"
-categories: ["Podcast"]
+categories: ["Podcastit ja vlogit"]
 tags: ["chromecast", "hirviöpuhelin", "kamera", "kamerapuhelin", "lumia", "lumia 1020", "nokia", "podcast", "puhelin", "qx10", "qx100", "sony"]
 aliases: ["/005-lumia-1020-sony-dsc-qx-sarja-chromecast/"]
 ---

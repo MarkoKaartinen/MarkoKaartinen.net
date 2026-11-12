@@ -2,7 +2,7 @@
 title: "Arduino"
 date: 2011-04-29T17:17:00
 description: "Internet on siitä vänkä juttu, että sen kautta löytää vaikka mitä! Uusimpia löytöjä on Arduino Uno niminen avoimen lähdekoodin mikrokontrollerikehitysalusta. Tämän päälle siis voi rakennella mitä ovelampia vekottimia. Tämän kanssa säätäminen vaatii hieman osaamista ohjelmoinnistakin, sillä siinä ohjelmoidaan kaikki toiminnot Arduinon omalla ohjelmointiympäristöllä. Se on tosin erittäin simppeliä ja ohjelmointia osaamatonkin pääsee alkuun helposti. Itselleni"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["arduino", "elektroniikka", "rakentelu", "uno"]
 aliases: ["/arduino/"]
 ---

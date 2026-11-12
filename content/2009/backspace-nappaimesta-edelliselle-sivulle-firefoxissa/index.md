@@ -2,7 +2,7 @@
 title: "Backspace näppäimestä edelliselle sivulle Firefoxissa"
 date: 2009-01-24T13:34:00
 description: "Asentelin CrunchEee Linuxin omaan Eeeheni ja tähän mennessä olen pitänyt ko. distrosta. Kuitenkin olen törmännyt samaan ongelmaan aiemminkin ja etsinyt aina samaan ongelmaan ratkaisua Googlesta, mutta nyt päätin blogata sen tänne, jotta ei tarvitse aina etsiä sitä. Eli ongelma on, että olen tottunut siihen, että Firefoxissa kun painnaa backspace näppäintä niin menee edelliselle sivulle. Jos"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["backspace", "cruncheee", "firefox", "linux"]
 aliases: ["/backspace-nappaimesta-edelliselle-sivulle-firefoxissa/"]
 ---

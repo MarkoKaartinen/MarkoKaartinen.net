@@ -3,7 +3,7 @@ title: "Penclic B2 arvonta"
 date: 2013-07-25T09:45:00
 lastmod: 2014-12-10T18:54:00
 description: "Arvomme kaikkien osallistuneiden kesken Penclic B2 bluetooth hiiren. Penclic hiiri on siitä erikoinen, että se on muotoiltu kuin kynä ja sitä käytetään kuten kynää. Olen tehnyt tästä kynästä jokusen artikkelin niin tänne kuin Täppäriin ja alla on listaus niistä: Penclic unboxaus Penclic B2 ja MacBook Pro Penclic B2 ja Nexus 7 Arvontaan osallistutaan alla olevan"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["arvonta", "bluetooth", "hiiri", "ilmainen", "kynä", "penclic"]
 aliases: ["/penclic-b2-arvonta/"]
 ---

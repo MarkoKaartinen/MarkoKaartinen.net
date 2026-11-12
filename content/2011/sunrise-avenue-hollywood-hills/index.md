@@ -2,7 +2,7 @@
 title: "Sunrise Avenue - Hollywood Hills"
 date: 2011-02-27T11:33:00
 lastmod: 2014-12-10T19:13:00
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["ääni", "audio", "hollywood hills", "musiikki", "spotify", "sunrise avenue"]
 aliases: ["/sunrise-avenue-hollywood-hills/"]
 ---

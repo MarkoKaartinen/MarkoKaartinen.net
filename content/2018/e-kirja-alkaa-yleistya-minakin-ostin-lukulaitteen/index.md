@@ -2,7 +2,7 @@
 title: "E-kirja alkaa yleistyä - minäkin ostin lukulaitteen"
 date: 2018-04-23T09:41:00
 description: "Olen kirjoittanut useampi vuosi sitten e-kirjoista täällä blogissani ja nyt onkin taas aika sivuta tätä aihetta. Olen nimittäin hankkinut e-kirjan lukemiseen oman laitteen. Viime viikolla oli kirjamessut ja silloin oli Elisalla tarjouksessa näitä lukulaitteita."
-categories: ["Blogi"]
+categories: ["Vempaimet"]
 tags: ["bookeen", "bookeen cybook muse hd", "cybook", "e-kirja", "elisa", "elisa kirja", "kirja", "kirjat", "lukeminen"]
 aliases: ["/e-kirja-alkaa-yleistya-minakin-ostin-lukulaitteen/"]
 ---

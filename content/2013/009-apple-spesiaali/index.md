@@ -3,7 +3,7 @@ title: "009 Apple spesiaali"
 date: 2013-10-31T15:44:00
 lastmod: 2016-01-26T14:04:00
 description: "Viime viikolla lupailin Apple spesiaalia, koska oli Applen julkistustilaisuuskin. Tässä siis pieni linkkilista siitä mitä podcastissa tuli puheltua. OSX Mavericks Täppäri.fi artikkeli uusista iPadiestä Mac Pro Retina -näytöllä oleva Macbook Pro iPad Air Retina -näytöllä oleva iPad Mini Itse tapahtumanhan voit katsoa videolta täältä."
-categories: ["Podcast"]
+categories: ["Podcastit ja vlogit"]
 tags: ["apple", "ipad", "ipad air", "ipad mini", "mac", "mac pro", "macbook", "macbook pro", "maverics", "podcast", "retina"]
 aliases: ["/009-apple-spesiaali/"]
 ---

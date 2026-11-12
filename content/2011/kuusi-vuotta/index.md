@@ -2,7 +2,7 @@
 title: "Kuusi vuotta"
 date: 2011-11-17T18:27:00
 description: "MarkoKaartinen.net domain hankittiin tasan kuusi vuotta sitten – tätä päivämäärää voidaan pitää siis MarkoKaartinen.netin syntynä. Tässä postauksessa tulen käsittelemään hieman mitä kuuden vuoden aikana on tapahtunut sivustolla ja elämässäni eli pieni kertaus alkaen vuodesta 2005. 2005 oli sinällään mielenkiintoinen vuosi, olin viimeisiä hetkiä kauppiksessa ja datanomin paperit oli lähes taskussa ja työharjoittelu edessä. Olin siis"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["elämä", "marko", "markokaartinen.net", "sivusto"]
 aliases: ["/kuusi-vuotta/"]
 ---

@@ -2,7 +2,7 @@
 title: "Alan blogata englanniksi"
 date: 2017-03-22T07:33:00
 description: "Olen jo pitkään pohtinut englanninkielisen blogin aloittamista sillä haluan treenta englannin taitoa ja saada sitä ehkä sitä kautta hieman paremmaksi."
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["blogi", "englanniksi", "englanninkielinen", "englanti", "mietteitä", "nörtti", "pohdinta", "projekti"]
 aliases: ["/alan-blogata-englanniksi/"]
 ---

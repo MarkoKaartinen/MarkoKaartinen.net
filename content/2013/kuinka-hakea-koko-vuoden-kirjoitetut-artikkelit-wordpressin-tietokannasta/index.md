@@ -2,7 +2,7 @@
 title: "Kuinka hakea koko vuoden kirjoitetut artikkelit WordPressin tietokannasta?"
 date: 2013-01-02T15:33:00
 description: "Tutkin taas tätä ongelmaa, kun kirjoittelin vuosittaista katsaustani ja ajattelin pistää tämän ongelman ratkaisun tänne jakoon ja itselleni muistutukseksi. Saat haettua kaikki haluttuna vuonna kirjoitetut artikkelit yhdellä simppelillä SQL-lauseella, jonka voit sitten esim. PhpMyAdminin kautta ajaa. SELECT count(*) as kpl FROM `wp_posts` WHERE post_status = ’publish’ AND YEAR(post_date) = 2012 AND post_type = ’post’ Tämä"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["artikkelit", "määrä", "phpmyadmin", "tietokanta", "vinkki", "wordpress"]
 aliases: ["/kuinka-hakea-koko-vuoden-kirjoitetut-artikkelit-wordpressin-tietokannasta/"]
 ---

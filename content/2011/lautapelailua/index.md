@@ -3,7 +3,7 @@ title: "Lautapelailua"
 date: 2011-12-26T14:09:00
 lastmod: 2012-07-16T12:34:00
 description: "photo credit: Tambako the Jaguar Tästä on pitänyt kirjoittaa jo kauan sitten sillä ei tämä tässä joulun aikaan tapahtunut. En siis saanut (ainakaan vielä) lahjaksi lautapeliä vaan näitä on tullut hankittu aiemmin parikin kappaletta. Kirjoitan parista pelistä erikseen vielä omat artikkelinsa. Lapsena nämä olivat aivan loistavaa ajanvietettä ja kukapa ei muistaisi Aliasta, Pictionaryä, Monopolia, sitä"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["carcassonne", "lautapelit", "mallorca", "menolippu", "pelaaminen"]
 aliases: ["/lautapelailua/"]
 ---

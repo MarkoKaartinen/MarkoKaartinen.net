@@ -3,7 +3,7 @@ title: "Pikainen katsaus"
 date: 2009-03-08T10:41:00
 lastmod: 2014-12-10T19:25:00
 description: "Hellou pitkästä aikaa. En ajatellut kirjoittaa mitään it-”soopaa” tähän väliin vaan aivan yleistä löpinää ja läpinää eli voitte odottaa sekavaa postausta näin sunnuntai aamulle. Ensinnäkin olen alkanut käyttämään Twitteriä ja se on osana sivuston tulevaa uudistusta osittain, mutta siitä lisää myöhemmin. Eli minua voitte seurailla Twitterissä http://twitter.com/MarkoK urlin takaa ja jos kiinnostaa niin alkakaa seuraamaan"
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["coldplay", "finice", "finice ry", "iphone", "kuulumiset", "marko", "twitter", "yhdistys"]
 aliases: ["/pikainen-katsaus/"]
 ---

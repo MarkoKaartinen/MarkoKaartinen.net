@@ -3,7 +3,7 @@ title: "Aina se tulee niin pirun nopeaan!"
 date: 2012-01-27T20:37:00
 lastmod: 2012-02-04T15:13:00
 description: "Nimittäin perjantai, jotenkin se tulee aina puskista ja ei muista kirjoittaa tätä juttua. Taisipa jäädä viime viikollakin väliin. Ei helkutti tuleekohan tästä tapa? Pitääpä alkaa aktivoitua tällä saralla! Käyn nyt taas tapani mukaan erittäin sekalaisen kokoelman asioita. Ostakaa makkaraa… ei sentään. Ostakaa minulta iPhone 3G pois kuleksimasta. Myyn sitä Huuto.netissä ja pääset huutamaan tämän puhelimen"
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["elämä", "iphone", "iphone 3g", "marko", "perjantai", "perjantaipohdinta", "reissuun.net"]
 aliases: ["/aina-se-tulee-niin-pirun-nopeaan/"]
 ---

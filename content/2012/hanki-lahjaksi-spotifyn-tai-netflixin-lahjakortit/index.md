@@ -2,7 +2,7 @@
 title: "Hanki lahjaksi Spotifyn tai Netflixin lahjakortit"
 date: 2012-12-18T14:30:00
 description: "Onko joululahjoja vielä hankkimatta? Tässä on kaksi helppoa vinkkiä siihen! En saa näistä vinkeistä senttiäkään kotiinpäin joten linkkejä voi vapaasti linkata ja hankkia sitä kautta passelit lahjakortit! Netti on yhä tärkeämpi osa ihmisen elämää ja sinne on nykyään mennyt musiikki Spotifyn kautta sekä elokuvat ja sarjat Netflixin kautta. Molemmat palvelut toimivat loistavasti niin täppäreissä, läppäreissä,"
-categories: ["Apple"]
+categories: ["Internet"]
 tags: ["elokuvat", "lahjakortit", "musiikki", "netflix", "sarjat", "spotify", "apple"]
 aliases: ["/hanki-lahjaksi-spotifyn-tai-netflixin-lahjakortit/"]
 ---

@@ -3,7 +3,7 @@ title: "Käännökset Genesis frameworkkiin"
 date: 2012-11-27T10:36:00
 lastmod: 2012-11-27T08:23:00
 description: "Olen viime aikoina alkanut kokeilemaan WordPressin teemojen tekoa frameworkin avulla. Nappasin nyt viime viikonlopun alennuksista Genesis Framework nimisen teema frameworkin itselleni. Aloin jo ”tee-se-itse” tyyppisesti kääntämään tuota frameworkkia suomeksi ennen kuin havahduin, että tähän pitäisi kyllä olla olemassa jo suomenkieliset käännökset. Tähän olikin pirun helppo ratkaisu olemassa, asensin nimittäin vain lisäosan. Tässä on hyvin yksinkertainen ohje:"
-categories: ["Blogi", "Internet", "WordPress"]
+categories: ["Koodaus"]
 tags: ["genesis", "genesis framework", "lisäosa", "suomeksi", "suomenkielinen", "teemat", "ulkoasu", "wordpress"]
 aliases: ["/kaannokset-genesis-frameworkkiin/"]
 ---

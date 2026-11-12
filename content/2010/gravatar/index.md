@@ -3,7 +3,7 @@ title: "Gravatar"
 date: 2010-11-05T11:31:00
 lastmod: 2014-12-10T19:17:00
 description: "Monet blogit ja julkaisujärjestelmät käyttävät Gravataria nykyään. Lähinnä siksi, koska se on helppo tapa sallia avatarit myös niille käyttäjille joilla ei ole omaa tunnusta sivustolla. Gravatar nimittäin toimii niin, että kun esimerkiksi kommentoija jättää sivulle kommentin ja silloin hänen on syötettävä sähköposti. Tällöin blogi hakee avatarin kommentoijalle Gravatarin kautta. Itselläni WordPress hakee ensin Gravatarista ja"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["avatar", "gravatar", "palvelu"]
 aliases: ["/gravatar/"]
 ---

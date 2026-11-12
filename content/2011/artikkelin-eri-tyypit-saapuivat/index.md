@@ -2,7 +2,7 @@
 title: "Artikkelin eri tyypit(?) saapuivat"
 date: 2011-02-28T18:46:00
 description: "Kuten oletta parin päivän aikana huomanneet, olen tehnyt erilaisia muutoksia. En kovin isoja, mutta muutoksia kuitenkin. WordPress 3.1 toi mukanaan uudistuksia ja yksi niistä on tämä kömpelösti suomennettu artikkelin eri tyypit (post formats). Olen ottanut käyttöön pari erilaista täällä sivustolla ja ne ovat: linkki, kuva, ääni, video, tilapäivitys ja tietysti tämä normaali postaus. Ehkäpä nämä"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["artikkeli", "post format", "sivusto", "tyypit", "uudistus", "wordpress"]
 aliases: ["/artikkelin-eri-tyypit-saapuivat/"]
 ---

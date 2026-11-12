@@ -3,7 +3,7 @@ title: "So, I'm banned from AdSense"
 date: 2013-08-01T19:40:00
 lastmod: 2014-12-10T18:53:00
 description: "So, I’m banned from AdSense and after couple of years all I can do is to write this blog post. Normally I write in finnish but with this post I want to get a bigger audience so this will be in english (pahoittelut suomalaisille lukijoilleni). Well as I said, I have been banned couple of years"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["ads", "adsense", "adsense account", "ban", "banned", "disabled", "google", "google ads", "monetize", "money", "reinstated", "unbanned", "youtube", "youtube ads"]
 aliases: ["/so-im-banned-from-adsense/"]
 ---

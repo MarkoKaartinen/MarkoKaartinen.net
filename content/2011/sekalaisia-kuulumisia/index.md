@@ -3,7 +3,7 @@ title: "Sekalaisia kuulumisia"
 date: 2011-07-21T21:24:00
 lastmod: 2011-07-21T21:26:00
 description: "Tänne on hyvä silloin tällöin kirjoitella niin te satunnaiset lukijat ja googlaajat tulette taas tänne vahingossa. Hienoa! On täällä niitä harvoja, jotka seuraa oikeasti tätä blogia ja käyvät täällä silloin tällöin tarkistamassa onko tullut uutta tai ehkäpä jopa käyttävät RSS-lukijaa avukseen. Tämä sekalaisia kuulumisia postaus on heitä varten! Kokoan tässä hieman tulevaa, tätä hetkeä ja"
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["elämä", "elysium solutions oy", "firma", "helsinki", "kreeta", "kreikka", "kuulumiset", "loma", "marko", "matka", "passi", "sekalaista", "smf", "suomi", "turku", "tuuri", "wordpress"]
 aliases: ["/sekalaisia-kuulumisia/"]
 ---

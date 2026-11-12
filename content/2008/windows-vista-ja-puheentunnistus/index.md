@@ -3,7 +3,7 @@ title: "Windows Vista ja puheentunnistus"
 date: 2008-01-02T14:55:00
 lastmod: 2009-06-05T11:56:00
 description: "Tämä on yksi hajottavimpia asioita koko käyttöjärjestelmässä. Koitin kyseistä ominaisuutta, äskettäin ja tutoriaalissa kaikki vaikutti hyvältä. Jep oli taas tehty kaikesta toimivaa, kyllä kaikki toimikin siis tutoriaalissa. Mutta odotas kun koitin sitä sitten Windows maailmassa, ja koitin jopa surffata sillä. Se ei ymmärrä sanaakaan suomea, vaan pitää vaihtaa järjestelmän kielikin englanniksi, että edes koko softa aukeaa (käytössäni Vista Ultimate), jolloin kielenvaihtelu on helppoa. Tämä ei ollut ongelma, noh vaihdoin kielen, ja"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["puheentunnistus", "vista", "windows"]
 aliases: ["/windows-vista-ja-puheentunnistus/"]
 ---

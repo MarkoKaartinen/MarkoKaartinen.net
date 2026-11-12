@@ -3,7 +3,7 @@ title: "ADSL-toimittajat: 2 - Marko: 0"
 date: 2009-07-12T12:53:00
 lastmod: 2009-07-13T20:44:00
 description: "Näin se vain on, ei ne ajat muutu. Tai no ei ainakaan tällä kertaa. Muistan vieläkin kun ensimmäinen laajakaista tilattiin kotiimme ja toimitusaika oli kuukaudesta kahteen kuukauteen. Ja voi sitä odottamista… tuskaahan se oli. No miten kävi kun tilasin 1.7 ADSL:n ja nyt on sentään menty paljon eteenpäin tekniikassa kuin ensimmäisen laajakaistan aikoihin. Eli tässä"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["adsl", "internet", "laajakaista", "marko", "mokkula"]
 aliases: ["/adsl-toimittajat-2-marko-0/"]
 ---

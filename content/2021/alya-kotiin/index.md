@@ -3,7 +3,7 @@ title: "Älyä kotiin"
 date: 2021-12-02T10:05:00
 lastmod: 2021-12-03T10:26:00
 description: "Nyt alkaa todennäköisesti suht pitkä sarja artikkeleita nimeltä \"Älykoti\". Nimensä mukaisesti aletaan laittamaan tätä asuntoa älykkääksi."
-categories: ["Älykoti"]
+categories: ["Kotilabra"]
 tags: ["äly", "älykoti", "ikea", "ruuvi", "ruuvitag", "smart home", "trådfri"]
 series: ["Älykoti"]
 aliases: ["/alya-kotiin/"]

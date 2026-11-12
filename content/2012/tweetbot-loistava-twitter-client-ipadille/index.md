@@ -3,7 +3,7 @@ title: "Tweetbot - Loistava Twitter-client iPadille"
 date: 2012-12-07T10:51:00
 lastmod: 2013-08-05T17:59:00
 description: "Itse käytän iPadiäni Twiittaamiseen ja sillä onkin pirun hyvä lukea muiden Twiittejä. Twitterin oma sovellus ei iskenyt niin hyvin kuin olisin halunnut, koitin jokusta sovellusta sen jälkeen kunnes tuli Tweetbot eteen. Tweetbot on maksullinen Twitter sovellus, mutta on se tuon reilun parin euron arvoinen – helposti! Ensinnäkin Tweetbot näyttää hyvältä ja sitä on mukava käyttää."
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["app store", "apple", "apps", "ipad", "sovellus", "tweetbot", "twitter"]
 aliases: ["/tweetbot-loistava-twitter-client-ipadille/"]
 ---

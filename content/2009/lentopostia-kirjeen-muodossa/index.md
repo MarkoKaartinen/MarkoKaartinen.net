@@ -3,7 +3,7 @@ title: "Lentopostia kirjeen muodossa"
 date: 2009-01-03T15:15:00
 lastmod: 2014-12-10T19:26:00
 description: "Aikoinaan blogasin aiheesta Puupostikortti ja mielestäni se oli jo vähintäänkin mielenkiintoinen ajatus, mutta bongasin tänään oikeastaan vielä mielenkiintoisemman postikortti idean. Kyseessähän on tietysti postikortti josta saa tehtyä lennokin. Juuri sopiva lapsille ja hieman lapsen mielisille. Lähde: SUCK via OhGizmo"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["internet", "lentokone", "postikortti"]
 aliases: ["/lentopostia-kirjeen-muodossa/"]
 ---

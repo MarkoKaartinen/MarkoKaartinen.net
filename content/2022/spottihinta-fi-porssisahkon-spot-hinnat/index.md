@@ -3,7 +3,7 @@ title: "SpottiHinta.fi - pörssisähkön spot-hinnat"
 date: 2022-10-03T12:39:00
 lastmod: 2022-10-03T14:00:00
 description: "Pikaisessa esittelyssä oma vapaa-ajan projekti SpottiHinta.fi jossa voi seurata pörssisähkön spot-hintaa oman \"dashboardin\" avulla."
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["laravel", "livewire", "php", "pörssisähkö", "projekti", "sähkö", "sähkön hinta", "spot-hinta", "spothinta", "spottihinnat", "spottihinta"]
 aliases: ["/spottihinta-fi-porssisahkon-spot-hinnat/"]
 ---

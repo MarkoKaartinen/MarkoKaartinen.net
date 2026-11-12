@@ -3,7 +3,7 @@ title: "Virtual Realityn (VR) avulla toteutettu motivaatiopuhe jalkapalloseurall
 date: 2016-06-19T17:42:00
 lastmod: 2017-03-06T08:31:00
 description: "Virtual Reality eli virtuaalitodellisuus suomeksi on viimeiaikoina nostanut päätään niin Oculus Riftin, HTC Viven kuin Samsungin omien 360 laitteiden myötä."
-categories: ["VR"]
+categories: ["Vempaimet"]
 tags: ["360", "gear 360", "gear vr", "samsung", "video", "virtuaalitodellisuus", "virtual reality", "vr"]
 aliases: ["/virtual-realityn-vr-avulla-toteutettu-motivaatiopuhe-jalkapalloseuralle/"]
 ---

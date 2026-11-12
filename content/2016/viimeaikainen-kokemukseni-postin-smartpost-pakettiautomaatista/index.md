@@ -3,7 +3,7 @@ title: "Viimeaikainen kokemukseni Postin SmartPOST pakettiautomaatista"
 date: 2016-12-07T16:31:00
 lastmod: 2016-12-07T09:31:00
 description: "Minulla oli hieman ongelmia erään paketin saapumisessa perille. Selostankin tässä koko tapahtumaketjun läpi ja annan omat mielipiteet tästä tapauksesta."
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["elisa", "kokemuksia", "mielipide", "ongelmat", "pakettiautomaatti", "parannuksia", "posti", "smartpost"]
 aliases: ["/viimeaikainen-kokemukseni-postin-smartpost-pakettiautomaatista/"]
 ---

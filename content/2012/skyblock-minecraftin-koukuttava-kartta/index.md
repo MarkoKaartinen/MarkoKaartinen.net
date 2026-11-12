@@ -3,7 +3,7 @@ title: "SkyBlock - Minecraftin koukuttava kartta"
 date: 2012-05-01T13:09:00
 lastmod: 2014-12-10T19:07:00
 description: "Löysin tässä yksi päivä SkyBlock nimisen kartan Minecraftiin. Aloitin eilen sen pelaamisen ja jouduin aloittamaan muutaman kerran alusta sillä tein erittän turhauttavia virheitä, jotka sitten kostautui. Kartassa sinä spawnaat pienelle saarelle, joka sattuu vielä leijumaan ilmassa. Pieni virhe tarkoittaa yleensä sitä, että tipahdat saarelta ja menetät samalla tavaraa, jota tarvitset kipeästi… Tähän ainut ratkaisu on"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["minecraft", "pelaaminen", "pelit", "skyblock"]
 aliases: ["/skyblock-minecraftin-koukuttava-kartta/"]
 ---

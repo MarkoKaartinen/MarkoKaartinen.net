@@ -3,7 +3,7 @@ title: "MacBook Pro yli vuoden jälkeen"
 date: 2012-04-02T18:32:00
 lastmod: 2014-12-10T19:06:00
 description: "Kirjoitin hankkineeni MacBook Pron 28.10.2010 ja tästä on nyt kulunut vuosi ja 4 kuukautta (mikäli laskin nyt oikein). Tämän kirjoituksen ideana on hieman katsella vieläkö tämä kone pelittää ja mitä on muuttunut niin ohjelmistossa ja raudassa sekä kaduttaako tämän hankinta vieläkään. Jos aloitetaan mitenkä MacBook Pro pärjää tänään minun käytössäni. Sehän porskuttaa eteenpäin kuin mikäkin"
-categories: ["Apple", "Blogi"]
+categories: ["Tietokoneet"]
 tags: ["apple", "läppäri", "macbook", "macbook pro", "tietokoneet"]
 aliases: ["/macbook-pro-yli-vuoden-jalkeen/"]
 ---

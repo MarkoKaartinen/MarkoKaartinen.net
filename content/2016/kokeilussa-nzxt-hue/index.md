@@ -3,7 +3,7 @@ title: "Kokeilussa NZXT HUE+"
 date: 2016-05-13T20:45:00
 lastmod: 2016-07-19T09:23:00
 description: "Tällä kertaa sainkin ihan jotain muuta kokeiluun. Minuun otettiin yhteyttä ja kyseltiin haluaisinko lähteä kokeilemaan NZXT HUE+ valaistusjärjestelmää."
-categories: ["Kokeilussa", "Tietokoneet"]
+categories: ["Marko testaa"]
 tags: ["esittelyssä", "hue+", "kokeilu", "kokeilussa", "led", "nzxt", "nzxt hue+", "testi", "tietokone", "tietokoneet", "valaistus"]
 aliases: ["/kokeilussa-nzxt-hue/"]
 ---

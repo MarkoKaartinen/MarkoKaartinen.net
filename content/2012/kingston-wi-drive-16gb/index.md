@@ -3,7 +3,7 @@ title: "Kingston Wi-Drive 16GB"
 date: 2012-06-10T11:10:00
 lastmod: 2012-07-16T12:29:00
 description: "Kyseessä on ulkoinen kiintolevy joka luo langattoman verkon ja sitä kautta jakaa tiedostot mobiililaitteille. Kingston Wi-Drive toimii iPadin, iPhonen, iPod Touchin, Android laitteiden ja Amazon Kindlen kanssa. Laitteeseen voi olla yhteydessä kolme mobiililaitetta yhtä aikaa. Tiedostot voit siirtää suoraan Wi-Driveen käyttämällä mukana tullutta USB-kaapelia. Mitään ongelmia ei ollut kun siirtelin tiedostoja MacBookillani. 16 gigatavuun mahtuu"
-categories: ["Blogi", "Marko testaa"]
+categories: ["Marko testaa"]
 tags: ["kingston", "kingston wi-drive", "laitteet", "lelut", "nörtti", "tekniikka", "testi", "wi-drive"]
 aliases: ["/kingston-wi-drive-16gb/"]
 ---

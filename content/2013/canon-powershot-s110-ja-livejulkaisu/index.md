@@ -3,7 +3,7 @@ title: "Canon PowerShot S110 ja livejulkaisu"
 date: 2013-07-16T18:45:00
 lastmod: 2014-03-29T16:47:00
 description: "Kuten uhkasinkin aikaisemmassa artikkelissa niin yhtenä näkökulmana on livejulkaisu. Tämän PowerShot S110 kameranhan sain vasta eilen käsiini ja sainkin tehtyä pieniä testauksia. Testirupeaman pääosana on kuitenkin Tallinnan reissu, jossa katsotaan miten Tallinnan langattomat verkot toimii. Tämä livejulkaisu testi onkin lähinnä eri tekniikoiden kokeilua sillä mitään tapahtumaa ei sattunut sopivasti kohdalle. Livejulkaisulla tarkoitan tässä tapauksessa sitä,"
-categories: ["Blogi"]
+categories: ["Marko testaa"]
 tags: ["canon", "canon powershot s110", "livebloggaus", "livefeed", "livejulkaisu", "livestream", "powershot", "powershot s110", "s110", "some", "testi"]
 aliases: ["/canon-powershot-s110-ja-livejulkaisu/"]
 ---

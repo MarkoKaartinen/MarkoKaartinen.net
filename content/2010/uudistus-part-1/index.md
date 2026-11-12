@@ -2,7 +2,7 @@
 title: "Uudistus part 1"
 date: 2010-07-24T12:52:00
 description: "Uudistaminen on aloitettu ja layout on työn alla ja sivun rakenne on päätetty. Ja tässä postauksessa tulee paljastuksia teille! Rakenne Sivusto rakennetaan uudestaan TÄYSIN puhtaaseen WordPressiin, eli sivuston postaukset tuodaan puhtaalle pohjalle ja näin saan turhat pluggarit karsittua pois ja WordPressin ominaisuuksia käyttöön. 3.0 myötä tuli multisite mahdollisuus suoraan WordPressiin ilman MU:ta, joten käytän tätä"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["facebook", "sivusto", "twitter", "uudistus"]
 aliases: ["/uudistus-part-1/"]
 ---

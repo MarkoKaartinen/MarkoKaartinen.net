@@ -3,7 +3,7 @@ title: "Uusia Android puhelimia"
 date: 2016-02-24T15:26:00
 lastmod: 2016-02-25T12:31:00
 description: "Tämänkin vuoden MWC toi uusia Android puhelimia ja nämäkös minua alkoi kiinnostamaan. Itsellänihän on tällä hetkellä käytössä iPhone 6."
-categories: ["Android"]
+categories: ["Mobiili"]
 tags: ["android", "g5", "galaxy s7", "galaxy s7 edge", "iphone 6", "kännykkä", "lg", "lg g5", "puhelimet", "puhelin", "samsung", "sony", "sony xperia", "xperia x", "xperia x performance"]
 aliases: ["/uusia-android-puhelimia/"]
 ---

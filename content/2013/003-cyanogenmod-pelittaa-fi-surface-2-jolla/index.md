@@ -3,7 +3,7 @@ title: "003 Cyanogenmod, Pelittää.fi, Surface 2 & Jolla"
 date: 2013-09-27T11:26:00
 lastmod: 2016-01-26T14:01:00
 description: "Kolmas osa MarkoKaartinen.net Podcastistä, alla on tuttuun tapaan muistiinpanoni ja linkit. Cyanogenmod Cyanogenmod on kustomisoitu rom joka perustuu suosittuun Android käyttöjärjestelmään Cyanogenmodissa on otettu pois kaikki valmistajan laittamat rojut ja Cyanogenmod on yleensä tehokkaampi ja nopeampi kuin esim. Samsungin oletuksena tuleva Android jossa on Touchwiz. Cyanogenmod on aika perus Android jota on optimoitu eri laitteille"
-categories: ["Podcast"]
+categories: ["Podcastit ja vlogit"]
 tags: ["android", "cyanogenmod", "jolla", "microsoft", "pelittää", "podcast", "sailfish", "surface", "surface 2"]
 aliases: ["/003-cyanogenmod-pelittaa-fi-surface-2-jolla/"]
 ---

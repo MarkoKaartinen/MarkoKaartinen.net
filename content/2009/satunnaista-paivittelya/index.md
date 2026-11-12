@@ -2,7 +2,7 @@
 title: "Satunnaista päivittelyä"
 date: 2009-08-07T22:54:00
 description: "Tuolla taannoin kiroilin ja kirjoittelin aiheesta ”ADSL-toimittajat: 2 – Marko: 0” ja no enpä sitten muistanut päivitellä siitä asiasta. Joten voin korjata asian nyt! Eli pari viikkoa sitten puheltuani puhelimessa ystäväni Heikin kanssa hän ehdotti, että koitas piruuttani pistää motukka seinään ja kappas kerpelettä sehän toimi! No yhteenvetona lyhyesti, netti tuli toimintaan ILMOITTAMATTA viikkoa etuajassa"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["adsl", "internet", "mokkula", "netti"]
 aliases: ["/satunnaista-paivittelya/"]
 ---

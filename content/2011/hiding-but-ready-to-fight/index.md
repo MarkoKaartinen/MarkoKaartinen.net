@@ -1,7 +1,7 @@
 ---
 title: "Hiding but ready to fight!"
 date: 2011-04-20T11:16:00
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["angry bird", "angry birds", "flickr", "kuva", "valokuvaus"]
 aliases: ["/hiding-but-ready-to-fight/"]
 ---

@@ -3,7 +3,7 @@ title: "Kun asiat menee päin honkia"
 date: 2009-05-15T21:55:00
 lastmod: 2009-05-23T09:37:00
 description: "Tehdääs välistä jotain semmoista mitä en ole tänne blogin puolelle tehnyt pitkän aikaan ja sehän on se, että typottelen juttu näinkin vähän aikaa tapahtuneesta. <avautuminen> Eli aloitetaas tästä nörtimmästä asiasta. Nimittäin oma shelli/web/säätö -palvelin hosti meni Futuronin hoiviin ja ne jotka tietää yhtään tästä alasta niin kiroaa Futuronia NYT. (kiitos) Joten tämä tietää siirtoa Futuronilta"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["avautuminen", "elämä", "kämppä", "marko", "palvelin", "vps"]
 aliases: ["/kun-asiat-menee-pain-honkia/"]
 ---

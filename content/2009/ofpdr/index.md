@@ -3,7 +3,7 @@ title: "Operation Flashpoint: Dragon Rising"
 date: 2009-10-24T16:34:00
 lastmod: 2014-12-10T19:23:00
 description: "Tässä on peli jota olen jonkin aikaa jo odottanut ja nostattanut omaa innostustani katselemalla trailereita ja shotteja. Ok, peli on ollut minulla jo pari viikkoa (kai) ja sitä on tullut pelattua suhteellisen satunnaisesti ja ehkä vähemmän kuin olisin halunnut erilaisten muiden kiireiden takia. Mutta olen kuitenkin jonkinlaisen vaikutelman saanut pelistä ja tähän mennessä olen pitänyt"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["operation flashpoint", "pelaaminen", "pelit"]
 aliases: ["/ofpdr/"]
 ---

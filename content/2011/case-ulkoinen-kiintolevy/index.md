@@ -3,7 +3,7 @@ title: "Case: ulkoinen kiintolevy"
 date: 2011-01-10T16:17:00
 lastmod: 2014-12-10T19:14:00
 description: "Ajattelin jakaa teille tämän pienen hankinnan etenemisen. Aloitetaan ihan siitä, että mitä tilassin. Tilasin Iomegan ulkoisen kiintolevyn jolla kokoa 320 GB ja hinta oli 39 euroa. Ja veinpä viimeisiä kappaleita kun sitä myydään nyt ennakkoon Gigantin sivuilla. Tämän tilaaminen oli oikeastaan 2. yrityksen takana joten käydään molemmat läpi. Yritys 1 Kävin aamulla 10 jälkeen Gigantissa"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["case", "gigantti", "kiintolevy", "siwa", "ulkoinen"]
 aliases: ["/case-ulkoinen-kiintolevy/"]
 ---

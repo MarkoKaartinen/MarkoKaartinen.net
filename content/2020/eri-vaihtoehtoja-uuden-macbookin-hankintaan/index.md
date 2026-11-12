@@ -3,7 +3,7 @@ title: "Eri vaihtoehtoja uuden MacBookin hankintaan"
 date: 2020-01-02T10:59:00
 lastmod: 2021-12-02T08:14:00
 description: "Kirjoittelin aiemmin MacBookkien hinnoista ja tämän artikkelin jälkeen on julkaistu uusi MacBook, joka olisi se MacBook, jonka hankkisin tällä hetkellä. Näin joulun jälkeen onkin hyvä miettiä millä eri keinoilla sen saisi hankittua hyppysiin. Otetaan ensin perusteluja, että miksi. Ensinnäkin näppäimistö on kuulemma tuotu taas hyvälle tasolle ja itsehän pidin vanhojen MacBookkieni näppäimistöistä ja tässä on"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["apple", "kannetta", "mac", "macbook", "macbook pro", "macbook pro 16\"", "tietokone"]
 aliases: ["/eri-vaihtoehtoja-uuden-macbookin-hankintaan/"]
 ---

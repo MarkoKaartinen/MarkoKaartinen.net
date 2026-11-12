@@ -3,7 +3,7 @@ title: "Joulukalenterin luukku 23"
 date: 2015-12-23T00:23:00
 lastmod: 2016-09-26T15:33:00
 description: "Itse kun olen täällä savossa niin sattuipa nokan eteen pari hauskaa savolaista jouluaiheista juttua."
-categories: ["Joulukalenteri 2015"]
+categories: ["Elämä"]
 tags: ["joulu", "joulukalenteri", "joulukalenteri 2015", "luukku", "luukku 23", "savo", "savolaisjutut"]
 aliases: ["/joulukalenterin-luukku-23/"]
 ---

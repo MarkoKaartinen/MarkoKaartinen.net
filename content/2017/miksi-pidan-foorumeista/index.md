@@ -2,7 +2,7 @@
 title: "Miksi pidän foorumeista"
 date: 2017-03-01T15:31:00
 description: "Nykyään on Facebookin ryhmiä ja Slack - ennen oli Messengeriä ja foorumeita. Pidän oikeastaan foorumeista vieläkin ja hieman perustelen tässä, että miksi."
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["bbs", "discourse", "facebook", "foorumi", "keskustelu", "keskustelualue", "ryhmät"]
 aliases: ["/miksi-pidan-foorumeista/"]
 ---

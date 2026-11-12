@@ -2,7 +2,7 @@
 title: "Bloggaajien ja yritysten yhteistyö"
 date: 2012-07-11T21:04:00
 description: "Kirjoitan tämän artikkelin täysin bloggaajan näkökulmasta. Unohtakaa siis se, että olen itse yrittäjä! Törmäsin tänään sattumalta Mainostajien liiton artikkeliin joka on kirjoitettu 20.6.2012, eli suhteellisen tuoretta tietoakin jopa. He tekivät kyselyn jäsenyrityksilleen ja siinä kävi ilmi, että 38 prosenttia vastanneista tekevät yhteistyötä ulkopuolisten bloggaajien kanssa (kuten minun esim.). Noin 45 prosenttia ei ole muodostanut kantaa työntekijöidensä bloggaamiseen omissa ammatillisissa"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["arvostelu", "bloggaaja", "blogi", "mainostus", "markkinointi", "testi", "tuote", "yhteistyö", "yritys"]
 aliases: ["/bloggaajien-ja-yritysten-yhteistyo/"]
 ---

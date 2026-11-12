@@ -3,7 +3,7 @@ title: "Leffailua"
 date: 2012-04-08T10:15:00
 lastmod: 2014-12-10T19:06:00
 description: "Osa varmaan muistaa, että joskus pidin kirjaa katsomistani leffoista täällä sivustolla. Silloin se oli WordPressin päällä ja lisäosan avulla toiminnassa. Nyt kuitenkin olen koodannut täysin oman systeemin joka ei ole riippuvainen WordPressistä mitenkään. Vieraat voivat ehdottaa elokuvia ja kommentoida, kommentoinnin yhteydessä voit antaa oman arviosi elokuvasta. Sovellus näyttää jopa trailerin suoraan Youtubesta ja hakee dataa"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["elokuvat", "koodailua", "leffat", "sivusto"]
 aliases: ["/leffailua/"]
 ---

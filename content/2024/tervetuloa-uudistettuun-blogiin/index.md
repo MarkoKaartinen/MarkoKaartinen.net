@@ -2,7 +2,7 @@
 title: "Tervetuloa uudistettuun blogiin!"
 date: 2024-11-01T11:46:00
 description: "Päätin tehdä MarkoKaartinen.net blogille isoimman uudistuksen pitkään, pitkään aikaan. Se nimittäin koodattiin itse ja sisältö tulee Markdownista ja sqlite tietokannasta."
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["uudistus", "laravel", "php", "blogi"]
 ---
 

@@ -3,7 +3,7 @@ title: "IM+ Pro pikaviestin tarjouksessa"
 date: 2012-12-20T16:11:00
 lastmod: 2013-08-05T18:01:00
 description: "Nyt kannattaa hankkia IM+ Pro pikaviestin, se on nimittäin vain 89 senttiä! Tähän saat monta eri chattiaccounttia laitettua kuten esim. Skypen, MSN:n, AIMin sekä monet muut. Itselläni on tämä ollut asennettuna jo kauan ja olen käyttänyt sitä satunnaisesti ja vähemmän satunnaisesti. IM+ Pron toiminta on simppeliä. Lisäät haluamasi tilin ja laitat sitä kautta sitten viestiä."
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["appsit", "chat", "im+ pro", "iphone", "msn", "pikaviestin", "skype", "sovellukset"]
 aliases: ["/im-pro-pikaviestin-tarjouksessa/"]
 ---

@@ -2,7 +2,7 @@
 title: "Nintendo Wii U"
 date: 2015-11-20T13:09:00
 description: "Nintendo Wii U julkaistiin jo vuonna 2012, mutta itse sain hankittua sen vasta nyt. Kerronkin hieman miksi se tuli hankittua juuri nyt."
-categories: ["Pelit"]
+categories: ["Marko testaa"]
 tags: ["arvostelu", "mielipide", "nintendo", "nintendo wii u", "pelaaminen", "pelikonsoli", "pelit", "wii u"]
 aliases: ["/nintendo-wii-u/"]
 ---

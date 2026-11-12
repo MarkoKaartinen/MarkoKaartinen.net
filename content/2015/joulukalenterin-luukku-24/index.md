@@ -3,7 +3,7 @@ title: "Joulukalenterin luukku 24"
 date: 2015-12-24T00:24:00
 lastmod: 2015-12-07T18:31:00
 description: "Hyvää joulua kaikille MarkoKaartinen.net sivuston kävijöille sekä blogin lukijoille! Toivottavasti teidän joulunne on mahtava! Viimeiseen luukkuun olenkin kasannut Youtubesta kaikkein katsotuimpia videoita jouluun liittyen!"
-categories: ["Joulukalenteri 2015"]
+categories: ["Elämä"]
 tags: ["hyvää joulua", "joulu", "jouluaatto", "joulukalenteri", "joulukalenteri 2015", "luukku", "luukku 24", "video", "videot"]
 aliases: ["/joulukalenterin-luukku-24/"]
 ---

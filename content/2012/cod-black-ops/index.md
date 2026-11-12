@@ -3,7 +3,7 @@ title: "CoD Black Ops"
 date: 2012-03-25T15:40:00
 lastmod: 2014-12-10T19:06:00
 description: "Tämä pelihän tuli jo vuonna 2010 ja kirjoitin siitä pienen artikkelin jo silloin. Sen jälkeen on tullut CoD MW3 mutta se ei iskenyt niin kovasti kuin BO. MW3 tuppaa olemaan aina xiittereitä täynnä kun menen pelaamaan sitä. Sen takia se ei viime aikoina ole iskenyt ollenkaan. Tänään kuitenkin asentelin pitkästä aikaa Black Opsin ja helkutti"
-categories: ["Blogi"]
+categories: ["Pelit"]
 tags: ["black ops", "call of duty", "cod", "cod black ops", "pelaaminen", "pelit"]
 aliases: ["/cod-black-ops/"]
 ---

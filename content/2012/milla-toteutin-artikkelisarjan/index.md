@@ -3,7 +3,7 @@ title: "Millä toteutin artikkelisarjan?"
 date: 2012-12-07T20:01:00
 lastmod: 2012-12-07T18:06:00
 description: "Kuten olette huomanneet olen aloittanut salakavalasti uuden artikkelisarjan kirjoittamisen. Kirjoittelen nimittäin sarjaa iPad appseista, tässä artikkelisarjassa otan aina yhden iPad appsin käsittelyyn ja teen siitä joko videoo tai pienen kirjoituksen. Tuo artikkelisarja on toteutettu WordPressin lisäosalla nimeltä Organize Series. Homma toimii simppelisti, asenna plugari, tuunaa hieman ja käytä. Voit itse luoda vapaasti sarjoja sekä määrittää"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["artikkelisarja", "artikkelit", "sarja", "vinkki", "wordpress"]
 aliases: ["/milla-toteutin-artikkelisarjan/"]
 ---

@@ -2,7 +2,7 @@
 title: "Jotain uutta ja jotain vanhaa"
 date: 2026-11-12T06:47:00
 description: "Blogin uudistuksen myötä selailin vanhoja artikkeleita ja päätin tuoda osan jutuista takaisin: perjantaipohdinnan, joulukalenterin ja testailut."
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["blogi", "uudistus", "vanhat jutut", "perjantaipohdinta", "joulukalenteri", "marko testaa", "testaus", "kokeilut", "bloggaaminen", "nostalgia", "arkisto"]
 mastodon_post_id: "117601661376232956"
 ---

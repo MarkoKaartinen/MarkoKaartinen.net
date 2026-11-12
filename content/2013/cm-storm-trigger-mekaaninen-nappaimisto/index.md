@@ -3,7 +3,7 @@ title: "CM Storm Trigger mekaaninen näppäimistö"
 date: 2013-11-13T17:40:00
 lastmod: 2014-12-10T18:37:00
 description: "Digiexpoilla käydessäni löysin itselleni hieman tuliaisia ja samanlainen tuliainen lähti mukaan myös veljelleni. Kyseessä on CM Storm Trigger mekaaninen näppäimistö. Olenkin halunnut mekaanista näppäimistöä ja kauan ja nyt kun tämän sai hyvällä hintaa Jimm’sin Digiexpo tarjouksena niin pitihän se kopata. Mekaanisissa näppäimistöissähän on omat kytkimet joka näppäimen alla. Tässä mallissa on Cherry MX Black-kytkimet, jotka"
-categories: ["Blogi"]
+categories: ["Marko testaa"]
 tags: ["arvostelu", "cm storm", "mekaaninen", "näppäimistö", "näppis", "trigger"]
 aliases: ["/cm-storm-trigger-mekaaninen-nappaimisto/"]
 ---

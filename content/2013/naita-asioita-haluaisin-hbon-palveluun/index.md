@@ -3,7 +3,7 @@ title: "Näitä asioita haluaisin HBO:n palveluun"
 date: 2013-01-11T09:07:00
 lastmod: 2014-12-10T18:59:00
 description: "Olen käytellyt tässä jonkin aikaa HBO:n palvelua jossa voin katsella tietokoneella ja iPadillä sarjoja ja elokuvia. Olen kuitenkin harmissani sillä palveluun tahtoisin muutaman parannuksen. En nykyisellään ajatellut uusia tätä kokeilujakson jälkeen. Muistaisi mihin jäin Tällä tarkoitan sitä, että palvelu näyttäisi minulle heti etusivulla seuraamani sarjan seuraavan jakson. Jos katsoin esim. Game of Thronesin ensimmäisen kauden"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["epäkohdat", "hbo", "hbonordic", "ipad", "mielipide", "ongelmat", "palvelu", "tv-sarjat"]
 aliases: ["/naita-asioita-haluaisin-hbon-palveluun/"]
 ---

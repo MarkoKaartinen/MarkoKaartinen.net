@@ -2,7 +2,7 @@
 title: "Arkihaaste 4/5"
 date: 2014-04-30T07:58:00
 description: "Näin alkaa tämäkin arkihaaste lähentyä loppuaan, kun ollaan numerossa neljä menossa. Aamu alkoi siirtymisellä työpaikalla ja radiossa huusi tuttuun tapaan Radio Suomipop ja Aamulypsy. Samalla tuli ihmeteltyä miksi se Kuopio näitä valoja polttaa enää tähän aikaan aamulla – valoisaa kun on vielä. Kotimatkalla törmäsin sitten korkeaan kuljetukseen, kun siellä hilattiin jotain taloa eteenpäin. Sitten voikin"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["arkihaaste", "elämä", "kissa", "kuva", "kuvat", "kuvia", "marko", "paavo"]
 aliases: ["/arkihaaste-45/"]
 ---

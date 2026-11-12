@@ -2,7 +2,7 @@
 title: "Tapaaminen.net uudistui"
 date: 2017-07-18T18:44:00
 description: "Oma projektini Tapaaminen.net sai uutta väriä pintaan. Uudistuipa se käytännössä kokonaan myös koodiltaankin. Tapaaminen.net on nyt avointa lähdekoodia."
-categories: ["Tapaaminen.net"]
+categories: ["Koodaus"]
 tags: ["koodaus", "laravel", "php", "projekti", "tapaaminen", "tapaaminen.net", "web"]
 aliases: ["/tapaaminen-net-uudistui/"]
 ---

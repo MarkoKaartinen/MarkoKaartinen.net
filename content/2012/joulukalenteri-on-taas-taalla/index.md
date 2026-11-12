@@ -2,7 +2,7 @@
 title: "Joulukalenteri on taas täällä"
 date: 2012-12-01T09:30:00
 description: "Olen nyt jonkun vuoden ajan tehnyt aina joulukalenterin jossa on ollut joko kuvaa tai videoo luukun takana. Tämäkään vuosi ei ole poikkeus tämän asian saralla. Koodailin vielä eilis iltana viimeisiä palikoita tuohon joulukalenteriin. Sisältöä uupuu tosin hieman, mutta se ei haittaa menoa! Tänä vuonna joulukalenterissa on mahdollista osallistua pelipaketin arvontaan! Pelipaketti sisältää seitsemän kappaletta pelejä"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["arvonta", "joulu", "joulukalenteri", "kalenteri", "luukut", "perinne"]
 aliases: ["/joulukalenteri-on-taas-taalla/"]
 ---

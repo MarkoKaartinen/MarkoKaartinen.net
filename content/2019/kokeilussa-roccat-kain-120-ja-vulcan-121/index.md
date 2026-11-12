@@ -2,7 +2,7 @@
 title: "Kokeilussa ROCCAT Kain 120 ja Vulcan 121"
 date: 2019-11-15T10:25:00
 description: "Tällä kertaa kokeiluun tuotiin näppäimistö sekä hiiri! Eli nyt päästään testaamaan mitenkä homma toimii näiden kanssa! Sopivasti tulikin vielä The Outer Worlds ulos, joten uudet työkalut pääsi heti testiin. Ennestään tuttu ROCCAT Swarm taas koneeseen sisään ja katsomaan mitä kaikkea pystyykään säätämään. Oikeastaan taas kaikkea peruskauraa voi säätää molemmissa ja hiiressä DPI ensin kuntoon ja"
-categories: ["Kokeilussa"]
+categories: ["Marko testaa"]
 tags: ["hiiri", "kain 120", "kokeilussa", "näppäimistö", "pelihiiri", "roccat", "vulcan 121"]
 aliases: ["/kokeilussa-roccat-kain-120-ja-vulcan-121/"]
 ---

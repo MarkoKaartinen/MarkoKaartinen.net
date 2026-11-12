@@ -3,7 +3,7 @@ title: "Arkihaaste 3/5"
 date: 2014-04-29T12:06:00
 lastmod: 2014-04-30T07:43:00
 description: "Sunnuntain jälkeen tulee luonnollisesti maanantai ja tällä kertaa postaus tuleekin tiistaina - sekavaa eikö! Jatketaan siis arkihaaste -kuvia!"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["arkihaaste", "elämä", "grilli", "kissa", "kuva", "kuvat", "kuvia", "marko", "paavo"]
 aliases: ["/arkihaaste-35/"]
 ---

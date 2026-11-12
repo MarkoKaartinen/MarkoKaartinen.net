@@ -2,7 +2,7 @@
 title: "Kesä ja kärpäset"
 date: 2010-05-22T12:45:00
 description: "Ensinnäkin pakolliset selitykset siihen miksi on ollut hiljaista pari viikkoa. Viikon kuva on nyt jäänyt viime viikolta väliin ja jää tältäkin viikolta, sillä en ole pariin viikkoon saanut kuvattua mitään uutta. Tosin torstaina oli mahdollisuus, mutta typeryyttäni en ottanut kameraa matkaan. Toisena syynä on se, että olen rakentamassa hieman kesäisempää ulkoasua tänne ja sivusto kokee"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["muutoksia", "sivusto", "uudistus"]
 aliases: ["/kesa-ja-karpaset/"]
 ---

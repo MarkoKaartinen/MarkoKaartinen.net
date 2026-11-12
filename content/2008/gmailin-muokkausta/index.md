@@ -3,7 +3,7 @@ title: "Gmailin muokkausta"
 date: 2008-05-19T17:47:00
 lastmod: 2014-12-10T19:29:00
 description: "Törmäsin erittäin mielenkiintoiseen artikkeliin Geek.comin kautta. Artikkelissa puhutaan siitä, että Gmailiin olisi teemoja tulossa pian. Tietty tämäkin on jo mahdollista erään Firefox pluggarin avulla. Alkuperäinen ohje löytyy UserStylesistä, mutta teille minä suomennan sen ja itse sain toimimaan kyseisen toiminnon vallan mainiosti. Itse ohje: Asenna Stylish lisäosa (https://addons.mozilla.org/fi/firefox/addon/2108) Tämän jälkeen mene toiseen näistä osotteista: http://www.naverniouk.com/design/gmail/gmail.css http://www.s-c-u-m.com/globex/gmail.css"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["firefox", "gmail", "lisäosa", "stylish", "teema"]
 aliases: ["/gmailin-muokkausta/"]
 ---

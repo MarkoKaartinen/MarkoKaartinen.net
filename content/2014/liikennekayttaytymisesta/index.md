@@ -3,7 +3,7 @@ title: "Liikennekäyttäytymisestä"
 date: 2014-05-11T16:31:00
 lastmod: 2014-05-01T17:51:00
 description: "Kaikki ovat varmaan miettineet liikenteessä, että ”Mitähän tämäkin meinaa” – minä ainakin olen ja useamman kerran viikossa tulee nähtyä Kuopion liikenteessä näitä ”mallisuorituksia”. En väitä, että itse olisin täydellinen kuski ja varmasti teen mokia silloin tällöin. Perinteisesti Googlasin sanan ”liikennekäyttäytyminen” ja löysinkin mielenkiintoista materiaalia. Esimerkiksi EU:n (linkki) sivuilla on tietoutta aiheesta. Alla oleva lainaus onkin"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["autoilu", "autot", "liikenne", "liikennekäyttäytyminen"]
 aliases: ["/liikennekayttaytymisesta/"]
 ---

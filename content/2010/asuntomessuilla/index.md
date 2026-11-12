@@ -3,7 +3,7 @@ title: "Asuntomessuilla"
 date: 2010-08-11T10:15:00
 lastmod: 2014-12-10T19:21:00
 description: "Kävin viime perjantaina viettämässä jokusen tunnin Kuopion asuntomessuilla. Harvemmin tulee tilaisuus lähteä töllistelemään taloja tämänkaltaiseen tapahtumaan. Oli muuten ensimmäinen kerta asuntomessuilla! Onhan se mielenkiintoista käväistä talossa, jonka hintalapussa komeili 850 000 euroa. Voin kyllä sanoa, että oli komia ja vieläpä hyvällä paikalla! Aloinkin siellä pohtimaan, että kuka asuntomessuilta loppuunsa talon haluaa? Sillä nyt nähtyäni sen"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["asuntomessut", "elämä", "kuopio", "marko"]
 aliases: ["/asuntomessuilla/"]
 ---

@@ -3,7 +3,7 @@ title: "Ubuntu ja Eee ne yhteen soppii"
 date: 2009-01-31T02:58:00
 lastmod: 2012-07-16T12:58:00
 description: "Kyseistä kirjoitusta tullaan todennäköisesti muokkaamaan aamulla lisää! Syynä on myöhäinen ajankohta ja mahdolliset ajatushäröt. Uskokaa tai älkää, mutta kyllästyin Windosiin omassa Eeessäni. Osittain syynä oli UbuntuDeveloperWeek ja osittain syynä oli vain se, että tahdoin vaihtelua Windows täyteiseen maailmaani. Tietty minulla palvelimilla hyrräilee Linuxi, mutta pöytäkoneessa on Vista ja Eeessäkin oli Windowx XP, mutta nyt Eeessä"
-categories: ["Blogi", "Marko testaa"]
+categories: ["Marko testaa"]
 tags: ["eee pc 901", "linux", "sekalaista", "ubuntu"]
 aliases: ["/ubuntu-ja-eee-ne-yhteen-soppii/"]
 ---

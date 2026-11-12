@@ -2,7 +2,7 @@
 title: "Motorola Moto X Play ensikokemuksia"
 date: 2016-03-24T14:32:00
 description: "iPhone 6 lähti kiertoon ja tilalle tuli Moto X Play puhelin. Kerronkin tässä hieman ensikokemuksia päivän käytön jälkeen ja kaipailen vinkkejä Androidiin."
-categories: ["Android", "Motorola"]
+categories: ["Mobiili"]
 tags: ["android", "cyanogenmod", "kännykkä", "matkapuhelin", "moto x play", "motorola", "puhelin.phablet", "root", "säätäminen"]
 aliases: ["/motorola-moto-x-play-ensikokemuksia/"]
 ---

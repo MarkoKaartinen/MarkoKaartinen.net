@@ -3,7 +3,7 @@ title: "Vinkkejä verkkokaupasta ostamiseen"
 date: 2013-10-14T21:11:00
 lastmod: 2014-12-10T18:39:00
 description: "Olen viime aikoina jaellut vinkkejä erinäköisistä asioista ja nyt otankin verkkokaupat haaviini. Mitään yksittäistä verkkokauppaa en ala mainostamaan, mutta jokunen linkki saataa vilahdella – tämä on tarkoitettu hieman yleisemmälle tasolle. Ensinnäkin jos et ole hirveästi ostellut verkkokaupoista tavaraa ja muutenkin englanninkielitaito on ruosteessa niin suosittelisin suosimaan suomalaista. Suomesta löytyy hirvittävä määrä erilaisia verkkokauppoja ja niitä"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["ostokset", "verkko", "verkkokauppa", "vinkit", "vinkkejä", "vinkki"]
 aliases: ["/vinkkeja-verkkokaupasta-ostamiseen/"]
 ---

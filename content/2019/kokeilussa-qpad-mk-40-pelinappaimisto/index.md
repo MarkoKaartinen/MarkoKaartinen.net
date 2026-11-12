@@ -2,7 +2,7 @@
 title: "Kokeilussa QPAD MK-40 pelinäppäimistö"
 date: 2019-12-16T14:34:00
 description: "Tällä kertaa kokeiluun saapui QPADiltä pelinäppäimistö. Tämä on hinnaston suht edukkaasta päästä sillä hintaa tulee noin 50 euroa tällä näppäimistölle. Itse näppäimistö tuntuu jykevältä ja erityisesti annan plussaa ruuvein kiinnitettävästä rannetuesta. Samalla annan miinusta liien lyhyestä rannetuesta omaan makuun sillä voisi olla hieman pidempi. Rannetukea ei ole toki pakko laittaa ollenkaan kiinni. Tietenkin tässä näppäimistössä"
-categories: ["Kokeilussa"]
+categories: ["Marko testaa"]
 tags: ["kokeilussa", "näppäimistö", "pelaaminen", "pelinäppäimistö", "qpad", "qpad mk-40"]
 aliases: ["/kokeilussa-qpad-mk-40-pelinappaimisto/"]
 ---

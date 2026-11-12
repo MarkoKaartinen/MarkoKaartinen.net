@@ -3,7 +3,7 @@ title: "Arvostelussa WP Review Pro"
 date: 2015-12-15T17:55:00
 lastmod: 2015-12-15T17:42:00
 description: "Tuli hankittua WP Review Pro niminen lisäosa ja arvostelenkin sen tässä kirjoituksessa."
-categories: ["WordPress"]
+categories: ["Marko testaa"]
 tags: ["arvostelu", "arvostelu. wp review", "lisäosa", "plugin", "wordpress", "wp review pro"]
 aliases: ["/arvostelussa-wp-review-pro/"]
 ---

@@ -3,7 +3,7 @@ title: "Crowdfunding"
 date: 2011-04-02T14:28:00
 lastmod: 2011-04-02T14:33:00
 description: "Sanooko termi kenellekkään yhtään mitään? Ei ainakaan itselleni sanonut paljoa, ennen kuin O-P blogissaan kirjoitti asiasta. SoMe yllätti taas, onko mahdollista kerätä sosiaalisen median avulla rahaa käyttäjiltä johonkin projektiin? Ilmeisesti kyllä! Päätin alkaa tutkimaan asiaa ja ennen kaikkea testaamaan. Tosin ensin voisi selittää mitä crowdfunding tarkoittaa. Crowdfundingilla tarkoitetaan sitä, että kerätään käyttäjiltä mikrolahjoituksia ja tätä"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["crowdfunding", "flattr", "lahjoittaminen", "mikrolahjoitus", "pottu", "some", "sosiaalinen media", "vps"]
 aliases: ["/crowdfunding/"]
 ---

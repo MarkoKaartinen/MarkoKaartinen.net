@@ -3,7 +3,7 @@ title: "MacBook mielessä, mutta se hinta..."
 date: 2019-10-15T08:53:00
 lastmod: 2021-03-10T13:28:00
 description: "Viime vuonna kauan palvellut MacBook Pro hörppäsi omenamehua ja erinäisten vaiheiden kautta päätyi vakuutusyhtiön avustuksella huoltoon ja sille tielle se sitten jäi sillä sitä ei kannattanut enää korjata. Tuli siis aika hankkia uusi kone työkäyttöön. Tässä en pitänyt kiirettä ja lopulta sopiva löytyi. Nyt on reilu vuosi mentykin Windows koneen kanssa ja aina silloin tällöin"
-categories: ["Apple", "Blogi"]
+categories: ["Tietokoneet"]
 tags: ["apple", "kannettava", "macbook", "macbook air", "macbook pro", "tietokone"]
 aliases: ["/macbook-mielessa-mutta-se-hinta/"]
 ---

@@ -2,7 +2,7 @@
 title: "Kuulumisia vol xyz"
 date: 2008-11-10T15:23:00
 description: "Siitä on melkein kuukausi kun olen tänne kirjoitellut, en tiedä miksi näin pitkä väli. On pitänyt kirjoittaa monista asioista, mutta yllättäen on jäänyt. Tässä postauksessa olisi tarkoitus hieman valottaa mitä tässä on nyt tapahtunut ja no blogata jotain mielenkiintoista ja vähemmän mielenkiintoista. Sivusto Sivustolla nyt ei ole tapahtunut paljoa, etusivua hieman muokattu sekä päivitetty WordPressin"
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["eee pc 901", "finice", "kuulumiset", "lacie", "ubuntu"]
 aliases: ["/kuulumisia-vol-xyz/"]
 ---

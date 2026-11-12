@@ -3,7 +3,7 @@ title: "Lisää ilmaisia teemoja WordPressiin"
 date: 2016-02-09T14:43:00
 lastmod: 2016-02-09T14:33:00
 description: "Tähän artikkeliin olen listannut ilmaisia teemoja WordPressiin. Kaikki teemat mihin olen linkannut ovat siis täysin ilmaisia versioita."
-categories: ["WordPress"]
+categories: ["Koodaus"]
 tags: ["ilmainen", "ilmaisia", "linkkejä", "teema", "teemat", "teemoja", "vinkit", "wordpress", "wp"]
 aliases: ["/lisaa-ilmaisia-teemoja-wordpressiin/"]
 ---

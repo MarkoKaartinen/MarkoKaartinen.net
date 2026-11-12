@@ -3,7 +3,7 @@ title: "Elämää kissan kanssa"
 date: 2014-03-29T19:21:00
 lastmod: 2014-12-10T18:29:00
 description: "Paavo on ensimmäinen lemmikkini ja tässä kirjoituksessa katsastankin omaa elämää kissan kanssa."
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["elämä", "elämää", "kissa", "kissat", "paavo"]
 aliases: ["/elamaa-kissan-kanssa/"]
 ---

@@ -2,7 +2,7 @@
 title: "Kokeilussa Speedlink QUINOX Pro peliohjain"
 date: 2017-03-06T08:26:00
 description: "Tällä kertaa sain kokeiltavaksi Speedlink QUINOX Pro peliohjaimen. Ohjain on langallinen ja kytkeytyy tietokoneen USB-porttiin."
-categories: ["Kokeilussa"]
+categories: ["Marko testaa"]
 tags: ["arvostelu", "gamepad", "kokeilu", "kokeilussa", "pelaaminen", "peliohjain", "pelit", "speedlink", "speedlink quinox pro", "testi"]
 aliases: ["/kokeilussa-speedlink-quinox-pro-peliohjain/"]
 ---

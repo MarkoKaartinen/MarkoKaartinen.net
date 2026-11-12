@@ -2,7 +2,7 @@
 title: "'9gag:"
 date: 2010-08-10T16:31:00
 description: "9gag: Javascript the Good Parts"
-categories: ["Tumblr"]
+categories: ["Huumori"]
 tags: ["tumblr"]
 aliases: ["/9gagjavascript-the-good-parts/"]
 ---

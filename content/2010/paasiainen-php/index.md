@@ -3,7 +3,7 @@ title: "Pääsiäinen + PHP"
 date: 2010-09-23T11:54:00
 lastmod: 2015-01-04T16:15:00
 description: "Tuli eteen työn merkeissä selvittää pääsiäinen. Noh laiskahan olisi tehnyt huonon ohjelmointitavan mukaisesti taulukon, jossa olisi ollut vaikka kymmeneksi vuodeksi eteenpäin pääsiäiset. Itse päädyin tutkimaan miten sen voi määrittää ja miten se määräytyy. Löysinkin artikkelin Wikipediasta, jossa oli ohje pääsiäisen laskemiseen. Ajattelin helpottaa muita vastaavassa tilanteessa olevia ja julkaista pienen PHP pätkän, joka laskee pääsiäisen."
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["koodaus", "koodi", "pääsiäinen", "php"]
 aliases: ["/paasiainen-php/"]
 ---

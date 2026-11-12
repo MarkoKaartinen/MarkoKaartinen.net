@@ -2,7 +2,7 @@
 title: "Talveton perjantai"
 date: 2011-12-03T09:57:00
 description: "Eihän se talvi sieltä tule, sinällään ei haittaa yhtään, koska tämmönen keli on ihan jees – ei tartte autoa puhdistella lumesta, ei tartte olla kylmissään, ei lumitöitä ja ei tartte miettiä missä vaiheessa liukastut. Tietysti olisi kiva jos näyttäisi talviselle ja näin, mutta eiköhän se tule kanssa ajankohtaiseksi vielä jossain vaiheessa."
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["arduino", "elämä", "joulu", "joulukalenteri", "joulukuu", "marko", "perjantaipohdinta"]
 aliases: ["/talveton-perjantai/"]
 ---

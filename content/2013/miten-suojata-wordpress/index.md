@@ -2,7 +2,7 @@
 title: "Miten suojata WordPress?"
 date: 2013-04-16T09:33:00
 description: "Viime aikoina on ollut suhteellisen iso hyökkäys WordPress saitteja vastaan ja tämä artikkeli piti kirjoitella jo aiemmin, mutta hieman venähti. Listaankin alle pienen tehtävälistan tapaisen jota seuraamalla saat WordPressin suojattua hiukan paremmin. Vaihda WordPressin salasana sekä varmuudeksi verkkosivujen hallinnan salasanat, käytä vahvaa salasanaa! (cPanel, Plesk) Mikäli käytät admin tunnusta kirjautumiseen niin vaihda se. Tämän saat"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["cms", "hyökkäys", "miten", "ohje", "suojaus", "turvallisuus", "verkko", "vinkkejä", "wordpress"]
 aliases: ["/miten-suojata-wordpress/"]
 ---

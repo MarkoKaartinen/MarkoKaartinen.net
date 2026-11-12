@@ -2,7 +2,7 @@
 title: "Marko pelailee: Turmoil"
 date: 2015-12-31T17:39:00
 description: "Marko pelailee sarja saakin ensimmäisen jaksonsa. Pelaan nimittäin Turmoil nimistä peliä."
-categories: ["Marko pelailee"]
+categories: ["Pelit"]
 tags: ["marko pelailee", "pelaaminen", "pelit", "steam", "turmoi", "youtube"]
 aliases: ["/marko-pelailee-turmoil/"]
 ---

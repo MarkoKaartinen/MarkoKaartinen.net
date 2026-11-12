@@ -3,7 +3,7 @@ title: "Vaihteeksi musiikista"
 date: 2010-11-03T16:22:00
 lastmod: 2013-08-05T15:18:00
 description: "Olenkohan kirjoitellut musiikista tänne? Ehkä jos lasketaan vanhat Soundtrack of my life postaukset, niin olen kirjoittanut musiikista jotain tännekkin. Osittain idea lähti Rollelta ja siitä että tuo samainen WP-Spotify lisäosa kiinnosti minuakin. Tosin halusin paljastaa taas yhtä osaa itsestäni. Käydäänpäs itseasiaan. Teeman vaihtumisen myötä olette nähneet linkin Last.fm profiiliini, joten uteliaimmat ovat varmasti jo sieltä"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["last.fm", "musiikki", "spotify"]
 aliases: ["/vaihteeksi-musiikista/"]
 ---

@@ -2,7 +2,7 @@
 title: "100 viesti blogiin"
 date: 2009-08-09T13:45:00
 description: "Jep tämä on 100. viesti tänne blogiin. Tai no näin ainakin armas WordPress kertoo. Joten päätin tämän kunniaksi hieman pohtia omaa sivustoani ja sen syntyä ja sen vaiheita ja jotain tämänkaltaista. Ensinnäkin, tiedän sen, että en ole loppuunsa kovin hyvä kirjoittaja. Mutta silti on tullut kirjoiteltua 100 kirjoitusta tänne. Toiset lyhyitä ja toiset vähän pitempiä"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["100", "blogi", "markokaartinen", "menneisyys", "sivusto", "tulevaisuus"]
 aliases: ["/100-viesti-blogiin/"]
 ---

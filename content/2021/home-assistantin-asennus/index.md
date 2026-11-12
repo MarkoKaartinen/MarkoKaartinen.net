@@ -2,7 +2,7 @@
 title: "Home Assistantin asennus"
 date: 2021-12-09T11:40:00
 description: "Asennellaan Home Assistant Raspberry Pi 4 SSD:lle ja tutkitaan hieman millainen systeemi on oikein kyseessä."
-categories: ["Älykoti"]
+categories: ["Kotilabra"]
 tags: ["äly", "älykoti", "home assistant", "smart home"]
 series: ["Älykoti"]
 aliases: ["/home-assistantin-asennus/"]

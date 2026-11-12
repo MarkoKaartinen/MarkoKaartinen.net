@@ -2,7 +2,7 @@
 title: "Kuulumisia (vaihteeksi)"
 date: 2010-11-19T00:45:00
 description: "Ajattelin tehdä lyhyen postauksen kuulumisistani ja osittain kertoa niitä kuuluisia koottuja selityksiä miksi Projekti 365 on ollut pari päivä hiljainen (melkein viikon). Viime viikonloppuna olin Maaningalla vanhempieni luona viettämässä isänpäivä viikonloppua – sekä tietty saunomassa ehkä maailman parhaassa saunassa! Sunnuntailta on kuvaa ja ne tulen julkaisemaan sille päivälle, mutta sitten se tämä viikko… Tuota noin,"
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["cod", "cod black ops", "elämä", "kuulumiset", "marko", "projekti 365"]
 aliases: ["/kuulumisia-vaihteeksi/"]
 ---

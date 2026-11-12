@@ -2,7 +2,7 @@
 title: "Mastodon palvelimen viestin merkkimäärän nostaminen"
 date: 2026-02-16T14:00:00
 description: "Tämä on enemmän itselle muistiin ja muille ehkä avuksi. Nimittäin miten saat nostettua Mastodon palvelimen viestin merkkimäärää. Bonuksena kyselyn vaihtoehtojen määrän nosto myös."
-categories: ["Mastodon"]
+categories: ["Kotilabra"]
 tags: ["mastodon", "merkkimäärä", "vinkki", "muistiin", "palvelin"]
 mastodon_post_id: "116080214353122454"
 ---

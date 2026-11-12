@@ -2,7 +2,7 @@
 title: "'9gag:"
 date: 2010-06-16T10:40:00
 description: "9gag: My Facebook Stats"
-categories: ["Tumblr"]
+categories: ["Huumori"]
 tags: ["tumblr"]
 aliases: ["/9gagmy-facebook-stats/"]
 ---

@@ -3,7 +3,7 @@ title: "Twitter vs Facebook"
 date: 2009-06-08T14:23:00
 lastmod: 2014-12-10T19:25:00
 description: "Uskon, että lähes jokainen on kuullut näistä kahdesta palvelusta joita aion nyt vertailla jollain tapaa tässä kirjoituksessa. Nimittäin Twitter ja Facebook ovat molemmat suhteellisen tunnettuja ja suosittuja palveluista ja yllättäen itsekin olen molemmissa. Voisin aloittaa ensinnäkin kertomalla mitä ko. palvelut on sillä kummatkinhan on sosiaaliseen mediaan liittyviä palveluita. Ja samalla taitaa tulla pientä kommenttia ko."
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["faceboo", "ping.fm", "twitter"]
 aliases: ["/twitter-vs-facebook/"]
 ---

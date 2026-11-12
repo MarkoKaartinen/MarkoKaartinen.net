@@ -2,7 +2,7 @@
 title: "Foursquare"
 date: 2011-01-26T19:06:00
 description: "Jatketaan näiden SoMe appseista kirjottelua. Nyt on vuorossa Foursqure – sovellus joka paikallistaa sinut :D No tämä näin erittäin yksinkertaisesti. Sovelluksessa on tarkoitus ”kirjautua” sisään eri paikoissa. Otetaan esimerkki: Menen prismaan -> avaan iPhonellani Foursquaren -> ”kirjaudun” (check-in) Prismaan ja valitsen haluanko jakaa sijaintini muiden Foursquaren käyttäjien kanssa ja haluanko jakaa sijaintia vielä Twitteriin tai"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["foursquare", "some"]
 aliases: ["/foursquare/"]
 ---

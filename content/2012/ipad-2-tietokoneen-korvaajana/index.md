@@ -3,7 +3,7 @@ title: "iPad 2 - tietokoneen korvaajana?"
 date: 2012-01-05T18:10:00
 lastmod: 2014-12-10T19:09:00
 description: "Applen iPad 2 on tosiaan loistovekotin. Tämä on ainakin oma mielipiteeni ollut siitä lähtien, kun olen hankkinut tämän. Tässä artikkelissa pohdiskelen voisiko iPad 2 korvata läppärini päivittäisessä käytössäni. En tule käsittelemään työkäyttöäni tässä jutussa vaan se tulee sitten myöhemmin. Olen kirjoitellut aiemminkin iPad 2:sta ja pohdiskellut parasta tablettiakin, mutta tämänkaltainen kirjoitus voi herättää hieman keskusteluakin"
-categories: ["Apple", "Blogi"]
+categories: ["Mobiili"]
 tags: ["apple", "ipad", "ipad 2", "tablet", "tietokone"]
 aliases: ["/ipad-2-tietokoneen-korvaajana/"]
 ---

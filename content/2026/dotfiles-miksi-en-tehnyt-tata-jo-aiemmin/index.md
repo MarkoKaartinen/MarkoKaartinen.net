@@ -2,7 +2,7 @@
 title: "dotfiles - miksi en tehnyt tätä jo aiemmin?"
 date: 2026-10-19T13:03:00
 description: "Tämä menee tosiaan sarjaan miksi ei tullut tehtyä jo aiemmin tätä urakkaa. Nimittäin ottaa ylös omia dotfiles määreitä ja pistää ne gittiin, josta ne saa helposti omille koneille."
-categories: ["Devaus"]
+categories: ["Koodaus"]
 tags: ["dotfiles", "github", "git", "macos", "linux", "asetukset", "konffaus", "windows", "devaus"]
 mastodon_post_id: "117467028340039955"
 ---

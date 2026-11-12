@@ -2,7 +2,7 @@
 title: "Pieni joulukisa"
 date: 2009-12-23T14:29:00
 description: "Heipä hei! Ajattelin tässä antaa teille joululahjaksi kisan ja tehtävä on yksinkertainen. Kommentoi tähän postiin jotain, siis ihan mitä vaan järkevää. Ja laitathan oikean sähköpostiosoitteesi, jotta palkinto tulee perille. Sitä ei julkisteta kenellekkään vain nimimerkkisi kerrotaan. Kommenttisi voi olla joulun / uuden vuoden -toivotus, kommentti layoutista tai vain muuta juttelua. Osallistut vain kerran, mutta saa"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["joulu", "kilpailu", "kisa", "sivusto"]
 aliases: ["/pieni-joulukisa/"]
 ---

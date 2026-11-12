@@ -3,7 +3,7 @@ title: "Tallinnan ravintoloita"
 date: 2015-03-18T17:15:00
 lastmod: 2016-09-26T15:41:00
 description: "Nyt otetaan katsaukseen Tallinnan ravintoloita, joissa on joko käyty tai tullaan käymään seuraavalla Tallinnan reissulla."
-categories: ["Matkailu"]
+categories: ["Matkat"]
 tags: ["ancho", "f-hoone", "honky tonk", "olde hansa", "ravintolat", "ruoka", "tallinna", "vapiano"]
 aliases: ["/tallinnan-ravintoloita/"]
 ---

@@ -2,7 +2,7 @@
 title: "Miten parantaisit sivustoani?"
 date: 2012-07-25T18:13:00
 description: "Yksinkertainen kysymys, mutta vaikea vastata. Miten parantaisit ehkä täysin tuntemattoman ihmisen kotisivuja. Miten parantaisit minun kotisivujani jos saisit tehdä aivan mitä haluat? Kysyn tällä kertaa tätä teiltä ja täysin avoimesti! Uudistin juuri ulkoasun, joten sitä en lähde ainakaan ihan heti uusimaan. Muihin ominaisuuksiin teillä olisi kuitenkin mahdollisuus vaikuttaa! Sisältöönkin voitte vaikuttaa ehdottamalla aiheita ja kertomalla"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["blogi", "kysely", "markokaartinen.net", "sivusto"]
 aliases: ["/miten-parantaisit-sivustoani/"]
 ---

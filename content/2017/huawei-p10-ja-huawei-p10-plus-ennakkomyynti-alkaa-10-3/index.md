@@ -3,7 +3,7 @@ title: "Huawei P10 ja Huawei P10 Plus, ennakkomyynti alkaa 10.3."
 date: 2017-03-07T11:17:00
 lastmod: 2017-03-07T11:18:00
 description: "Suomi saa Huawei P10 -uutuuspuhelimet myyntiin ensimmäisten markkinoiden joukossa, vain muutama viikko niiden Euroopan lanseerauksesta. Huawei P10 ja Huawei P10 Plus -mallin ennakkoon tilanneet saavat lisäetuna Huawei AM185 -vastamelukuulokkeet. Etu on voimassa 10.-30.3. ja se koskee kaikkia operaattoreita ja Huawein jälleenmyyjiä. Useita mediapalkintoja Barcelonan MWC-messuilla saaneet Huawei P10 ja Huawei P10 Plus puhuttavat kamera- ja"
-categories: ["Lehdistötiedotteet"]
+categories: ["Mobiili"]
 tags: ["ennakkomyynti", "huawei", "huawei p10", "lehdistö", "lehdistötiedote"]
 aliases: ["/huawei-p10-ja-huawei-p10-plus-ennakkomyynti-alkaa-10-3/"]
 ---

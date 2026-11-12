@@ -3,7 +3,7 @@ title: "YouTube vihdoin iPadille"
 date: 2012-12-07T17:14:00
 lastmod: 2013-08-05T18:00:00
 description: "Oli jo aikakin sanon minä, YouTube julkaisi itse tekemänsä appsin iPadille. Aikaisemmin Apple poisti iOS käyttöjärjestelmän mukana tulleen YouTube appsin. iPhonelle tulikin nopeasti YouTuben oma appsi, mutta iPadin käyttäjät jäivät nuolemaan näppejään ja joutuivat käyttämään kolmannen osapuolen sovelluksia. Itsehän olen tapani mukaan hieman myöhässä tämän suhteen sillä sovellus julkaistiin App Storessa jo pari päivää sitten."
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["apple", "apps", "ipad", "iphone", "sovellukset", "videot", "youtube"]
 aliases: ["/youtube-vihdoin-ipadille/"]
 ---

@@ -3,7 +3,7 @@ title: "Mietteitä uudesta WordPressistä"
 date: 2008-12-29T23:29:00
 lastmod: 2014-12-10T19:26:00
 description: "Eli käytössäni on siis WordPress 2.7, joka on tähän asti ollut aivan loistava alusta sivuilleni tai no 2.7 version myötä muuttui hallintapaneelin ulkoasu (mielestäni parempaan suuntaan!) sekä teeman yhteensovittaminen 2.7 versioon oli oma haasteensa. Mutta mihin on tultu? No helkutti komian näköinenhän tämä on! Vaikka itse sen sanonkin. Työstin tätä layouttia ja testailin WP:n 2.7"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["sivusto", "teema", "wordpress"]
 aliases: ["/mietteita-uudesta-wordpressista/"]
 ---

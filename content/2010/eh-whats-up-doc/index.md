@@ -3,7 +3,7 @@ title: "Eh, what's up, doc?"
 date: 2010-10-13T23:04:00
 lastmod: 2014-12-10T19:19:00
 description: "Näin sanoi tietenkin Väiski Vemmelsääri. Jos ette muka tiedä kuka Väiski on niin klikatkaapas tätä linkkiä! Eilen minulle huomautettiin, että blogaan liian harvaan. Noh tottahan se on – en ala väittämään vastaan. Liian harvoin tulee tänne kirjoitettua jotain. Tosin nyt on aikaa vienyt tämän sivuston uusi teema ja sinne sisällön tuottaminen ja sen muokkaaminen. Kyllä,"
-categories: ["Blogi"]
+categories: ["Pelit"]
 tags: ["elämä", "marko", "pelaaminen", "pelit", "väiski"]
 aliases: ["/eh-whats-up-doc/"]
 ---

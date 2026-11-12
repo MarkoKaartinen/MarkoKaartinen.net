@@ -3,7 +3,7 @@ title: "Halloween"
 date: 2010-10-29T14:07:00
 lastmod: 2014-12-10T19:18:00
 description: "Tänä viikonloppuna on varmaan Halloween juhlia siellä sun täällä. Lähinnä jenkeissä on tämä juhla suosittu. Suomeen tämä on tuomalla tuotu ja se tuntuu vaan turhalta krääsän myymiseltä. Itse en näe siinä juhlassa yhtään mitään järkeä täällä pohjolassa. En ole suoraan sanottuna kertaakaan juhlinut Halloweeniä oikeastaan millään tavalla. Koska Wikipedia on mielestäni oiva tiedon lähde niin"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["elämä", "halloween", "juhlat"]
 aliases: ["/halloween/"]
 ---

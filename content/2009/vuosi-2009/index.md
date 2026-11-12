@@ -2,7 +2,7 @@
 title: "Vuosi 2009"
 date: 2009-12-29T11:03:00
 description: "Vuosi 2009 alkaa olla lopuillaan (onneksi!) ja pohdiskelin useaan otteeseen pitäisikö edes kirjoittaa tätä viestiä sillä en koe, että vuodessa 2009 olisi loppujen lopuksi mitään kirjoittamisen arvoisa koontia ollut. Mutta päätinpä vilkaista blogin arkistoa ja katsella mitä olenkaan loppujen lopuksi teille asti kertoillut tästä vuodesta, sillä en nyt kaikkea (en todellakaan) kerro tässä blogissa. Osa"
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["2009", "elämä", "kertaus", "marko"]
 aliases: ["/vuosi-2009/"]
 ---

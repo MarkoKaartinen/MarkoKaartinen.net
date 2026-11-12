@@ -3,7 +3,7 @@ title: "Peliläppäri Ubuntulla"
 date: 2012-11-22T15:35:00
 lastmod: 2014-12-10T19:01:00
 description: "Heräsin ehkä hieman hitaasti tähän, mutta ei ole ensimmäinen kerta. System76 on tuonut markkinoille Ubuntun päällä pyörivän peliläppärin. Ajoitushan on loistava sillä Steam on beta vaiheessa Linux ympäristöllä. Bonobo Extreme mallinen läppäri on aikamoinen tehomylly läppäriksi. Koneessa on kyllä tehoja aika huimasti sillä siitä on mm. i7 prosessori, muistia voi laittaa max. 32 gigaa sekä"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["bonobo extreme", "kannettavat", "läppäri", "linux", "pelit", "tietokoneet", "ubuntu"]
 aliases: ["/pelilappari-ubuntulla/"]
 ---

@@ -3,7 +3,7 @@ title: "Kokeilussa Acer Aspire S 13"
 date: 2016-07-13T18:19:00
 lastmod: 2016-07-13T10:23:00
 description: "Sain toisenkin Acerin koneen kokeiltavaksi ja tämä alkaakin olla sitä kaliiberia, että huolisin tämän jo työkoneeksikin."
-categories: ["Kokeilussa"]
+categories: ["Marko testaa"]
 tags: ["acer", "aspire s 13", "kannetava", "kokeilu", "kokeilussa", "läppäri", "matka", "matkustus", "testi", "tietokone"]
 aliases: ["/kokeilussa-acer-aspire-s-13/"]
 ---

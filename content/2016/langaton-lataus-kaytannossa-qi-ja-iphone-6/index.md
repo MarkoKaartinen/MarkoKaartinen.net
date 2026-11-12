@@ -3,7 +3,7 @@ title: "Langaton lataus käytännössä (Qi ja iPhone 6)"
 date: 2016-01-04T17:05:00
 lastmod: 2016-01-04T17:00:00
 description: "Kirjoittelin syyskuun lopulla perinteisen säläartikkelin, jossa oli mukana puhelimen langaton lataus kohta. Kirjoittelenkin hieman kokemuksiani tästä."
-categories: ["Kokeilussa"]
+categories: ["Marko testaa"]
 tags: ["ikea", "iphone", "iphone 6", "kännykkä", "langaton", "langaton lataus", "lataaminen", "lataus", "puhelin", "qi", "riggad", "vitahult"]
 aliases: ["/langaton-lataus-kaytannossa-qi-ja-iphone-6/"]
 ---

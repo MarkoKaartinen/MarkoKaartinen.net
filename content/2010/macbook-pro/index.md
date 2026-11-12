@@ -3,7 +3,7 @@ title: "MacBook Pro"
 date: 2010-11-05T13:44:00
 lastmod: 2012-07-16T13:15:00
 description: "Olen käyttänyt MacBookkiani nyt viikon verran ja ajattelin jakaa teille hieman mielipiteitätni ja kommettejani tästä vekottimesta. Eli käytössäni on ollut halvin näistä 13 tuumasista MacBook Pro malleista ja lyhyesti sanottuna olen ollut erittäin tyytyväinen tähän koneeseen. Akkukesto Akkukesto oli yksi hankintasyistä ja tällä hetkellä kun sovelluksia on auki useita ja käytän monenlaista sovellusta yhtäaikaa (selainta,"
-categories: ["Apple", "Blogi", "Marko testaa"]
+categories: ["Marko testaa"]
 tags: ["apple", "kannettava", "kokemuksia", "mac", "mac os x", "macbook", "macbook pro", "mbp"]
 aliases: ["/macbook-pro/"]
 ---

@@ -3,7 +3,7 @@ title: "iPhone ja appsit osa 3"
 date: 2011-01-08T20:50:00
 lastmod: 2014-12-10T19:15:00
 description: "On aika kirjoittaa se kolmas osa sarjalle iPhone ja appsit. Kyseessähän on minun kirjoittama pieni postaus iPhonen appseista ja miten ite olen kokenut ne. Luehan myös aiemmat osat: osa 1 ja osa 2. Ja tässäkin osassa on käytetty iPhone 4:sta! Ja alkuun heti pieni huomautus! Neljäs osa tulee jos te haluatte sen! Eli laittakaa kommenttia"
-categories: ["Apple", "Blogi"]
+categories: ["Mobiili"]
 tags: ["appsit", "iphone", "iphone 4", "apple"]
 aliases: ["/iphone-ja-appsit-osa-3/"]
 ---

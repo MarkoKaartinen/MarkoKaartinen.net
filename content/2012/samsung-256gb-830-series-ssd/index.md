@@ -2,7 +2,7 @@
 title: "Samsung 256GB 830 Series SSD"
 date: 2012-10-12T16:55:00
 description: "Kiintolevy kun poksahti omasta MacBook Prostani niin piti hankkia hieman tehokkaampaa rautaa tilalle. Päädyin silloin hankkimaan Samsungin SSD levyn, tarkemmin ottaen 256 gigaisen 830 sarjalaisen. Lopusta löydät pienen videon tästä SSD:stä. Kokoa tällä kiintolevyllä on se 2,5 tuuman verran ja se käy SATA2 ja SATA3 väyliin. Omassa MacBookissani on vain SATA2 väylä, joten ihan kaikkea"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["kiintolevy", "rauta", "samsung", "samsung ssd 830", "ssd"]
 aliases: ["/samsung-256gb-830-series-ssd/"]
 ---

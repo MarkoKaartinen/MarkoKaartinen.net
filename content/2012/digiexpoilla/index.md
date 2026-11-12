@@ -3,7 +3,7 @@ title: "Digiexpoilla"
 date: 2012-11-05T15:54:00
 lastmod: 2014-12-10T19:02:00
 description: "Sain Canonin kautta pari lippua Digiexpoille, jotain päätin veljen kanssa lähteä käväisemään Etelä-Suomessa. Tiesin, että päivästä tulee pitkä sillä junamatka täältä Pasilaan kestää reilu neljä tuntia ja pitäähän sitä aikaa varata expoille sekä syömiseen. Käytimme hyväksi VR:n kamppista, jolla sai ostettua 10 eurolle lauantaille junalippuja, hintaa reissulle ei tullut sii paljoa. Lauantaina porukkaa oli ihan"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["digiexpo", "it", "messut", "tietotekniikka", "vekottimet"]
 aliases: ["/digiexpoilla/"]
 ---

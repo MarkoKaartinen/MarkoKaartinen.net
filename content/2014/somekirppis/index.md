@@ -2,7 +2,7 @@
 title: "#SomeKirppis"
 date: 2014-01-17T15:54:00
 description: "Näin sitä vapaa-aikaa käytetään taas vaihteeksi, uuden projektin nimissä. Uusi projekti löytyy osoitteesta SomeKirppis.net ja tämä syntyi osittain vahingossa sillä lähdin ihmettelemään Twitterin rajapintaa ja tämmöinen sivusto siitä syntyi. Sivuston ideana on kaivella Twitteristä joka viides minuutti twiittejä eri hashtageilla. SomeKirppiksen sivuilla onkin listattu hashtagit mitkä näkyy milläkin sivulla. Tweettien data menee kantaan ja sitä"
-categories: ["Blogi", "Projekti"]
+categories: ["Koodaus"]
 tags: ["ilmoitukset", "kirpputori", "projekti", "some", "somekirppis", "sosiaalinen media", "twitter"]
 aliases: ["/somekirppis/"]
 ---

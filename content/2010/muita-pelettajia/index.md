@@ -3,7 +3,7 @@ title: "Muita PeLEttäjiä"
 date: 2010-11-07T16:45:00
 lastmod: 2014-12-10T19:17:00
 description: "Tämä kirjoitus olisi kyllä pitänyt kirjoittaa jo paljon aikaisemmin. Tajusin tämän kun kirjoitin Seuraamiani blogeja postausta. Parempi myöhään kuin ei milloinkaan! Olen nähnyt muitakin PeLEjä kuin nämä, mutta osa niistä on salaisia ja sisään pääsee vain tunnuksella ja salasanalla, joten niitä ei tässä voida julkaista. Nämä samat blogit mitä tässä esittelen löytyy PeLEn omasta blogistakin"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["blogit", "pele", "ple", "sivustot"]
 aliases: ["/muita-pelettajia/"]
 ---

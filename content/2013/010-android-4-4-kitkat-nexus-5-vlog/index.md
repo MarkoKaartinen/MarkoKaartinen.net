@@ -3,7 +3,7 @@ title: "010 Android 4.4 KitKat, Nexus 5 & Vlog"
 date: 2013-11-01T14:13:00
 lastmod: 2016-01-26T14:04:00
 description: "Tällä kertaa uudessa podcastissa käsitellään Androidin 4.4 KitKattia, Nexus 5 puhelinta sekä sähelletään vlogin kanssa. Mobiili.fi artikkeli KitKatista Googlen oma blogijuttu KitKat showcase Nexus 5 tuotesivu Aloitin taas vlogin pitämisen. Videot tulevat blogiin sekä Youtubeen. KitKatin ominaisuuksia videolla: Nexus 5 puhelimen videoita: http://www.youtube.com/watch?v=hQ0XTJqFLIE"
-categories: ["Podcast"]
+categories: ["Podcastit ja vlogit"]
 tags: ["android", "google", "kitkat", "nexus", "nexus 5", "podcast", "vlog"]
 aliases: ["/010-android-4-4-kitkat-nexus-5-vlog/"]
 ---

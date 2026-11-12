@@ -2,7 +2,7 @@
 title: "Vihdoin ja viimein - OnePlus 3T"
 date: 2017-05-04T10:36:00
 description: "Kyllä, vihdoin ja viimein sain itselleni hankittua OnePlus 3T puhelimen. Pitkään olen OnePlus puhelinta miettinyt itselleni ja nyt sen sitten hankin."
-categories: ["Matkapuhelimet"]
+categories: ["Mobiili"]
 tags: ["kännykkä", "matkapuhelin", "oneplus", "oneplus 3t", "puhelin"]
 aliases: ["/vihdoin-ja-viimein-oneplus-3t/"]
 ---

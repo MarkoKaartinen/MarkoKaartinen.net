@@ -3,7 +3,7 @@ title: "HTC Desire Z"
 date: 2011-07-09T10:58:00
 lastmod: 2014-12-10T19:10:00
 description: "Tuli vihdoin ja viimein päivitettyä työpuhelin Nokia 6760 slide mallista hieman modernimpaan versioon. Ajoi sinällään asiansa ihan hyvin ja pystyi vastaamaan puheluihin ja kirjoittelemaan tekstareita. Tietäen omat tarpeet puhelimelle niin tuo ei tulisi kovin kauaa enää olemaan tehokas väline, niinpä se sai väistyä modernin Androidin tieltä."
-categories: ["Blogi", "Marko testaa"]
+categories: ["Marko testaa"]
 tags: ["älypuhelin", "android", "desire", "htc", "htc desire z", "kännykkä", "matkapuhelin", "mietteitä"]
 aliases: ["/htc-desire-z/"]
 ---

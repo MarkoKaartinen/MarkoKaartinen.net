@@ -3,7 +3,7 @@ title: "Battlefield 4 vuotaa muistia"
 date: 2013-12-30T18:41:00
 lastmod: 2014-12-10T18:33:00
 description: "Niin tekee ja pahasti. Hankin joululomani aikana edukkaasti Battlefield 4 pelin ja nyt lauantaina pääsin pelaamaan. Jonkun aikaa pelattuani Battlefield 4 alkaa syömään muistia kuin mikäkin ja tuloksena on pelin ”lagaaminen” ja muisti 100 prosentissa. Oikealla oleva kuva näyttääkin sen, että muisti on lähes kokonaan käytössä ja cachessakaan ei ole juuri mitään. Koneessani on tuo"
-categories: ["Blogi"]
+categories: ["Pelit"]
 tags: ["100", "battlefield", "battlefield 4", "bf4", "bugi", "ea", "muisti", "muistivuoto", "ongelma", "vuoto"]
 aliases: ["/battlefield-4-vuotaa-muistia/"]
 ---

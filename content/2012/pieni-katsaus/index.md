@@ -2,7 +2,7 @@
 title: "Pieni katsaus"
 date: 2012-04-30T15:41:00
 description: "Jep jep, blogaaminen on kausittaista. Joskus se innostaa enemmän ja joskus taas vähemmän. Tämänhän oikeastaan tietää kaikki, jotka pitävät blogia enemmän tai vähemmän huvikseen. Käydääs taas asioita hieman läpi ja katsotaan mihin tällä kirjoituksella päästään. Sivusto Aloitetaan sivustosta, se on suhteellisen helppo aihe. Itselläni on tämä sivusto hieman bugannut viime aikoina ja teemaa pitäisi puukottaa."
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["blogi", "elämä", "katsaus", "marko", "sekalaista", "sivusto"]
 aliases: ["/pieni-katsaus/"]
 ---

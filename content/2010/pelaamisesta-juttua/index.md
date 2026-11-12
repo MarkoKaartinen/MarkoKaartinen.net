@@ -3,7 +3,7 @@ title: "Pelaamisesta juttua"
 date: 2010-03-02T16:58:00
 lastmod: 2014-12-10T19:22:00
 description: "Tällä kertaa sukellan pelien maailmaan blogissani (ylläri..). Kaikki jotka on vähääkään katsonut blogia tietää, että pelaan erinäköisiä pelejä ja vieläpä FPS painotteista. Nyt ajattelin kirjoitella asiaa peleistä joita olen viime aikoina pelannut niin PC:llä kuin Xboxilla. Tämän viestin tarkoituksena olisi saada lisää porukkaa pelaamaan vaikka minun kanssani olis sinulla sitten PC tai Xbox, mutta siitä"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["bf bc 2", "borderlands", "cod", "cod mw2", "pc", "pelaaminen", "pelit", "xbox 360"]
 aliases: ["/pelaamisesta-juttua/"]
 ---

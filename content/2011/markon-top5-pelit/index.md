@@ -3,7 +3,7 @@ title: "Markon Top5 pelit"
 date: 2011-02-01T20:36:00
 lastmod: 2012-07-16T12:40:00
 description: "Artikkeli julkaistu alunperin RantSite.netissä! K00pa aloitti joten minäpä jatkan! Viitaten K00pan kirjoittamaan Top5 pelit listaan – teen oman vastaavan ja haastan kaikki RantSiten kirjoittajat tekemään saman ja muut blogaajat myös! Poiketen K00pan listasta, en keskity pelkästään PC-peleihin. 5. Super Scribblenauts (DSi) Tämä on aivan loistava peli, varsinkin jos on aikaa ja hiemankaan mielikuvistusta! Tätä tulee vahingossa pelattua"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["cod", "marko", "minecraft", "pelaaminen", "pelit", "rantsite"]
 aliases: ["/markon-top5-pelit/"]
 ---

@@ -3,7 +3,7 @@ title: "Eee Pc 901 ja Ubuntu 8.04.1"
 date: 2008-09-18T17:02:00
 lastmod: 2014-12-10T19:27:00
 description: "Kävin hankkimassa Prismasta 2 Gigan USB-tikun mallia Kingston DataTraveler 2 GB ja hintaa tälle tuli 9,90 € ja viiden vuoden takuulla. Ja eiliset tikulta boottamiseen liittyvät ongelmat katosivat ja pääsin asentamaan Ubuntua Eeelleni. Muokkaukset: Kohdassa 6. korjattu virheellinen poisto komento. Lisätty kuinka asennetaan Caps-lock indikaattori Eli ajattelin kertoa teille miten asensin Ubuntun omaan Eee Pc"
-categories: ["Blogi", "Marko testaa"]
+categories: ["Marko testaa"]
 tags: ["eee pc 901", "linux", "miniläppäri", "ubuntu"]
 aliases: ["/eee-pc-901-ja-ubuntu-8041/"]
 ---

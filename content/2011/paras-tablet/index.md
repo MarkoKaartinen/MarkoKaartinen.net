@@ -3,7 +3,7 @@ title: "Paras tablet?"
 date: 2011-12-26T10:26:00
 lastmod: 2012-07-16T13:48:00
 description: "Tänä jouluna moni varmaan sai tabletteja lahjaksi – nyt en siis puhu pöydälle tulevista jutuista vaan ns. täppäreistä tai ”taulutietokoneista”. Osalle ehkä helpoin, että sanoin iPad tai muut vastaavat vekottimet. Kysehän on siis miniläppärin ja kännykän välimuodosta eli käytössäsi on käytännössä vain kosketusnäyttö, jolla teet kaiken mitä tarvitset. Tietysti on erinäköisiä lisälaitteita olemassa, kuten bluetooth"
-categories: ["Apple", "Blogi"]
+categories: ["Mobiili"]
 tags: ["android", "apple", "galaxy tab", "ipad", "ipad 2", "lelut", "samsung", "tablet", "täppäri", "tekniikka", "vempaimet"]
 aliases: ["/paras-tablet/"]
 ---

@@ -3,7 +3,7 @@ title: "Tallinna 2011"
 date: 2011-05-12T11:02:00
 lastmod: 2013-08-05T14:09:00
 description: "Tallinnan reissun kuvakooste. Tarkemman matkakertomuksen voit lukaista täältä."
-categories: ["Blogi"]
+categories: ["Matkat"]
 tags: ["kuvakooste", "loma", "matka", "reissu", "tallinna", "video", "youtube"]
 aliases: ["/tallinna-2011/"]
 ---

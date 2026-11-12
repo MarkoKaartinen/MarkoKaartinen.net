@@ -3,7 +3,7 @@ title: "Kuvailua"
 date: 2010-04-24T16:40:00
 lastmod: 2014-12-10T19:22:00
 description: "Tein vihdoin sen mitä olen pitkään halunnut tehdä, ostin nimittäin digijärkkärin. Kaupasta tarttui kouraan Canon EOS 1000D + Canon EFS 18-55mm + Canon Zoom Lens EF 75-300mm setti ja sillä on nyt parisen viikkoa tullut kuvailtua enemmän ja vähemmän. Jos hieman kertoisi kyseisestä kamerasta jotain tai no speksithän ne pitää tähän laittaa: 10,1 megapikselin CMOS-kenno"
-categories: ["Blogi"]
+categories: ["Vempaimet"]
 tags: ["canon eos 1000d", "digijärkkäri", "flickr", "järjestelmäkamera", "kamera", "kuvailua"]
 aliases: ["/kuvailua/"]
 ---

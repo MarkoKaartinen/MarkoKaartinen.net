@@ -3,7 +3,7 @@ title: "Tilannekatsaus omiin projekteihini"
 date: 2015-09-29T15:38:00
 lastmod: 2016-09-26T15:35:00
 description: "Olen joskus mainostellut omia projuja täällä ja nostankin tässä kaksi nyt tapetille ja näitä lähden lähipäivinä/-viikkoina työstämään enemmän. Avaan hieman mitä lähden tekemään ja miksi."
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["blogi", "markokaartinen.net", "nörtti", "projektit", "tapaaminen.net"]
 aliases: ["/tilannekatsaus-omiin-projekteihini/"]
 ---

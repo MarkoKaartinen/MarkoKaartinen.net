@@ -3,7 +3,7 @@ title: "Kesärenkaat Tallinnasta: Tarjouspyynnöt"
 date: 2014-04-29T15:08:00
 lastmod: 2016-07-19T09:23:00
 description: "Omat kesärenkaat alkavat olla tiensä päässä. Kesärenkaat Tallinnasta oli ajatuksen tutkimisen arvoinen idea. Päädyin siis tekemään blogipostauksen tästä."
-categories: ["Blogi"]
+categories: ["Matkat"]
 tags: ["autonrenkaat", "esittelyssä", "kesärenkaat", "rengas", "renkaat", "tallinna", "viro"]
 series: ["Kesärenkaat Tallinnasta"]
 aliases: ["/kesarenkaat-tallinnasta-tarjouspyynnot/"]

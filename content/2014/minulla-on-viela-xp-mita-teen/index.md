@@ -2,7 +2,7 @@
 title: "Minulla on vielä XP, mitä teen?"
 date: 2014-04-08T13:14:00
 description: "Mietitkö itseksesi, että minulla on vielä XP, mitä teen? Jos mietit niin tässä artikkelissa on sinulle joitain vaihtoehtoja siihen."
-categories: ["Windows"]
+categories: ["Tietokoneet"]
 tags: ["linux", "microsoft", "mitä tehdä", "päättyy", "päivittäminen", "päivitykset", "tablet", "tietokone", "tuki", "vinkkejä", "vinkki", "windows", "windows 8", "windows xp", "xp"]
 aliases: ["/minulla-on-viela-xp-mita-teen/"]
 ---

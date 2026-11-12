@@ -3,7 +3,7 @@ title: "Androidin Twitter-sovelluksen \"lagaaminen\""
 date: 2013-07-17T08:29:00
 lastmod: 2014-12-10T18:54:00
 description: "Itsellä oli jokusen päivän ongelmana Androidin Twitter sovellus. Nimenomaan tuo Twitterin itse tekemä sovellus. Se avautui oikein, mutta sen jälkeen se alkoi lataamaan twiittejä ja muuta dataa, jolloin ruudulla pyöri pienen pieni harmaa ympyrä latauksen merkiksi. Tuo ympyrä saattoi pyöriä siinä hyvinkin kauan ja tuota se teki vähän joka välilehdellä – olit sitten etusivulle, yhteyksissä"
-categories: ["Android"]
+categories: ["Mobiili"]
 tags: ["android", "bugi", "galaxy", "galaxy s 4", "galaxy s4", "lagaa", "lataa", "ongelma", "samsung", "sovellus", "twiitit", "twitter", "tyhjennys", "välimuisti", "valkoinen ruutu", "vinkki"]
 aliases: ["/androidin-twitter-sovelluksen-lagaaminen/"]
 ---

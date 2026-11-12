@@ -3,7 +3,7 @@ title: "Asus Eee Pc 901 vihdoin käsissäni"
 date: 2008-09-17T16:20:00
 lastmod: 2014-12-10T19:27:00
 description: "Vihdoin ja viimein sain käsiini kauan odottamani Asus Eee Pc 901 miniläppärin. Tämä posti on kirjoitettu sängyllä maaten Eee Pc 901:llä. Joten olen saanut tämän käyttökuntoon ja omia kuvia tulee myöhemmin. Sillä te ette halua kuitenkaan katsoa kännycami laatuisia kuvia. Olen tässä nyt jokusen tunnin räplännyt tätä ja näppäimistöön tottuminen kestää hetkisen verran ja typoja"
-categories: ["Blogi", "Marko testaa"]
+categories: ["Marko testaa"]
 tags: ["eee pc 901", "miniläppäri"]
 aliases: ["/asus-eee-pc-901-vihdoin-kasissani/"]
 ---

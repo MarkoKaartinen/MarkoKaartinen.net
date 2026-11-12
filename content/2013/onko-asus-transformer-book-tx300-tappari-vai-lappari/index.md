@@ -3,7 +3,7 @@ title: "Onko Asus Transformer Book TX300 täppäri vai läppäri?"
 date: 2013-10-05T18:34:00
 lastmod: 2016-07-19T09:22:00
 description: "Täppäri vai läppäri eli tablet tietokone vai kannettava tietokone – vai onko kumpaakaan vai onko molempia. Tähän kysymykseen yritin löytää vastausta ja tulin siihen ratkaisuun, että tämä on enemmän läppäri kuin täppäri. Koneen erikoisuushan on se, että tässä on irroitettava näyttö ja näppäimistö toimii telakkana. Näyttöön on ”survottu” erittäin ansiokkaasti näytönohjain, prosessori, ssd -levy, muistit,"
-categories: ["Blogi", "Kokeilussa", "Testi"]
+categories: ["Marko testaa"]
 tags: ["arvio", "arvostelu", "asus", "hybridi", "kannettava", "kokemus", "läppäri", "täppäri", "testi", "tietokone", "transformer book tx300", "tx300"]
 aliases: ["/onko-asus-transformer-book-tx300-tappari-vai-lappari/"]
 ---

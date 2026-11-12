@@ -3,7 +3,7 @@ title: "Keskustelualue on avattu!"
 date: 2014-12-21T20:15:00
 lastmod: 2014-12-21T20:43:00
 description: "Aloitetaan podcastissani lupaamat uudistukset tällä keskustelualueen avaamisella. Oikealla on pieni kuva tästä alueesta ja kerronkin seuraavaksi hieman lisää tästä keskustelualueesta ja mitä kaikkea onkaan säädetty. Ensinnäkin tuo on rakennettu maksullisen XenForon päälle. Minulla on pari lisenssiä tuohon ja laitoin toisen hyötykäyttöön tämän sivuston kautta. Tuossa lisenssissä on myös kiinni yksi resurssinhallinnan palikka ja tulenkin sinne laittamaan"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["foorumi", "keskustelualue", "mknet", "sivusto", "uutta", "xenforo"]
 aliases: ["/keskustelualue-on-avattu/"]
 ---

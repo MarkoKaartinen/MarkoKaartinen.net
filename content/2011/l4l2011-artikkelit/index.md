@@ -3,7 +3,7 @@ title: "L4L2011 artikkelit"
 date: 2011-10-17T20:11:00
 lastmod: 2011-10-19T15:16:00
 description: "Listaanpa tähän kaikki minun kirjoittamat artikkelit LIFEBOOK4Life 2011 projektiin. Tulen päivittämään listää sitä mukaa kun viimeiset artikkelit julkaistaan. Artikkelit ovat englanniksi :) Unboxing First impressions Business routine Second battery it is Viva la touchscreen Roadtrip Things to do Secure laptop Hello from Italy Mobile me Solar power Beautiful Kuopio More about mobility ”Parkour” Voit samalla"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["l4l2011", "lifebook4life"]
 aliases: ["/l4l2011-artikkelit/"]
 ---

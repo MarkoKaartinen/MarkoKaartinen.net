@@ -3,7 +3,7 @@ title: "Langatonta latausta Ikeasta, kuulokkeita ja muuta mukavaa"
 date: 2015-09-22T18:04:00
 lastmod: 2016-06-22T14:50:00
 description: "Olen joskus tehnyt näitä koontipostauksia mitä olisi kiva omistaa ja mitkä näin ylipäätään on mielenkiintoisia tuotteita. Otsikossa en halunnut nyt paljastaa ihan kaikkea joten laitoinkin ympäripyöreästi sen. Koostankin tähän muutaman jutun mikä olisi ostoslistalla ja mihin ehkä joulun aikaan veronpalautuksia joutuu tuhlaamaan. Langatonta latausta Ikeasta Ikea on lanseerannut jo hyvän aikaa sitten langattomaan lataukseen erilaisia"
-categories: ["Blogi"]
+categories: ["Vempaimet"]
 tags: ["bluetooth", "headset", "ikea", "jaybird x2", "kuulokkeet", "langaton", "langaton lataus", "lataus", "philips hue", "qi", "valot"]
 aliases: ["/langatonta-latausta-ikeasta-kuulokkeita-ja-muuta-mukavaa/"]
 ---

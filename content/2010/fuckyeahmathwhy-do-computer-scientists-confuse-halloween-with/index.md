@@ -2,7 +2,7 @@
 title: "'fuckyeahmath:"
 date: 2010-10-30T09:07:00
 description: "fuckyeahmath: Why do computer scientists confuse Halloween with Christmas? That said, hope everyone has a great dec 25 this month! (submitted by dxdt)"
-categories: ["Tumblr"]
+categories: ["Huumori"]
 tags: ["tumblr"]
 aliases: ["/fuckyeahmathwhy-do-computer-scientists-confuse-halloween-with/"]
 ---

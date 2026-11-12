@@ -3,7 +3,7 @@ title: "Viimeaikaisia hankintojani verkkokaupasta"
 date: 2013-07-29T21:46:00
 lastmod: 2014-12-10T18:53:00
 description: "Ajattelin tehdä teille pienen listan linkkeineen, kuvineen ja lyhyine arvosteluineen viimeaikaisista hankinnoista, joista ei sen kummosempaa videota/artikkelia ole tullut. Tässä on kylläkin parin kuukauden sisällä hankittuja roippeita, mutta kaikki ovat jollain tapaa tekniikkaan liittyviä. Näistä kaikki on vielä hankittu Amazonista sillä sieltä saa niin paljon halvemmalla tilattua kuin Suomesta – pitää vain jaksaa odottaa hieman."
-categories: ["Blogi"]
+categories: ["Vempaimet"]
 tags: ["amazon", "autoteline", "galaxy s4", "hdmi", "microsdhc", "muistikortti", "ohjain", "ostoksia", "philips", "sandisk", "shq3000", "tuotekatsaus", "tuotteita", "verkkokauppa", "xbox 360", "xbox langallinen ohjain"]
 aliases: ["/viimeaikaisia-hankintojani-verkkokaupasta/"]
 ---

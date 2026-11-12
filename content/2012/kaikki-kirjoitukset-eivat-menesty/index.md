@@ -2,7 +2,7 @@
 title: "Kaikki kirjoitukset eivät menesty"
 date: 2012-11-21T21:45:00
 description: "Melkein kaikkien bloggaajien haave on luoda menestyvä blogi. Tämä ei mielestäni ole vielä siellä. Toki täällä on kirjoituksia, jotka keräävät päivä toisensa jälkeen katselukertoja Googlen kautta. Sekä niitä kirjoituksia, jotka linkitetään muualla ja ovat sitä kautta suosittuja jonkin aikaa. Osa kirjoituksista lähtee kiertämään sosiaalisessa mediassa. Sitten on nämä kirjoitukset, joita lukee vain kourallinen ihmisiä. Itsellä"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["ajatuksia", "blogi", "kirjoitus", "menestyminen", "sivusto"]
 aliases: ["/kaikki-kirjoitukset-eivat-menesty/"]
 ---

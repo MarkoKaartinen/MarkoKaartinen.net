@@ -2,7 +2,7 @@
 title: "Minä & YouTube"
 date: 2012-02-28T21:04:00
 description: "Kuten olette varmaan huomanneet olen alkanut aktivoitua videoiden suhteen. Mielestäni tämä on hyvä asia ja videosisältö tekee tästä sivustosta hieman monipuolisemman. Aikaisemmin olen tehnyt pientä videota ja julkaissut ne Youtubessa. Nyt olen pistänyt itseni kunnolla likoon ja päätynyt itsekin kameran eteen! Hurjaa, eikö? Tulen tekemään enemmänkin videoita näistä minun vempaimista mitä tulen tulevaisuudessa saamaan käsiini."
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["elämä", "sivusto", "videot", "youtube"]
 aliases: ["/mina-youtube/"]
 ---

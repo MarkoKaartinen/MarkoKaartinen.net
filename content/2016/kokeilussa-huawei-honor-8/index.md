@@ -3,7 +3,7 @@ title: "Kokeilussa Huawei Honor 8"
 date: 2016-08-25T07:42:00
 lastmod: 2016-11-15T09:28:00
 description: "Pääsin kokeilemaan Huawei Honor 8 puhelinta ennen sen suomen julkaisua betaohjelman ansiosta. Tässä omia mielipiteitä puhelimesta."
-categories: ["Android", "Huawei", "Kokeilussa"]
+categories: ["Marko testaa"]
 tags: ["älypuhelin", "esittelyssä", "honor", "honor 8", "huawei", "kännykkä", "kokeilussa", "matkapuhelin", "puhelin", "testi", "android"]
 aliases: ["/kokeilussa-huawei-honor-8/"]
 ---

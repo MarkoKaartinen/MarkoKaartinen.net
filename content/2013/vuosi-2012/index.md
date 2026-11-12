@@ -3,7 +3,7 @@ title: "Vuosi 2012"
 date: 2013-01-02T12:55:00
 lastmod: 2013-01-02T12:57:00
 description: "Olen yleensä kirjoittanut tämän artikkelin vuoden viimeisinä päivinä, mutta tällä kertaa tämä jäi olosuhteiden pakosta tekemättä. Tässä perinteisessä artikkelissa katsotaan vuotta 2012 kuukausi kerrallaan. Tulen tässä kirjoituksessa ottamaan otteita niin blogista, kuin omasta elämästäni jota ei blogissa ole välttämättä edes katettukaan. Aloitan tämänkin kirjoituksen pienellä statistiikkatuokiolla. Vuonna 2010 kirjoittelin 107 artikkelia, kun taas vuonna 2011"
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["2012", "elämä", "katsaus", "marko", "uusi vuosi", "vuosi 2012", "vuosikatsaus"]
 aliases: ["/vuosi-2012/"]
 ---

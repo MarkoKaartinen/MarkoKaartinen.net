@@ -2,7 +2,7 @@
 title: "Mitä kotiverkossani oikein \"pyörii\""
 date: 2025-02-14T18:55:00
 description: "Nyt alkaa artikkelisarja, jossa kerron hieman mitä kotiverkossani oikein pyörii. Samaan sarjaan menee tämän kotiverkon säätäminen ja siihen liittyvät artikkelit."
-categories: ["Selfhosted"]
+categories: ["Kotilabra"]
 tags: ["kotiverkko", "selfhosted", "home assistant", "zigbee", "docker", "pfsense", "palvelin", "kotiautomaatio"]
 series: ["Selfhosted"]
 ---

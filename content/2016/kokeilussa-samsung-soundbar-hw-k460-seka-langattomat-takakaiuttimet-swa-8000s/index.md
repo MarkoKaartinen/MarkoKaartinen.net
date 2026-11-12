@@ -2,7 +2,7 @@
 title: "Kokeilussa Samsung Soundbar (HW-K460) sekä langattomat takakaiuttimet (SWA-8000S)"
 date: 2016-12-19T17:17:00
 description: "Tuli päivitettyä oman olohuoneen äänentoistoa hieman parempaan suuntaan. Tuli siis hankittua soundbar ja langattomat takakaiuttimet."
-categories: ["Kokeilussa"]
+categories: ["Marko testaa"]
 tags: ["ääni", "hw-k460", "kokeilu", "kokeilussa", "samsung", "soundbar", "swa-8000s", "takakaiuttimet", "televisio", "testi"]
 aliases: ["/kokeilussa-samsung-soundbar-hw-k460-seka-langattomat-takakaiuttimet-swa-8000s/"]
 ---

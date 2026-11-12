@@ -2,7 +2,7 @@
 title: "Piristystä puhelimeesi? Skalhusetista löydät inspiraation"
 date: 2022-03-01T17:56:00
 description: "Muistatko, miten ihanalta tuntuu uudenkarhea puhelin? Saman tunteen voit saada myös paljon pienemmällä investoinnilla: uusilla puhelimenkuorilla. Sen helpompaa tapaa piristää matkapuhelintasi ei ole. Uudet kuoret, kuin uusi puhelin! Puhein on esine, jota käytät kenties enemmän kuin mitään muuta koko päivän aikana. Se ansaitsee hyvät kuoret ympärilleen ja pienen taloudellisen satsauksen, joka maksaa itsensä moninkertaisena takaisin."
-categories: ["Blogi"]
+categories: ["Mobiili"]
 aliases: ["/piristysta-puhelimeesi-skalhusetista-loydat-inspiraation/"]
 ---
 

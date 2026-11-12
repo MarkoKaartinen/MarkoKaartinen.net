@@ -3,7 +3,7 @@ title: "Emojit macOS käyttöjärjestelmässä 🍏⌨"
 date: 2017-11-16T10:25:00
 lastmod: 2017-11-16T10:26:00
 description: "Tiesittekö, että voit aukaista oman \"näppäimistön\" emojien syöttämiseen macOS käyttöjärjestelmässä eli mäkissä. Taas yksi hyödyllinen näppäinyhdistelmä!"
-categories: ["Apple"]
+categories: ["Tietokoneet"]
 tags: ["apple", "emoji", "emojit", "hymiöt", "mac", "macos", "mäkki", "näppäimistö", "näppäinyhdistelmä"]
 aliases: ["/emojit-macos-kayttojarjestelmassa/"]
 ---

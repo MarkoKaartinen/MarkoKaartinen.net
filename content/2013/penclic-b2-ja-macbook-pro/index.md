@@ -3,7 +3,7 @@ title: "Penclic B2 ja MacBook Pro"
 date: 2013-07-24T12:52:00
 lastmod: 2014-12-10T18:54:00
 description: "Paritin Penclic hiiren MacBook Pro:n kanssa sillä MBP on ainut kone missä minulla on Bluetooth täppärien lisäksi. Hiirestä on muuten unboxauskin tehty joka kannattaa vilasta. Tämä hiirihän on siitä erikoinen, että se on kynän muotoinen ja sitä pidetään kädessä kuten kynää ja oikeastaan sitä liikutellaankin kuin kynää. Minulle toimitettu hiiri oli bluetooth malli, joten sen"
-categories: ["Testi"]
+categories: ["Marko testaa"]
 tags: ["bluetooth", "hiiri", "kynä", "kynähiir", "macbook", "macbook pro", "penclic", "testi"]
 aliases: ["/penclic-b2-ja-macbook-pro/"]
 ---

@@ -2,7 +2,7 @@
 title: "Uutta teemaa"
 date: 2008-06-17T22:01:00
 description: "Eli pistinpä tällekkin sivulle uuden teeman. Kommentoikaa! Kuten aikaisemmassa samannimisessä viestissä kerrottiin (kommenteissa) keepitcoolin toimesta niin teema ei ole täysin itse tehty vaan mallia on otettu. Koska evosin poistaessani testikommenttia niin tässä ne tulleet kommentit: Déja Vuh http://e107coders.org/news.php :) keepitcool @ Tiistai 17. Kesäkuu 2008 kello 21:27 Ko. sivua en ole nähnyt mutta samasta paikasta"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["teema"]
 aliases: ["/uutta-teemaa/"]
 ---

@@ -3,7 +3,7 @@ title: "Pizzapohjan ja tomaattikastikkeen ohje"
 date: 2021-02-21T13:55:00
 lastmod: 2022-03-25T15:30:00
 description: "Tässä on oma lusikkani soppaan ja jaankin miten ollaan viime aikoina tehty pizzapohja ja tomaattikastike. Nauttikaa."
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["ohje", "pizza", "pizze", "tomaattikastike"]
 aliases: ["/pizzapohjan-ja-tomaattikastikkeen-ohje/"]
 ---

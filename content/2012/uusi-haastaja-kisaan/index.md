@@ -3,7 +3,7 @@ title: "Uusi haastaja kisaan!"
 date: 2012-09-21T20:12:00
 lastmod: 2014-12-10T19:03:00
 description: "Joku kysyy tietenkin, että mihinkä kisaan? No siihen kisaan tietysti missä valitaan minulle seuraava puhelin! Kisa alkoi oikeastaan edellisestä kirjoituksestani ja on elänyt sen jälkeen Twitterissä ja jopa Jannen blogissa! HTC Windows Phone 8X – Uusi haastaja kisaan HTC julkaisi tällä viikolla uusia puhelimia. Oletin aluksi, että tulossa olisi Android-pohjainen puhelin, mutta olinpa väärässä! Nyt"
-categories: ["Apple", "Blogi"]
+categories: ["Mobiili"]
 tags: ["apple", "galaxy s 3", "htc", "htc 8x", "iphone", "iphone 5", "puhelin", "samsung", "windows phone"]
 aliases: ["/uusi-haastaja-kisaan/"]
 ---

@@ -2,7 +2,7 @@
 title: "Asennetaan palvelimelle \"perusohjelmat\""
 date: 2012-11-01T19:16:00
 description: "”Perusohjelmilla” tarkoitan tässä tapauksessa ohjelmia, joita tarvitsen saadakseni webbipuolen toimimaan. Sekä samalla asennellaan phpMyAdmin sekä Webmin ja muuta mukavaa. Kaikki komennot toimivat Ubuntussa ja pitäisi toimia muissakin koneissa missä on APT käytössä. Tämän on tarkoitus olla muistilista itselle ja muille, jotka tarvitsee tämänkaltaisia komentoja."
-categories: ["Kotipalvelin", "Projekti"]
+categories: ["Kotilabra"]
 tags: ["apache", "boksi", "kotipalvelin", "mysql", "ohjeet", "palvelin", "php", "phpmyadmin", "ssh", "webmin", "projekti"]
 aliases: ["/asennetaan-palvelimelle-perusohjelmat/"]
 ---

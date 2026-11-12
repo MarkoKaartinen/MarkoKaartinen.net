@@ -2,7 +2,7 @@
 title: "MacBook Pro 15\" Retina"
 date: 2015-02-11T10:33:00
 description: "Vanha MacBook Pro alkoi olla tiensä päässä palveltuaan 4,5 vuotta. Oli siis aika hankkia korvaava tilalle. Nokan eteen ilmestyi MacBook Pro 15\" Retina."
-categories: ["Apple", "Blogi"]
+categories: ["Tietokoneet"]
 tags: ["apple", "ensikokemus", "kannettava", "kokemuksia", "läppäri", "macbook", "macbook pro", "macbook pro 15\" retina", "retina", "tietokone"]
 aliases: ["/macbook-pro-15-retina/"]
 ---

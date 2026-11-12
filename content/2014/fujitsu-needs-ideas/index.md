@@ -2,7 +2,7 @@
 title: "Fujitsu needs ideas!"
 date: 2014-10-18T15:54:00
 description: "So Fujitsu needs ideas and you kans help them by entering their contest. Share your idea and you can win awesome prizes!"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["fujitsu", "fujitsuinsider", "kilpailu", "masteryourbiz‬"]
 aliases: ["/fujitsu-needs-ideas/"]
 ---

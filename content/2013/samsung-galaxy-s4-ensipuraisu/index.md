@@ -2,7 +2,7 @@
 title: "Samsung Galaxy S4 - Ensipuraisu"
 date: 2013-06-06T17:41:00
 description: "Vanha kunnon iPhone 4 sai väistyä tekniikan tieltä kun Twitterissä tehdyn pohdinnan jälkeen päädyin hankkimaan Samsung Galaxy S4 puhelimen. Puhelin on ollut minulla reilut pari viikkoa ja lyhyesti sanottuna tämä vaikuttaa erittäin loistavalta puhelimelta. Galaxy S4 speksithän ovat seuraavanlaiset: GSM-taajuudet: 850/900/1800/1900MHz 3G-taajuudet: 850/900/1900/2100MHz 4G-taajuudet: LTE Prosessori: Quad-core 1.9 GHz Krait 300, Qualcomm APQ8064T Snapdragon 600, Adreno 320 Käyttöjärjestelmä:"
-categories: ["Matkapuhelimet"]
+categories: ["Mobiili"]
 tags: ["galaxy s4", "kännykkä", "matkapuhelin", "samsung", "samsung galaxy s4", "video"]
 aliases: ["/samsung-galaxy-s4-ensipuraisu/"]
 ---

@@ -3,7 +3,7 @@ title: "Uusi vekotin saapui taloon"
 date: 2009-08-06T13:36:00
 lastmod: 2014-12-10T19:24:00
 description: "Olen ollut jo jonkin aikaa aikeissa ostaa itselleni työkoneeksi hieman isomman läppärin kuin Eee Pc:n sillä no eihän sillä Eeen näppiksellä mitään koodia aleta vääntää. Tai no ei ainakaan kunnolla ja tuon kokoisella näytöllä ei oikein saa tarpeeksi tilaa ja en ainakaan itse pysty sillä työskentelemään täysipainotteisesti. No asetin budjetiksi 500 euroa ja lähdin eilen"
-categories: ["Blogi"]
+categories: ["Tietokoneet"]
 tags: ["acer", "kannettava", "läppäri", "tietokone", "windows 7"]
 aliases: ["/uusi-vekotin-saapui-taloon/"]
 ---

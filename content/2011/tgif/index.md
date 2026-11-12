@@ -2,7 +2,7 @@
 title: "TGIF"
 date: 2011-11-25T22:45:00
 description: "Thank God It’s Friday tosiaan. Perjantai on sen merkki, että alkaa viikonloppu ja on hieman vapaata. Tai no… vapaata varsinaisista töistä :D Tarkoituksena olisi hieman koodailla ja neppailla jotain jännää. (Siitä kohta lisää) Viime viikolla tuli oikeastaan perjantaipohdinnan tilalla tämän sivuston kuusi vuotis postaus. Tänään koitetaan päästä taas ”normaaliin” rytmiin ja kirjoittaa se perjantainen pohdinta."
-categories: ["Blogi"]
+categories: ["Kuulumiset"]
 tags: ["elämä", "joulukalenteri", "marko", "perjantaipohdinta"]
 aliases: ["/tgif/"]
 ---

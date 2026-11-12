@@ -3,7 +3,7 @@ title: "Näitä omenoita voisin \"syödä\""
 date: 2012-07-28T10:33:00
 lastmod: 2014-12-10T19:05:00
 description: "On taas omppu (Apple) -aiheisen kirjoituksen aika. Osa teistä varmaan alkaa jo ärsyyntyä näihin, mutta ei sillä ole mitään väliä! Tässä kirjoituksessa esittelen (taas) pari laitetta jotka voisin omistaa ja tulen varmaan jossain vaiheessa hankkimaankin, mikäli niitä on tulevaisuudessa vielä edes myynnissä. iMac Otetaan ensimmäisenä Applen pöytätietokoneen tappaja. Nimittäin iMac on pöytätietokone jossa ei olekaan"
-categories: ["Apple", "Blogi"]
+categories: ["Tietokoneet"]
 tags: ["apple", "imac", "mac", "mac mini", "omppu", "tietokoneita", "vempaimia"]
 aliases: ["/naita-omenoita-voisin-syoda/"]
 ---

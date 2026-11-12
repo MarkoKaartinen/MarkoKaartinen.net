@@ -3,7 +3,7 @@ title: "Minecraft"
 date: 2010-08-31T11:48:00
 lastmod: 2014-12-10T19:21:00
 description: "Koska sivupohjaa ei näy vieläkään niin pitää kertoa sen myöhästymiseen syykin. Kyseessä on peli nimeltä Minecraft. Löysin pelin uudestaan viikko sitten, aiemmin olin pelannut ilmaista rakentelu versiota selaimella ja nyt löysin Youtubesta videoita kyseisestä pelistä ja se oli sitten menoa se. Kyseessä on siis Markus ”Notch” Perrsonin kehittämä erittäin addiktoiva hiekkalaatikkopeli. Pelin satunnaisesti generoima maailma"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["elämä", "minecraft", "pelaaminen", "pelit", "video", "youtube"]
 aliases: ["/minecraft/"]
 ---

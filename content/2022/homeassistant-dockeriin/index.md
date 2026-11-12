@@ -3,7 +3,7 @@ title: "HomeAssistant Dockeriin"
 date: 2022-10-20T09:17:00
 lastmod: 2022-10-20T09:19:00
 description: "Nyt laitetaankin HomeAssistant toimimaan Docker konteissa käyttäen vanhaa konetta, Ubuntua ja Docker Composea."
-categories: ["Blogi"]
+categories: ["Kotilabra"]
 tags: ["äly", "älykoti", "docker", "docker compose", "home assistant", "homeassistant", "ikea", "lidl", "mqtt", "smart home", "ubuntu", "zigbee", "zigbee2mqtt"]
 series: ["Älykoti"]
 aliases: ["/homeassistant-dockeriin/"]

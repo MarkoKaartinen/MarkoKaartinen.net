@@ -3,7 +3,7 @@ title: "thedailywhat:Flowchart of the Day: How to quit playing..."
 date: 2010-10-30T09:09:00
 lastmod: 2024-10-21T16:58:00
 description: "thedailywhat: Flowchart of the Day: “How to quit playing Civilization” As a Civilization addict, I would confirm that this is correct, but I’m too busy playing Civilization. (Get it on a tee!) [thanks melanie!]"
-categories: ["Tumblr"]
+categories: ["Huumori"]
 tags: ["tumblr"]
 aliases: ["/thedailywhatflowchart-of-the-day-how-to-quit-playing/"]
 ---

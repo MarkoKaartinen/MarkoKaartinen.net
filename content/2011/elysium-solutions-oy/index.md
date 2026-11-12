@@ -3,7 +3,7 @@ title: "Elysium Solutions Oy"
 date: 2011-07-06T17:34:00
 lastmod: 2014-12-10T19:11:00
 description: "Kirjoitin hyvin lyhyen bloggauksen aiheesta Paperisodan huipennus – tämähän siis viittasi suoraan perustamaamme yritykseen. Tulen nyt pitämään pienen mainospostauksen yrityksestämme. Mikäli haluat tehdä yhteistyötä kanssamme niin ota toki yhteyttä! Elysium Solutions Oy on nuori ja idearikas IT-alan ammattilainen, joka tuottaa eri aloja palvelevia sovelluskokonaisuuksia tuoreella otteella. Elysium Oy:n räätälöidyt verkkosovellukset suunnitellaan ja toteutetaan palvelemaan juuri"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["elysium", "elysium solutions", "elysium solutions oy", "firma", "solutions", "yrittäjä", "yritys"]
 aliases: ["/elysium-solutions-oy/"]
 ---

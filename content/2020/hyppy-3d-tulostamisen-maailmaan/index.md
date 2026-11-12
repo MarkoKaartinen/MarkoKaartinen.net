@@ -2,7 +2,7 @@
 title: "Hyppy 3D-tulostamisen maailmaan"
 date: 2020-02-11T13:17:00
 description: "Marraskuussa piipahdin Puolassa ja ennen sitä tulikin postissa 3D-tulostin. En kerennyt ennen reissua pistää sitä kokoon ja reissun jälkeen meni vielä työmatkan takia itsenäisyyspäivän jälkeen ennen, kuin pääsin kasaamaan itse tulostinta. Tulostin, joka postissa saapui oli Ender 3 Pro ja tämähän on suhteellisen edullinen tulostin ja sen saa kotiin alle 200 eurolla. 3D-tulostamisen aloittaminen ei"
-categories: ["Blogi"]
+categories: ["Vempaimet"]
 tags: ["3d", "3d tulostus", "creality", "ender", "ender 3", "ender 3 pro", "kokeilu", "tulostus"]
 aliases: ["/hyppy-3d-tulostamisen-maailmaan/"]
 ---

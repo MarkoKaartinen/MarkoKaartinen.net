@@ -2,7 +2,7 @@
 title: "Pic from Valkeisen lampi, Kuopio (Finland) (HDR)"
 date: 2010-06-18T14:39:00
 description: "Pic from Valkeisen lampi, Kuopio (Finland) (HDR)"
-categories: ["Tumblr"]
+categories: ["Elämä"]
 tags: ["tumblr"]
 aliases: ["/pic-from-valkeisen-lampi-kuopio-finland-hdr/"]
 ---

@@ -3,7 +3,7 @@ title: "Ensivaikutelmat LIFEBOOK T901:stä"
 date: 2011-09-12T16:18:00
 lastmod: 2014-12-10T19:10:00
 description: "Sain siis käsiini LIFEBOOK T901 läppärin. Tästä mahdollisuudesta kiitos kuuluu Fujitsun LIFEBOOK4Life projektille. Tulen tässä artikkelissa käsittelemään hieman ensivaikutelmia tästä koneesta. Olen käytellyt tätä konetta nyt perjantaista asti ja olen saanut kaikki tärkeimmät asiat konffittua tähän."
-categories: ["Blogi", "Marko testaa"]
+categories: ["Marko testaa"]
 tags: ["ensivaikutelma", "fujitsu", "l4l2011", "lifebook", "lifebook4life", "t901", "testaus", "vekotin"]
 aliases: ["/ensivaikutelmat-lifebook-t901sta/"]
 ---

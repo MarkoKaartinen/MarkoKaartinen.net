@@ -3,7 +3,7 @@ title: "Prusa Mini+ parin päivän jälkeen"
 date: 2021-10-08T08:55:00
 lastmod: 2021-10-08T08:58:00
 description: "Kokemuksia Prusa Mini+ tulostimesta parin päivän jälkeen. Ender 3 Pro sai lähteä ja tilalle tulikin sitten Prusa Mini + tulostin."
-categories: ["Blogi"]
+categories: ["Vempaimet"]
 tags: ["3d", "3d-tulostaminen", "3d-tulostin", "prusa", "prusa mini+"]
 aliases: ["/prusa-mini-parin-paivan-jalkeen/"]
 ---

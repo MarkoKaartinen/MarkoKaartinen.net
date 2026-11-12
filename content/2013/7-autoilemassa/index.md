@@ -1,7 +1,7 @@
 ---
 title: "#7 - Autoilemassa"
 date: 2013-11-08T14:13:00
-categories: ["Vlog"]
+categories: ["Podcastit ja vlogit"]
 tags: ["auto", "kämmi", "moka", "video", "vlog", "youtube"]
 aliases: ["/7-autoilemassa/"]
 ---

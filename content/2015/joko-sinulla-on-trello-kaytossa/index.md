@@ -3,7 +3,7 @@ title: "Joko sinulla on Trello käytössä?"
 date: 2015-07-30T19:39:00
 lastmod: 2015-11-20T12:30:00
 description: "Kerroinkin jo matkablogin puolella siitä miten käytämme Trelloa matkan suunnittelussa. Nyt mietinkin hieman miten Trello voisi olla vielä hyödyllisempi."
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["blogi", "projektit", "suunnittelu", "trello", "verkko"]
 aliases: ["/joko-sinulla-on-trello-kaytossa/"]
 ---

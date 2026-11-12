@@ -2,7 +2,7 @@
 title: "Muutama bbPress lisäosa"
 date: 2013-11-10T09:18:00
 description: "Olen viritellyt bbPress foorumia nyt jokuseen paikkaan ja olen törmännyt muutamaan todella näppärään lisäosaan. Heittelenkin tässä artikkelissa teille näitä lisäosia jokusen. Olen viritellyt Reissuun.net sivuston uuteen uskoon WordPressin, BuddyPressin ja bbPressin avulla. bbPress String Swap bbPress String Swap on yksinkertainen lisäosa joka korvaa joitain bbPressin tekstejä niillä mitä sinä haluat. Näin saat käännettyä roolit suomeksi"
-categories: ["Blogi"]
+categories: ["Koodaus"]
 tags: ["bbpress", "foorumi", "hyödylliset", "lisäosat"]
 aliases: ["/muutama-bbpress-lisaosa/"]
 ---

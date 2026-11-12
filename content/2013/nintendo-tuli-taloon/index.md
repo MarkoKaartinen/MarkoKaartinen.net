@@ -3,7 +3,7 @@ title: "Nintendo tuli taloon"
 date: 2013-12-18T08:42:00
 lastmod: 2015-11-22T15:22:00
 description: "Minähän en omistanut nappulana Nintendoa, meillä oli Sega. Kävimme siis naapurissa pelailemassa Nintendon Duck Hunttia. Sega on muuten vieläkin tallella, mutta viimeisimpien tietojen mukaan se ei toimi. Viikonloppuna tuli viestiä kaveriltani, että hän löysi kirpputorilta Nintendon pilkkahintaan. Laittelin takaisin viestiä, että ostithan sen ja otan heti sen. Noh hän ei silloin ostanut ja maanantaina kävi"
-categories: ["Blogi"]
+categories: ["Pelit"]
 tags: ["8bit", "duck hunt", "nes", "nintendo", "pelaaminen", "pelikonsoli", "pelit", "super mario", "valopistooli", "zapper"]
 aliases: ["/nintendo-tuli-taloon/"]
 ---

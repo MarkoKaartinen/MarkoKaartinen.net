@@ -3,7 +3,7 @@ title: "Nokia N97"
 date: 2008-12-02T13:36:00
 lastmod: 2013-08-05T16:27:00
 description: "Nokia julkaisi tänään uuden matkapuhelimen, N97 mallin. Kyseisessä mallissa on qwerty näppis ja kosketusnäyttö, joten allekirjoittaneen on melkein pakko päästä hiplaamaan kyseistä matkapuhelinta liikkeessä kunhan se Suomeen asti rantautuu. Suomen hinnaksi arvioidaan verojen kanssa 990 euroa joka on imo aika kova hinta. Videota (thanks Engadget) http://www.youtube.com/watch?v=2O2Li74EYew Lisää informaatiota löydätte: Digitoday Nokia (data sheet) Google Update"
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["matkapuhelin", "n97", "nokia"]
 aliases: ["/nokia-n97/"]
 ---

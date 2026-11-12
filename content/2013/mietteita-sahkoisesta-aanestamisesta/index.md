@@ -2,7 +2,7 @@
 title: "Mietteitä sähköisestä äänestämisestä"
 date: 2013-01-09T09:37:00
 description: "Olen pallotellut tätä artikkelia päässäni jo pari päivää. Olen pohtinyt mm. sitä mitenkä itse lähtisin toteuttamaan tätä ja mitä pitäisi ottaa huomioon. Pohdiskelenkin tässä artikkelissa hieman sekalaisia asioita sähköisestä äänestämisestä ja haluaisin myös teidän kommentteja näistä omista pohdinnoista. Virossahan on käytössä sähköinen äänestäminen ja siellä voit muuttaa mieltäsi annetun ajan sisällä vaikka joka päivä. Siellä"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["äänestäminen", "äänestys", "e-äänestys", "pohdintaa", "sähköinen", "tietojärjestelmä", "vaalit"]
 aliases: ["/mietteita-sahkoisesta-aanestamisesta/"]
 ---

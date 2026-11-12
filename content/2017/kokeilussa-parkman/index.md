@@ -2,7 +2,7 @@
 title: "Kokeilussa ParkMan"
 date: 2017-08-13T10:51:00
 description: "Olen käyttänyt jo ParkManin kilpailijaa EasyParkkia. Nyt kun Kuopioon tuli ParkMan sekä EasyPark käyttöön pitihän se ParkMan ottaa kokeiluun."
-categories: ["Blogi"]
+categories: ["Marko testaa"]
 tags: ["auto", "autoily", "autot", "parkman", "pysäköinti", "pysäköintialue", "sovellus"]
 aliases: ["/kokeilussa-parkman/"]
 ---

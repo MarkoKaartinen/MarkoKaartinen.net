@@ -3,7 +3,7 @@ title: "Fitbit Surgen ranneke hajoaa"
 date: 2016-02-15T18:02:00
 lastmod: 2016-02-21T10:10:00
 description: "Huomasin tuossa viime viikon loppupuolella että reilut pari kuukautta vanha Fitbit Surge rannekkeeseen on tullut pientä ongelmaa ja laitoinkin siitä viestiä heidän tukeen. Alla onkin pari kuvaa tuosta rannekkeesta ja huomaa selkeästi, että ruuvien kohdalle on tullut rako ja tuntuu, että liimaus on muutenkin pettämässä toiselta puolen kun se nousee irti kellosta. Samaten toisella puolella"
-categories: ["Blogi"]
+categories: ["Mobiili"]
 tags: ["aktiivisuusranneke", "älykello", "fitbit", "fitbit surge", "kello", "kuntokello", "ranneke", "surge", "tuki"]
 aliases: ["/fitbit-surgen-ranneke-hajoaa/"]
 ---

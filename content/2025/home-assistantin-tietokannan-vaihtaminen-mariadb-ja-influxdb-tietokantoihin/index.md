@@ -2,7 +2,7 @@
 title: "Home Assistantin tietokannan vaihtaminen MariaDB ja InfluxDB tietokantoihin"
 date: 2025-02-15T19:09:00
 description: "Nyt mennään nörtimpään suuntaan ja pistetään Home Assistantin tietokantamoottoriksi MariaDB ja pitkäaikainen data sitten InfluxDB puolelle."
-categories: ["Home Assistant"]
+categories: ["Kotilabra"]
 tags: ["selfhosted", "home assistant", "sqlite", "mariadb", "influxdb", "tietokannat", "grafana", "adminer"]
 series: ["Selfhosted"]
 ---

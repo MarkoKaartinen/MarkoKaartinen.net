@@ -3,7 +3,7 @@ title: "iPad 2"
 date: 2011-11-21T19:29:00
 lastmod: 2014-12-10T19:09:00
 description: "Tämä artikkeli on pitänyt kirjoittaa jo kaksi kuukautta sitten. Se tulee tällä kertaa hyvin paljon myöhässä. Olen siis hankkinut iPad 2:n – tästä on ollut juttua Twitterissäni. Tässä kirjoituksessa tulen käsittelemään iPad 2:n käyttöä hieman laajemmalla aikavälillä. Kerron myös miten tätä on käytetty ja mitä appseja suosittelen teille."
-categories: ["Apple", "Blogi", "Marko testaa"]
+categories: ["Marko testaa"]
 tags: ["apple", "appsit", "arvostelu", "ipad 2", "lelut", "tablet", "tekniikka", "vempain", "ipad"]
 aliases: ["/ipad-2/"]
 ---

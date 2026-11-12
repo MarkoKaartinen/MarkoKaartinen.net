@@ -2,7 +2,7 @@
 title: "iPad siellä, iPad täällä, niitä on joka puolella"
 date: 2012-08-27T19:25:00
 description: "Olin tuossa parin viikon lomalla ja tein lomailun ohessa erittäin mielenkiintoisen havainnon, ainakin minusta se on mielenkiintoinen havainto! Huomasin jo reissuun lähtiessäni Helsinki-Vantaan lentoasemalla sen, että moni odottava matkustaja räpläsi tablettiin ja tarkemmin iPadiään. Lapset pelasivat ja nuoret katsoivat leffoja, surffasivat sekä samaa teki vanhemmatkin. Itsekin istuin iPadi kourassa odottamassa lennon lähtöä Santorinille ja katselin"
-categories: ["Apple"]
+categories: ["Mobiili"]
 tags: ["apple", "ipad", "matkustus"]
 aliases: ["/ipad-siella-ipad-taalla-niita-on-joka-puolella/"]
 ---

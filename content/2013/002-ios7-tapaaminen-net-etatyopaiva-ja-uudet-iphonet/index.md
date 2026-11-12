@@ -3,7 +3,7 @@ title: "002 iOS7, Tapaaminen.net, etätyöpäivä ja uudet iPhonet"
 date: 2013-09-20T21:27:00
 lastmod: 2016-01-26T14:00:00
 description: "Toinen osa MarkoKaartinen.net Podcastistä, alla on tuttuun tapaan muistiinpanoni ja linkit. iOS 7 Applen puhelimien ja tablettien uusi käyttöjärjestelmäversio iOS 7 julkaistiin viime keskiviikkona kello 20.00 suomen aikaa. Itse olin koittamassa latausta 20-22 välillä ja ei siitä mitään tullut kun palvelimet olivat täysin jumissa. Torstai aamuna päivitys sujui kuin tanssi ja mitään ongelmaa ei ollut"
-categories: ["Podcast"]
+categories: ["Podcastit ja vlogit"]
 tags: ["apple", "etätyö", "etätyöpäivä", "ios7", "iphone", "iphone 5c", "iphone 5s", "podcast", "puhelin", "tapaaminen"]
 aliases: ["/002-ios7-tapaaminen-net-etatyopaiva-ja-uudet-iphonet/"]
 ---

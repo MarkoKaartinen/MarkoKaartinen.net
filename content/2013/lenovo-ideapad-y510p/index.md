@@ -3,7 +3,7 @@ title: "Lenovo IdeaPad Y510p"
 date: 2013-12-15T16:57:00
 lastmod: 2014-12-10T18:34:00
 description: "Kirjoittelin aikaisemmin katsauksen tästä Lenovon IdeaPad Y510p pelikannettavasta sekä pääsipä se podcast jaksoonkin. Huushollissa tuli sitten tarve tai tarve luotiin toiselle pelikoneelle kun yksi pelaamiseen tarkoitettu pöytäkone ei enää riittänytkään. Olinkin tehnyt osittain tämmöistä tilannetta varten katsausta tarjontaan sillä toisen pöytäkoneen kokoaminen ei olisi tullut kyseeseen. Reilu kuukausi sitten huusholliin rantautuikin uuden karhea Lenovo IdeaPad"
-categories: ["Blogi"]
+categories: ["Marko testaa"]
 tags: ["arvostelu", "ideapad", "ideapad y510p", "kannettava", "läppäri", "lenovo", "pelaaminen", "pelikannettava", "peliläppäri", "y510p"]
 aliases: ["/lenovo-ideapad-y510p/"]
 ---

@@ -3,7 +3,7 @@ title: "fuckyeahcomputerscience:How does Computer Programming Work"
 date: 2010-11-11T13:14:00
 lastmod: 2024-10-21T16:49:00
 description: "fuckyeahcomputerscience: How does Computer Programming Work"
-categories: ["Tumblr"]
+categories: ["Huumori"]
 tags: ["tumblr"]
 aliases: ["/fuckyeahcomputersciencehow-does-computer-programming-work/"]
 ---

@@ -3,7 +3,7 @@ title: "Mitä minun Moto X Play puhelimesta löytyy"
 date: 2016-04-08T16:10:00
 lastmod: 2017-03-06T08:32:00
 description: "Tässä videossa katsotaan mitä minun Moto X Play Android puhelimesta oikeastaan löytyykään. Käyn läpi ohjelmia mitä olen asennellut."
-categories: ["Android"]
+categories: ["Mobiili"]
 tags: ["android", "cyanogenmod", "kännykkä", "matkapuhelin", "moto x play", "motorola", "puhelin", "video"]
 aliases: ["/mita-minun-moto-x-play-puhelimesta-loytyy/"]
 ---

@@ -3,7 +3,7 @@ title: "Palvelimen vaihto ja miten tämä nyt toimii"
 date: 2016-06-22T15:10:00
 lastmod: 2017-03-06T08:31:00
 description: "Olen viime aikoina puuhastellut Laravelin parissa ja tuli törmättyä Laravel Forgeen. Eilen tuli tehtyä tili Forgeen ja siitä se säätö lähti."
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["digitalocean", "git", "https", "laravel", "laravel forge", "let's encrypt", "letsencrypt", "linode", "palvelin.github", "ssl", "virtuaalipalvelin", "vps"]
 aliases: ["/palvelimen-vaihto-ja-miten-tama-nyt-toimii/"]
 ---

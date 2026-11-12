@@ -3,7 +3,7 @@ title: "iPad 2 vai uusi iPad?"
 date: 2012-03-13T21:32:00
 lastmod: 2014-12-10T19:07:00
 description: "Viime viikolla Apple julkisti uuden iPadin joka ei saanutkaan numeroa perään joten sitä sanonkin uudeksi iPadiksi tai iPad 4G:ksi. Itsellänihän on iPad 2, mutta nimenomaan tuo karvalakkimalli ilman mitään mobiiliverkkoyhteyksiä. Olen kuitenkin kokenut tämän erittäin tarpeelliseksi ominaisuudeksi iPadissä, varsinkin kun semmoista ominaisuutta ei ole. Mitä eroja näissä kahdessa siis loppujen lopuksi on? Prosessori on ensimmäisenä"
-categories: ["Apple", "Blogi"]
+categories: ["Mobiili"]
 tags: ["apple", "ipad", "ipad 2", "ipad 4g", "the new ipad", "uusi ipad", "vempaimet"]
 aliases: ["/ipad-2-vai-uusi-ipad/"]
 ---

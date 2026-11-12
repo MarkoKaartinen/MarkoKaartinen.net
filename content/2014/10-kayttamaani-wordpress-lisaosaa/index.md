@@ -3,7 +3,7 @@ title: "10 käyttämääni WordPress lisäosaa"
 date: 2014-04-04T12:44:00
 lastmod: 2016-07-22T12:33:00
 description: "Esittelen tässä artikkelissä 10 käyttämääni WordPress lisäosaa jotka ovat ahkerassa käytössä niin omilla kuin asiakkaiden sivuillakin."
-categories: ["WordPress"]
+categories: ["Koodaus"]
 tags: ["lisäosa", "lisäosat", "plugin", "plugins", "vinkkejä", "vinkki", "wordpress", "wp"]
 aliases: ["/10-kayttamaani-wordpress-lisaosaa/"]
 ---

@@ -3,7 +3,7 @@ title: "004 Steam, Asus Transformer Book TX300 & GTA Online"
 date: 2013-09-30T13:52:00
 lastmod: 2016-01-26T14:01:00
 description: "Steam SteamOS – Linux pohjainen käyttöjärjestelmä Pakottaa omalta osaltaan valmistajat ottamaan Linuxin huomioon ajureiden teossa, esim. näytönohjaimet Samoin pelinkehittäjät alkavat tekemään Linuxille pelejä, Steamissä on tänä päivänä kuitenkin hurja määrä pelejä ja osittain sen avustuksella myös Mac ja Linux pelit ovat lisääntyneet SteamMachines – Olohuoneisiin suuntaava pelilaitteisto, jossa on SteamOS SteamController – Se erilainen peliohjain"
-categories: ["Podcast"]
+categories: ["Podcastit ja vlogit"]
 tags: ["asus", "book", "gta", "gta online", "gta v", "pelit", "podcast", "steam", "steamcontroller", "steammachines", "steamos", "transformer", "tx300"]
 aliases: ["/004-steam-asus-transformer-book-tx300-gta-online/"]
 ---

@@ -3,7 +3,7 @@ title: "Spotify -kisa!"
 date: 2014-12-25T17:44:00
 lastmod: 2015-01-14T06:49:00
 description: "Näin joulun kunniaksi otetaankin uusi kisa käsittelyyn. Huomasin tässä joulun pyhien aikaan, että Spotifyn lahjakortteja etsimällä löydettiin tänne minun blogin puolelle ja päätin lähteä tarjoamaan ilmaista kuukautta Spotifyyn kilpailun palkintona! Osallistuminen on yksinkertaista ja vieläpä ilmaista! Nimittäin kaikkien keskustelualueelle rekisteröityneiden ja keskusteluun osallistuneiden kanssa arvotaan loppiaisena (6.1.2015) yksi kappale lahjakortteja Spotifyyn. Alla vielä asiat mitä sinun"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["ilmainen", "keskustelu", "keskustelualue", "kilpailu", "kisa", "osallistu", "spotify"]
 aliases: ["/spotify-kisa/"]
 ---

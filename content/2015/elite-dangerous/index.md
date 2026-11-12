@@ -2,7 +2,7 @@
 title: "Elite: Dangerous"
 date: 2015-01-16T18:05:00
 description: "Päätinpä pistää tänne blogin puolelle juttua tästä pelistä. Ensinnäkin, Wikipedia kertoo paremmin mistä pelistä on kyse ja pistänpä samantien linkin pelin kotisivuillekkin. Elite: Dangerous is a space adventure, trading, and combat simulator that is the fourth release in the Elite video game series. Piloting a spaceship, the player explores a realistic 1:1 scale open world"
-categories: ["Blogi", "Pelit"]
+categories: ["Pelit"]
 tags: ["dangerous", "elite", "elite: dangerous", "pelaaminen", "pelit"]
 aliases: ["/elite-dangerous/"]
 ---

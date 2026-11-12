@@ -3,7 +3,7 @@ title: "Kokeilussa Uusi Philips Wake-up -valo"
 date: 2012-12-10T18:40:00
 lastmod: 2014-12-10T19:00:00
 description: "Kuten aiemmin ilmoitin, sain Wake-up -valon testattavaksi. Kokeilin sitä tässä nyt reilun viikon ajan ja omat tulokset ovat hieman epäselvät sillä olen hieman erikoinen herääjä niin sanotusti. Aloitetaan kuitenkin itse laitteesta. Testissä ollut malli oli malli jossa on iPhone telakka ja tämä malli vaatii siis toimiakseen iPhonen ja ilmaisen Wake-up sovelluksen App Storesta. Sovelluksella saat"
-categories: ["Blogi"]
+categories: ["Marko testaa"]
 tags: ["herätys", "herätyskello", "kokeilu", "philips", "testi", "valo", "wake-up", "wake-up light"]
 aliases: ["/kokeilussa-uusi-philips-wake-up-valo/"]
 ---

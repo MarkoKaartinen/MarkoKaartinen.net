@@ -2,7 +2,7 @@
 title: "PeLE projun päivitystä"
 date: 2009-10-22T19:48:00
 description: "Heipä hei taas, on kulunut taas liikaa aikaa viime blogi viestistä, mutta ei anneta sen häiritä. Tarkoitus oli kirjoitella Operation Flashpointista jossain välissä ja koitetaan nyt se saada ulos tässä viikon sisällä. Mutta joo kuten kuten otsikko kertoo niin PeLEtyksestä piti hieman päivitystä pistää ja tässäpä sitä tulee. Paljon ei ole kerennyt vielä tekemään, mutta"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["koulu", "opiskelu", "pele", "ple", "työ"]
 aliases: ["/pele-projun-paivitysta/"]
 ---

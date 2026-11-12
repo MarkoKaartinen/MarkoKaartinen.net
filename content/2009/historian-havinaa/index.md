@@ -3,7 +3,7 @@ title: "Historian havinaa"
 date: 2009-05-24T09:55:00
 lastmod: 2014-12-10T19:25:00
 description: "Kun uusi lay on julkaistu niin on aika myös hieman tutkia menneisyyttäkin. Nimittäin eilen löysin pari vanhaa layouttia ja tänään etsiskelin lisää niitä ja löysinkin pari lisää. Tässäpä teille listaus siitä mitä olen joskus tehnyt."
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["historia", "layoutit", "vanhat"]
 aliases: ["/historian-havinaa/"]
 ---

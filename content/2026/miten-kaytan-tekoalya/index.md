@@ -2,7 +2,7 @@
 title: "Miten käytän tekoälyä"
 date: 2026-03-27T12:25:00
 description: "Kerron hieman tässä jutussa miten käytän tekoälyä tällä hetkellä. Käyn läpi hieman miten käytän sitä omissa projekteissa (kuten tässä blogissa) ja muuallakin."
-categories: ["Tekoäly"]
+categories: ["Koodaus"]
 tags: ["tekoäly", "ai", "openclaw", "claude", "vibekoodaus", "koodaaminen", "koodaus", "bloggaaminen", "blogi", "spottihinta"]
 mastodon_post_id: "116300670948150788"
 ---

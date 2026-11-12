@@ -2,7 +2,7 @@
 title: "Hiljaiseloa Internetissä"
 date: 2009-09-06T11:37:00
 description: "Ei Marko ei ole kuollut, eikä lopettanut www-puolen säätöä. Olen vain ollut koko kesän suhteellisen hyvin työllistetty. Osa pitkäaikaisista kävijöistä (onkohan niitä edes?) muistavat varmaan suhteellisen nopean sivuston päivitystahdin, joka on hidastunut huomattavasti viime aikoina. Tähän hidastumiseen löytyy suhteellisen hyvä selitys. Vaikka kesän aikana sivusto on pysynyt suhteellisen muuttumattomana, paria blogausta lukuunottamatta, niin ei Marko"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["internet", "kesä", "koodaus", "marko", "ohjelmointi", "php", "sivusto", "työ"]
 aliases: ["/hiljaiseloa-internetissa/"]
 ---

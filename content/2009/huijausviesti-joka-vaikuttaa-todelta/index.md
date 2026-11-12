@@ -2,7 +2,7 @@
 title: "Huijausviesti joka vaikuttaa todelta"
 date: 2009-06-05T08:43:00
 description: "Näin aamusta aloin katsomaan sähköpostiani ja kas kummaa oli tullut oikealta vaikuttava viesti joka on seuraavanlainen: Hei, Nimeni on Anniina Saarela ja kirjoitan sinulle koska ylläpidän useampaa pelikotisivua. Tällä hetkellä yritän panostaa sivujen mainontaan, ja etsin siksi laadukkaita kotisivuja linkinvaihtoyhteistyötä varten, kuten esimerkiksi https://markokaartinen.net Kotisivusi on juuri sellainen sivu, jonka kanssa haluaisin vaihtaa linkkejä, ja"
-categories: ["Blogi"]
+categories: ["Internet"]
 tags: ["huijaus", "huijausviesti", "spämmi", "varoitus"]
 aliases: ["/huijausviesti-joka-vaikuttaa-todelta/"]
 ---

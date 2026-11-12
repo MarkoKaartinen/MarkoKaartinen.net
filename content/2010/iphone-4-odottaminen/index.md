@@ -3,7 +3,7 @@ title: "iPhone 4 - odottaminen"
 date: 2010-08-02T15:49:00
 lastmod: 2012-07-16T13:10:00
 description: "Toissa päivänä kirjoitin artikkelin iPhone 4 – tilaaminen ja nyt on sitten tarinalle tullut jatkoa. Eli tilaamisen jälkeen on tietenkin odotettava sitä itse puhelinta. Noh tässä tapauksessa ensimmäinen odottaminen oli se, että milloin tulee seurantakoodi ja ilmoitus postittamisesta. Tämän jälkeen odotetaan sitten itse laitetta naputtamalla F5 lähetysseurannassa. Noh tänään se tuli! Ei se laite, vaan"
-categories: ["Apple", "Blogi"]
+categories: ["Mobiili"]
 tags: ["iphone", "iphone 4", "odottaminen", "sonera", "apple"]
 aliases: ["/iphone-4-odottaminen/"]
 ---

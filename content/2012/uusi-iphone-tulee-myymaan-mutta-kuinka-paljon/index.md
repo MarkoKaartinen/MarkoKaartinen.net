@@ -3,7 +3,7 @@ title: "Uusi iPhone tulee myymään, mutta kuinka paljon?"
 date: 2012-09-10T20:11:00
 lastmod: 2014-12-10T19:03:00
 description: "Applen huhutaan julkistavan uusi iPhone tämän viikon keskiviikkona (12.9). Kutsussa oli varjossa numero 5, joka taas viittaisi iPhone 5 malliin. Tämä ei kuitenkaan ole mitenkään varmaa, että onko uuden iPhonen nimi iPhone 5 vai pelkkä iPhone – sen näemme keskiviikkona. En nyt lähde spekuloimaan mitä tulee keskiviikkona ja millainen uudesta iPhonesta tulee. Nyt keskitynkin spekuloimaan"
-categories: ["Apple", "Blogi"]
+categories: ["Mobiili"]
 tags: ["apple", "iphone", "iphone 5", "julkaisu", "uusi iphone"]
 aliases: ["/uusi-iphone-tulee-myymaan-mutta-kuinka-paljon/"]
 ---

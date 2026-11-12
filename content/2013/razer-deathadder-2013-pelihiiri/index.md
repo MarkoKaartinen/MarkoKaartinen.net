@@ -3,7 +3,7 @@ title: "Razer Deathadder 2013 pelihiiri"
 date: 2013-11-14T10:54:00
 lastmod: 2014-12-10T18:37:00
 description: "Vanha rotta alkoi olla tiensä päässä omassa käytössä ja kyselin sitten veljeltä mikä hänellä oli sillä olin sitä koitellut ja se vaikutti varsin passelilta peliltä. Päädyin siis hankkimaan Razer Deathadder 2013 hiiren. Hiiri tuntui aluksi hieman kevyeltä, mutta eroa olikin vain jokunen gramma kun keittiövaa’alla sen punnitsin. Ehkä se muotoilu vain hämäsi hieman. Muotoilu on"
-categories: ["Blogi"]
+categories: ["Marko testaa"]
 tags: ["arvostelu", "deathadder", "deathadder 2013", "hiiri", "kokeilu", "pelihiiri", "razer", "vempain"]
 aliases: ["/razer-deathadder-2013-pelihiiri/"]
 ---

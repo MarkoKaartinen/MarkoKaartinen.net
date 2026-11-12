@@ -1,7 +1,7 @@
 ---
 title: "Saunakauha"
 date: 2011-02-27T11:46:00
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["flickr", "kuva", "saunakauha"]
 aliases: ["/saunakauha/"]
 ---

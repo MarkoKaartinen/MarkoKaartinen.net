@@ -3,7 +3,7 @@ title: "NTFS tuki Yosemiteen"
 date: 2015-02-15T18:13:00
 lastmod: 2016-09-26T15:42:00
 description: "Mac osaa lukea oletuksena NTFS muotoisia levyjä, mutta jos olet kuin minä niin haluat myös kirjoittaa sinne. NTFS tuen asentelu on suhteellisen simppeli homma, asenna nämä kolme pakettia niin homman pitäisi toimia vallan mainiosti."
-categories: ["Apple", "Blogi"]
+categories: ["Tietokoneet"]
 tags: ["apple", "kiintolevy", "mac", "mac os x", "ntfs", "ohje", "os x", "yosemite"]
 aliases: ["/ntfs-tuki-yosemiteen/"]
 ---

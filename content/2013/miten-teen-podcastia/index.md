@@ -3,7 +3,7 @@ title: "Miten teen Podcastia?"
 date: 2013-09-22T11:37:00
 lastmod: 2014-12-10T18:39:00
 description: "Tätä on parikin minulta kysellyt ja vastaankin tähän aika syvääluotaavasti tämän blogikirjoituksen avulla. Käynkin läpi ensin ohjelmia ja välineitä millä itse tätä olen tehnyt ja tämähän on vain miten minä tein tämän ja tapoja on monia – samoin ohjelmia. Itsellä on tällä hetkellä nauhoittamista varten käytössä oma headsetti, jonka hankin tuossa keväällä pelaamista varten kun"
-categories: ["Blogi"]
+categories: ["Kulisseissa"]
 tags: ["feedburner", "itunes", "podcast", "powerpress", "wordpress"]
 aliases: ["/miten-teen-podcastia/"]
 ---

@@ -3,7 +3,7 @@ title: "Making of #1"
 date: 2010-10-20T17:11:00
 lastmod: 2010-10-22T13:04:00
 description: "Tarkoitus on myös joistain kuvista tehdä Making of, eli näyttää kuvina miten tämä kuva on toteutettu. Kaikista kuvista en tule tekemään tämmöista blogipostausta, mutta joistain kuvista teen. Lopputulos:"
-categories: ["Blogi"]
+categories: ["Elämä"]
 tags: ["kuvaaminen", "making of 365", "projekti 365"]
 aliases: ["/making-of-1/"]
 ---

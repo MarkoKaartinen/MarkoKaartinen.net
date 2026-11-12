@@ -3,7 +3,7 @@ title: "Applen olisi aika uudistaa iOS käyttöjärjestelmää"
 date: 2015-05-18T13:25:00
 lastmod: 2015-05-18T20:26:00
 description: "Sanotaan se jo heti kärkeen: iOS kaipaa uudistusta – kipeästi. Noin, nyt pääsenkin kertomaan miksi olen tätä mieltä ja uskon, että moni voi olla samaakin mieltä tästä asiasta. Muistan sen ajan kun iPhone oli tullut markkinoille ja se oli silloin todellakin jotain uutta ja hienoa. Muistan myös sen kun tein päätöksen, että minä hankin iPhonen"
-categories: ["Apple", "Blogi"]
+categories: ["Mobiili"]
 tags: ["android", "apple", "ios", "ipad", "iphone", "ui", "uudistus"]
 aliases: ["/applen-olisi-aika-uudistaa-ios-kayttojarjestelmaa/"]
 ---
