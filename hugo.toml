@@ -261,7 +261,7 @@ timeZone = 'Europe/Helsinki'
     weight = 80
   [[related.indices]]
     name = 'categories'
-    weight = 40
+    weight = 15
   [[related.indices]]
     name = 'recipe_tags'
     weight = 80
