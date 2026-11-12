@@ -10,7 +10,7 @@
 
   <div class="mt-10 grid gap-4 sm:grid-cols-2">
     {{ template "kortti" (dict "url" "/avainsanat" "title" "Avainsanat" "border" "hover:border-teal" "text" "group-hover:text-teal" "count" (len $tags) "unit" "avainsanaa" "desc" "Aiheet tarkasti: yksittäinen laite, ohjelma tai ilmiö. Löydät esimerkiksi kaiken iPhonesta tai Home Assistantista.") }}
-    {{ template "kortti" (dict "url" "/kategoriat" "title" "Kategoriat" "border" "hover:border-peach" "text" "group-hover:text-peach" "count" (len $cats) "unit" "kategoriaa" "desc" "Isot aihepiirit, kuten Apple, Pelit ja Linux. Hyvä paikka aloittaa, kun haluat vain nähdä, mistä blogissa kirjoitetaan.") }}
+    {{ template "kortti" (dict "url" "/kategoriat" "title" "Kategoriat" "border" "hover:border-peach" "text" "group-hover:text-peach" "count" (len $cats) "unit" "kategoriaa" "desc" "Isot aihepiirit, kuten Mobiili, Pelit ja Kotilabra. Hyvä paikka aloittaa, kun haluat vain nähdä, mistä blogissa kirjoitetaan.") }}
     {{ template "kortti" (dict "url" "/sarjat" "title" "Sarjat" "border" "hover:border-mauve" "text" "group-hover:text-mauve" "count" (len $series) "unit" "sarjaa" "desc" "Artikkelit, jotka kuuluvat yhteen, esimerkiksi älykodin rakentaminen vaihe vaiheelta. Lue ne järjestyksessä.") }}
     {{ template "kortti" (dict "url" "/blogi" "title" "Arkisto" "border" "hover:border-blue" "text" "group-hover:text-blue" "count" (len (where site.RegularPages "Type" "artikkeli")) "unit" "artikkelia" "desc" "Kaikki artikkelit vuosittain vuodesta 2007 lähtien. Etsi kirjoituksia hakukentällä, avainsanalla (#) tai kategorialla (@).") }}
   </div>
