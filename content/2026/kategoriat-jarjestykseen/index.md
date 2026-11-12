@@ -4,7 +4,7 @@ date: 2026-11-12T17:15:00
 description: "Blogin kategoriat on ollut pitkään järjestämättä, ja Blogi-kategoriassa oli suurin osa artikkeleista. Nyt kategoriat on uudistettu aihepohjaisiksi tekoälyn avulla, ja jokaisella artikkelilla on vain yksi."
 categories: ["Kulisseissa"]
 tags: ["kategoriat", "blogi", "uudistus", "tekoäly", "claude", "arkisto", "hugo"]
-# mastodon_post_id: ""
+mastodon_post_id: "117604135894644498"
 ---
 
 Blogin kategoriat on ollut pitkään järjestämättä ja nyt oli sen aika.
