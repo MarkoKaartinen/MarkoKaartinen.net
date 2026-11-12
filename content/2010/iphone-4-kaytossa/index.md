@@ -4,7 +4,7 @@ date: 2010-08-19T15:06:00
 lastmod: 2014-12-10T19:21:00
 description: "Jatketaan tätä linjaa nyt hetken vielä (aikaisemmet artikkelit). Eli olen nyt pari viikkoa käyttänyt iPhone 4:sta ja olen ollut tyytyväinen siihen ja varsinkin siirtymä 3G:stä neloseen oli huomattava parannus. Mitä nyt ensimmäisenä oli mielessä kun paketti tuli haettua postista? ”Täh, näin pieni paketti?!” Nimittäin ero 3G:n pakettiin oli huomattava sillä se oli yli kaksi kertaa"
 categories: ["Apple", "Blogi", "Marko testaa"]
-tags: ["iphone", "iphone 4", "kokemuksia", "sonera"]
+tags: ["iphone", "iphone 4", "kokemuksia", "sonera", "apple"]
 aliases: ["/iphone-4-kaytossa/"]
 ---
 

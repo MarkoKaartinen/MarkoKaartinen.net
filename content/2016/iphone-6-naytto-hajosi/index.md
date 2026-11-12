@@ -4,7 +4,7 @@ date: 2016-03-16T09:03:00
 lastmod: 2016-03-17T13:12:00
 description: "Nyt ollaan taas jännien asioiden äärellä. Nimittäin huomasin tuossa aamulla, että iPhone 6 puhelimen näyttöön on tullut rantu. Tuossa oikealla onkin kuva tuosta rannusta. Eilen illalla tätä ei vielä ollut ja koitin puhelintakin boottailla ja siinä se vain on. Mitään säröä ei näytössä itsessään ole ja muutenkin puhelin on ollut kunnossa. Puhelin oli yön latauksessa ja siitä"
 categories: ["Apple"]
-tags: ["elisa", "iphone", "iphone 6", "näyttö", "näyttö rikki", "rantu", "rikki", "takuu"]
+tags: ["elisa", "iphone", "iphone 6", "näyttö", "näyttö rikki", "rantu", "rikki", "takuu", "apple"]
 aliases: ["/iphone-6-naytto-hajosi/"]
 ---
 

@@ -4,7 +4,7 @@ date: 2009-06-04T12:02:00
 lastmod: 2014-12-10T19:25:00
 description: "Tämän postauksen tarkoituksena on testata iPhonen WordPress appsia ja miten homma onnistuu sen kanssa. Ensivaikutelmana tämä vaikuttaa erittäin pätevältä appsilta ja luurilla kirjoittaminen on helppoa ja sujuvaa joten kyllä tällä pystyy blogaamaan. Tarkoituksena on koittaa saada pari kuvaakin tähän joten katsotaan mitä tapahtuu."
 categories: ["Apple", "Blogi", "Marko testaa"]
-tags: ["iphone", "kokeilu", "wordpress"]
+tags: ["iphone", "kokeilu", "wordpress", "apple"]
 aliases: ["/iphone-ja-wordpress/"]
 ---
 

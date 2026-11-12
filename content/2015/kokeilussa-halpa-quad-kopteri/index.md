@@ -4,7 +4,7 @@ date: 2015-06-09T14:52:00
 lastmod: 2016-07-19T09:23:00
 description: "E-villessä oli tarjouksessa kauko-ohjattava Nano Quad kopteri, pitihän se sitten tilata jo ihan kokeilun vuoksi. Olin isoja malleja katsellut YouTubesta aikaa sitten ja nämä on mielenkiintoisia laitteita. Tänä päivänä kun näihin saa survottua kameraa, joka kuvaa jopa 4k kuvaa… Mainitsenpa alkuun jo sen, että kannattaa käyttää markokaartinen@gmail.com sähköpostia suosittelijana niin saat sinä alennusta ja minä"
 categories: ["Kokeilussa"]
-tags: ["kauko-ohjattava", "kopteri", "lelu", "quad"]
+tags: ["kauko-ohjattava", "kopteri", "lelu", "quad", "drooni"]
 aliases: ["/kokeilussa-halpa-quad-kopteri/"]
 ---
 

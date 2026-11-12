@@ -4,7 +4,7 @@ date: 2010-10-17T12:05:00
 lastmod: 2014-12-10T19:19:00
 description: "On mennyt yli vuosi ensimmäisestä osasta ja ajattelin kirjoitella uuden osan sille. Tässä osassa on tarkoitus käydä muutama iPhonen app läpi ja nämä ovat taas vain minun mielipiteitäni – oman mielipiteen voit sanoa kommenttiosiossa.. Edellisestä artikkelista on muuttunut muun muassa se, että minulla on iPhone 4 ja iOS on päivittynyt jo 4.1 versioon asti. App"
 categories: ["Apple", "Blogi"]
-tags: ["angry birds", "app store", "appsit", "iphone", "iphone 4", "navigon"]
+tags: ["angry birds", "app store", "appsit", "iphone", "iphone 4", "navigon", "apple"]
 aliases: ["/iphone-ja-appsit-osa-2/"]
 ---
 

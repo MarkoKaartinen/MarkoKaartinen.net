@@ -4,7 +4,7 @@ date: 2010-11-01T23:48:00
 lastmod: 2012-07-16T13:14:00
 description: "Niinhän siinä kävi, että Tuxinkin piti päästä tekemään tuttavuutta uuden ”perheenjäsenen” kanssa. Ja kaikki tämä kun olin hetken toisaalla olkkarista! Nopea otus tämä pingviini! Laiskana kuvasin tämän ilman jalustaa ja paremman valon puutteessa kameran oma salama sai toimia valonlähteenä. Tosin kuva on minusta onnistunut ja hyvä. Tosin tätä kuvaa pitää paremmalla ajalla koittaa vielä jalustan"
 categories: ["Apple", "Blogi"]
-tags: ["kuvaaminen", "mac", "macbook pro", "mbp", "tux"]
+tags: ["kuvaaminen", "mac", "macbook pro", "mbp", "tux", "apple"]
 aliases: ["/tux-ja-lappari/"]
 ---
 

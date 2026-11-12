@@ -4,7 +4,7 @@ date: 2009-06-23T10:52:00
 lastmod: 2014-12-10T19:24:00
 description: "Kuten osa tietää minulla on iPhone 3G ja en ole kirjoitellut mitään sen jännempia kirjoituksia kyseisestä vekottimesta. Mutta viime viikolla oli jo tarkoitus kirjoitella tämä, tosin juhannus tuli ja hieman rokotti kirjoittelua… Eli artikkelin ideana on hieman valottaa minun näkökulmaa luurista ja sen ohjelmista. Tämä on todennäköisesti ensimmäinen osa kaksiosaisesta kirjoituksesta ja kuvia löytyy. Ohjelmien"
 categories: ["Apple", "Blogi"]
-tags: ["appsit", "facebook", "iphone", "iphone 3g", "twitter"]
+tags: ["appsit", "facebook", "iphone", "iphone 3g", "twitter", "apple"]
 aliases: ["/iphone-ja-appsit-osa-1/"]
 ---
 

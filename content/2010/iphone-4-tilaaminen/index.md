@@ -4,7 +4,7 @@ date: 2010-07-31T23:19:00
 lastmod: 2014-12-10T19:21:00
 description: "Heitetään oma lusikka soppaan tästäkin vekottimesta. Tosin hieman myöhässä tulee tämä kirjoitelma tänne, koska perjantainahan tämäkin soppa alkoi. Ensin pieni ihmettely siitä miksi Sonera ei alkuperäisten sivuston infojen mukaan tehnyt minkäänlaista ennakkotilausta ko. vekottimelle. Sillä tämä on osasyynä mielestäni Soneralla olleisiin ongelmiin iPhonen myynnin aloittamisessa. Eli ennakkotilausta ei ollut ja torstaina tuli tieto, että perjantaina"
 categories: ["Apple", "Blogi"]
-tags: ["iphone", "iphone 4", "sonera", "tilaaminen"]
+tags: ["iphone", "iphone 4", "sonera", "tilaaminen", "apple"]
 aliases: ["/iphone-4-tilaaminen/"]
 ---
 

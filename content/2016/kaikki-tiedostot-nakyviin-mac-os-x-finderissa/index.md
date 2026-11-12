@@ -4,7 +4,7 @@ date: 2016-05-12T09:11:00
 lastmod: 2017-03-06T08:32:00
 description: "Tänään se alkoi viimein ärsyttämään oikein olan takaa, kun en nähnytkään kaikkia tiedostoja Finderissa. Halusin nähdä nimenomaan .gitignore ja .htaccess filut, jotta saisin ne kopioitua eteenpäin toisaalle. No tämä on aiemmin tehty komentorivin kautta, mutta tänään päätin googlettaa ja löytää ratkaisun tähän. Tämä ratkaisu olikin onneksi helppo sillä se vaati vain parin komennon ajamisen päätteellä"
 categories: ["Apple"]
-tags: ["finder", "mac", "mac os x", "os x", "piilotetut tiedostot", "tiedostot", "vinkki"]
+tags: ["finder", "mac", "mac os x", "os x", "piilotetut tiedostot", "tiedostot", "vinkki", "apple"]
 aliases: ["/kaikki-tiedostot-nakyviin-mac-os-x-finderissa/"]
 ---
 

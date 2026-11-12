@@ -3,7 +3,7 @@ title: "Vuotovahti kannattaa olla"
 date: 2025-11-18T10:00:00
 description: "Vuotovahti on pieni laite, joka tunnistaa veden läsnäolon ja lähettää ilmoituksen, jos vettä havaitaan paikassa, missä sitä ei pitäisi olla. Tässä artikkelissa kerron miksi vuotovahti kannattaa olla kotona ja miten se voi pelastaa isommalta vahingolta."
 categories: ["Home Assistant"]
-tags: ["selfhosted", "ikea", "vuotovahti", "kotiautomaatio", "badring"]
+tags: ["selfhosted", "ikea", "vuotovahti", "kotiautomaatio", "badring", "home assistant"]
 series: ["Älykoti"]
 mastodon_post_id: "115569642951292354"
 ---

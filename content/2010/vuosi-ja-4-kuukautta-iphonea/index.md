@@ -4,7 +4,7 @@ date: 2010-07-25T11:09:00
 lastmod: 2014-12-10T19:21:00
 description: "iPhonen ensimmäinen Suomeen tullut versio on ollut minulla vuoden ja neljä kuukautta. Eli omistan iPhone 3G:n 16 gigasena ja en ole katunut päivääkään sen hankkimista. Nyt ajattelin hieman jakaa ajatuksia ja mietteitä kyseisestä luurista tältä ajalta. Todennäköistä on se, että jotain unohtuu. Alku Alussa luuria tuli käpisteltyä todella paljon sillä olihan se minulle jotain aivan"
 categories: ["Apple", "Blogi", "Marko testaa"]
-tags: ["iphone", "iphone 3g", "iphone 4", "kokemuksia"]
+tags: ["iphone", "iphone 3g", "iphone 4", "kokemuksia", "apple"]
 aliases: ["/vuosi-ja-4-kuukautta-iphonea/"]
 ---
 

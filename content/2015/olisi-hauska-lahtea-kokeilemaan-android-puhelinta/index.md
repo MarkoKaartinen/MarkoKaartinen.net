@@ -4,7 +4,7 @@ date: 2015-10-01T15:29:00
 lastmod: 2016-09-26T15:35:00
 description: "Siitä on aikaa, kun olen viimeksi Androi puhelinta käyttänyt. Edellinen oli Android puhelimeni oli Galaxy S4 ja sitä oli mukava käyttää tiettyyn pisteeseen asti. Samsung rajoitti liikaa ja roottaus vei sitten takuun. Pistin sen sitten menemään, koska ei tuo Android silloin ollut minulle ja iPhone 6 oli tulossa."
 categories: ["Matkapuhelimet"]
-tags: ["android", "blogi", "pohdinta", "puhelin", "testi"]
+tags: ["android", "blogi", "pohdinta", "puhelin", "testi", "matkapuhelin"]
 aliases: ["/olisi-hauska-lahtea-kokeilemaan-android-puhelinta/"]
 ---
 

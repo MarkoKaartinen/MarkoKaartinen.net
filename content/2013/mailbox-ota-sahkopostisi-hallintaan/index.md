@@ -4,7 +4,7 @@ date: 2013-04-09T19:08:00
 lastmod: 2020-02-04T09:37:00
 description: "Hei! Kiva, että eksyit sivuille, mutta tämä Mailbox iPhone sovellukseen liittyvä artikkeli on vuodelta 2013. Tämä artikkeli EI liity Suomi24 palvelun loppumiseen eikä mailbox.org palveluun! Mailbox on suhteellisen tuore sähköpostiohjelma vain ja ainoastaan iPhonelle. Sitä en osaa sanoa milloin tuo on tulossa muille alustoille. Mailbox keskustelee myös vain Gmailin kanssa, joten jos sinulla on joku"
 categories: ["Matkapuhelimet"]
-tags: ["apps", "gmail", "iphone", "mail", "mailbox", "maili", "sähköposti", "sähköpostilaatikko", "sovellus"]
+tags: ["apps", "gmail", "iphone", "mail", "mailbox", "maili", "sähköposti", "sähköpostilaatikko", "sovellus", "matkapuhelin"]
 aliases: ["/mailbox-ota-sahkopostisi-hallintaan/"]
 ---
 

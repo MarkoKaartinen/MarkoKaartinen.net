@@ -4,7 +4,7 @@ date: 2016-11-15T17:47:00
 lastmod: 2017-03-02T15:24:00
 description: "Omassa autossani ei ole bluetoothia suoraan, mutta siinä on aux liitäntä. Ostinkin siis bluetooth vastaanottimen joka kytketään aux liitäntään."
 categories: ["Autot", "Vempaimet"]
-tags: ["anker", "auto", "aux", "bluetooth", "musiikki", "musiikkia", "soundsync", "spotify"]
+tags: ["anker", "auto", "aux", "bluetooth", "musiikki", "musiikkia", "soundsync", "spotify", "autot"]
 aliases: ["/musiikkia-autoon-bluetoothin-avulla/"]
 ---
 

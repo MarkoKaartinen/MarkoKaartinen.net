@@ -4,7 +4,7 @@ date: 2011-11-04T18:50:00
 lastmod: 2014-12-10T19:10:00
 description: "Kirjoittelen tätä pohdintaa vaihteeksi iPadillä. Tästä vekottimesta on pitänyt kirjoittaa arvostelu tai jonkinlainen juttu jo kauan. Pyrin viikonloppuna kirjoittamaan hieman kattavemman artikkelin tästä. Näin lyhyenä ränttinä sanottakoon, että laite on erittäin pätevä, mutta näppäimistö on vähän heikko kirjoittamiseen – ainakin pitempään tekstiin. Jos hieman jatkaa vielä iPad aiheella, olen tässä koittanut rakentaa erittäin kevyttä ympäristöä"
 categories: ["Apple", "Blogi"]
-tags: ["elämä", "ilaitteet", "ipad", "iphone", "marko", "perjantaipohdinta"]
+tags: ["elämä", "ilaitteet", "ipad", "iphone", "marko", "perjantaipohdinta", "apple"]
 aliases: ["/iperjantai/"]
 ---
 

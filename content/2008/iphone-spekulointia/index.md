@@ -4,7 +4,7 @@ date: 2008-06-28T00:20:00
 lastmod: 2012-07-16T13:07:00
 description: "Kuten varmaan tiedätte niin iPhone tulee suomeen 11. heinäkuuta, mutta (kyllä tässäkin hommassa on mutta) sitä alkaa jakelemaan Sonera. En sano onko tämä huono vai hyvä asia, sitäkään en tiedä saako ilman kytkyä vaiko ei saa. Ja sitäkään en tiedä myykö sitä muut kuin Sonera suomessa. Mutta sen tiedän, että se tulee ja sen tulee"
 categories: ["Apple", "Blogi"]
-tags: ["iluuri", "iphone", "sonera", "tietokone"]
+tags: ["iluuri", "iphone", "sonera", "tietokone", "apple"]
 aliases: ["/iphone-spekulointia/"]
 ---
 
