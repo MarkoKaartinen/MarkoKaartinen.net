@@ -44,5 +44,5 @@ aliases: ["/004-steam-asus-transformer-book-tx300-gta-online/"]
 ### Lopetus
 
 - Äänenlaatu on ollut vähän mitä on ja tämä johtuu osittain välineistä, olen haaveillut Rode Podcaster mikrofonista ja kunhan rahaa saadaan kasaan niin se on seuraava hankinta. Tämä johtuu taas teistä, sillä olen yllättynyt siitä miten hyvän vastaanoton tämä on saanut!
-- Podcast löytyy iTunesista, hakusanalla markokaartinen ja linkit löytyy valikon Podcast linkistä ([https://markokaartinen.net/kategoria/podcast/](/kategoria/podcast))
+- Podcast löytyy iTunesista, hakusanalla markokaartinen ja linkit löytyy valikon Podcast linkistä ([https://markokaartinen.net/kategoria/podcastit-ja-vlogit/](/kategoria/podcastit-ja-vlogit))
 - Seuraavan podcastin aiheita voi esittää MarkoKaartinen.netissä tai Twitterissä @MarkoK

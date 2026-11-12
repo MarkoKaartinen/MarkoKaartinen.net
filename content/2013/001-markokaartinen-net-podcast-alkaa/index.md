@@ -21,7 +21,7 @@ Tässä on MarkoKaartinen.netin ensimmäinen Podcast ikinä! Alla on vielä podc
 
 - Lyhyesti: Sisältö tulee olemaan niitä asioita jotka minua sattuu kiinnostamaan jakson aikana.
 - Hieman syvemmin: Pyrin ottamaan mukaan ajankohtaisia aiheita ja ennen kaikkea pysymään niissä asioissa, jotka kiinnostavat minua ja yleensä ne aiheet liittyvät tekniikkaan, peleihin, Internettiin ja muihin vekottimiin ja samankaltaisiin asioihin.
-- Podcastit: [https://markokaartinen.net/kategoria/podcast/](/kategoria/podcast)
+- Podcastit: [https://markokaartinen.net/kategoria/podcastit-ja-vlogit/](/kategoria/podcastit-ja-vlogit)
 
 ### Nexus 7
 

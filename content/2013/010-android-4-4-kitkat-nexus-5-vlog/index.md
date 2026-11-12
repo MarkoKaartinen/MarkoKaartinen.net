@@ -14,7 +14,7 @@ Tällä kertaa uudessa podcastissa käsitellään Androidin 4.4 KitKattia, Nexus
 - Googlen oma [blogijuttu](http://googleblog.blogspot.fi/2013/10/android-for-all-and-new-nexus-5.html)
 - KitKat [showcase](http://www.android.com/versions/kit-kat-4-4/)
 - Nexus 5 [tuotesivu](https://www.google.com/nexus/5/)
-- Aloitin taas vlogin pitämisen. Videot tulevat [blogiin](/kategoria/vlog) sekä [Youtubeen](http://www.youtube.com/playlist?list=PL8ZdtsQQY_KYvPxvY__cqoMxAKyrKqmAc).
+- Aloitin taas vlogin pitämisen. Videot tulevat [blogiin](/kategoria/podcastit-ja-vlogit) sekä [Youtubeen](http://www.youtube.com/playlist?list=PL8ZdtsQQY_KYvPxvY__cqoMxAKyrKqmAc).
 
 KitKatin ominaisuuksia videolla:
 

@@ -10,7 +10,7 @@ aliases: ["/uacn-ottaminen-pois-paalta-windows-8ssa/"]
 
 Jatketaan nyt tätä Windows 8 sarjaa kun alkuun päästiin. UAC eli User Account Control on kaikille tuttu ikkuna joka on hypännyt silmillesi aina Windows Vistasta lähtien. Tämä ikkuna tulee aina kun haluat asentaa jotain ja pakottaa sinut tiedostamaan sen, että olet oikeasti asentamassa nyt jotain mikä voi mahdollisesti muuttaa koneen asetuksia yms.
 
-Mikäli tiedät mitä teet niin tämä vaihe on turha, mutta mikäli et ole aina ihan varma mitä olet tekemässä niin lopeta lukeminen tähän ja kuuntele vaikka [podcastiani](/kategoria/podcast).
+Mikäli tiedät mitä teet niin tämä vaihe on turha, mutta mikäli et ole aina ihan varma mitä olet tekemässä niin lopeta lukeminen tähän ja kuuntele vaikka [podcastiani](/kategoria/podcastit-ja-vlogit).
 
 Te jotka jatkoitte lukemista niin varoitan jo nyt, että käytössäni on Windows 8 englanninkielinen versio, joten kuvat ja ohjeet ovat sitä varten.
 

@@ -34,7 +34,7 @@ Kalenterissa voi olla jotain videota, kuvaa, tekstiä tai mitä vaan satun keksi
 
 ## Marko testaa
 
-Mulla on ollut oikeastaan parilla nimellä näitä testailuja [Marko testaa](/kategoria/marko-testaa) ja [Kokeilussa](/kategoria/kokeilussa) kategoriat on ainakin ollut.
+Mulla on ollut oikeastaan parilla nimellä näitä testailuja [Marko testaa](/kategoria/marko-testaa) ja [Kokeilussa](/avainsana/kokeilussa) kategoriat on ainakin ollut.
 
 Ehkä tuon ton Marko testaa takaisin ja siirrän kokeilut myös sinne. Ennen rustailin melkein kaikista härveleistä mitä käteen sattuu ja siitä tuli blogiin - nyt ne on jäänyt vähemmälle.
 

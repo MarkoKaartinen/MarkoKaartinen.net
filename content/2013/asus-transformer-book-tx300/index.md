@@ -26,6 +26,6 @@ Alla on vielä video tästä koneesta ja hieman vertailen kokoa tässä ja kerro
 
 {{< youtube id="2MRF9dAjQww" >}}
 
-Tästä tulee myös juttua [Podcastiini](/kategoria/podcast) sekä jos te haluatte tietää jotain tästä niin nyt kannattaa kysyä! Kiitos Asukselle kannettavan toimittamisesta!
+Tästä tulee myös juttua [Podcastiini](/kategoria/podcastit-ja-vlogit) sekä jos te haluatte tietää jotain tästä niin nyt kannattaa kysyä! Kiitos Asukselle kannettavan toimittamisesta!
 
 Linkki Asuksen sivuille: [Transformer Book TX300](http://www.asus.com/Notebooks_Ultrabooks/ASUS_Transformer_Book_TX300/)

@@ -50,7 +50,7 @@ Olen myös pyytänyt tekemään lomakkeita sillä ne perkeleet on joskus ärsytt
 
 ## Loppulätinöitä
 
-Tein tänne blogiin yleisen [/ai](/ai) -sivun, jossa kerron yleiseltä tasolta tekoälyn käytöstä. Ehkä koitan sitten jatkossa [Tekoäly](/kategoria/tekoaly) kategoriaan julkaista juttuja liittyen tekoälyyn ja sen käyttöön niin voi sinne tunkeutua katselemaan tarkempia.
+Tein tänne blogiin yleisen [/ai](/ai) -sivun, jossa kerron yleiseltä tasolta tekoälyn käytöstä. Ehkä koitan sitten jatkossa [Tekoäly](/avainsana/tekoaly) kategoriaan julkaista juttuja liittyen tekoälyyn ja sen käyttöön niin voi sinne tunkeutua katselemaan tarkempia.
 
 Tuolla AI sivulla on myös juttua [human.json](https://codeberg.org/robida/human.json) systeemistä ja senkin otin käyttöön. Se on merkkinä, että takana on ihminen ei tekoäly.
 

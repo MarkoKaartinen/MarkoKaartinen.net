@@ -20,5 +20,5 @@ Tällä kertaa tein hieman extempore podcastin iPadillä. Testasin samalla miten
 
 ### Lopetus
 
-- Podcast löytyy iTunesista, hakusanalla markokaartinen ja linkit löytyy valikon Podcast linkistä ([https://markokaartinen.net/kategoria/podcast/](/kategoria/podcast))
+- Podcast löytyy iTunesista, hakusanalla markokaartinen ja linkit löytyy valikon Podcast linkistä ([https://markokaartinen.net/kategoria/podcastit-ja-vlogit/](/kategoria/podcastit-ja-vlogit))
 - Seuraavan podcastin aiheita voi esittää MarkoKaartinen.netissä tai Twitterissä @MarkoK

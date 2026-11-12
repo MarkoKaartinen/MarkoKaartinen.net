@@ -10,7 +10,7 @@ aliases: ["/011-marraskuun-kertaus-vempaimia-hyvinvointirannekkeet/"]
 
 Pitkästä aikaa uutta podcastia ja tällä kertaa onkin luvassa sekalainen setti erilaisista asioista. Alla on hirveä kasa linkkejä!
 
-- [Vlog](/kategoria/vlog)
+- [Vlog](/kategoria/podcastit-ja-vlogit)
 - [Digiexpot 2013](/2013/digiexpoilemassa-vuonna-2013)
 - [CM Storm Trigger](/2013/cm-storm-trigger-mekaaninen-nappaimisto)
 - [Razer Deathadder 2013](/2013/razer-deathadder-2013-pelihiiri)

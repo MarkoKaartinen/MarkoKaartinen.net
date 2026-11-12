@@ -8,7 +8,7 @@ tags: ["pohdiskelua", "projekti", "tapaaminen", "tapaaminen.net"]
 aliases: ["/tapaaminen-net-kehitysblogi/"]
 ---
 
-[Podcastissani](/2015/024-podcastday-pitkasta-aikaa-eetterissa) uhkasin ja lupasin alkaa kehittämään [Tapaaminen.netistä](http://tapaaminen.net) uutta versiota, jossa onkin hyvä kasa ominaisuuksia ja muutenkin tehdään hommia fiksummin. Alankin pitää täällä blogin puolella kehitysblogia siitä miten homma etenee ja mitä sinne on tulossa sekä kuvankaappauksia yms. mukavaa. Tekaisin tänne blogiin ihan tätä varten oman [kategorian](/kategoria/tapaaminen.net), josta sitten löytyy nämä Tapaaminen.net kehittämiseen liittyvät postaukset. Kootaankin tähän alle hieman, että missä mennään nyt!
+[Podcastissani](/2015/024-podcastday-pitkasta-aikaa-eetterissa) uhkasin ja lupasin alkaa kehittämään [Tapaaminen.netistä](http://tapaaminen.net) uutta versiota, jossa onkin hyvä kasa ominaisuuksia ja muutenkin tehdään hommia fiksummin. Alankin pitää täällä blogin puolella kehitysblogia siitä miten homma etenee ja mitä sinne on tulossa sekä kuvankaappauksia yms. mukavaa. Tekaisin tänne blogiin ihan tätä varten oman [kategorian](/avainsana/tapaaminen.net), josta sitten löytyy nämä Tapaaminen.net kehittämiseen liittyvät postaukset. Kootaankin tähän alle hieman, että missä mennään nyt!
 
 ## Slack
 
