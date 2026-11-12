@@ -4,7 +4,7 @@ date: 2026-11-12T06:47:00
 description: "Blogin uudistuksen myötä selailin vanhoja artikkeleita ja päätin tuoda osan jutuista takaisin: perjantaipohdinnan, joulukalenterin ja testailut."
 categories: ["Blogi"]
 tags: ["blogi", "uudistus", "vanhat jutut", "perjantaipohdinta", "joulukalenteri", "marko testaa", "testaus", "kokeilut", "bloggaaminen", "nostalgia", "arkisto"]
-# mastodon_post_id: ""
+mastodon_post_id: "117601661376232956"
 ---
 
 Blogi uudistui ja ajattelin samalla tuoda jotain vanhaakin takaisin tänne blogiin. Ehkä jotain uuttakin voisi keksiä vielä.
