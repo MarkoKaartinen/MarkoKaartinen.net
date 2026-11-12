@@ -33,6 +33,32 @@ Komento ei ylikirjoita olemassa olevaa tiedostoa. Sama ilman apukomentoa: `hugo 
 
 Kun sisältö on valmis, poista front matterista `draft: true`. Artikkelin `date` on julkaisuaika (`2026-11-09T08:30:00`, ilman aikavyöhykettä). Jos artikkelista on postaus Mastodonissa, lisää sen tunnus kenttään `mastodon_post_id`, niin keskustelu näkyy artikkelin kommentteina.
 
+### Kategorian valinta
+
+Artikkelilla on täsmälleen yksi kategoria (`categories: ["Mobiili"]`), ja nimi kirjoitetaan täsmälleen alla olevassa muodossa. Tarkempi aihe, laite, merkki ja julkaisumuoto kirjataan avainsanoiksi (`tags`).
+
+Kategoriat: Elämä, Matkat, Mobiili, Tietokoneet, Vempaimet, Internet, Pelit, Koodaus, Kotilabra, Kulisseissa, Marko testaa, Podcastit ja vlogit, Kuulumiset, Huumori ja Joulu.
+
+Valitse ensimmäinen, joka sopii:
+
+1. Tämän blogin omat uudistukset, tekniikka ja ilmoitukset: Kulisseissa.
+2. Kotipalvelin, oman kodin verkko ja älykoti: Kotilabra. Julkisen verkkopalvelun tai instanssin (Mastodon, Lemmy) ylläpito ja pelkkä käyttö: Internet.
+3. Testi, kokeilu tai arvio laitteesta, palvelusta, sovelluksesta tai pelistä: Marko testaa. Laite jää avainsanaksi.
+4. Podcast-jakso tai videoblogi: Podcastit ja vlogit.
+5. Joulukalenteri, joulutervehdys tai muu selvästi jouluun liittyvä juttu: Joulu.
+6. Perjantaipohdinta, tilapäivitys, vuosikatsaus ja muut kuulumiset: Kuulumiset.
+7. Vitsit, meemit, sarjakuvat ja hauskat videot: Huumori.
+8. Matkakertomukset: Matkat.
+9. Kehitystyö ja omat verkkoprojektit: Koodaus. Tekoäly vain, jos artikkeli käsittelee kehitystyötä, muuten Internet.
+10. Pelin sisältö, konsolit ja mobiilipelit: Pelit. Pelitietokone ja komponentit: Tietokoneet.
+11. Puhelimet, tabletit, älykellot ja mobiilisovellukset: Mobiili.
+12. PC, Mac, käyttöjärjestelmät, hiiret ja näppäimistöt: Tietokoneet.
+13. Muut lisälaitteet (kamerat, äänilaitteet, 3D-tulostus): Vempaimet.
+14. Verkkopalvelut, some ja tietoturva: Internet.
+15. Kaikki muu: Elämä.
+
+Kategoriasivujen kuvaukset ovat tiedostoissa `content/categories/{slug}/_index.md`. Vanhat kategoriaosoitteet ohjataan tiedostolla `data/ohjaukset.toml`.
+
 ## Julkaisu ja Mastodon
 
 GitHub Actions -workflow rakentaa ja julkaisee sivun sekä postaa uudet artikkelit Mastodoniin. Ajo käynnistyy pushista `main`-haaraan, ajastettuna (cron) ja käsin. Postauksen tekee `scripts/mastodon-post.py`, joka kirjoittaa postauksen tunnuksen artikkelin front matteriin.
