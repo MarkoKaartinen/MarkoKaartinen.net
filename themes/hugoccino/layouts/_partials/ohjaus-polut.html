@@ -1,0 +1,1 @@
+{{- $p := slice }}{{ range site.Pages }}{{ $p = $p | append .RelPermalink }}{{ end }}{{ return $p }}

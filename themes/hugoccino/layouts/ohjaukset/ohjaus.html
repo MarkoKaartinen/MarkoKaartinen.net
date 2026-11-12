@@ -1,0 +1,5 @@
+{{- $to := .Params.ohjaus }}
+{{- $polut := partialCached "ohjaus-polut.html" . }}
+{{- if not (in $polut (printf "%s/" $to)) }}{{ errorf "Ohjaus %s: kohdetta %s ei ole" .Title $to }}{{ end }}
+{{- if in $polut .RelPermalink }}{{ errorf "Ohjaus %s: osoitteessa on oikea sivu, poista rivi data/ohjaukset.toml:sta" .Title }}{{ end -}}
+<!doctype html><html lang="fi"><head><title>{{ $to }}</title><link rel="canonical" href="{{ $to | absURL }}"><meta name="robots" content="noindex"><meta charset="utf-8"><meta http-equiv="refresh" content="0; url={{ $to }}"></head></html>

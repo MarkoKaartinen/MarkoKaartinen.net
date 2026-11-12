@@ -1,0 +1,10 @@
+{{- range $from, $to := hugo.Data.ohjaukset }}
+  {{- $.AddPage (dict
+    "path" (strings.TrimPrefix "/" $from | replaceRE "/" "-")
+    "title" $from
+    "url" (printf "%s/" $from)
+    "layout" "ohjaus"
+    "params" (dict "ohjaus" $to)
+    "build" (dict "list" "never" "render" "always")
+  ) }}
+{{- end }}
