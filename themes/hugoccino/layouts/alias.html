@@ -1,0 +1,12 @@
+{{- /* Aliasohjaus: kohteena sivun virallinen osoite ilman loppukauttaviivaa. Konteksti: .Permalink (kohde) ja .Page. */ -}}
+{{- $to := partial "canonical.html" .Page -}}
+<!doctype html>
+<html lang="fi">
+<head>
+<title>{{ $to }}</title>
+<link rel="canonical" href="{{ $to }}">
+<meta name="robots" content="noindex">
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="0; url={{ $to }}">
+</head>
+</html>
