@@ -43,7 +43,7 @@
       {{- end -}}
     {{- end -}}
     {{- $meta := $page.Date.Format "2006-01-02" -}}
-    {{- with index ($page.Params.categories | default slice) 0 }}{{ if ne . "Blogi" }}{{ $meta = printf "%s  ·  %s" $meta . }}{{ end }}{{ end -}}
+    {{- with index ($page.Params.categories | default slice) 0 }}{{ $meta = printf "%s  ·  %s" $meta . }}{{ end -}}
     {{- if eq $page.Type "resepti" }}{{ $meta = printf "%s  ·  resepti" $meta }}{{ end -}}
     {{- $filters = $filters | append (images.Text $meta (dict "color" "#7f849c" "size" 30 "x" 72 "y" 565 "font" $font)) -}}
     {{- $out = ($bg.Filter $filters).Process "jpg q90" -}}

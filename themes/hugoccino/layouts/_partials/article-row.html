@@ -7,7 +7,7 @@
   <p class="mt-0.5 flex flex-wrap items-center gap-x-2 font-mono text-xs text-meta">
     <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
     {{- range .GetTerms $catKey }}
-      {{- if ne .LinkTitle "Blogi" }}<span class="text-surface2 max-sm:hidden" aria-hidden="true">·</span><a href="{{ .RelPermalink }}" class="tap text-peach hover:text-yellow">{{ .LinkTitle }}</a>{{ end }}
+      <span class="text-surface2 max-sm:hidden" aria-hidden="true">·</span><a href="{{ .RelPermalink }}" class="tap text-peach hover:text-yellow">{{ .LinkTitle }}</a>
     {{- end }}
     {{- with .GetTerms $tagKey }}
     <span class="text-surface2 max-sm:hidden" aria-hidden="true">·</span>

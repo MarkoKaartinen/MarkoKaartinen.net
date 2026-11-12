@@ -89,7 +89,7 @@
     var meta = [];
     if (data.meta && data.meta.pvm) meta.push(data.meta.pvm);
     var cat = data.filters && data.filters.kategoria;
-    if (cat) meta.push([].concat(cat).filter(function (c) { return c !== 'Blogi'; }).join(', '));
+    if (cat) meta.push([].concat(cat).join(', '));
     meta = meta.filter(Boolean);
     if (meta.length) li.appendChild(el('p', 'mt-0.5 font-mono text-xs text-meta', meta.join(' · ')));
 
