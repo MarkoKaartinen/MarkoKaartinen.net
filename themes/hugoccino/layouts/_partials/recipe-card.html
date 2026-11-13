@@ -10,7 +10,7 @@
   {{- end }}
   <div class="flex flex-1 flex-col gap-1.5 p-4">
     <a href="{{ .RelPermalink }}" class="font-bold text-text after:absolute after:inset-0 group-hover:text-green">{{ .Title }}</a>
-    {{- with .Description }}<p class="line-clamp-2 text-sm leading-snug text-subtext0">{{ . }}</p>{{ end }}
+    {{- with .Description }}<p class="line-clamp-2 text-sm leading-snug text-subtext1">{{ . }}</p>{{ end }}
     <p class="mt-auto flex flex-wrap items-center gap-x-2 gap-y-2 pt-1 font-mono text-xs text-meta">
       {{- range .GetTerms "recipe_categories" }}<a href="{{ .RelPermalink }}" class="tap relative z-10 text-peach hover:text-yellow">{{ .LinkTitle }}</a>{{ end }}
       {{- with .GetTerms "recipe_tags" }}

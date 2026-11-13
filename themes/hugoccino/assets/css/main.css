@@ -29,6 +29,29 @@
   --ctp-overlay2: #7c7f93;
   --ctp-overlay1: #8c8fa1;
   --ctp-meta: var(--ctp-subtext1);
+  /* Latten aksentit eivät riitä tekstinä: käytetään paletin tummempia värejä */
+  --ctp-peach-text: #c60d35; /* oma, hieman tummennettu red (kontrasti mantlella 4,9) */
+  --ctp-blue-text: var(--ctp-mauve);
+  --ctp-teal-text: var(--ctp-subtext1);
+  --ctp-lavender-text: var(--ctp-subtext1);
+  --ctp-link-on-mantle: var(--ctp-text);
+  --ctp-subtext0-text: var(--ctp-subtext1);
+  /* Koodin värit vaaleassa teemassa: omat tummennetut sävyt (kontrasti mantlella yli 4,5), AGENTS.md */
+  --code-blue: #0b57ef;
+  --code-green: #2e741f;
+  --code-mauve: #8432ee;
+  --code-peach: #b24101;
+  --code-pink: #ba1c90;
+  --code-red: #cb0e37;
+  --code-rosewater: #ad442d;
+  --code-sky: #036d97;
+  --code-yellow: #8e5a12;
+  --code-overlay1: var(--ctp-subtext1);
+  --code-overlay2: var(--ctp-subtext1);
+  --mark-bg: color-mix(in srgb, var(--ctp-yellow) 30%, var(--ctp-base));
+  --mark-fg: var(--ctp-text);
+  --alert-title: var(--ctp-text);
+  --ctp-prompt-text: #0a52e0; /* oma, tummennettu blue kehotteen polulle (kontrasti crustilla 4,8) */
   --ctp-overlay0: #9ca0b0;
   --ctp-surface2: #acb0be;
   --ctp-surface1: #bcc0cc;
@@ -61,6 +84,27 @@
     --ctp-overlay2: #9399b2;
     --ctp-overlay1: #7f849c;
     --ctp-meta: var(--ctp-overlay2);
+    --ctp-peach-text: var(--ctp-peach);
+    --ctp-blue-text: var(--ctp-blue);
+    --ctp-teal-text: var(--ctp-teal);
+    --ctp-lavender-text: var(--ctp-lavender);
+    --ctp-prompt-text: var(--ctp-blue);
+    --ctp-link-on-mantle: var(--ctp-blue);
+    --ctp-subtext0-text: var(--ctp-subtext0);
+    --code-blue: var(--ctp-blue);
+    --code-green: var(--ctp-green);
+    --code-mauve: var(--ctp-mauve);
+    --code-peach: var(--ctp-peach);
+    --code-pink: var(--ctp-pink);
+    --code-red: var(--ctp-red);
+    --code-rosewater: var(--ctp-rosewater);
+    --code-sky: var(--ctp-sky);
+    --code-yellow: var(--ctp-yellow);
+    --code-overlay1: var(--ctp-overlay1);
+    --code-overlay2: var(--ctp-overlay2);
+    --mark-bg: var(--ctp-yellow);
+    --mark-fg: var(--ctp-base);
+    --alert-title: initial;
     --ctp-overlay0: #6c7086;
     --ctp-surface2: #585b70;
     --ctp-surface1: #45475a;
@@ -93,6 +137,27 @@
   --ctp-overlay2: #9399b2;
   --ctp-overlay1: #7f849c;
   --ctp-meta: var(--ctp-overlay2);
+  --ctp-peach-text: var(--ctp-peach);
+  --ctp-blue-text: var(--ctp-blue);
+  --ctp-teal-text: var(--ctp-teal);
+  --ctp-lavender-text: var(--ctp-lavender);
+  --ctp-prompt-text: var(--ctp-blue);
+  --ctp-link-on-mantle: var(--ctp-blue);
+  --ctp-subtext0-text: var(--ctp-subtext0);
+  --code-blue: var(--ctp-blue);
+  --code-green: var(--ctp-green);
+  --code-mauve: var(--ctp-mauve);
+  --code-peach: var(--ctp-peach);
+  --code-pink: var(--ctp-pink);
+  --code-red: var(--ctp-red);
+  --code-rosewater: var(--ctp-rosewater);
+  --code-sky: var(--ctp-sky);
+  --code-yellow: var(--ctp-yellow);
+  --code-overlay1: var(--ctp-overlay1);
+  --code-overlay2: var(--ctp-overlay2);
+  --mark-bg: var(--ctp-yellow);
+  --mark-fg: var(--ctp-base);
+  --alert-title: initial;
   --ctp-overlay0: #6c7086;
   --ctp-surface2: #585b70;
   --ctp-surface1: #45475a;
@@ -110,17 +175,18 @@
   --color-mauve: var(--ctp-mauve);
   --color-red: var(--ctp-red);
   --color-maroon: var(--ctp-maroon);
-  --color-peach: var(--ctp-peach);
+  --color-peach: var(--ctp-peach-text);
   --color-yellow: var(--ctp-yellow);
   --color-green: var(--ctp-green);
-  --color-teal: var(--ctp-teal);
+  --color-teal: var(--ctp-teal-text);
   --color-sky: var(--ctp-sky);
   --color-sapphire: var(--ctp-sapphire);
-  --color-blue: var(--ctp-blue);
-  --color-lavender: var(--ctp-lavender);
+  --color-blue: var(--ctp-blue-text);
+  --color-lavender: var(--ctp-lavender-text);
+  --color-prompt: var(--ctp-prompt-text);
   --color-text: var(--ctp-text);
   --color-subtext1: var(--ctp-subtext1);
-  --color-subtext0: var(--ctp-subtext0);
+  --color-subtext0: var(--ctp-subtext0-text);
   --color-overlay2: var(--ctp-overlay2);
   --color-overlay1: var(--ctp-overlay1);
   --color-meta: var(--ctp-meta);
@@ -203,12 +269,15 @@
     color: var(--ctp-overlay0);
   }
   .sisalto a {
-    color: var(--ctp-blue);
+    color: var(--ctp-blue-text);
     text-decoration: underline;
     text-underline-offset: 3px;
   }
   .sisalto a:hover {
     color: var(--ctp-sky);
+  }
+  .sisalto .alert a {
+    color: var(--ctp-link-on-mantle);
   }
   .sisalto ul {
     list-style: disc;
@@ -315,7 +384,7 @@
     margin-top: 0.5rem;
     font-family: var(--font-mono);
     font-size: 0.8125rem;
-    color: var(--ctp-subtext0);
+    color: var(--ctp-subtext1);
     text-align: center;
   }
   .sisalto iframe {
@@ -353,8 +422,8 @@
     font-family: var(--font-mono);
   }
   .sisalto mark {
-    background-color: var(--ctp-yellow);
-    color: var(--ctp-base);
+    background-color: var(--mark-bg);
+    color: var(--mark-fg);
     padding: 0 0.2em;
     border-radius: 0.15rem;
   }
@@ -476,7 +545,7 @@
     min-width: 100%;
     padding: 0.4rem 0.75rem;
     border-bottom: 1px solid var(--ctp-surface0);
-    color: var(--ctp-overlay1);
+    color: var(--ctp-meta);
     font-family: var(--font-mono);
     font-size: 0.75rem;
     line-height: 1.2;
@@ -502,7 +571,7 @@
   }
   .sisalto .kuva-koko {
     flex: none;
-    color: var(--ctp-overlay0);
+    color: var(--ctp-meta);
   }
   .sisalto figure.kuva figcaption {
     margin: 0;
@@ -525,7 +594,7 @@
   }
   .sisalto .footnotes {
     font-size: 0.9375rem;
-    color: var(--ctp-subtext0);
+    color: var(--ctp-subtext1);
   }
 }
 
@@ -713,7 +782,7 @@ button:hover > .kbd-quiet {
   border: 1px solid var(--ctp-surface1);
   border-radius: 0.25rem;
   background-color: var(--ctp-surface0);
-  color: var(--ctp-subtext0);
+  color: var(--ctp-text);
   font-family: var(--font-mono);
   font-size: 0.6875rem;
   opacity: 0;
@@ -834,7 +903,7 @@ button:hover > .kbd-quiet {
   margin-top: 0.15rem;
   font-family: var(--font-mono);
   font-size: 0.75rem;
-  color: var(--ctp-teal);
+  color: var(--ctp-teal-text);
 }
 .masto-boost svg {
   width: 0.875rem;
@@ -874,7 +943,7 @@ button:hover > .kbd-quiet {
   padding: 0.35rem 0;
   border: 0;
   background: none;
-  color: var(--ctp-blue);
+  color: var(--ctp-blue-text);
   min-height: 1.5rem;
   font-family: var(--font-mono);
   font-size: 0.75rem;
@@ -894,7 +963,7 @@ button:hover > .kbd-quiet {
   margin-top: 0.6rem;
 }
 .masto-text a {
-  color: var(--ctp-blue);
+  color: var(--ctp-blue-text);
   text-decoration: underline;
   text-underline-offset: 2px;
   overflow-wrap: anywhere;
@@ -904,7 +973,7 @@ button:hover > .kbd-quiet {
 }
 .masto-text a.mention,
 .masto-text a.hashtag {
-  color: var(--ctp-lavender);
+  color: var(--ctp-lavender-text);
   text-decoration: underline dotted;
   text-underline-offset: 3px;
   display: inline-block;
@@ -1067,6 +1136,17 @@ button:hover > .kbd-quiet {
 /* Koodin syntaksiväritys (Chroma), Catppuccinin värein */
 .chroma {
   color: var(--ctp-text);
+  --ctp-blue: var(--code-blue);
+  --ctp-green: var(--code-green);
+  --ctp-mauve: var(--code-mauve);
+  --ctp-peach: var(--code-peach);
+  --ctp-pink: var(--code-pink);
+  --ctp-red: var(--code-red);
+  --ctp-rosewater: var(--code-rosewater);
+  --ctp-sky: var(--code-sky);
+  --ctp-yellow: var(--code-yellow);
+  --ctp-overlay1: var(--code-overlay1);
+  --ctp-overlay2: var(--code-overlay2);
 }
 .chroma .line {
   display: block;
@@ -1320,7 +1400,7 @@ button:hover > .kbd-quiet {
 }
 .sisalto .alert-title {
   margin: 0 0 0.25rem;
-  color: var(--alert);
+  color: var(--alert-title, var(--alert));
   font-family: var(--font-mono);
   font-size: 0.8125rem;
   font-weight: 700;

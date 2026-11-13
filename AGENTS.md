@@ -14,6 +14,7 @@ MarkoKaartinen.net blogin staattinen Hugo-versio. Korvaa vanhan Laravel-version 
 - Artikkelit: `content/{vuosi}/{slug}/index.md`, kuvat samassa kansiossa (page bundle).
 - Tiedostonimet slugattuna (ei ä/ö/å, ei välilyöntejä).
 - Teema on oma, Tailwind. Värit ovat [Catppuccinin](https://catppuccin.com/palette/) viralliset: tumma on Mocha ja vaalea Latte. Käytä vain paletin virallisia värejä ja niiden nimiä (esim. `base`, `text`, `mauve`) äläkä keksi omia sävyjä.
+- Poikkeus: Latten (vaalea) aksenttivärit eivät kaikki riitä tekstinä WCAG AA -kontrastiin (4,5:1). Esteettömyyden vuoksi vaaleassa teemassa on omia tummennettuja sävyjä `main.css`:ssä: `--ctp-peach-text` (kategorialinkit), `--ctp-prompt-text` (kehotteen polku), `--code-*` (koodin syntaksikorostus, vain `.chroma`-alueella) ja `--mark-bg`/`--mark-fg` (korostettu teksti). Tumma teema käyttää Mochan virallisia värejä. Uusia omia sävyjä ei saa lisätä ilman käyttäjän suoraa käskyä.
 
 ## Kategoriat
 
