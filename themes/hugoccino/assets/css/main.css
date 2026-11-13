@@ -870,11 +870,12 @@ button:hover > .kbd-quiet {
 }
 .masto-more {
   display: inline-block;
-  margin-top: 0.35rem;
-  padding: 0;
+  margin-top: 0;
+  padding: 0.35rem 0;
   border: 0;
   background: none;
   color: var(--ctp-blue);
+  min-height: 1.5rem;
   font-family: var(--font-mono);
   font-size: 0.75rem;
   cursor: pointer;
@@ -906,6 +907,9 @@ button:hover > .kbd-quiet {
   color: var(--ctp-lavender);
   text-decoration: underline dotted;
   text-underline-offset: 3px;
+  display: inline-block;
+  padding-block: 0.4rem;
+  margin-block: -0.4rem;
 }
 .masto-text .invisible {
   display: none;

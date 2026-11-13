@@ -2,16 +2,16 @@
 {{- $isRecipe := eq .Type "resepti" }}
 {{- $tagKey := cond $isRecipe "recipe_tags" "tags" }}
 {{- $catKey := cond $isRecipe "recipe_categories" "categories" }}
-<li data-g="|{{ range .GetTerms $tagKey }}{{ lower .LinkTitle }}|{{ end }}" data-c="|{{ range .GetTerms $catKey }}{{ lower .LinkTitle }}|{{ end }}" class="py-2.5">
+<li data-g="|{{ range .GetTerms $tagKey }}{{ lower .LinkTitle }}|{{ end }}" data-c="|{{ range .GetTerms $catKey }}{{ lower .LinkTitle }}|{{ end }}" class="py-2">
   <a href="{{ .RelPermalink }}" class="tap text-text hover:text-mauve">{{ .Title }}</a>
-  <p class="mt-0.5 flex flex-wrap items-center gap-x-2 font-mono text-xs text-meta">
+  <p class="mt-2 flex flex-wrap items-center gap-x-2 gap-y-2 font-mono text-xs text-meta">
     <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
     {{- range .GetTerms $catKey }}
       <span class="text-surface2 max-sm:hidden" aria-hidden="true">·</span><a href="{{ .RelPermalink }}" class="tap text-peach hover:text-yellow">{{ .LinkTitle }}</a>
     {{- end }}
     {{- with .GetTerms $tagKey }}
     <span class="text-surface2 max-sm:hidden" aria-hidden="true">·</span>
-    <span class="flex flex-wrap gap-x-2">{{ range first 3 . }}<a href="{{ .RelPermalink }}" class="tap text-teal hover:text-sky">#{{ lower .LinkTitle }}</a>{{ end }}</span>
+    <span class="flex flex-wrap gap-x-2 gap-y-2">{{ range first 3 . }}<a href="{{ .RelPermalink }}" class="tap text-teal hover:text-sky">#{{ lower .LinkTitle }}</a>{{ end }}</span>
     {{- end }}
   </p>
 </li>
