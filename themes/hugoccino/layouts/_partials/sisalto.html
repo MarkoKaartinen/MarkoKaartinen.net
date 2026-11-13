@@ -1,0 +1,2 @@
+{{- /* Sivun sisältö. Markdownin tehtävälistan valintaruuduille (disabled) ei synny nimeä, joten lisätään tila aria-labelina. */ -}}
+{{- .Content | replaceRE `<input checked="" disabled="" type="checkbox">` `<input checked="" disabled="" type="checkbox" aria-label="Tehty">` | replaceRE `<input disabled="" type="checkbox">` `<input disabled="" type="checkbox" aria-label="Ei tehty">` | safeHTML -}}
