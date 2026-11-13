@@ -34,20 +34,20 @@ Muuta pientä: jokaisella otsikolla on ankkuri (hiiren päällä näkyy linkki-i
 Värit ovat [Catppuccinin](https://catppuccin.com/palette/) virallisia: vaalea teema on Latte ja tumma Mocha. Teema seuraa laitteen asetusta, ja <kbd class="kbd">t</kbd> vaihtaa sen käsin.
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(6.5rem,1fr));gap:0.5rem;margin:1.5rem 0">
-<div style="background:var(--ctp-rosewater);color:var(--ctp-crust);padding:0.75rem 0.5rem;border-radius:0.375rem;font:0.75rem var(--font-mono)">rosewater</div>
-<div style="background:var(--ctp-flamingo);color:var(--ctp-crust);padding:0.75rem 0.5rem;border-radius:0.375rem;font:0.75rem var(--font-mono)">flamingo</div>
-<div style="background:var(--ctp-pink);color:var(--ctp-crust);padding:0.75rem 0.5rem;border-radius:0.375rem;font:0.75rem var(--font-mono)">pink</div>
-<div style="background:var(--ctp-mauve);color:var(--ctp-crust);padding:0.75rem 0.5rem;border-radius:0.375rem;font:0.75rem var(--font-mono)">mauve</div>
-<div style="background:var(--ctp-red);color:var(--ctp-crust);padding:0.75rem 0.5rem;border-radius:0.375rem;font:0.75rem var(--font-mono)">red</div>
-<div style="background:var(--ctp-maroon);color:var(--ctp-crust);padding:0.75rem 0.5rem;border-radius:0.375rem;font:0.75rem var(--font-mono)">maroon</div>
-<div style="background:var(--ctp-peach);color:var(--ctp-crust);padding:0.75rem 0.5rem;border-radius:0.375rem;font:0.75rem var(--font-mono)">peach</div>
-<div style="background:var(--ctp-yellow);color:var(--ctp-crust);padding:0.75rem 0.5rem;border-radius:0.375rem;font:0.75rem var(--font-mono)">yellow</div>
-<div style="background:var(--ctp-green);color:var(--ctp-crust);padding:0.75rem 0.5rem;border-radius:0.375rem;font:0.75rem var(--font-mono)">green</div>
-<div style="background:var(--ctp-teal);color:var(--ctp-crust);padding:0.75rem 0.5rem;border-radius:0.375rem;font:0.75rem var(--font-mono)">teal</div>
-<div style="background:var(--ctp-sky);color:var(--ctp-crust);padding:0.75rem 0.5rem;border-radius:0.375rem;font:0.75rem var(--font-mono)">sky</div>
-<div style="background:var(--ctp-sapphire);color:var(--ctp-crust);padding:0.75rem 0.5rem;border-radius:0.375rem;font:0.75rem var(--font-mono)">sapphire</div>
-<div style="background:var(--ctp-blue);color:var(--ctp-crust);padding:0.75rem 0.5rem;border-radius:0.375rem;font:0.75rem var(--font-mono)">blue</div>
-<div style="background:var(--ctp-lavender);color:var(--ctp-crust);padding:0.75rem 0.5rem;border-radius:0.375rem;font:0.75rem var(--font-mono)">lavender</div>
+<div style="font:0.75rem var(--font-mono)"><div style="background:var(--ctp-rosewater);height:2.5rem;border-radius:0.375rem;margin-bottom:0.35rem"></div>rosewater</div>
+<div style="font:0.75rem var(--font-mono)"><div style="background:var(--ctp-flamingo);height:2.5rem;border-radius:0.375rem;margin-bottom:0.35rem"></div>flamingo</div>
+<div style="font:0.75rem var(--font-mono)"><div style="background:var(--ctp-pink);height:2.5rem;border-radius:0.375rem;margin-bottom:0.35rem"></div>pink</div>
+<div style="font:0.75rem var(--font-mono)"><div style="background:var(--ctp-mauve);height:2.5rem;border-radius:0.375rem;margin-bottom:0.35rem"></div>mauve</div>
+<div style="font:0.75rem var(--font-mono)"><div style="background:var(--ctp-red);height:2.5rem;border-radius:0.375rem;margin-bottom:0.35rem"></div>red</div>
+<div style="font:0.75rem var(--font-mono)"><div style="background:var(--ctp-maroon);height:2.5rem;border-radius:0.375rem;margin-bottom:0.35rem"></div>maroon</div>
+<div style="font:0.75rem var(--font-mono)"><div style="background:var(--ctp-peach);height:2.5rem;border-radius:0.375rem;margin-bottom:0.35rem"></div>peach</div>
+<div style="font:0.75rem var(--font-mono)"><div style="background:var(--ctp-yellow);height:2.5rem;border-radius:0.375rem;margin-bottom:0.35rem"></div>yellow</div>
+<div style="font:0.75rem var(--font-mono)"><div style="background:var(--ctp-green);height:2.5rem;border-radius:0.375rem;margin-bottom:0.35rem"></div>green</div>
+<div style="font:0.75rem var(--font-mono)"><div style="background:var(--ctp-teal);height:2.5rem;border-radius:0.375rem;margin-bottom:0.35rem"></div>teal</div>
+<div style="font:0.75rem var(--font-mono)"><div style="background:var(--ctp-sky);height:2.5rem;border-radius:0.375rem;margin-bottom:0.35rem"></div>sky</div>
+<div style="font:0.75rem var(--font-mono)"><div style="background:var(--ctp-sapphire);height:2.5rem;border-radius:0.375rem;margin-bottom:0.35rem"></div>sapphire</div>
+<div style="font:0.75rem var(--font-mono)"><div style="background:var(--ctp-blue);height:2.5rem;border-radius:0.375rem;margin-bottom:0.35rem"></div>blue</div>
+<div style="font:0.75rem var(--font-mono)"><div style="background:var(--ctp-lavender);height:2.5rem;border-radius:0.375rem;margin-bottom:0.35rem"></div>lavender</div>
 </div>
 
 Leipäteksti on Atkinson Hyperlegible Next ja koodi sekä meta JetBrains Mono. Fontit ja skriptit tulevat samalta palvelimelta, ei ulkoisia fontti- tai skriptipalveluita.
