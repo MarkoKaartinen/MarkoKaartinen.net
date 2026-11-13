@@ -373,6 +373,10 @@
       toTop.hidden = window.scrollY < 300;
       toTop.toggleAttribute('data-away', atEnd);
       if (ascii) ascii.toggleAttribute('data-away', atEnd);
+    };
+    // Nappi nostetaan ylemmäs, kun lukuetenemän merkkijono näkyy. Näkyvyys riippuu vain näytön koosta, joten
+    // se luetaan vain alussa ja koon muuttuessa (getComputedStyle pakottaa asettelun laskemisen, ei joka vierityksellä)
+    var updateLift = function () {
       if (ascii && getComputedStyle(ascii).display !== 'none') toTop.setAttribute('data-lift', '');
       else toTop.removeAttribute('data-lift');
     };
@@ -384,12 +388,13 @@
       }).observe(pageFooter);
     }
     window.addEventListener('scroll', updateTop, { passive: true });
-    window.addEventListener('resize', updateTop);
+    window.addEventListener('resize', function () { updateTop(); updateLift(); });
     toTop.addEventListener('click', function () {
       var calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       window.scrollTo({ top: 0, behavior: calm ? 'auto' : 'smooth' });
     });
     updateTop();
+    updateLift();
   }
 
   // ---------- "lisää"-valikko ----------
