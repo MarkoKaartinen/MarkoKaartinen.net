@@ -9,5 +9,5 @@
   {{- with .Description }}
   <p class="mt-1 text-subtext1 line-clamp-3">{{ . }}</p>
   {{- end }}
-  <a href="{{ .RelPermalink }}" class="mt-2 inline-flex items-center gap-1 font-mono text-sm text-blue hover:text-sapphire">Lue lisää {{ partial "icon.html" (dict "name" "lucide/arrow-right" "class" "size-4") }}</a>
+  <a href="{{ .RelPermalink }}" aria-hidden="true" tabindex="-1" class="mt-2 inline-flex items-center gap-1 font-mono text-sm text-blue hover:text-sapphire">Lue lisää {{ partial "icon.html" (dict "name" "lucide/arrow-right" "class" "size-4") }}</a>
 </li>

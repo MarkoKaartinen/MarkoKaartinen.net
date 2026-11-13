@@ -14,7 +14,7 @@
     <p class="mt-auto flex flex-wrap items-center gap-x-2 gap-y-2 pt-1 font-mono text-xs text-meta">
       {{- range .GetTerms "recipe_categories" }}<a href="{{ .RelPermalink }}" class="tap relative z-10 text-peach hover:text-yellow">{{ .LinkTitle }}</a>{{ end }}
       {{- with .GetTerms "recipe_tags" }}
-      <span class="flex flex-wrap gap-x-2 gap-y-2">{{ range first 3 . }}<a href="{{ .RelPermalink }}" class="tap relative z-10 text-teal hover:text-sky">#{{ lower .LinkTitle }}</a>{{ end }}</span>
+      <span class="flex flex-wrap gap-x-2 gap-y-2">{{ range first 3 . }}<a href="{{ .RelPermalink }}" aria-label="avainsana #{{ lower .LinkTitle }}" class="tap relative z-10 text-teal hover:text-sky">#{{ lower .LinkTitle }}</a>{{ end }}</span>
       {{- end }}
     </p>
   </div>

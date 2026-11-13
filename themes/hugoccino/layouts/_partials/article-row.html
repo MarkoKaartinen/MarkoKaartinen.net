@@ -11,7 +11,7 @@
     {{- end }}
     {{- with .GetTerms $tagKey }}
     <span class="text-surface2 max-sm:hidden" aria-hidden="true">·</span>
-    <span class="flex flex-wrap gap-x-2 gap-y-2">{{ range first 3 . }}<a href="{{ .RelPermalink }}" class="tap text-teal hover:text-sky">#{{ lower .LinkTitle }}</a>{{ end }}</span>
+    <span class="flex flex-wrap gap-x-2 gap-y-2">{{ range first 3 . }}<a href="{{ .RelPermalink }}" aria-label="avainsana #{{ lower .LinkTitle }}" class="tap text-teal hover:text-sky">#{{ lower .LinkTitle }}</a>{{ end }}</span>
     {{- end }}
   </p>
 </li>
