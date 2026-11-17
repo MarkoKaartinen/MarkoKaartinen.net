@@ -44,6 +44,25 @@
       {{ partial "icon.html" (dict "name" "lucide/search" "class" "size-4") }}
     </button>
 
+    {{- /* Joulukauden asetukset (näkyy vain joulukaudella, ks. js/joulu.js): lumisade ja jouluvalot */ -}}
+    <div data-joulu-menu class="hidden">
+      <details data-menu class="flex items-stretch">
+        <summary class="flex cursor-pointer list-none items-center px-2 text-text" aria-label="Joulu: lumisade ja jouluvalot" title="Lumisade ja jouluvalot">
+          <span class="joulu-icon">
+            <span class="joulu-g joulu-g1" aria-hidden="true">{{ partial "icon.html" (dict "name" "lucide/snowflake" "class" "size-4") }}</span>
+            <span class="joulu-g joulu-g2" aria-hidden="true">{{ partial "icon.html" (dict "name" "lucide/snowflake" "class" "size-4") }}</span>
+            <span class="joulu-main">{{ partial "icon.html" (dict "name" "lucide/snowflake" "class" "size-4") }}</span>
+          </span>
+        </summary>
+        <div class="absolute right-0 top-full z-40 w-56 overflow-hidden text-[0.8125rem] rounded-b-md border border-t-0 border-surface1 bg-mantle shadow-lg">
+          <p class="border-b border-surface0 px-4 py-2 text-xs text-meta"><span class="select-none"># </span>joulu</p>
+          <button type="button" role="switch" aria-checked="false" data-joulu-toggle="snow" class="flex w-full items-center justify-between gap-6 px-4 py-2.5 text-left text-subtext1 hover:bg-surface0 disabled:opacity-60"><span>lumisade</span><span data-joulu-state class="joulu-state"></span></button>
+          <button type="button" role="switch" aria-checked="false" data-joulu-toggle="lights" class="flex w-full items-center justify-between gap-6 px-4 py-2.5 text-left text-subtext1 hover:bg-surface0"><span>jouluvalot</span><span data-joulu-state class="joulu-state"></span></button>
+          <button type="button" data-joulu-shovel class="flex w-full items-center justify-between gap-6 border-t border-surface0 px-4 py-2.5 text-left text-subtext1 hover:bg-surface0 disabled:opacity-50" disabled><span>kolaa lumet</span></button>
+        </div>
+      </details>
+    </div>
+
     <button id="theme-toggle" type="button" class="flex shrink-0 items-center p-2 text-subtext0 hover:text-text" aria-label="Vaihda tumman ja vaalean teeman välillä" title="Vaihda teemaa (t)">
       <span class="theme-sun">{{ partial "icon.html" (dict "name" "lucide/sun" "class" "size-4") }}</span>
       <span class="theme-moon">{{ partial "icon.html" (dict "name" "lucide/moon" "class" "size-4") }}</span>

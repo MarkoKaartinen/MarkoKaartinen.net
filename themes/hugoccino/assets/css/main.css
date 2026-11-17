@@ -1916,3 +1916,282 @@ html.modal-auki body {
 dialog[open] {
   overscroll-behavior: contain;
 }
+/* Lumisade koko sivulla */
+.joulu-snow {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  overflow: hidden;
+  pointer-events: none;
+}
+.joulu-flake {
+  position: absolute;
+  top: -10px;
+  border-radius: 50%;
+  background: var(--ctp-overlay2);
+  animation: joulu-fall linear infinite;
+}
+@keyframes joulu-fall {
+  to {
+    transform: translate(var(--dx, 0), calc(100vh + 20px));
+  }
+}
+
+/* Jouluvalot roikkuvat yläpalkista */
+.joulu-garland {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 29;
+  pointer-events: none;
+}
+.joulu-garland[data-on="false"] {
+  display: none;
+}
+.joulu-wire {
+  position: absolute;
+  top: 0;
+  left: 0;
+  fill: none;
+  stroke: var(--ctp-surface2);
+  stroke-width: 1.5;
+}
+.joulu-bulb {
+  position: absolute;
+  width: 8px;
+  height: 11px;
+  margin: 2px 0 0 -4px;
+  border-radius: 50% 50% 50% 50% / 38% 38% 62% 62%;
+  background: var(--c);
+  box-shadow: 0 0 8px 2px color-mix(in srgb, var(--c) 50%, transparent);
+}
+.joulu-bulb::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: -3px;
+  width: 4px;
+  height: 3px;
+  margin-left: -2px;
+  border-radius: 1px;
+  background: var(--ctp-surface2);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .joulu-bulb {
+    animation: joulu-twinkle 1.8s ease-in-out infinite;
+  }
+}
+@keyframes joulu-twinkle {
+  50% {
+    opacity: 0.45;
+  }
+}
+
+/* Yläpalkin lumihiutale välähtää harvakseltaan hetken punaisena ja sinisenä haamukuvana (glitch) */
+.joulu-icon {
+  position: relative;
+  display: inline-flex;
+}
+.joulu-main {
+  display: inline-flex;
+}
+.joulu-g {
+  position: absolute;
+  inset: 0;
+  display: none;
+  opacity: 0;
+  pointer-events: none;
+}
+.joulu-g1 {
+  color: var(--ctp-red);
+}
+.joulu-g2 {
+  color: var(--ctp-sky);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .joulu-g {
+    display: inline-flex;
+  }
+  .joulu-g1 {
+    animation: joulu-gl1 4.5s steps(1) infinite;
+  }
+  .joulu-g2 {
+    animation: joulu-gl2 4.5s steps(1) infinite;
+  }
+  .joulu-main {
+    animation: joulu-jit 4.5s steps(1) infinite;
+  }
+}
+@keyframes joulu-gl1 {
+  0%,
+  88% {
+    opacity: 0;
+  }
+  89% {
+    opacity: 1;
+    transform: translate(-2px, 0);
+    clip-path: inset(8% 0 58% 0);
+  }
+  92% {
+    opacity: 1;
+    transform: translate(1.5px, 0);
+    clip-path: inset(52% 0 12% 0);
+  }
+  95% {
+    opacity: 1;
+    transform: translate(-1.5px, 0);
+    clip-path: inset(30% 0 35% 0);
+  }
+  97%,
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes joulu-gl2 {
+  0%,
+  88% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+    transform: translate(2px, 0);
+    clip-path: inset(45% 0 20% 0);
+  }
+  93% {
+    opacity: 1;
+    transform: translate(-2px, 0);
+    clip-path: inset(5% 0 62% 0);
+  }
+  96% {
+    opacity: 1;
+    transform: translate(1.5px, 0);
+    clip-path: inset(60% 0 5% 0);
+  }
+  98%,
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes joulu-jit {
+  0%,
+  88% {
+    transform: none;
+  }
+  90% {
+    transform: translate(1px, 0);
+  }
+  93% {
+    transform: translate(-1px, 0);
+  }
+  96%,
+  100% {
+    transform: none;
+  }
+}
+
+/* Lumi kasaantuu hitaasti ikkunan alareunaan (SVG-kinos, jonka korkeus kasvaa), ja sen voi kolata pois */
+.joulu-pile {
+  --pile: var(--ctp-overlay1);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 39;
+  display: block;
+  height: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  pointer-events: none;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .joulu-pile {
+    --pile: var(--ctp-text);
+  }
+}
+:root[data-theme="dark"] .joulu-pile {
+  --pile: var(--ctp-text);
+}
+.joulu-pile[data-empty] {
+  visibility: hidden;
+}
+.joulu-pile svg {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.joulu-back {
+  z-index: 1;
+}
+.joulu-front {
+  z-index: 3;
+}
+/* Lapio seisoo pystyssä hangessa ja kolaa lumet napautuksesta */
+.joulu-lapio {
+  position: absolute;
+  left: 44px;
+  z-index: 2;
+  width: 52px;
+  height: 52px;
+  pointer-events: auto;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--ctp-peach);
+  cursor: pointer;
+}
+.joulu-lapio[hidden] {
+  display: none;
+}
+.joulu-pile .joulu-lapio svg {
+  position: static;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-24deg); /* vinossa hangessa: varsi nojaa hieman oikealle */
+  transform-origin: 50% 100%;
+  transition: transform 0.2s;
+}
+.joulu-pile .joulu-lapio:hover svg,
+.joulu-pile .joulu-lapio:focus-visible svg {
+  transform: rotate(-14deg);
+}
+.joulu-lapio:focus-visible {
+  outline: 2px solid var(--ctp-peach);
+  outline-offset: 2px;
+}
+/* Lumiaura kolauksen aikana */
+.joulu-plow {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 41;
+  width: 64px;
+  height: 32px;
+  pointer-events: none;
+}
+.joulu-plow svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.joulu-beacon {
+  animation: joulu-beacon 0.5s steps(1) infinite;
+}
+@keyframes joulu-beacon {
+  50% {
+    opacity: 0.2;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .joulu-plow svg {
+    animation: joulu-rumble 0.16s linear infinite;
+  }
+}
+@keyframes joulu-rumble {
+  50% {
+    transform: translateY(-0.6px);
+  }
+}
