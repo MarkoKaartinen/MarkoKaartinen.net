@@ -4,7 +4,7 @@ date: 2026-11-17T08:00:00
 description: "Joulukalenteri tekee paluun ja talvi tuli myös blogiin: lumisade, jouluvalot ja kolattava lumikasa. Kalenteriin voi ehdottaa sisältöä."
 categories: ["Kulisseissa"]
 tags: ["joulukalenteri", "joulu", "lumisade", "jouluvalot", "blogi", "lumi"]
-# mastodon_post_id: ""
+mastodon_post_id: "117630261768667239"
 ---
 
 Kuten [aiemmin](/2026/jotain-uutta-ja-jotain-vanhaa) mainitsin niin joulukalenteri tekee paluun tälle vuodelle. Talvi tuli myös tänne blogin puolelle!
