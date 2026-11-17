@@ -53,4 +53,10 @@
         .catch(function () { /* 503 tai verkkovirhe: jätetään edellinen luku tai viiva */ });
     }
   }
+
+  // Modaalin (haku, luukku, lightbox) ollessa auki html-elementillä on luokka modal-auki, joka estää taustasivun vierityksen
+  function syncModalClass() {
+    document.documentElement.classList.toggle('modal-auki', !!document.querySelector('dialog[open]'));
+  }
+  new MutationObserver(syncModalClass).observe(document.documentElement, { attributes: true, attributeFilter: ['open'], subtree: true });
 })();

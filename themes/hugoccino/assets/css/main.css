@@ -1906,3 +1906,13 @@ button:hover > .kbd-quiet {
   stroke-dasharray: 100;
   stroke-dashoffset: 100;
 }
+
+/* Kun modaali (luukku, lightbox, haku) on auki, site.js lisää html-elementille luokan modal-auki: taustasivu ei vieritä */
+html.modal-auki,
+html.modal-auki body {
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+dialog[open] {
+  overscroll-behavior: contain;
+}
