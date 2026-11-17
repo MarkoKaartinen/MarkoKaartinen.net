@@ -4,3 +4,6 @@
 
 [guestbook]
   api = 'https://api.markokaartinen.net.test/api/v1/guestbook'
+
+[calendar]
+  api = 'https://api.markokaartinen.net.test/api/v1/calendar'

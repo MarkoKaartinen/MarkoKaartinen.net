@@ -1907,6 +1907,236 @@ button:hover > .kbd-quiet {
   stroke-dashoffset: 100;
 }
 
+/* Joulukalenteri (demo) */
+.kal {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--ctp-surface0);
+  border-radius: 0.625rem;
+  background: var(--ctp-mantle);
+}
+.kal-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--ctp-crust);
+}
+.kal-dot {
+  display: inline-block;
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 50%;
+}
+.kal-body {
+  position: relative;
+  padding: 1rem;
+}
+.kal-nights {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  padding: 0.25rem 0.65rem;
+  border: 1px dashed var(--ctp-peach-text);
+  border-radius: 0.375rem;
+  color: var(--ctp-peach-text);
+}
+.kal-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+@media (min-width: 640px) {
+  .kal-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+.kal-door {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 5.25rem;
+  padding: 0.6rem;
+  border: 1px solid var(--ctp-surface1);
+  border-radius: 0.5rem;
+  background: var(--ctp-surface0);
+  color: var(--ctp-subtext1);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.kal-door:hover {
+  border-color: var(--ctp-mauve);
+}
+.kal-door:focus-visible,
+.kal-r:focus-visible,
+.kal-link:focus-visible,
+.kal-close:focus-visible,
+.kal-close-text:focus-visible,
+.kal-tool:focus-visible {
+  outline: 2px solid var(--ctp-mauve);
+  outline-offset: 2px;
+}
+.kal-n {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.kal-s {
+  font-size: 0.75rem;
+}
+/* Avattu aiempi päivä */
+.kal-door[data-state="open"] {
+  border-color: var(--ctp-green);
+  background: var(--ctp-green);
+  color: var(--ctp-crust);
+}
+/* Avattu tämän päivän luukku ja avattu jouluaaton luukku: karkkitankoreunus */
+.kal-door[data-state="today"],
+.kal-door[data-state="aatto"] {
+  padding: calc(0.6rem - 3px);
+  border: 4px solid transparent;
+  background:
+    linear-gradient(var(--ctp-base), var(--ctp-base)) padding-box,
+    repeating-linear-gradient(45deg, var(--ctp-red) 0 7px, var(--ctp-text) 7px 14px) border-box;
+  color: var(--ctp-red);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .kal-door[data-state="today"] {
+    animation: kal-glow 2.4s ease-in-out infinite;
+  }
+}
+@keyframes kal-glow {
+  50% {
+    box-shadow: 0 0 0 6px color-mix(in srgb, var(--ctp-red) 20%, transparent);
+  }
+}
+.kal-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--ctp-mauve);
+  border-radius: 0.375rem;
+  color: var(--ctp-mauve);
+}
+.kal-link:hover {
+  background: var(--ctp-mauve);
+  color: var(--ctp-crust);
+}
+.kal-react {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 1rem;
+}
+.kal-r {
+  padding: 0.2rem 0.65rem;
+  border: 1px solid var(--ctp-surface1);
+  border-radius: 999px;
+  background: var(--ctp-mantle);
+  font: inherit;
+  cursor: pointer;
+}
+.kal-r[aria-pressed="true"] {
+  border-color: var(--ctp-mauve);
+  background: var(--ctp-surface0);
+}
+.kal-comment {
+  margin-top: 0.6rem;
+  padding-left: 0.65rem;
+  border-left: 2px solid var(--ctp-surface1);
+}
+.kal-input {
+  width: 100%;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid var(--ctp-surface1);
+  border-radius: 0.375rem;
+  background: var(--ctp-mantle);
+  color: var(--ctp-text);
+  font: inherit;
+}
+.kal-input:focus {
+  border-color: var(--ctp-mauve);
+  outline: none;
+}
+.kal-submit {
+  padding: 0.3rem 0.8rem;
+  border: 1px solid var(--ctp-green);
+  border-radius: 0.375rem;
+  color: var(--ctp-green);
+  font: inherit;
+  cursor: pointer;
+}
+.kal-submit:hover {
+  background: var(--ctp-green);
+  color: var(--ctp-crust);
+}
+
+/* Kehoterivi ruudukon alla: aina kahden rivin korkuinen, ettei sisältö hypi */
+.kal-out {
+  margin-top: 1rem;
+  min-height: 2lh;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* Luukku avautuu toisena terminaali-ikkunana */
+.kal-dialog {
+  width: min(40rem, calc(100vw - 1.5rem));
+  max-height: calc(100dvh - 3rem);
+  margin: auto; /* Tailwindin preflight nollaa dialogin oletusmarginaalin, joka keskittää sen */
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--ctp-text);
+  overflow: visible;
+}
+.kal-dialog::backdrop {
+  background: color-mix(in srgb, var(--ctp-crust) 82%, transparent);
+}
+.kal-win {
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100dvh - 3rem);
+  overflow: hidden;
+  border: 1px solid var(--ctp-surface1);
+  border-radius: 0.625rem;
+  background: var(--ctp-base);
+}
+@media (min-width: 640px) {
+  .kal-dialog,
+  .kal-win {
+    max-height: min(46rem, calc(100dvh - 8rem));
+  }
+}
+/* Kuva ei vie koko ikkunaa: korkea kuva rajataan, jotta ikkunaa ei tarvitse vierittää */
+.kal-dialog-body .sisalto figure.kuva img {
+  width: auto;
+  max-height: 50dvh;
+  margin-inline: auto;
+  object-fit: contain;
+}
+/* Jouluaaton luukun ikkuna: karkkitankoreunus ja pehmeä hehku */
+.kal-dialog[data-aatto="true"] .kal-win {
+  border: 4px solid transparent;
+  background:
+    linear-gradient(var(--ctp-base), var(--ctp-base)) padding-box,
+    repeating-linear-gradient(45deg, var(--ctp-red) 0 7px, var(--ctp-text) 7px 14px) border-box;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .kal-dialog[open][data-aatto="true"] .kal-win {
+    animation: kal-pop 0.18s ease-out, kal-glow 2.4s ease-in-out 0.18s infinite;
+  }
+}
+.kal-win .kal-bar {
+  flex: none;
+}
+.kal-dialog-body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--ctp-surface2) transparent;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 1rem;
+}
 /* Kun modaali (luukku, lightbox, haku) on auki, site.js lisää html-elementille luokan modal-auki: taustasivu ei vieritä */
 html.modal-auki,
 html.modal-auki body {
@@ -1916,6 +2146,98 @@ html.modal-auki body {
 dialog[open] {
   overscroll-behavior: contain;
 }
+.kal-close {
+  display: inline-flex;
+  align-items: center;
+  margin: -0.4rem;
+  padding: 0.4rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.kal-close-text {
+  margin-left: auto;
+  padding: 0.35rem 0.5rem;
+  border-radius: 0.375rem;
+  color: var(--ctp-subtext1);
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+.kal-close-text:hover {
+  color: var(--ctp-red);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .kal-dialog[open] .kal-win {
+    animation: kal-pop 0.18s ease-out;
+  }
+}
+@keyframes kal-pop {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.98);
+  }
+}
+@media (pointer: coarse) {
+  .kal-close {
+    padding: 0.7rem;
+    margin: -0.7rem;
+  }
+  .kal-close-text {
+    padding: 0.7rem 0.6rem;
+    margin: -0.5rem -0.4rem -0.5rem auto;
+  }
+  .kal-door {
+    min-height: 4.75rem;
+  }
+}
+
+/* Joulukalenterin kuva ja upotus */
+.kal-embed {
+  aspect-ratio: 16 / 9;
+  margin-top: 1rem;
+  overflow: hidden;
+  border: 1px solid var(--ctp-surface1);
+  border-radius: 0.5rem;
+  background: var(--ctp-crust);
+}
+.kal-embed iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.kal-embed-go {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  color: var(--ctp-text);
+  font: inherit;
+  text-align: center;
+  cursor: pointer;
+}
+.kal-embed-go:hover .kal-embed-play {
+  background: var(--ctp-mauve);
+  color: var(--ctp-crust);
+}
+.kal-embed-go:focus-visible {
+  outline: 2px solid var(--ctp-mauve);
+  outline-offset: -4px;
+}
+.kal-embed-play {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid var(--ctp-mauve);
+  border-radius: 50%;
+  color: var(--ctp-mauve);
+}
+
 /* Lumisade koko sivulla */
 .joulu-snow {
   position: fixed;
@@ -1984,6 +2306,27 @@ dialog[open] {
 @keyframes joulu-twinkle {
   50% {
     opacity: 0.45;
+  }
+}
+
+/* Jouluasetusten kytkimet kalenterin yläpalkissa */
+.kal-tool {
+  padding: 0.35rem 0.5rem;
+  color: var(--ctp-subtext1);
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+.kal-tool:hover:not(:disabled) {
+  color: var(--ctp-mauve);
+}
+.kal-tool:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+@media (pointer: coarse) {
+  .kal-tool {
+    padding: 0.7rem 0.5rem;
+    margin: -0.5rem 0;
   }
 }
 
@@ -2087,6 +2430,23 @@ dialog[open] {
   100% {
     transform: none;
   }
+}
+
+/* Kalenterin yläosa: yötä jouluun vasemmalla ja edistyminen oikealla samalla rivillä */
+.kal-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.75rem;
+}
+.kal-meta .kal-nights {
+  margin-bottom: 0;
+}
+.kal-progress {
+  margin-left: auto;
+  color: var(--ctp-subtext1);
 }
 
 /* Lumi kasaantuu hitaasti ikkunan alareunaan (SVG-kinos, jonka korkeus kasvaa), ja sen voi kolata pois */

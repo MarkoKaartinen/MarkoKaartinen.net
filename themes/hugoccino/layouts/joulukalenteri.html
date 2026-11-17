@@ -1,0 +1,63 @@
+{{ define "main" }}
+{{- $cal := site.Params.calendar -}}
+<article data-joulu-always data-joulu-snow="on" data-joulu-lights="on">
+  <h1 class="font-mono font-bold text-[2.1rem] sm:text-4xl wrap-break-word leading-tight mb-4"><span class="text-overlay0 select-none"># </span>{{ .Title }}</h1>
+  <div class="sisalto mb-8 max-w-2xl">{{ .Content }}</div>
+
+  {{- /* Luukut, reaktiot ja tervehdykset haetaan selaimessa API:sta (osoite data-api-attribuutissa, ei kovakoodattuna) */ -}}
+  {{- if $cal.api }}
+  <div id="joulukalenteri" data-year="{{ $cal.year }}" data-api="{{ $cal.api }}" class="kal font-mono text-sm">
+    <div class="kal-bar">
+      <span class="kal-dot bg-red" aria-hidden="true"></span><span class="kal-dot bg-yellow" aria-hidden="true"></span><span class="kal-dot bg-green" aria-hidden="true"></span>
+      <span class="ml-2 text-xs text-overlay1" aria-hidden="true">~/joulukalenteri</span>
+      <span class="ml-auto flex">
+        <button type="button" role="switch" aria-checked="true" data-joulu-toggle="snow" class="kal-tool">lumi: <span data-joulu-state class="joulu-state"></span></button>
+        <button type="button" role="switch" aria-checked="true" data-joulu-toggle="lights" class="kal-tool">valot: <span data-joulu-state class="joulu-state"></span></button>
+      </span>
+    </div>
+    <div class="kal-body">
+      <p class="mb-3 whitespace-nowrap overflow-x-auto" aria-hidden="true"><span class="text-prompt">~/joulukalenteri</span> <span class="text-green">$</span> <span class="text-text">./joulukalenteri --vuosi {{ $cal.year }}</span></p>
+
+      <div class="kal-meta">
+        <p class="kal-nights" data-nights hidden></p>
+        <p class="kal-progress" data-progress hidden></p>
+      </div>
+
+      <p class="text-subtext0" data-loading>Ladataan luukkuja…</p>
+      <p class="text-red" data-error hidden>Kalenterin lataus ei onnistunut. <button type="button" class="text-mauve underline underline-offset-2 hover:text-text" data-retry>Yritä uudelleen</button></p>
+
+      <section data-pre hidden aria-label="Lasku kalenterin alkuun">
+        <p aria-hidden="true"><span class="text-prompt">~/joulukalenteri</span> <span class="text-green">$</span> <span class="text-text">./laskuri --kohde {{ $cal.year }}-12-01</span></p>
+        <p class="mt-2 text-xl font-bold text-mauve" data-pre-count></p>
+        <p class="mt-1 whitespace-nowrap" data-pre-bar></p>
+      </section>
+
+      <section data-main hidden>
+        <div class="kal-grid" role="group" aria-label="Luukut" data-grid></div>
+        <p class="kal-out" role="status" aria-live="polite" data-out></p>
+      </section>
+
+      <noscript><p class="text-red">Kalenteri tarvitsee JavaScriptin.</p></noscript>
+    </div>
+  </div>
+
+  <dialog class="kal-dialog font-mono text-sm" data-dialog aria-labelledby="kal-dialog-title">
+    <div class="kal-win">
+      <div class="kal-bar">
+        <button type="button" class="kal-close" data-close aria-label="Sulje luukku"><span class="kal-dot bg-red"></span></button>
+        <span class="kal-dot bg-yellow" aria-hidden="true"></span><span class="kal-dot bg-green" aria-hidden="true"></span>
+        <span id="kal-dialog-title" class="ml-2 text-xs text-overlay1" data-dialog-title>luukku</span>
+        <button type="button" class="kal-close-text" data-close>sulje <span class="text-overlay1" aria-hidden="true">esc</span></button>
+      </div>
+      <div class="kal-dialog-body" data-dialog-body></div>
+    </div>
+  </dialog>
+  {{- else }}
+  <p class="font-mono text-sm text-subtext0">Joulukalenteri ei ole tällä hetkellä käytössä.</p>
+  {{- end }}
+</article>
+{{- if $cal.api }}
+{{- $js := resources.Get "js/joulukalenteri.js" | resources.Minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{- end }}
+{{ end }}

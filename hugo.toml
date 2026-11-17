@@ -35,6 +35,11 @@ timeZone = 'Europe/Helsinki'
   [params.guestbook]
     api = 'https://api.markokaartinen.net/api/v1/guestbook'
 
+  # Joulukalenteri: luukut, reaktiot ja tervehdykset haetaan API:sta (year = kalenterin vuosi). Tyhjä api piilottaa kalenterin.
+  [params.calendar]
+    year = 2026
+    api = 'https://api.markokaartinen.net/api/v1/calendar'
+
   # Plausible: nginx proxyttaa polut <proxy>/script.js ja <proxy>/event (ks. README). Tyhjä = ei skriptiä. Vain tuotantokoonnissa.
   [params.plausible]
     proxy = '/plau'
@@ -196,6 +201,10 @@ timeZone = 'Europe/Helsinki'
   url = '/haku'
   weight = 50
 
+[[menus.more]]
+  name = 'joulukalenteri'
+  url = '/joulukalenteri'
+  weight = 5
 [[menus.more]]
   name = 'pelihaaste'
   url = '/pelihaaste'
