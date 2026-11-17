@@ -7,7 +7,7 @@ MarkoKaartinen.net blogin staattinen [Hugo](https://gohugo.io/)-versio.
 
 ## Vaatimukset
 
-- Hugo extended (kehitetty versiolla 0.169)
+- Hugo extended (kehitetty versiolla 0.170)
 - Node.js 22.15 tai uudempi (Tailwind-CLI tarvitsee sen). Aja `npm ci` ennen ensimmäistä koontia.
 - ImageMagick vain jakokuvien pohjien uudelleen luontiin (`scripts/og/luo-pohjat.sh`)
 
