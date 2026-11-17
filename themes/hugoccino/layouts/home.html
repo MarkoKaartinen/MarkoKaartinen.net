@@ -21,6 +21,34 @@
   </ul>
 </section>
 
+{{- /* Joulukalenteri: näkyy vain joulukaudella (marraskuun alusta loppiaiseen), ks. js/joulukalenteri-etusivu.js */ -}}
+{{- with site.Params.calendar }}{{ if .api }}
+<section class="mb-14" data-joulu-home data-year="{{ .year }}" data-api="{{ .api }}" hidden>
+  <h2 class="sr-only">Joulukalenteri</h2>
+  <div class="jk-card font-mono text-sm">
+    <div>
+      <h3 class="text-lg font-bold text-mauve">Joulukalenteri {{ .year }}</h3>
+      <p class="mt-2 text-subtext1">24 luukkua, yksi per päivä: kuvia, videoita, linkkejä, artikkeleita, reseptejä tai mitä mieleen juolahtaa.</p>
+      <p class="jk-text mt-3 text-text jk-loading" data-jk-text>Ladataan</p>
+      <div class="mt-2" data-jk-count hidden>
+        <p class="text-xl font-bold text-mauve" data-jk-time></p>
+        <p class="mt-1 whitespace-nowrap" data-jk-bar></p>
+      </div>
+      <a href="{{ "/joulukalenteri" | relURL }}" class="kal-link">Avaa kalenteri →</a>
+    </div>
+    <div class="jk-graph" data-jk-graph>
+      <p class="jk-month" aria-hidden="true">joulukuu</p>
+      <div class="jk-body">
+        <div class="jk-days" aria-hidden="true"><span>ma</span><span></span><span>ke</span><span></span><span>pe</span><span></span><span></span></div>
+        <div class="jk-cells" data-jk-cells></div>
+      </div>
+    </div>
+  </div>
+</section>
+{{- /* Näytetään osio heti ennen ensimmäistä piirtoa joulukaudella, ettei sisältö hypi. Skripti tarkistaa kauden tarkemmin. */ -}}
+<script>(function(){var d=new Date(),m=d.getMonth();if(m>9||(m===0&&d.getDate()<=6))document.currentScript.previousElementSibling.hidden=false})()</script>
+{{ end }}{{ end }}
+
 {{- $articles := where site.RegularPages "Type" "artikkeli" -}}
 <section class="mb-14">
   <h2 class="sr-only">Blogissa</h2>
@@ -57,4 +85,6 @@
   {{ partial "visitors.html" (dict "size" "lg") }}
   <p class="mt-2 font-mono text-xs text-meta">kävijää yhteensä</p>
 </section>
+{{- $jk := resources.Get "js/joulukalenteri-etusivu.js" | resources.Minify | fingerprint }}
+<script src="{{ $jk.RelPermalink }}" integrity="{{ $jk.Data.Integrity }}" defer></script>
 {{ end }}

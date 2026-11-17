@@ -2432,6 +2432,95 @@ dialog[open] {
   }
 }
 
+/* Etusivun joulukalenteri-kortti ja GitHub-tyylinen kaavio */
+.jk-card {
+  position: relative;
+  display: grid;
+  gap: 1.25rem;
+  padding: 1.4rem 1rem 1rem;
+  overflow: hidden;
+  border: 1px solid var(--ctp-surface1);
+  border-radius: 0.625rem;
+  background: var(--ctp-mantle);
+}
+.jk-card::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 4px;
+  background: repeating-linear-gradient(45deg, var(--ctp-red) 0 7px, var(--ctp-text) 7px 14px);
+}
+@media (min-width: 640px) {
+  .jk-card {
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding-inline: 1.25rem;
+  }
+}
+.jk-text {
+  min-height: 2lh;
+}
+.jk-loading {
+  color: var(--ctp-subtext0);
+}
+.jk-loading::after {
+  content: '▍';
+  margin-left: 0.15em;
+  animation: jk-blink 1s steps(2, start) infinite;
+}
+@keyframes jk-blink {
+  to { visibility: hidden; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .jk-loading::after { animation: none; }
+}
+.jk-graph {
+  --c: 1.05rem;
+  --g: 0.25rem;
+  width: fit-content;
+  color: var(--ctp-meta);
+  font-size: 0.6875rem;
+}
+.jk-month {
+  margin-left: 1.5rem;
+}
+.jk-body {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: 0.25rem;
+}
+.jk-days {
+  display: grid;
+  grid-template-rows: repeat(7, var(--c));
+  gap: var(--g);
+  line-height: var(--c);
+}
+.jk-cells {
+  display: grid;
+  grid-template-rows: repeat(7, var(--c));
+  grid-auto-columns: var(--c);
+  gap: var(--g);
+}
+.jk-cell {
+  display: block;
+  width: var(--c);
+  height: var(--c);
+  border: 1px solid var(--ctp-surface1);
+  border-radius: 3px;
+  background: var(--ctp-surface0);
+}
+.jk-cell[data-state="open"] {
+  border-color: var(--ctp-green);
+  background: var(--ctp-green);
+}
+.jk-cell[data-state="today"],
+.jk-cell[data-state="aatto"] {
+  border: 2px solid transparent;
+  background:
+    linear-gradient(var(--ctp-base), var(--ctp-base)) padding-box,
+    repeating-linear-gradient(45deg, var(--ctp-red) 0 4px, var(--ctp-text) 4px 8px) border-box;
+}
+
 /* Kalenterin yläosa: yötä jouluun vasemmalla ja edistyminen oikealla samalla rivillä */
 .kal-meta {
   display: flex;
