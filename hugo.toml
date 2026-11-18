@@ -35,6 +35,10 @@ timeZone = 'Europe/Helsinki'
   [params.guestbook]
     api = 'https://api.markokaartinen.net/api/v1/guestbook'
 
+  # Boostit: artikkelien anonyymit emoji-reaktiot. Lista (GET ?path=), lähetys (POST), poisto (DELETE /{id}) ja lomaketunnus (GET <api>/form-token). Tyhjä api piilottaa osion.
+  [params.boosts]
+    api = 'https://api.markokaartinen.net/api/v1/boosts'
+
   # Joulukalenteri: luukut, reaktiot ja tervehdykset haetaan API:sta (year = kalenterin vuosi). Tyhjä api piilottaa kalenterin.
   [params.calendar]
     year = 2026
@@ -253,6 +257,13 @@ timeZone = 'Europe/Helsinki'
   [[module.mounts]]
     source = 'assets'
     target = 'assets'
+  # Emojivalitsimen suomenkielinen emojidata (reaktiot): palvellaan osoitteesta /emoji-data/data.json suoraan npm-paketista
+  [[module.mounts]]
+    source = 'node_modules/emoji-picker-element-data/fi/cldr-native'
+    target = 'static/emoji-data'
+  [[module.mounts]]
+    source = 'static'
+    target = 'static'
   [[module.mounts]]
     disableWatch = true
     source = 'hugo_stats.json'

@@ -8,7 +8,7 @@ MarkoKaartinen.net blogin staattinen [Hugo](https://gohugo.io/)-versio.
 ## Vaatimukset
 
 - Hugo extended (kehitetty versiolla 0.170.1)
-- Node.js 22.15 tai uudempi (Tailwind-CLI tarvitsee sen). Aja `npm ci` ennen ensimmäistä koontia.
+- Node.js 22.15 tai uudempi (Tailwind-CLI, Pagefind ja reaktioiden emojivalitsin tarvitsevat sen). Aja `npm ci` ennen ensimmäistä koontia: Hugo lukee emojivalitsimen koodin ja suomenkielisen emojidatan `node_modules`-kansiosta.
 - ImageMagick vain jakokuvien pohjien uudelleen luontiin (`scripts/og/luo-pohjat.sh`)
 
 ## Komennot
@@ -121,6 +121,12 @@ $DEPLOY_PATH/
 - Huoltosivu (`huolto.html` repon juuressa) päivitetään `public/`-kansioon joka viennillä. Se on itsenäinen eikä kuulu sivustoon.
 
 Lisätietoja periaatteista, rakenteesta ja käytännöistä on tiedostossa [AGENTS.md](AGENTS.md).
+
+## Reaktiot
+
+Jokaisen artikkelin lopussa on anonyymi reaktio-osio (emoji ja valinnainen lyhyt viesti). Lista haetaan ja reaktio lähetetään selaimessa API:n kautta (`js/boostit.js`), joten sivut pysyvät staattisina. Osoite on `params.boosts.api` (`hugo.toml`, kehityksessä `config/development/params.toml`), ja tyhjä osoite piilottaa osion. API on erillisessä [api.markokaartinen.net](https://github.com/MarkoKaartinen/api.markokaartinen.net)-projektissa.
+
+Pikarivillä on kahdeksan emojia. `+`-painike lataa vasta tarvittaessa emojivalitsimen (`emoji-picker-element`, `js/boostit-picker.js`), jonka suomenkielinen emojidata palvellaan osoitteesta `/emoji-data/data.json` suoraan `node_modules`-kansiosta (`[[module.mounts]]` `hugo.toml`issa). Ulkoisia palveluita ei käytetä.
 
 ## Analytiikka (Plausible)
 

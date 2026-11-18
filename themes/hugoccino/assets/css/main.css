@@ -2644,3 +2644,168 @@ dialog[open] {
     transform: translateY(-0.6px);
   }
 }
+
+/* Boostit: emoji-painikkeet, ryhmäpillerit ja piilotettu honeypot-kenttä */
+.boost-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 0;
+  min-height: 2.75rem;
+  border: 1px solid var(--ctp-surface1);
+  border-radius: 0.25rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  /* Emojifontti ensin: rivin korkeus ja baseline tulevat emojin omista mitoista, jolloin emoji on pystysuunnassa keskellä */
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', 'Twemoji Mozilla', sans-serif;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+/* +-painike on teksti, ei emoji: käytetään sivuston fonttia, kunnes tilalle valitaan oma emoji */
+.boost-btn[data-more][aria-pressed='false'] {
+  font-family: inherit;
+}
+@media (min-width: 640px) {
+  .boost-btn {
+    width: auto;
+    min-width: 2.75rem;
+  }
+}
+.boost-btn:hover,
+.boost-btn:focus-visible {
+  border-color: var(--ctp-mauve);
+  background: var(--ctp-surface0);
+}
+.boost-btn[aria-pressed='true'] {
+  border-color: var(--ctp-mauve);
+  background: var(--ctp-surface0);
+}
+.boost-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid var(--ctp-surface1);
+  border-radius: 999px;
+  padding: 0.3rem 0.75rem;
+}
+.boost-pill-mine {
+  border-color: var(--ctp-mauve);
+}
+.boost-honey {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+/* Reaktioiden emojivalitsin (emoji-picker-element): värit Catppuccinin muuttujista, joten teema vaihtuu itsestään */
+.boost-picker emoji-picker {
+  --background: var(--ctp-mantle);
+  --border-color: var(--ctp-surface1);
+  --border-radius: 0.25rem;
+  --button-active-background: var(--ctp-surface1);
+  --button-hover-background: var(--ctp-surface0);
+  --category-font-color: var(--ctp-subtext0);
+  --indicator-color: var(--ctp-mauve);
+  --input-border-color: var(--ctp-surface1);
+  --input-border-radius: 0.25rem;
+  --input-padding: 0.4rem 0.75rem;
+  --input-font-color: var(--ctp-text);
+  --outline-color: var(--ctp-mauve);
+  --num-columns: 8;
+  --emoji-size: 1.5rem;
+  width: 100%;
+  height: 17rem;
+}
+
+/* Reaktioikkuna: natiivi dialog. Työpöydällä keskellä, mobiilissa alapaneelina */
+.boost-dialog {
+  margin: auto;
+  padding: 0;
+  width: min(30rem, calc(100vw - 2rem));
+  max-height: calc(100dvh - 2rem);
+  overflow: auto;
+  border: 1px solid var(--ctp-surface1);
+  border-radius: 0.5rem;
+  background: var(--ctp-base);
+  color: var(--ctp-text);
+  box-shadow: 0 1.5rem 3rem rgb(0 0 0 / 0.35);
+}
+.boost-dialog[open] {
+  animation: boost-in 0.15s ease-out;
+}
+.boost-dialog::backdrop {
+  background: color-mix(in srgb, var(--ctp-crust) 70%, transparent);
+  backdrop-filter: blur(2px);
+}
+body:has(.boost-dialog[open]) {
+  overflow: hidden;
+}
+@media (max-width: 639px) {
+  .boost-dialog {
+    margin: auto 0 0;
+    width: 100%;
+    max-width: 100%;
+    border-width: 1px 0 0;
+    border-radius: 0.75rem 0.75rem 0 0;
+  }
+  .boost-dialog[open] {
+    animation: boost-sheet 0.2s ease-out;
+  }
+}
+@keyframes boost-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.5rem);
+  }
+}
+@keyframes boost-sheet {
+  from {
+    transform: translateY(100%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .boost-dialog[open] {
+    animation: none;
+  }
+}
+.boost-close {
+  display: inline-flex;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  color: var(--ctp-subtext0);
+  background: transparent;
+  cursor: pointer;
+}
+.boost-close:hover,
+.boost-close:focus-visible {
+  color: var(--ctp-mauve);
+  background: var(--ctp-surface0);
+}
+.boost-chosen {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid var(--ctp-surface1);
+  border-radius: 0.25rem;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', 'Twemoji Mozilla', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1;
+  background: var(--ctp-mantle);
+  cursor: pointer;
+}
+.boost-chosen:hover,
+.boost-chosen:focus-visible,
+.boost-chosen[aria-expanded='true'] {
+  border-color: var(--ctp-mauve);
+}
+.boost-chosen-empty {
+  font-family: inherit;
+  color: var(--ctp-subtext0);
+}

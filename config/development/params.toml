@@ -7,3 +7,6 @@
 
 [calendar]
   api = 'https://api.markokaartinen.net.test/api/v1/calendar'
+
+[boosts]
+  api = 'https://api.markokaartinen.net.test/api/v1/boosts'
