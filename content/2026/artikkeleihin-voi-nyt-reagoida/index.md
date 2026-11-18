@@ -4,7 +4,7 @@ date: 2026-11-18T09:39:00
 description: "Artikkeleihin voi nyt reagoida anonyymisti emojilla ja halutessaan lyhyellä viestillä. Idea tuli Discoursen Boosteista, ja reaktiot toimivat ilman evästeitä."
 categories: ["Kulisseissa"]
 tags: ["blogi", "reaktiot", "emoji", "ominaisuus"]
-# mastodon_post_id: ""
+mastodon_post_id: "117636342136347106"
 ---
 
 Taas uutta hauskaa ominaisuutta sisään! Nyt voit reagoida anonyymisti artikkeleihin!
