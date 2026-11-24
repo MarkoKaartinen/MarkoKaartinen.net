@@ -10,7 +10,7 @@ aliases: ["/joulukalenterin-luukku-12/"]
 
 Vinkkasin teille aiemmassa [luukussa numero viisi](/2015/joulukalenterin-luukku-5) jo reseptin sinapin tekoon. Nyt toistetaan reseptin jakaminen ja tällä kertaa saattekin tehtäväksi Rocky roads -namuja.
 
-Tämänkin reseptin takana on Outi ja alkuperäinen resepti löytyy tietysti hänen [blogistaan](http://lusikkasopassa.net/2011/12/24/rocky-roads-namuset/).
+Tämänkin reseptin takana on Outi ja alkuperäinen resepti löytyi tietysti hänen vanhasta blogistaan.
 
 ![Rocky roads](scaled-img-1055.jpg)
 

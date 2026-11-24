@@ -10,7 +10,7 @@ aliases: ["/joulukalenterin-luukku-5/"]
 
 Tällä kertaa jaetaankin jotain aivan muuta. Tätä ei täällä blogissa ole ennen nähty ja tullaanko enää koskaan näkemäänkään. Jaan nimittäin teille reseptin!
 
-Tämän reseptin takana on tietenkin parempi puolisko [Outi](http://lusikkasopassa.net/). Suurin osa haluaa kinkkunsa päälle sinappia ja jaankin tässä teille ohjeen omenaisen viskisinapin tekoon. Alkuperäinen ohje on vuodelta 2011 ja löytyypi [täältä](http://lusikkasopassa.net/2011/12/25/omenainen-viskisinappi/).
+Tämän reseptin takana on tietenkin parempi puolisko Outi. Suurin osa haluaa kinkkunsa päälle sinappia ja jaankin tässä teille ohjeen omenaisen viskisinapin tekoon. Alkuperäinen ohje on vuodelta 2011.
 
 ![Sinappi](scaled-img-1056.jpg)
 
