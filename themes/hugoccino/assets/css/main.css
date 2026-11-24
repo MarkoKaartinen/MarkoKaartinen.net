@@ -59,6 +59,8 @@
   --ctp-base: #eff1f5;
   --ctp-mantle: #e6e9ef;
   --ctp-crust: #dce0e8;
+  --kal-white: #eff1f5; /* Lattren base, kalenterin ASCII-taiteen valkoinen vaaleassa teemassa */
+  --flag-blue: #002f6c; /* kalenterin ASCII-taiteen oma sininen */
   color-scheme: light;
 }
 
@@ -112,6 +114,7 @@
     --ctp-base: #1e1e2e;
     --ctp-mantle: #181825;
     --ctp-crust: #11111b;
+    --kal-white: #cdd6f4; /* Mochan text, kalenterin ASCII-taiteen valkoinen tummassa teemassa */
     color-scheme: dark;
   }
 }
@@ -165,6 +168,7 @@
   --ctp-base: #1e1e2e;
   --ctp-mantle: #181825;
   --ctp-crust: #11111b;
+  --kal-white: #cdd6f4; /* Mochan text, kalenterin ASCII-taiteen valkoinen tummassa teemassa */
   color-scheme: dark;
 }
 
@@ -2188,6 +2192,103 @@ dialog[open] {
   .kal-door {
     min-height: 4.75rem;
   }
+}
+
+/* Joulukalenterin luukun teksti (markdown) */
+.kal-teksti > * + * {
+  margin-top: 0.5rem;
+}
+.kal-teksti h3,
+.kal-teksti h4,
+.kal-teksti h5,
+.kal-teksti h6 {
+  margin-top: 1rem;
+  font-weight: 700;
+  color: var(--ctp-mauve);
+}
+.kal-teksti ul,
+.kal-teksti ol {
+  padding-left: 1.5rem;
+}
+.kal-teksti ul {
+  list-style: disc;
+}
+.kal-teksti ol {
+  list-style: decimal;
+}
+.kal-teksti blockquote {
+  border-left: 2px solid var(--ctp-surface2);
+  padding-left: 0.75rem;
+  color: var(--ctp-subtext0);
+}
+.kal-teksti a {
+  color: var(--ctp-blue-text);
+  text-decoration: underline;
+}
+.kal-teksti code {
+  font-family: var(--font-mono);
+  background: var(--ctp-surface0);
+  border-radius: 0.25rem;
+  padding: 0.05rem 0.3rem;
+}
+.kal-teksti pre {
+  overflow-x: auto;
+  white-space: pre;
+  line-height: 1.1;
+  background: var(--ctp-crust);
+  border: 1px solid var(--ctp-surface1);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+}
+.kal-teksti pre code {
+  background: none;
+  padding: 0;
+}
+.kal-pre {
+  position: relative;
+}
+.kal-kopioi {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--ctp-subtext0);
+  background: var(--ctp-surface0);
+  border: 1px solid var(--ctp-surface1);
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.kal-kopioi:hover,
+.kal-kopioi:focus-visible {
+  color: var(--ctp-text);
+  border-color: var(--ctp-mauve);
+}
+/* ASCII-taiteen värit: Catppuccinin värit sekä kalenterin oma sininen */
+.kal-teksti .c-red {
+  color: var(--ctp-red);
+}
+.kal-teksti .c-green {
+  color: var(--ctp-green);
+}
+.kal-teksti .c-yellow {
+  color: var(--ctp-yellow);
+}
+.kal-teksti .c-peach {
+  color: var(--ctp-peach);
+}
+.kal-teksti .c-blue {
+  color: var(--ctp-blue);
+}
+.kal-teksti .c-text {
+  color: var(--ctp-text);
+}
+.kal-teksti .c-white {
+  color: var(--kal-white);
+}
+.kal-teksti .c-flag-blue {
+  color: var(--flag-blue);
 }
 
 /* Joulukalenterin kuva ja upotus */

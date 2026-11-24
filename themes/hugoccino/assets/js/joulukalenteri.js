@@ -1,7 +1,8 @@
 // Joulukalenteri: luukut, reaktiot ja joulutervehdykset haetaan API:sta (osoite data-api-attribuutissa).
 // Palvelin päättää, mikä luukku on auki, eikä lukitun luukun sisältö ole sivulla ennen aikaansa.
 // Selaimeen tallennetaan vain avatut luukut, nimimerkki ja satunnainen vierailijatunnus (reaktioita varten).
-// Käyttäjän ja API:n tekstit asetetaan aina textContentilla.
+// Käyttäjän tekstit asetetaan aina textContentilla. Luukun teksti (body_html) on API:n siivoamaa markdownia,
+// ja se siivotaan selaimessa vielä sallittujen tagien listalla (renderMarkdown).
 (function () {
   'use strict';
   var root = document.getElementById('joulukalenteri');
@@ -300,6 +301,90 @@
     });
   }
 
+  // Luukun teksti tulee API:sta valmiiksi renderöitynä ja siivottuna HTML:nä (body_html).
+  // Siivotaan se vielä täällä: vain sallitut tagit, ei attribuutteja paitsi linkkien href/rel/target ja koodin language-luokka.
+  var MD_TAGS = { P: 1, BR: 1, STRONG: 1, EM: 1, CODE: 1, PRE: 1, A: 1, UL: 1, OL: 1, LI: 1, BLOCKQUOTE: 1, H3: 1, H4: 1, H5: 1, H6: 1, HR: 1, DEL: 1 };
+  var MD_COLORS = /^c-(red|green|yellow|peach|blue|flag-blue|white|text)$/;
+  function cleanNode(node, out) {
+    Array.prototype.forEach.call(node.childNodes, function (n) {
+      if (n.nodeType === 3) { out.appendChild(document.createTextNode(n.nodeValue)); return; }
+      if (n.nodeType !== 1) return;
+      if (n.tagName === 'SPAN') {
+        // Värit ovat sallittuja vain koodilohkon sisällä (ASCII-taide) ja vain valkolistan luokilla
+        var sc = n.getAttribute('class') || '';
+        if (MD_COLORS.test(sc) && n.closest('pre')) {
+          var sp = document.createElement('span');
+          sp.className = sc;
+          cleanNode(n, sp);
+          out.appendChild(sp);
+        } else {
+          cleanNode(n, out);
+        }
+        return;
+      }
+      if (!MD_TAGS[n.tagName]) { cleanNode(n, out); return; } // tuntematon tagi: säilytetään vain sen teksti
+      var c = document.createElement(n.tagName.toLowerCase());
+      if (n.tagName === 'A') {
+        var href = n.getAttribute('href') || '';
+        if (/^https?:\/\//i.test(href)) {
+          c.href = href;
+          c.rel = 'noopener noreferrer';
+          c.target = '_blank';
+        } else if (/^\/(?!\/)/.test(href)) {
+          c.href = href;
+        }
+      } else if (n.tagName === 'CODE') {
+        var m = /(?:^|\s)(language-[a-z0-9_+-]+)/i.exec(n.getAttribute('class') || '');
+        if (m) c.className = m[1];
+      }
+      cleanNode(n, c);
+      out.appendChild(c);
+    });
+    return out;
+  }
+  // Kopioitavaan tekstiin ei tule värejä, joten valkoisen (c-white) täyteblokit vaihdetaan ░-merkkiin.
+  // Silloin täytetyn ja valkoisen alueen ero säilyy pelkkinä merkkeinä (█ ja ░).
+  function plainText(node) {
+    var s = '';
+    Array.prototype.forEach.call(node.childNodes, function (n) {
+      if (n.nodeType === 3) s += n.nodeValue;
+      else if (n.nodeType === 1) {
+        var t = plainText(n);
+        s += n.classList.contains('c-white') ? t.replace(/█/g, '░') : t;
+      }
+    });
+    return s;
+  }
+  function renderMarkdown(html) {
+    var tpl = document.createElement('template');
+    tpl.innerHTML = html;
+    var box = el('div', 'kal-teksti mt-2 text-text wrap-break-word');
+    cleanNode(tpl.content, box);
+    // Koodilohkoille (ASCII-taide) kopiointipainike: kopioi pelkät merkit ilman värejä
+    Array.prototype.forEach.call(box.querySelectorAll('pre'), function (pre) {
+      var wrap = el('div', 'kal-pre');
+      var btn = el('button', 'kal-kopioi', 'kopioi');
+      btn.type = 'button';
+      btn.setAttribute('aria-label', 'Kopioi koodilohkon teksti leikepöydälle');
+      btn.addEventListener('click', function () {
+        var text = plainText(pre).replace(/\n$/, '');
+        var done = function (ok) {
+          btn.textContent = ok ? 'kopioitu' : 'ei onnistunut';
+          setTimeout(function () { btn.textContent = 'kopioi'; }, 1800);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(function () { done(true); }, function () { done(false); });
+        } else {
+          done(false);
+        }
+      });
+      pre.parentNode.insertBefore(wrap, pre);
+      wrap.appendChild(pre);
+      wrap.appendChild(btn);
+    });
+    return box;
+  }
+
   function renderDoor(data) {
     var day = data.day;
     dialogBody.textContent = '';
@@ -311,7 +396,10 @@
     dialogBody.appendChild(head);
 
     dialogBody.appendChild(el('h2', 'text-lg font-bold text-red wrap-break-word', 'Luukku ' + day + ': ' + data.title));
-    if (data.body) {
+    if (data.body_html) {
+      dialogBody.appendChild(renderMarkdown(data.body_html));
+    } else if (data.body) {
+      // Varalla: vanha vastaus ilman body_html-kenttää näytetään pelkkänä tekstinä
       data.body.split(/\n{2,}/).forEach(function (para) {
         if (para.trim()) dialogBody.appendChild(el('p', 'mt-2 text-text whitespace-pre-line wrap-break-word', para.trim()));
       });
