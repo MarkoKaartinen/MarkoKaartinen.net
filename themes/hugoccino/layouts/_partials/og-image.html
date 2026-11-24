@@ -1,52 +1,70 @@
 {{- /*
   Sosiaalisen median kuva (1200x630). Palauttaa kuvaresurssin.
-  Artikkeli ja resepti: generoitu otsikkokortti (otsikko, kuvaus ja päivämäärä). Artikkelin kuvia ei käytetä automaattisesti;
-  vain jos front matterissa on og_image (bundlen kuvan nimi), käytetään sitä.
-  Muut sivut: oletuskortti.
+  Etusivu: oletuskuva (og/default.png), joka on myös varakuva, jos sivulla ei ole otsikkoa.
+  Kaikki muut sivut (artikkelit, reseptit, kategoriat, avainsanat, sarjat, sivut): generoitu otsikkokortti, jossa on otsikko ja kuvaus.
+  Artikkelissa ja reseptissä kortissa on lisäksi päivämäärä ja kategoria, termisivulla termin laji.
+  Jos front matterissa on og_image (bundlen kuvan nimi), käytetään sitä kortin sijaan.
+  Joulukalenterin sivu (layout joulukalenteri tai og_pohja: joulu) käyttää jouluista pohjaa (og/joulu-bg.png).
 */ -}}
 {{- $page := . -}}
 {{- $out := resources.Get "og/default.png" -}}
-{{- if and $page.IsPage (in (slice "artikkeli" "resepti") $page.Type) -}}
-  {{- $pick := "" -}}
-  {{- with $page.Params.og_image }}{{ $pick = $page.Resources.Get . }}{{ end -}}
-  {{- if $pick -}}
-    {{- $out = $pick.Fill "1200x630 Center jpg q85" -}}
-  {{- else -}}
-    {{- $bg := resources.Get "og/bg.png" -}}
-    {{- $font := resources.Get "og/JetBrainsMono-Bold.ttf" -}}
-    {{- /* Emojit ja muut merkit, joita fontissa ei ole, poistetaan */ -}}
-    {{- $title := $page.Title | replaceRE `[\x{1F000}-\x{1FFFF}\x{2600}-\x{27BF}\x{FE0F}\x{200D}]` "" | strings.TrimSpace -}}
-    {{- $size := 72 -}}
-    {{- $lines := partial "og-wrap.html" (dict "text" $title "max" 22 "lines" 3) -}}
-    {{- if gt (len (split $title " ")) 0 }}
-      {{- $wide := partial "og-wrap.html" (dict "text" $title "max" 22 "lines" 99) -}}
-      {{- if gt (len $wide) 3 }}
-        {{- $size = 54 -}}
-        {{- $lines = partial "og-wrap.html" (dict "text" $title "max" 29 "lines" 5) -}}
-      {{- end }}
+{{- $joulu := or (eq $page.Layout "joulukalenteri") (eq $page.Params.og_pohja "joulu") -}}
+{{- $isEntry := and $page.IsPage (in (slice "artikkeli" "resepti") $page.Type) -}}
+{{- $pick := "" -}}
+{{- with $page.Params.og_image }}{{ $pick = $page.Resources.Get . }}{{ end -}}
+{{- if $pick -}}
+  {{- $out = $pick.Fill "1200x630 Center jpg q85" -}}
+{{- else if and (not $page.IsHome) $page.Title -}}
+  {{- $bg := resources.Get (cond $joulu "og/joulu-bg.png" "og/bg.png") -}}
+  {{- $font := resources.Get "og/JetBrainsMono-Bold.ttf" -}}
+  {{- /* Emojit ja muut merkit, joita fontissa ei ole, poistetaan */ -}}
+  {{- $title := $page.Title | replaceRE `[\x{1F000}-\x{1FFFF}\x{2600}-\x{27BF}\x{FE0F}\x{200D}]` "" | strings.TrimSpace -}}
+  {{- $size := 72 -}}
+  {{- $lines := partial "og-wrap.html" (dict "text" $title "max" 22 "lines" 3) -}}
+  {{- $wide := partial "og-wrap.html" (dict "text" $title "max" 22 "lines" 99) -}}
+  {{- if gt (len $wide) 3 }}
+    {{- $size = 54 -}}
+    {{- $lines = partial "og-wrap.html" (dict "text" $title "max" 29 "lines" 5) -}}
+  {{- end -}}
+  {{- $lh := int (mul $size 1.3) -}}
+  {{- $top := cond $joulu 180 150 -}}
+  {{- $filters := slice -}}
+  {{- range $i, $l := $lines -}}
+    {{- $filters = $filters | append (images.Text $l (dict "color" "#cdd6f4" "size" $size "x" 72 "y" (add $top (mul $i $lh)) "font" $font)) -}}
+  {{- end -}}
+  {{- /* Kuvaus: sivun oma, ja termisivulla (esim. avainsana) artikkelien määrä, jos omaa kuvausta ei ole */ -}}
+  {{- $desc := $page.Description | default "" -}}
+  {{- if and (not $desc) $page.Data.Term -}}
+    {{- $desc = printf "%d artikkelia" (len $page.Pages) -}}
+    {{- if hasPrefix $page.Data.Plural "recipe_" }}{{ $desc = printf "%d reseptiä" (len $page.Pages) }}{{ end -}}
+  {{- end -}}
+  {{- $desc = $desc | replaceRE `[\x{1F000}-\x{1FFFF}\x{2600}-\x{27BF}\x{FE0F}\x{200D}]` "" | strings.TrimSpace -}}
+  {{- /* Kuvaus otsikon alle, jos tilaa on (enintään kolme riviä) */ -}}
+  {{- $descTop := add $top (mul (len $lines) $lh) 28 -}}
+  {{- /* Jouluisessa pohjassa lumivalli peittää alareunan, joten alarivi ja kuvaus nostetaan ylemmäs */ -}}
+  {{- $metaY := cond $joulu 520 565 -}}
+  {{- $room := div (sub (sub $metaY 35) $descTop) 40 -}}
+  {{- $dn := cond (gt $room 3) 3 $room -}}
+  {{- if and $desc (ge $dn 1) (ne $desc $title) -}}
+    {{- $dlines := partial "og-wrap.html" (dict "text" $desc "max" 56 "lines" $dn) -}}
+    {{- range $i, $l := $dlines -}}
+      {{- $filters = $filters | append (images.Text $l (dict "color" "#a6adc8" "size" 30 "x" 72 "y" (add $descTop (mul $i 40)) "font" $font)) -}}
     {{- end -}}
-    {{- $lh := int (mul $size 1.3) -}}
-    {{- $top := 150 -}}
-    {{- $filters := slice -}}
-    {{- range $i, $l := $lines -}}
-      {{- $filters = $filters | append (images.Text $l (dict "color" "#cdd6f4" "size" $size "x" 72 "y" (add $top (mul $i $lh)) "font" $font)) -}}
-    {{- end -}}
-    {{- /* Kuvaus otsikon alle, jos tilaa on (enintään kolme riviä) */ -}}
-    {{- $desc := ($page.Description | default "") | replaceRE `[\x{1F000}-\x{1FFFF}\x{2600}-\x{27BF}\x{FE0F}\x{200D}]` "" | strings.TrimSpace -}}
-    {{- $descTop := add $top (mul (len $lines) $lh) 28 -}}
-    {{- $room := div (sub 530 $descTop) 40 -}}
-    {{- $dn := cond (gt $room 3) 3 $room -}}
-    {{- if and $desc (ge $dn 1) (ne $desc $title) -}}
-      {{- $dlines := partial "og-wrap.html" (dict "text" $desc "max" 56 "lines" $dn) -}}
-      {{- range $i, $l := $dlines -}}
-        {{- $filters = $filters | append (images.Text $l (dict "color" "#a6adc8" "size" 30 "x" 72 "y" (add $descTop (mul $i 40)) "font" $font)) -}}
-      {{- end -}}
-    {{- end -}}
-    {{- $meta := $page.Date.Format "2006-01-02" -}}
+  {{- end -}}
+  {{- /* Alarivi: artikkelilla päivämäärä ja kategoria, termisivulla termin laji, kalenterilla ajanjakso */ -}}
+  {{- $meta := "" -}}
+  {{- if $isEntry -}}
+    {{- $meta = $page.Date.Format "2006-01-02" -}}
     {{- with index ($page.Params.categories | default slice) 0 }}{{ $meta = printf "%s  ·  %s" $meta . }}{{ end -}}
     {{- if eq $page.Type "resepti" }}{{ $meta = printf "%s  ·  resepti" $meta }}{{ end -}}
-    {{- $filters = $filters | append (images.Text $meta (dict "color" "#7f849c" "size" 30 "x" 72 "y" 565 "font" $font)) -}}
-    {{- $out = ($bg.Filter $filters).Process "jpg q90" -}}
+  {{- else if $joulu -}}
+    {{- $meta = "1.–24.12.  ·  Joulu" -}}
+  {{- else if $page.Data.Term -}}
+    {{- $meta = index (dict "categories" "kategoria" "tags" "avainsana" "series" "sarja" "recipe_categories" "reseptiluokka" "recipe_tags" "reseptin avainsana") $page.Data.Plural -}}
   {{- end -}}
+  {{- if $meta }}
+    {{- $filters = $filters | append (images.Text $meta (dict "color" "#7f849c" "size" 30 "x" 72 "y" $metaY "font" $font)) -}}
+  {{- end -}}
+  {{- $out = ($bg.Filter $filters).Process "jpg q90" -}}
 {{- end -}}
 {{- return $out -}}
