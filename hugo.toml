@@ -218,6 +218,10 @@ timeZone = 'Europe/Helsinki'
   url = '/nyt'
   weight = 20
 [[menus.more]]
+  name = 'käytän'
+  url = '/kaytan'
+  weight = 25
+[[menus.more]]
   name = 'tietoa'
   url = '/tietoa'
   weight = 30
