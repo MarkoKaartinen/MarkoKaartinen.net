@@ -1,7 +1,7 @@
 ---
 title: "Mitä nyt tapahtuu"
 description: "Tämä on Nyt -sivu, jossa kerron mitä elämässä tapahtuu tällä hetkellä."
-lastmod: 2026-11-09T06:00:00
+lastmod: 2026-11-25T06:00:00
 show_updated: true
 komennot: true
 ---
@@ -28,7 +28,7 @@ Saunan lauteet saatiin juuri uusittua, mutta sauna odottaa vielä valoja. Samoin
 
 ## ls ~/pelit 🎮 {#pelit}
 
-Nyt on taas vähän vähemmän tullut pelailtua, mutta nokan edessä on ollut [Cyberpunk 2077](https://store.steampowered.com/app/1091500/Cyberpunk_2077/) ja [Tape to Tape](https://store.steampowered.com/app/1566200/Tape_to_Tape/). Toki kovasti odotellaan [GTA VI:tä](https://www.rockstargames.com/VI).
+Nyt pyörii [GTA VI](https://www.rockstargames.com/VI) ja siinä sivussa [Ghost of Yōtei](https://www.playstation.com/games/ghost-of-yotei/). Lisäksi [Anno 1800](https://store.steampowered.com/app/916440/Anno_1800/) on aloiteltu, mutta siinä ollaan vasta alussa.
 
 ## ls ~/sarjat 🎬 {#sarjat}
 
@@ -40,6 +40,13 @@ Ruoan suhteen ei olla erikoisempaa puuhattu, vaan arkiruokaa ja pizzahommia sä�
 
 - [ ] kylmäsavulohi
 - [ ] kinkku kamadossa
+
+## ls ~/markokaartinen.net ❄️ {#sivusto}
+
+Talvi on tullut sivustolle ja mukana tuli [Joulukalenteri](/joulukalenteri). Luukkuja tehdään koko ajan lisää. Ensimmäiset 10 luukkua on jo tehtynä, joten loput pitäisi vielä saada valmiiksi.
+
+- [x] luukut 1-10
+- [ ] loput luukut
 
 ## ls ~/projektit 👨🏻‍💻 {#projektit}
 
